@@ -1,5 +1,5 @@
 # IGEM2017-SYSU.Software
 
-Dependence
-	Mysql 5.7.19
-	python 3.5
+# Dependence
+    1.Mysql 5.7.19
+    2.python 3.5
