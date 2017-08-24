@@ -18,6 +18,7 @@
 }
 #search-box-container {
   margin-top: 5em;
+  margin-bottom: 2em;
 }
 .ui.secondary.pointing.menu {
   margin-bottom: 0;
@@ -37,7 +38,7 @@ body {
   <body>
     <div class="ui inverted fixed menu">
       <div class="ui container">
-        <a class="item">SYSU-Software</a>
+        <a class="item" href="index.html">SYSU-Software</a>
         <div class="right menu">
           <a class="item">
             Design
@@ -96,19 +97,23 @@ body {
                 </div>
               </div>
             </div>
-            <div class="ui vertical segment">
-              <!--div.ui.items>div.item*5>(div.image>img[src=./static/img/logo.png])+(div.content>a.ui.header{Year-Project name | school}+i.right.floated.star.icon+(div.description>p{Description})+(div.middle.aligned.extra>a.right.floated[href=#]{Rewards}+p{Collections: 80}))-->
+            <div class="ui vertical segment" id="result-list">
               <div class="ui items">
                 <div class="item">
                   <div class="image"><img src="./static/img/logo.png" alt=""></div>
                   <div class="content">
                     <a class="ui header" href="">Year-Project name | school</a>
-                    <i class="right floated star icon"></i>
+                    <div class="right floated">
+                      IEF Value: 00000000
+                      <i class="empty star icon" v-on:click="fav"></i>
+                      <i class="diamond icon"></i>
+                    </div>
+                    <div class="meta">Chasis | E.coli</div>
                     <div class="description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tincidunt purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Cras semper risus eu sem condimentum varius. Cras libero lorem, auctor varius orci.</p>
+                      <p>Description</p>
                     </div>
                     <div class="middle aligned extra">
-                      <a class="right floated">Rewards</a>
+                      <a class="right floated" href="#">Rewards</a>
                       <p>Collections: 80</p>
                     </div>
                   </div>
@@ -117,12 +122,17 @@ body {
                   <div class="image"><img src="./static/img/logo.png" alt=""></div>
                   <div class="content">
                     <a class="ui header" href="">Year-Project name | school</a>
-                    <i class="right floated star icon"></i>
+                    <div class="right floated">
+                      IEF Value: 00000000
+                      <i class="empty star icon" v-on:click="fav"></i>
+                      <i class="diamond icon"></i>
+                    </div>
+                    <div class="meta">Chasis | E.coli</div>
                     <div class="description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tincidunt purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Cras semper risus eu sem condimentum varius. Cras libero lorem, auctor varius orci.</p>
+                      <p>Description</p>
                     </div>
                     <div class="middle aligned extra">
-                      <a class="right floated">Rewards</a>
+                      <a class="right floated" href="#">Rewards</a>
                       <p>Collections: 80</p>
                     </div>
                   </div>
@@ -131,12 +141,17 @@ body {
                   <div class="image"><img src="./static/img/logo.png" alt=""></div>
                   <div class="content">
                     <a class="ui header" href="">Year-Project name | school</a>
-                    <i class="right floated star icon"></i>
+                    <div class="right floated">
+                      IEF Value: 00000000
+                      <i class="empty star icon" v-on:click="fav"></i>
+                      <i class="diamond icon"></i>
+                    </div>
+                    <div class="meta">Chasis | E.coli</div>
                     <div class="description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tincidunt purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Cras semper risus eu sem condimentum varius. Cras libero lorem, auctor varius orci.</p>
+                      <p>Description</p>
                     </div>
                     <div class="middle aligned extra">
-                      <a class="right floated">Rewards</a>
+                      <a class="right floated" href="#">Rewards</a>
                       <p>Collections: 80</p>
                     </div>
                   </div>
@@ -145,12 +160,17 @@ body {
                   <div class="image"><img src="./static/img/logo.png" alt=""></div>
                   <div class="content">
                     <a class="ui header" href="">Year-Project name | school</a>
-                    <i class="right floated star icon"></i>
+                    <div class="right floated">
+                      IEF Value: 00000000
+                      <i class="empty star icon" v-on:click="fav"></i>
+                      <i class="diamond icon"></i>
+                    </div>
+                    <div class="meta">Chasis | E.coli</div>
                     <div class="description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tincidunt purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Cras semper risus eu sem condimentum varius. Cras libero lorem, auctor varius orci.</p>
+                      <p>Description</p>
                     </div>
                     <div class="middle aligned extra">
-                      <a class="right floated">Rewards</a>
+                      <a class="right floated" href="#">Rewards</a>
                       <p>Collections: 80</p>
                     </div>
                   </div>
@@ -159,12 +179,17 @@ body {
                   <div class="image"><img src="./static/img/logo.png" alt=""></div>
                   <div class="content">
                     <a class="ui header" href="">Year-Project name | school</a>
-                    <i class="right floated star icon"></i>
+                    <div class="right floated">
+                      IEF Value: 00000000
+                      <i class="empty star icon" v-on:click="fav"></i>
+                      <i class="diamond icon"></i>
+                    </div>
+                    <div class="meta">Chasis | E.coli</div>
                     <div class="description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tincidunt purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Cras semper risus eu sem condimentum varius. Cras libero lorem, auctor varius orci.</p>
+                      <p>Description</p>
                     </div>
                     <div class="middle aligned extra">
-                      <a class="right floated">Rewards</a>
+                      <a class="right floated" href="#">Rewards</a>
                       <p>Collections: 80</p>
                     </div>
                   </div>
@@ -213,6 +238,14 @@ $('#login-form')
       email: ['email', 'empty'],
       password: ['empty']
     }
+  });
+
+$('.star.icon')
+  .on('click', function() {
+    if ($(this).hasClass('empty'))
+      $(this).removeClass('empty');
+    else
+      $(this).removeClass('star icon').addClass('empty star icon');
   });
 
 $('.column>.ui.menu')

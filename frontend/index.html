@@ -118,7 +118,8 @@ var search_icon = new Vue({
   },
   methods: {
     search: function (event) {
-      alert('Search clicked. Content: ' + this.search_text);
+      // alert('Search clicked. Content: ' + this.search_text);
+      window.location.href = "result.html";
     }
   }
 });
