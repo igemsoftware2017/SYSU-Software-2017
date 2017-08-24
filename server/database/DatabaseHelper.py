@@ -1,4 +1,6 @@
-﻿def drop_table_if_exists(db, table_name):
+﻿# coding: utf-8
+
+def drop_table_if_exists(db, table_name):
     """
     如果表存在则删除表
     :param db: 数据库连接
@@ -25,4 +27,5 @@ def create_table_if_not_exists(db, table_name, column_names, column_types=None):
         sql = 'CREATE TABLE IF NOT EXISTS ' + table_name + " (" + ', '.join(map(
             lambda column: '`' + column[0] + '` ' + column[1],
             zip(column_names, column_types))) + ')'
+        print(sql)
     cursor.execute(sql)

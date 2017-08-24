@@ -1,0 +1,6 @@
+name,type,description
+BBa_B0030,RBS,RBS.1 (strong) -- modified from R. Weiss
+BBa_B0031,RBS,RBS.2 (weak) -- derivative of BBa_0030
+BBa_I0500,Regulator,Inducible pBad/araC promoter
+BBa_I13513,Measurement,Screening Plasmid 2
+BBa_B0011,Terminator,LuxICDABEG (+/-)
