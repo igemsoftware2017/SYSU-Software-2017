@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Interest - SYSU-Software, 2017</title>
+    <link rel="stylesheet" href="./static/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="./static/semantic/dist/components/icon.min.css">
+    <link rel="stylesheet" href="./static/css/custom.css">
+    <style>
+.ui.menu {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+#index-button {
+  border: 0;
+}
+.ui.main.container {
+  margin-top: 4em;
+  width: 55%;
+}
+body {
+  background-color: white;
+}
+#register-modal {
+  top: auto;
+}
+#button-group {
+  margin: 0;
+}
+#next-button {
+  text-align: right;
+}
+.interests {
+  height: 55%;
+}
+.interest {
+  background-color: #1ac785;
+  color: white;
+  position: absolute;
+  width: 100;
+  height: 100;
+  border-radius: 50%;
+  transition: all 0.2s ease-out;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  cursor: pointer;
+}
+.mygreen {
+  color: #258955 !important;
+}
+    </style>
+  </head>
+  <body>
+    <div class="ui menu">
+      <div class="ui container">
+        <div class="ui right menu">
+          <a class="item" id="index-button">
+            Complete
+            <i class="angle right icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ui main center aligned container">
+      <h2 class="ui header">Please select the content you are interested in.</h2>
+      <div class="interests"></div>
+      <div class="ui grid">
+      <div class="four wide column">
+        <a class="ui mygreen header" id="reset">Reset</a>
+      </div>
+      <div class="four wide right floated column">
+        <a class="ui mygreen header" id="more">More content</a>
+      </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./static/js/jquery.min.js"></script>
+  <script src="./static/semantic/dist/semantic.js"></script>
+  <script src="./static/js/vue.js"></script>
+  <script>
+var chosenInterest = new Set();
+var options = [
+  { text: 'water', top: 250, left: 300 },
+  { text: 'cancer', top: 300, left: 450 },
+  { text: 'cell', top: 250, left: 600 },
+  { text: 'superman', top: 300, left: 750 }
+]
+options.forEach(function (o, i) {
+  id = 'interest-' + i;
+  $('.interests').append('<div class="interest" id="' + id + '" :style="style" @mouseenter="enter" @mouseleave="leave" @click="click">' + o.text + '</div>');
+  $('#' + id).css({
+    top: o.top,
+    left: o.left
+  });
+  o.vue_obj = new Vue({
+    el: '#' + id,
+    data: {
+      chosen: false,
+      option: o.text,
+      style: {
+        transform: 'scale(1, 1)',
+        boxShadow: '0 0 1em 0 rgba(0 ,0 ,0, 0.7)'
+      }
+    },
+    methods: {
+      enter: function(event) {
+        if (!this.chosen)
+          this.style.transform = 'scale(1.2, 1.2)';
+      },
+      leave: function(event) {
+        if (!this.chosen)
+          this.style.transform = 'scale(1, 1)';
+      },
+      select: function(event) {
+        this.chosen = true;
+        this.style.boxShadow = '0 0 2em 0 rgba(0 ,0 ,0, 0.7)';
+        chosenInterest.add(this.option);
+      },
+      deselect: function(event) {
+        this.chosen = false;
+        this.style.boxShadow = '0 0 1em 0 rgba(0 ,0 ,0, 0.7)';
+        chosenInterest.delete(this.option);
+      },
+      click: function(event) {
+        if (!this.chosen)
+          this.select();
+        else
+          this.deselect();
+      }
+    }
+  });
+});
+
+$('#reset')
+  .on('click', function() {
+    options.forEach(function(o, i) {
+      o.vue_obj.deselect();
+      o.vue_obj.style.transform = 'scale(1, 1)';
+    });
+  });
+  </script>
+</html>
