@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./static/css/custom.css">
     <style>
 .ui.inverted.fixed.menu {
-  background: transparent;
+  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
   transition: background, 1s;
 }
 #result-segment {
@@ -30,6 +32,7 @@
 body {
   background-image: url("./static/img/index-back.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 #result-box {
   background: white;
@@ -39,6 +42,7 @@ body {
   border: 1px solid rgba(34,36,38,.15);
   padding: 14;
   background: white;
+  border-radius: 0.5em;
 }
     </style>
   </head>
@@ -277,11 +281,12 @@ $('.ui.text.menu')
 $(window).scroll( function(){
   if ($(window).scrollTop() > 100) {
     $(".ui.inverted.fixed.menu").css({
-      background: 'url(./static/img/index-back.jpg)'
+      backgroundImage: 'url(./static/img/index-back.jpg)'
     });
   } else {
     $(".ui.inverted.fixed.menu").css({
-      background: 'transparent',
+      backgroundColor: 'transparent',
+      backgroundImage: 'initial'
     });
   }
 });
