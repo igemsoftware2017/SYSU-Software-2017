@@ -16,7 +16,7 @@
   transition: background, 1s;
 }
 #result-segment {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0);
   border-radius: 0;
 }
 #search-box-container {
@@ -30,7 +30,7 @@
   margin: 0;
 }
 body {
-  background-image: url("./static/img/index-back.jpg");
+  background-image: url("./static/img/result-back.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -281,7 +281,7 @@ $('.ui.text.menu')
 $(window).scroll( function(){
   if ($(window).scrollTop() > 100) {
     $(".ui.inverted.fixed.menu").css({
-      backgroundImage: 'url(./static/img/index-back.jpg)'
+      backgroundImage: 'url(./static/img/result-back.jpg)'
     });
   } else {
     $(".ui.inverted.fixed.menu").css({
