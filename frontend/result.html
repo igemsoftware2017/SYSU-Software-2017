@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./static/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="./static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="./static/semantic/dist/components/menu.min.css">
+    <link rel="stylesheet" href="./static/semantic/dist/components/popup.min.css">
+    <link rel="stylesheet" href="./static/semantic/dist/components/calendar.min.css">
     <link rel="stylesheet" href="./static/css/custom.css">
     <style>
 .ui.inverted.fixed.menu {
@@ -95,39 +97,81 @@ body {
             </div>
             <div class="ui vertical segment">
               <div class="ui grid">
-                  <div class="middle aligned left floated four wide column">
-                    <code>446</code> Results
-                  </div>
-                  <div class="right floated ten wide column">
-                    <div class="ui four item text menu">
-                      <a class="item">Chasis<i class="angle down icon"></i></a>
-                      <a class="item">Year<i class="angle down icon"></i></a>
-                      <a class="item">Track<i class="angle down icon"></i></a>
-                      <a class="item">Medal<i class="angle down icon"></i></a>
+                <div class="three wide column">
+                  <code>446</code> Results
+                </div>
+                <div class="thirteen wide column">
+                  <a id="tool">Search Tools<i class="filter outline icon"></i></a>
+                  <div class="ui flowing popup bottom left transition hidden">
+                    <p>Chasis</p>
+                    <div class="ui labels">
+                      <a class="ui basic label">E.coli</a>
                     </div>
+                    <div class="ui divider"></div>
+                    <p>Medal</p>
+                    <div class="ui labels">
+                      <a class="ui basic label">Gold</a>
+                      <a class="ui basic label">Silver</a>
+                      <a class="ui basic label">Bronze</a>
+                      <a class="ui basic label">Best Rewards</a>
+                    </div>
+                    <div class="ui divider"></div>
+                    <p>Track</p>
+                    <div class="ui labels">
+                      <a class="ui basic label">Health & Medicine</a>
+                      <a class="ui basic label">Energy</a>
+                      <a class="ui basic label">Environment</a>
+                      <a class="ui basic label">Food & Nutrition</a>
+                    </div>
+                    <div class="ui divider"></div>
+                    <p>Time</p>
+                    <div class="ui form">
+                      <div class="inline fields">
+                        <div class="field">
+                          <label>From</label>
+                          <div id="from" class="ui calendar">
+                            <div class="ui input left icon">
+                              <i class="calendar icon"></i>
+                              <input type="text">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="field">
+                          <label>To</label>
+                          <div id="to" class="ui calendar">
+                            <div class="ui input left icon">
+                              <i class="calendar icon"></i>
+                              <input type="text">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ui submit button">Apply</div>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="ui vertical segment" id="result-list">
               <div class="ui items">
                 <div class="item">
-                    <div class="image"><img src="./static/img/logo.png" alt=""></div>
-                    <div class="content">
-                      <a class="ui header" href="">Year-Project name | school</a>
-                      <div class="right floated">
-                        IEF Value: 00000000
-                        <i class="empty star icon" v-on:click="fav"></i>
-                        <i class="diamond icon"></i>
-                      </div>
-                      <div class="meta">Chasis | E.coli</div>
-                      <div class="description">
-                        <p>Description</p>
-                      </div>
-                      <div class="middle aligned extra">
-                        <a class="right floated" href="#">Rewards</a>
-                        <p>Collections: 80</p>
-                      </div>
+                  <div class="image"><img src="./static/img/logo.png" alt=""></div>
+                  <div class="content">
+                    <a class="ui header" href="">Year-Project name | school</a>
+                    <div class="right floated">
+                      IEF Value: 00000000
+                      <i class="empty star icon" v-on:click="fav"></i>
+                      <i class="diamond icon"></i>
                     </div>
+                    <div class="meta">Chasis | E.coli</div>
+                    <div class="description">
+                      <p>Description</p>
+                    </div>
+                    <div class="middle aligned extra">
+                      <a class="right floated" href="#">Rewards</a>
+                      <p>Collections: 80</p>
+                    </div>
+                  </div>
                 </div>
                 <div class="item">
                   <div class="image"><img src="./static/img/logo.png" alt=""></div>
@@ -241,6 +285,8 @@ body {
 
   <script src="./static/js/jquery.min.js"></script>
   <script src="./static/semantic/dist/semantic.js"></script>
+  <script src="./static/semantic/dist/components/popup.min.js"></script>
+  <script src="./static/semantic/dist/components/calendar.min.js"></script>
   <script src="./static/js/vue.js"></script>
   <script>
 $('#login-form')
@@ -257,6 +303,14 @@ $('.star.icon')
       $(this).removeClass('empty');
     else
       $(this).removeClass('star icon').addClass('empty star icon');
+  });
+
+$('.labels>.label')
+  .on('click', function() {
+    if ($(this).hasClass('basic'))
+      $(this).removeClass('basic');
+    else
+      $(this).removeClass('label').addClass('basic label');
   });
 
 $('.column>.ui.menu')
@@ -276,6 +330,18 @@ $('.ui.text.menu')
       i.removeClass('up icon').addClass('down icon');
     else
       i.removeClass('down icon').addClass('up icon');
+  });
+
+$('#tool')
+  .popup({
+    popup: $('.popup'),
+    on: 'click',
+    position: 'bottom left'
+  });
+
+$('.ui.calendar')
+  .calendar({
+    type: 'date'
   });
 
 $(window).scroll( function(){
