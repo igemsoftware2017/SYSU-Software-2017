@@ -46,6 +46,15 @@ body {
   background: white;
   border-radius: 0.5em;
 }
+#also-try {
+  padding-top: 0;
+}
+#also-try>a {
+  color: #ffd800;
+}
+#tool {
+  color: black;
+}
     </style>
   </head>
   <body>
@@ -87,12 +96,14 @@ body {
       <div class="ui container">
         <div class="ui grid">
           <div class="ten wide column">
+            <!--
             <div class="ui secondary pointing red menu">
               <a class="active item">All</a>
               <a class="item">Keywords</a>
               <a class="item">BBa_s</a>
             </div>
-            <div class="ui vertical segment">
+            -->
+            <div class="ui vertical segment" id="also-try">
               Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
             </div>
             <div class="ui vertical segment">
