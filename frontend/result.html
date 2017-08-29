@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="./static/css/custom.css">
     <style>
 .ui.inverted.fixed.menu {
-  background-color: transparent;
+  background-image: url(./static/img/result-back.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  transition: background, 1s;
 }
 #result-segment {
   background: rgba(255, 255, 255, 0);
@@ -354,19 +354,6 @@ $('.ui.calendar')
   .calendar({
     type: 'date'
   });
-
-$(window).scroll( function(){
-  if ($(window).scrollTop() > 100) {
-    $(".ui.inverted.fixed.menu").css({
-      backgroundImage: 'url(./static/img/result-back.jpg)'
-    });
-  } else {
-    $(".ui.inverted.fixed.menu").css({
-      backgroundColor: 'transparent',
-      backgroundImage: 'initial'
-    });
-  }
-});
 
 var signin_button = new Vue({
   el: '#signin-button',
