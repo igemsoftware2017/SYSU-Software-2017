@@ -17,6 +17,9 @@
 #menu1 {
   background-color: transparent;
 }
+#menu2 {
+  top: -100px;
+}
 #menu2>.ui.container>.item {
   border-left: none;
 }
@@ -121,7 +124,7 @@ $('#login-form')
 ;
 
 $(window).scroll( function() {
-  if ($(window).scrollTop() > 10) {
+  if ($(window).scrollTop() > 100) {
     $('#menu1').css({
       top: '-100px'
     });
