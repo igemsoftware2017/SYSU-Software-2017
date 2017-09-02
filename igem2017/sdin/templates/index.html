@@ -133,7 +133,7 @@ var search_icon = new Vue({
   methods: {
     search: function (event) {
       // alert('Search clicked. Content: ' + this.search_text);
-      window.location.href = "result.html";
+      window.location.href = "/search";
     }
   }
 });
@@ -151,7 +151,7 @@ var button_group = new Vue({
   el: '#button-group',
   methods: {
     go_register: function (event) {
-      window.location.href = "register.html";
+      window.location.href = "/register";
     },
     go_signin: function (event) {
       $('#login-form').form('submit');
@@ -161,7 +161,6 @@ var button_group = new Vue({
 
 $('#search-edit')
   .on('focus', function() {
-    console.log('test');
     $('#dimmer').css({
       background: 'rgba(0, 0, 0, 0.5)',
       zIndex: 500

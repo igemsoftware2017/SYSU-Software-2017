@@ -22,4 +22,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', sdin_view.index),
     url(r'^index$', sdin_view.index),
+    url(r'^search$', sdin_view.search),
+    url(r'^detail$', sdin_view.detail),
+    url(r'^interest$', sdin_view.interest),
+    url(r'^register$', sdin_view.register),
 ]
