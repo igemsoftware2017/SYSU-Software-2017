@@ -2,3 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Database
+*.sqlite3
+
+# Virtual Environment
+env/
