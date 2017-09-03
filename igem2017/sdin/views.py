@@ -21,10 +21,10 @@ def index(request):
             try:
                 user = User.objects.get(email = email)
                 if user.password_check(password):
-                    messages.error("Password error!")
-                else:
                     request.session['user'] = user
-                    messages.success("Login successfully!")
+                    messages.success("Login successfully!")    
+                else:
+                    messages.error("Password error!")
             except Model.DoesNotExist:
                 messages.error("Email Not registered!")
             except:
