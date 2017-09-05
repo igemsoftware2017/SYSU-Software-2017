@@ -1,8 +1,9 @@
 ﻿# coding: utf-8
-
+from .Dbsheet import DbSheet
 from server.iGEMOption import *
 import server.database.CsvSheet as CsvSheet
 import os
+
 
 
 class DataHelper:
@@ -30,12 +31,18 @@ class DataHelper:
         for root, dirs, files in os.walk(folder_path):
             for name in files:
                 self.import_file(table_name, os.path.join(root, name))
+            self.db_conn.commit()
 
 
     def import_file(self, table_name, file_path):
         if table_name == "parts":
             Readable_sheet = CsvSheet.CsvReadableSheet(file_path)
-
+        elif table_name == "works":
+            Readable_sheet = CsvSheet.CsvReadableSheet(file_path)
+        elif table_name == "circuit":
+            Readable_sheet = CsvSheet.CsvReadableSheet(file_path)
+        db_sheet = DbSheet(self.db_conn, table_name)
+        db_sheet.transfer_excel_to_db(readable_sheet=Readable_sheet, column_names=None, commit=False)
 
     @staticmethod
     def get_input_dir(option_set):
@@ -48,7 +55,7 @@ class DataHelper:
         elif option_set == import_all:
             return {
                 "parts"  : "parts",
-                "circuit": "circuit",
+                "circuits": "circuits",
                 "works"  :  "works"
             }
 

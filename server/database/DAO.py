@@ -14,6 +14,7 @@ class DAO:
     PASSWORD = '123456'
 
     def __init__(self, db_name, username=USER_NAME, password=PASSWORD):
+
         DAO.create_db_if_not_exists(db_name, username, password)
         self.db_conn = pymysql.connect(
                              host="localhost",
