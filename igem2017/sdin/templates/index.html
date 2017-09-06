@@ -57,8 +57,8 @@ body {
           <a class="item" href="#">
             Design
           </a>
-          {% if request.session.user %}
-          <span class="item">{{ request.session.user.email }}</span>
+          {% if request.user.is_authenticated %}
+          <span class="item">{{ request.user.email }}</span>
           {% else %}
           <a class="item" id="signin-button" v-on:click="show_signin_modal">
             <i class="user outline icon"></i>
