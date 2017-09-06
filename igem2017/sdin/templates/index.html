@@ -57,10 +57,14 @@ body {
           <a class="item" href="#">
             Design
           </a>
+          {% if request.session.user %}
+          <span class="item">{{ request.session.user.email }}</span>
+          {% else %}
           <a class="item" id="signin-button" v-on:click="show_signin_modal">
             <i class="user outline icon"></i>
             Sign In
           </a>
+          {% endif %}
           <a class="item">
             <i class="sidebar icon"></i>
           </a>
@@ -94,15 +98,24 @@ body {
     </div>
     <div class="content">
       <div class="ui center aligned container">
-        <div class="ui form" id="login-form">
+        <form class="ui form" id="login-form" method="POST" action="/index">
+          {% csrf_token %}
           <div class="field">
-            <input type="text" id="email" placeholder="Email">
+            <input type="text" id="email" name="email" placeholder="Email">
           </div>
           <div class="field">
-            <input type="password" id="password" placeholder="Password">
+            <input type="password" id="password" name="password" placeholder="Password">
           </div>
-          <div class="ui error message"></div>
-        </div>
+          <div class="ui {% if messages %}visible {% endif %}error message">
+            {% if messages %}
+            <ul class="list">
+              {% for message in messages %}
+              <li>{{ message }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+        </form>
         <br/><a>Forgot password?</a>
       </div>
     </div>

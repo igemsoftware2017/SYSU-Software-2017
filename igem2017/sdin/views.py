@@ -8,6 +8,7 @@ from sdin.models import *
 from django.db.models import Model
 from django.contrib import messages
 from django.db import IntegrityError
+from django.core.exceptions import ObjectDoesNotExist
 
 Err = "Something wrong!"
 Inv = "Invalid form!"
@@ -21,16 +22,20 @@ def index(request):
             try:
                 user = User.objects.get(email = email)
                 if user.password_check(password):
-                    request.session['user'] = user
-                    messages.success("Login successfully!")    
+                    request.session['user'] = {
+                        'email': user.email,
+                        'igem': user.igem,
+                        'org': user.org
+                    }
+                    messages.success(request, "Login successfully!")    
                 else:
-                    messages.error("Password error!")
-            except Model.DoesNotExist:
-                messages.error("Email Not registered!")
+                    messages.error(request, "Password error!")
+            except ObjectDoesNotExist:
+                messages.error(request, "Email Not registered!")
             except:
-                messages.error(Err)
+                messages.error(request, Err)
         else:
-            messages.error(Inv)
+            messages.error(request, Inv)
 
     return render(request, 'index.html')
 
@@ -53,12 +58,12 @@ def register(request):
                         org = form.cleaned_data["org"],
                         igem = form.cleaned_data["igem"]
                         )
-                messages.success("Register successfully!")
+                messages.success(request, "Register successfully!")
             except IntegrityError:
-                messages.error("Email already exists!")
+                messages.error(request, "Email already exists!")
             except:
-                messages.error(Err)
+                messages.error(request, Err)
         else:
-            messages.error(Inv)
+            messages.error(request, Inv)
 
     return render(request, 'register.html')
