@@ -7,7 +7,17 @@ from sdin.models import *
 import os
 import csv
 
+
+
+
+
+
+
 def get_parts_type(filename):
+    """
+    get part's type from filename
+    :filename:   filename.csv
+    """
 	if "other_DNA" in filename:
 		return str("other_DNA")
 	elif "_" in filename:
@@ -17,6 +27,10 @@ def get_parts_type(filename):
 
 
 def load_parts(floder_path):
+     """
+     load parts' data
+     :floder_path:   the floder's path that include parts' data
+     """
 	 for root, dirs, files in os.walk(folder_path):
             for name in files:
                 filepath = os.path.join(root, name)
@@ -40,6 +54,7 @@ def load_parts(floder_path):
 
 def pre_load_data(currentpath):
 	load_parts(currentpath +  os.sep + "parts")
+    load_works(currentpath +  os.sep + "works")
 
 if __name__ == '__main__':
 	pre_load_data("C:\Users\freedom\Documents\GitHub\IGEM2017-SYSU.Software\igem2017\sdin\preload")

@@ -42,7 +42,7 @@ class User(AbstractBaseUser):
     def __str__(self):
         return "email: %s\norg: %s" % self.email, self.org
 
-class Parts(models.Models):
+class Parts(models.Model):
     name = models.CharField(max_length = 20, unique = True)
     description = models.CharField(max_length = 100)
     Type = models.CharField(max_length = 20)
