@@ -1,3 +1,17 @@
-.DS_Store
-.idea/*
-*__pychache__*
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vim
+*.swp
+*.vim
+
+# Database
+*.sqlite3
+
+# Virtual Environment
+env/
+
+# MySQL config
+igem2017/igem2017/mysql.cnf
