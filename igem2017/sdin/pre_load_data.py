@@ -3,58 +3,71 @@
 """
 preload parts,works and circuits data into database
 """
-from sdin.models import *
+from .models import *
 import os
 import csv
 
-
-
-
-
-
-
+# load parts data
 def get_parts_type(filename):
-    """
-    get part's type from filename
-    :filename:   filename.csv
-    """
-	if "other_DNA" in filename:
-		return str("other_DNA")
-	elif "_" in filename:
-		return "%s" % filename[0 : filename.index("_")]
-	else:
-		return "%s" % filename[0 : filename.index(".")]
+    if "other_DNA" in filename:
+        return str("other_DNA")
+    elif "_" in filename:
+        return "%s" % filename[0 : filename.index("_")]
+    else:
+        return "%s" % filename[0 : filename.index(".")]
 
 
-def load_parts(floder_path):
-     """
-     load parts' data
-     :floder_path:   the floder's path that include parts' data
-     """
-	 for root, dirs, files in os.walk(folder_path):
-            for name in files:
-                filepath = os.path.join(root, name)
-                csv_reader = csv.reader(open(filepath), encoding='utf-8')
-                part_type = get_parts_type(name)
+def load_parts(parts_floder_path):
+    for root, dirs, files in os.walk(parts_floder_path):
+        for name in files:
+            filepath = os.path.join(root,name)
+            csv_reader = csv.reader(open(filepath, encoding='utf-8'))
+            part_type = get_parts_type(name)
 
-                row_cnt = 0
-                for row in csv_reader:
-                	row_cnt += 1
-                	if (row_cnt == 1):
-                		name_idx = row.index("Name")
-                		description_idx = row.index("Description")
-                	else:
-                		Parts.objects.create( 
-                	    	name=row[name_idx], 
-                			description=row[description_idx],
-                			Type=part_type
-                		)
+            row_cnt = 0
+            for row in csv_reader:
+                row_cnt += 1
+                if (row_cnt == 1):
+                    name_idx = row.index("Name")
+                    description_idx = row.index("Description")
+                else:
+                    Parts.objects.create(
+                        Name = row[name_idx],
+                        Description = row[description_idx],
+                        Type = part_type
+                    )
 
+#load works data
+def load_works(works_floder_path):
+    for root, dirs, files in os.walk(works_floder_path):
+        for name in files:
+            filepath = os.path.join(root,name)
+            csv_reader = csv.reader(open(filepath, encoding='utf-8'))
+
+            row_cnt = 0
+            for row in csv_reader:
+                row_cnt += 1
+                if (row_cnt > 1):
+                    Works.objects.create(
+                        TeamID = int(row[0]),
+                        Teamname = row[1],
+                        Region = row[2],
+                        Country = row[3],
+                        Track = row[4],
+                        Section = row[5],
+                        Size = int(row[6]),
+                        Status = row[7],
+                        Year = int(row[8]),
+                        Wiki = row[9],
+                        Medal = row[10],
+                        Award = row[11],
+                        Name = row[12],
+                        Use_parts = row[13],
+                    )
 
 
 def pre_load_data(currentpath):
-	load_parts(currentpath +  os.sep + "parts")
-    load_works(currentpath +  os.sep + "works")
-
-if __name__ == '__main__':
-	pre_load_data("C:\Users\freedom\Documents\GitHub\IGEM2017-SYSU.Software\igem2017\sdin\preload")
+    parts_path = currentpath + os.sep + "parts"
+    works_path = currentpath + os.sep + "works"
+    load_parts(parts_path)
+    load_works(works_path)

@@ -17,6 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 
 from sdin import views as sdin_view
+from sdin import tests as sdin_tests
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -26,4 +27,5 @@ urlpatterns = [
     url(r'^detail$', sdin_view.detail),
     url(r'^interest$', sdin_view.interest),
     url(r'^register$', sdin_view.register),
+    url(r'^testdb$', sdin_tests.testdb)
 ]

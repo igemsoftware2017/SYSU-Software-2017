@@ -1,0 +1,18 @@
+Name,Description,Family,Signalling,Control,Protein,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_F2620,, ,,R0040,|LuxR, TetR|,1,,Released HQ 2013,BBa_K204051;BBa_K1194005,In stock,Works,99 Uses,MIT,Barry Canton [bcanton@mit.edu] and Anna Labno [labnoa@mit.edu],2004-08-09,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Receiver&show=1.csv
+BBa_F2621,, ,,R0063,LuxR,1,Antiquity:5;Youri:5,Released HQ 2013,BBa_I3510;BBa_K546003,In stock,Works,28 Uses,Antiquity,Barry Canton,2004-08-09,,pgroup=Signal_Receiver&show=1.csv
+BBa_F2622,, ,,R0011,|LuxR, LacI|,1,Michigan iGEM 2013:5;Antiquity:5;XMU-China 2011:4,Released HQ 2013,BBa_K658000,In stock,Works,43 Uses,Antiquity,Barry Canton,2004-12-14,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Receiver&show=1.csv
+BBa_K546000,Lux pL controlled LuxR with lux pR autoinducing LuxI(lva tag)- AHL., ,,(1) R0063 & (2) R0062, ,,,Released HQ 2013,BBa_I13211;BBa_J28028,In stock,Works,8 Uses,iGEM11_Wageningen_UR,M. Hesselman,2011-09-14,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Receiver&show=1.csv
+BBa_K546003,Lux pL controlled LuxR + lux pR promoter., ,,R0063,LuxR,,,Released HQ 2013,BBa_I3510;BBa_F2621,In stock,Works,2 Uses,iGEM11_Wageningen_UR,|Brendan Ryback, Matthijn Hesselman|,2011-09-14,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Receiver&show=1.csv
+BBa_F2710,N-butyryl-HSL Receiver Device, ,N-butyryl-HSL,R0040,RhlR,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Endy Lab,labnoa,2005-06-24,,pgroup=Signal_Receiver&show=1.csv
+BBa_F2770,, ,,R0040,CinR,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Endy Lab,labnoa,2005-06-24,,pgroup=Signal_Receiver&show=1.csv
+BBa_F2790,AI-1 Receiver Device, ,	AI-1,R0040,LasR,,Antiquity:0,Not Released,BBa_K204050,Not in stock,None,Not Used,Guests,labnoa,2005-06-24,,pgroup=Signal_Receiver&show=1.csv
+BBa_K574001,TetR regulated by 3OC6HSL, ,3OC6HSL, , ,,,Not Released,,It's complicated,None,1 Uses,iGEM11_Tsinghua_auto,Lei Wei,2011-09-29,,pgroup=Signal_Receiver&show=1.csv
+BBa_K574009,3OC12HSL -> PoPS Receiver, ,3OC12HSL, , ,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tsinghua_auto,Lei Wei,2011-09-29,,pgroup=Signal_Receiver&show=1.csv
+BBa_K990001,pOmpC+EPIC Firefly Luciferase, , , , ,,,Not Released,,It's complicated,None,1 Uses,iGEM13_NGSS_AEI_TURKEY,Fatma Betül ÇEV&#304;K,2013-06-21,,pgroup=Signal_Receiver&show=1.csv
+BBa_F2710,N-butyryl-HSL Receiver Device, ,N-butyryl-HSL,R0040,RhlR,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Endy Lab,labnoa,2005-06-24,,pgroup=Signal_Receiver&show=1.csv
+BBa_F2770,, ,,R0040,CinR,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Endy Lab,labnoa,2005-06-24,,pgroup=Signal_Receiver&show=1.csv
+BBa_F2790,AI-1 Receiver Device, ,	AI-1,R0040,LasR,,Antiquity:0,Not Released,BBa_K204050,Not in stock,None,Not Used,Guests,labnoa,2005-06-24,,pgroup=Signal_Receiver&show=1.csv
+BBa_K574001,TetR regulated by 3OC6HSL, ,3OC6HSL, , ,,,Not Released,,It's complicated,None,1 Uses,iGEM11_Tsinghua_auto,Lei Wei,2011-09-29,,pgroup=Signal_Receiver&show=1.csv
+BBa_K574009,3OC12HSL -> PoPS Receiver, ,3OC12HSL, , ,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tsinghua_auto,Lei Wei,2011-09-29,,pgroup=Signal_Receiver&show=1.csv
+BBa_K990001,pOmpC+EPIC Firefly Luciferase, , , , ,,,Not Released,,It's complicated,None,1 Uses,iGEM13_NGSS_AEI_TURKEY,Fatma Betül ÇEV&#304;K,2013-06-21,,pgroup=Signal_Receiver&show=1.csv
