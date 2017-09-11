@@ -7,7 +7,9 @@ $('.window')
     appendTo: 'body',
     handle: '.nav'
   })
-  .resizable();
+  .resizable({
+    handles: 's, w, sw'
+  });
 
 $('#part-panel-button')
   .on('click', function() {
@@ -15,11 +17,12 @@ $('#part-panel-button')
       $(this).removeClass('right').addClass('left');
       // Stick to right
       win = $(this).parent().parent();
-      win.draggable('disable').resizable('disable');
+      win
+        .draggable('disable')
+        .resizable('option', 'handles', 'w');
       win.data('free-state', {
         offset: win.offset(),
-        height: win.height(),
-        width: win.width()
+        height: win.height()
       });
       to_top = $('.ui.fixed.menu').height();
       win.css({
@@ -34,6 +37,10 @@ $('#part-panel-button')
         borderLeft: '1px solid grey',
         position: 'absolute'
       });
+      setTimeout(function() {
+        win.css({
+          transition: ''
+        })}, 200);
       $('#canvas-box').css({
         width: 'calc(100% - ' + win.width() + 'px)'
       });
@@ -42,12 +49,16 @@ $('#part-panel-button')
       // Free from the right
       win = $(this).parent().parent();
       free_state = win.data('free-state');
-      win.draggable('enable').resizable('enable');
+      win
+        .draggable('enable')
+        .resizable('option', 'handles', 'w, s, sw');
+      win.css({
+        transition: 'all 0.2s ease'
+      });
       win.css({
         left: free_state.offset.left,
         top: free_state.offset.top,
         height: free_state.height,
-        width: free_state.width,
         borderRadius: '5px',
         border: '1px solid grey',
         position: 'absolute'
@@ -62,16 +73,28 @@ $('#part-panel-button')
     }
   });
 
+$('#part-panel')
+  .on('resize', function() {
+    des = $('#part-info-des');
+    $('#part-panel').css({
+      minHeight: 'calc(' + (des.position().top + des.parent().position().top + des.height() + 1) + 'px + 2em)'
+    });
+  });
+
 $('#fav-win-button')
   .on('click', function() {
-    $('#fav-win').hide({
+    $('#fav-win').fadeOut({
       duration: 200
     });
   });
 
 $('#open-fav-win')
   .on('click', function() {
-    $('#fav-win').toggle({
+    $('#fav-win').fadeToggle({
       duration: 200
     })
   });
+
+$('#fav-win').css({
+  height: $(this).height()
+});
