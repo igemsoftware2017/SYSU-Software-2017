@@ -1,0 +1,79 @@
+.window {
+  position: absolute;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: inherit;
+}
+.nav, .content {
+  width: 100%;
+  padding: 1em;
+}
+.nav {
+  height: 3em;
+  border-bottom: 1px solid;
+}
+.nav>i {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+.content {
+  height: 100%;
+}
+
+#part-panel {
+  width: 300px;
+  top: 60px;
+  right: 20px;
+}
+#part-info-des {
+  max-height: 100px;
+  overflow-y: auto;
+}
+#fav-win {
+  width: 400px;
+  top: 200px;
+  right: 400px;
+}
+#fav-win>.content {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+body {
+  background-image: url('../../static/img/design-back.png');
+  overflow: hidden;
+}
+div.ui.fixed.menu>div.ui.container {
+  margin-left: 3em !important;
+  margin-right: 3em !important;
+  width: 100%;
+}
+.item>a>i {
+  color: black;
+  width: 1.5em;
+}
+
+#canvas-box {
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  padding-top: 5.5em;
+  transition: all 0.2s ease;
+}
+#canvas {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+#part-src-seg {
+  padding-bottom: calc(14px + 1em + 4px);
+}
+#part-src-divider {
+  margin-bottom: 4px;
+}
+#part-src-more {
+  float: right;
+}

@@ -1,7 +1,11 @@
-# Python ignores
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Vim
+*.swp
+*.vim
 
 # Database
 *.sqlite3
