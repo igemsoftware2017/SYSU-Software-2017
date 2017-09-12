@@ -11,9 +11,15 @@ $('.window')
     handles: 's, w, sw'
   });
 
+
+// Part panel
+$('#part-panel')
+  .resizable('option', 'minWidth', 200);
+var part_panel_sticked_to_right = false;
 $('#part-panel-button')
   .on('click', function() {
-    if ($(this).hasClass('right')) {
+    part_panel_sticked_to_right = !part_panel_sticked_to_right;
+    if (part_panel_sticked_to_right) {
       $(this).removeClass('right').addClass('left');
       // Stick to right
       win = $(this).parent().parent();
@@ -33,7 +39,7 @@ $('#part-panel-button')
         top: to_top,
         height: 'calc(100% - ' + to_top + 'px)',
         borderRadius: 0,
-        border: 'none',
+        border: '',
         borderLeft: '1px solid grey',
         position: 'absolute'
       });
@@ -72,22 +78,28 @@ $('#part-panel-button')
         })}, 200);
     }
   });
-
 $('#part-panel')
   .on('resize', function() {
     des = $('#part-info-des');
     $('#part-panel').css({
       minHeight: 'calc(' + (des.position().top + des.parent().position().top + des.height() + 1) + 'px + 2em)'
     });
+    if (part_panel_sticked_to_right) {
+      $('#canvas-box').css({
+        width: 'calc(100% - ' + win.width() + 'px)'
+      });
+    }
   });
 
+// Favourite window
+$('#fav-win')
+  .resizable('option', 'minWidth', 350);
 $('#fav-win-button')
   .on('click', function() {
     $('#fav-win').fadeOut({
       duration: 200
     });
   });
-
 $('#open-fav-win')
   .on('click', function() {
     $('#fav-win').fadeToggle({
@@ -95,6 +107,19 @@ $('#open-fav-win')
     })
   });
 
-$('#fav-win').css({
-  height: $(this).height()
-});
+// Toolbox window
+$('#toolbox')
+  .resizable('disable')
+  .children('.ui-resizable-handle')
+    .hide();
+
+function initPositionSize() {
+  $('#fav-win').css({
+    height: $(this).height()
+  });
+  $('#toolbox').css({
+    top: 500,
+    left: 100
+  });
+}
+initPositionSize();
