@@ -77,6 +77,10 @@ WSGI_APPLICATION = 'igem2017.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
+        'NAME': "django",
+        'USER': "django",
+        'HOST': "127.0.0.1",
+        'PASSWORD': "DjangoPass123!",
         'OPTIONS': {
             "read_default_file": "igem2017/mysql.cnf",
         }

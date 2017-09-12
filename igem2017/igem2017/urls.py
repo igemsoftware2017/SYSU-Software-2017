@@ -28,5 +28,5 @@ urlpatterns = [
     url(r'^interest$', sdin_view.interest),
     url(r'^register$', sdin_view.register),
     url(r'^design$', sdin_view.design),
-    urt(r'^testdb$', sdin_tests.testdb),
+    url(r'^testdb$', sdin_tests.testdb),
 ]

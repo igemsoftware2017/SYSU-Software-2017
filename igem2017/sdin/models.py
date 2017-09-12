@@ -44,7 +44,7 @@ class User(AbstractBaseUser):
 
 
 class Parts(models.Model):
-    Name = models.CharField(max_length = 20, unique = True)
+    Name = models.CharField(max_length = 50, unique = True)
     Description = models.CharField(max_length = 100)
     Type = models.CharField(max_length = 20)
 
@@ -64,7 +64,7 @@ class Works(models.Model):
     Wiki = models.CharField(max_length = 100)
     Medal = models.CharField(max_length = 20)
     Award = models.CharField(max_length = 20)
-    Name =  models.CharField(max_length = 20)
+    Name =  models.CharField(max_length = 50)
     Use_parts = models.CharField(max_length=500)
 
     def __str__(self):
