@@ -43,3 +43,32 @@ class User(AbstractBaseUser):
         return "email: %s\norg: %s" % self.email, self.org
 
 
+class Parts(models.Model):
+    Name = models.CharField(max_length = 20, unique = True)
+    Description = models.CharField(max_length = 100)
+    Type = models.CharField(max_length = 20)
+
+    def __str__(self):
+        return "%s : %s" % self.Name, self.Description
+
+class Works(models.Model):
+    TeamID = models.IntegerField(unique = True)
+    Teamname = models.CharField(max_length = 30)
+    Region = models.CharField(max_length = 30)
+    Country = models.CharField(max_length = 30)
+    Track = models.CharField(max_length = 30)
+    Section = models.CharField(max_length = 30)
+    Size = models.IntegerField()
+    Status = models.CharField(max_length = 20)
+    Year = models.IntegerField()
+    Wiki = models.CharField(max_length = 100)
+    Medal = models.CharField(max_length = 20)
+    Award = models.CharField(max_length = 20)
+    Name =  models.CharField(max_length = 20)
+    Use_parts = models.CharField(max_length=500)
+
+    def __str__(self):
+        return "%s : %s" % str(self.TeamID), self.Teamname
+
+
+
