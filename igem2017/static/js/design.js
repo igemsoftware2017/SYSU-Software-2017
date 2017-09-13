@@ -7,19 +7,28 @@ $('.window')
     appendTo: 'body',
     handle: '.nav'
   })
-  .resizable();
+  .resizable({
+    handles: 's, w, sw'
+  });
 
+
+// Part panel
+$('#part-panel')
+  .resizable('option', 'minWidth', 200);
+var part_panel_sticked_to_right = false;
 $('#part-panel-button')
   .on('click', function() {
-    if ($(this).hasClass('right')) {
+    part_panel_sticked_to_right = !part_panel_sticked_to_right;
+    if (part_panel_sticked_to_right) {
       $(this).removeClass('right').addClass('left');
       // Stick to right
       win = $(this).parent().parent();
-      win.draggable('disable').resizable('disable');
+      win
+        .draggable('disable')
+        .resizable('option', 'handles', 'w');
       win.data('free-state', {
         offset: win.offset(),
-        height: win.height(),
-        width: win.width()
+        height: win.height()
       });
       to_top = $('.ui.fixed.menu').height();
       win.css({
@@ -30,10 +39,14 @@ $('#part-panel-button')
         top: to_top,
         height: 'calc(100% - ' + to_top + 'px)',
         borderRadius: 0,
-        border: 'none',
+        border: '',
         borderLeft: '1px solid grey',
         position: 'absolute'
       });
+      setTimeout(function() {
+        win.css({
+          transition: ''
+        })}, 200);
       $('#canvas-box').css({
         width: 'calc(100% - ' + win.width() + 'px)'
       });
@@ -42,12 +55,16 @@ $('#part-panel-button')
       // Free from the right
       win = $(this).parent().parent();
       free_state = win.data('free-state');
-      win.draggable('enable').resizable('enable');
+      win
+        .draggable('enable')
+        .resizable('option', 'handles', 'w, s, sw');
+      win.css({
+        transition: 'all 0.2s ease'
+      });
       win.css({
         left: free_state.offset.left,
         top: free_state.offset.top,
         height: free_state.height,
-        width: free_state.width,
         borderRadius: '5px',
         border: '1px solid grey',
         position: 'absolute'
@@ -61,17 +78,48 @@ $('#part-panel-button')
         })}, 200);
     }
   });
+$('#part-panel')
+  .on('resize', function() {
+    des = $('#part-info-des');
+    $('#part-panel').css({
+      minHeight: 'calc(' + (des.position().top + des.parent().position().top + des.height() + 1) + 'px + 2em)'
+    });
+    if (part_panel_sticked_to_right) {
+      $('#canvas-box').css({
+        width: 'calc(100% - ' + win.width() + 'px)'
+      });
+    }
+  });
 
+// Favourite window
+$('#fav-win')
+  .resizable('option', 'minWidth', 350);
 $('#fav-win-button')
   .on('click', function() {
-    $('#fav-win').hide({
+    $('#fav-win').fadeOut({
       duration: 200
     });
   });
-
 $('#open-fav-win')
   .on('click', function() {
-    $('#fav-win').toggle({
+    $('#fav-win').fadeToggle({
       duration: 200
     })
   });
+
+// Toolbox window
+$('#toolbox')
+  .resizable('disable')
+  .children('.ui-resizable-handle')
+    .hide();
+
+function initPositionSize() {
+  $('#fav-win').css({
+    height: $(this).height()
+  });
+  $('#toolbox').css({
+    top: 500,
+    left: 100
+  });
+}
+initPositionSize();
