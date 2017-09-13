@@ -3,7 +3,7 @@
 """
 preload parts,works and circuits data into database
 """
-from .models import *
+from ..models import *
 import os
 import csv
 
