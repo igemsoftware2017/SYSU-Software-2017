@@ -28,19 +28,3 @@ BBa_J09035,|EYFP (AAV+) device, strong RBS|,917,,,Not Released,BBa_E0434,It's co
 BBa_J09122,|ECFP+LVA, medium RBS|,919,,,Not Released,,Not in stock,None,Not Used,iGEM2005,Jon Badalamenti,2006-10-26,,pgroup=Reporter_RET&show=1.csv
 BBa_J09123,|ECFP-LVA device, strong RBS|,920,,,Not Released,,Not in stock,None,Not Used,iGEM2005,Jon Badalamenti,2006-10-26,,pgroup=Reporter_RET&show=1.csv
 BBa_J09144,|GFP-AAV device, medium RBS|,916,,,Not Released,,Not in stock,,3 Uses,iGEM2005,Jon Badalamenti,2006-10-26,,pgroup=Reporter_RET&show=1.csv
-BBa_E0244,B0032.E0044.B0015,915,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,jcbraff,2004-10-26,,pgroup=Reporter_RET&show=1.csv
-BBa_E0424,B0034.E0024.B0015,917,,Antiquity:0,Not Released,BBa_S03892,Not in stock,None,5 Uses,Antiquity,jcbraff,2004-07-16,,pgroup=Reporter_RET&show=1.csv
-BBa_E0426,B0034.E0026.B0015,917,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,jcbraff,2004-07-16,,pgroup=Reporter_RET&show=1.csv
-BBa_E0434,B0034.E0034.B0015,917,,Antiquity:0,Not Released,BBa_J09035,It's complicated,None,24 Uses,Antiquity,jcbraff,2004-07-16,,pgroup=Reporter_RET&show=1.csv
-BBa_E0436,B0034.E0036.B0015,917,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,jcbraff,2004-07-16,,pgroup=Reporter_RET&show=1.csv
-BBa_E0844,B0030.E0044.B0015,917,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,jcbraff,2004-10-26,,pgroup=Reporter_RET&show=1.csv
-BBa_I13004,RBS B0033 w/ YFP (-LVA) TT,877,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,|Jay Blumling, Debra Lin, Madeleine Sheldon-dante, Fred Tan,  MIT SMUG|,2004-06-28,,pgroup=Reporter_RET&show=1.csv
-BBa_J06700,Venus YFP with RBS and forward terminator,933,,Antiquity:0,Not Released,,Not in stock,Fails,6 Uses,iGEM2005,ytwang,2005-06-14,,pgroup=Reporter_RET&show=1.csv
-BBa_J06701,mCherry with RBS and forward terminator,924,,Antiquity:0,Not Released,,It's complicated,Fails,20 Uses,iGEM2005,ytwang,2005-06-14,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_RET&show=1.csv
-BBa_J06703,|mCherry, bacterial (LVA+) with RBS and forward terminator|,878,,,Not Released,BBa_S03540;BBa_J24702;BBa_K648000,It's complicated,,3 Uses,iGEM2005,Yves Wang,2005-07-25,,pgroup=Reporter_RET&show=1.csv
-BBa_J07037,Threshold: Reporter module (regulated by cI),912,,,Not Released,,It's complicated,,Not Used,iGEM2005,Yaser (Ray) Khan,2005-07-22,,pgroup=Reporter_RET&show=1.csv
-BBa_J09034,EYFP AAV+ device with strong RBS,920,,,Not Released,,Not in stock,,Not Used,iGEM2005,Jon Badalamenti,2006-10-27,,pgroup=Reporter_RET&show=1.csv
-BBa_J09035,|EYFP (AAV+) device, strong RBS|,917,,,Not Released,BBa_E0434,It's complicated,,Not Used,iGEM2005,Jon Badalamenti,2006-10-27,,pgroup=Reporter_RET&show=1.csv
-BBa_J09122,|ECFP+LVA, medium RBS|,919,,,Not Released,,Not in stock,None,Not Used,iGEM2005,Jon Badalamenti,2006-10-26,,pgroup=Reporter_RET&show=1.csv
-BBa_J09123,|ECFP-LVA device, strong RBS|,920,,,Not Released,,Not in stock,None,Not Used,iGEM2005,Jon Badalamenti,2006-10-26,,pgroup=Reporter_RET&show=1.csv
-BBa_J09144,|GFP-AAV device, medium RBS|,916,,,Not Released,,Not in stock,,3 Uses,iGEM2005,Jon Badalamenti,2006-10-26,,pgroup=Reporter_RET&show=1.csv

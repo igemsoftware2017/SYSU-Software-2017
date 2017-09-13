@@ -78,9 +78,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': "django",
-        'USER': "django",
+        'USER': "root",
         'HOST': "127.0.0.1",
-        'PASSWORD': "DjangoPass123!",
+        'PASSWORD': "123456",
         'OPTIONS': {
             "read_default_file": "igem2017/mysql.cnf",
         }
