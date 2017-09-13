@@ -67,3 +67,6 @@ def register(request):
             messages.error(request, Inv)
 
     return render(request, 'register.html')
+
+def design(request):
+    return render(request, 'design.html')

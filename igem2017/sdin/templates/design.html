@@ -1,0 +1,197 @@
+<html>
+  <head>
+    <title>Design - S-Din</title>
+    <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="/static/css/design.css">
+  </head>
+  <body>
+    <!-- Toolbar -->
+    <div class="ui fixed menu">
+      <div class="ui container">
+        <span class="item">
+          <i class="large undo link icon"></i>
+          <i class="large repeat link icon"></i>
+          <i id="open-fav-win" class="large star link icon"></i>
+          <i class="large folder open outline link icon"></i>
+          <i class="large save link icon"></i>
+          <i class="large external share link icon"></i>
+          <i class="large share alternate link icon"></i>
+        </span>
+        <span class="item">
+          <i class="large mouse pointer link icon"></i>
+          <i class="large hand paper link icon"></i>
+          <i class="large zoom link icon"></i>
+          <i class="large zoom out link icon"></i>
+          <div class="ui compact floating dropdown">
+            <i class="dropdown icon"></i>
+            <div class="default text">Ratio</div>
+            <div class="menu">
+              <div class="item">90%</div>
+              <div class="item">100%</div>
+              <div class="item">110%</div>
+              <div class="item">125%</div>
+            </div>
+          </div>
+        </span>
+        <span class="item">
+          <i class="large font link icon"></i>
+          <div class="ui compact floating dropdown">
+            <i class="dropdown icon"></i>
+            <div class="default text">Font</div>
+            <div class="menu">
+              <div class="item">Arial</div>
+              <div class="item">Times New Roman</div>
+              <div class="item">San Francisco</div>
+              <div class="item">Noto</div>
+            </div>
+          </div>
+        </span>
+        <span class="item">
+          <i class="large bullseye link icon"></i>
+          <i class="large long arrow right link icon"></i>
+        </span>
+        <div class="right menu">
+          <span class="item">
+            <i class="large user outline link icon"></i>
+          </span>
+          <span class="item">
+            <i class="large help circle outline link icon"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main canvas -->
+    <div id="canvas-box">
+      <div id="canvas"></div>
+    </div>
+
+    <!-- Part panel (right) -->
+    <div id="part-panel" class="window">
+      <div class="nav">
+        <h5 class="ui header">元件</h5>
+        <i id="part-panel-button" class="link icon angle double right"></i>
+      </div>
+      <div class="content">
+        <div class="ui fluid icon input">
+          <i class="search icon"></i>
+          <input type="text" placeholder="请输入元件编号">
+        </div>
+        <div class="ui top attached tabular menu">
+          <div class="active item">元件来源通路</div>
+        </div>
+        <div id="part-src-seg" class="ui bottom attached active tab segment">
+          <div class="ui centered fluid image">
+            <img src="/static/img/design/circuit.jpg" alt="">
+          </div>
+          <div id="part-src-divider" class="ui divider"></div>
+          <a id="part-src-more" href="/detail">查看详细信息</a>
+        </div>
+        <div class="ui top attached tabular menu">
+          <div class="active item">元件信息</div>
+        </div>
+        <div class="ui bottom attached active tab segment">
+          <img class="ui centered tiny image" src="/static/img/design/part.jpg" alt="">
+          <h5 class="ui center aligned header">元件名称</h5>
+          <div class="ui divider"></div>
+          <div id="part-info-des">
+            <p>Adipisicing soluta laboriosam consequatur lorem exercitationem Sequi labore explicabo eius nisi possimus Aperiam quisquam tenetur quos sit ex? Eum quibusdam magnam quam iure ipsa unde sit? Earum error tempora amet assumenda eum perspiciatis. Earum porro maxime ad nostrum doloribus Eius.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Favourite window (floating) -->
+    <div id="fav-win" class="window">
+      <div class="nav">
+        <h5 class="ui header">收藏夹</h5>
+        <i id="fav-win-button" class="link icon remove"></i>
+      </div>
+      <div class="content">
+        <div class="ui segment">
+          <div class="ui grid">
+            <div class="ten wide column">
+              <h5 class="ui header">Name: Dolor, Time: Ipsum</h5>
+              <div class="ui fluid image">
+                <img src="/static/img/design/circuit.jpg" alt="">
+              </div>
+            </div>
+            <div class="six wide column">
+              <p>Consectetur ipsa incidunt consequuntur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ui segment">
+          <div class="ui grid">
+            <div class="ten wide column">
+              <h5 class="ui header">Name: Dolor, Time: Ipsum</h5>
+              <div class="ui fluid image">
+                <img src="/static/img/design/circuit.jpg" alt="">
+              </div>
+            </div>
+            <div class="six wide column">
+              <p>Consectetur ipsa incidunt consequuntur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ui segment">
+          <div class="ui grid">
+            <div class="ten wide column">
+              <h5 class="ui header">Name: Dolor, Time: Ipsum</h5>
+              <div class="ui fluid image">
+                <img src="/static/img/design/circuit.jpg" alt="">
+              </div>
+            </div>
+            <div class="six wide column">
+              <p>Consectetur ipsa incidunt consequuntur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ui segment">
+          <div class="ui grid">
+            <div class="ten wide column">
+              <h5 class="ui header">Name: Dolor, Time: Ipsum</h5>
+              <div class="ui fluid image">
+                <img src="/static/img/design/circuit.jpg" alt="">
+              </div>
+            </div>
+            <div class="six wide column">
+              <p>Consectetur ipsa incidunt consequuntur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ui segment">
+          <div class="ui grid">
+            <div class="ten wide column">
+              <h5 class="ui header">Name: Dolor, Time: Ipsum</h5>
+              <div class="ui fluid image">
+                <img src="/static/img/design/circuit.jpg" alt="">
+              </div>
+            </div>
+            <div class="six wide column">
+              <p>Consectetur ipsa incidunt consequuntur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ui segment">
+          <div class="ui grid">
+            <div class="ten wide column">
+              <h5 class="ui header">Name: Dolor, Time: Ipsum</h5>
+              <div class="ui fluid image">
+                <img src="/static/img/design/circuit.jpg" alt="">
+              </div>
+            </div>
+            <div class="six wide column">
+              <p>Consectetur ipsa incidunt consequuntur.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/jquery-ui/jquery-ui.min.js"></script>
+  <script src="/static/semantic/dist/semantic.min.js"></script>
+  <script src="/static/js/design.js"></script>
+</html>

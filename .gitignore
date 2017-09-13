@@ -15,6 +15,3 @@ env/
 
 # MySQL config
 igem2017/igem2017/mysql.cnf
-
-#pycharm
-.idea/

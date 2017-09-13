@@ -34,11 +34,14 @@ def load_parts(parts_floder_path):
                 else:
                     quary = Parts.objects.filter(Name =row[name_idx])
                     if not quary.exists():
-                        Parts.objects.create(
-                            Name = row[name_idx],
-                            Description = row[description_idx],
-                            Type = part_type
-                        )
+                        try:
+                            Parts.objects.create(
+                                Name = row[name_idx],
+                                Description = row[description_idx],
+                                Type = part_type
+                            )
+                        except:
+                            pass
 
 #load works data
 def load_works(works_floder_path):
@@ -54,22 +57,25 @@ def load_works(works_floder_path):
                 if (row_cnt > 1):
                     quary = Works.objects.filter(TeamID=row[0])
                     if not quary.exists():
-                        Works.objects.create(
-                            TeamID = int(row[0]),
-                            Teamname = row[1],
-                            Region = row[2],
-                            Country = row[3],
-                            Track = row[4],
-                            Section = row[5],
-                            Size = int(row[6]),
-                            Status = row[7],
-                            Year = int(row[8]),
-                            Wiki = row[9],
-                            Medal = row[10],
-                            Award = row[11],
-                            Name = row[12],
-                            Use_parts = row[13],
-                        )
+                        try:
+                            Works.objects.create(
+                                TeamID = int(row[0]),
+                                Teamname = row[1],
+                                Region = row[2],
+                                Country = row[3],
+                                Track = row[4],
+                                Section = row[5],
+                                Size = int(row[6]),
+                                Status = row[7],
+                                Year = int(row[8]),
+                                Wiki = row[9],
+                                Medal = row[10],
+                                Award = row[11],
+                                Name = row[12],
+                                Use_parts = row[13],
+                            )
+                        except:
+                            pass
 
 
 def pre_load_data(currentpath):
