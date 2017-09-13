@@ -2,46 +2,77 @@
   position: absolute;
   border: 1px solid grey;
   border-radius: 5px;
-  background-color: inherit;
+  background-color: #e0e0e0;
 }
-.nav, .content {
+.window>.nav, .window>.content {
   width: 100%;
   padding: 1em;
 }
-.nav {
+.window>.nav {
   height: 3em;
   border-bottom: 1px solid;
 }
-.nav>i {
+.window>.nav>i {
   position: absolute;
   top: 1em;
   right: 1em;
 }
-.content {
+.window>.content {
   height: 100%;
 }
 
+/* Part panel */
 #part-panel {
   width: 300px;
   top: 60px;
   right: 20px;
 }
 #part-info-des {
-  max-height: 100px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+/* Favourite window */
+#fav-win>.content {
+  max-height: calc(100% - 4em);
   overflow-y: auto;
 }
 #fav-win {
   width: 400px;
   top: 200px;
   right: 400px;
+  max-height: 600px;
 }
-#fav-win>.content {
-  max-height: 500px;
-  overflow-y: auto;
+#fav-win>.content>.ui.segment {
+}
+
+/* Toolbox */
+#toolbox {
+  border: 2px solid #ffd578;
+  background-color: #f5f5f5;
+}
+#toolbox>.nav {
+  height: 1em;
+  padding: 1px;
+  background-color: #ffd578;
+  border-bottom: 0;
+}
+#toolbox>.nav>i {
+  left: 0;
+  top: 0;
+  color: white;
+}
+#toolbox>.content {
+  padding: 0.5em;
+}
+#toolbox>.content>i {
+  margin-right: 0;
+}
+#toolbox>.content>.ui.divider {
+  margin: 0.5rem 0;
 }
 
 body {
-  background-image: url('../../static/img/design-back.png');
   overflow: hidden;
 }
 div.ui.fixed.menu>div.ui.container {
@@ -57,16 +88,13 @@ div.ui.fixed.menu>div.ui.container {
 #canvas-box {
   width: 100%;
   height: 100%;
-  padding: 2em;
-  padding-top: 5.5em;
+  padding-top: 3em;
   transition: all 0.2s ease;
 }
 #canvas {
   width: 100%;
   height: 100%;
   background-color: white;
-  border-radius: 10px;
-  border: 1px solid grey;
 }
 #part-src-seg {
   padding-bottom: calc(14px + 1em + 4px);
@@ -76,4 +104,29 @@ div.ui.fixed.menu>div.ui.container {
 }
 #part-src-more {
   float: right;
+}
+
+.ui-resizable-handle {
+  position: absolute;
+}
+.ui-resizable-w {
+  cursor: w-resize;
+  height: 100%;
+  width: 1em;
+  top: 0;
+  left: 0;
+}
+.ui-resizable-s {
+  cursor: s-resize;
+  height: 1em;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.ui-resizable-sw {
+  cursor: sw-resize;
+  height: 1em;
+  width: 1em;
+  bottom: 0;
+  left: 0;
 }
