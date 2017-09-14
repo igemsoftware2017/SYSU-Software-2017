@@ -11,6 +11,6 @@ from django.http import HttpResponse
 
 # Create your tests here.
 def testdb(request):
-    #print(os.getcwd()+os.sep+"sdin"+os.sep+"preload")
-    pre_load_data(os.getcwd()+os.sep+"sdin"+os.sep+"preload")
+    #print(os.getcwd())
+    pre_load_data(os.getcwd()+os.sep+"sdin"+os.sep+"tools"+os.sep+"preload")
     return HttpResponse("<p>数据添加成功！</p>")

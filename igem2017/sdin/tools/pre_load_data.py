@@ -29,16 +29,18 @@ def load_parts(parts_floder_path):
             for row in csv_reader:
                 row_cnt += 1
                 if (row_cnt == 1):
-                    name_idx = row.index("Name")
-                    description_idx = row.index("Description")
+                    continue
                 else:
-                    quary = Parts.objects.filter(Name =row[name_idx])
+                    quary = Parts.objects.filter(Name =row[0])
                     if not quary.exists():
                         try:
                             Parts.objects.create(
-                                Name = row[name_idx],
-                                Description = row[description_idx],
-                                Type = part_type
+                                Name = row[0],
+                                Description = row[1],
+                                Type = row[2],
+                                Subpart = row[3],
+                                Safety = row[4],
+                                Sequence = row[5]
                             )
                         except:
                             pass
