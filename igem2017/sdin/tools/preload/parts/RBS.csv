@@ -1,0 +1,504 @@
+Name,Description,Type,Subpart,Safety,Sequence
+BBa_B0030,RBS.1 (strong) -- modified from R. Weiss,RBS,,,attaaagaggagaaa
+BBa_B0031,RBS.2 (weak) -- derivative of BBa_0030,RBS,,,tcacacaggaaacc
+BBa_B0032,RBS.3 (medium) -- derivative of BBa_0030,RBS,,,tcacacaggaaag
+BBa_B0033,RBS.4 (weaker) -- derivative of BBa_0030,RBS,,,tcacacaggac
+BBa_B0034,RBS (Elowitz 1999) -- defines RBS efficiency,RBS,,,aaagaggagaaa
+BBa_J176012,Kozak,RBS,,,cccgccgccaccatggag
+BBa_J44001,,RBS,,,tttctcctctttaat
+BBa_J61100,Ribosome Binding Site Family Member,RBS,,,aaagaggggaca
+BBa_J61101,Ribosome Binding Site Family Member,RBS,,,aaagacaggacc
+BBa_J61102,Ribosome Binding Site Family Member,RBS,,,aaagatccgatg
+BBa_J61103,Ribosome Binding Site Family Member,RBS,,,aaagattagaca
+BBa_J61104,Ribosome Binding Site Family Member,RBS,,,aaagaagggaca
+BBa_J61105,Ribosome Binding Site Family Member,RBS,,,aaagacatgacg
+BBa_J61106,Ribosome Binding Site Family Member,RBS,,,aaagataggaga
+BBa_J61107,Ribosome Binding Site Family Member,RBS,,,aaagaagagact
+BBa_J61108,Ribosome Binding Site Family Member,RBS,,,aaagacgagata
+BBa_J61109,Ribosome Binding Site Family Member,RBS,,,aaagactggaga
+BBa_J61110,Ribosome Binding Site Family Member,RBS,,,aaagaggcgaat
+BBa_J61111,Ribosome Binding Site Family Member,RBS,,,aaagaggcgata
+BBa_J61112,Ribosome Binding Site Family Member,RBS,,,aaagaggtgaca
+BBa_J61113,Ribosome Binding Site Family Member,RBS,,,aaagagtggaaa
+BBa_J61114,Ribosome Binding Site Family Member,RBS,,,aaagatgagaag
+BBa_J61115,Ribosome Binding Site Family Member,RBS,,,aaagaagggata
+BBa_J61116,Ribosome Binding Site Family Member,RBS,,,aaagacatgagg
+BBa_J61117,Ribosome Binding Site Family Member,RBS,,,aaagacatgagt
+BBa_J61118,Ribosome Binding Site Family Member,RBS,,,aaagagacgaat
+BBa_J61119,Ribosome Binding Site Family Member,RBS,,,aaagatttgata
+BBa_J61120,Ribosome Binding Site Family Member,RBS,,,aaagacgcgaga
+BBa_J61121,Ribosome Binding Site Family Member,RBS,,,aaagagacgagt
+BBa_J61123,Ribosome Binding Site Family Member,RBS,,,aaagagatgact
+BBa_J61124,Ribosome Binding Site Family Member,RBS,,,aaagagccgaca
+BBa_J61125,Ribosome Binding Site Family Member,RBS,,,aaagagccgagt
+BBa_J61126,Ribosome Binding Site Family Member,RBS,,,aaagaggtgact
+BBa_J61127,Ribosome Binding Site Family Member,RBS,,,aaagagtggaac
+BBa_J61128,Ribosome Binding Site Family Member,RBS,,,aaagataggact
+BBa_J61129,Ribosome Binding Site Family Member,RBS,,,aaagattggacg
+BBa_J61130,Ribosome Binding Site Family Member,RBS,,,aaagaaacgaca
+BBa_J61131,Ribosome Binding Site Family Member,RBS,,,aaagaaccgaat
+BBa_J61132,Ribosome Binding Site Family Member,RBS,,,aaagacaggatt
+BBa_J61133,Ribosome Binding Site Family Member,RBS,,,aaagacccgaga
+BBa_J61134,Ribosome Binding Site Family Member,RBS,,,aaagaccggaaa
+BBa_J61136,Ribosome Binding Site Family Member,RBS,,,aaagagctgagc
+BBa_J61137,Ribosome Binding Site Family Member,RBS,,,aaagagtagatc
+BBa_J61138,Ribosome Binding Site Family Member,RBS,,,aaagatatgaat
+BBa_J61139,Ribosome Binding Site Family Member,RBS,,,aaagattagagt
+BBa_J63003,designed yeast Kozak sequence,RBS,,,cccgccgccaccatggag
+BBa_K1017202,Regulation RBS-2,RBS,,,gaaaaaaagcatgagggtaat
+BBa_K1045010,RBS BBa_B0034 with inversed Pre- and Suffix,RBS,,,tttctcctcttt
+BBa_K1100014,ALeaderT (with insulator),RBS,,,ctgccgtataggcagctaaggagcagcaacgatgttacgcagcagggcagtcgccctaaaacaaagttaggcagcacggagacacttcagcatgggtggaggtagc
+BBa_K143021,SpoVG ribosome binding site (RBS) for B. subtilis,RBS,,,aaaggtggtgaa
+BBa_K606061,SpoVG Ribosome Binding Site (RBS) for B. subtilis,RBS,,,aaaggtggtgaa
+BBa_K737033,galK is the leader sequence of galactokinase (GalK),RBS,,,gtcgacagtcagcgatatccattttcgcgaatccggagtgtaagaaatgagtctgaaagaaaaaacacaatctctgtttgccaacgcatttggctaccctgccactcacaccattcaggcgatcgat
+BBa_J23080,b0034 derived RBS to match spacing of J01122,RBS,,,aaagaggaga
+BBa_J34801,ribosome binding site,RBS,,,aaagaggagaaa
+BBa_J34803,ribosome binding site,RBS,,,tcacacaggaaag
+BBa_J70591,RFC12 Elowitz RBS,RBS,,,aaagaggagaaa
+BBa_K1084101,SD2,RBS,,,gctctttaacaatttatcagatccaattcctgg
+BBa_K1084103,SD6,RBS,,,gctctttaacaatttatcagatccaataggagg
+BBa_K1084104,SD8,RBS,,,gctctttaacaatttatcagatccataaggagg
+BBa_K1114100,MoClo format of a modified version of BBa_B0030 with BC fusion sites.,RBS,,,tactagagattaaagaggagaaatactaaatg
+BBa_K1114101,MoClo format of a modified version of BBa_B0031 with BC fusion sites.,RBS,,,tactagagtcacacaggaaacctactaaatg
+BBa_K1114102,MoClo format of a modified version of BBa_B0032 with BC fusion sites,RBS,,,tactagagtcacacaggaaagtactaaatg
+BBa_K1114103,MoClo formatted version of B0033 with BC fusion sites,RBS,,,tactagagtcacacaggactactaaatg
+BBa_K1114104,MoClo formatted version of B0034 with BC fusion sites,RBS,,,tactagagaaagaggagaaatactaaatg
+BBa_K1114107,|Bicistronic Design RBS 2,RBS,,,tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctaaggaggttttctaatg
+BBa_K1114108,|Bicistronic design RBS 8,RBS,,,tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcatcggaccgtttctaatg
+BBa_K1114109,|Bicistronic design RBS 12,RBS,,,tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctgcggagggtttctaatg
+BBa_K1114110,|Bicistronic design RBS 13,RBS,,,tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcaatggaggctttctaatg
+BBa_K1114111,|Bicistronic design RBS 16,RBS,,,tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcttaggagtctttctaatg
+BBa_K1159300,Polioviral Internal Ribosome Entry Site (IRES) for polycistronic expression in eukaryotes,RBS,,,ttaaaacagctctggggttgtacccaccccagaggcccacgtggcggctagtactccggtattgcggtacccttgtacgcctgttttatactcccttcccgtaacttagacgcacaaaaccaagttcaatagaagggggtacaaaccagtaccaccacgaacaagcacttctgtttccccggtgatgtcgtatagactgcttgcgtggttgaaagcgacggatccgttatccgcttatgtacttcgagaagcccagtaccacctcggaatcttcgatgcgttgcgctcagcactcaaccccagagtgtagcttaggctgatgagtctggacatccctcaccggtgacggtggtccaggctgcgttggcggcctacctatggctaacgccatgggacgctagttgtgaacaaggtgtgaagagcctattgagctacataagaatcctccggcccctgaatgcggctaatcccaacctcggagcaggtggtcacaaaccagtgattggcctgtcgtaacgcgcaagtccgtggcggaaccgactactttgggtgtccgtgtttccttttattttattgtggctgcttatggtgacaatcacagattgttatcataaagcgaattggatt
+BBa_K1231002,Lpp-RBS is a constitutive promoter,RBS,,,ggtttcccgactggaatcaaaaaaatattctcaacataaaaaactttgtgtaatacttgtgaaataattttgtttaactttaagaaggag
+BBa_K1323016,Translational initiation region (RBS) for Staphylococcus aureus,RBS,,,tgattaactttataaggaggaaaaacat
+BBa_K1351028,LMU Bacillus RBS collection 1,RBS,,,aaggagggata
+BBa_K1351029,LMU Bacillus RBS collection 2,RBS,,,agaggaggata
+BBa_K1351030,LMU Bacillus RBS collection 3,RBS,,,aaggagagata
+BBa_K1351031,LMU Bacillus RBS collection 4,RBS,,,aggagaggata
+BBa_K1351032,LMU Bacillus RBS collection 5,RBS,,,aagaggagata
+BBa_K1351033,LMU Bacillus RBS collection 6,RBS,,,agaaagggata
+BBa_K1351034,LMU Bacillus RBS collection 7,RBS,,,aagaagagata
+BBa_K1379015,B0032 derivate for RBS used in Lock 3C,RBS,,,acgaagaggaga
+BBa_K1442023,EMCV IRES,RBS,,,ggcgcgccagaccacaacggtttccctctagcgggatcaattccgcccctctccctccccccccggtaacgttactggccgaagccgcttggaataaggccggtgtgcgtttgtctatatgttattttccaccatattgccgtcttttggcaatgtgagggcccggaaacctggccctgtcttcttgacgagcattcctaggggtctttcccctctcgccaaaggaatgcaaggtctgttgaatgtcgtgaaggaagcagttcctctggaagcttcttgaagacaaacaacgtctgtagcgaccctttgcaggcagcggaaccccccacctggcgacaggtgcctctgcggccaaaagccacgtgtataagatacacctgcaaaggcggcacaaccccagtgccacgttgtgagttggatagttgtggaaagagtcaaatggctctcctcaagcgtattcaacaaggggctgaaggatgcccagaaggtaccccattgtatgggatctgatctggggcctcggtgcacatgctttacatgtgtttagtcgaggttaaaaaacgtctaggccccccgaaccacggggacgtggttttcctttgaaaaacacgataatacctgtaca
+BBa_K1442024,NKRF IRES,RBS,,,ggcgcgcccagagtaatgacatggttccttccatcctccaaaggtgaccaataatagtttgtaagtatcattatgaactaatgaattttcaacatatttgatatatttcaatccattgccatcattgttcttatcgatatttgagttggctcactttgccagtaagagtctattcaaattggcttctgagtccatttgacacaacacctttgatctttgacagtttccttggttttaggtgctagatgatttctcaggctcaccttagacatttcctgccacagacttagaatcagccatttctctaaggaccctgattccatttcatgagaaatgatagagaccacaatcaaaacaagtcatgaatttatactgatattttcaattcaaattaaagatgaggtttttgctaaatttttttgagtttatatttgtatgtcttatgctgaaaaatcttgtttcctaattagtaacataattattcatttgatgggtaaatattttagggccgattctttggttttatagccaagataccctgttgataaagtcttgtgggagcaattataagactggcttattttgaagctttttaaaaaagacatccttacctgttttaactgtagattatattaacttaaataggtacagcccacgcttgtgtaca
+BBa_K1461000,crRBS,RBS,,,gaactctaccattcacctcttggatttgggtattaaagaggagaaaggtacc
+BBa_K1529997,aa,RBS,,,aaagaggagaaa
+BBa_K165002,Kozak sequence (yeast RBS),RBS,,,cccgccgccaccatggag
+BBa_K545006,mag ,RBS,,,tcatgaatcgcacgaccagggattgatcatgt
+BBa_K545666,rpos leader sequence,RBS,,,cccataacgacacaatgctggtccgggaacaacaagaagttaaggcggggcaaaaaatagcgaccatgggtagcaccggaaccagttcaacacgcttgcattttgaaattcgttacaaggggaaatccgtaaacccgctgcgttatttgccgcagcgataaatcggcggaaccaggcttttgcttgaatgttccgtcaagggatcacgggtaggagccacctt
+BBa_K783047,This is a MoClo converted version of BBa_B0030,RBS,,,attaaagaggagaaa
+BBa_K783048,This is a MoClo converted version of BBa_B0031,RBS,,,tcacacaggaaacc
+BBa_K783049,This is a MoClo converted version of BBa_B0032,RBS,,,tcacacaggaaag
+BBa_K783050,This is a MoClo converted version of BBa_B0033,RBS,,,tcacacaggac
+BBa_K783051,This is a MoClo converted version of BBa_B0034,RBS,,,aaagaggagaaa
+BBa_M36781,BCD13,RBS,,,tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcaatggaggctttctaatg
+BBa_B0029,1 bp deletion from B0031,RBS,,,ttcacacaggaaacc
+BBa_B0035,RBS (B0030 derivative),RBS,,,attaaagaggagaa
+BBa_B0036,Specialized RBS,RBS,,,gtgtg
+BBa_B0037,Specialized RBS,RBS,,,gtgtgtctag
+BBa_B0038,RBS 1,RBS,,,tcacacaggaaaccggttcgatg
+BBa_B0039,RBS 2,RBS,,,tcacacaggaaaggcctcgatg
+BBa_B0041,RBS 3,RBS,,,tcacacaggacggccggatg
+BBa_B0064,Tuned RBS for Q04401,RBS,,,aaagaggggaaa
+BBa_B0070,Specialized RBS modified from that of B0036 (Brink et al.),RBS,,,tctcacgtgtgtcaag
+BBa_B0071,Specialized RBS,RBS,,,tctcacgtgtgt
+BBa_B0072,orthogonal RBS,RBS,,,caccac
+BBa_B0073,Specialized RBS,RBS,,,tcacaccac
+BBa_B0074,Orthogonal RBS,RBS,,,tcacaccaccc
+BBa_B0075,Orthogonal RBS,RBS,,,aaccacaa
+BBa_B0076,Specialized RBS,RBS,,,catccct
+BBa_B0077,Specialized RBS,RBS,,,tcacatccct
+BBa_B0078,Specialized RBS,RBS,,,tcacatccctcc
+BBa_B2001,T7 RBS 0.3 ,RBS,,,actgcacgaggtaacacaag
+BBa_B2002,T7 RBS 0.4,RBS,,,tacgaggaggatgaagagta
+BBa_B2003,T7 RBS 0.5,RBS,,,actttacttatgagggagta
+BBa_B2017,2.8 RBS from T7,RBS,,,acgaagacggagacttctaa
+BBa_B2022,4B RBS from T7,RBS,,,aaccctcaggaggtaaacca
+BBa_B2040,8 RBS from T7,RBS,,,aagacatggagacacattta
+BBa_I11010,RBS,RBS,,,aggaggtcatc
+BBa_I20298,RBS from T7 gene 4,RBS,,,tacgaggaggatgaagagta
+BBa_I20299,|RBS from T7 gene 4,RBS,,,tacgaggaggatgaag
+BBa_I723012,Estimated RBS for DntR,RBS,,,gcaagctcttttttcagttgtctc
+BBa_I723014,Estimated RBS for DntA,RBS,,,ctgatagttaaaatcaccagcatga
+BBa_I723019,RBS for XylR,RBS,,,taaaaacaagaggaaaacaa
+BBa_I742130,Reverse RBS,RBS,,,tctcctcttt
+BBa_I742145,sam5 native rbs,RBS,,,acggagaagcagcgaa
+BBa_I742146,sam8 native rbs,RBS,,,gaggttgggacaag
+BBa_I742150,crtE native rbs,RBS,,,ctcgcgttgccgtaaatgtatccgtttataaggacagcccga
+BBa_I742153,crtY native rbs,RBS,,,ctcttaagtgggagcggct
+BBa_I742156,crtZ native rbs,RBS,,,ctctaccggagaaatt
+BBa_I742159,crtI native rbs,RBS,,,ctcatcgttaaagagcgactac
+BBa_I742163,native ftsK rbs,RBS,,,ctcagcctgtacctggagagcctttc
+BBa_J100112,BD24 C.dog cloned into J100110,RBS,,,atagtctgttcatggtgcttgacaattaatcatccggctcgtaatttatgtggaggctgatgtagttaaggcgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcgatggacgggttctaatggggaccatcttagttaagctatgtattcctg
+BBa_J100296,rClone Red Version 2 with RBS 2.0: Device for GGA Cloning and Testing RBS elements and Riboswitches,RBS,,,
+BBa_J100297,rClone Red Version 1.5 with RBS 2.0: Device for GGA Cloning and Testing RBS elements and Riboswitche,RBS,,,
+BBa_J119053,J23100 Promoter with BD18 RBS w/ leader and RFP reporter,RBS,,,gaattcgcggccgcttctagaggtcttccgacttgacggctagctcagtcctaggtacagtgctagcgcgggaagacaactaggggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcgacggagcgtttctaatggcttcctccgaagatgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagatggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagatggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagattacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaataatactagtagcggccgctgcag
+BBa_J119390,Collection of RBSs from N6 rClone Red Library,RBS,,,cgcgaggt
+BBa_J119391,Collection of RBSs from N8 rClone Red Library ,RBS,,,acaggggc
+BBa_J119392,Collection of Bicistronic RBSs from N6 rClone Red Library ,RBS,,,ggggaggg
+BBa_J119393,Collection of Bicistronic RBSs from N8 rClone Red Library ,RBS,,,gggggggg
+BBa_J146000,Consensus RBS,RBS,,,aaggaggtcatacgtagctgcgatatggtagccggtt
+BBa_J15001,strong synthetic E. coli ribosome binding site with SacI site.,RBS,,,ctcaaggagg
+BBa_J18912,T7 promoter + RBS + START,RBS,,,taatacgactcactatagggagaccacaacggtttccctctagcaataattttgtttaactttaagaaggagatatacatatg
+BBa_J26002,Mario Binding Site ,RBS
+BBa_J29048,RBS,RBS,,,aggaggattacaa
+BBa_J329998,Short Version of RBS with Predicted TIR of 99 au,RBS,,,ggtccacgaatatc
+BBa_J329999,RBS with Predicted TIR of 99 au for BBa_C0061,RBS,,,agtaataagtcaagcgcactacaaatcccgt
+BBa_J331018,RBS for hsp90,RBS,,,tctagagaactagaatcacctcttggatttgggtattaaagaggagatactagatg
+BBa_J34810,ribosome binding site,RBS,,,ggaagagg
+BBa_J364100,|Bicistronic Design Element,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctaaggaggttttct
+BBa_J56013,Rbs2 ribosome binding site ,RBS,,,tcacacaggaaaggcctcg
+BBa_J56016,Rbs-orig - ribosome binding site,RBS,,,attaaagaggagaaattaagc
+BBa_J59001,tuba,RBS,,,attttcgtttctgaaaaattttcgtttctgaaaa
+BBa_J61122,Ribosome Binding Site Family Member,RBS,,,aaagagaggagc
+BBa_J61135,Ribosome Binding Site Family Member,RBS,,,aaagaccggaga
+BBa_J61140,{rbs1} Library Member in BBb,RBS,,,tggctaacatagggt
+BBa_J61141,{rbs1} Library Member in BBb,RBS,,,tggctaactgaggat
+BBa_J61142,{rbs1} Library Member in BBb,RBS,,,tggctaacccagggt
+BBa_J61143,{rbs1} Library Member in BBb,RBS,,,tggctaactcaggtg
+BBa_J61144,{rbs1} Library Member in BBb,RBS,,,tggctaaccctggta
+BBa_J61145,{rbs1} Library Member in BBb,RBS,,,tggctaacttgggac
+BBa_J61146,{rbs1} Library Member in BBb,RBS,,,tggctaacgcaggtc
+BBa_J61147,{rbs1} Library Member in BBb,RBS,,,tggctaacatcggtg
+BBa_J64011,invB RBS,RBS,,,ttaattaaggaaaagatct
+BBa_J64013,sipA RBS,RBS,,,cagaagaggatattaata
+BBa_J64015,sopA RBS,RBS,,,ttgataaggaattgta
+BBa_J64018,invJ RBS,RBS,,,tcagaggagataattta
+BBa_J64020,invI RBS,RBS,,,tgacacgttgagcggtatga
+BBa_J64022,sicA RBS,RBS,,,acagataacaggagtaagta
+BBa_J64024,sipC RBS,RBS,,,taaagggagaaaaat
+BBa_J64026,sigE RBS,RBS,,,gagtcttgaggtaactat
+BBa_J64028,sopB RBS,RBS,,,tcaggaatattaaaaacgct
+BBa_J64030,sopD RBS,RBS,,,atttgaaggaaaatatt
+BBa_J64031,sptP RBS,RBS,,,caaaaacatactgcaggaat
+BBa_J64609,creD RBS,RBS,,,tgccattgcaaaggagaagact
+BBa_J64807,RocD RBS,RBS,,,aagggggaattcaaat
+BBa_J64808,RocE RBS,RBS,,,aaggggtgcagaat
+BBa_J64809,RocF RBS,RBS,,,aggtggaatcacag
+BBa_J64907,creA RBS,RBS,,,atagataaaaatggtaacaat
+BBa_J64908,RBS for creC in e coli operon,RBS,,,gggatatagcctgaggggcctgta
+BBa_J64968,RBS on creB,RBS,,,cggcaataacagaggcgattt
+BBa_J90000,Weak RBS,RBS,,,agggacaggat
+BBa_J95015,Strong RBS for Rhodobacter sphaeroides,RBS,,,catcaacggagg
+BBa_J95016,Weak RBS for Rhodobacter sphaeroides,RBS,,,cctgggggaggg
+BBa_J95017,Weaker RBS-GGAGG8 for Rhodobacter sphaeroides,RBS,,,tcagtggaggga
+BBa_J95018,Medium RBS-GGAGG10 for Rhodobacter sphaeroides,RBS,,,ggaggagggggc
+BBa_J95019,Medium RBS-GGAGG11 for Rhodobacter sphaeroides,RBS,,,tcggaggagcct
+BBa_J95021,RBS for Rhodobacter sphaeroides,RBS,,,gagcagaggaga
+BBa_J95028,RBS for Rhodobacter sphaeroides,RBS,,,ggaggggaggca
+BBa_J96040,IRES,RBS,,,cccccccccctaacgttactggccgaagccgcttggaataaggccggtgtgcgtttgtctatatgttattttccaccatattgccgtcttttggcaatgtgagggcccggaaacctggccctgtcttcttgacgagcattcctaggggtctttcccctctcgccaaaggaatgcaaggtctgttgaatgtcgtgaaggaagcagttcctctggaagcttcttgaagacaaacaacgtctgtagcgaccctttgcaggcagcggaaccccccacctggcgacaggtgcctctgcggccaaaagccacgtgtataagatacacctgcaaaggcggcacaaccccagtgccacgttgtgagttggatagttgtggaaagagtcaaatggctctcctcaagcgtattcaacaaggggctgaaggatgcccagaaggtaccccattgtatgggatctgatctggggcctcggtgcacatgctttacatgtgtttagtcgaggttaaaaa
+BBa_J96043,PS3,RBS,,,tgacaaactgtacatgccgttaactgtaattttgcgtgatttttttgtag
+BBa_J96044,PS4,RBS,,,aggtggtagccgcaaacatagttcaatacaaacttgctgtctcggcgg
+BBa_K082000,reconstruct strong RBS,RBS,,,attaaagaggagaaata
+BBa_K082001,RBS medium,RBS,,,tcacacaggaaagta
+BBa_K082002,RBS defines RBS efficiency,RBS,,,aaagaggagaaata
+BBa_K090505,''Bacillus subtilis'' consensus RBS,RBS,,,aaaggaggtgt
+BBa_K090506,''Bacillus subtilis'' weak RBS,RBS,,,agaggtggtgt
+BBa_K103015,consensus RBS,RBS,,,aggagg
+BBa_K104003,RBS_spaR,RBS,,,agggggccg
+BBa_K104005,RBS_spaK,RBS,,,ggggcgttg
+BBa_K104009,RBS_gfp,RBS,,,agaggagg
+BBa_K1074015,RBS for Pgrac,RBS,,,aaaggaggaaggatca
+BBa_K1074016,RBS for Pctc,RBS,,,aaaggtggtgaatactag
+BBa_K1084102,SD4                                 ,RBS,,,gctctttaacaatttatcagatccaattcgagg
+BBa_K1088055,RBS from pKT25,RBS,,,tttcacacaggaaacagct
+BBa_K1100000,ALeader,RBS,,,ggagcagcaacgatgttacgcagcagggcagtcgccctaaaacaaagttaggcagcacggagacacttcagcatg
+BBa_K1100001,ALeaderT:The First Artificial Triphase Riboswitch,RBS,,,ggagcagcaacgatgttacgcagcagggcagtcgccctaaaacaaagttaggcagcacggagacacttcagcatgggtggaggtagc
+BBa_K1100071,RNA-IN S1,RBS,,,ggcgaaaaatcaataaggagacaacaagatgt
+BBa_K1100072,RNA-IN S4,RBS,,,ggccaaaaatcaataaggagacaacaagatgt
+BBa_K1100073,RNA-IN S5,RBS,,,ggcgtaaaatcaataaggagacaacaagatgt
+BBa_K1100074,RNA-IN S31,RBS,,,gggcttaaatcaataaggagacaacaagatgt
+BBa_K1100075,RNA-IN S34,RBS,,,gccccgaaaaatcaataaggagacaacaagatgt
+BBa_K1100076,RNA-IN S49,RBS,,,gccccgaaaaatcaataaggagacaacaagatgt
+BBa_K1114106,|Bicistronic Design RBS 1,RBS,,,tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcacaggagactttctaatg
+BBa_K1123010,Ribosoom Binding Site,RBS,,,attccaggaaagagagccatcc
+BBa_K1130003,L. plantarum RBS,RBS,,,tttatcgcaagacaaattagaaggaggtataga
+BBa_K1145003,A ribosome switch which can be opened by atrazine.,RBS,,,gggacagggctagcatgaggcggggtaaaattgctccgataaaaacgcaaagtcctgcaggtcgacgccagggtggaacacaacaag
+BBa_K118012,Synthetic ribosome binding site added by Son of Babel procedure,RBS,,,gagg
+BBa_K121016,Tokyo Standard prefix suffix RBS,RBS,,,gtcgactgacgactggatcctgtcggagatctgtcggataacgcgtgagattaaagaggagaaa
+BBa_K1323022,Ribosome binding site from the sodA Staphylococcus aureus gene,RBS,,,ttaggaggatgattattt
+BBa_K1341023,LTT-rbs,RBS,,,aggaaaccggttc
+BBa_K1362090,strong T7 RBS,RBS,,,aataattttgtttaactttaagaaggaga
+BBa_K1403008,sRBS,RBS,,,aaattttatttaagacaaactttaggagaaaaaga
+BBa_K1403010,RBS for agaA in E coli,RBS,,,aggcaaacaaacacgaacaaaaaggggaaagagct
+BBa_K1403011,sRBS,RBS,,,cccgggggaaccggggacagctcggaggtaccggt
+BBa_K1403020,sRBS ,RBS,,,cccgggggaaccggggacagctcggaggtaccggt
+BBa_K1419003,Universal riboregulatable RBS,RBS,,,cgcttaaatcaaagaggagaaaataatcatgaccggtaa
+BBa_K143020,GsiB ribosome binding site (RBS) for B. subtilis,RBS,,,taaaggaggaa
+BBa_K1442000,Test,RBS,,,tgggggaaatgggggcccccccaaaaaa
+BBa_K1442008,EMCV IRES,RBS,,,
+BBa_K1442109,EMCV IRES with forward GFP,RBS,"['BBa_K1442029', 'BBa_K1442023', 'BBa_K1442106', 'BBa_K1442301']",,gcgaaattaatacgactcactatagggggcgcgccagaccacaacggtttccctctagcgggatcaattccgcccctctccctccccccccggtaacgttactggccgaagccgcttggaataaggccggtgtgcgtttgtctatatgttattttccaccatattgccgtcttttggcaatgtgagggcccggaaacctggccctgtcttcttgacgagcattcctaggggtctttcccctctcgccaaaggaatgcaaggtctgttgaatgtcgtgaaggaagcagttcctctggaagcttcttgaagacaaacaacgtctgtagcgaccctttgcaggcagcggaaccccccacctggcgacaggtgcctctgcggccaaaagccacgtgtataagatacacctgcaaaggcggcacaaccccagtgccacgttgtgagttggatagttgtggaaagagtcaaatggctctcctcaagcgtattcaacaaggggctgaaggatgcccagaaggtaccccattgtatgggatctgatctggggcctcggtgcacatgctttacatgtgtttagtcgaggttaaaaaacgtctaggccccccgaaccacggggacgtggttttcctttgaaaaacacgataatacctgtacatgtacaatgcggaaaggggaggagctcttcacaggcgtggtgcccatactggtggagttggacggcgacgtgaacggtcacaagttctcagtctctggggagggagagggcgatgccacctatggcaagcttacactgaagttcatttgtacgaccggcaagctccctgtgccatggcccaccctggtcacaaccttcggctacggggtgcagtgctttgccagatatcccgaccacatgaagcagcatgacttctttaagagtgcaatgcccgaagggtatgtgcaggaacgaacgattttttttaaggacgacgggaattacaaaacccgcgccgaggttaagttcgagggcgataccctggttaatcggatagagctcaaaggaatagattttaaagaggacggtaacattctgggccacaagctcgaatataactataattcacacaacgtatacatcatggctgacaagcagaaaaacggcatcaaagttaactttaagatacgacacaacattgaagacgggtctgtgcagttggctgaccactaccagcagaacacgccgatcggggatggaccggtgctgctgcctgacaaccactacctctctacccagtctgccctgtctaaggaccctaacgaaaagcgggatcacatggtgcttcttgagttcgtcactgccgcaggaattacacacggtatggacgaactctataagtaataacgcgcgcgtagcataaccccttggggcctctaaacgggtcttgaggggtttttt
+BBa_K1442110,NKRF IRES with forward GFP,RBS,"['BBa_K1442029', 'BBa_K1442024', 'BBa_K1442106', 'BBa_K1442301']",,gcgaaattaatacgactcactatagggtactagagggcgcgcccagagtaatgacatggttccttccatcctccaaaggtgaccaataatagtttgtaagtatcattatgaactaatgaattttcaacatatttgatatatttcaatccattgccatcattgttcttatcgatatttgagttggctcactttgccagtaagagtctattcaaattggcttctgagtccatttgacacaacacctttgatctttgacagtttccttggttttaggtgctagatgatttctcaggctcaccttagacatttcctgccacagacttagaatcagccatttctctaaggaccctgattccatttcatgagaaatgatagagaccacaatcaaaacaagtcatgaatttatactgatattttcaattcaaattaaagatgaggtttttgctaaatttttttgagtttatatttgtatgtcttatgctgaaaaatcttgtttcctaattagtaacataattattcatttgatgggtaaatattttagggccgattctttggttttatagccaagataccctgttgataaagtcttgtgggagcaattataagactggcttattttgaagctttttaaaaaagacatccttacctgttttaactgtagattatattaacttaaataggtacagcccacgcttgtgtacatactagagtgtacaatgcggaaaggggaggagctcttcacaggcgtggtgcccatactggtggagttggacggcgacgtgaacggtcacaagttctcagtctctggggagggagagggcgatgccacctatggcaagcttacactgaagttcatttgtacgaccggcaagctccctgtgccatggcccaccctggtcacaaccttcggctacggggtgcagtgctttgccagatatcccgaccacatgaagcagcatgacttctttaagagtgcaatgcccgaagggtatgtgcaggaacgaacgattttttttaaggacgacgggaattacaaaacccgcgccgaggttaagttcgagggcgataccctggttaatcggatagagctcaaaggaatagattttaaagaggacggtaacattctgggccacaagctcgaatataactataattcacacaacgtatacatcatggctgacaagcagaaaaacggcatcaaagttaactttaagatacgacacaacattgaagacgggtctgtgcagttggctgaccactaccagcagaacacgccgatcggggatggaccggtgctgctgcctgacaaccactacctctctacccagtctgccctgtctaaggaccctaacgaaaagcgggatcacatggtgcttcttgagttcgtcactgccgcaggaattacacacggtatggacgaactctataagtaataacgcgcgcgtactagagtagcataaccccttggggcctctaaacgggtcttgaggggtttttt
+BBa_K1453790,try,RBS,,,
+BBa_K1453791,try,RBS,,,
+BBa_K1463100,|GvpA,RBS,,,aaagagaa
+BBa_K1463560,Reverse RBS,RBS,,,acctccctaa
+BBa_K1471011,RBS (Arabidopsis Thaliana).,RBS,,,aagcaatggcg
+BBa_K1479003,Just for upload test,RBS,,,
+BBa_K1479004,Just for upload test,RBS,,,tcacactggctcaccttcgggtgggcctttctgcgtttatatactagagagagaatataaaaagccagattattaatccggcttttttattattttactagagcgccaaaaaccccgcccctgacagggcggggtttttccgctactagagcgcaaaaaaccccgcccctgacagggcggggttttttcgctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatatactagagagagaatataaaaagccagattattaatccggcttttttattattttactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata
+BBa_K1479006,Just for upload test,RBS,,,aaccttggaattccggaaccttggaattccgg
+BBa_K1479007,Just for upload test,RBS,,,aaccttggaattccggaaccttggaattccgg
+BBa_K1479015,Just for test,RBS,,,aattccggaattccgg
+BBa_K150005,ribosome binding site of pTrc99a,RBS,,,aggaaacagaacc
+BBa_K1529948,abe,RBS,,,atatatatatatatattatatata
+BBa_K1583008,RBS,RBS,,,aaggaggtatat
+BBa_K1583058,RBS ,RBS,,,aggaggtatata
+BBa_K1583061,RBS ,RBS,,,aaagaggagaaa
+BBa_K1605002, nifZ RBS,RBS,,,agaggaaggtctaaa
+BBa_K1605004,nifE RBS,RBS,,,acgcattacccttat
+BBa_K1605006,nifH RBS,RBS,,,ctaaggaggtaagta
+BBa_K1605008,Ptet mRFP nifS RBS,RBS,,,aaggggaattaaatc
+BBa_K1605010,nifK RBS,RBS,,,ataaggagcatttaa
+BBa_K1605012,nifB RBS,RBS,,,cgagggggctatcat
+BBa_K1605014,nifD RBS,RBS,,,aaagaaggaggtatt
+BBa_K1605016,nifN RBS,RBS,,,ggcaggcaagcctat
+BBa_K1605018,hesB RBS,RBS,,,ttaaaggatttaaccc
+BBa_K1605020,hesA RBS,RBS,,,cctaaggactcaact
+BBa_K1605022,cysE2 RBS,RBS,,,acataaggaggagca
+BBa_K1605024,nifV RBS,RBS,,,taaggcagcaactat
+BBa_K1616011,RBS reversed,RBS,,,ttgtcccctctttc
+BBa_K1624003,RBS,RBS,,,aaggaga
+BBa_K1638001,RBS from pKT25 and pUT18,RBS,,,tttcacacaggaaacagct
+BBa_K1638017,RBS from pKT25 and pUT18C with consensus Shine-Dalgarno,RBS,,,tttcacacaggaggcagct
+BBa_K1642004,SD sequence of cpcB,RBS,,,tataagtaggagataaaaac
+BBa_K1650034,RBS,RBS,,,aaggaggaatta
+BBa_K1676001,RBS Mutant 1AC,RBS,,,caagaggagaaa
+BBa_K1676002,RBS Mutant 1AG,RBS,,,gaagaggagaaa
+BBa_K1676003,RBS Mutant 1AT,RBS,,,taagaggagaaa
+BBa_K1676004,RBS Mutant 2AC,RBS,,,acagaggagaaa
+BBa_K1676005,RBS Mutant 2AG,RBS,,,agagaggagaaa
+BBa_K1676006,RBS Mutant 2AT,RBS,,,atagaggagaaa
+BBa_K1676007,RBS Mutant 3AC,RBS,,,aacgaggagaaa
+BBa_K1676008,RBS Mutant 3AG,RBS,,,aaggaggagaaa
+BBa_K1676009,RBS Mutant 3AT,RBS,,,aatgaggagaaa
+BBa_K1676010,RBS Mutant 4GA,RBS,,,aaaaaggagaaa
+BBa_K1676011,RBS Mutant 4GC,RBS,,,aaacaggagaaa
+BBa_K1676012,RBS Mutant 4GT,RBS,,,aaataggagaaa
+BBa_K1676013,RBS Mutant 5AC,RBS,,,aaagcggagaaa
+BBa_K1676014,RBS Mutant 5AG,RBS,,,aaaggggagaaa
+BBa_K1676015,RBS Mutant 5AT,RBS,,,aaagtggagaaa
+BBa_K1676016,RBS Mutant 6GA,RBS,,,aaagaagagaaa
+BBa_K1676017,RBS Mutant 6GC,RBS,,,aaagacgagaaa
+BBa_K1676018,RBS Mutant 6GT,RBS,,,aaagatgagaaa
+BBa_K1676019,RBS Mutant 7GA,RBS,,,aaagagaagaaa
+BBa_K1676020,RBS Mutant 7GC,RBS,,,aaagagcagaaa
+BBa_K1676021,RBS Mutant 7GT,RBS,,,aaagagtagaaa
+BBa_K1676022,RBS Mutant 8AC,RBS,,,aaagaggcgaaa
+BBa_K1676023,RBS Mutant 8AG,RBS,,,aaagaggggaaa
+BBa_K1676024,RBS Mutant 8AT,RBS,,,aaagaggtgaaa
+BBa_K1676025,RBS Mutant 9GA,RBS,,,aaagaggaaaaa
+BBa_K1676026,RBS Mutant 9GC,RBS,,,aaagaggacaaa
+BBa_K1676027,RBS Mutant 9GT,RBS,,,aaagaggataaa
+BBa_K1676028,RBS Mutant 10AC,RBS,,,aaagaggagcaa
+BBa_K1676029,RBS Mutant 10AG,RBS,,,aaagaggaggaa
+BBa_K1676030,RBS Mutant 10AT,RBS,,,aaagaggagtaa
+BBa_K1676031,RBS Mutant 11AC,RBS,,,aaagaggagaca
+BBa_K1676032,RBS Mutant 11AG,RBS,,,aaagaggagaga
+BBa_K1676033,RBS Mutant 11AT,RBS,,,aaagaggagata
+BBa_K1676034,RBS Mutant 12AC,RBS,,,aaagaggagaac
+BBa_K1676035,RBS Mutant 12AG,RBS,,,aaagaggagaag
+BBa_K1676036,RBS Mutant 12AT,RBS,,,aaagaggagaat
+BBa_K1676073,Mutant RBS Opt,RBS,,,ccgaaggagttg
+BBa_K1705011,rCHU_1284,RBS,,,ggtctcatactataagaaaagaatgagagacc
+BBa_K1725301,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725302,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725303,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725304,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725305,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725306,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725307,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725308,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725309,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725310,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725311,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725312,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725313,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725314,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725315,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725316,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725317,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725318,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725319,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725320,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725321,Member of the RBS library - derived from BBa_0032,RBS,,,tcacacaggaggg
+BBa_K1725322,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725323,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725324,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725325,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725326,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725327,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725328,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725329,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725330,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725331,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1725332,Member of the RBS library - derived from BBa_B0032,RBS,,,tcacacaggaggg
+BBa_K1759900,try,RBS,,,
+BBa_K1789002,RBS30,RBS,,,attaaagaggagaaa
+BBa_K1799011,LsrA RBS,RBS,,,ctgaacgggg
+BBa_K1799012,LsrC RBS,RBS,,,cgtcaggagg
+BBa_K1799013,LsrD RBS,RBS,,,aaacgggagg
+BBa_K1799014,LsrB RBS,RBS,,,ataaaggata
+BBa_K1799028,RBS.2,RBS
+BBa_K1799029,RBS.4,RBS
+BBa_K1841003,ribosome binding site for lactobacillus casei,RBS,,,ggaggtgatgacaact
+BBa_K1841012,rbs (lactobacillus casei) ,RBS,,,agaaaggatgat
+BBa_K1875001,This part contains a Kozak sequence,RBS,,,gccgccacc
+BBa_K1893033,Strong ribosome binding site (RBS),RBS,,,ggatctaggaggaaggatct
+BBa_K1895001,rpoH,RBS,,,gattgagaggatttga
+BBa_K1897031,B0033 with flanking Scar sites,RBS,,,tactagagtcacacaggactactag
+BBa_K1897032,B0032 with flanking Scar sites,RBS,,,tactagagtcacacaggaaagtactag
+BBa_K1897034,B0032-Scar site,RBS,,,tcacacaggaaagtactag
+BBa_K1897036,B0033-Scar site,RBS,,,tcacacaggactactag
+BBa_K1906010,Ribothermometer A1,RBS,,,
+BBa_K1906011,Ribothermometer JB2-B1,RBS,,,tactagagttcgttaaaaaaaaaaagtactaaggagtactag
+BBa_K1906012,RNAT Mut,RBS,,,tactagagttctttaaaaaaaaaaagtactaaggagtactag
+BBa_K1906013,Ribothermometer JB2-C6,RBS,,,tactagagctttttaaaaaaaaaaagtactaaggagtactag
+BBa_K1906014,Ribothermometer JB1-A8,RBS,,,tactagagctcatatttaacttcatgtactaaggagtactag
+BBa_K1906015,Ribothermometer JB1-B2,RBS,,,tactagagctctagttttattttgtgtactaaggagtactag
+BBa_K1906016,Ribothermometer JB1_B5,RBS,,,tactagagctcaaattttttgtactaaggagtactag
+BBa_K1906017,Ribothermometer JB2-B6,RBS,,,tactagagctctattatttcaatatgtactaaggagtactag
+BBa_K1906018,Ribothermometer JB1-G3,RBS,,,tactagagctcttattgtaaaacatgtactaaggagtactag
+BBa_K1906019,Ribothermometer JB1-G4,RBS,,,tactagagctcggtccttactattcgtactaaggagtactag
+BBa_K1906020,ribothermometer modified A1 to work as positive cpntrol,RBS,,,tactagagctcggtccttactattcgtactaaggagtactag
+BBa_K1906021,ribothermometer,RBS,,,
+BBa_K1925000,sdasd,RBS,,,
+BBa_K1968002,Synechocystis RBS* Phytobrick,RBS,,,tacttagtggaggttactaaatg
+BBa_K1992000,Tar native RBS,RBS,,,aacttgttttcaggaaggtgcctt
+BBa_K1993016,IRES,RBS,,,gcccctctccctcccccccccctaacgttactggccgaagccgcttggaataaggccggtgtgcgtttgtctatatgttattttccaccatattgccgtcttttggcaatgtgagggcccggaaacctggccctgtcttcttgacgagcattcctaggggtctttcccctctcgccaaaggaatgcaaggtctgttgaatgtcgtgaaggaagcagttcctctggaagcttcttgaagacaaacaacgtctgtagcgaccctttgcaggcagcggaaccccccacctggcgacaggtgcctctgcggccaaaagccacgtgtataagatacacctgcaaaggcggcacaaccccagtgccacgttgtgagttggatagttgtggaaagagtcaaatggctctcctcaagcgtattcaacaaggggctgaaggatgcccagaaggtaccccattgtatgggatctgatctggggcctcggtacacatgctttacatgtgtttagtcgaggttaaaaaaacgtctaggccccccgaaccacggggacgtggttttcctttgaaaaacacgatgataatatggccacaacc
+BBa_K1994002,RBS 173k TIRv1,RBS,,,caagggacatcaggaggagggaattataga
+BBa_K1994004,RBS 28.4k_NEQ RBSCv1.1,RBS,,,cttggtattatgctagctactagacaattaatagggaggttctcgag
+BBa_K1994007,synRBS 9675 TIRv(1 or 2) ,RBS,,,ctctttcctctaaggacgtaacaaacacat
+BBa_K2018026,Ribosomal binding site for hlyB,RBS,,,tatattaatttaaatgatagcaatcttactgggctgtgccacataagattgctattttttttggagtcata
+BBa_K2018028,RBS for hlyD,RBS,,,cagaaagaacagaagaat
+BBa_K2018032,RBS for panK,RBS,,,agtcacacaggaaagtactag
+BBa_K2027073,(pMS-AFa-DEa) pAKP444 RBS 1 extraction,RBS,,,taataaggtaccaggaggaattaaccat
+BBa_K2027074,(pMS-AFa-DEa) pAKP444 RBS 2 extraction,RBS,,,taataaggtaccaggaggaaactata
+BBa_K2042003,RBS,RBS,,,gaaggag
+BBa_K2066510,Strong RBS from Lou et. al 2012,RBS,,,aggaggaaaaaa
+BBa_K2066515,RBS2 (weak),RBS,,,
+BBa_K2066526,B0034 with scar TACTAG,RBS,,,
+BBa_K2066527,B0034 with scar TACTAG,RBS,,,aaagaggagaaatactag
+BBa_K2066549,Synthetic Enhancer Project: RBS,RBS,,,a
+BBa_K208100,Rhodobacter sphaeroides RBS,RBS,,,gcaccagggaggtactagatg
+BBa_K208101,Rhodobacter sphaeroides RBS,RBS,,,catcaacggaggtactagatg
+BBa_K208102,Rhodobacter sphaeroides RBS,RBS,,,cctgggggagggtactagatg
+BBa_K208103,Rhodobacter sphaeroides RBS,RBS,,,tcagtggagggatactagatg
+BBa_K208104,Rhodobacter sphaeroides RBS,RBS,,,ggaggggaggcatactagatg
+BBa_K208105,Rhodobacter sphaeroides RBS,RBS,,,ggaggagggggctactagatg
+BBa_K208106,Rhodobacter sphaeroides RBS,RBS,,,tcggaggagccttactagatg
+BBa_K208107,Rhodobacter sphaeroides RBS,RBS,,,gggaggaggcggtactagatg
+BBa_K208108,Rhodobacter sphaeroides RBS,RBS,,,ggaggtgttctttactagatg
+BBa_K2116019,RBS designed for sfgfp,RBS,,,tctaaataaaagcgtataaataagaggaggttatc
+BBa_K2116020,RBS for mNectarine,RBS,,,gccgagaggcgcttacatagggaattactcaa
+BBa_K2116031,RBS for sfGFP,RBS,,,ggtacctctaaataaaagcgtataaataagaggaggttatc
+BBa_K2116033,RBS_esaR,RBS,,,caataagggggtactcc
+BBa_K2116094,Salis RBS for BB assembly,RBS,,,gccgagaggcgcttacatagggaattactcaa
+BBa_K2116999,RBS for EsaR,RBS,,,caataagggggtactcc
+BBa_K2138000,RNA thermometer and RBS (40C),RBS,,,gaattcgcggccgcttctagaggttgacggctagctcagtcctaggtacagtgctagctggaaaaccactgcttaacttcaataataacttttaaatactcattaaagacaggaccctactagtagcggccgctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctagag
+BBa_K2138001,RNA thermometer and RBS (39C),RBS,,,gaattcgcggccgcttctagaggttgacggctagctcagtcctaggtacagtgctagcttttaaattacaattatttacaaacttaaattataccaaaataaaaattaataaaatacaaacaaataaaaatacatttaatacaaatattttaaacaataaattaacatataaaaataaaaaagacaggaccctactagtagcggccgctgcagtactagtagcggccgctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctagag
+BBa_K2138002,RNA thermometer and RBS (33C),RBS,,,gaattcgcggccgcttctagaggttgacggctagctcagtcctaggtacagtgctagctatctattattcatatcatatatctatatcatcaaaagacaggaccctactagtagcggccgctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctagag
+BBa_K2182004,RBS for BBa_K2182003,RBS,,,ttacctggaaagagagccatcc
+BBa_K2241000,233?,RBS,,,
+BBa_K234001, -- No description -- ,RBS,,,
+BBa_K234090, -- No description -- ,RBS,,,
+BBa_K239008,RBS from RpoS ,RBS,,,ttcgggtgaacagagtgctaacaaaatgttgccgaacaacaagccaactgcgaccacggtcacagcgcctgtaacggtaccaacagcaagcacaaccgagccgactgtcagcagtacatcaaccagtacgcctatctccacctggcgctggccgactgagggcaaagtgatcgaaacctttggcgcttctgaggggggcaacaaggggattgatatcgcaggcagcaaaggacaggcaattatcgcgaccgcagatggccgcgttgtttatgctggtaacgcgctgcgcggctacggtaatctgattatcatcaaacataatgatgattacctgagtgcctacgcccataacgacacaatgctggtccgggaacaacaagaagttaaggcggggcaaaaaatagcgaccatgggtagcaccggaaccagttcaacacgcttgcattttgaaattcgttacaaggggaaatccgtaaacccgctgcgttatttgccgcagcgataaatcggcggaaccaggcttttgcttgaatgttccgtcaagggatcacgggtaggagccacctt
+BBa_K252015,f,RBS,,,
+BBa_K285201,mrgA rbs,RBS,,,aacagatcacaaggaggacgttatctt
+BBa_K294120,nasa,RBS,,,
+BBa_K356105,Desinged RBS,RBS,,,cgaaattaaggagg
+BBa_K356106,Desinged RBS,RBS,,,cggcgatcgggaggta
+BBa_K360031,Strong RBS with spacer.,RBS,,,aggaaacagct
+BBa_K376001,Super RBS,RBS,,,aaattcacacaaatttaaggagag
+BBa_K390001,5'UTR and native RBS from psbA2 in Synechocystis sp. PCC 6803,RBS,,,agtcagttccaatctgaacatcgacaaatacataaggaattataaccaa
+BBa_K390002,5'UTR and consensus RBS from psbA2 in Synechocystis sp. PCC 6803,RBS,,,agtcagttccaatctgaacatcgacaaatacaaaaggaggtttaaccaa
+BBa_K393002,short RBS,RBS,,,gaggaggtttat
+BBa_K415145,p8Acid,RBS,,,
+BBa_K545005,fha ,RBS,,,ggtatcacccgatgtgtcttcccgaggcgacgaaacgccggaaagccgtcgggccagcctggatgcgaaccgaaatccctcgggcacgggggtgagcgcctggaagagccgggcgctggcaatgcaaggagtagcat
+BBa_K566037,RBS.3 (Inverted),RBS,,,ctttcctgtgtga
+BBa_K619892,mutated prfA thermosensor from listeria,RBS,,,tgcagtttagcgtgcggctgcagtttagcgtgactttctttcaacagcttacaattgttgttactgcctaatgtttttagggtattttaaaaaagggcgataaaaaacgattggaggatgagacatgaacgctcaaaagc
+BBa_K624012,RBS from Pmsp3,RBS,,,gtccaagccctatgagggagcctttctaatg
+BBa_K624013,RBS (6 bps truncated) from Pmsp3,RBS,,,gtccaagccctatgagggagcc
+BBa_K641001,rbs for ffGFP,RBS,,,tagctactagagaaagaggagaaatactag
+BBa_K641004,rbs for ToxR,RBS,,,gccacgcacaaaactacggtagcaa
+BBa_K737020,Cyanobacteria gene ribosome binding site ,RBS,,,aggag
+BBa_K780001,Strong RBS for Bacillus Subtilis,RBS,,,atattaagaggaggag
+BBa_K780002,Strong RBS for Bacillus Subtilis,RBS,,,agagaacaaggagggg
+BBa_K784007,Spacer + RBS from theophylline riboswitch,RBS,,,tctctctctctttaattaatctctctcctgctaaggtaacaacaag
+BBa_K784012,Spacer2 + RBS from theophylline riboswitch,RBS,,,tctctctctctttagattaattaatctctctcctgctaaggtaacaacaag
+BBa_K792001,Kozak sequence from yeast α-factor mating pheromone (MFα1),RBS,,,ggatccacgattaaaagaatg
+BBa_K809008,RBS sequence of yeast mitochondrial  gene AI1,RBS,,,atgaatataataataataatattattaaaattaatatataaaaaaaaagtaaaa
+BBa_K809009,RBS sequence of yeast mitochondrial gene OLI1,RBS,,,atgttaattatatataatatatttatatataattatatatatatatataaataataataaatatatatataatataaaaataagaatagattaaatatttaataaataaatatt
+BBa_K812053,RBS B0034 with GoldenBrick sequence,RBS,,,gaattcggtctctagacaaagaggagaaatactagtgagaccctgca
+BBa_K812058,A GoldenBricked-medium strenght RBS J61107,RBS,,,gaattcggtctctagacaaagaagagacttactagtgagaccctgcag
+BBa_K812059,A GoldenBricked version of week RBS J61117 ,RBS,,,gaattcggtctctagacaaagacatgagttactagtgagaccctgcag
+BBa_K821009,Orthogonal RBS 1,RBS,,,gttccg
+BBa_K879021,rbs based on B0034,RBS,,,tactagagaaagaggagaaatactag
+BBa_K879022,Rbs 2,RBS,,,agattcgccagtcgaaataggaggtatca
+BBa_K879023,Rbs 3,RBS,,,atttcactacacatattaggggggtcgtc
+BBa_K879024,rbs 4,RBS,,,gtatattacggacgaaaaggacgaacaga
+BBa_K879025,Rbs 5,RBS,,,ggtaaaacaccagaggagggcagaataaa
+BBa_K879026,Rbs 6,RBS,,,aaggaattaaagagagggagggcttacgt
+BBa_K892005,Strong RBS ,RBS,,,aggaggtaaaaaaaaa
+BBa_K896599,|Strophurus rankini voucher AMS R140490 NADH dehydrogenase subunit 4 (ND4) gene,RBS,,,agatcgtctaatacctaaaattagtggaatactgttttcctacgaaagtggaggggcccaggaagttaatcctggtagaaaaaattagcagtttgatcttgtagttacatgcccctcggtaggtaaggaggtgttgtttcctatctctggtgccacagaccagtgtcataagttaaactatacctgcgttaggataatagattcgggtgggtagttaaaagtcctagggggagggagtggagtgttataaggaggtgctctcgtgtttggctgggggttgtggttagatggtttgttgttttattccgttgcgtggtgaggaaaatatagagtgtataggaggcagcgataagggttgtaacggctgttaatagggttgtggttttggctcaattgaatgaggctgaaatagttacgagttctcctaggaggcga
+BBa_K899009,Doubble ribosomal binding site (FFT) (shine-dalgarno and kozak sequence),RBS,,,aggaggtgtcacc
+BBa_K899010,Doubble ribosomal binding site (SST) (shine-dalgarno and kozak sequence),RBS,,,aggaggttacacc
+BBa_K923005,Ribosome Binding Site in pET14b plasmid,RBS,,,aggag
+BBa_M1105,Pyrene degradation enzyme RBS,RBS,,,tcacaccaccc
+BBa_M11402,5' UTR and RBS of psbA2 gene in Synechocystis sp. PCC 6803,RBS,,,agtcagttccaatctgaacatcgacaaatacataaggaattataaccaa
+BBa_M13501,M13K07 gene I RBS,RBS,,,gattgggataaataat
+BBa_M13502,M13KO7 gene II RBS,RBS,,,atcaaccggggtacat
+BBa_M13503,M13K07 gene III RBS,RBS,,,tttggagattttcaac
+BBa_M13504,M13K07 gene IV RBS,RBS,,,aaaaaaggtaattcaa
+BBa_M13505,M13KO7 gene V RBS,RBS,,,cataaggtaattcaca
+BBa_M13506,M13K07 gene VI RBS,RBS,,,ataaggagtcttaatc
+BBa_M13507,M13KO7 gene VII RBS,RBS,,,gttccggctaagtaac
+BBa_M13508,M13K07 gene VIII RBS,RBS,,,taatggaaacttcctc
+BBa_M13509,M13Ko7 gene IX RBS,RBS,,,tcgctgggggtcaaag
+BBa_M13510,M13KO7 gene X RBS,RBS,,,atttgagggggattca
+BBa_M13511,M13K07 gene XI RBS,RBS,,,aatttaggtcagaag
+BBa_M1694,Ribosome binding site,RBS,,,ttcagggggggaaa
+BBa_M1782,Synechocystis RBS Site,RBS,,,aagagaagtc
+BBa_M36000,|5' Bicistronic UTR (weak),RBS,,,tatagagggtattaataatgtatggattaaagccggaaacataacaa
+BBa_M36001,|5' Bicistronic UTR (medium),RBS,,,tatagagggtattaataatgtatggattaaagggggaggcataacaa
+BBa_M36009,|5' Bicistronic UTR (strong),RBS,,,tatagagggtattaataatgtatggattaaaaggggaggtataacaa
+BBa_M36034,BCD02 - Bicistronic Design 02,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctaaggaggttttcta
+BBa_M36068,Adapted fnr binding site,RBS,,,ccgagctcttacgcgggtcgaagttgattacgatcaaagttgattacgatcaaattgattacgatcaaagtcgactctagagggtatataatggatctcgagatatcggagctcgtttagtgaaccgtca
+BBa_M36070,Bicistronic RBS - BIOFAB ID: apFAB681 (BCD1),RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcacaggagactttctaatg
+BBa_M36120,5' Bicistronic UTR (strong) contains ATG start Codon. ,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctaaggaggttttctaatg
+BBa_M36204,Bicistronic RBS (BD14),RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcggtggagggtttcta
+BBa_M36236,5' Bicistronic UTR (no ATG),RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctaaggaggttttcta
+BBa_M36237,5' Bicistronic UTR (no ATG),RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcacaggagactttcta
+BBa_M36269,RBS: modified BBa_B0034,RBS,,,aaagaggagaaatat
+BBa_M36282,|5' Bicistronic UTR,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctaaggaggttttctaatg
+BBa_M36288,medium 5' Bicistronic UTR (BD21),RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcgagggatggtttctaatg
+BBa_M36289,medium 5' Bicistronic UTR (BD8),RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcatcggaccgtttctaatg
+BBa_M36293,|5' Bicistronic UTR,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctgcggagggtttctaatg
+BBa_M36361,|5' Bicistronic UTR (apFAB866,RBS,,,aataattttgtttaactttaagaaggaggtatatccatggctagcatgactaaacatcttaatcatgctaaggaggttttcta
+BBa_M36405,Bicistronic RBS (medium) pFAB1646,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcaggggatattttctgatg
+BBa_M36450,Bicistronic RBS - pFAB1692,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcgatggactctttctg
+BBa_M36452,RBS - MCD 6,RBS,,,tcttaatcatgcgccggaggttttctaat
+BBa_M36454,MCD 20,RBS,,,tcttaatcatgctgaggaaagtttctaatg
+BBa_M36516,Bicistronic RBS #5,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcaggggagggtttctaatg
+BBa_M36521,|strong 5' bicistronic UTR,RBS,,,aataattttgtttaactttaagaaggaggtatatccatggctagcatgactaaacatcttaatcatgctaaggaggttttctaatg
+BBa_M36542,BCD22 - RBS,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcctaggaagttttctaatg
+BBa_M36556,|5' Bicistronic UTR (medium),RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctaaggaggttttcta
+BBa_M36559,RBS and Spacer,RBS,,,tcacacaggaaagtactag
+BBa_M36583,Strong RBS - BBa_J61100,RBS,,,tctagagaaagaggggacaaactagatg
+BBa_M36595,Bicistronic design RBS,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcgcgggagggtttctgat
+BBa_M36724,|5' Bicistronic UTR (strong),RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcacaggagactttctg
+BBa_M36771,Strong RBS from DNA 2.0 Gene Designer,RBS,,,aggaggtaaaaaa
+BBa_M36804,pRBS-SD1+6A,RBS,,,aggaggtaaaaaa
+BBa_M36913,takes PoPs input,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcgggggagcgtttctgatg
+BBa_M36917,Zinc Promoter (ZntR regulated) with own RBS,RBS,,,cgtccgctcgctgtatctctgataaaacttgatagtggcgtcgactcacgcgtatacccctcggttaatgagaaaaaacttaaccggagga
+BBa_M36925,Bicistronic RBS (medium) apFAB682,RBS,,,gggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctaaggaggttttctaatg
+BBa_M45193,E. coli RBS,RBS,,,attaaagaggagaa
+BBa_M45214,Physcomitrella patens ribosome binding site,RBS,,,accatcgacagaaccatatccactcgattcatggcagcttttgacgaccatccctagttccgatcacgcacgcacaccggctttgccacgcataccgacttgattgcagtcacagcgcttgccgcgacgccaatccgttcccttgtaccgcatcctgacatttgtccattcgtgtttttgttttttgggttttgagttttgatcgag
+BBa_M45406,minimal TATA Box,RBS,,,agacactagagggtatataatggaagctcgacttccagcttggcaatccggtactgttggtaaa
+BBa_M50007,U1 Thermosensitive 5'-UTR (includes RBS),RBS,,,ggatcccaccttactagtctgcagaaggagatataccc
+BBa_M50008,U10 Thermosensitive 5'-UTR (includes RBS),RBS,,,ggatcctctccttactagtctgcagaaggagatataccc
+BBa_M50019,Strong ribosome binding site,RBS,,,ttaggaggtaaacat
+BBa_M50024,RBS for Gold detection plasmid,RBS,,,caaagaggag
+BBa_M50062,Strong RBS,RBS,,,aggagatatacat
+BBa_Z0261,Strong T7.2 RBS,RBS,,,aatcaataggagaaatcaat
+BBa_Z0262,Medium strength T7.2 RBS,RBS,,,ttaaagaggagaaatactag
+RBS,RBS,RBS,,,
