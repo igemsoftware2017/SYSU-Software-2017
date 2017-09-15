@@ -10,6 +10,8 @@ from django.contrib.auth.models import AbstractBaseUser
 
 from django.contrib.auth.base_user import BaseUserManager
 
+from .bio import *
+
 class UserManager(BaseUserManager):
     
     def create_user(self, email, password, **other_fields):
@@ -60,4 +62,12 @@ class Works(models.Model):
 
     def __str__(self):
         return "%s : %s" % str(self.TeamID), self.Teamname
+
+class UserFavorite(models.Model):
+    user = models.ForeignKey('User', on_delete = models.CASCADE)
+    circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE)
+
+    def __str__(self):
+        return "%s - %s" % self.user.name, self.circuit.Name
+
 

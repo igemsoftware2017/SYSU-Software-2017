@@ -11,3 +11,18 @@ class Parts(models.Model):
     def __str__(self):
         return "%s : %s" % self.Name, self.Description
 
+class Circuit(models.Model):
+    Name = models.CharField(max_length = 50, unique = True)
+    Description = models.CharField(max_length = 100)
+
+    def __str__(self):
+        return "%s" % self.Name
+
+class CircuitLine(models.Model):
+    Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE)
+    Start = models.ForeignKey('Parts', on_delete = models.CASCADE)
+    End = models.ForeignKey('Parts', on_delete = models.CASCADE, null = True)
+    Type = models.CharField(max_length = 20)
+
+    def __str__(self):
+        return "%s" % self.Circuit.Name

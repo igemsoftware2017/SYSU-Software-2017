@@ -28,10 +28,10 @@ urlpatterns = [
     url(r'^detail$', main_views.detail),
     url(r'^interest$', main_views.interest),
     url(r'^register$', main_views.register),
-    url(r'^design$', main_views.design),
+    url(r'^design$', design_views.design),
     url(r'^testdb$', test_views.testdb),
 ] + \
 [
     # API urls
-    url(r'api/query_parts$', design_views.query_part),
+    url(r'api/search_parts$', design_views.search_parts),
 ]

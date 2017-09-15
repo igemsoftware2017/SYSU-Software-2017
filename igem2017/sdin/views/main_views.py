@@ -68,5 +68,3 @@ def register(request):
 
     return render(request, 'register.html')
 
-def design(request):
-    return render(request, 'design.html')
