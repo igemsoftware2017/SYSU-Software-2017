@@ -41,7 +41,7 @@ def logout_view(request):
 def search(request):
     return render(request, 'search.html')
 
-@login_required
+#@login_required
 def interest(request):
     return render(request, 'interest.html')
 
