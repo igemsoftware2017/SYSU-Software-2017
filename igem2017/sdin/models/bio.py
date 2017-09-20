@@ -24,6 +24,8 @@ class Circuit(models.Model):
 class CircuitParts(models.Model):
     Part = models.ForeignKey('Parts', on_delete = models.CASCADE)
     Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE)
+    X = models.IntegerField()
+    Y = models.IntegerField()
 
     def __str__(self):
         return "%s of %s" % self.Part.Name, self.Circuit.Name
