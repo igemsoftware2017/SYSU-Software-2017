@@ -20,7 +20,7 @@ All response contains a status in json
 def design(request):
     return render(request, 'design.html')
 
-def search_part(request):
+def search_parts(request):
     '''
     GET method with param:
         name=xxx
@@ -30,7 +30,7 @@ def search_part(request):
             'id': xxx,
             'Name': xxx,
             'Description': xxx,
-            'Type': xxx
+            'Type': xxx,
         ]}
     '''
     query_name = request.GET.get('name')
@@ -72,12 +72,14 @@ def get_part(request):
             'id': xxx,
             'Name': xxx,
             'Description': xxx,
-            'Type': xxx
+            'Type': xxx,
+            'Subparts': [1, 2, 3] (ids of subparts)
         }
     '''
     query_id = request.GET.get('id')
     try:
         part = Parts.objects.get(pk = query_id)
+        
         return HttpResponse(json.dumps({
             'status': 1,
             'part': part.__dict__}))
@@ -101,3 +103,4 @@ def get_circuit(request):
         query_set = CircuitLine.objects.filter(Circuit = query_id)
         relations = [x.__dict__ for x in query_set]
     except:
+        pass

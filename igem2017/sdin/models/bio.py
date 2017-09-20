@@ -7,7 +7,7 @@ class Parts(models.Model):
     Name = models.CharField(max_length = 50, unique = True)
     Description = models.CharField(max_length = 100)
     Type = models.CharField(max_length = 20)
-    Subpart = models.CharField(max_length = 500)
+    Subparts = models.ManyToManyField('Parts')
     Safety = models.CharField(max_length = 500)
     Sequence = models.TextField()
 
@@ -22,13 +22,16 @@ class Circuit(models.Model):
         return "%s" % self.Name
 
 class CircuitParts(models.Model):
-    Part = models.foreignkey(
-
-class CircuitLine(models.Model):
+    Part = models.ForeignKey('Parts', on_delete = models.CASCADE)
     Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE)
-    Start = models.ForeignKey('Parts', on_delete = models.CASCADE)
-    End = models.ForeignKey('Parts', on_delete = models.CASCADE, null = True)
+
+    def __str__(self):
+        return "%s of %s" % self.Part.Name, self.Circuit.Name
+
+class CircuitLines(models.Model):
+    Start = models.ForeignKey('CircuitParts', related_name = 'Start', on_delete = models.CASCADE)
+    End = models.ForeignKey('CircuitParts', related_name = 'End', on_delete = models.CASCADE)
     Type = models.CharField(max_length = 20)
 
     def __str__(self):
-        return "%s" % self.Circuit.Name
+        return "%s to %s of type %s" % self.Start.Part.Name, self.End.Part.Name, self.Type
