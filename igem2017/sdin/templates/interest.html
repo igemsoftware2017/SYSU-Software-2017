@@ -42,7 +42,7 @@ body {
   width: 100;
   height: 100;
   border-radius: 50%;
-  transition: all 0.2s ease-out;
+  transition: transform 0.2s ease-out, left 2s linear, top 2s linear;
   text-align: center;
   vertical-align: middle;
   line-height: 100px;
@@ -90,12 +90,19 @@ var options = [
   { text: 'superman', top: 300, left: 750 }
 ]
 options.forEach(function (o, i) {
-  id = 'interest-' + i;
+  let id = 'interest-' + i;
   $('.interests').append('<div class="interest" id="' + id + '" :style="style" @mouseenter="enter" @mouseleave="leave" @click="click">' + o.text + '</div>');
   $('#' + id).css({
     top: o.top,
     left: o.left
   });
+  $('#' + id).data('id', id);
+  $('#' + id).data('timerId', setInterval(function() {
+    $('#' + id).css({
+      top: $('#' + id).position().top + Math.random() * 20 - 10,
+      left: $('#' + id).position().left + Math.random() * 20 - 10
+    });
+  }, 2000));
   o.vue_obj = new Vue({
     el: '#' + id,
     data: {

@@ -16,17 +16,22 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from sdin import views as sdin_view
-from sdin import tests as sdin_tests
+from sdin.views import main_views
+from sdin.views import test_views
+from sdin.views import design_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', sdin_view.index),
-    url(r'^index$', sdin_view.index),
-    url(r'^search$', sdin_view.search),
-    url(r'^detail$', sdin_view.detail),
-    url(r'^interest$', sdin_view.interest),
-    url(r'^register$', sdin_view.register),
-    url(r'^design$', sdin_view.design),
-    url(r'^testdb$', sdin_tests.testdb),
+    url(r'^$', main_views.index),
+    url(r'^index$', main_views.index),
+    url(r'^search$', main_views.search),
+    url(r'^detail$', main_views.detail),
+    url(r'^interest$', main_views.interest),
+    url(r'^register$', main_views.register),
+    url(r'^design$', design_views.design),
+    url(r'^testdb$', test_views.testdb),
+] + \
+[
+    # API urls
+    url(r'api/search_parts$', design_views.search_parts),
 ]
