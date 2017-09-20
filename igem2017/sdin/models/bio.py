@@ -21,6 +21,9 @@ class Circuit(models.Model):
     def __str__(self):
         return "%s" % self.Name
 
+class CircuitParts(models.Model):
+    Part = models.foreignkey(
+
 class CircuitLine(models.Model):
     Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE)
     Start = models.ForeignKey('Parts', on_delete = models.CASCADE)
