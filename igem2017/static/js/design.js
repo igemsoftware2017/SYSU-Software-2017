@@ -50,6 +50,9 @@ $('#part-panel-button')
       $('#canvas-box').css({
         width: 'calc(100% - ' + win.width() + 'px)'
       });
+      win
+        .children('.nav')
+        .children('.ui.header').hide();
     } else {
       $(this).removeClass('left').addClass('right');
       // Free from the right
@@ -76,6 +79,9 @@ $('#part-panel-button')
         win.css({
           transition: ''
         })}, 200);
+      win
+        .children('.nav')
+        .children('.ui.header').show();
     }
   });
 $('#part-panel')
@@ -112,6 +118,26 @@ $('#toolbox')
   .resizable('disable')
   .children('.ui-resizable-handle')
     .hide();
+$('#toolbox>.nav>i.icon')
+  .on('click', function() {
+    cont = $('#toolbox>.content');
+    if ($(this).hasClass('minus')) {
+      cont
+        .data('height', cont.outerHeight())
+        .css({
+          height: 0,
+          padding: '0 0.5em'
+        });
+      $(this).removeClass('minus').addClass('plus');
+    } else {
+      cont
+        .css({
+          height: cont.data('height'),
+          padding: '1em 0.5em'
+        });
+      $(this).removeClass('plus').addClass('minus');
+    }
+  });
 
 function initPositionSize() {
   $('#fav-win').css({
@@ -119,7 +145,12 @@ function initPositionSize() {
   });
   $('#toolbox').css({
     top: 500,
-    left: 100
+    left: 100,
+  });
+  $('#toolbox>.content').css({
+    height: $('#toolbox>.content').outerHeight() + 1
   });
 }
 initPositionSize();
+$('#ratio-dropdown')
+  .dropdown('set text', '100%');
