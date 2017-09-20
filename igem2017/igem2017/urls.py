@@ -29,9 +29,13 @@ urlpatterns = [
     url(r'^interest$', main_views.interest),
     url(r'^register$', main_views.register),
     url(r'^design$', design_views.design),
-    url(r'^testdb$', test_views.testdb),
 ] + \
 [
     # API urls
     url(r'api/search_parts$', design_views.search_parts),
+] + \
+[
+    # Test urls
+    url(r'^testdb$', test_views.testdb),
+    url(r'^get_circuit_test', test_views.get_circuit_test),
 ]
