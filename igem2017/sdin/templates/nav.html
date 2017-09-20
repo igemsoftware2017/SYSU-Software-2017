@@ -1,0 +1,21 @@
+    <div class="ui inverted fixed menu" id="nav">
+      <div class="ui container">
+        <a class="item" href="/">S-Din</a>
+        <div class="right menu">
+          <a class="item" href="/design">
+            Design
+          </a>
+          {% if request.user.is_authenticated %}
+          <span class="item">{{ request.user.email }}</span>
+          {% else %}
+          <a class="item" id="signin-button">
+            <i class="user outline icon"></i>
+            Sign In
+          </a>
+          {% endif %}
+          <a class="item">
+            <i class="sidebar icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>

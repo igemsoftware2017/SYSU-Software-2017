@@ -1,0 +1,43 @@
+.ui.shape, .ui.shape.animating {
+  width: 100% !important;
+}
+.ui.inverted.menu {
+  transition: all 0.25s ease-out;
+}
+#nav {
+  background-color: transparent;
+}
+#info-bar {
+  top: -100px;
+}
+#info-bar>.ui.container>.item {
+  border-left: none;
+}
+#info-bar>.ui.container>.item:before {
+  width: 0;
+}
+#info-bar>.ui.container>.item>h4 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#index-button {
+  border: 0;
+}
+.ui.main.container {
+  margin-top: 6em;
+}
+body {
+  background-image: url("/static/img/detail-back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 2000px;
+}
+#register-modal {
+  top: auto;
+}
+#button-group {
+  margin: 0;
+}
+#next-button {
+  text-align: right;
+}
