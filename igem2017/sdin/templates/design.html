@@ -39,7 +39,7 @@
         </span>
         <div class="right menu">
           <span class="item">
-            <i class="large user outline link icon"></i>
+            <i class="large user outline link icon" id="signin-button"></i>
           </span>
           <span class="item">
             <i class="large help circle outline link icon"></i>
@@ -192,9 +192,12 @@
         <i class="big superpowers link icon"></i>
       </div>
     </div>
+
+    {% include "login.html" %}
   </body>
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/js/jquery-ui/jquery-ui.min.js"></script>
   <script src="/static/semantic/dist/semantic.min.js"></script>
   <script src="/static/js/design.js"></script>
+  <script src="/static/js/login.js"></script>
 </html>

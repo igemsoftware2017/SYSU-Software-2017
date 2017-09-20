@@ -1,0 +1,42 @@
+.ui.inverted.menu {
+  background: transparent;
+}
+.ui.main.container {
+  margin-top: 8em;
+}
+body {
+  background-image: url("/static/img/index-back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: hidden;
+}
+#logo-search-box {
+  width: 70%;
+  margin-left: 0 !important;
+}
+#search-icon {
+  pointer-events: auto;
+  cursor: pointer;
+}
+#button-group {
+  margin: 0;
+}
+#register-button {
+  text-align: left;
+}
+#signup-button {
+  text-align: right;
+}
+#dimmer {
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  left: 0!important;
+  top: 0!important;
+  position: fixed;
+  z-index: -500;
+  transition: background 0.3s linear;
+}
+#search-box {
+  z-index: 501;
+}
