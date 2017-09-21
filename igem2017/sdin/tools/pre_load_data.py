@@ -6,6 +6,7 @@ preload parts,works and circuits data into database
 from ..models import *
 import os
 import csv
+import re
 
 # load parts data
 def get_parts_type(filename):
