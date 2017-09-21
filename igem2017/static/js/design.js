@@ -140,6 +140,7 @@ $('#toolbox>.nav>i.icon')
   });
 
 function initPositionSize() {
+  $('#part-panel-button').click();
   $('#fav-win').css({
     height: $(this).height()
   });
@@ -154,3 +155,37 @@ function initPositionSize() {
 initPositionSize();
 $('#ratio-dropdown')
   .dropdown('set text', '100%');
+
+
+// Canvas aware
+var canvas = $('#canvas');
+var canvas_width = canvas.width();
+var canvas_height = canvas.height();
+  // x axis: top->down
+  // y axis: left->right
+  // init (0, 0) to (200, 200) of canvas
+var canvas_position_x = 200;
+var canvas_position_y = 200;
+
+function addPart(data) {
+  let part = $('<div></div>').appendTo('#canvas');
+  console.log(part);
+  part.addClass('part');
+  part.css({
+    top: canvas_position_x + data.X,
+    left: canvas_position_y + data.Y
+  });
+  return part;
+}
+
+$.get({
+  url: '/get_circuit_test',
+  success: function(data) {
+    data = JSON.parse(data);
+    console.log(data);
+    $(data.parts).each(function(index, part) {
+      addPart(part);
+    });
+  }
+});
+
