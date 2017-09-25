@@ -64,26 +64,32 @@
           <i class="search icon"></i>
           <input type="text" placeholder="请输入元件编号">
         </div>
-        <div class="ui top attached tabular menu">
-          <div class="active item">元件来源通路</div>
-        </div>
-        <div id="part-src-seg" class="ui bottom attached active tab segment">
-          <div class="ui centered fluid image">
-            <img src="/static/img/design/circuit.png" alt="">
+        <div class="tab-context">
+          <div class="ui top attached tabular menu">
+            <div class="active item" data-tab="src-tab">元件来源通路</div>
           </div>
-          <div id="part-src-divider" class="ui divider"></div>
-          <a id="part-src-more" href="/detail">查看详细信息</a>
-        </div>
-        <div class="ui top attached tabular menu">
-          <div class="active item">元件信息</div>
-        </div>
-        <div class="ui bottom attached active tab segment">
-          <img class="ui centered tiny image" src="/static/img/design/part.jpg" alt="">
-          <h5 class="ui center aligned header">元件名称</h5>
-          <div class="ui divider"></div>
-          <div id="part-info-des">
-            <p>Adipisicing soluta laboriosam consequatur lorem exercitationem Sequi labore explicabo eius nisi possimus Aperiam quisquam tenetur quos sit ex? Eum quibusdam magnam quam iure ipsa unde sit? Earum error tempora amet assumenda eum perspiciatis. Earum porro maxime ad nostrum doloribus Eius.</p>
+          <div id="part-src-seg" class="ui bottom attached active tab segment" data-tab="src-tab">
+            <div class="ui centered fluid image">
+              <img src="/static/img/design/circuit.png" alt="">
+            </div>
+            <div id="part-src-divider" class="ui divider"></div>
+            <a id="part-src-more" href="/detail">查看详细信息</a>
           </div>
+        </div>
+        <div class="tab-context">
+          <div class="ui top attached tabular menu">
+            <div class="active item" data-tab="info-tab">元件信息</div>
+            <div class="item" data-tab="func-tab">功能</div>
+          </div>
+          <div class="ui bottom attached active tab segment" data-tab="info-tab">
+            <img class="ui centered tiny image" src="/static/img/design/part.jpg" alt="">
+            <h5 class="ui center aligned header">元件名称</h5>
+            <div class="ui divider"></div>
+            <div id="part-info-des">
+              <p>Adipisicing soluta laboriosam consequatur lorem exercitationem Sequi labore explicabo eius nisi possimus Aperiam quisquam tenetur quos sit ex? Eum quibusdam magnam quam iure ipsa unde sit? Earum error tempora amet assumenda eum perspiciatis. Earum porro maxime ad nostrum doloribus Eius.</p>
+            </div>
+          </div>
+          <div class="ui bottom attached tab segment" data-tab="func-tab"></div>
         </div>
       </div>
     </div>
@@ -178,19 +184,11 @@
     </div>
 
     <!-- Toolbox -->
-    <div id="toolbox" class="window">
-      <div class="nav">
-        <i class="minus link icon"></i>
-      </div>
-      <div class="content">
-        <i class="big plus link icon"></i>
-        <div class="ui divider"></div>
-        <i class="big trash link icon"></i>
-        <div class="ui divider"></div>
-        <i class="big external link icon"></i>
-        <div class="ui divider"></div>
-        <i class="big superpowers link icon"></i>
-      </div>
+    <div id="toolbox">
+      <i class="inverted plus link icon"></i>
+      <i class="inverted trash link icon"></i>
+      <i class="inverted external link icon"></i>
+      <i class="inverted superpowers link icon"></i>
     </div>
 
     {% include "login.html" %}
@@ -198,6 +196,8 @@
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/js/jquery-ui/jquery-ui.min.js"></script>
   <script src="/static/semantic/dist/semantic.min.js"></script>
+  <script src="/static/semantic/dist/components/tab.min.js"></script>
+  <script src="https://cdn.bootcss.com/jsPlumb/2.2.10/jsplumb.min.js"></script>
   <script src="/static/js/design.js"></script>
   <script src="/static/js/login.js"></script>
 </html>

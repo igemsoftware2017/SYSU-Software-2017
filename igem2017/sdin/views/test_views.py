@@ -21,27 +21,27 @@ def get_circuit_test(request):
     parts = [{
             'id': 1,
             'cid': 1,
-            'Name': "1111",
-            'Description': 'skajf',
+            'Name': "BBa_1111",
+            'Description': 'Lorem',
             'Type': 'a',
             'X': 0,
             'Y': 0
         },{
             'id': 2,
             'cid': 2,
-            'Name': "2222",
-            'Description': 'skajf',
+            'Name': "BBa_second",
+            'Description': 'Ipsum',
             'Type': 'a',
-            'X': 10,
-            'Y': 10
+            'X': 100,
+            'Y': 100
         },{
             'id': 3,
             'cid': 4,
-            'Name': "3333",
-            'Description': 'skajf',
+            'Name': "BBa_3rd",
+            'Description': 'dolor',
             'Type': 'c',
-            'X': 10,
-            'Y': 20
+            'X': -100,
+            'Y': 200
         }]
     lines = [{
             'Start': 1,
