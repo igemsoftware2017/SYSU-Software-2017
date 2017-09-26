@@ -97,6 +97,7 @@ def search_parts(request):
     parts = [x.__dict__ for x in query_set]
     return HttpResponse(json.dumps({
             'status': 1,
+            'parts': parts}))
 
 def get_part(request):
     '''
