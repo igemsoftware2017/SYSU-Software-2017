@@ -8,7 +8,8 @@ var options = [
 options.forEach(function (o, i) {
   let id = 'interest-' + i;
   $('.interests').append('<div class="interest" id="' + id + '">' + o.text + '</div>');
-  let item = $('#' + id);
+  o.item = $('#' + id);
+  let item = o.item;
   item
     .css({
       top: o.top,
@@ -57,14 +58,12 @@ options.forEach(function (o, i) {
           boxShadow: '0 0 2em 0 rgba(0, 0, 0, 0.7)'
         });
         chosenInterest.add(item.data('option'));
-        console.log(chosenInterest);
       } else {
         item.data('chosen', false);
         item.css({
           boxShadow: '0 0 1em 0 rgba(0, 0, 0, 0.7)'
         });
         chosenInterest.delete(item.data('option'));
-        console.log(chosenInterest);
       }
     });
 });
@@ -72,7 +71,15 @@ options.forEach(function (o, i) {
 $('#reset')
   .on('click', function() {
     options.forEach(function(o, i) {
-      o.vue_obj.deselect();
-      o.vue_obj.style.transform = 'scale(1, 1)';
+      if (o.item.data('chosen')) {
+        o.item
+          .data('chosen', false)
+          .data('hover', false)
+          .css({
+            boxShadow: '0 0 1em 0 rgba(0, 0, 0, 0.7)',
+            transform: 'scale(1.0, 1.0)'
+          });
+        chosenInterest.delete(o.item.data('option'));
+      }
     });
   });

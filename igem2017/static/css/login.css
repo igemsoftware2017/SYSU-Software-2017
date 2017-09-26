@@ -1,0 +1,9 @@
+#button-group {
+  margin: 0;
+}
+#register-button {
+  text-align: left;
+}
+#login-button {
+  text-align: right;
+}

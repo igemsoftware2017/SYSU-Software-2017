@@ -18,15 +18,6 @@ body {
   pointer-events: auto;
   cursor: pointer;
 }
-#button-group {
-  margin: 0;
-}
-#register-button {
-  text-align: left;
-}
-#signup-button {
-  text-align: right;
-}
 #dimmer {
   background: rgba(0, 0, 0, 0);
   width: 100%;
