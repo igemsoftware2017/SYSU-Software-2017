@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
+from django.shortcuts import render, redirect
 
 import json
 from django.http import HttpResponse
@@ -8,6 +9,8 @@ from sdin.models import *
 from django.contrib.auth.decorators import login_required
 
 from django.core.exceptions import ObjectDoesNotExist
+
+import traceback
 
 '''
 All response contains a status in json
@@ -94,7 +97,11 @@ def search_parts(request):
             'status': 0}))
 
     query_set = Parts.objects.filter(Name__contains = query_name)
-    parts = [x.__dict__ for x in query_set]
+    parts = [{
+        'id': x.id,
+        'Name': x.Name,
+        'Description': x.Description,
+        'Type': x.Type} for x in query_set]
     return HttpResponse(json.dumps({
             'status': 1,
             'parts': parts}))
@@ -115,7 +122,11 @@ def get_part(request):
     try:
         query_id = request.GET.get('id')
         part = Parts.objects.get(pk = query_id)
-        part_dict = part.__dict__
+        part_dict = {
+            'id': part.id,
+            'Name': part.Name,
+            'Description': part.Description,
+            'Type': part.Type}
         part_dict['Subparts'] = [x.id for x in part.Subparts.all()]
         return HttpResponse(json.dumps({
             'status': 1,
@@ -148,12 +159,12 @@ def get_circuit(request):
     '''
     try:
         query_id = request.GET.get('id')
-        parts_query = CircuitParts.object.filter(Circuit = query_id)
+        parts_query = CircuitParts.objects.filter(Circuit = query_id)
         parts = [{'id': x.Part.id, 'cid': x.id, 'Name': x.Part.Name,
             'Description': x.Part.Description, 'Type': x.Part.Type,
             'X': x.X, 'Y': x.Y} for x in parts_query]
         line_query = CircuitLines.objects.filter(Start__Circuit = query_id, \
-                End_Circuit = query_id)
+                End__Circuit = query_id)
         lines = [{'Start': x.Start.id, 'End': x.End.id, 'Type': x.Type} \
                 for x in line_query]
         return HttpResponse(json.dumps({
