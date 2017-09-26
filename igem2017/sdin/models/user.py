@@ -70,4 +70,3 @@ class UserFavorite(models.Model):
     def __str__(self):
         return "%s - %s" % self.user.name, self.circuit.Name
 
-

@@ -16,9 +16,64 @@ All response contains a status in json
 0 for failed
 '''
 
+
+# Basic design views
+
 @login_required
 def design(request):
     return render(request, 'design.html')
+
+# Favorites related views
+
+@login_required
+def get_favorite(request):
+    '''
+    GET method with no param
+    return json:
+        'circuits': [{
+            'id': xxx,
+            'Name': xxx,
+            'Description': xxx,
+            'Author': xxx(id)
+        }]
+    '''
+    query_set = UserFavorite.objects.filter(user = request.user)
+    favorites = [{
+        'id': x.circuit.id,
+        'Name': x.circuit.Name,
+        'Description': x.circuit.Description,
+        'Author': x.circuit.Author.id if x.circuit.Author != None else None
+        } for x in query_set]
+    return HttpResponse(json.dumps({
+            'status': 1,
+            'circuits': favorites}))
+
+@login_required
+def tag_favorite(request):
+    '''
+    POST method with json:
+        'circuit_id': xxx, # id of circuit, make sure this circuit is saved
+        'tag': 0 for cancel favorite, 1 for tag favorite
+    return json:
+        status: 0 or 1
+    '''
+    if request.method == 'POST':
+        data = json.loads(request.body)
+        try:
+            circuit = Circuit.objects.get(pk = data['circuit_id'])
+            if data['tag'] == 1:
+                if not UserFavorite.objects.filter(user = request.user, circuit = circuit).exists():
+                    UserFavorite.objects.create(circuit = circuit, user = request.user)
+            else:
+                UserFavorite.objects.get(user = request.user, circuit = circuit)
+                UserFavorite.delete()
+            return HttpResponse(json.dumps({
+                'status': 1}))
+        except:
+            return HttpResponse(json.dumps({
+                'status': 0}))
+
+# Part related views
 
 def search_parts(request):
     '''
@@ -42,24 +97,6 @@ def search_parts(request):
     parts = [x.__dict__ for x in query_set]
     return HttpResponse(json.dumps({
             'status': 1,
-            'parts': parts}))
-
-@login_required
-def get_favorite(request):
-    '''
-    GET method with no param
-    return json:
-        'circuits': [{
-            'id': xxx,
-            'Name': xxx,
-            'Description': xxx
-        }]
-    '''
-    query_set = UserFavorite.objects.filter(user = request.user)
-    favorites = [x.circuit.__dict__ for x in query_set]
-    return HttpResponse(json.dumps({
-            'status': 1,
-            'circuits': favorites}))
 
 def get_part(request):
     '''
@@ -74,8 +111,8 @@ def get_part(request):
             'Subparts': [1, 2, 3] # ids of subparts
         }
     '''
-    query_id = request.GET.get('id')
     try:
+        query_id = request.GET.get('id')
         part = Parts.objects.get(pk = query_id)
         part_dict = part.__dict__
         part_dict['Subparts'] = [x.id for x in part.Subparts.all()]
@@ -85,6 +122,8 @@ def get_part(request):
     except:
         return HttpResponse(json.dumps({
             'status': 0}))
+
+# Circuit related views
 
 def get_circuit(request):
     '''
@@ -106,8 +145,8 @@ def get_circuit(request):
             'Type': xxx, # connection type}
         ]
     '''
-    query_id = request.GET.get('id')
     try:
+        query_id = request.GET.get('id')
         parts_query = CircuitParts.object.filter(Circuit = query_id)
         parts = [{'id': x.Part.id, 'cid': x.id, 'Name': x.Part.Name,
             'Description': x.Part.Description, 'Type': x.Part.Type,
@@ -124,7 +163,32 @@ def get_circuit(request):
         return HttpResponse(json.dumps({
             'status': 0}))
 
-def save_query(request):
+@login_required
+def get_saves(request):
+    '''
+    GET method with no param
+    return json:
+        'circuits': [{
+            'id': xxx,
+            'Name': xxx,
+            'Description': xxx,
+            'Author': xxx(id)
+        }]
+    '''
+    query_set = Circuit.objects.filter(Author = request.user)
+    saves = [{
+        'id': x.id,
+        'Name': x.Name,
+        'Description': x.Description,
+        'Author': x.Author.id if x.Author != None else None
+        } for x in query_set]
+    return HttpResponse(json.dumps({
+            'status': 1,
+            'circuits': saves}))
+
+
+@login_required
+def save_circuit(request):
     '''
     POST method with json:
     {
@@ -148,6 +212,7 @@ def save_query(request):
     response with json:
     {
         status: 0 for error, 1 for success.
+        circuit_id: xxx # id for saved circuit.
     }
     '''
     if request.method == 'POST':
@@ -157,12 +222,14 @@ def save_query(request):
                 # new circuit
                 circuit = Circuit.objects.create(
                         Name = data['circuit']['Name'],
-                        Description = data['circuit']['Description'])
+                        Description = data['circuit']['Description'],
+                        Author = request.user)
             else:
                 # existing circuit
                 circuit = Circuit.objects.get(pk = data['circuit']['id'])
                 circuit.Name = data['circuit']['Name']
                 circuit.Description = data['circuit']['Description']
+                circuit.Author = request.user
                 circuit.save()
                 # delete existing circuit part
                 for x in CircuitParts.objects.filter(Circuit = circuit):
@@ -182,7 +249,8 @@ def save_query(request):
                         End = cids[x['End']],
                         Type = x['Type'])
             return HttpResponse(json.dumps({
-                    'status': 1}))
+                    'status': 1,
+                    'circuit_id': circuit.id}))
         except:
             return HttpResponse(json.dumps({
                 'status': 0}))
