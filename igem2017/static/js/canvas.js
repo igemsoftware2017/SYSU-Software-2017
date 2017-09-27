@@ -240,13 +240,14 @@ function highlightDevice(circuit) {
   circuit
     .data('selected', true)
     .css({
-      boxShadow: '0 0 5px 3px rgba(127, 127, 127, 0.2)'
+      boxShadow: '0 0 5px 3px rgba(53, 188, 243, 0.7)',
     });
 }
 function unHighlightDevice(circuit) {
   circuit
     .data('selected', false)
     .css({
-      boxShadow: ''
+      boxShadow: '',
+      border: ''
     });
 }

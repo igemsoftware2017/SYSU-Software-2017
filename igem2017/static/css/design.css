@@ -116,7 +116,6 @@ div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
 
 .device {
   position: absolute;
-  border: 2px solid #35bcf3;
   transition: box-shadow 0.2s ease;
   background-color: white;
   cursor: pointer;
