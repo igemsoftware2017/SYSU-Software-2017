@@ -344,13 +344,16 @@ def get_circuit_test(request):
         tmp = {
             'deviceID': str(i),
             'parts': {},
-            'X': i * 150 + 50,
-            'Y': 100
+            'X': 500,
+            'Y': 200 * (i + 1)
         }
         for x in d:
             tmp['parts'][x] = parts[x]
             unique_parts.pop(x)
         devices[str(i)] = tmp
+    for i, p in enumerate(unique_parts):
+        unique_parts[p]['X'] = 100 * i
+        unique_parts[p]['Y'] = 0
     lines = [
         {'source': '2', 'target': '3', 'type': 'promotion'},
         {'source': '6', 'target': '37', 'type': 'promotion'},

@@ -109,6 +109,7 @@ function addLink(data) {
   });
 }
 
+// Alt + wheel zomming
 $('#canvas')
   .on('mousewheel', function(event) {
     if (!event.altKey)
@@ -119,14 +120,53 @@ $('#canvas')
       .dropdown('set value', ratio)
       .dropdown('set text', Math.round(ratio * 100) + '%');
     resizeDesign(ratio);
+  })
+
+var canvas_dragging = false;
+var drag_mode = 'item';
+var canvas_drag_origin;
+$('#drag-item')
+  .on('click', function() {
+    drag_mode = 'item';
+    $(this).addClass('blue')
+    $('#drag-canvas').removeClass('blue');
+    $('#canvas').css({ cursor: '' });
+    $('.part, .device').css({ pointerEvents: '' });
+  });
+$('#drag-canvas')
+  .on('click', function() {
+    drag_mode = 'canvas';
+    $(this).addClass('blue');
+    $('#drag-item').removeClass('blue');
+    $('#canvas').css({ cursor: 'pointer' });
+    $('.part, .device').css({ pointerEvents: 'none' });
+  });
+$('#canvas')
+  .on('mousedown', function(event) {
+    canvas_dragging = true;
+    canvas_drag_origin = { x: event.offsetX, y: event.offsetY };
+  })
+  .on('mouseup', function() {
+    canvas_dragging = false;
+  })
+  .on('mouseleave', function() {
+    canvas_dragging = false;
+  })
+  .on('mousemove', function(event) {
+    if (drag_mode == 'canvas' && canvas_dragging) {
+      canvas_position_x += (event.offsetX - canvas_drag_origin.x) / size.unit;
+      canvas_position_y += (event.offsetY - canvas_drag_origin.y) / size.unit;
+      canvas_drag_origin = { x: event.offsetX, y: event.offsetY };
+      redrawDesign();
+    }
   });
 
 function redrawDesign() {
   $.each(design.devices, function(index, device) {
     device.DOM
       .css({
-        top: device.X * size.unit,
-        left: device.Y * size.unit,
+        left: (canvas_position_x + device.X) * size.unit,
+        top: (canvas_position_y + device.Y) * size.unit,
         height: size.partSize + size.partPadding * 3 + 3,
         width: Object.keys(device.parts).length * (size.partSize + size.partPadding) + size.partPadding
       })
@@ -150,6 +190,8 @@ function redrawDesign() {
   $.each(design.parts, function(index, part) {
     part.DOM
       .css({
+        left: (canvas_position_x + part.X) * size.unit,
+        top: (canvas_position_y + part.Y) * size.unit,
         width: size.partSize,
         height: size.partSize
       });
