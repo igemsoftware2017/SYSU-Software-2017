@@ -12,99 +12,118 @@ $('.tabular.menu>.item')
 
 $('.window')
   .draggable({
-    addClasses: false,
     appendTo: 'body',
     handle: '.nav',
-    scroll: false
+    scroll: false,
+    stack: '.window'
   })
   .resizable({
     handles: 's, w, sw'
   });
 
-
 // Part panel
 $('#part-panel')
   .resizable('option', 'minWidth', 200);
 var part_panel_sticked_to_right = false;
-$('#part-panel-button')
-  .on('click', function() {
-    part_panel_sticked_to_right = !part_panel_sticked_to_right;
-    if (part_panel_sticked_to_right) {
-      $(this).removeClass('right').addClass('left');
-      // Stick to right
-      win = $(this).parent().parent();
-      win
-        .draggable('disable')
-        .resizable('option', 'handles', 'w');
-      win.data('free-state', {
-        offset: win.offset(),
-        height: win.height()
+function stickPartPanel() {
+  part_panel_sticked_to_right = true;
+  win = $('#part-panel');
+  win
+    .draggable('option', 'snap', 'body')
+    .draggable('option' ,'snapMode', 'inner')
+    .draggable('option', 'snapTolerance', 100)
+    .draggable('option', 'axis', 'x')
+    .on('drag', function(event, ui) {
+      if (ui.position.left < ui.originalPosition.left - 100) {
+        if (part_panel_sticked_to_right)
+          unstickPartPanel();
+      }
+    })
+    .resizable('option', 'handles', 'w');
+  win.data('free-state', {
+    height: win.height()
+  });
+  to_top = $('.ui.fixed.menu').height();
+  win.css({
+    transition: 'all 0.2s ease'
+  });
+  win.css({
+    left: $('body').width() - win.width(),
+    top: to_top,
+    height: 'calc(100% - ' + to_top + 'px)',
+    borderRadius: 0,
+    border: '',
+    borderLeft: '1px solid grey'
+  });
+  setTimeout(function() {
+    win.css({
+      transition: ''
+    });
+  }, 200);
+  $('#canvas-box').css({
+    width: 'calc(100% - ' + win.width() + 'px)'
+  });
+  win
+    .children('.nav')
+    .children('.ui.header').hide();
+}
+function unstickPartPanel() {
+  part_panel_sticked_to_right = false;
+  win = $('#part-panel');
+  free_state = win.data('free-state');
+  win
+    .draggable('option', 'snap', 'false')
+    .draggable('option', 'snapTolerance', 0)
+    .draggable('option', 'axis', 'false')
+    .on('drag', function(event, ui) {
+      if (ui.position.left < ui.originalPosition.left - 30) {
+        if (part_panel_sticked_to_right)
+          unstickPartPanel();
+      }
+    })
+    .resizable('option', 'handles', 'w, s, sw');
+  win.css({
+    transition: 'all 0.1s ease'
+  });
+  win.css({
+    height: free_state.height,
+    borderRadius: '5px',
+    border: '1px solid grey'
+  });
+  $('#canvas-box').css({
+    width: '100%'
+  });
+  setTimeout(function() {
+    win.css({
+      transition: ''
+    });
+  }, 100);
+  win
+    .children('.nav')
+    .children('.ui.header').show();
+}
+$('#part-panel-dropper')
+  .droppable({
+    accept: '#part-panel',
+    tolerance: 'touch',
+    over: function(event, ui) {
+      $('#part-panel-dropper').css({
+        backgroundColor: '#9ec5e6'
       });
-      to_top = $('.ui.fixed.menu').height();
-      win.css({
-        transition: 'all 0.2s ease'
+    },
+    out: function(event, ui) {
+      $(this).css({
+        backgroundColor: 'transparent'
       });
-      win.css({
-        left: $('body').width() - win.width(),
-        top: to_top,
-        height: 'calc(100% - ' + to_top + 'px)',
-        borderRadius: 0,
-        border: '',
-        borderLeft: '1px solid grey',
-        position: 'absolute'
+    },
+    drop: function(event, ui) {
+      stickPartPanel();
+      $(this).css({
+        backgroundColor: 'transparent'
       });
-      setTimeout(function() {
-        win.css({
-          transition: ''
-        });
-        $('#toolbox').css({
-          left: ($('#canvas').width() - $('#toolbox').width()) / 2
-        });
-      }, 200);
-      $('#canvas-box').css({
-        width: 'calc(100% - ' + win.width() + 'px)'
-      });
-      $('#toolbox').css({
-        left: ($('#canvas').width() - $('#toolbox').width()) / 2
-      });
-      win
-        .children('.nav')
-        .children('.ui.header').hide();
-    } else {
-      $(this).removeClass('left').addClass('right');
-      // Free from the right
-      win = $(this).parent().parent();
-      free_state = win.data('free-state');
-      win
-        .draggable('enable')
-        .resizable('option', 'handles', 'w, s, sw');
-      win.css({
-        transition: 'all 0.2s ease'
-      });
-      win.css({
-        left: free_state.offset.left,
-        top: free_state.offset.top,
-        height: free_state.height,
-        borderRadius: '5px',
-        border: '1px solid grey',
-        position: 'absolute'
-      });
-      $('#canvas-box').css({
-        width: '100%'
-      });
-      setTimeout(function() {
-        win.css({
-          transition: ''
-        });
-        $('#toolbox').css({
-          left: ($('#canvas').width() - $('#toolbox').width()) / 2
-        });
-      }, 200);
-      win
-        .children('.nav')
-        .children('.ui.header').show();
     }
   });
+$('#part-panel-button');
 $('#part-panel')
   .on('resize', function() {
     des = $('#part-info-des');
@@ -114,6 +133,13 @@ $('#part-panel')
     if (part_panel_sticked_to_right) {
       $('#canvas-box').css({
         width: 'calc(100% - ' + win.width() + 'px)'
+      });
+      $('#toolbox').css({
+        left: ($('#canvas').width() - $('#toolbox').width()) / 2
+      });
+    } else {
+      $('#toolbox').css({
+        left: $('#canvas').width() / 2
       });
     }
   });

@@ -43,6 +43,14 @@
 .tab-context {
   margin-top: 1em;
 }
+#part-panel-dropper {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 100px;
+  top: 0;
+  background-color: transparent;
+}
 
 /* Favourite window */
 #fav-win>.content {
