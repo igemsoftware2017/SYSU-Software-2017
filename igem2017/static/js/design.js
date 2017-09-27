@@ -1,5 +1,10 @@
 $('.ui.dropdown')
-  .dropdown();
+  .dropdown({
+    onChange: function() {
+      size = zoom(standard_size, $(this).dropdown('get value'));
+      redrawDesign();
+    }
+  });
 
 $('.tabular.menu>.item')
   .tab({
@@ -149,7 +154,7 @@ function initPositionSize() {
     height: $(this).height()
   });
   $('#toolbox').css({
-    top: 600,
+    bottom: 100,
     left: ($('#canvas').width() - $('#toolbox').width()) / 2,
   });
   $('#toolbox>.content').css({
@@ -159,98 +164,3 @@ function initPositionSize() {
 initPositionSize();
 $('#ratio-dropdown')
   .dropdown('set text', '100%');
-
-
-// Canvas aware
-var canvas = $('#canvas');
-var canvas_width = canvas.width();
-var canvas_height = canvas.height();
-// x axis: top->down
-// y axis: left->right
-// init (0, 0) to (200, 200) of canvas
-var canvas_position_x = 200;
-var canvas_position_y = 200;
-
-var parts = {};
-var lines = [];
-
-jsPlumb.ready(function () {
-  $.get({
-    url: '/get_circuit_test',
-    success: function(data) {
-      data = JSON.parse(data);
-      $(data.parts).each(function(index, part) {
-        parts[part.cid] = part;
-        parts[part.cid].DOM = addPart(part);
-      });
-      $(data.lines).each(function(index, link) {
-        addLink(link);
-      });
-    }
-  });
-});
-
-function addPart(data) {
-  let part = $('<div></div>').appendTo('#canvas');
-  part
-    .addClass('part')
-    .attr('id', data.cid)
-    .css({
-      top: canvas_position_x + data.X,
-      left: canvas_position_y + data.Y
-    })
-    .on('mouseup', function() {
-      p = parts[$(this).attr('id')];
-      p.X = $(this).position().top - canvas_position_x;
-      p.Y = $(this).position().left - canvas_position_y;
-    })
-    .on('click', function() {
-      if ($(this).data('selected')) {
-        unHighlightCircuit($(this));
-      } else {
-        unHighlightCircuit($('.part'));
-        highlightCircuit($(this));
-      }
-    });
-  jsPlumb.draggable(part, {
-    containment: true
-  });
-  part.append('<div class="ui centered fluid image"><img src="/static/img/design/part.jpg"></img></div>');
-  part.append('<p>' + data.Name + '</p>');
-  return part[0];
-}
-
-function addLink(data) {
-  jsPlumb.connect({
-    source: parts[data.Start].DOM,
-    target: parts[data.End].DOM,
-    anchor: ['Top', 'Bottom'],
-    endpoint: 'Blank',
-    connector: 'Flowchart'
-  });
-  lines.push(data);
-}
-
-function exportDesign() {
-  return {
-    parts: $.map(parts, (value, index) => [value]),
-    lines: lines
-  };
-}
-
-function highlightCircuit(circuit) {
-  circuit
-    .data('selected', true)
-    .css({
-      boxShadow: '0 0 5px 3px cornflowerblue'
-    });
-}
-
-function unHighlightCircuit(circuit) {
-  circuit
-    .data('selected', false)
-    .css({
-      boxShadow: ''
-    });
-}
-
