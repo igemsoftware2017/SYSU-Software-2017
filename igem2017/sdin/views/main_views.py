@@ -16,6 +16,9 @@ Err = "Something wrong!"
 Inv = "Invalid form!"
 
 def index(request):
+    return render(request, 'index.html')
+
+def login_view(request):
     if request.method == "POST":
         # Login action
         form = LoginForm(request.POST)
@@ -30,8 +33,7 @@ def index(request):
                 messages.error(request, "Invalid Login!")
         else:
             messages.error(request, Inv)
-
-    return render(request, 'index.html')
+    return render(request, 'login.html')
 
 @login_required
 def logout_view(request):

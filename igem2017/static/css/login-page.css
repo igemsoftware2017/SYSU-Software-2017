@@ -13,8 +13,8 @@ body {
   background-image: url("/static/img/login-back.jpg");
   background-size: cover;
 }
-.ui.tiny.modal {
-  top: auto !important;
+#register-modal {
+  top: auto;
 }
 #button-group {
   margin: 0;

@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^detail$', main_views.detail),
     url(r'^interest$', main_views.interest),
     url(r'^register$', main_views.register),
+    url(r'^login', main_views.login_view),
     url(r'^logout$', main_views.logout_view),
     url(r'^design$', design_views.design),
 ] + \
