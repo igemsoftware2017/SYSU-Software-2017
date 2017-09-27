@@ -3,6 +3,8 @@
 """
 preload parts,works and circuits data into database
 """
+from django.db.transaction import atomic
+
 from ..models import *
 import os
 import csv
@@ -17,7 +19,7 @@ def get_parts_type(filename):
     else:
         return "%s" % filename[0 : filename.index(".")]
 
-
+@atomic
 def load_parts(parts_floder_path):
     Parts.objects.all().delete()
     for root, dirs, files in os.walk(parts_floder_path):
@@ -25,6 +27,7 @@ def load_parts(parts_floder_path):
             filepath = os.path.join(root,name)
             csv_reader = csv.reader(open(filepath, encoding='utf-8'))
             part_type = get_parts_type(name)
+            print('  Loading %s...' % filepath)
 
             row_cnt = 0
             for row in csv_reader:
@@ -50,12 +53,14 @@ def load_parts(parts_floder_path):
                         pass
 
 #load works data
+@atomic
 def load_works(works_floder_path):
     Works.objects.all().delete()
     for root, dirs, files in os.walk(works_floder_path):
         for name in files:
             filepath = os.path.join(root,name)
             csv_reader = csv.reader(open(filepath, encoding='utf-8'))
+            print('  Loading %s...' % filepath)
 
             row_cnt = 0
             for row in csv_reader:
