@@ -45,22 +45,22 @@ jsPlumb.ready(function () {
       $.each(design.lines, function(index, link) {
         addLink(link);
       });
+      redrawDesign();
     }
   });
 });
 
 function addDevice(data) {
-  let device = $('<div></div>').appendTo('#canvas');
-  device
+  let device =
+  $('<div></div>')
+    .appendTo('#canvas')
     .addClass('device')
     .attr('deviceID', data.deviceID)
-    .css({
-      top: data.X * size.unit,
-      left: data.Y * size.unit,
-      height: size.partSize + size.partPadding * 3 + 3,
-      width: Object.keys(data.parts).length * (size.partSize + size.partPadding) + size.partPadding
-    })
     .on('click', function() {
+      if ($(this).hasClass('dragging')) {
+        $(this).removeClass('dragging');
+        return;
+      }
       if ($(this).data('selected')) {
         unHighlightDevice($(this));
       } else {
@@ -69,16 +69,15 @@ function addDevice(data) {
       }
     });
   jsPlumb.draggable(device, {
-    containment: true
+    containment: true,
+    drag: function() {
+      device.addClass('dragging');
+    }
   });
-  let bone = $('<div></div>').appendTo(device);
-  bone
+  let bone =
+  $('<div></div>')
+    .appendTo(device)
     .addClass('bone')
-    .css({
-      left: size.partPadding,
-      width: device.width() - 2 * size.partPadding,
-      bottom: size.partPadding
-    });
   let index = 0;
   $.each(data.parts, function(_, part) {
     addPart(part, index, device);
@@ -88,20 +87,13 @@ function addDevice(data) {
 }
 
 function addPart(data, index, device) {
-  let part = $('<div></div>').appendTo(device);
-  part
+  let part =
+  $('<div></div>')
+    .appendTo(device)
     .addClass('part')
     .attr('partID', data.ID)
-    .css({
-      width: size.partSize,
-      height: size.partSize,
-      left: index * (size.partSize + size.partPadding)
-    })
-    .on('mouseup', function() {
-    });
-
-  part.append('<div class="ui centered fluid image"><img src="/static/img/design/' + data.Type + '.png"></img></div>');
-  part.append('<p>' + data.Name + '</p>');
+    .append('<div class="ui centered fluid image"><img src="/static/img/design/' + data.Type + '.png"></img></div>')
+    .append('<p>' + data.Name + '</p>');
   if (size.unit < 0.75)
     part.children('p').hide();
   data.DOM = part;
@@ -116,10 +108,6 @@ function addLink(data) {
     connector: 'Flowchart'
   });
 }
-
-var ctrl_down = false;
-$(document).on('keydown', function(event) {
-  })
 
 $('#canvas')
   .on('mousewheel', function(event) {
@@ -154,7 +142,7 @@ function redrawDesign() {
         .css({
           width: size.partSize,
           height: size.partSize,
-          left: count * (size.partSize + size.partPadding)
+          left: count * (size.partSize + size.partPadding) + size.partPadding
         });
       count++;
     });
@@ -166,7 +154,10 @@ function redrawDesign() {
         height: size.partSize
       });
   });
-  if (size.unit < 0.75)
+  $('.part>p').css({
+    fontSize: size.unit + 'em'
+  });
+  if (size.unit + 1e-3 < 0.5) // floating point error
     $('.part>p').hide();
   else
     $('.part>p').show();
@@ -188,7 +179,6 @@ function highlightDevice(circuit) {
       boxShadow: '0 0 5px 3px rgba(127, 127, 127, 0.2)'
     });
 }
-
 function unHighlightDevice(circuit) {
   circuit
     .data('selected', false)

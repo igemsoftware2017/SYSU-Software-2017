@@ -4,6 +4,24 @@ $('.ui.dropdown')
       resizeDesign($(this).dropdown('get value'));
     }
   });
+$('#zoom-in')
+  .on('click', function() {
+    let ratio = size.unit;
+    ratio = Math.max(0.25, Math.min(1.5, ratio + 0.25));
+    $('#ratio-dropdown')
+      .dropdown('set value', ratio)
+      .dropdown('set text', Math.round(ratio * 100) + '%');
+    resizeDesign(ratio);
+  });
+$('#zoom-out')
+  .on('click', function() {
+    let ratio = size.unit;
+    ratio = Math.max(0.25, Math.min(1.5, ratio - 0.25));
+    $('#ratio-dropdown')
+      .dropdown('set value', ratio)
+      .dropdown('set text', Math.round(ratio * 100) + '%');
+    resizeDesign(ratio);
+  });
 
 $('.tabular.menu>.item')
   .tab({
@@ -134,13 +152,6 @@ $('#part-panel')
       $('#canvas-box').css({
         width: 'calc(100% - ' + win.width() + 'px)'
       });
-      $('#toolbox').css({
-        left: ($('#canvas').width() - $('#toolbox').width()) / 2
-      });
-    } else {
-      $('#toolbox').css({
-        left: $('#canvas').width() / 2
-      });
     }
   });
 
@@ -164,17 +175,17 @@ $('#open-fav-win')
 $('#toolbox')
   .on('mouseenter', function() {
     $(this).css({
-      opacity: 1
+      opacity: 0.9
     });
   })
   .on('mouseleave', function() {
     $(this).css({
-      opacity: 0.3
+      opacity: 0.2
     });
   });
 
 function initPositionSize() {
-  $('#part-panel-button').click();
+  stickPartPanel();
   $('#fav-win').css({
     height: $(this).height()
   });
