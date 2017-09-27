@@ -39,7 +39,18 @@ jsPlumb.ready(function () {
       $.each(design.parts, function(index, part) {
         addPart(part, 1, '#canvas');
         jsPlumb.draggable(part.DOM, {
-          containment: true
+          containment: true,
+          start: function(event) {
+            part.DOM.data('drag-origin', {
+              x: event.e.pageX,
+              y: event.e.pageY
+            });
+          },
+          stop: function(event) {
+            let origin = part.DOM.data('drag-origin');
+            part.X += (event.e.pageX - origin.x) / size.unit;
+            part.Y += (event.e.pageY - origin.y) / size.unit;
+          }
         });
       });
       $.each(design.lines, function(index, link) {
@@ -52,7 +63,7 @@ jsPlumb.ready(function () {
 
 function addDevice(data) {
   let device =
-  $('<div></div>')
+    $('<div></div>')
     .appendTo('#canvas')
     .addClass('device')
     .attr('deviceID', data.deviceID)
@@ -72,10 +83,21 @@ function addDevice(data) {
     containment: true,
     drag: function() {
       device.addClass('dragging');
+    },
+    start: function(event) {
+      device.data('drag-origin', {
+        x: event.e.pageX,
+        y: event.e.pageY
+      });
+    },
+    stop: function(event) {
+      let origin = device.data('drag-origin');
+      data.X += (event.e.pageX - origin.x) / size.unit;
+      data.Y += (event.e.pageY - origin.y) / size.unit;
     }
   });
   let bone =
-  $('<div></div>')
+    $('<div></div>')
     .appendTo(device)
     .addClass('bone')
   let index = 0;
@@ -88,7 +110,7 @@ function addDevice(data) {
 
 function addPart(data, index, device) {
   let part =
-  $('<div></div>')
+    $('<div></div>')
     .appendTo(device)
     .addClass('part')
     .attr('partID', data.ID)
