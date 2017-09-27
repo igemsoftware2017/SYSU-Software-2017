@@ -12,7 +12,7 @@ class Parts(models.Model):
     Sequence = models.TextField()
 
     def __str__(self):
-        return "%s : %s" % self.Name, self.Description
+        return "%s : %s" % (self.Name, self.Description)
 
 class Circuit(models.Model):
     Name = models.CharField(max_length = 50, unique = True)
@@ -29,7 +29,7 @@ class CircuitParts(models.Model):
     Y = models.IntegerField()
 
     def __str__(self):
-        return "%s of %s" % self.Part.Name, self.Circuit.Name
+        return "%s of %s" % (self.Part.Name, self.Circuit.Name)
 
 class CircuitLines(models.Model):
     Start = models.ForeignKey('CircuitParts', related_name = 'Start', on_delete = models.CASCADE)
@@ -37,4 +37,4 @@ class CircuitLines(models.Model):
     Type = models.CharField(max_length = 20)
 
     def __str__(self):
-        return "%s to %s of type %s" % self.Start.Part.Name, self.End.Part.Name, self.Type
+        return "%s to %s of type %s" % (self.Start.Part.Name, self.End.Part.Name, self.Type)
