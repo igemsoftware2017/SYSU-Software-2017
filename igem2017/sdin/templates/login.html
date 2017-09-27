@@ -1,34 +1,30 @@
-  <!-- Login Modal -->
-  <div class="ui tiny modal" id="signin-modal">
-    <div class="header">
-      Sign In
-    </div>
-    <div class="content">
-      <div class="ui center aligned container">
-        <form class="ui form" id="login-form" method="POST" action="/index">
-          {% csrf_token %}
-          <div class="field">
-            <input type="text" id="email" name="email" placeholder="Email">
-          </div>
-          <div class="field">
-            <input type="password" id="password" name="password" placeholder="Password">
-          </div>
-          <div class="ui {% if messages %}visible {% endif %}error message">
-            {% if messages %}
-            <ul class="list">
-              {% for message in messages %}
-              <li>{{ message }}</li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </div>
-        </form>
-        <br/><a>Forgot password?</a>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Login - S-Din</title>
+    <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
+    <link rel="stylesheet" href="/static/css/custom.css">
+    <link rel="stylesheet" href="/static/css/register.css">
+  </head>
+  <body>
+    <div class="ui menu">
+      <div class="ui container">
+        <a class="item" id="index-button" href="/">
+          <i class="angle left icon"></i>
+          BACK TO HOME SCREEN
+        </a>
       </div>
     </div>
-    <div class="ui two bottom attached big buttons" id="button-group">
-      <div class="ui left button" id="register-button">Register</div>
-      <div class="ui secondary button"id="login-button">Login</div>
+    <div class="ui main center aligned container">
     </div>
-  </div>
-  <link rel="stylesheet" href="/static/css/login.css">
+  </body>
+
+  {% include 'login-modal.html' %}
+
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/semantic/dist/semantic.js"></script>
+  <script src="/static/js/login.js"></script>
+</html>

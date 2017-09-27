@@ -1,0 +1,34 @@
+  <!-- Login Modal -->
+  <div class="ui tiny modal" id="signin-modal">
+    <div class="header">
+      Sign In
+    </div>
+    <div class="content">
+      <div class="ui center aligned container">
+        <form class="ui form" id="login-form" method="POST" action="/index">
+          {% csrf_token %}
+          <div class="field">
+            <input type="text" id="email" name="email" placeholder="Email">
+          </div>
+          <div class="field">
+            <input type="password" id="password" name="password" placeholder="Password">
+          </div>
+          <div class="ui {% if messages %}visible {% endif %}error message">
+            {% if messages %}
+            <ul class="list">
+              {% for message in messages %}
+              <li>{{ message }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+        </form>
+        <br/><a>Forgot password?</a>
+      </div>
+    </div>
+    <div class="ui two bottom attached big buttons" id="button-group">
+      <div class="ui left button" id="register-button">Register</div>
+      <div class="ui secondary button"id="login-button">Login</div>
+    </div>
+  </div>
+  <link rel="stylesheet" href="/static/css/login.css">
