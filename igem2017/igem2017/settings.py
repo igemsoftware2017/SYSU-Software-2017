@@ -135,3 +135,5 @@ STATICFILES_DIRS = [
 # Custom User
 AUTH_USER_MODEL = 'sdin.User'
 
+# Login required redirect
+LOGIN_URL = '/login/'

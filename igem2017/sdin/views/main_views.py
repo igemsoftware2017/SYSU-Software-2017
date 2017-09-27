@@ -36,7 +36,7 @@ def index(request):
 @login_required
 def logout_view(request):
     logout(request)
-    return redirect('index')
+    return redirect('/index')
 
 def search(request):
     return render(request, 'search.html')
