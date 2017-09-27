@@ -20,9 +20,12 @@ function zoom(size, ratio) {
   return new_size;
 }
 var size = zoom(standard_size, 1);
+function resizeDesign(ratio) {
+  size = zoom(standard_size, ratio);
+  redrawDesign();
+}
 
 var design;
-
 jsPlumb.ready(function () {
   jsPlumb.setContainer($('#canvas'));
   $.get({
@@ -114,7 +117,21 @@ function addLink(data) {
   });
 }
 
+var ctrl_down = false;
+$(document).on('keydown', function(event) {
+  })
+
 $('#canvas')
+  .on('mousewheel', function(event) {
+    if (!event.altKey)
+      return;
+    let ratio = size.unit;
+    ratio = Math.max(0.25, Math.min(1.5, ratio + event.deltaY * 0.05));
+    $('#ratio-dropdown')
+      .dropdown('set value', ratio)
+      .dropdown('set text', Math.round(ratio * 100) + '%');
+    resizeDesign(ratio);
+  });
 
 function redrawDesign() {
   $.each(design.devices, function(index, device) {
@@ -125,7 +142,7 @@ function redrawDesign() {
         height: size.partSize + size.partPadding * 3 + 3,
         width: Object.keys(device.parts).length * (size.partSize + size.partPadding) + size.partPadding
       })
-    .children('.bone')
+      .children('.bone')
       .css({
         left: size.partPadding,
         width: device.DOM.width() - 2 * size.partPadding,
@@ -149,6 +166,10 @@ function redrawDesign() {
         height: size.partSize
       });
   });
+  if (size.unit < 0.75)
+    $('.part>p').hide();
+  else
+    $('.part>p').show();
   jsPlumb.repaintEverything();
   jsPlumb.revalidate($('.device'));
 }

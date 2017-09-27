@@ -1,8 +1,7 @@
 $('.ui.dropdown')
   .dropdown({
     onChange: function() {
-      size = zoom(standard_size, $(this).dropdown('get value'));
-      redrawDesign();
+      resizeDesign($(this).dropdown('get value'));
     }
   });
 
