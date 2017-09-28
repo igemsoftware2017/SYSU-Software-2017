@@ -13,7 +13,7 @@ from django.contrib.auth.base_user import BaseUserManager
 from .bio import *
 
 class UserManager(BaseUserManager):
-    
+
     def create_user(self, email, password, **other_fields):
         if not email:
             raise ValueError('The given email must be set')
@@ -40,25 +40,25 @@ class User(AbstractBaseUser):
 
     def get_short_name():
         return self.email
-    
+
     def __str__(self):
         return "email: %s\norg: %s" % self.email, self.org
 
 class Works(models.Model):
     TeamID = models.IntegerField(unique = True)
-    Teamname = models.CharField(max_length = 30)
-    Region = models.CharField(max_length = 30)
-    Country = models.CharField(max_length = 30)
-    Track = models.CharField(max_length = 30)
-    Section = models.CharField(max_length = 30)
+    Teamname = models.CharField(max_length = 32)
+    Region = models.CharField(max_length = 32)
+    Country = models.CharField(max_length = 32)
+    Track = models.CharField(max_length = 32)
+    Section = models.CharField(max_length = 32)
     Size = models.IntegerField()
-    Status = models.CharField(max_length = 20)
+    Status = models.CharField(max_length = 32)
     Year = models.IntegerField()
-    Wiki = models.CharField(max_length = 100)
-    Medal = models.CharField(max_length = 20)
-    Award = models.CharField(max_length = 20)
-    Name =  models.CharField(max_length = 50)
-    Use_parts = models.CharField(max_length=500)
+    Wiki = models.CharField(max_length = 128)
+    Medal = models.CharField(max_length = 128)
+    Award = models.CharField(max_length = 512)
+    Name =  models.CharField(max_length = 256)
+    Use_parts = models.CharField(max_length = 5120)
 
     def __str__(self):
         return "%s : %s" % str(self.TeamID), self.Teamname
