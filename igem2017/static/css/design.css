@@ -130,7 +130,6 @@ div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
   position: absolute;
   transition: box-shadow 0.2s ease;
   text-align: center;
-  padding: 0.5em;
   cursor: pointer;
 }
 

@@ -4,13 +4,13 @@ var canvas_height = canvas.height();
 // x axis: top->down
 // y axis: left->right
 // init (0, 0) to (200, 200) of canvas
-var canvas_position_x = 200;
-var canvas_position_y = 200;
+var canvas_position_x = -200;
+var canvas_position_y = -800;
 
 var standard_size = {
   deviceHeight: 100,
   partSize: 75,
-  partPadding: 10,
+  partPadding: 30,
   bonePadding: 10,
   unit: 1
 };
@@ -140,7 +140,7 @@ function addLink(data) {
   jsPlumb.connect({
     source: $('[partID=' + data.source + ']')[0],
     target: $('[partID=' + data.target + ']')[0],
-    anchor: ['TopCenter', 'BottomCenter'],
+    anchor: ['TopCenter', 'BottomCenter', 'Left', 'Right'],
     endpoint: 'Blank',
     connector: 'Flowchart'
   });
@@ -204,22 +204,23 @@ function redrawDesign() {
       .css({
         left: (canvas_position_x + device.X) * size.unit,
         top: (canvas_position_y + device.Y) * size.unit,
-        height: size.partSize + size.partPadding * 3 + 3,
+        height: 'calc(' + (size.partSize + size.bonePadding * 3 + 3) + 'px + ' + 1.5 * size.unit + 'em)',
         width: Object.keys(device.parts).length * (size.partSize + size.partPadding) + size.partPadding
       })
       .children('.bone')
       .css({
         left: size.partPadding,
         width: device.DOM.width() - 2 * size.partPadding,
-        bottom: size.partPadding
+        bottom: size.bonePadding
       });
     let count = 0;
     $.each(device.parts, function(index, part) {
       part.DOM
         .css({
           width: size.partSize,
-          height: size.partSize,
-          left: count * (size.partSize + size.partPadding) + size.partPadding
+          height: 'calc(' + size.partSize + 'px + ' + 1.5 * size.unit + 'em)',
+          left: count * (size.partSize + size.partPadding) + size.partPadding,
+          top: size.bonePadding
         });
       count++;
     });
@@ -230,7 +231,7 @@ function redrawDesign() {
         left: (canvas_position_x + part.X) * size.unit,
         top: (canvas_position_y + part.Y) * size.unit,
         width: size.partSize,
-        height: size.partSize + size.partPadding * 3
+        height: 'calc(' + size.partSize + 'px + ' + 1.5 * size.unit + 'em)'
       });
   });
   $('.part>p').css({
@@ -245,11 +246,31 @@ function redrawDesign() {
 }
 
 function exportDesign() {
-  return {
-    parts: $.map(parts, (value, index) => [value]),
-    lines: lines
-  };
+  let data = $.extend(true, {}, design);
+  delete data.status;
+  $.each(data.parts, function(index, part) {
+    delete part.DOM;
+  });
+  $.each(data.devices, function(index, device) {
+    delete device.DOM;
+    $.each(device.parts, function(index, part) {
+      delete part.DOM;
+    });
+  });
+  return data;
 }
+function createDownload(fileName, content) {
+  let aLink = $('<a></a>');
+  aLink
+    .attr('download', fileName)
+    .attr('href', 'data:application/json;base64,' + btoa(JSON.stringify(content)));
+  console.log(aLink);
+  aLink[0].click();
+}
+$('#export-button')
+  .on('click', function() {
+    createDownload('design.json', exportDesign());
+  });
 
 function highlightDevice(circuit) {
   circuit

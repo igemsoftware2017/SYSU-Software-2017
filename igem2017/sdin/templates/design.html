@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="/static/css/design.css">
   </head>
   <body>
+    <!-- Hidden file upload -->
+    <input id="file-input" type="file" hidden />
+
     <!-- Toolbar -->
     <div class="ui fixed menu">
       <div class="ui container">
@@ -12,9 +15,9 @@
           <i class="large undo link icon"></i>
           <i class="large repeat link icon"></i>
           <i id="open-fav-win" class="large star link icon"></i>
-          <i class="large folder open outline link icon"></i>
+          <i id="upload-button" class="large folder open outline link icon"></i>
           <i class="large save link icon"></i>
-          <i class="large external share link icon"></i>
+          <i id="export-button" class="large external share link icon"></i>
           <i class="large share alternate link icon"></i>
         </span>
         <span class="item">
