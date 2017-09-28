@@ -75,7 +75,7 @@ function addDevice(data) {
       if ($(this).data('selected')) {
         unHighlightDevice($(this));
       } else {
-        unHighlightDevice($('.device'));
+        unHighlightDevice($('.device, .part'));
         highlightDevice($(this));
       }
     });
@@ -116,6 +116,20 @@ function addPart(data, index, device) {
     .attr('partID', data.ID)
     .append('<div class="ui centered fluid image"><img src="/static/img/design/' + data.Type + '.png"></img></div>')
     .append('<p>' + data.Name + '</p>');
+  if (device == '#canvas')
+    part
+      .on('click', function() {
+        if ($(this).hasClass('dragging')) {
+          $(this).removeClass('dragging');
+          return;
+        }
+        if ($(this).data('selected')) {
+          unHighlightDevice($(this));
+        } else {
+          unHighlightDevice($('.device, .part'));
+          highlightDevice($(this));
+        }
+      });
   if (size.unit < 0.75)
     part.children('p').hide();
   data.DOM = part;
@@ -215,7 +229,7 @@ function redrawDesign() {
         left: (canvas_position_x + part.X) * size.unit,
         top: (canvas_position_y + part.Y) * size.unit,
         width: size.partSize,
-        height: size.partSize
+        height: size.partSize + size.partPadding * 3
       });
   });
   $('.part>p').css({
