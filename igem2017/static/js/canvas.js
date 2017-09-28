@@ -39,12 +39,14 @@ jsPlumb.ready(function () {
       $.each(design.parts, function(index, part) {
         addPart(part, 1, '#canvas');
         jsPlumb.draggable(part.DOM, {
-          containment: true,
           start: function(event) {
             part.DOM.data('drag-origin', {
               x: event.e.pageX,
               y: event.e.pageY
             });
+          },
+          drag: function() {
+            part.DOM.addClass('dragging');
           },
           stop: function(event) {
             let origin = part.DOM.data('drag-origin');
@@ -80,7 +82,6 @@ function addDevice(data) {
       }
     });
   jsPlumb.draggable(device, {
-    containment: true,
     drag: function() {
       device.addClass('dragging');
     },

@@ -1,4 +1,4 @@
-$('.ui.dropdown')
+$('#ratio-dropdown')
   .dropdown({
     onChange: function() {
       resizeDesign($(this).dropdown('get value'));
@@ -42,7 +42,20 @@ $('.window')
 // Part panel
 $('#part-panel')
   .resizable('option', 'minWidth', 200);
+$('#part-panel-button')
+  .on('click', function() {
+    if (part_panel_collapsed) {
+      uncollapsed();
+      $(this).removeClass('left').addClass('right');
+    } else {
+      if (!part_panel_sticked_to_right)
+        return;
+      collapse();
+      $(this).removeClass('right').addClass('left');
+    }
+  });
 var part_panel_sticked_to_right = false;
+var part_panel_collapsed = false;
 function stickPartPanel() {
   part_panel_sticked_to_right = true;
   win = $('#part-panel');
@@ -84,6 +97,10 @@ function stickPartPanel() {
   win
     .children('.nav')
     .children('.ui.header').hide();
+  $('#part-panel-button')
+    .show({
+      duration: 200
+    });
 }
 function unstickPartPanel() {
   part_panel_sticked_to_right = false;
@@ -93,12 +110,7 @@ function unstickPartPanel() {
     .draggable('option', 'snap', 'false')
     .draggable('option', 'snapTolerance', 0)
     .draggable('option', 'axis', 'false')
-    .on('drag', function(event, ui) {
-      if (ui.position.left < ui.originalPosition.left - 30) {
-        if (part_panel_sticked_to_right)
-          unstickPartPanel();
-      }
-    })
+    .on('drag', () => {})
     .resizable('option', 'handles', 'w, s, sw');
   win.css({
     transition: 'all 0.1s ease'
@@ -119,6 +131,48 @@ function unstickPartPanel() {
   win
     .children('.nav')
     .children('.ui.header').show();
+  $('#part-panel-button')
+    .hide({
+      duration: 100
+    });
+}
+function collapse() {
+  part_panel_collapsed = true;
+  win = $('#part-panel');
+  win
+    .draggable('disable')
+    .resizable('disable')
+    .css({
+      transition: 'left 0.2s ease',
+      left: 'calc(100% - 2em)'
+    })
+    .children('.content')
+      .hide();
+  $('#part-panel-button')
+    .css({
+      right: '',
+      left: '0.5em'
+    })
+}
+function uncollapsed() {
+  part_panel_collapsed = false;
+  win = $('#part-panel');
+  win
+    .draggable('enable')
+    .resizable('enable')
+    .css({
+      left: $('body').width() - win.width()
+    })
+    .children('div')
+      .show();
+  setTimeout(function() {
+    win.css({ transition: '' })
+  }, 200);
+  $('#part-panel-button')
+    .css({
+      left: '',
+      right: '0.5em'
+    });
 }
 $('#part-panel-dropper')
   .droppable({
