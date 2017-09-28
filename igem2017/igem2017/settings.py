@@ -85,6 +85,7 @@ DATABASES = {
         'PASSWORD': "DjangoPass123!",
         'OPTIONS': {
             "read_default_file": "igem2017/mysql.cnf",
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
     }
 }
