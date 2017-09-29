@@ -1,5 +1,5 @@
-var chosenInterest = new Set();
-var options = [
+let chosenInterest = new Set();
+let options = [
   { text: 'water', top: 250, left: 300 },
   { text: 'cancer', top: 300, left: 450 },
   { text: 'cell', top: 250, left: 600 },
@@ -22,15 +22,15 @@ options.forEach(function (o, i) {
     .data('option', o.text)
     .data('timerId', setInterval(function() {
       if (!item.data('chosen') && !item.data('hover')) {
-        let new_top = 0, new_left = 0;
-        let o_top = item.data('origin').top, o_left = item.data('origin').left;
+        let newTop = 0, newLeft = 0;
+        let oTop = item.data('origin').top, oLeft = item.data('origin').left;
         do {
-          new_top = item.position().top + Math.random() * 10 - 5;
-          new_left = item.position().left + Math.random() * 10 - 5;
-        } while (Math.abs(new_top - o_top) > 20 || Math.abs(new_left - o_left) > 20);
+          newTop = item.position().top + Math.random() * 10 - 5;
+          newLeft = item.position().left + Math.random() * 10 - 5;
+        } while (Math.abs(newTop - oTop) > 20 || Math.abs(newLeft - oLeft) > 20);
         item.css({
-          top: new_top,
-          left: new_left
+          top: newTop,
+          left: newLeft
         });
       }
     }, 1000))

@@ -1,13 +1,10 @@
-var canvas = $('#canvas');
-var canvas_width = canvas.width();
-var canvas_height = canvas.height();
 // x axis: top->down
 // y axis: left->right
 // init (0, 0) to (200, 200) of canvas
-var canvas_position_x = -200;
-var canvas_position_y = -800;
+let canvasPositionX = -200;
+let canvasPositionY = -800;
 
-var standard_size = {
+let standardSize = {
   deviceHeight: 100,
   partSize: 75,
   partPadding: 30,
@@ -15,17 +12,17 @@ var standard_size = {
   unit: 1
 };
 function zoom(size, ratio) {
-  let new_size = {}
-  $.each(size, (key, value) => { new_size[key] = value * ratio; });
-  return new_size;
+  let newSize = {};
+  $.each(size, (key, value) => { newSize[key] = value * ratio; });
+  return newSize;
 }
-var size = zoom(standard_size, 1);
+let size = zoom(standardSize, 1);
 function resizeDesign(ratio) {
-  size = zoom(standard_size, ratio);
+  size = zoom(standardSize, ratio);
   redrawDesign();
 }
 
-var design;
+let design;
 jsPlumb.ready(function () {
   jsPlumb.setContainer($('#canvas'));
   $.get({
@@ -38,22 +35,6 @@ jsPlumb.ready(function () {
       });
       $.each(design.parts, function(index, part) {
         addPart(part, 1, '#canvas');
-        jsPlumb.draggable(part.DOM, {
-          start: function(event) {
-            part.DOM.data('drag-origin', {
-              x: event.e.pageX,
-              y: event.e.pageY
-            });
-          },
-          drag: function() {
-            part.DOM.addClass('dragging');
-          },
-          stop: function(event) {
-            let origin = part.DOM.data('drag-origin');
-            part.X += (event.e.pageX - origin.x) / size.unit;
-            part.Y += (event.e.pageY - origin.y) / size.unit;
-          }
-        });
       });
       $.each(design.lines, function(index, link) {
         addLink(link);
@@ -97,10 +78,9 @@ function addDevice(data) {
       data.Y += (event.e.pageY - origin.y) / size.unit;
     }
   });
-  let bone =
-    $('<div></div>')
+  $('<div></div>')
     .appendTo(device)
-    .addClass('bone')
+    .addClass('bone');
   let index = 0;
   $.each(data.parts, function(_, part) {
     addPart(part, index, device);
@@ -116,8 +96,25 @@ function addPart(data, index, device) {
     .addClass('part')
     .attr('partID', data.ID)
     .append('<div class="ui centered fluid image"><img src="/static/img/design/' + data.Type + '.png"></img></div>')
-    .append('<p>' + data.Name + '</p>');
-  if (device == '#canvas')
+    .append('<p>' + data.Name + '</p>')
+    .data('is-subpart', device == '#canvas');
+  if (part.data('is-subpart')) {
+    jsPlumb.draggable(part, {
+      start: function(event) {
+        part.data('drag-origin', {
+          x: event.e.pageX,
+          y: event.e.pageY
+        });
+      },
+      drag: function() {
+        part.addClass('dragging');
+      },
+      stop: function(event) {
+        let origin = part.data('drag-origin');
+        data.X += (event.e.pageX - origin.x) / size.unit;
+        data.Y += (event.e.pageY - origin.y) / size.unit;
+      }
+    });
     part
       .on('click', function() {
         if ($(this).hasClass('dragging')) {
@@ -131,6 +128,7 @@ function addPart(data, index, device) {
           highlightDevice($(this));
         }
       });
+  }
   if (size.unit < 0.75)
     part.children('p').hide();
   data.DOM = part;
@@ -157,22 +155,22 @@ $('#canvas')
       .dropdown('set value', ratio)
       .dropdown('set text', Math.round(ratio * 100) + '%');
     resizeDesign(ratio);
-  })
+  });
 
-var canvas_dragging = false;
-var drag_mode = 'item';
-var canvas_drag_origin;
+let canvasDragging = false;
+let dragMode = 'item';
+let canvasDragOrigin;
 $('#drag-item')
   .on('click', function() {
-    drag_mode = 'item';
-    $(this).addClass('blue')
+    dragMode = 'item';
+    $(this).addClass('blue');
     $('#drag-canvas').removeClass('blue');
     $('#canvas').css({ cursor: '' });
     $('.part, .device').css({ pointerEvents: '' });
   });
 $('#drag-canvas')
   .on('click', function() {
-    drag_mode = 'canvas';
+    dragMode = 'canvas';
     $(this).addClass('blue');
     $('#drag-item').removeClass('blue');
     $('#canvas').css({ cursor: 'pointer' });
@@ -180,20 +178,20 @@ $('#drag-canvas')
   });
 $('#canvas')
   .on('mousedown', function(event) {
-    canvas_dragging = true;
-    canvas_drag_origin = { x: event.offsetX, y: event.offsetY };
+    canvasDragging = true;
+    canvasDragOrigin = { x: event.offsetX, y: event.offsetY };
   })
   .on('mouseup', function() {
-    canvas_dragging = false;
+    canvasDragging = false;
   })
   .on('mouseleave', function() {
-    canvas_dragging = false;
+    canvasDragging = false;
   })
   .on('mousemove', function(event) {
-    if (drag_mode == 'canvas' && canvas_dragging) {
-      canvas_position_x += (event.offsetX - canvas_drag_origin.x) / size.unit;
-      canvas_position_y += (event.offsetY - canvas_drag_origin.y) / size.unit;
-      canvas_drag_origin = { x: event.offsetX, y: event.offsetY };
+    if (dragMode == 'canvas' && canvasDragging) {
+      canvasPositionX += (event.offsetX - canvasDragOrigin.x) / size.unit;
+      canvasPositionY += (event.offsetY - canvasDragOrigin.y) / size.unit;
+      canvasDragOrigin = { x: event.offsetX, y: event.offsetY };
       redrawDesign();
     }
   });
@@ -202,8 +200,8 @@ function redrawDesign() {
   $.each(design.devices, function(index, device) {
     device.DOM
       .css({
-        left: (canvas_position_x + device.X) * size.unit,
-        top: (canvas_position_y + device.Y) * size.unit,
+        left: (canvasPositionX + device.X) * size.unit,
+        top: (canvasPositionY + device.Y) * size.unit,
         height: 'calc(' + (size.partSize + size.bonePadding * 3 + 3) + 'px + ' + 1.5 * size.unit + 'em)',
         width: Object.keys(device.parts).length * (size.partSize + size.partPadding) + size.partPadding
       })
@@ -228,8 +226,8 @@ function redrawDesign() {
   $.each(design.parts, function(index, part) {
     part.DOM
       .css({
-        left: (canvas_position_x + part.X) * size.unit,
-        top: (canvas_position_y + part.Y) * size.unit,
+        left: (canvasPositionX + part.X) * size.unit,
+        top: (canvasPositionY + part.Y) * size.unit,
         width: size.partSize,
         height: 'calc(' + size.partSize + 'px + ' + 1.5 * size.unit + 'em)'
       });

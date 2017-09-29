@@ -44,20 +44,20 @@ $('#part-panel')
   .resizable('option', 'minWidth', 200);
 $('#part-panel-button')
   .on('click', function() {
-    if (part_panel_collapsed) {
+    if (partPanelCollapsed) {
       uncollapsed();
       $(this).removeClass('left').addClass('right');
     } else {
-      if (!part_panel_sticked_to_right)
+      if (!partPanelStickedToRight)
         return;
       collapse();
       $(this).removeClass('right').addClass('left');
     }
   });
-var part_panel_sticked_to_right = false;
-var part_panel_collapsed = false;
+let partPanelStickedToRight = false;
+let partPanelCollapsed = false;
 function stickPartPanel() {
-  part_panel_sticked_to_right = true;
+  partPanelStickedToRight = true;
   win = $('#part-panel');
   win
     .draggable('option', 'snap', 'body')
@@ -66,7 +66,7 @@ function stickPartPanel() {
     .draggable('option', 'axis', 'x')
     .on('drag', function(event, ui) {
       if (ui.position.left < ui.originalPosition.left - 100) {
-        if (part_panel_sticked_to_right)
+        if (partPanelStickedToRight)
           unstickPartPanel();
       }
     })
@@ -74,14 +74,14 @@ function stickPartPanel() {
   win.data('free-state', {
     height: win.height()
   });
-  to_top = $('.ui.fixed.menu').height();
+  toTop = $('.ui.fixed.menu').height();
   win.css({
     transition: 'all 0.2s ease'
   });
   win.css({
     left: $('body').width() - win.width(),
-    top: to_top,
-    height: 'calc(100% - ' + to_top + 'px)',
+    top: toTop,
+    height: 'calc(100% - ' + toTop + 'px)',
     borderRadius: 0,
     border: '',
     borderLeft: '1px solid grey'
@@ -103,9 +103,9 @@ function stickPartPanel() {
     });
 }
 function unstickPartPanel() {
-  part_panel_sticked_to_right = false;
+  partPanelStickedToRight = false;
   win = $('#part-panel');
-  free_state = win.data('free-state');
+  freeState = win.data('free-state');
   win
     .draggable('option', 'snap', 'false')
     .draggable('option', 'snapTolerance', 0)
@@ -116,7 +116,7 @@ function unstickPartPanel() {
     transition: 'all 0.1s ease'
   });
   win.css({
-    height: free_state.height,
+    height: freeState.height,
     borderRadius: '5px',
     border: '1px solid grey'
   });
@@ -137,7 +137,7 @@ function unstickPartPanel() {
     });
 }
 function collapse() {
-  part_panel_collapsed = true;
+  partPanelCollapsed = true;
   win = $('#part-panel');
   win
     .draggable('disable')
@@ -152,10 +152,10 @@ function collapse() {
     .css({
       right: '',
       left: '0.5em'
-    })
+    });
 }
 function uncollapsed() {
-  part_panel_collapsed = false;
+  partPanelCollapsed = false;
   win = $('#part-panel');
   win
     .draggable('enable')
@@ -166,7 +166,7 @@ function uncollapsed() {
     .children('div')
       .show();
   setTimeout(function() {
-    win.css({ transition: '' })
+    win.css({ transition: '' });
   }, 200);
   $('#part-panel-button')
     .css({
@@ -202,7 +202,7 @@ $('#part-panel')
     $('#part-panel').css({
       minHeight: 'calc(' + (des.position().top + des.parent().position().top + des.height() + 1) + 'px + 2em)'
     });
-    if (part_panel_sticked_to_right) {
+    if (partPanelStickedToRight) {
       $('#canvas-box').css({
         width: 'calc(100% - ' + win.width() + 'px)'
       });
@@ -222,7 +222,7 @@ $('#open-fav-win')
   .on('click', function() {
     $('#fav-win').fadeToggle({
       duration: 200
-    })
+    });
   });
 
 // Toolbox
