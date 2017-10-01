@@ -1,6 +1,14 @@
 'use strict';
 
-const PART_TYPES = [
+const partSafetyLevels = [
+  'Low risk',
+  'Small risk',
+  'Many risk',
+  'Bomb'
+];
+Object.freeze(partSafetyLevels);
+
+const partTypes = [
   'CDS',
   'RBS',
   'promoter',
@@ -22,6 +30,7 @@ const PART_TYPES = [
   'measurement',
   'unknown'
 ];
+Object.freeze(partTypes);
 
 // x axis: top->down
 // y axis: left->right
@@ -29,14 +38,18 @@ const PART_TYPES = [
 let canvasPositionX = -200;
 let canvasPositionY = -800;
 
-let standardSize = {
+let positionToAddPart;
+let deviceToAddPart;
+
+const standardSize = {
   deviceHeight: 100,
-  partSize: 75,
+  partSize: 60,
   partPadding: 30,
   bonePadding: 10,
   addIconSize: 15,
   unit: 1
 };
+Object.freeze(standardSize);
 function zoom(size, ratio) {
   let newSize = {};
   $.each(size, (key, value) => { newSize[key] = value * ratio; });
@@ -55,20 +68,23 @@ jsPlumb.ready(function () {
     url: '/get_circuit_test',
     success: function(data) {
       design = JSON.parse(data);
-      console.log(design);
-      $.each(design.devices, function(index, device) {
-        addDevice(device);
-      });
-      $.each(design.parts, function(index, part) {
-        addPart(part, 1, undefined);
-      });
-      $.each(design.lines, function(index, link) {
-        addLink(link);
-      });
-      redrawDesign();
+      parseDesign(design);
     }
   });
 });
+
+function parseDesign(design) {
+  $.each(design.devices, function(index, device) {
+    addDevice(device);
+  });
+  $.each(design.parts, function(index, part) {
+    addPart(part, 1, undefined);
+  });
+  $.each(design.lines, function(index, link) {
+    addLink(link);
+  });
+  redrawDesign();
+}
 
 function addDevice(data) {
   // Creating device
@@ -122,10 +138,8 @@ function addDevice(data) {
     .hide()
     .appendTo(device)
     .on('click', function() {
-      console.log($(this));
-      $('#add-part-modal')
-        .data('destDevice', data)
-        .data('destPosition', device.data('addIconIndex') + $(this).data('position-offset'));
+      deviceToAddPart = data;
+      positionToAddPart = device.data('addIconIndex') + $(this).data('position-offset');
       $('#add-part-modal')
         .modal('show');
       device.removeData('addIconIndex');
@@ -164,22 +178,18 @@ function addPart(data, index, device) {
   if (isSubpart) {
     part
       .on('mouseenter', function() {
-        if (device.data('addIconIndex') === part.data('index')) {
+        if (device.data('addIconIndex') === part.data('index'))
           return;
-        } else if (device.data('addIconIndex') !== undefined) {
-          device.leftAddIcon.add(device.rightAddIcon)
-            .fadeOut({ duration: 100 });
-        }
-        setTimeout(function() {
-          device.leftAddIcon.css({
-            left: part.data('index') * (size.partSize + size.partPadding) + (size.partPadding - size.addIconSize) / 2
-          });
-          device.rightAddIcon.css({
-            left: (part.data('index') + 1) * (size.partSize + size.partPadding) + (size.partPadding - size.addIconSize) / 2
-          });
+        device.leftAddIcon.css({
+          left: part.data('index') * (size.partSize + size.partPadding) + (size.partPadding - size.addIconSize) / 2
+        });
+        device.rightAddIcon.css({
+          left: (part.data('index') + 1) * (size.partSize + size.partPadding) + (size.partPadding - size.addIconSize) / 2
+        });
+        if (device.data('addIconIndex') === undefined) {
           device.leftAddIcon.add(device.rightAddIcon)
             .fadeIn({ duration: 100 });
-        }, 100);
+        }
         device.data('addIconIndex', part.data('index'));
       })
       .on('mouseleave', function() {
@@ -259,19 +269,24 @@ $('#add-part-from-new')
   .on('click', function() {
     $('#add-part-modal')
       .modal('hide');
+    $('#new-part-modal')
+      .modal('show');
+  });
+
+$('#add-new-part')
+  .on('click', function() {
+    $('#new-part-modal')
+      .modal('hide');
     let new_data = {
       ID: "100",
-      LibraryID: "test",
-      Name: "test",
-      Type: "RBS",
+      LibraryID: $('#part-name').val(),
+      Name: $('#part-name').val(),
+      Type: $('#part-type-dropdown').dropdown('get value'),
       X: 0,
       Y: 0,
       contain: ""
     };
-    let modal = $(this).parent().parent();
-    let device = modal.data('destDevice');
-    let position = modal.data('destPosition');
-    insertPart(device, new_data, position);
+    insertPart(deviceToAddPart, new_data, positionToAddPart);
   });
 
 // Alt + wheel zomming
@@ -285,45 +300,6 @@ $('#canvas')
   .dropdown('set value', ratio)
   .dropdown('set text', Math.round(ratio * 100) + '%');
   resizeDesign(ratio);
-});
-
-let canvasDragging = false;
-let dragMode = 'item';
-let canvasDragOrigin;
-$('#drag-item')
-.on('click', function() {
-  dragMode = 'item';
-  $(this).addClass('blue');
-  $('#drag-canvas').removeClass('blue');
-  $('#canvas').css({ cursor: '' });
-  $('.part, .device').css({ pointerEvents: '' });
-});
-$('#drag-canvas')
-.on('click', function() {
-  dragMode = 'canvas';
-  $(this).addClass('blue');
-  $('#drag-item').removeClass('blue');
-  $('#canvas').css({ cursor: 'pointer' });
-  $('.part, .device').css({ pointerEvents: 'none' });
-});
-$('#canvas')
-.on('mousedown', function(event) {
-  canvasDragging = true;
-  canvasDragOrigin = { x: event.offsetX, y: event.offsetY };
-})
-.on('mouseup', function() {
-  canvasDragging = false;
-})
-.on('mouseleave', function() {
-  canvasDragging = false;
-})
-.on('mousemove', function(event) {
-  if (dragMode === 'canvas' && canvasDragging) {
-    canvasPositionX += (event.offsetX - canvasDragOrigin.x) / size.unit;
-    canvasPositionY += (event.offsetY - canvasDragOrigin.y) / size.unit;
-    canvasDragOrigin = { x: event.offsetX, y: event.offsetY };
-    redrawDesign();
-  }
 });
 
 function redrawDesign() {
@@ -347,7 +323,8 @@ function redrawDesign() {
         top: `calc(${size.partSize / 2 + size.bonePadding}px + ${1.5 / 2 * size.unit}em)`,
         height: size.addIconSize,
         width: size.addIconSize,
-        cursor: 'pointer'
+        cursor: 'pointer',
+        transition: 'left 0.2s ease'
       });
     $.each(device.parts, function(index, part) {
       part.DOM
@@ -420,3 +397,74 @@ function unHighlightDevice(device) {
     border: ''
   });
 }
+
+$('#ratio-dropdown')
+  .dropdown({
+    values: (() => {
+      let values = [];
+      for (let i = 25; i < 150; i += 25)
+      values.push({
+        name: `${i}%`,
+        value: i / 100,
+        selected: i === 100
+      });
+      return values;
+    })(),
+    onChange: function(value, text) {
+      if (text === undefined)
+        return;
+      if ($(this).data('initialized') === undefined) {
+        $(this).data('initialized', true);
+        return;
+      }
+      resizeDesign(value);
+    }
+  });
+
+$('#part-type-dropdown')
+  .dropdown({
+    values: partTypes.map((x, i) => ({ name: x, value: x, selected: i === 0 }))
+  });
+$('#part-safety-dropdown')
+  .dropdown({
+    values: partSafetyLevels.map((x, i) => ({ name: `${i} - ${x}`, value: i, selected: i === 0  }))
+  });
+
+let canvasDragging = false;
+let dragMode = 'item';
+let canvasDragOrigin;
+$('#drag-item')
+.on('click', function() {
+  dragMode = 'item';
+  $(this).addClass('blue');
+  $('#drag-canvas').removeClass('blue');
+  $('#canvas').css({ cursor: '' });
+  $('.part, .device').css({ pointerEvents: '' });
+});
+$('#drag-canvas')
+.on('click', function() {
+  dragMode = 'canvas';
+  $(this).addClass('blue');
+  $('#drag-item').removeClass('blue');
+  $('#canvas').css({ cursor: 'pointer' });
+  $('.part, .device').css({ pointerEvents: 'none' });
+});
+$('#canvas')
+.on('mousedown', function(event) {
+  canvasDragging = true;
+  canvasDragOrigin = { x: event.offsetX, y: event.offsetY };
+})
+.on('mouseup', function() {
+  canvasDragging = false;
+})
+.on('mouseleave', function() {
+  canvasDragging = false;
+})
+.on('mousemove', function(event) {
+  if (dragMode === 'canvas' && canvasDragging) {
+    canvasPositionX += (event.offsetX - canvasDragOrigin.x) / size.unit;
+    canvasPositionY += (event.offsetY - canvasDragOrigin.y) / size.unit;
+    canvasDragOrigin = { x: event.offsetX, y: event.offsetY };
+    redrawDesign();
+  }
+});

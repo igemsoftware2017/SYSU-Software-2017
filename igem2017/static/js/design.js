@@ -1,11 +1,5 @@
 'use strict';
 
-$('#ratio-dropdown')
-  .dropdown({
-    onChange: function() {
-      resizeDesign($(this).dropdown('get value'));
-    }
-  });
 $('#zoom-in')
   .on('click', function() {
     let ratio = size.unit;
