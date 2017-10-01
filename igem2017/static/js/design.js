@@ -1,3 +1,5 @@
+'use strict';
+
 $('#ratio-dropdown')
   .dropdown({
     onChange: function() {
@@ -58,7 +60,7 @@ let partPanelStickedToRight = false;
 let partPanelCollapsed = false;
 function stickPartPanel() {
   partPanelStickedToRight = true;
-  win = $('#part-panel');
+  let win = $('#part-panel');
   win
     .draggable('option', 'snap', 'body')
     .draggable('option' ,'snapMode', 'inner')
@@ -74,7 +76,7 @@ function stickPartPanel() {
   win.data('free-state', {
     height: win.height()
   });
-  toTop = $('.ui.fixed.menu').height();
+  let toTop = $('.ui.fixed.menu').height();
   win.css({
     transition: 'all 0.2s ease'
   });
@@ -104,8 +106,8 @@ function stickPartPanel() {
 }
 function unstickPartPanel() {
   partPanelStickedToRight = false;
-  win = $('#part-panel');
-  freeState = win.data('free-state');
+  let win = $('#part-panel');
+  let freeState = win.data('free-state');
   win
     .draggable('option', 'snap', 'false')
     .draggable('option', 'snapTolerance', 0)
@@ -138,7 +140,7 @@ function unstickPartPanel() {
 }
 function collapse() {
   partPanelCollapsed = true;
-  win = $('#part-panel');
+  let win = $('#part-panel');
   win
     .draggable('disable')
     .resizable('disable')
@@ -156,7 +158,7 @@ function collapse() {
 }
 function uncollapsed() {
   partPanelCollapsed = false;
-  win = $('#part-panel');
+  let win = $('#part-panel');
   win
     .draggable('enable')
     .resizable('enable')
