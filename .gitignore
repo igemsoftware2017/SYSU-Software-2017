@@ -1,3 +1,6 @@
+# Tern code highlight setting
+.tern-project
+
 # Python
 __pycache__/
 *.py[cod]
