@@ -129,6 +129,8 @@ function addDevice(data) {
     .addClass('bone');
 
   // Creating add buttons
+  //   Removing add buttons
+  /*
   device.leftAddIcon = $('<div><img></img></div>')
     .data('position-offset', 0);
   device.rightAddIcon = $('<div><img></img><div>')
@@ -152,6 +154,7 @@ function addDevice(data) {
       device.leftAddIcon.add(device.rightAddIcon)
       .fadeOut(100);
     });
+  */
 
   // Creating subparts
   $.each(data.parts, function(index, part) {
@@ -178,6 +181,7 @@ function addPart(data, index, device) {
   if (isSubpart) {
     part
       .on('mouseenter', function() {
+        /*
         if (device.data('addIconIndex') === part.data('index'))
           return;
         device.leftAddIcon.css({
@@ -191,6 +195,7 @@ function addPart(data, index, device) {
             .fadeIn({ duration: 100 });
         }
         device.data('addIconIndex', part.data('index'));
+        */
       })
       .on('mouseleave', function() {
       });
@@ -317,6 +322,7 @@ function redrawDesign() {
         width: device.DOM.width() - 2 * size.partPadding,
         bottom: size.bonePadding
       });
+    /*
     device.DOM.leftAddIcon.add(device.DOM.rightAddIcon)
       .css({
         position: 'absolute',
@@ -326,6 +332,7 @@ function redrawDesign() {
         cursor: 'pointer',
         transition: 'left 0.2s ease'
       });
+    */
     $.each(device.parts, function(index, part) {
       part.DOM
         .css({
