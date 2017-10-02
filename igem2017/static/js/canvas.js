@@ -47,6 +47,7 @@ const standardSize = {
   partPadding: 30,
   bonePadding: 10,
   addIconSize: 15,
+  strokeWidth: 3,
   unit: 1
 };
 Object.freeze(standardSize);
@@ -252,11 +253,23 @@ function addLink(data) {
     anchors[1].push('Left');
   if (target.data('rightmost') === true)
     anchors[1].push('Right');
+  let arrowSetting = {
+    foldback: 0.001,
+    location: 1,
+    width: 20,
+    id: `arrow-${data.source}-${data.target}`
+  };
+  if (data.type === 'promotion')
+    arrowSetting = { foldback: 0.01, width: 15, location: 1, id: "arrow"};
+  else
+    arrowSetting = { foldback: 0.01, width: 30, length: 1, location: 1, id: "arrow" };
   jsPlumb.connect({
     source: source,
     target: target,
     anchors: anchors,
     endpoint: 'Blank',
+    cssClass: `connection ${data.type}-connection`,
+    overlays: [['Arrow', arrowSetting]],
     connector: 'Flowchart'
   });
 }

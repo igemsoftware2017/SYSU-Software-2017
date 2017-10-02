@@ -167,3 +167,13 @@ div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
   bottom: 0;
   left: 0;
 }
+
+/* SVG Path Stroke */
+.promotion-connection>path {
+  stroke: blue;
+  fill: blue;
+}
+.inhibition-connection>path {
+  stroke: red;
+  fill: red;
+}
