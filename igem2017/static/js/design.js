@@ -56,17 +56,19 @@ function stickPartPanel() {
   partPanelStickedToRight = true;
   let win = $('#part-panel');
   win
+    .resizable('option', 'handles', 'w')
     .draggable('option', 'snap', 'body')
     .draggable('option' ,'snapMode', 'inner')
     .draggable('option', 'snapTolerance', 100)
     .draggable('option', 'axis', 'x')
     .on('drag', function(event, ui) {
+      if (ui === undefined)
+        return;
       if (ui.position.left < ui.originalPosition.left - 100) {
         if (partPanelStickedToRight)
           unstickPartPanel();
       }
-    })
-    .resizable('option', 'handles', 'w');
+    });
   win.data('free-state', {
     height: win.height()
   });
@@ -191,7 +193,6 @@ $('#part-panel-dropper')
       });
     }
   });
-$('#part-panel-button');
 $('#part-panel')
   .on('resize', function() {
     des = $('#part-info-des');
@@ -248,5 +249,8 @@ function initPositionSize() {
   });
 }
 initPositionSize();
-$('#ratio-dropdown')
-  .dropdown('set text', '100%');
+
+
+// TODO: DIRTY OPERATIONS ONLY FOR DEBUGGING
+// REMEMBER TO REMOVE!!!
+$('#open-fav-win')[0].click();

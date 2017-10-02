@@ -58,9 +58,9 @@
         <i id="part-panel-button" class="link icon angle double right"></i>
       </div>
       <div class="content">
-        <div id="search-part" class="ui fluid search selection dropdown">
-          请输入元件编号
+        <div id="search-parts-dropdown" class="ui fluid search selection dropdown">
           <i class="dropdown icon"></i>
+          <div class="default text">请输入元件编号</div>
         </div>
         <div class="tab-context">
           <div class="ui top attached tabular menu">
@@ -80,10 +80,11 @@
             <div class="item" data-tab="func-tab">功能</div>
           </div>
           <div class="ui bottom attached active tab segment" data-tab="info-tab">
-            <img class="ui centered tiny image" src="/static/img/design/RBS.png" alt="">
-            <h5 class="ui center aligned header">元件名称</h5>
+            <img id="part-info-img" class="ui centered tiny image" src="/static/img/design/RBS.png" alt="">
+            <h5 id="part-info-name" class="ui center aligned header">元件名称</h5>
             <div class="ui divider"></div>
             <div id="part-info-des">
+              <h5 class="ui header">描述：</h5>
               <p>Adipisicing soluta laboriosam consequatur lorem exercitationem Sequi labore explicabo eius nisi possimus Aperiam quisquam tenetur quos sit ex? Eum quibusdam magnam quam iure ipsa unde sit? Earum error tempora amet assumenda eum perspiciatis. Earum porro maxime ad nostrum doloribus Eius.</p>
             </div>
           </div>

@@ -437,6 +437,38 @@ $('#part-safety-dropdown')
     values: partSafetyLevels.map((x, i) => ({ name: `${i} - ${x}`, value: i, selected: i === 0  }))
   });
 
+$('#search-parts-dropdown')
+  .dropdown({
+    apiSettings: {
+      url: '/api/search_parts?name={query}',
+      cache: false,
+      beforeSend: (settings) => settings.urlData.query.length < 3 ? false : settings,
+      onResponse: (response) => ({
+        success: response.status === 1,
+        results:  response.parts.map((x) => ({
+          name: x.Name,
+          value: x.id
+        }))
+      })
+    },
+    onChange: (value) => {
+      $.get(`/api/get_part?id=${value}`, (data) => {
+        data = JSON.parse(data);
+        console.log(data);
+        if (data.status !== 1) {
+          console.error(`Get part information failed. ID: ${value}, response: ${data}`);
+          return;
+        }
+        $('#part-info-img')
+          .attr('src', `/static/img/design/${data.part.Type}.png`);
+        $('#part-info-name')
+          .text(data.part.Name);
+        $('#part-info-des>p')
+          .text(data.part.Description);
+      });
+    }
+  });
+
 let canvasDragging = false;
 let dragMode = 'item';
 let canvasDragOrigin;
