@@ -25,7 +25,7 @@ SECRET_KEY = 'sj@x-_lm)95xc_%b+d%nmer95a=e0j$vgjc4v3m#js$aj^rz(9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'sysusoftware.info']
+ALLOWED_HOSTS = ['localhost', 'sysusoftware.info', '404.sgly.cf']
 
 
 # Application definition
