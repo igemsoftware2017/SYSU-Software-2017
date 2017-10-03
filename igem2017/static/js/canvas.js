@@ -394,22 +394,24 @@ $('#search-parts-dropdown')
         }))
       })
     },
-    onChange: (value) => {
-      $.get(`/api/get_part?id=${value}`, (data) => {
-        data = JSON.parse(data);
-        if (data.status !== 1) {
-          console.error(`Get part information failed. ID: ${value}, response: ${data}`);
-          return;
-        }
-        $('#part-info-img')
-          .attr('src', `/static/img/design/${data.part.Type}.png`);
-        $('#part-info-name')
-          .text(data.part.Name);
-        $('#part-info-des>p')
-          .text(data.part.Description);
-      });
-    }
+    onChange: (value) => { setPartPanel(value); }
   });
+
+function setPartPanel(id) {
+  $.get(`/api/get_part?id=${id}`, (data) => {
+    data = JSON.parse(data);
+    if (data.status !== 1) {
+      console.error(`Get part information failed. ID: ${value}, response: ${data}`);
+      return;
+    }
+    $('#part-info-img')
+    .attr('src', `/static/img/design/${data.part.Type}.png`);
+    $('#part-info-name')
+    .text(data.part.Name);
+    $('#part-info-des>p')
+    .text(data.part.Description);
+  });
+}
 
 let canvasDragging = false;
 let canvasDragOrigin;
