@@ -177,3 +177,6 @@ div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
   stroke: red;
   fill: red;
 }
+.preview-connection>path {
+  stroke-dasharray: 5, 5;
+}
