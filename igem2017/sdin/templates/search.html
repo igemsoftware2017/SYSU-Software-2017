@@ -9,202 +9,185 @@
     <link rel="stylesheet" href="/static/semantic/dist/components/menu.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/popup.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/calendar.min.css">
-    <link rel="stylesheet" href="/static/css/custom.css">
     <link rel="stylesheet" href="/static/css/search.css">
   </head>
   <body>
     {% include "nav.html" %}
-    <div class="ui container" id="search-box-container">
-      <div class="ui middle aligned grid">
-        <div class="two wide column">
-          <img class="ui tiny image" src="/static/img/logo.png" alt="S-Din">
+    <div id="search-box-container">
+      <div id="logo">
+          <img class="ui fluid image" src="/static/img/logo.png" alt="S-Din">
+      </div>
+      <div id="search-box">
+        <div class="ui form">
+          <div class="field">
+            <div class="ui fluid icon input">
+              <input type="text" placeholder="Search for projects...">
+              <i class="search icon"></i>
+            </div>
+          </div>
         </div>
-        <div class="eight wide column">
+      </div>
+    </div>
+    <div id="result-container">
+      <div id="search-type-menu" class="ui secondary pointing inverted menu">
+        <a class="active item">Project</a>
+        <a class="item">Parts</a>
+      </div>
+      <div class="line" id="also-try">
+        Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
+      </div>
+      <div class="line">
+        <code>446</code><span id="result-span">RESULTS</span>
+        <a id="tool">Search Tools<i class="filter icon"></i></a>
+        <div class="ui flowing popup bottom left transition hidden">
+          <p>Chasis</p>
+          <div class="ui labels">
+            <a class="ui basic label">E.coli</a>
+          </div>
+          <div class="ui divider"></div>
+          <p>Medal</p>
+          <div class="ui labels">
+            <a class="ui basic label">Gold</a>
+            <a class="ui basic label">Silver</a>
+            <a class="ui basic label">Bronze</a>
+            <a class="ui basic label">Best Rewards</a>
+          </div>
+          <div class="ui divider"></div>
+          <p>Track</p>
+          <div class="ui labels">
+            <a class="ui basic label">Health & Medicine</a>
+            <a class="ui basic label">Energy</a>
+            <a class="ui basic label">Environment</a>
+            <a class="ui basic label">Food & Nutrition</a>
+          </div>
+          <div class="ui divider"></div>
+          <p>Time</p>
           <div class="ui form">
-            <div class="field">
-              <div class="ui fluid icon input">
-                <input type="text" placeholder="Search for projects...">
-                <i class="search icon"></i>
+            <div class="inline fields">
+              <div class="field">
+                <label>From</label>
+                <div id="from" class="ui calendar">
+                  <div class="ui input left icon">
+                    <i class="calendar icon"></i>
+                    <input type="text">
+                  </div>
+                </div>
+              </div>
+              <div class="field">
+                <label>To</label>
+                <div id="to" class="ui calendar">
+                  <div class="ui input left icon">
+                    <i class="calendar icon"></i>
+                    <input type="text">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ui submit button">Apply</div>
+        </div>
+      </div>
+      <div id="result-list">
+        <div class="ui items">
+          <div class="item">
+            <div class="fluid image"><img src="/static/img/logo.png" alt=""></div>
+            <div class="content">
+              <a class="ui header" href="/detail">Year-Project name | school</a>
+              <div class="right floated">
+                IEF Value: 00000000
+                <i class="empty star icon" v-on:click="fav"></i>
+                <i class="diamond icon"></i>
+              </div>
+              <div class="meta">Chasis | E.coli</div>
+              <div class="description">
+                <p>Description</p>
+              </div>
+              <div class="middle aligned extra">
+                <a class="right floated" href="#">Rewards</a>
+                <p>Collections: 80</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image"><img src="/static/img/logo.png" alt=""></div>
+            <div class="content">
+              <a class="ui header" href="/detail">Year-Project name | school</a>
+              <div class="right floated">
+                IEF Value: 00000000
+                <i class="empty star icon" v-on:click="fav"></i>
+                <i class="diamond icon"></i>
+              </div>
+              <div class="meta">Chasis | E.coli</div>
+              <div class="description">
+                <p>Description</p>
+              </div>
+              <div class="middle aligned extra">
+                <a class="right floated" href="#">Rewards</a>
+                <p>Collections: 80</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image"><img src="/static/img/logo.png" alt=""></div>
+            <div class="content">
+              <a class="ui header" href="/detail">Year-Project name | school</a>
+              <div class="right floated">
+                IEF Value: 00000000
+                <i class="empty star icon" v-on:click="fav"></i>
+                <i class="diamond icon"></i>
+              </div>
+              <div class="meta">Chasis | E.coli</div>
+              <div class="description">
+                <p>Description</p>
+              </div>
+              <div class="middle aligned extra">
+                <a class="right floated" href="#">Rewards</a>
+                <p>Collections: 80</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image"><img src="/static/img/logo.png" alt=""></div>
+            <div class="content">
+              <a class="ui header" href="/detail">Year-Project name | school</a>
+              <div class="right floated">
+                IEF Value: 00000000
+                <i class="empty star icon" v-on:click="fav"></i>
+                <i class="diamond icon"></i>
+              </div>
+              <div class="meta">Chasis | E.coli</div>
+              <div class="description">
+                <p>Description</p>
+              </div>
+              <div class="middle aligned extra">
+                <a class="right floated" href="#">Rewards</a>
+                <p>Collections: 80</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image"><img src="/static/img/logo.png" alt=""></div>
+            <div class="content">
+              <a class="ui header" href="/detail">Year-Project name | school</a>
+              <div class="right floated">
+                IEF Value: 00000000
+                <i class="empty star icon" v-on:click="fav"></i>
+                <i class="diamond icon"></i>
+              </div>
+              <div class="meta">Chasis | E.coli</div>
+              <div class="description">
+                <p>Description</p>
+              </div>
+              <div class="middle aligned extra">
+                <a class="right floated" href="#">Rewards</a>
+                <p>Collections: 80</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="ui segment" id="result-segment">
-      <div class="ui container">
-        <div class="ui grid">
-          <div class="ten wide column">
-            <!--
-            <div class="ui secondary pointing red menu">
-              <a class="active item">All</a>
-              <a class="item">Keywords</a>
-              <a class="item">BBa_s</a>
-            </div>
-            -->
-            <div class="ui vertical segment" id="also-try">
-              Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
-            </div>
-            <div class="ui vertical segment">
-              <div class="ui grid">
-                <div class="three wide column">
-                  <code>446</code> Results
-                </div>
-                <div class="thirteen wide column">
-                  <a id="tool">Search Tools<i class="filter outline icon"></i></a>
-                  <div class="ui flowing popup bottom left transition hidden">
-                    <p>Chasis</p>
-                    <div class="ui labels">
-                      <a class="ui basic label">E.coli</a>
-                    </div>
-                    <div class="ui divider"></div>
-                    <p>Medal</p>
-                    <div class="ui labels">
-                      <a class="ui basic label">Gold</a>
-                      <a class="ui basic label">Silver</a>
-                      <a class="ui basic label">Bronze</a>
-                      <a class="ui basic label">Best Rewards</a>
-                    </div>
-                    <div class="ui divider"></div>
-                    <p>Track</p>
-                    <div class="ui labels">
-                      <a class="ui basic label">Health & Medicine</a>
-                      <a class="ui basic label">Energy</a>
-                      <a class="ui basic label">Environment</a>
-                      <a class="ui basic label">Food & Nutrition</a>
-                    </div>
-                    <div class="ui divider"></div>
-                    <p>Time</p>
-                    <div class="ui form">
-                      <div class="inline fields">
-                        <div class="field">
-                          <label>From</label>
-                          <div id="from" class="ui calendar">
-                            <div class="ui input left icon">
-                              <i class="calendar icon"></i>
-                              <input type="text">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="field">
-                          <label>To</label>
-                          <div id="to" class="ui calendar">
-                            <div class="ui input left icon">
-                              <i class="calendar icon"></i>
-                              <input type="text">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="ui submit button">Apply</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="ui vertical segment" id="result-list">
-              <div class="ui items">
-                <div class="item">
-                  <div class="image"><img src="/static/img/logo.png" alt=""></div>
-                  <div class="content">
-                    <a class="ui header" href="/detail">Year-Project name | school</a>
-                    <div class="right floated">
-                      IEF Value: 00000000
-                      <i class="empty star icon" v-on:click="fav"></i>
-                      <i class="diamond icon"></i>
-                    </div>
-                    <div class="meta">Chasis | E.coli</div>
-                    <div class="description">
-                      <p>Description</p>
-                    </div>
-                    <div class="middle aligned extra">
-                      <a class="right floated" href="#">Rewards</a>
-                      <p>Collections: 80</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="image"><img src="/static/img/logo.png" alt=""></div>
-                  <div class="content">
-                    <a class="ui header" href="/detail">Year-Project name | school</a>
-                    <div class="right floated">
-                      IEF Value: 00000000
-                      <i class="empty star icon" v-on:click="fav"></i>
-                      <i class="diamond icon"></i>
-                    </div>
-                    <div class="meta">Chasis | E.coli</div>
-                    <div class="description">
-                      <p>Description</p>
-                    </div>
-                    <div class="middle aligned extra">
-                      <a class="right floated" href="#">Rewards</a>
-                      <p>Collections: 80</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="image"><img src="/static/img/logo.png" alt=""></div>
-                  <div class="content">
-                    <a class="ui header" href="/detail">Year-Project name | school</a>
-                    <div class="right floated">
-                      IEF Value: 00000000
-                      <i class="empty star icon" v-on:click="fav"></i>
-                      <i class="diamond icon"></i>
-                    </div>
-                    <div class="meta">Chasis | E.coli</div>
-                    <div class="description">
-                      <p>Description</p>
-                    </div>
-                    <div class="middle aligned extra">
-                      <a class="right floated" href="#">Rewards</a>
-                      <p>Collections: 80</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="image"><img src="/static/img/logo.png" alt=""></div>
-                  <div class="content">
-                    <a class="ui header" href="/detail">Year-Project name | school</a>
-                    <div class="right floated">
-                      IEF Value: 00000000
-                      <i class="empty star icon" v-on:click="fav"></i>
-                      <i class="diamond icon"></i>
-                    </div>
-                    <div class="meta">Chasis | E.coli</div>
-                    <div class="description">
-                      <p>Description</p>
-                    </div>
-                    <div class="middle aligned extra">
-                      <a class="right floated" href="#">Rewards</a>
-                      <p>Collections: 80</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="image"><img src="/static/img/logo.png" alt=""></div>
-                  <div class="content">
-                    <a class="ui header" href="/detail">Year-Project name | school</a>
-                    <div class="right floated">
-                      IEF Value: 00000000
-                      <i class="empty star icon" v-on:click="fav"></i>
-                      <i class="diamond icon"></i>
-                    </div>
-                    <div class="meta">Chasis | E.coli</div>
-                    <div class="description">
-                      <p>Description</p>
-                    </div>
-                    <div class="middle aligned extra">
-                      <a class="right floated" href="#">Rewards</a>
-                      <p>Collections: 80</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    <div id="right-panel">
     </div>
   </body>
 

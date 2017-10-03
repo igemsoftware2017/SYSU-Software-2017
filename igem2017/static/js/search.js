@@ -1,3 +1,29 @@
+'use strict';
+
+// initializing position
+let leftBlank = `2em + ${$('#logo').width()}px`;
+$('#search-box-container').css({
+  height: $('#logo').height()
+});
+$('#search-box').css({
+  left: `calc(${leftBlank})`,
+  top: ($('#search-box-container').height() - $('#search-box').height()) / 2
+});
+$('#result-container').css({
+  left: `calc(${leftBlank})`
+});
+$.each($('.item>.image>img'), function(index, value) {
+  $(this).css({
+    marginLeft: ($(this).parent().width() - $(this).width()) / 2
+  });
+});
+$('#right-panel').css({
+  left: `calc(2em + ${leftBlank} + 876px + 20px)`,
+  top: $('#result-list').offset().top,
+  width: 342,
+  height: 406
+});
+
 $('.star.icon')
   .on('click', function() {
     if ($(this).hasClass('empty'))
