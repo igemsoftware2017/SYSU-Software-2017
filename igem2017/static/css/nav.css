@@ -1,0 +1,9 @@
+.ui.fixed.menu>.ui.container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0.5em 0;
+  width: 100%;
+}
+.ui.fixed.menu .item:before {
+  width: 0;
+}

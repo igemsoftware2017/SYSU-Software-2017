@@ -167,3 +167,32 @@ div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
   bottom: 0;
   left: 0;
 }
+
+div.part-helper {
+  border: 1px solid black;
+  background-color: white;
+  width: 100px;
+  text-align: center;
+  opacity: 0.7;
+}
+div.part-helper>div.ui.image>img {
+  width: 100%;
+  height: auto;
+}
+
+div.subpart-dropper {
+  position: absolute;
+}
+
+/* SVG Path Stroke */
+.promotion-connection>path {
+  stroke: blue;
+  fill: blue;
+}
+.inhibition-connection>path {
+  stroke: red;
+  fill: red;
+}
+.preview-connection>path {
+  stroke-dasharray: 5, 5;
+}
