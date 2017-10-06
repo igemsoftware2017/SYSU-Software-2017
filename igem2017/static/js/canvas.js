@@ -71,14 +71,14 @@ jsPlumb.ready(function () {
     jsPlumb.setContainer($('#canvas'));
     $.get({
         url: '/get_circuit_test',
-        success: function(data) {
-            design = JSON.parse(data);
-            parseDesign(design);
-        }
+        success: (data) => { importDesign(data); }
     });
 });
 
-function parseDesign(design) {
+function importDesign(data) {
+    design = JSON.parse(data);
+    jsPlumb.deleteEveryConnection();
+    $('.part, .device').remove();
     $.each(design.devices, function(index, device) {
         addDevice(device);
     });
@@ -145,7 +145,6 @@ function addDevice(data) {
                 greedy: true,
                 tolerance: 'intersect',
                 over: function() {
-                    console.log($(this).attr('dropper-id'));
                     $(this).css({ backgroundColor: 'rgba(255, 0, 0, 0.3)' });
                 },
                 out: function() {
