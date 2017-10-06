@@ -1,5 +1,6 @@
 'use strict';
 
+/* eslint-disable no-console */
 /* global jsPlumb */
 
 const partSafetyLevels = [
@@ -65,6 +66,7 @@ function resizeDesign(ratio) {
 }
 
 let design;
+let globalNextPartId = 0;
 jsPlumb.ready(function () {
     jsPlumb.setContainer($('#canvas'));
     $.get({
@@ -132,6 +134,35 @@ function addDevice(data) {
         .appendTo(device)
         .addClass('bone');
 
+    // Creating dropper for adding subparts
+    for (let i = 0; i <= data.parts.length; ++i) {
+        $('<div></div>')
+            .appendTo(device)
+            .addClass('subpart-dropper')
+            .attr('dropper-id', i)
+            .droppable({
+                accept: '#part-info-img',
+                greedy: true,
+                tolerance: 'intersect',
+                over: function() {
+                    console.log($(this).attr('dropper-id'));
+                    $(this).css({ backgroundColor: 'rgba(255, 0, 0, 0.3)' });
+                },
+                out: function() {
+                    $(this).css({ backgroundColor: 'rgba(255, 0, 0, 0.1)' });
+                },
+                drop: function() {
+                    insertPart(data, selectedPart, $(this).attr('dropper-id'));
+                }
+            });
+    }
+
+    // covering incorrect canvas droppable
+    device.droppable({
+        accept: '#part-info-img',
+        greedy: true
+    });
+
     // Creating subparts
     $.each(data.parts, function(index, part) {
         addPart(part, index, device);
@@ -150,10 +181,11 @@ function addPart(data, index, device) {
         .appendTo(device)
         .addClass('part')
         .attr('partID', data.ID)
-        .append('<div class="ui centered fluid image"><img src="/static/img/design/' + data.Type + '.png"></img></div>')
-        .append('<p>' + data.Name + '</p>')
+        .append(`<div class="ui centered fluid image"><img src="/static/img/design/${data.Type}.png"></img></div>`)
+        .append(`<p>${data.Name}</p>`)
         .data('is-subpart', isSubpart)
         .data('index', index);
+    globalNextPartId = Math.max(globalNextPartId, parseInt(data.ID)) + 1;
     if (isSubpart === false) {
         jsPlumb.draggable(part, {
             start: function(event) {
@@ -289,6 +321,15 @@ function redrawDesign() {
                     top: size.bonePadding
                 });
         });
+        for (let i = 0; i <= device.parts.length; ++i) {
+            let dropper = device.DOM.children(`[dropper-id=${i}]`);
+            dropper.css({
+                width: size.bonePadding,
+                height: `calc(${size.partSize + size.bonePadding}px + ${1.5 * size.unit}em)`,
+                top: size.bonePadding,
+                left: i * (size.partSize + size.partPadding) + (size.partPadding - size.bonePadding) / 2
+            });
+        }
     });
     $.each(design.parts, function(index, part) {
         part.DOM
@@ -381,6 +422,7 @@ $('#part-safety-dropdown')
         values: partSafetyLevels.map((x, i) => ({ name: `${i} - ${x}`, value: i, selected: i === 0  }))
     });
 
+let selectedPart;
 $('#search-parts-dropdown')
     .dropdown({
         apiSettings: {
@@ -402,16 +444,65 @@ function setPartPanel(id) {
     $.get(`/api/get_part?id=${id}`, (data) => {
         data = JSON.parse(data);
         if (data.status !== 1) {
+            console.error(`Get part info failed. ID: ${id}`);
             return;
         }
+        selectedPart = data.part;
         $('#part-info-img')
-            .attr('src', `/static/img/design/${data.part.Type}.png`);
+            .attr('src', `/static/img/design/${data.part.Type}.png`)
+            .draggable('enable');
         $('#part-info-name')
+            .add(selectedPartHelper.children('b'))
             .text(data.part.Name);
         $('#part-info-des>p')
             .text(data.part.Description);
     });
 }
+
+let selectedPartHelper = $('<div></div>');
+selectedPartHelper
+    .addClass('part-helper')
+    .append('<b></b>')
+    .prepend('<div></div>').children('div')
+    .addClass('ui tiny image')
+    .append('<img></img>').children('img')
+    .attr('src', '/static/img/design/RBS.png');
+$('#part-info-img')
+    .draggable({
+        revert: 'invalid',
+        revertDuration: 200,
+        helper: () => selectedPartHelper,
+        start: () => { $('.subpart-dropper').css({ backgroundColor: 'rgba(255, 0, 0, 0.1)' }); },
+        stop: () => { $('.subpart-dropper').css({ backgroundColor: '' }); }
+    })
+    .draggable('disable');
+$('#canvas')
+    .droppable({
+        accept: '#part-info-img',
+        greedy: true,
+        over: function() {
+            $(this).css({
+                backgroundColor: 'rgba(0, 0, 255, 0.1)'
+            });
+        },
+        out: function() {
+            $(this).css({ backgroundColor: '' });
+        },
+        drop: function(event) {
+            $(this).css({ backgroundColor: '' });
+            let newDevice = {
+                X: event.offsetX / size.unit - canvasPositionX,
+                Y: event.offsetY / size.unit - canvasPositionY,
+                parts: []
+            };
+            let partData = $.extend(true, {}, selectedPart);
+            partData.ID = globalNextPartId;
+            newDevice.parts.push(partData);
+            design.devices[Object.keys(design.devices).length] = newDevice;
+            addDevice(newDevice);
+            redrawDesign();
+        }
+    });
 
 let canvasDragging = false;
 let canvasDragOrigin;
@@ -456,6 +547,7 @@ $('#connection-dropdown')
 $('#connection-dropdown-button')
     .on('click', () => { selectMode('addConnection'); })
     .on('select', () => {
+        console.log('Begin adding new connection.');
         newConnectionStep = 'chooseSource';
         unHighlightDevice($('.device, .part'));
         $('.device').off('click');
@@ -492,9 +584,11 @@ $('#connection-dropdown-button')
                     $(this).data('connectionSelected', true);
                     if (newConnectionStep === 'chooseSource') {
                         newConnectionSource = $(this).attr('partID');
+                        console.log(`Choose source: ${newConnectionSource}`);
                         newConnectionStep = 'chooseTarget';
-                    } else {
+                    } else if (newConnectionStep === 'chooseTarget'){
                         newConnectionTarget = $(this).attr('partID');
+                        console.log(`Choose target: ${newConnectionTarget}`);
                         newConnectionStep = 'finished';
                         finishNewConnection();
                     }
@@ -514,7 +608,9 @@ $('#connection-dropdown-button')
             .on('click', preventClickOnDrag);
         $('.part')
             .off('mouseenter')
-            .off('mouseleave');
+            .off('mouseleave')
+            .off('click')
+            .on('click', preventClickOnDrag);
         unHighlightDevice($('.part, .device'));
         $('.part, .device').data('connectionSelected', false);
     });
@@ -563,3 +659,8 @@ $('#canvas')
             redrawDesign();
         }
     });
+
+$(window)
+    .on('keydown', (event) => { if (event.ctrlKey === true) selectMode('dragCanvas'); })
+    .on('keyup', () => { selectMode('modifyItem'); });
+

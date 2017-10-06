@@ -64,7 +64,7 @@ function stickPartPanel() {
         .draggable('option', 'snapTolerance', 100)
         .draggable('option', 'axis', 'x')
         .on('drag', function(event, ui) {
-            if (ui === undefined)
+            if (ui === undefined || $(this) != win.children('.nav'))
                 return;
             if (ui.position.left < ui.originalPosition.left - 100) {
                 if (partPanelStickedToRight)

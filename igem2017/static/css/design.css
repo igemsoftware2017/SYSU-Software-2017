@@ -168,6 +168,22 @@ div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
   left: 0;
 }
 
+div.part-helper {
+  border: 1px solid black;
+  background-color: white;
+  width: 100px;
+  text-align: center;
+  opacity: 0.7;
+}
+div.part-helper>div.ui.image>img {
+  width: 100%;
+  height: auto;
+}
+
+div.subpart-dropper {
+  position: absolute;
+}
+
 /* SVG Path Stroke */
 .promotion-connection>path {
   stroke: blue;
