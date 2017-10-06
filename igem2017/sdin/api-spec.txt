@@ -1,0 +1,60 @@
+GET: /api/parts
+    parameters:
+        name: string, default: ""
+
+    return: {
+        success: boolean
+        parts: array of {
+            id: integer
+            name: string
+        }
+    }
+
+GET: /api/part
+    parameters:
+        id: integer, no default
+
+    return: {
+        success: boolean
+        id: integer
+        name: string
+        description: string
+        type: string
+        subparts: array of {
+            id: integer,
+            name: string,
+            description: string,
+            type: string
+        }
+    }
+
+POST: /api/part
+    parameters: {
+        name: string
+        description: string
+        type: string
+        subparts: array of integer, integer for ID
+    }
+
+    response: {
+        success: boolean
+        id: integer
+    }
+
+GET: /search
+    parameters: {
+        q: string
+    }
+
+    render: {
+        resultsCount: integer
+        works: array of {
+            year: integer or string
+            projectName: string
+            school: string
+            IEFValue: integer or float or string (due to algorithm)
+            medal: string
+            description: string
+        }
+    }
+
