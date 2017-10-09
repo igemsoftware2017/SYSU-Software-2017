@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI undefined - Item
+ * # Semantic UI 2.2.13 - Item
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -140,7 +140,7 @@
 .ui.items > .item > .content > .header {
   display: inline-block;
   margin: -0.21425em 0em 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }

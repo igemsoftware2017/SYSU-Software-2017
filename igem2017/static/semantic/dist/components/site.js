@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI undefined - Site
+ * # Semantic UI 2.2.13 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
