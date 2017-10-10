@@ -127,7 +127,7 @@ def part(request):
     if request.method == 'POST':
         try:
             data = json.loads(request.body)
-            new_part = Parts.objects.create(Name = data['name',
+            new_part = Parts.objects.create(Name = data['name'],
                 Description = data['description'],
                 Type = data['type'])
             for x in data['subparts']:

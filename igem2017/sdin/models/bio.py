@@ -14,8 +14,8 @@ class Parts(models.Model):
         return "%s : %s" % (self.Name, self.Description)
 
 class SubParts(models.Model):
-    parent = models.ForeignKey('Parts', on_delete = models.CASCADE)
-    child = models.ForeignKey('Parts', on_delete = models.CASCADE)
+    parent = models.ForeignKey('Parts', related_name = 'parent_name', on_delete = models.CASCADE)
+    child = models.ForeignKey('Parts', related_name = 'child_name', on_delete = models.CASCADE)
 
     def __str__(self):
         return "%s contains %s" % (self.parent.Name, self.child.Name)
