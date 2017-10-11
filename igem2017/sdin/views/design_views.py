@@ -85,55 +85,81 @@ def search_parts(request):
     return json:
         'parts': [{
             'id': xxx,
-            'Name': xxx,
-            'Description': xxx,
-            'Type': xxx,
+            'name': xxx
         }]
     '''
     query_name = request.GET.get('name')
     # Params empty
     if query_name is None or len(query_name) == 0:
         return HttpResponse(json.dumps({
-            'status': 0}))
+            'success': False}))
 
     query_set = Parts.objects.filter(Name__contains = query_name)
     parts = [{
         'id': x.id,
-        'Name': x.Name,
-        'Description': x.Description,
-        'Type': x.Type} for x in query_set]
+        'name': x.Name} for x in query_set]
+
     return HttpResponse(json.dumps({
-            'status': 1,
+            'success': True,
             'parts': parts}))
 
-def get_part(request):
+def part(request):
     '''
     GET method with param:
         id=xxx
     return json:
         part: {
             'id': xxx,
-            'Name': xxx,
-            'Description': xxx,
-            'Type': xxx,
-            'Subparts': [1, 2, 3] # ids of subparts
+            'name': xxx,
+            'description': xxx,
+            'type': xxx,
+            'subparts': [
+                {
+                    'id': xxx,
+                    'name': xxx,
+                    'description': xxx,
+                    'type': xxx
+                } 
+            ]
+
         }
     '''
-    try:
-        query_id = request.GET.get('id')
-        part = Parts.objects.get(pk = query_id)
-        part_dict = {
-            'id': part.id,
-            'Name': part.Name,
-            'Description': part.Description,
-            'Type': part.Type}
-        part_dict['Subparts'] = [x.id for x in part.Subparts.all()]
-        return HttpResponse(json.dumps({
-            'status': 1,
-            'part': part_dict}))
-    except:
-        return HttpResponse(json.dumps({
-            'status': 0}))
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            new_part = Parts.objects.create(Name = data['name'],
+                Description = data['description'],
+                Type = data['type'])
+            for x in data['subparts']:
+                SubParts.objects.create(parent = new_part,
+                    child = x)
+            return HttpResponse(json.dumps({
+                    'success': True,
+                    'id': new_part.id}))
+        except:
+            return HttpResponse(json.dumps({
+                    'success': False}))
+
+    else:
+        try:
+            query_id = request.GET.get('id')
+            part = Parts.objects.get(pk = query_id)
+            part_dict = {
+                'id': part.id,
+                'name': part.Name,
+                'description': part.Description,
+                'type': part.Type}
+            part_dict['subparts'] = [{
+                'id': x.id,
+                'name': x.Name,
+                'description': x.Description,
+                'type': x.Type} for x in sub_query]
+
+            part_dict['success'] = True
+            return HttpResponse(json.dumps(part_dict))
+        except:
+            return HttpResponse(json.dumps({
+                'success': False}))
 
 # Circuit related views
 

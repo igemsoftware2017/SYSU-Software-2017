@@ -64,29 +64,30 @@ def load_parts(parts_floder_path):
     errors = 0
 
     print('Adding subparts...')
-    all_parts = { p.Name: p for p in Parts.objects.all() }
+    all_parts = {p.Name: p for p in Parts.objects.all()}
     part_subparts = []
     for root, dirs, files in os.walk(parts_floder_path):
         for name in files:
-            filepath = os.path.join(root,name)
+            filepath = os.path.join(root, name)
             csv_reader = csv.reader(open(filepath, encoding='utf-8'))
-            part_type = get_parts_type(name)
-            print('  Loading %s...' % filepath)
+            print('  Loading %s...subpart' % filepath)
 
             next(csv_reader)
             for row in csv_reader:
                 if len(row) > 3 and row[3] != "":
                     new_part = all_parts[row[0]]
-                    subparts = []
                     for part_name in json.loads(row[3].replace('\'', '"')):
                         try:
-                            subparts.append(all_parts[part_name])
+                            subpart = all_parts[part_name]
+                            part_subparts.append(SubParts(
+                                parent = new_part,
+                                child = subpart
+                            ))
                         except:
                             errors += 1
                             pass
-                part_subparts.append((new_part, subparts))
     print('Saving...')
-    atomic_add(part_subparts)
+    atomic_save(part_subparts)
     print('Error: {0:6d}'.format(errors))
 
 #load works data
@@ -99,6 +100,8 @@ def load_works(works_floder_path):
     works = []
     for root, dirs, files in os.walk(works_floder_path):
         for name in files:
+            if name == "Team_description.csv":
+                continue
             filepath = os.path.join(root,name)
             csv_reader = csv.reader(open(filepath, encoding='utf-8'))
             print('  Loading %s...' % filepath)
@@ -125,6 +128,27 @@ def load_works(works_floder_path):
                 except:
                     errors += 1
                     pass
+    print('Saving...')
+    atomic_save(works)
+    print('Error: {0:6d}'.format(errors))
+
+    print('Loading Team_description...')
+    works = []
+    filepath = os.path.join(works_floder_path, "Team_description.csv")
+    csv_reader = csv.reader(open(filepath, encoding='utf-8'))
+    errors = 0
+    next(csv_reader)
+    for row in csv_reader:
+        try:
+            work = Works.objects.get(Teamname = row[0], Year = int(row[1]))
+            work.SimpleDescription = row[2]
+            work.Description = row[3]
+            work.Keywords = row[4]
+            work.Chassis = row[5]
+            works.append(work)
+        except:
+            errors += 1
+            pass
     print('Saving...')
     atomic_save(works)
     print('Error: {0:6d}'.format(errors))
