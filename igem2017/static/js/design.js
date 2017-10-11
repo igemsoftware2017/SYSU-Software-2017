@@ -250,6 +250,10 @@ $('#toolbox')
         });
     });
 
+$('.ui.dimmer:first').dimmer({
+    closable: false
+});
+
 function initPositionSize() {
     stickPartPanel();
     $('#fav-win').css({
