@@ -61,7 +61,7 @@ def tag_favorite(request):
         status: 0 or 1
     '''
     if request.method == 'POST':
-        data = json.loads(request.body)
+        data = json.loads(request.POST['data'])
         try:
             circuit = Circuit.objects.get(pk = data['circuit_id'])
             if data['tag'] == 1:
@@ -126,7 +126,7 @@ def part(request):
     '''
     if request.method == 'POST':
         try:
-            data = json.loads(request.body)
+            data = json.loads(request.POST['data'])
             new_part = Parts.objects.create(Name = data['name'],
                 Description = data['description'],
                 Type = data['type'])
@@ -255,7 +255,7 @@ def save_circuit(request):
     '''
     if request.method == 'POST':
         try:
-            data = json.loads(request.body)
+            data = json.loads(request.POST['data'])
             if data['circuit']['id'] == -1:
                 # new circuit
                 circuit = Circuit.objects.create(
