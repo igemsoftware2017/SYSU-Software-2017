@@ -49,12 +49,35 @@ GET: /search
     render: {
         resultsCount: integer
         works: array of {
+            id: integer
             year: integer or string
             projectName: string
             school: string
             IEFValue: integer or float or string (due to algorithm)
             medal: string
             description: string
+            isFavourite: boolean
         }
     }
 
+GET: /work
+    parameters: {
+        id: integer
+    }
+    
+    render: {
+        projectName: string
+        year: integer or string
+        readCount: integer
+        medal: string
+        rewards: array of string
+        description: string
+        isFavourite: boolean
+        images: array of string(url)
+        designId: array of integer (to be discussed)
+        part: array of {
+            BBa: string
+            name: string
+            isFavourite: boolean
+        }
+    }
