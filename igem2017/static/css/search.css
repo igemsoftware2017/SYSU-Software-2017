@@ -23,6 +23,7 @@
 }
 #search-box input {
   border-radius: 0;
+  border: 0;
 }
 #search-type-menu {
   border-width: 0;

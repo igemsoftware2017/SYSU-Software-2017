@@ -71,14 +71,14 @@ jsPlumb.ready(function () {
     jsPlumb.setContainer($('#canvas'));
     $.get({
         url: '/get_circuit_test',
-        success: function(data) {
-            design = JSON.parse(data);
-            parseDesign(design);
-        }
+        success: (data) => { importDesign(data); }
     });
 });
 
-function parseDesign(design) {
+function importDesign(data) {
+    design = JSON.parse(data);
+    jsPlumb.deleteEveryConnection();
+    $('.part, .device').remove();
     $.each(design.devices, function(index, device) {
         addDevice(device);
     });
@@ -145,7 +145,6 @@ function addDevice(data) {
                 greedy: true,
                 tolerance: 'intersect',
                 over: function() {
-                    console.log($(this).attr('dropper-id'));
                     $(this).css({ backgroundColor: 'rgba(255, 0, 0, 0.3)' });
                 },
                 out: function() {
@@ -260,28 +259,31 @@ function insertPart(device, data, position) {
     });
     redrawDesign();
 }
-$('#add-part-from-new')
+$('#add-part-button')
     .on('click', function() {
-        $('#add-part-modal')
-            .modal('hide');
         $('#new-part-modal')
             .modal('show');
     });
 
 $('#add-new-part')
     .on('click', function() {
-        $('#new-part-modal')
-            .modal('hide');
-        let new_data = {
-            ID: 100,
-            LibraryID: $('#part-name').val(),
-            Name: $('#part-name').val(),
-            Type: $('#part-type-dropdown').dropdown('get value'),
-            X: 0,
-            Y: 0,
-            contain: ''
+        let data = {
+            name: $('#part-name').val(),
+            description: $('#part-description').val(),
+            type: $('#part-type-dropdown').dropdown('get value'),
+            subparts: []
         };
-        insertPart(deviceToAddPart, new_data, positionToAddPart);
+        $('#new-part-modal').modal('hide');
+        $('.ui.dimmer:first .loader')
+            .text('Requesting server to add the new part, please wait...');
+        $('.ui.dimmer:first').dimmer('show');
+        $.post('/api/part', JSON.stringify(data), () => {
+            $('.ui.dimmer:first .loader')
+                .text('Success, closing...');
+            setTimeout(() => {
+                $('.ui.dimmer:first').dimmer('hide');
+            }, 500);
+        });
     });
 
 // Alt + wheel zomming

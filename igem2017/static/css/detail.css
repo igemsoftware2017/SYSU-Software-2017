@@ -1,6 +1,3 @@
-.ui.shape, .ui.shape.animating {
-  width: 100% !important;
-}
 .ui.inverted.menu {
   transition: all 0.25s ease-out;
 }
@@ -28,16 +25,149 @@
 }
 body {
   background-image: url("/static/img/detail-back.jpg");
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
-  height: 2000px;
+  overflow-y: hidden;
 }
-#register-modal {
-  top: auto;
+#search-box-container {
+  margin-left: 2em;
+  margin-top: 5em;
+  position: relative;
 }
-#button-group {
-  margin: 0;
+#logo {
+  width: 50px;
+  position: absolute;
 }
-#next-button {
-  text-align: right;
+#search-box {
+  width: 876px;
+  position: absolute;
 }
+#search-box input {
+  border-radius: 0;
+  border: 0;
+}
+#detail-container {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: 20;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-bottom: 20px;
+  background-color: white;
+  width: 1084px;
+}
+#detail-container>.back-icon {
+  position: absolute;
+  top: 10px;
+  left: 36px;
+}
+#detail-container>.back {
+  margin-left: 38px;
+  font-size: 25px;
+  color: #6b6969;
+  margin-top: 17.5px;
+  margin-bottom: 17.5px;
+}
+#detail-container>.title {
+  margin-left: 38px;
+  font-size: 40px;
+  color: #333333;
+  font-weight: 500;
+  line-height: 1em;
+  margin-bottom: 20px;
+}
+#detail-container>.title>.year {
+  margin-left: 1ex;
+  font-weight: 300;
+}
+#detail-container>.reads {
+  margin-left: 38px;
+  line-height: 1em;
+  font-size: 20px;
+  color: #6b6969;
+  margin-bottom: 20px;
+}
+#detail-container>.collection {
+  position: absolute;
+  right: 74px;
+  font-size: 25px;
+  color: #333333;
+}
+#detail-container>.description {
+  width: 930px;
+  height: 194px;
+  max-height: 194px;
+  margin-left: 38px;
+  margin-bottom: 20px;
+}
+#detail-container>.description>.title {
+  line-height: 1em;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+#detail-container>.description>.content {
+  overflow-y: auto;
+  max-height: 100px;
+}
+#detail-container>.images {
+  height: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+#detail-container>.images>.image {
+  width: 122px;
+  height: 82px;
+  margin-right: 29px;
+  display: inline-block;
+}
+#detail-container>.images>.image:last-child {
+  margin-right: 0;
+}
+#detail-container>.images>.image>img {
+  width: 100%;
+  height: 100%;
+}
+#part-container {
+  width: 1004px;
+  height: 348px;
+  background-color: #f8f8f8;
+}
+#part-container>.part {
+  width: 273px;
+  height: 280px;
+  background-color: blue;
+  display: inline-block;
+  margin: 10px;
+}
+#part-container>.part-table {
+  width: 362px;
+  height: 273px;
+  display: inline-block;
+  margin: 10px;
+}
+#part-container>.part-table>table th,tr {
+  text-align: center;
+}
+#part-container>.part-table>table th {
+  font-size: 20px;
+  color: #807d7d;
+  font-weight: 500;
+  padding: 0;
+}
+#part-container>.part-table>table tr {
+  font-size: 18px;
+  color: #333333;
+  height: 44px;
+}
+#part-container>.part-table>table td {
+  padding: 0;
+}
+#right-panel {
+  position: absolute;
+  background-color: white;
+}
+

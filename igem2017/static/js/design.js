@@ -1,6 +1,19 @@
 'use strict';
 
-/* global size, resizeDesign */
+/* eslint-disable no-console */
+/* global size, resizeDesign, importDesign */
+
+let fileReader = new FileReader();
+fileReader.onload = () => { importDesign(fileReader.result); };
+
+$('#upload-button')
+    .on('click', function() {
+        $('#fileupload').trigger('click');
+    });
+$('#fileupload')
+    .on('change', function() {
+        fileReader.readAsText($('#fileupload')[0].files[0]);
+    });
 
 $('#zoom-in')
     .on('click', function() {
@@ -236,6 +249,10 @@ $('#toolbox')
             opacity: 0.2
         });
     });
+
+$('.ui.dimmer:first').dimmer({
+    closable: false
+});
 
 function initPositionSize() {
     stickPartPanel();

@@ -5,9 +5,7 @@
     <link rel="stylesheet" href="/static/css/design.css">
   </head>
   <body>
-    <!-- Hidden file upload -->
-    <input id="file-input" type="file" hidden />
-
+    <input id="fileupload" type="file" name="files[]" hidden>
     <!-- Toolbar -->
     <div class="ui fixed menu">
       <div class="ui container">
@@ -31,6 +29,7 @@
           </div>
         </span>
         <span class="item">
+          <i id="add-part-button" class="large plus link icon"></i>
           <i class="large bullseye link icon"></i>
           <div id="connection-dropdown" class="ui dropdown">
             <i id="connection-dropdown-button" class="large long right arrow link icon"></i>
@@ -254,6 +253,12 @@
       </div>
       <div class="actions">
         <div id="add-new-part" class="ui button">添加该元件</div>
+      </div>
+    </div>
+      
+    <div class="ui page dimmer">
+      <div class="content">
+        <div class="ui text loader"></div>
       </div>
     </div>
 
