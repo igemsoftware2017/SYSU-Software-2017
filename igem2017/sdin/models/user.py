@@ -58,9 +58,9 @@ class Works(models.Model):
     Medal = models.CharField(max_length = 128)
     Award = models.CharField(max_length = 512)
     Name =  models.CharField(max_length = 256)
-    Use_parts = models.CharField(max_length = 5120)
+    Use_parts = models.TextField()
     SimpleDescription = models.CharField(max_length = 500, default = "To be add")
-    Description = models.CharField(max_length = 1000, default = "To be add")
+    Description = models.TextField(default = "To be add")
     Keywords = models.CharField(max_length = 200, default = "" )
     Chassis = models.CharField(max_length = 100, default = "None")
 
