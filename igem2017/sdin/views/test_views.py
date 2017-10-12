@@ -26,14 +26,14 @@ def get_circuit_test(request):
                 "deviceID":"0",
                 "parts":[{
                     "ID":"1",
-                    "Name":"Plac",
-                    "Type":"promotor",
+                    "name":"Plac",
+                    "type":"promotor",
                     "LibraryID":"Plac",
                     "contain":""
                 }, {
                     "ID":"2",
-                    "Name":"clts",
-                    "Type":"CDS",
+                    "name":"clts",
+                    "type":"CDS",
                     "LibraryID":"clts",
                     "contain":""
                 }],
@@ -44,38 +44,38 @@ def get_circuit_test(request):
                 "deviceID":"1",
                 "parts":[{
                     "ID":"5",
-                    "Name":"Pr",
-                    "Type":"promotor",
+                    "name":"Pr",
+                    "type":"promotor",
                     "LibraryID":"Pr",
                     "contain":""
                 }, {
                     "ID":"6",
-                    "Name":"lacl",
-                    "Type":"CDS",
+                    "name":"lacl",
+                    "type":"CDS",
                     "LibraryID":"lacl",
                     "contain":""
                 }, {
                     "ID":"7",
-                    "Name":"llo",
-                    "Type":"CDS",
+                    "name":"llo",
+                    "type":"CDS",
                     "LibraryID":"llo",
                     "contain":""
                 }, {
                     "ID":"8",
-                    "Name":"inv",
-                    "Type":"CDS",
+                    "name":"inv",
+                    "type":"CDS",
                     "LibraryID":"inv",
                     "contain":""
                 }, {
                     "ID":"9",
-                    "Name":"phoP",
-                    "Type":"CDS",
+                    "name":"phoP",
+                    "type":"CDS",
                     "LibraryID":"phoP",
                     "contain":""
                 }, {
                     "ID":"10",
-                    "Name":"phoQ",
-                    "Type":"CDS",
+                    "name":"phoQ",
+                    "type":"CDS",
                     "LibraryID":"phoQ",
                     "contain":""
                 }],
@@ -85,32 +85,32 @@ def get_circuit_test(request):
                 "deviceID":"2",
                 "parts":[{
                     "ID":"16",
-                    "Name":"PphoQ",
-                    "Type":"promotor",
+                    "name":"PphoQ",
+                    "type":"promotor",
                     "LibraryID":"PphoQ",
                     "contain":""
                 }, {
                     "ID":"17",
-                    "Name":"cro",
-                    "Type":"CDS",
+                    "name":"cro",
+                    "type":"CDS",
                     "LibraryID":"cro",
                     "contain":""
                 }, {
                     "ID":"18",
-                    "Name":"tetR",
-                    "Type":"CDS",
+                    "name":"tetR",
+                    "type":"CDS",
                     "LibraryID":"tetR",
                     "contain":""
                 }, {
                     "ID":"19",
-                    "Name":"CL",
-                    "Type":"CDS",
+                    "name":"CL",
+                    "type":"CDS",
                     "LibraryID":"CL",
                     "contain":""
                 }, {
                     "ID":"20",
-                    "Name":"CFP",
-                    "Type":"CDS",
+                    "name":"CFP",
+                    "type":"CDS",
                     "LibraryID":"CFP",
                     "contain":""
                 }],
@@ -120,32 +120,32 @@ def get_circuit_test(request):
                 "deviceID":"3",
                 "parts":[{
                     "ID":"25",
-                    "Name":"ParaC",
-                    "Type":"promotor",
+                    "name":"ParaC",
+                    "type":"promotor",
                     "LibraryID":"ParaC",
                     "contain":""
                 }, {
                     "ID":"26",
-                    "Name":"tetR",
-                    "Type":"CDS",
+                    "name":"tetR",
+                    "type":"CDS",
                     "LibraryID":"tetR",
                     "contain":""
                 }, {
                     "ID":"27",
-                    "Name":"cro-box",
-                    "Type":"CDS",
+                    "name":"cro-box",
+                    "type":"CDS",
                     "LibraryID":"cro-box",
                     "contain":""
                 }, {
                     "ID":"28",
-                    "Name":"p53",
-                    "Type":"CDS",
+                    "name":"p53",
+                    "type":"CDS",
                     "LibraryID":"p53",
                     "contain":""
                 }, {
                     "ID":"29",
-                    "Name":"YFP",
-                    "Type":"CDS",
+                    "name":"YFP",
+                    "type":"CDS",
                     "LibraryID":"YFP",
                     "contain":""
                 }],
@@ -155,14 +155,14 @@ def get_circuit_test(request):
                 "deviceID":"4",
                 "parts":[{
                     "ID":"30",
-                    "Name":"Ptet",
-                    "Type":"promotor",
+                    "name":"Ptet",
+                    "type":"promotor",
                     "LibraryID":"Ptet",
                     "contain":""
                 }, {
                     "ID":"31",
-                    "Name":"AraC",
-                    "Type":"CDS",
+                    "name":"AraC",
+                    "type":"CDS",
                     "LibraryID":"AraC",
                     "contain":""
                 }],
@@ -282,192 +282,192 @@ def get_circuit_test(request):
                 "type":"inhibition"
             }],"parts":[{
                 "ID":"3",
-                "Name":"clts",
-                "Type":"protein",
+                "name":"clts",
+                "type":"protein",
                 "LibraryID":"clts",
                 "contain":"",
                 "X":1202.500000000001,
                 "Y":522.5000000000005
             }, {
                 "ID":"4",
-                "Name":"IPTG",
-                "Type":"material",
+                "name":"IPTG",
+                "type":"material",
                 "LibraryID":"IPTG",
                 "contain":"",
                 "X":1840.0000000000016,
                 "Y":-100.00000000000007
             }, {
                 "ID":"11",
-                "Name":"GFP",
-                "Type":"CDS",
+                "name":"GFP",
+                "type":"CDS",
                 "LibraryID":"GFP",
                 "contain":"",
                 "X":375.00000000000017,
                 "Y":42.500000000000036
             }, {
                 "ID":"12",
-                "Name":"phoQ",
-                "Type":"protein",
+                "name":"phoQ",
+                "type":"protein",
                 "LibraryID":"phoQ",
                 "contain":"",
                 "X":2230.000000000002,
                 "Y":265.0000000000002
             }, {
                 "ID":"13",
-                "Name":"phoQ",
-                "Type":"protein",
+                "name":"phoQ",
+                "type":"protein",
                 "LibraryID":"phoQ",
                 "contain":"",
                 "X":537.5000000000001,
                 "Y":-127.50000000000011
             }, {
                 "ID":"14",
-                "Name":"phoP",
-                "Type":"protein",
+                "name":"phoP",
+                "type":"protein",
                 "LibraryID":"phoP",
                 "contain":"",
                 "X":2112.500000000002,
                 "Y":177.5000000000001
             }, {
                 "ID":"15",
-                "Name":"phoP",
-                "Type":"protein",
+                "name":"phoP",
+                "type":"protein",
                 "LibraryID":"phoP",
                 "contain":"",
                 "X":537.5,
                 "Y":172.50000000000017
             }, {
                 "ID":"21",
-                "Name":"cro",
-                "Type":"protein",
+                "name":"cro",
+                "type":"protein",
                 "LibraryID":"cro",
                 "contain":"",
                 "X":1125.0000000000005,
                 "Y":477.50000000000045
             }, {
                 "ID":"22",
-                "Name":"tetR",
-                "Type":"protein",
+                "name":"tetR",
+                "type":"protein",
                 "LibraryID":"tetR",
                 "contain":"",
                 "X":379.9999999999996,
                 "Y":770.0000000000007
             }, {
                 "ID":"23",
-                "Name":"CL",
-                "Type":"protein",
+                "name":"CL",
+                "type":"protein",
                 "LibraryID":"CL",
                 "contain":"",
                 "X":1757.500000000001,
                 "Y":1220.000000000001
             }, {
                 "ID":"24",
-                "Name":"CFP",
-                "Type":"protein",
+                "name":"CFP",
+                "type":"protein",
                 "LibraryID":"CFP",
                 "contain":"",
                 "X":912.4999999999999,
                 "Y":897.5000000000008
             }, {
                 "ID":"32",
-                "Name":"tetR",
-                "Type":"protein",
+                "name":"tetR",
+                "type":"protein",
                 "LibraryID":"tetR",
                 "contain":"",
                 "X":1212.5,
                 "Y":1337.5000000000014
             }, {
                 "ID":"33",
-                "Name":"cro-box",
-                "Type":"protein",
+                "name":"cro-box",
+                "type":"protein",
                 "LibraryID":"cro-box",
                 "contain":"",
                 "X":1310,
                 "Y":675.0000000000006
             }, {
                 "ID":"34",
-                "Name":"p53",
-                "Type":"protein",
+                "name":"p53",
+                "type":"protein",
                 "LibraryID":"p53",
                 "contain":"",
                 "X":1407.5,
                 "Y":687.5000000000007
             }, {
                 "ID":"35",
-                "Name":"YFP",
-                "Type":"protein",
+                "name":"YFP",
+                "type":"protein",
                 "LibraryID":"YFP",
                 "contain":"",
                 "X":1497.5,
                 "Y":680.0000000000006
             }, {
                 "ID":"36",
-                "Name":"AraC",
-                "Type":"protein",
+                "name":"AraC",
+                "type":"protein",
                 "LibraryID":"AraC",
                 "contain":"",
                 "X":979.9999999999995,
                 "Y":1165.0000000000011
             }, {
                 "ID":"37",
-                "Name":"lacl",
-                "Type":"protein",
+                "name":"lacl",
+                "type":"protein",
                 "LibraryID":"lacl",
                 "contain":"",
                 "X":1842.5000000000002,
                 "Y":85.0000000000001
             }, {
                 "ID":"38",
-                "Name":"llo",
-                "Type":"protein",
+                "name":"llo",
+                "type":"protein",
                 "LibraryID":"llo",
                 "contain":"",
                 "X":1937.5000000000002,
                 "Y":340.00000000000034
             }, {
                 "ID":"39",
-                "Name":"inv",
-                "Type":"protein",
+                "name":"inv",
+                "type":"protein",
                 "LibraryID":"inv",
                 "contain":"",
                 "X":2022.5000000000002,
                 "Y":337.5000000000003
             }, {
                 "ID":"40",
-                "Name":"GFP",
-                "Type":"protein",
+                "name":"GFP",
+                "type":"protein",
                 "LibraryID":"GFP",
                 "contain":"",
                 "X":374.9999999999986,
                 "Y":342.50000000000034
             }, {
                 "ID":"41",
-                "Name":"tetracycline",
-                "Type":"material",
+                "name":"tetracycline",
+                "type":"material",
                 "LibraryID":"tetracycline",
                 "contain":"",
                 "X":819.9999999999989,
                 "Y":310.0000000000003
             }, {
                 "ID":"42",
-                "Name":"L-arabinose",
-                "Type":"material",
+                "name":"L-arabinose",
+                "type":"material",
                 "LibraryID":"L-arabinose",
                 "contain":"",
                 "X":747.4999999999989,
                 "Y":50.00000000000004
             }, {
                 "ID":"43",
-                "Name":"TetR inactivation",
-                "Type":"material",
+                "name":"TetR inactivation",
+                "type":"material",
                 "LibraryID":"TetR inactivation",
                 "contain":"",
                 "X":1004.9999999999989,
                 "Y":297.5000000000003
             }, {
                 "ID":"44",
-                "Name":"AraC-arabinose",
-                "Type":"material",
+                "name":"AraC-arabinose",
+                "type":"material",
                 "LibraryID":"AraC-arabinose",
                 "contain":"",
                 "X":919.9999999999986,

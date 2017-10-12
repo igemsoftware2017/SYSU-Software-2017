@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from django.shortcuts import render, redirect
 
 import json
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from sdin.models import *
 
 from django.contrib.auth.decorators import login_required
@@ -91,17 +91,17 @@ def search_parts(request):
     query_name = request.GET.get('name')
     # Params empty
     if query_name is None or len(query_name) == 0:
-        return HttpResponse(json.dumps({
-            'success': False}))
+        return JsonResponse({ 'success': False })
 
     query_set = Parts.objects.filter(Name__contains = query_name)
     parts = [{
         'id': x.id,
         'name': x.Name} for x in query_set]
 
-    return HttpResponse(json.dumps({
-            'success': True,
-            'parts': parts}))
+    return JsonResponse({
+        'success': True,
+        'parts': parts
+    })
 
 def part(request):
     '''
@@ -119,7 +119,7 @@ def part(request):
                     'name': xxx,
                     'description': xxx,
                     'type': xxx
-                } 
+                }
             ]
 
         }
@@ -127,18 +127,24 @@ def part(request):
     if request.method == 'POST':
         try:
             data = json.loads(request.POST['data'])
-            new_part = Parts.objects.create(Name = data['name'],
+            new_part = Parts.objects.create(
+                Name = data['name'],
                 Description = data['description'],
-                Type = data['type'])
+                Type = data['type']
+            )
             for x in data['subparts']:
-                SubParts.objects.create(parent = new_part,
-                    child = x)
-            return HttpResponse(json.dumps({
-                    'success': True,
-                    'id': new_part.id}))
+                SubParts.objects.create(
+                    parent = new_part,
+                    child = x
+                )
+            return JsonResponse({
+                'success': True,
+                'id': new_part.id
+            })
         except:
-            return HttpResponse(json.dumps({
-                    'success': False}))
+            return JsonResponse({
+                'success': False
+            })
 
     else:
         try:
@@ -149,6 +155,7 @@ def part(request):
                 'name': part.Name,
                 'description': part.Description,
                 'type': part.Type}
+            sub_query = SubParts.objects.filter(parent = part)
             part_dict['subparts'] = [{
                 'id': x.id,
                 'name': x.Name,
@@ -156,10 +163,10 @@ def part(request):
                 'type': x.Type} for x in sub_query]
 
             part_dict['success'] = True
-            return HttpResponse(json.dumps(part_dict))
+            return JsonResponse(part_dict)
         except:
-            return HttpResponse(json.dumps({
-                'success': False}))
+            raise
+            return JsonResponse({ 'success': False })
 
 # Circuit related views
 
@@ -272,7 +279,7 @@ def save_circuit(request):
                 # delete existing circuit part
                 for x in CircuitParts.objects.filter(Circuit = circuit):
                     x.delete()
-            
+
             cids = {}
             for x in data['parts']:
                 circuit_part = CircuitParts.objects.create(
