@@ -277,7 +277,10 @@ $('#add-new-part')
         $('.ui.dimmer:first .loader')
             .text('Requesting server to add the new part, please wait...');
         $('.ui.dimmer:first').dimmer('show');
-        $.post('/api/part', JSON.stringify(data), () => {
+        $.post('/api/part', {
+            data: JSON.stringify(data),
+            csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+        }, () => {
             $('.ui.dimmer:first .loader')
                 .text('Success, closing...');
             setTimeout(() => {
