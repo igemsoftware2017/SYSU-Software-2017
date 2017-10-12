@@ -180,8 +180,8 @@ function addPart(data, index, device) {
         .appendTo(device)
         .addClass('part')
         .attr('partID', data.ID)
-        .append(`<div class="ui centered fluid image"><img src="/static/img/design/${data.Type}.png"></img></div>`)
-        .append(`<p>${data.Name}</p>`)
+        .append(`<div class="ui centered fluid image"><img src="/static/img/design/${data.type}.png"></img></div>`)
+        .append(`<p>${data.name}</p>`)
         .data('is-subpart', isSubpart)
         .data('index', index);
     globalNextPartId = Math.max(globalNextPartId, parseInt(data.ID)) + 1;
@@ -280,9 +280,15 @@ $('#add-new-part')
         $.post('/api/part', {
             data: JSON.stringify(data),
             csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
-        }, () => {
-            $('.ui.dimmer:first .loader')
-                .text('Success, closing...');
+        }, (data) => {
+            console.log(data);
+            if (data.success === true) {
+                $('.ui.dimmer:first .loader')
+                    .text('Success, closing...');
+            } else {
+                $('.ui.dimmer:first .loader')
+                    .text('Failed, closing...');
+            }
             setTimeout(() => {
                 $('.ui.dimmer:first').dimmer('hide');
             }, 500);
@@ -431,13 +437,13 @@ let selectedPart;
 $('#search-parts-dropdown')
     .dropdown({
         apiSettings: {
-            url: '/api/search_parts?name={query}',
+            url: '/api/parts?name={query}',
             cache: false,
             beforeSend: (settings) => settings.urlData.query.length < 3 ? false : settings,
             onResponse: (response) => ({
-                success: response.status === 1,
+                success: response.success === true,
                 results:  response.parts.map((x) => ({
-                    name: x.Name,
+                    name: x.name,
                     value: x.id
                 }))
             })
@@ -446,21 +452,20 @@ $('#search-parts-dropdown')
     });
 
 function setPartPanel(id) {
-    $.get(`/api/get_part?id=${id}`, (data) => {
-        data = JSON.parse(data);
-        if (data.status !== 1) {
+    $.get(`/api/part?id=${id}`, (data) => {
+        if (data.success !== true) {
             console.error(`Get part info failed. ID: ${id}`);
             return;
         }
-        selectedPart = data.part;
+        selectedPart = data;
         $('#part-info-img')
-            .attr('src', `/static/img/design/${data.part.Type}.png`)
+            .attr('src', `/static/img/design/${data.type}.png`)
             .draggable('enable');
         $('#part-info-name')
             .add(selectedPartHelper.children('b'))
-            .text(data.part.Name);
+            .text(data.name);
         $('#part-info-des>p')
-            .text(data.part.Description);
+            .text(data.description);
     });
 }
 
