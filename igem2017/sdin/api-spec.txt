@@ -50,14 +50,18 @@ GET: /search
         resultsCount: integer
         works: array of {
             id: integer
+            image: string (url)
             year: integer or string
             projectName: string
             school: string
-            IEFValue: integer or float or string (due to algorithm)
+            risk: integer or string
             medal: string
             description: string
+            chassis: string
+            rewards: array of string
             isFavourite: boolean
         }
+        recommends: array of string
     }
 
 GET: /work
