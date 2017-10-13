@@ -1,0 +1,36 @@
+circuitID	Team					
+1763	UCLA					
+						
+parts and others						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	promoter	promoter	BBa_R0010	0	0	
+2	RBS	RBS	BBa_B0034	0	0	
+3	CDS	CDS	BBa_I746916	0	0	 
+4	terminator	terminator	terminator	0	0	
+5	terminator	terminator	terminator			
+6	promoter	promoter	promoter	0	0	
+7	RBS	RBS	RBS	0	0	
+8	silk fibroin 3	CDS	BBa_K1763000	0	0	
+9	terminator	terminator	terminator	0	0	
+10	silk fibroin 3	protein	silk fibroin 3	0	0	
+						
+						
+						
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4,5					
+2	6,7,8,9					
+						
+						
+						
+relationship						
+promotion						
+8	9					
+						
+inhibition						
+						
+						
+						
+combine						

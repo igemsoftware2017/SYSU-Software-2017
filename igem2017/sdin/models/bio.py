@@ -45,6 +45,6 @@ class CircuitLines(models.Model):
     def __str__(self):
         return "%s to %s of type %s" % (self.Start.Part.Name, self.End.Part.Name, self.Type)
 
-class CircuitDevices(self):
+class CircuitDevices(models.Model):
     Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE)
     Subparts = models.ManyToManyField(CircuitParts)

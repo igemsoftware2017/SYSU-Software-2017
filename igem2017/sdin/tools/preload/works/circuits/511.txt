@@ -1,0 +1,51 @@
+circuitID	Team				
+511	MIT				
+					
+parts and others					
+ID	Name	Type	LibraryID	positionx	positiony
+1	Hef1a	promoter	Hef1a	0	0
+2	RBS	RBS	RBS	0	0
+3	rtTA3	CDS	rtTA3	0	0
+4	terminator	terminator	terminator	0	0
+5	TRE	promoter	TRE	0	0
+6	RBS	RBS	RBS	0	0
+7	Mnt-VP16	CDS	Mnt-VP16	0	0
+8	terminator	terminator	terminator	0	0
+9	minCMV-4*Mnt		minCMV-4*Mnt	0	0
+10	RBS	RBS	RBS	0	0
+11	mKate	CDS	mKate	0	0
+12	terminator	terminator	terminator	0	0
+13	rtTA3	protein	rtTA3	0	0
+14	Mnt-VP16	protein	Mnt-VP16	0	0
+15	mKate	protein-I	mKate	0	0
+16	Doxycycline	material	Doxycycline		
+					
+devices					
+ID	Parts				
+1	1,2,3,4,5,6,7,8,9,10,11,12				
+					
+chassis					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+relationship					
+promotion					
+3	13				
+7	14				
+11	15				
+16	5				
+					
+inhibition					
+					
+					
+					
+combine					
+					
+					

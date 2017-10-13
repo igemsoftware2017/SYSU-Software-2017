@@ -1,0 +1,43 @@
+circuitID	Team				
+1423	WPI-Worcester				
+					
+parts and others					
+ID	Name	Type	LibraryID	positionx	positiony
+1	promoter	promoter	J23100	0	0
+2	RBS	RBS	B0034	0	0
+3	BclA	CDS	K1423000	0	0
+4	CAEVp28	CDS	K1423001	0	0
+5	terminator	terminator	B0010	0	0
+6	terminator	terminator	B0012		
+					
+devices					
+ID	Parts				
+1	1,2,3,4,5,6				
+					
+chassis					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+relationship					
+promotion					
+					
+					
+					
+					
+					
+inhibition					
+					
+					
+					
+					
+combine					
+					
+					
+					

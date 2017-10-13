@@ -1,0 +1,71 @@
+circuitID	Team					
+1615	Edinburgh					
+						
+parts and others						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	promoter	promoter	promoter	0	0	
+2	RBS	RBS	RBS	0	0	
+3	MorA	CDS	BBa_K1615000	0	0	 
+4	terminator	terminator	terminator	0	0	
+5	promoter	promoter	promoter	0	0	
+6	RBS	RBS	RBS	0	0	
+7	MaoA	CDS	BBa_K1615023	0	0	
+8	terminator	terminator	terminator	0	0	
+9	promoter	promoter	promoter	0	0	
+10	RBS	RBS	RBS	0	0	
+11	HerE	CDS	BBa_K1615046	0	0	
+12	terminator	terminator	terminator	0	0	
+13	promoter	promoter	promoter	0	0	
+14	RBS	RBS	RBS	0	0	
+15	TVELS	CDS	BBa_K1615067	0	0	
+16	terminator	terminator	terminator	0	0	
+17	Morphine-6-dehydrogenase	protein	Morphine-6-dehydrogenase	0	0	
+18	Monoamine Oxidase	protein	Monoamine Oxidase	0	0	
+19	Heroin Esterase	protein	Heroin Esterase	0	0	
+20	TVELS Laccase	protein	TVELS Laccase	0	0	
+21	Heroin	material	Heroin	0	0	
+22	Morphinone	material	Morphinone	0	0	
+23	MDMA	material	MDMA	0	0	
+24	resorufin	material	resorufin	0	0	
+25	ABTS	material	ABTS	0	0	
+26	ABTS-	material	ABTS-	0	0	
+						
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4					
+2	5,6,7,8					
+3	9,10,11,12					
+4	13,14,15,16					
+						
+						
+						
+relationship						
+promotion						
+3	17					
+7	18					
+11	19					
+15	20					
+17	22					
+19	22					
+21	22					
+18	24					
+23	24					
+20	26					
+25	26					
+						
+						
+inhibition						
+						
+						
+						
+combine						
+						
+						
+						
+						
+						
+						
+						
+						

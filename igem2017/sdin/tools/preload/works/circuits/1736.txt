@@ -1,0 +1,33 @@
+circuitID	Team					
+1736	Sydney_Australia					
+						
+parts and others						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	promoter	promoter	promoter	0	0	
+2	RBS	RBS	RBS	0	0	
+3	EtnA	CDS	EtnA	0	0	 
+4	promoter	promoter	promoter	0	0	
+5	RBS	RBS	RBS	0	0	
+6	EtnB	CDS	EtnB	0	0	
+7	promoter	promoter	promoter	0	0	
+8	RBS	RBS	RBS	0	0	
+9	EtnC	CDS	EtnC	0	0	
+10	promoter	promoter	promoter	0	0	
+11	RBS	RBS	RBS	0	0	
+12	EtnD	CDS	EtnD	0	0	
+13	terminator	terminator	terminator	0	0	
+						
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4,5,6,7,8,9,10,11,12,13					
+						
+						
+						
+relationship						
+promotion						
+						
+inhibition						
+						
+combine						

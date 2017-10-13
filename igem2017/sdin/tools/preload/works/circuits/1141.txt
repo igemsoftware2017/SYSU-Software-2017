@@ -1,0 +1,72 @@
+circuitID	Team					
+1141	Grenoble-EMSE-LSU					
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	pLTetO-1	promoter	pLTetO-1		0	0
+2	cph8	CDS	cph8		0	0
+3	pLac/ara-1	promoter	pLac/ara-1		0	0
+4	ho1	CDS	ho1		0	0
+5	pcyA	CDS	pcyA		0	0
+6	pOmpC	promoter	pOmpC		0	0
+7	cl	CDS	cl		0	0
+8	p¦Ë	promoter	p¦Ë		0	0
+9	KR	CDS	KR		0	0
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+						
+						
+devices						
+ID	Parts					
+1	1,2					
+2	3,4,5					
+3	6,7					
+4	8,9					
+						
+						
+chassis						
+ID	devices	composite				
+1	1,2,3,4					
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+7	8					
+						
+						
+combine						
+						

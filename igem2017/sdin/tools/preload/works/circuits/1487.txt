@@ -1,0 +1,58 @@
+circuitID	Team				
+1487	UT-Dallas				
+					
+parts and others					
+ID	Name	Type	LibraryID	positionx	positiony
+1	promoter	promoter	promoter	0	0
+2	RBS	RBS	RBS	0	0
+3	tetR	CDS	tetR	0	0
+4	tetR	protein	tetR	0	0
+5	terminator	terminator	terminator	0	0
+6	ribrio cholerae marker	material	ribrio cholerae marker	0	0
+7	ptet	promoter	R0040	0	0
+8	RBS	RBS	RBS	0	0
+9	Cas9	CDS	Cas9	0	0
+10	terminator	terminator	terminator	0	0
+11	promoter	promoter	promoter	0	0
+12	RBS	RBS	RBS	0	0
+13	gRNA	CDS	gRNA	0	0
+14	terminator	terminator	terminator	0	0
+15	promoter	promoter	promoter	0	0
+16	RBS	RBS	RBS	0	0
+17	MB coat protein	CDS	MB coat protein	0	0
+18	terminator	terminator	terminator	0	0
+19	Cas9	protein	Cas9	0	0
+20	gRNA	RNA	gRNA	0	0
+21	MB coat protein		MB coat protein	0	0
+					
+devices					
+ID	Parts				
+1	1,2,3,4,5				
+2	7,8,9,10				
+3	11,12,13,14				
+4	15,16,17,18				
+					
+chassis					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+relationship					
+promotion					
+3	4				
+9	19				
+13	20				
+17	21				
+					
+inhibition					
+4	7				
+6	4				
+					
+					
+combine					

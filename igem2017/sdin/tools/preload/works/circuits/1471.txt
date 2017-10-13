@@ -1,0 +1,51 @@
+circuitID	Team	year				
+1471	BIOSINT	2014				
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	Pcmv	promoter	Pcmv		0	0
+2	RBS	RBS	RBS		0	0
+3	MerE	CDS	MerE		0	0
+4	RBS	RBS	RBS		0	0
+5	MerB	CDS	MerB		0	0
+6	terminator	terminator	terminator		0	0
+7	Pcamv35s	promoter	K788000		0	0
+8	RBS	RBS	RBS		0	0
+9	TertR	CDS	K909007		0	0
+10	PIF6	CDS	K115005		0	0
+11	NLS	CDS	K1150010		0	0
+12	PolyA	Other_DNA	K1150012		0	0
+13	terminator	terminator	terminator		0	0
+14	Pcamv35s	promoter	Pcamv35s		0	0
+15	RBS	RBS	RBS		0	0
+16	PBYS	CDS	K1150004		0	0
+17	phyB-VP16-NLS	CDS	phyB-VP16-NLS		0	0
+18	VP16	CDS	K105001		0	0
+19	NLS	CDS	K1150010		0	0
+20	PolyA	Other_DNA	K1150012		0	0
+21	Teto13	CDS	Teto13		0	0
+22	PminCMV	promoter	PminCMV		0	0
+23	IRES Repression	Other_DNA	IRES Repression		0	0
+24	RBS	RBS	RBS		0	0
+25	Represor	Other_DNA	 Represor		0	0
+26	terminator	terminator	terminator		0	0
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+1	16,17,18,19,20	CDS	K1150013		1	
+						
+device						
+ID	Parts					
+1	1,2,3,4,5,6					
+2	7,8,9,10,11,12,13					
+3	14,15,16,17,18,19,20,21,22,23,24,25,26					
+						
+chassis						
+ID	Devices	Description				
+1	1,2,3					
+						
+						
+relationship						
+promotion						
+17	24					
+inhibition						
+25	23					

@@ -1,0 +1,72 @@
+circuitID	Team					
+750	XMU-China					
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	lux l	CDS	lux l		0	0
+2	lux R	CDS	lux R		0	0
+3	promoter	promoter	promoter		0	0
+4	GFP	CDS	GFP		0	0
+5	ccdB	CDS	ccdB		0	0
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4					
+2	1,2,3,5					
+						
+						
+						
+						
+chassis						
+ID	devices	composite				
+						
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+						
+						
+						
+combine						
+						

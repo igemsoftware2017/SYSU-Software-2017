@@ -1,0 +1,72 @@
+circuitID	Team					
+1163	Evry					
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	promoter	promoter	promoter		0	0
+2	Fur Binding Site	unknown	Fur Binding Site		0	0
+3	RBS	RBS	RBS		0	0
+4	Lacl	CDS	Lacl		0	0
+5	Term	terminator	Term		0	0
+6	Plac	promoter	Plac		0	0
+7	RBS	RBS	RBS		0	0
+8	RFP	CDS	RFP		0	0
+9	Term	terminator	Term		0	0
+10	Fe-FUR	unknown	Fe-FUR		0	0
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4,5					
+2	6,7,8,9					
+						
+						
+						
+						
+chassis						
+ID	devices	composite				
+1	1,2					
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+10	2					
+4	6					
+						
+combine						
+						

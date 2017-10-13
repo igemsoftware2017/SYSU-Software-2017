@@ -1,0 +1,73 @@
+circuitID	Team					
+526	UNIST_Korea					
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	promoter	promoter	promoter		0	0
+2	RBS	RBS	RBS		0	0
+3	PCB	CDS	CDS		0	0
+4	Cph8	CDS	K526001		0	0
+5	terminator	terminator	terminator		0	0
+6	promoter	promoter	promoter	 	0	0
+7	RBS	RBS	RBS		0	0
+8	Cl	CDS	protein		0	0
+9	terminator	terminator	terminator		0	0
+10	promoter	promoter	promoter		0	0
+11	RBS	RBS	RBS		0	0
+12	Lytic Casssette	CDS	protein		0	0
+13	terminator	terminator	terminator		0	0
+14	Sunshine	material	material		0	0
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID			
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4,5					
+2	56,7,8,9					
+3	10,11,12,13					
+						
+						
+						
+chassis						
+ID	devices	composite				
+						
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+8	10					
+14	8					
+						
+combine						
+						

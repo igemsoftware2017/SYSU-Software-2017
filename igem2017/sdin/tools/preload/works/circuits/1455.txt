@@ -1,0 +1,54 @@
+circuitID	Team				
+1455	Colombia				
+					
+parts and others					
+ID	Name	Type	LibraryID	positionx	positiony
+1	CAI-1	material	CAI-1	0	0
+2	CqsS	protein-m	CqsS	0	0
+3	LuxU	material	LuxU	0	0
+4	LuxO	material	LuxO	0	0
+5	pqrr4	promoter	K1455007	0	0
+6	RBS	RBS	RBS	0	0
+7	tetR	CDS	tetR	0	0
+8	terminator	terminator	terminator	0	0
+9	psid	promoter	I746364	0	0
+10	ptet	promoter	R0040	0	0
+11	RBS	RBS	B0034	0	0
+12	amilCP	CDS	K592009	0	0
+13	psp3	CDS	I746351	0	0
+14	terminator	terminator	terminator	0	0
+					
+					
+					
+devices					
+ID	Parts				
+1	5,6,7,8				
+2	9,10,11,12,13,14				
+					
+					
+					
+					
+chassis					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+relationship					
+promotion					
+5	7				
+					
+					
+					
+					
+inhibition					
+1	2				
+2	3				
+					
+					
+combine					

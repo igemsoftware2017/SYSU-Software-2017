@@ -1,0 +1,80 @@
+circuitID	Team	year				
+566	UANL_Mty-Mexico	2011				
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	pConst+RBS	promoter			0	0
+2	RBS	RBS			0	0
+3	Mrfp	CDS			0	0
+4	GFP	terminator			0	0
+5	CFP	CDS			0	0
+6	YFP	CDS			0	0
+7	BFP	CDS			0	0
+8	Double ter	terminator			0	0
+9	Double ter	terminator			0	0
+10	Mnt	repressor			0	0
+11	Prm434	promoter			0	0
+12	pLsaR/PAL	promoter			0	0
+13	pRhlR/HHL	promoter			0	0
+14	aisHHL	protein			0	0
+15	RhlR	RNA			0	0
+16	aisPAI	protein			0	0
+17	LasR	RNA			0	0
+18	pMnt	promoter			0	0
+19	RBS	RBS			0	0
+20	RBS	RBS			0	0
+21	RBS	RBS			0	0
+22	TetR	material			0	0
+23	cl	protein			0	0
+24	cl434	protein			0	0
+25	pTetR	promoter			0	0
+26	Pr	promoter			0	0
+27	pTetMnt	promoter			0	0
+28	red light	material			0	0
+29	pCpcG2+TetR				0	0
+30	pCpcG2				0	0
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+1	14,15	composite			1	
+2	16,17	composite				
+device						
+ID	Parts	Description				
+1	30,19,14,8,9					
+2	1,15,8,9					
+3	13,2,22,20,24,8,9					
+4	27,2,23,8,9					
+5	18,2,16,8,9					
+6	26,2,4,2,24,8,9					
+7	11,2,6,8,9					
+8	1,17,8,9					
+9	12,2,22,2,248,9,					
+10	29,2,23,8,9					
+11	26,2,3,2,24,8,9					
+12	11,2,7,8,9					
+13	12,2,23,8,9,26,2,10,8,9					
+14	1,15,8,9					
+15	13,2,22,8,9,25,2,10,8,9					
+16	18,2,5,8,9					
+						
+chassis						
+ID	Devices	Description				
+1	2,3,4,5,6,7					
+2	1,8,9,10,11,12,13					
+3	14,15,16,17,18					
+relationship						
+promotion						
+composite1						
+28	13					
+28	27					
+23	18					
+23	11					
+4	26					
+composite2	30					
+4	12					
+inhibition	14					
+22						
+24	29					
+23	11					
+23	26					
+10	18					
+22	25					

@@ -1,0 +1,55 @@
+circuitID	Team				
+1351	LMU-Munich				
+					
+parts and others					
+ID	Name	Type	LibraryID	positionx	positiony
+1	QS molecule	material	CSP/AIP-¢ò	0	0
+2	promoter	promoter	promoter	0	0
+3	RBS	RBS	RBS	0	0
+4	Sensor kinase	CDS	ComD/AgrC	0	0
+5	response regulator	CDS	ComE/ArgA	0	0
+6	terminator	terminator	terminator	0	0
+7	ComD/AgrC	protein-m	ComD/AgrC	0	0
+8	ComE/ArgA	protein	ComE/ArgA	0	0
+9	PQS	promoter	K1351037	0	0
+10	RBS	RBS	RBS	0	0
+11	killing factor	CDS	K802000	0	0
+12	terminator	terminator	terminator	0	0
+13	killing factor	protein	PcomC/AB	0	0
+14					
+devices					
+ID	Parts				
+1	2,3,4,5,6				
+2	9,10,11,12				
+					
+					
+					
+					
+chassis					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+relationship					
+promotion					
+4	7				
+1	7				
+6	8				
+7	8				
+8	9				
+5	8				
+11	13				
+					
+					
+inhibition					
+					
+					
+					
+					
+combine					

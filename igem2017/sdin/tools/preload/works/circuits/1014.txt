@@ -1,0 +1,72 @@
+circuitID	Team					
+1014	HIT-Harbin					
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	Promoter	promoter	Promoter		0	0
+2	RBS	RBS	RBS		0	0
+3	hrpR	CDS	hrpR		0	0
+4	T	terminator	T		0	0
+5	Ptet	promoter	Ptet		0	0
+6	RBS	RBS	RBS		0	0
+7	hrpS	CDS	hrpS		0	0
+8	T	terminator	T		0	0
+9	PhrpL	promoter	PhrpL		0	0
+10	RBS	RBS	RBS		0	0
+11	tet	CDS	tet		0	0
+12	RBS	RBS	RBS		0	0
+13	gene	CDS	gene		0	0
+14	T	terminator	T		0	0
+15	Protein	protein	Protein		0	0
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4					
+2	5,6,7,8					
+3	9,10,11,12,13,14					
+						
+						
+						
+chassis						
+ID	devices	composite				
+1	1,2,3					
+						
+						
+						
+relationship						
+promotion						
+13	15					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+						
+						
+						
+combine						
+						
