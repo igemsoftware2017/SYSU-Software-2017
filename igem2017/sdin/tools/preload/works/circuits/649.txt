@@ -1,0 +1,33 @@
+circuitID	Team	year				
+649	Tokyo_Tech	2011				
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	PlaclQ	promoter	promoter		0	0
+2	lox71	CDS	CDS		0	0
+3	RBS	RBS	RBS		0	0
+4	RFP	reporter	reporter		0	0
+5	lox66	CDS	CDS		0	0
+7	RBS	RBS	RBS		0	0
+8	gfp	reporter	reporter		0	0
+9	Ptrc	promoter	promoter		0	0
+10	RBS	RBS	RBS		0	0
+11	rocF	CDS	CDS		0	0
+12	HSL	material	material		0	0
+13	IPTG	material	material		0	0
+14	ispS	CDS	CDS		0	0
+						
+device						
+ID	Parts	Description				
+1	1,2,3,4,5,6,7,8,14	K649201				
+2	9,10,11	K649301		7		
+						
+						
+chassis						
+ID	Devices	Description				
+1	1,2					
+						
+						
+relationship						
+promotion						
+12	1					

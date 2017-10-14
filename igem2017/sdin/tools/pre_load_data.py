@@ -9,6 +9,7 @@ from ..models import *
 import os
 import csv
 import json
+import traceback
 
 # load parts data
 def get_parts_type(filename):
@@ -99,35 +100,43 @@ def load_works(works_floder_path):
 
     works = []
     for root, dirs, files in os.walk(works_floder_path):
+        if "circuits" in root:
+            continue
         for name in files:
             if name == "Team_description.csv":
                 continue
             filepath = os.path.join(root,name)
             csv_reader = csv.reader(open(filepath, encoding='utf-8'))
             print('  Loading %s...' % filepath)
-
-            next(csv_reader)
-            for row in csv_reader:
-                try:
-                    works.append(Works(
-                        TeamID = int(row[0]),
-                        Teamname = row[1],
-                        Region = row[2],
-                        Country = row[3],
-                        Track = row[4],
-                        Section = row[5],
-                        Size = int(row[6]),
-                        Status = row[7],
-                        Year = int(row[8]),
-                        Wiki = row[9],
-                        Medal = row[10],
-                        Award = row[11],
-                        Name = row[12],
-                        Use_parts = row[13],
-                    ))
-                except:
-                    errors += 1
-                    pass
+            
+            try:
+                next(csv_reader)
+                for row in csv_reader:
+                    try:
+                        works.append(Works(
+                            TeamID = int(row[0]),
+                            Teamname = row[1],
+                            Region = row[2],
+                            Country = row[3],
+                            Track = row[4],
+                            Section = row[5],
+                            Size = int(row[6]),
+                            Status = row[7],
+                            Year = int(row[8]),
+                            Wiki = row[9],
+                            Medal = row[10],
+                            Award = row[11],
+                            Name = row[12],
+                            Use_parts = row[13],
+                        ))
+                    except Exception as err1:
+                        errors += 1
+                        print(err1)
+                        pass
+            except Exception as err2:
+                errors += 1
+                print(err2)
+                pass
     print('Saving...')
     atomic_save(works)
     print('Error: {0:6d}'.format(errors))
@@ -140,20 +149,134 @@ def load_works(works_floder_path):
     next(csv_reader)
     for row in csv_reader:
         try:
-            work = Works.objects.get(Teamname = row[0], Year = int(row[1]))
+            work = Works.objects.get(Teamname = row[0].strip(), Year = int(row[1]))
             work.SimpleDescription = row[2]
             work.Description = row[3]
             work.Keywords = row[4]
             work.Chassis = row[5]
             works.append(work)
-        except:
+        except Exception as err3:
             errors += 1
+            print(row[0],' ',row[1])
+            print(err3)
             pass
     print('Saving...')
     atomic_save(works)
     print('Error: {0:6d}'.format(errors))
 
+def load_circuits(circuits_floder_path):
+    Circuit.objects.all().delete()
+
+    for root, dirs, files in os.walk(circuits_floder_path):
+        for name in files:
+            try:
+                f = open(os.path.join(root, name), encoding = 'utf-8')
+                data = f.read().replace("\n", "")
+                data = data.replace(" ", "\t")
+                data = data.split('\t')
+                current = 0
+
+                # team info
+                teamDet = []
+                while not data[current].isdigit():
+                    teamDet.append(data[current])
+                    current += 1
+                teamInfo = {}
+                for i in range(len(teamDet)):
+                    teamInfo[teamDet[i]] = data[current]
+                    current += 1
+
+                team = Works.objects.get(TeamID = teamInfo['circuitID'])
+
+                # parts info
+                circuit = Circuit.objects.create(Name = teamInfo['Team'], Description = "")
+                team.Circuit = circuit
+                team.save()
+
+                try:
+                    current = data.index('other') + 1
+                except:
+                    current = data.index('others') + 1
+                partDet = []
+                while not data[current].isdigit():
+                    partDet.append(data[current])
+                    current += 1
+                
+                parts = []
+                while data[current].isdigit():
+                    partInfo = {}
+                    for i in range(len(partDet)):
+                        partInfo[partDet[i]] = data[current]
+                        current += 1
+                    parts.append(partInfo)
+
+                cids = {}
+
+                for part in parts:
+                    try:
+                        p = Parts.objects.get(Name = part['Name'])
+                    except Parts.DoesNotExist:
+                        p = Parts.objects.create(
+                                Name = part['Name'],
+                                Type = part['Type'])
+                    cp = CircuitParts.objects.create(
+                            Part = p,
+                            Circuit = circuit,
+                            X = part['positionx'],
+                            Y = part.get('positiony', 0))
+                    cids[part['ID']] = cp
+
+                # device info
+                current = data.index('devices') + 3
+                devices = []
+                while data[current].isdigit():
+                    devices.append({
+                            'id': data[current],
+                            'parts': data[current + 1]
+                        })
+                    current += 2
+
+                for device in devices:
+                    cd = CircuitDevices.objects.create(
+                            Circuit = circuit)
+                    map(lambda x: cd.Subparts.add(cids(x)), device['parts'])
+                    cd.save()
+
+                # relation ship
+                current = data.index('promotion') + 1
+                promotions = []
+                while data[current].isdigit():
+                    promotions.append([data[current], data[current + 1]])
+                    current += 2
+
+                map(lambda x: CircuitLines.objects.create(
+                    Start = cids[x[0]],
+                    End = cids[x[1]],
+                    Type = 'promotion'), promotions)
+
+                current = data.index('inhibition') + 1
+                inhibitions = []
+                while data[current].isdigit():
+                    inhibitions.append([data[current], data[current + 1]])
+                    current += 2
+
+                map(lambda x: CircuitLines.objects.create(
+                    Start = cids[x[0]],
+                    End = cids[x[1]],
+                    Type = 'inhibition'), inhibitions)
+
+
+            except UnicodeDecodeError:
+                pass
+            except ValueError:
+                traceback.print_exc()
+                print(name)
+            except:
+                traceback.print_exc()
+                print(name)
+
 
 def pre_load_data(currentpath):
-    load_parts(os.path.join(currentpath, 'parts'))
+    #load_parts(os.path.join(currentpath, 'parts'))
     load_works(os.path.join(currentpath, 'works'))
+    #load_circuits(os.path.join(currentpath, 'works/circuits'))

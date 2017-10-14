@@ -1,0 +1,46 @@
+circuitID	Team				
+1430	Goettingen				
+					
+parts and others					
+ID	Name	Type	LibraryID	positionx	positiony
+1	TDH3P	promoter	K530008	0	0
+2	RBS	RBS	RBS	0	0
+3	LEU2	CDS	K1430001	0	0
+4	HHO1	terminator	K530019	0	0
+5	TEF2	promoter	K165037	0	0
+6	RBS	RBS	RBS	0	0
+7	mRFP1	CDS	mRFP1	0	0
+8	ADH1	terminator	K801012	0	0
+					
+devices					
+ID	Parts				
+1	1,2,3,4				
+2	5,6,7,8				
+					
+					
+					
+					
+chassis					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+relationship					
+promotion					
+					
+					
+					
+					
+					
+inhibition					
+					
+					
+					
+					
+combine					

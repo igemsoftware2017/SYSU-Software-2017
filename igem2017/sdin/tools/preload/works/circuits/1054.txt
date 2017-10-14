@@ -1,0 +1,72 @@
+circuitID	Team					
+1054	ZJU-China					
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	Plac	promoter	Plac		0	0
+2	RBS	RBS	RBS		0	0
+3	LuxR	CDS	LuxR		0	0
+4	Luxl	CDS	Luxl		0	0
+5	Ter	terminator	Ter		0	0
+6	PluxR	promoter	PluxR		0	0
+7	RBS	RBS	RBS		0	0
+8	ccdB	CDS	ccdB		0	0
+9	Ter	terminator	Ter		0	0
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4,5					
+2	6,7,8,9					
+						
+						
+						
+						
+chassis						
+ID	devices	composite				
+1	1,2					
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+						
+						
+						
+combine						
+						

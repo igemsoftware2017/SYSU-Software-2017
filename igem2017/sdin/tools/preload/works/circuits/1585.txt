@@ -1,0 +1,46 @@
+circuitID	Team					
+1585	Aachen					
+						
+parts and others						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	promoter	promoter	BBa_J23119	0	0	
+2	RBS	RBS	BBa_B0034	0	0	
+3	mdh	CDS	mdh	0	0	 
+4	RBS	RBS	BBa_B0034	0	0	
+5	hps	CDS	hps	0	0	
+6	RBS	RBS	BBa_B0034	0	0	
+7	phi	CDS	phi	0	0	
+8	RBS	RBS	BBa_B0034	0	0	
+9	xpk	CDS	xpk	0	0	
+10	terminator	terminator	BBa_B0015	0	0	
+11	T7_promoter	promoter	T7_promoter	0	0	
+12	RBS	RBS	BBa_B0034	0	0	
+13	glgA	CDS	glgA	0	0	
+14	RBS	RBS	BBa_B0034	0	0	
+15	glgB	CDS	glgB	0	0	
+16	RBS	RBS	BBa_B0034	0	0	
+17	glgC	CDS	glgC	0	0	
+18	terminator	terminator	BBa_B0015	0	0	
+19	IPTG	material	IPTG	0	0	
+						
+						
+						
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4,5,6,7,8,9,10					
+2	11,12,13,14,15,16,17,18					
+						
+						
+						
+relationship						
+promotion						
+19	11					
+						
+						
+inhibition						
+						
+						
+						
+combine						

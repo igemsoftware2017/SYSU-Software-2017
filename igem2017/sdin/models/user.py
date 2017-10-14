@@ -48,7 +48,7 @@ class Works(models.Model):
     TeamID = models.IntegerField(unique = True)
     Teamname = models.CharField(max_length = 32)
     Region = models.CharField(max_length = 32)
-    Country = models.CharField(max_length = 32)
+    Country = models.CharField(max_length = 50)
     Track = models.CharField(max_length = 32)
     Section = models.CharField(max_length = 32)
     Size = models.IntegerField()
@@ -59,10 +59,12 @@ class Works(models.Model):
     Award = models.CharField(max_length = 512)
     Name =  models.CharField(max_length = 256)
     Use_parts = models.TextField()
-    SimpleDescription = models.CharField(max_length = 500, default = "To be add")
+    SimpleDescription = models.TextField(default = "To be add")
     Description = models.TextField(default = "To be add")
     Keywords = models.CharField(max_length = 200, default = "" )
     Chassis = models.CharField(max_length = 100, default = "None")
+    IEF = models.FloatField(default=0.0)
+    Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE, null = True)
 
 
     def __str__(self):

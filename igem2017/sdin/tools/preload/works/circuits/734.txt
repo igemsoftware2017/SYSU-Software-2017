@@ -1,0 +1,71 @@
+circuitID	Team					
+734	Austin_Texas					
+						
+parts and other						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	promoter	promoter	J23100	0	0	
+2	RBS	RBS	B0034	0	0	
+3	NdmA	CDS	NdmA	0	0	 
+4	RBS	RBS	RBS	0	0	
+5	NdmB	CDS	NdmB	0	0	
+6	RBS	RBS	RBS	0	0	
+7	NdmC	CDS	NdmC	0	0	
+8	RBS	RBS	RBS	0	0	
+9	NdmD	CDS	NdmD	0	0	
+10	RBS	RBS	RBS	0	0	
+11	gst9	CDS	gst9	0	0	
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+devices						
+ID	Parts					
+						
+						
+						
+						
+						
+						
+chassis						
+ID						
+						
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+						
+						
+						
+combine						

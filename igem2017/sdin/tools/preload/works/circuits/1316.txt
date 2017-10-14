@@ -1,0 +1,45 @@
+circuitID	Team				
+1316	TU_Delft-Leiden				
+					
+parts and others					
+ID	Name	Type	LibraryID	positionx	positiony
+1	TNT	material	TNT		
+2	T7LacO	promoter	T7LacO		
+3	RBS	RBS	RBS		
+4	mtrCAB	CDS	BBa_K1316012		
+5	terminator	terminator	terminator		
+6	cymA(transfer electron)	protein-m	cymA(transfer electron)		
+					
+					
+devices					
+ID	Parts				
+1	2,3,4,5				
+					
+					
+					
+					
+					
+chassis					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+relationship					
+promotion					
+1	2				
+4	6				
+					
+					
+					
+inhibition					
+					
+					
+					
+					
+combine					

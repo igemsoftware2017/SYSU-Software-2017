@@ -1,0 +1,81 @@
+circuitID	Team					
+1730	UChile-OpenBio					
+						
+parts and other						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	Pph	promoter	V	0	0	
+2	RBS	RBS	B0034	0	0	
+3	TetR	CDS	C0040	0	0	 
+4	Terminator	Terminator	B0015	0	0	
+5	PTetR	promoter	R0040	0	0	
+6	RBS	RBS	B0034	0	0	
+7	D-LHD	CDS	D-LHD	0	0	
+8	RBS	RBS	B0034	0	0	
+9	Luxl	CDS	C0061	0	0	
+10	Terminator	Terminator	B0015	0	0	
+11	External Ph	material	External Ph	0	0	
+12	Lactate	material	Lactate	0	0	
+13	HSL	material	HSL	0	0	
+14	Pc	promoter	J23119	0	0	
+15	RBS	RBS	B0034	0	0	
+16	LuxR	CDS	C0062	0	0	
+17	Terminator	Terminator	B0015	0	0	
+18	PLux	promoter	R0062	0	0	
+19	RBS	RBS	B0034	0	0	
+20	P-CoA_T	CDS	P-CoA_T	0	0	
+21	RBS	RBS	B0034	0	0	
+22	phaC	promoter	phaC	0	0	
+23	Terminator	Terminator	B0015	0	0	
+24	PLux	promoter	R0062	0	0	
+25	RBS	RBS	B0034	0	0	
+26	phasin	CDS	K300002	0	0	
+27	HlyA	CDS	K208006			
+28	Terminator	material	Terminator	0	0	
+29	Lactyl-CoA	protein	Lactyl-CoA	0	0	
+30	PLA	protein	PLA	0	0	
+31	phasin-HlyA	protein				
+32	PLA-phasin-HlyA	protein	PLA-phasin-HlyA	0	0	
+33	PBAD	promoter	K206000			
+34	RBS	RBS	B0034			
+35	TetR	CDS	C0040			
+36	Terminator	Terminator	B0015			
+37	PTetR	promoter	R0040			
+38	RBS	RBS	B0034			
+39	Lysis gene	CDS	K117000			
+40	Terminator	Terminator	B0015			
+41	Arbinose	material	Arbinose			
+42	Lysis protein	protein	Lysis protein			
+devices						
+ID	Parts					
+1	1,2,3,4,11					
+2	,5,6,7,8,9,10,12,13					
+3	14,15,16,17,					
+4	18,19,20,21,22,29,30,					
+5	23,24,25,26,27,28,31,32					
+6	33,34,35,36					
+7	37,38,39,40,41,42					
+chassis						
+ID	devices	composite				
+1	1,2,6,7					
+2	3,4,5,6,7					
+						
+						
+relationship						
+promotion						
+11	1					
+7	12					
+9	13					
+13	24,18					
+20	12					
+12	29					
+29	30					
+39	42					
+						
+						
+inhibition						
+3	5					
+35	37					
+						
+combine						
+26	27					
+30	31					

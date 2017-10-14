@@ -1,0 +1,55 @@
+circuitID	Team				
+609	HIT-Harbin				
+					
+parts and others					
+ID	Name	Type	LibraryID	positionx	positiony
+1	rcfb	promoter	K609003	0	0
+2	RBS	RBS	B0034	0	0
+3	LacR	CDS	K609001	0	0
+4	terminator	terminator	terminator	0	0
+5	LacR	protein	LacR	0	0
+6	LacA	other_DNA	LacA	0	0
+7	OP	other_DNA	OP	0	0
+8	LacS	other_DNA	LacS	0	0
+9	LacZ	other_DNA	LacZ	0	0
+10	LacR	other_DNA	LacR	0	0
+11	p32	promoter	p32	0	0
+12	RBS	RBS	RBS	0	0
+13	blpC	CDS	blpC	0	0
+14	COL¢ó¦Á1	CDS	BBa_K609002	0	0
+15	His	other_DNA	His	0	0
+16	terminator	terminator	terminator	0	0
+					
+devices					
+ID	Parts				
+1	1,2,3,4				
+2	6,7,8,9,10				
+3	11,12,13,14,15,16				
+					
+chassis					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+relationship					
+promotion					
+3	5				
+					
+					
+					
+					
+inhibition					
+5	6				
+					
+					
+					
+combine					
+					
+					
+					

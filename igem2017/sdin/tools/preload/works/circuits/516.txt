@@ -1,0 +1,36 @@
+circuitID	Team	year				
+516	UNIPV-Pavia	2011				
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	P¦Ë	promoter	R0051		0	0
+2	RBS	RBS	B0030		0	0
+3	LuxR	CDS	C0062		0	0
+4	teriminator	teriminator	B1006		0	0
+5	pLux	promoter	Rr0062		0	0
+6	RBS	RBS	RBS		0	0
+7	aiiA-LVA	CDS	C0060		0	0
+8	teriminator	teriminator	B0015		0	0
+9	pTet	promoter	R0040		0	0
+10	RBS	RBS	RBS		0	0
+11	luxl-LVA	CDS	C0061		0	0
+12	HSL	material	material		0	0
+13	aTc	material	material		0	0
+						
+device						
+ID	Parts	Description				
+1	1,2,3,4,5	K080122				
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+1	3,12	composite			1	
+chassis						
+ID	Devices	Description				
+1	1,2,3					
+						
+						
+relationship						
+promotion						
+composite 1	5					
+13	9					
+inhibition						
+7	11					

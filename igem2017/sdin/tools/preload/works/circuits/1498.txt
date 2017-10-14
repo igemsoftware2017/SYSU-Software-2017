@@ -1,0 +1,46 @@
+circuitID	Team				
+1498	Sheffield				
+					
+parts and others					
+ID	Name	Type	LibraryID	positionx	positiony
+1	oleic acid	material	oleic acid	0	0
+2	FadR	material	FadR	0	0
+3	promoter	promoter	J23110	0	0
+4	RBS	RBS	RBS	0	0
+5	Lipase	CDS	Lipase	0	0
+6	terminator	terminator	terminator	0	0
+7	Lipase	protein	Lipase	0	0
+					
+					
+devices					
+ID	Parts				
+1	3,4,5,6				
+					
+					
+					
+					
+					
+chassis					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+relationship					
+promotion					
+5	7				
+					
+					
+					
+					
+inhibition					
+1	2				
+2	3				
+					
+					
+combine					

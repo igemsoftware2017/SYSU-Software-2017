@@ -1,0 +1,72 @@
+circuitID	Team					
+1130	BIOSINT_Mexico					
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	Lacto Promoter	promoter	Lacto Promoter		0	0
+2	RBS	RBS	RBS		0	0
+3	LinA	CDS	LinA		0	0
+4	TAL A/KRAB	CDS	TAL A/KRAB		0	0
+5	Stop	terminator	Stop		0	0
+6	TALA	CDS	TALA		0	0
+7	UAS	unknown	UAS		0	0
+8	UAS	unknown	UAS		0	0
+9	Lacto Promoter		Lacto Promoter		0	0
+10	RBS	RBS	RBS		0	0
+11	plnE	CDS	plnE		0	0
+12	Stop	terminator	Stop		0	0
+13	UAS	unknown	UAS		0	0
+14	UAS	unknown	UAS		0	0
+15	UAS	unknown	UAS		0	0
+16	UAS	unknown	UAS		0	0
+17	UAS	unknown	UAS		0	0
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+						
+						
+devices						
+ID	Parts					
+1	13,14,15,16,17,1,2,3,4,5,6,7,8,9,10,11,12					
+						
+						
+						
+						
+						
+chassis						
+ID	devices	composite				
+						
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+4	6					
+						
+						
+combine						
+						

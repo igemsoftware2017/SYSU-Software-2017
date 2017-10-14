@@ -1,0 +1,49 @@
+circuitID	Team					
+1789	NUDT_CHINA					
+						
+parts and others						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	promoter	promoter	BBa_R0010	0	0	
+2	RBS	RBS	BBa_K1789002	0	0	
+3	CDS	CDS	BBa_K1789008	0	0	 
+4	CDS	CDS	BBa_K1789003	0	0	
+5	RBS	RBS	BBa_K1789002	0	0	
+6	CDS	CDS	BBa_K1789010	0	0	
+7	CDS	CDS	BBa_K1789004	0	0	
+8	terminator	terminator	BBa_B0010	0	0	
+9	terminator	terminator	BBa_B0012	0	0	
+10	TAL1	protein	TAL1	0	0	
+11	GFP	protein-l	GFP	0	0	
+12	TAL2	protein	TAL2	0	0	
+13	GFP	protein-l	GFP	0	0	
+14	TAL1-GFP	complex	TAL1-GFP	0	0	
+15	TAL2-GFP	complex	TAL2-GFP	0	0	
+16	other_DNA	other_DNA	BBa_K1789006	0	0	
+						
+						
+						
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4,5,6,7,8,9					
+						
+						
+						
+relationship						
+promotion						
+3	10					
+4	11					
+6	12					
+7	13					
+14	16					
+15	16					
+						
+						
+inhibition						
+						
+						
+						
+combine						
+10	11	14				
+12	13	14				

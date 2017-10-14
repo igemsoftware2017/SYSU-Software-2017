@@ -1,0 +1,60 @@
+circuitID	Team					
+1840	NTNU_Trondheim					
+						
+parts and others						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	Pkgu	promoter	BBa_K1840000	0	0	
+2	RBS	RBS	RBS	0	0	
+3	mCherry	CDS	BBa_K1840004	0	0	 
+4	terminator	terminator	BBa_B0012	0	0	
+5	terminator	terminator	BBa_B0011	0	0	
+6	Pgad	promoter	BBa_K1840001	0	0	
+7	RBS	RBS	RBS	0	0	
+8	mCherry	CDS	BBa_K1840004	0	0	
+9	terminator	terminator	BBa_B0012	0	0	
+10	terminator	terminator	BBa_B0011	0	0	
+11	Pedd	promoter	BBa_K1840002	0	0	
+12	RBS	RBS	RBS	0	0	
+13	mCherry	CDS	BBa_K1840004	0	0	
+14	terminator	terminator	BBa_B0012	0	0	
+15	terminator	terminator	BBa_B0011	0	0	
+16	Pgad	promoter	BBa_K1840003	0	0	
+17	RBS	RBS	RBS	0	0	
+18	mCherry	CDS	BBa_K1840004	0	0	
+19	terminator	terminator	BBa_B0012	0	0	
+20	terminator	terminator	BBa_B0011	0	0	
+21	mCherry	protein-l	mCherry	0	0	
+22	mCherry	protein-l	mCherry	0	0	
+23	mCherry	protein-l	mCherry	0	0	
+24	mCherry	protein-l	mCherry	0	0	
+25	gluconate	material	gluconate	0	0	
+						
+						
+						
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4,5					
+2	6,7,8,9,10					
+3	11,12,13,14,15					
+4	16,17,18,19,20					
+						
+						
+						
+relationship						
+promotion						
+3	21					
+8	22					
+13	23					
+18	24					
+25	1					
+25	6					
+25	11					
+25	16					
+						
+						
+inhibition						
+						
+						
+combine						

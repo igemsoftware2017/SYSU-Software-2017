@@ -183,11 +183,14 @@ def get_circuit(request):
             'Type': xxx,
             'X': xxx, # position in canvas
             'Y': xxx,}
-        ]
+        ],
         lines: [{
             'Start': xxx,    # part cid
             'End': xxx,  # part cid
             'Type': xxx, # connection type}
+        ],
+        devices: [
+            [xx, xx, xx], # cid
         ]
     '''
     try:
@@ -200,13 +203,16 @@ def get_circuit(request):
                 End__Circuit = query_id)
         lines = [{'Start': x.Start.id, 'End': x.End.id, 'Type': x.Type} \
                 for x in line_query]
-        return HttpResponse(json.dumps({
+        devices_query = CircuitDevices.objects.filter(Circuit = query_id)
+        devices = [[i.id for i in x] for x in devices_query]
+        return JsonResponse({
             'status': 1,
             'parts': parts,
-            'lines': lines}))
+            'lines': lines,
+            'devices': devices})
     except:
-        return HttpResponse(json.dumps({
-            'status': 0}))
+        return JsonResponse({
+            'status': 0})
 
 @login_required
 def get_saves(request):
@@ -227,9 +233,9 @@ def get_saves(request):
         'Description': x.Description,
         'Author': x.Author.id if x.Author != None else None
         } for x in query_set]
-    return HttpResponse(json.dumps({
+    return JsonResponse({
             'status': 1,
-            'circuits': saves}))
+            'circuits': saves})
 
 
 @login_required
@@ -248,6 +254,9 @@ def save_circuit(request):
             'End': xxx,
             'Type': xxx
         }],
+        devices: [
+            [xx, xx, xx], # cids of parts
+        ]
         circuit: {
             'id': xxx, # circuit id if it's already existing, -1 else
             'Name': xxx,
@@ -293,12 +302,16 @@ def save_circuit(request):
                         Start = cids[x['Start']],
                         End = cids[x['End']],
                         Type = x['Type'])
-            return HttpResponse(json.dumps({
+            for x in data['devices']:
+                cd = CircuitDevices.objects.create(Circuit = circuit)
+                for i in x:
+                    cd.Subparts.add(cids[i]) 
+            return JsonResponse({
                     'status': 1,
-                    'circuit_id': circuit.id}))
+                    'circuit_id': circuit.id})
         except:
-            return HttpResponse(json.dumps({
-                'status': 0}))
+            return JsonResponse({
+                'status': 0})
     else:
-        return HttpResponse(json.dumps({
-            'status': 0}))
+        return JsonResponse({
+            'status': 0})

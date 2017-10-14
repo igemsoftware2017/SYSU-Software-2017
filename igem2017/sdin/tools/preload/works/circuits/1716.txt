@@ -1,0 +1,27 @@
+circuitID	Team					
+1716	DTU-Denmark					
+						
+parts and others						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	promoter	promoter	BBa_K823002	0	0	
+2	RBS	RBS	RBS	0	0	
+3	CDS	CDS	BBa_K1716000	0	0	 
+4	terminator	terminator	terminator	0	0	
+5	promoter	promoter	BBa_K823002	0	0	
+6	RBS	RBS	RBS	0	0	
+7	CDS	CDS	BBa_K1716001	0	0	
+8	terminator	terminator	terminator	0	0	
+9	Lanbda Beta recombinase	protein	Lanbda Beta recombinase	0	0	
+10	GP35 recombinase	protein	GP35 recombinase	0	0	
+						
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4					
+2	5,6,7,8					
+						
+relationship						
+promotion						
+3	9					
+7	10					

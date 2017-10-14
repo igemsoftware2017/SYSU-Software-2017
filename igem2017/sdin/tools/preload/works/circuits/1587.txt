@@ -1,0 +1,54 @@
+circuitID	Team					
+1587	Toulouse					
+						
+parts and other						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	P(Bla)	promoter	I14018	0	0	
+2	RBS	RBS	B0030	0	0	
+3	hbd	CDS	K1587005	0	0	 
+4	RBS	RBS	RBS	0	0	
+5	crt	CDS	crt	0	0	
+6	RBS	RBS	RBS	0	0	
+7	tesB	Mrfp	tesB	0	0	
+8	RBS	RBS	RBS	0	0	
+9	atoB	CDS	atoB	0	0	
+10	Terminator	Terminator	B1006	0	0	
+11	P(Bla)	promoter	I14018	0	0	
+12	RBS	RBS	B0030	0	0	
+13	pflB	CDS	K1587007	0	0	
+14	RBS	RBS	RBS	0	0	
+15	pflA	CDS	pflA	0	0	
+16	Terminator	Terminator	B1006	0	0	
+
+						
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID	Intact		
+				1		
+						
+devices						
+ID	Parts					
+1	1,2,3,4,5,6,7,8,9,10					
+2	11£¬12£¬13£¬14£¬15£¬16£¬					
+chassis						
+ID	devices	composite				
+						
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+						
+						
+						
+combine						

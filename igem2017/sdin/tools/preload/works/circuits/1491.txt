@@ -1,0 +1,29 @@
+circuitID	Team	year				
+1491	Carnegie_Mellon	2014				
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	promoter	promoter	J23115		0	0
+2	RBS	RBS	B0034		0	0
+3	T7RNAP	CDS	K1491025		0	0
+4	RBS	RBS	B0034		0	0
+5	YFPH	CDS	K1491004		0	0
+6	T7 Promoter	promoter	T7 Promoter		0	0
+7	RBS	RBS	B0034		0	0
+8	RFP	CDS	E1010		0	0
+9	teriminator	teriminator	B0016		0	0
+						
+device						
+ID	Parts	Description				
+1	1,2,3	K1491029				
+2	3,4,5	K1491035				
+3	6,7,8,9	K1491033				
+						
+chassis						
+ID	Devices	Description				
+1	1,2,3					
+						
+						
+relationship						
+promotion						
+3	6					

@@ -1,0 +1,72 @@
+circuitID	Team					
+1073	Braunschweig					
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	promoter	promoter	promoter		0	0
+2	inactive transcriptional factor	RBS	inactive transcriptional factor		0	0
+3	inducer synthase	CDS	inducer synthase		0	0
+4	ampR	CDS	ampR		0	0
+5						
+6						
+7						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+						
+						
+devices						
+ID	Parts					
+1	1,2,3					
+2	1,4					
+						
+						
+						
+						
+chassis						
+ID	devices	composite				
+1	1,2					
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+						
+						
+						
+combine						
+						

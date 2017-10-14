@@ -1,0 +1,67 @@
+circuitID	Team					
+1696	TJU					
+						
+parts and other						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	promoter	promoter	J23100	0	0	
+2	RBS	RBS	B0034	0	0	
+3	ldhE-Lc	CDS	K1696003	0	0	 
+4	Terminator	Terminator	B0014	0	0	
+5	pTrpL	promoter	pTrpL	0	0	
+6	RBS	RBS	RBS	0	0	
+7	ribA	CDS	ribA	0	0	
+8	RBS	RBS	RBS	0	0	
+9	ribB	CDS	ribB	0	0	
+10	RBS	RBS	RBS	0	0	
+11	ribD	CDS	ribD	0	0	
+12	RBS	RBS	RBS	0	0	
+13	ribE	CDS	ribE	0	0	
+14	RBS	RBS	RBS	0	0	
+15	ribC	CDS	K1696010	0	0	
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4					
+2	5,6,7,8,9,10,11,12,13,14,15					
+						
+						
+						
+						
+chassis						
+ID	devices					
+						
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+						
+						
+						
+combine						

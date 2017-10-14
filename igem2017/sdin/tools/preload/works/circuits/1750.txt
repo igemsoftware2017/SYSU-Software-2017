@@ -1,0 +1,72 @@
+circuitID	Team					
+1750	ANU-Canberra					
+						
+parts and other						
+ID	Name	Type	LibraryID	contain	positionx	positiony
+1	T7	CDS	T7		0	0
+2	RBS	RBS	RBS		0	0
+3	CRY2-Cre-N	promoter	CRY2-Cre-N		0	0
+4	CRY2	CDS	CRY2		0	0
+5	myc	unknown	myc		0	0
+6	Link	unknown	Link		0	0
+7	Cre-N	CDS	Cre-N		0	0
+8	RBS	unknown	RBS		0	0
+9	CIB-Cre-C	promoter	CIB-Cre-C		0	0
+10	H6	unknown	H6		0	0
+11	Link	unknown	Link		0	0
+12	Cre-C	CDS	Cre-C		0	0
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+composite/reporter/signalling/generator/inverter/measurement						
+ID	Parts	Type	LibraryID		Intact	
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4,5,6,7,8,9,10,11,12					
+						
+						
+						
+						
+						
+chassis						
+ID	devices	composite				
+						
+						
+						
+						
+relationship						
+promotion						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+inhibition						
+						
+						
+						
+combine						
+						

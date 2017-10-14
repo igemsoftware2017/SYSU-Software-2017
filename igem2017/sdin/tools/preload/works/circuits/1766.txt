@@ -1,0 +1,51 @@
+circuitID	Team					
+1766	Stockholm					
+						
+parts and others						
+ID	Name	Type	LibraryID	positionx	positiony	
+1	OmpR-R	promoter	OmpR-R	0	0	
+2	RBS	RBS	RBS	0	0	
+3	MicF	CDS	MicF	0	0	 
+4	terminator	terminator	terminator	0	0	
+5	OmpR-R	promoter	OmpR-R	0	0	
+6	RBS	RBS	RBS	0	0	
+7	rfp	CDS	rfp	0	0	
+8	terminator	terminator	terminator	0	0	
+9	Const-R	promoter	Const-R	0	0	
+10	RBS	RBS	RBS	0	0	
+11	MicF-T	CDS	MicF-T	0	0	
+12	RBS	RBS	RBS	0	0	
+13	gfp	CDS	gfp	0	0	
+14	terminator	terminator	terminator	0	0	
+15	MicF	protein	MicF	0	0	
+16	antigen	material	antigen	0	0	
+17	EnvZ	material	EnvZ	0	0	
+18	RFP	protein-l	RFP			
+19	GFP	protein-l	GFP	0	0	
+						
+						
+						
+						
+devices						
+ID	Parts					
+1	1,2,3,4					
+2	5,6,7,8					
+3	9,10,11,12,13,14					
+						
+						
+						
+relationship						
+promotion						
+3	15					
+7	18					
+13	19					
+16	17					
+17	1					
+17	5					
+						
+						
+inhibition						
+15	11					
+						
+						
+combine						
