@@ -10,6 +10,7 @@ import os
 import csv
 import json
 import traceback
+import xlrd
 
 # load parts data
 def get_parts_type(filename):
@@ -166,107 +167,147 @@ def load_works(works_floder_path):
 
 def load_circuits(circuits_floder_path):
     Circuit.objects.all().delete()
+    print("Delete all circuits")
 
     for root, dirs, files in os.walk(circuits_floder_path):
         for name in files:
             try:
-                f = open(os.path.join(root, name), encoding = 'utf-8')
-                data = f.read().replace("\n", "")
-                data = data.replace(" ", "\t")
-                data = data.split('\t')
-                current = 0
+                f = xlrd.open_workbook(os.path.join(root, name))
+                for sheet in f.sheets():
 
-                # team info
-                teamDet = []
-                while not data[current].isdigit():
-                    teamDet.append(data[current])
-                    current += 1
-                teamInfo = {}
-                for i in range(len(teamDet)):
-                    teamInfo[teamDet[i]] = data[current]
-                    current += 1
-
-                team = Works.objects.get(TeamID = teamInfo['circuitID'])
-
-                # parts info
-                circuit = Circuit.objects.create(Name = teamInfo['Team'], Description = "")
-                team.Circuit = circuit
-                team.save()
-
-                try:
-                    current = data.index('other') + 1
-                except:
-                    current = data.index('others') + 1
-                partDet = []
-                while not data[current].isdigit():
-                    partDet.append(data[current])
-                    current += 1
-                
-                parts = []
-                while data[current].isdigit():
-                    partInfo = {}
-                    for i in range(len(partDet)):
-                        partInfo[partDet[i]] = data[current]
-                        current += 1
-                    parts.append(partInfo)
-
-                cids = {}
-
-                for part in parts:
                     try:
-                        p = Parts.objects.get(Name = part['Name'])
-                    except Parts.DoesNotExist:
-                        p = Parts.objects.create(
-                                Name = part['Name'],
-                                Type = part['Type'])
-                    cp = CircuitParts.objects.create(
-                            Part = p,
-                            Circuit = circuit,
-                            X = part['positionx'],
-                            Y = part.get('positiony', 0))
-                    cids[part['ID']] = cp
+                        teamID = int(sheet.cell(1, 0).value)
+                    except:
+                        print(sheet.name)
+                    teamName = sheet.cell(1, 1).value
 
-                # device info
-                current = data.index('devices') + 3
-                devices = []
-                while data[current].isdigit():
-                    devices.append({
-                            'id': data[current],
-                            'parts': data[current + 1]
-                        })
-                    current += 2
+                    try:
+                        team = Works.objects.get(TeamID = teamID)
+                    except Works.DoesNotExist:
+                        team = Works.objects.create(
+                                TeamID = teamID,
+                                Teamname = teamName)
 
-                for device in devices:
-                    cd = CircuitDevices.objects.create(
-                            Circuit = circuit)
-                    map(lambda x: cd.Subparts.add(cids(x)), device['parts'])
-                    cd.save()
+                    try:
+                        circuit = Circuit.objects.create(Name = teamName + str(teamID), Description = "")
+                    except:
+                        continue
+                    team.Circuit = circuit
+                    team.save()
 
-                # relation ship
-                current = data.index('promotion') + 1
-                promotions = []
-                while data[current].isdigit():
-                    promotions.append([data[current], data[current + 1]])
-                    current += 2
+                    cids = {}                    
+                    for i in range(0, sheet.nrows):
+                        if 'b' in name:
+                            if sheet.cell(i, 0).value == 'parts and others':
+                                row = i + 2
+                                while isinstance(sheet.cell(row, 0).value, float):
+                                    try:
+                                        p = Parts.objects.get(Name = sheet.cell(row, 1).value)
+                                    except:
+                                        p = Parts.objects.create(
+                                                Name = sheet.cell(row, 1).value,
+                                                Type = sheet.cell(row, 2).value)
+                                    try:
+                                        cp = CircuitParts.objects.create(
+                                                Part = p,
+                                                Circuit = circuit,
+                                                X = sheet.cell(row, 4).value,
+                                                Y = sheet.cell(row, 5).value)
+                                    except:
+                                        traceback.print_exc()
+                                        print(name)
+                                        print(sheet.name)
+                                    cids[int(sheet.cell(row, 0).value)] = cp
+                                    
+                                    row += 1
+                        else:
+                            if sheet.cell(i, 0).value == 'parts and other':
+                                
+                                row = i + 2
 
-                map(lambda x: CircuitLines.objects.create(
-                    Start = cids[x[0]],
-                    End = cids[x[1]],
-                    Type = 'promotion'), promotions)
+                                while isinstance(sheet.cell(row, 0).value, float):
+                                    try:
+                                        p = Parts.objects.get(Name = sheet.cell(row, 1).value)
+                                    except:
+                                        p = Parts.objects.create(
+                                                Name = sheet.cell(row, 1).value,
+                                                Type = sheet.cell(row, 2).value)
+                                    try:
+                                        cp = CircuitParts.objects.create(
+                                                Part = p,
+                                                Circuit = circuit,
+                                                X = sheet.cell(row, 5).value,
+                                                Y = 0 if sheet.cell(row, 6).value == "" else sheet.cell(row, 6).value)
+                                    except:
+                                        traceback.print_exc()
+                                        print(name)
+                                        print(sheet.name)
+                                    cids[int(sheet.cell(row, 0).value)] = cp
 
-                current = data.index('inhibition') + 1
-                inhibitions = []
-                while data[current].isdigit():
-                    inhibitions.append([data[current], data[current + 1]])
-                    current += 2
+                                    row += 1
 
-                map(lambda x: CircuitLines.objects.create(
-                    Start = cids[x[0]],
-                    End = cids[x[1]],
-                    Type = 'inhibition'), inhibitions)
+                        if sheet.cell(i, 0).value == 'devices':
+                            row = i + 2
+                            while isinstance(sheet.cell(row, 0).value, float):
+                                cd = CircuitDevices.objects.create(
+                                        Circuit = circuit)
+                                s = sheet.cell(row, 1).value.split(',')
+                                map(lambda x: cd.Subparts.add(cids[int(x)]), s)
+                                cd.save()
+                                row += 1
+                        if sheet.cell(i, 0).value == "promotion":
+                            row = i + 1
+                            while isinstance(sheet.cell(row, 0).value, float):
+                                try:
+                                    s = int(sheet.cell(row, 0).value)
+                                    e = sheet.cell(row, 1).value
+                                    if isinstance(e, float):
+                                        CircuitLines.objects.create(
+                                            Start = cids[s],
+                                            End = cids[int(e)],
+                                            Type = "promotion")
+                                    else:
+                                        e = e.split(',')
+                                        for x in e:
+                                            CircuitLines.objects.create(
+                                                Start = cids[s],
+                                                End = cids[int(x)],
+                                                Type = "promotion")
+
+                                except:
+                                    traceback.print_exc()
+                                    print(name)
+                                    print(sheet.name)
+                                row += 1
+                        if sheet.cell(i, 0).value == "inhibition":
+                            row = i + 1
+                            while isinstance(sheet.cell(row, 0).value, float):
+                                try:
+                                    s = int(sheet.cell(row, 0).value)
+                                    e = sheet.cell(row, 1).value
+                                    if isinstance(e, float):
+                                        CircuitLines.objects.create(
+                                            Start = cids[s],
+                                            End = cids[int(e)],
+                                            Type = "inhibition")
+                                    else:
+                                        e = e.split(',')
+                                        for x in e:
+                                            CircuitLines.objects.create(
+                                                Start = cids[s],
+                                                End = cids[int(x)],
+                                                Type = "inhibition")
+
+                                except:
+                                    traceback.print_exc()
+                                    print(name)
+                                    print(sheet.name)
+                                row += 1
 
 
             except UnicodeDecodeError:
+                pass
+            except IndexError:
                 pass
             except ValueError:
                 traceback.print_exc()
@@ -279,4 +320,4 @@ def load_circuits(circuits_floder_path):
 def pre_load_data(currentpath):
     #load_parts(os.path.join(currentpath, 'parts'))
     load_works(os.path.join(currentpath, 'works'))
-    #load_circuits(os.path.join(currentpath, 'works/circuits'))
+    load_circuits(os.path.join(currentpath, 'works/circuits'))
