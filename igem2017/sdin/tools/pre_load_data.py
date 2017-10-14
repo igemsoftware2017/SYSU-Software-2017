@@ -271,6 +271,8 @@ def load_circuits(circuits_floder_path):
             except ValueError:
                 traceback.print_exc()
                 print(name)
+                print(data)
+                print(parts)
             except:
                 traceback.print_exc()
                 print(name)
@@ -278,5 +280,5 @@ def load_circuits(circuits_floder_path):
 
 def pre_load_data(currentpath):
     #load_parts(os.path.join(currentpath, 'parts'))
-    load_works(os.path.join(currentpath, 'works'))
-    #load_circuits(os.path.join(currentpath, 'works/circuits'))
+    #load_works(os.path.join(currentpath, 'works'))
+    load_circuits(os.path.join(currentpath, 'works/circuits'))
