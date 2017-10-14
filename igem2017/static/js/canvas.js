@@ -277,12 +277,19 @@ $('#add-new-part')
         $('.ui.dimmer:first .loader')
             .text('Requesting server to add the new part, please wait...');
         $('.ui.dimmer:first').dimmer('show');
-        $.post('/api/part', JSON.stringify(data), () => {
-            $('.ui.dimmer:first .loader')
-                .text('Success, closing...');
+        $.post('/api/part', {
+            data: JSON.stringify(data),
+            csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+        }, (data) => {
+            if (data.success === true)
+                $('.ui.dimmer:first .loader')
+                    .text('Success, closing...');
+            else
+                $('.ui.dimmer:first .loader')
+                    .text('Failed, closing...');
             setTimeout(() => {
                 $('.ui.dimmer:first').dimmer('hide');
-            }, 500);
+            }, 1000);
         });
     });
 

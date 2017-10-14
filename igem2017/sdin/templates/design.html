@@ -6,6 +6,7 @@
   </head>
   <body>
     <input id="fileupload" type="file" name="files[]" hidden>
+    {% csrf_token %}
     <!-- Toolbar -->
     <div class="ui fixed menu">
       <div class="ui container">
