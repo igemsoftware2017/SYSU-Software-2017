@@ -100,6 +100,8 @@ def load_works(works_floder_path):
 
     works = []
     for root, dirs, files in os.walk(works_floder_path):
+        if "circuits" in root:
+            continue
         for name in files:
             if name == "Team_description.csv":
                 continue
@@ -127,11 +129,13 @@ def load_works(works_floder_path):
                             Name = row[12],
                             Use_parts = row[13],
                         ))
-                    except:
+                    except Exception as err1:
                         errors += 1
+                        print(err1)
                         pass
-            except:
+            except Exception as err2:
                 errors += 1
+                print(err2)
                 pass
     print('Saving...')
     atomic_save(works)
@@ -145,14 +149,16 @@ def load_works(works_floder_path):
     next(csv_reader)
     for row in csv_reader:
         try:
-            work = Works.objects.get(Teamname = row[0], Year = int(row[1]))
+            work = Works.objects.get(Teamname = row[0].strip(), Year = int(row[1]))
             work.SimpleDescription = row[2]
             work.Description = row[3]
             work.Keywords = row[4]
             work.Chassis = row[5]
             works.append(work)
-        except:
+        except Exception as err3:
             errors += 1
+            print(row[0],' ',row[1])
+            print(err3)
             pass
     print('Saving...')
     atomic_save(works)
@@ -271,6 +277,6 @@ def load_circuits(circuits_floder_path):
 
 
 def pre_load_data(currentpath):
-    load_parts(os.path.join(currentpath, 'parts'))
+    #load_parts(os.path.join(currentpath, 'parts'))
     load_works(os.path.join(currentpath, 'works'))
-    load_circuits(os.path.join(currentpath, 'works/circuits'))
+    #load_circuits(os.path.join(currentpath, 'works/circuits'))
