@@ -77,7 +77,7 @@ function stickPartPanel() {
         .draggable('option', 'snapTolerance', 100)
         .draggable('option', 'axis', 'x')
         .on('drag', function(event, ui) {
-            if (ui === undefined || $(this) != win.children('.nav'))
+            if (ui === undefined)
                 return;
             if (ui.position.left < ui.originalPosition.left - 100) {
                 if (partPanelStickedToRight)
@@ -123,7 +123,7 @@ function unstickPartPanel() {
         .draggable('option', 'snap', 'false')
         .draggable('option', 'snapTolerance', 0)
         .draggable('option', 'axis', 'false')
-        .on('drag', () => {})
+        .off('drag')
         .resizable('option', 'handles', 'w, s, sw');
     win.css({
         transition: 'all 0.1s ease'

@@ -281,17 +281,15 @@ $('#add-new-part')
             data: JSON.stringify(data),
             csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
         }, (data) => {
-            console.log(data);
-            if (data.success === true) {
+            if (data.success === true)
                 $('.ui.dimmer:first .loader')
                     .text('Success, closing...');
-            } else {
+            else
                 $('.ui.dimmer:first .loader')
                     .text('Failed, closing...');
-            }
             setTimeout(() => {
                 $('.ui.dimmer:first').dimmer('hide');
-            }, 500);
+            }, 1000);
         });
     });
 

@@ -108,7 +108,7 @@ body {
 }
 #detail-container>.description>.content {
   overflow-y: auto;
-  max-height: 100px;
+  max-height: 159px;
 }
 #detail-container>.images {
   height: 80px;
