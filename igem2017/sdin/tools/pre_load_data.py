@@ -252,7 +252,10 @@ def load_circuits(circuits_floder_path):
                                 cd = CircuitDevices.objects.create(
                                         Circuit = circuit)
                                 s = sheet.cell(row, 1).value.split(',')
-                                map(lambda x: cd.Subparts.add(cids[int(x)]), s)
+                                try:
+                                    map(lambda x: cd.Subparts.add(cids[int(x)]), s)
+                                except:
+                                    pass
                                 cd.save()
                                 row += 1
                         if sheet.cell(i, 0).value == "promotion":

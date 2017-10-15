@@ -12,6 +12,8 @@ from django.contrib.auth import authenticate, login, logout
 
 from django.contrib.auth.decorators import login_required
 
+from django.http import JsonResponse
+
 Err = "Something wrong!"
 Inv = "Invalid form!"
 
@@ -70,3 +72,50 @@ def register(request):
 
     return render(request, 'register.html')
 
+def work(request):
+    try:
+        wk = Works.objects.get(TeamID = request.GET.get('id'))
+        use_parts = wk.Use_parts.split(';')
+        part = []
+        for item in use_parts:
+            try:
+                pt = Parts.objects.get(Name = item)
+                if request.user.is_authenticated:
+                    try:
+                        FavoriteParts.objects.get(user = request.user, part = pt)
+                        part.append({
+                            'BBa': item,
+                            'name': item,
+                            'isFavourite': True})
+                    except FavoriteParts.DoesNotExist:
+                        part.append({
+                            'BBa': item,
+                            'name': item,
+                            'isFavourite' False})
+
+            except Parts.DoesNotExist:
+                part.append({
+                    'BBa': item,
+                    'name': item,
+                    'isFavourite' False})
+        try:
+            UserFavorite.objects.get(user = request.user, circuit = wk.Circuit)
+            favorite = True
+        except UserFavorite.DoesNotExist:
+            favorite = False
+
+        return JsonResponse({
+            'projectName': wk.Name,
+            'year': wk.Year,
+            'readCount': wk.ReadCount,
+            'medal': wk.Medal,
+            'rewards': wk.Award,
+            'description': wk.Description,
+            'isFavourite': favorite,
+            'images': '???',
+            'designId': '???',
+            'part': part})
+
+    except Works.DoesNotExist:
+        return JsonResponse({
+            'status': 0})

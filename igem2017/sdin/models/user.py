@@ -65,6 +65,7 @@ class Works(models.Model):
     Chassis = models.CharField(max_length = 100, default = "None")
     IEF = models.FloatField(default=0.0)
     Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE, null = True)
+    ReadCount = models.IntegerField(defalut = 0)
 
 
     def __str__(self):
@@ -77,3 +78,6 @@ class UserFavorite(models.Model):
     def __str__(self):
         return "%s - %s" % self.user.name, self.circuit.Name
 
+class FavoriteParts(models.Model):
+    user = models.ForeignKey('User', on_delete = models.CASCADE)
+    part = models.ForeignKey('Parts', on_delete = models.CASCADE)
