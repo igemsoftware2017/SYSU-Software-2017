@@ -1,0 +1,275 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_I712015,HIV-1 protease cleavage site,42,1,Yunxiao:4,Not Released,,In stock,Works,13 Uses,iGEM07_Ljubljana,Katja Kolar,2007-10-21,,Tag.csv
+BBa_I712016,myristoilation signal sequence fused to Tobacco Etch Virus (TEV) protease cleavage site,57,1,,Not Released,,In stock,Works,5 Uses,iGEM07_Ljubljana,Katja Kolar,2007-10-23,,Tag.csv
+BBa_I712026,myristoilation signal sequence; anchors protein to membrane,21,1,,Not Released,,In stock,Works,8 Uses,iGEM07_Ljubljana,Katja Kolar,2007-10-23,,Tag.csv
+BBa_J176008,NLS,21,,,Released HQ 2013,BBa_J63008,In stock,Works,Experience: Works,Haynes_Lab,Karmella Haynes,2011-09-29,,Tag.csv
+BBa_J63008,SV40 nuclear localization sequence from SV40; yeast codon optimized,21,1,,Released HQ 2013,BBa_J176008,In stock,Works,1 Registry Star,Silver Lab,Caroline Ajo-Franklin,2006-10-11,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Tag.csv
+BBa_K103006,OmpA outer membrane protein A fused to linker; displays proteins on cell surface,464,1,,Not Released,BBa_K877001;BBa_K1489002,In stock,Works,24 Uses,iGEM08_Warsaw,Michael Lower,2008-09-14,,Tag.csv
+BBa_K823034,3x FLAG tag (Freiburg standard+RBS),66,,,Not Released,,In stock,Works,Not Used,iGEM12_LMU-Munich,Jara Radeck,2012-09-07,,Tag.csv
+BBa_K823035,HA-tag (Freiburg standard+RBS),27,,,Not Released,,In stock,Works,Not Used,iGEM12_LMU-Munich,Jara Radeck,2012-09-07,,Tag.csv
+BBa_K823036,cMyc-tag (Freiburg standard+RBS),30,,,Not Released,,In stock,Works,Not Used,iGEM12_LMU-Munich,Jara Radeck,2012-09-07,,Tag.csv
+BBa_K823037,10x His-tag (Freiburg standard+RBS),30,,,Not Released,,In stock,Works,Not Used,iGEM12_LMU-Munich,Jara Radeck,2012-09-08,,Tag.csv
+BBa_K844000,10x-Histidine (10x-His) Tag with double stop codon (TAATAA),36,,2012 Utah_State iGEM Team:5,Released HQ 2013,,In stock,Works,Experience: Works,iGEM12_Utah_State,Kathleen Miller,2012-10-02,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Tag.csv
+BBa_I712009,CD4 signal peptide; localizes to plasma membrane,75,1,,Not Released,,In stock,None,16 Uses,iGEM07_Ljubljana,Peter Cimermancic,2007-10-22,,Tag.csv
+BBa_J32015,PelB leader sequence; directs protein to E. coli periplasmic membrane,66,1,,Released HQ 2013,BBa_K112228;BBa_K208004;BBa_K1149023;BBa_K2013000,In stock,None,1 Registry Star,iGEM2006_Duke,Austen Heinz,2006-08-25,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Tag.csv
+BBa_K1028000,Silica binding peptide,51,,,Not Released,,In stock,None,1 Uses,iGEM13_Leeds,"Oleg Karpov, Joseph Beton",2013-08-30,,Tag.csv
+BBa_K105012,10 aa flexible protein domain linker ,30,1,UNIPV-Pavia:3,Not Released,BBa_K648006,In stock,None,26 Uses,iGEM08_ESBS-Strasbourg,"Manuel Gersbacher, Katja Karstens",2008-10-19,,Tag.csv
+BBa_K105013,cin8 - cell cycle specific degradation tag in yeast,228,1,,Not Released,,In stock,None,Not Used,iGEM08_ESBS-Strasbourg,Robin Sorg,2008-10-19,,Tag.csv
+BBa_K1125001,Tandem Affinity Purification (TAP) tag,555,,,Not Released,,In stock,,Not Used,iGEM13_NTU_Taiwan,"Tsung-Yu, Lu",2013-09-16,,Tag.csv
+BBa_K1149023,pelB2,66,,,Not Released,BBa_J32015;BBa_K112228;BBa_K208004;BBa_K2013000,In stock,None,Experience: None,iGEM13_Imperial_College,Margarita Kopniczky,2013-09-13,,Tag.csv
+BBa_K1150016,HA tag,27,,,Not Released,,In stock,None,26 Uses,iGEM13_Freiburg,Freiburg 2013,2013-09-16,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Tag.csv
+BBa_K1188001,Freiburg amilCP Color Tag,678,,,Not Released,,In stock,None,Experience: None,iGEM13_CU-Boulder,"Phil Jensen, Bill Heymann",2013-08-23,,Tag.csv
+BBa_K1188002,RTX - Calcium Binding Protein,231,,,Not Released,,In stock,None,Experience: None,iGEM13_CU-Boulder,Jean-Francois Lalonde,2013-08-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Tag.csv
+BBa_K1189010,Kcoil,63,,,Not Released,BBa_K1189027,In stock,None,Experience: None,iGEM13_Calgary,Somshukla Chaudhuri,2013-09-17,,Tag.csv
+BBa_K1189011,E coil,63,,,Not Released,,In stock,None,Experience: None,iGEM13_Calgary,Somshukla Chaudhuri,2013-09-17,,Tag.csv
+BBa_K1189027,K coil,63,,,Not Released,BBa_K1189010,In stock,None,Experience: None,iGEM13_Calgary,Somshukla Chaudhuri,2013-09-17,,Tag.csv
+BBa_K125300,pilA1 signal sequence from cyanobacterium Synechocystis; secretes protein,62,1,,Not Released,,In stock,None,Not Used,iGEM08_Hawaii,Krystle Salazar and Grace Kwan,2008-07-25,,Tag.csv
+BBa_K125310,slr2016 signal sequence from cyanobacterium Synechocystis; secretes protein,53,,,Not Released,,In stock,None,4 Uses,iGEM08_Hawaii,Krystle Salazar and Grace Kwan,2008-07-25,,Tag.csv
+BBa_K128000,FLAG affinity tag,25,1,,Not Released,,In stock,None,Not Used,iGEM08_MIT,Sara Mouradian,2008-07-10,,Tag.csv
+BBa_K128001,HA affinity tag,27,1,,Not Released,,In stock,None,Not Used,iGEM08_MIT,Sara Mouradian,2008-07-10,,Tag.csv
+BBa_K128002,TEV tobacco etch virus protease cleavage site,21,1,,Not Released,BBa_K1362453,In stock,None,Not Used,iGEM08_MIT,Sara Mouradian,2008-07-10,,Tag.csv
+BBa_K133035,Methionine-His affinity tag ,21,1,,Not Released,,In stock,None,3 Uses,iGEM08_Slovenia,Jerneja Mori,2008-10-26,,Tag.csv
+BBa_K1362057,NLS as RFC[105] N-terminal insert,60,,,Not Released,,In stock,None,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena Büscher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Schäfer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Tag.csv
+BBa_K1362058,PelB leading sequence as RFC[105] N-terminal insert,102,,,Not Released,,In stock,None,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena Büscher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Schäfer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Tag.csv
+BBa_K1362059,PKI-NES as RFC[105] N-terminal insert,69,,,Not Released,,In stock,None,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena Büscher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Schäfer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Tag.csv
+BBa_K1371016,Docking domain 1 pre,157,,,Not Released,,In stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1371018,Docking domain 2 pre,166,,,Not Released,,In stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1371020,Docking domain 3 pre,163,,,Not Released,,In stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1371021,Docking domain 3 suf,108,,,Not Released,,In stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1371023,Docking domain 4 suf,117,,,Not Released,,In stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1371024,Docking domain 5 pre,160,,,Not Released,,In stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1371025,Docking domain 5 suf,111,,,Not Released,,In stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1371026,Docking domain 6 pre,181,,,Not Released,,In stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1371027,Docking domain 6 suf,96,,,Not Released,,In stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1381018,B0034-USP45-(GS)x5,138,,,Not Released,,In stock,None,1 Uses,iGEM14_Uppsala,"Alexander Wirtanen, Niklas Handin, Marcus Hong and Jonas Mattisson",2014-10-03,,Tag.csv
+BBa_K1447007,HIS-TEV,32,,,Not Released,BBa_K525998,In stock,None,Not Used,iGEM14_Linkoping_Sweden,"Sofie Cassman Eklöf, Patricia Gullberg",2014-10-07,,Tag.csv
+BBa_K1465230,T7-RBS Intein-tag,815,,,Not Released,,In stock,None,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-06,,Tag.csv
+BBa_K208004,PelB Signal Peptide - Silver Fusion Compatible,66,,,Released HQ 2013,BBa_J32015;BBa_K112228;BBa_K1149023;BBa_K2013000,In stock,None,Experience: None,iGEM09_Utah_State,USU iGEM 2009,2009-10-12,,Tag.csv
+BBa_K208006,HlyA Signal Peptide - Silver Fusion Compatible,186,,,Released HQ 2013,BBa_K554002,In stock,None,Experience: None,iGEM09_Utah_State,USU iGEM 2009,2009-10-12,,Tag.csv
+BBa_K331008,Outer Membrane Protein OmpA,63,,,Not Released,,In stock,None,1 Uses,iGEM10_Lethbridge,Lisza Bruder,2010-06-28,,Tag.csv
+BBa_K823038,Strep-tag (Freiburg standard+RBS),24,,,Not Released,,In stock,Issues,Not Used,iGEM12_LMU-Munich,Jara Radeck,2012-09-08,,Tag.csv
+BBa_K880004,LVA Tag in RFC25,39,,,Not Released,,In stock,None,Not Used,iGEM12_Michigan,"Josh Atkinson, Mike Ferguson, and Ben Parker",2012-09-29,,Tag.csv
+BBa_I11012,AAV degradation tag,33,,Antiquity:0;Edinburgh IGEM 2014:4,Not Released,BBa_M0044,Not in stock,None,Not Used,Antiquity,BU,2004-09-03,,Tag.csv
+BBa_I712007,c-Myc affinity tag,30,,,Not Released,,It's complicated,Works,4 Uses,iGEM07_Ljubljana,Anja Koren&#269;i&#269;,2007-10-20,,Tag.csv
+BBa_I712008,HA affinity tag,30,,,Not Released,,It's complicated,Works,9 Uses,iGEM07_Ljubljana,Anja Koren&#269;i&#269;,2007-10-20,,Tag.csv
+BBa_I757013,His affinity tag,36,,,Not Released,,Not in stock,None,Not Used,iGEM07_Freiburg,Freiburg iGEM 2007 team,2007-10-24,,Tag.csv
+BBa_J133550,Protein Linker SSGSSG Library,18,,,Not Released,BBa_K125550,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133551,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133552,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133553,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133554,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133555,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133556,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133557,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133558,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133559,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133560,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133561,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133574,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133575,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133576,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J133577,Protein Linker SSGSSG Library,18,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-12-03,,Tag.csv
+BBa_J176009,polyA2,225,,,Not Released,,Not in stock,Works,8 Uses,Haynes_Lab,Karmella Haynes,2011-09-29,,Tag.csv
+BBa_J176018,PEST,534,,,Not Released,,It's complicated,None,19 Uses,Haynes_Lab,Karmella Haynes,2011-09-29,Spring 2017 Distribution;Spring 2016 Distribution,Tag.csv
+BBa_J176031,NLS myc stop,64,,,Not Released,,Not in stock,Works,16 Uses,Haynes_Lab,Brady Laughlin,2011-09-29,,Tag.csv
+BBa_J176042,polyA,468,,,Not Released,,Not in stock,None,6 Uses,Haynes_Lab,Karmella Haynes,2011-10-07,,Tag.csv
+BBa_J18909,His tag (6xHis; E. coli - optimized),18,,,Not Released,BBa_K157011;BBa_J96037;BBa_K1362469,It's complicated,None,29 Uses,Affiliates,Raik Gruenberg,2010-01-15,,Tag.csv
+BBa_J18914,1xFlag tag,24,,,Not Released,BBa_J96035,It's complicated,None,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Tag.csv
+BBa_J18915,3xFlag tag,72,,,Not Released,,It's complicated,None,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Tag.csv
+BBa_J18916,Strep tag II,24,,,Not Released,BBa_J96038,It's complicated,None,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Tag.csv
+BBa_J18917,GST tag (E. coli),687,,,Not Released,,It's complicated,None,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Tag.csv
+BBa_J32017,S-Tag,46,,,Not Released,,It's complicated,None,2 Uses,iGEM2006_Duke,Austen Heinz,2006-08-25,,Tag.csv
+BBa_J540013,"Prefix_SalI, BamHI(TokyoStanderd)",20,,,Not Released,BBa_J54013,Not in stock,,Not Used,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-15,,Tag.csv
+BBa_J54013,"Prefix_SalI, BamHI(TokyoStanderd)",20,,,Not Released,BBa_J540013,Not in stock,,2 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-15,,Tag.csv
+BBa_J54014,"Surrfix_BglII,MluI(TokyoStanderd)",20,,,Not Released,,Not in stock,,2 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-15,,Tag.csv
+BBa_J54021,PrefixI_SalI,22,,,Not Released,,Not in stock,,3 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-15,,Tag.csv
+BBa_J54022,"SuffixII_BglII,MluI",43,,,Not Released,,Not in stock,,1 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-15,,Tag.csv
+BBa_J54023,PrefixI_SalI,5,,,Not Released,,Not in stock,,12 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-16,,Tag.csv
+BBa_J54024,"SuffixI_BglII,MluI", ,,,Not Released,,No part sequence,,No Sequence,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-16,,Tag.csv
+BBa_J54025,"SuffixI_BglII,MluI",19,,,Not Released,,Not in stock,,9 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-16,,Tag.csv
+BBa_J54031,"PrefixII_SalI,BamHI",36,,,Not Released,,Not in stock,,Not Used,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-15,,Tag.csv
+BBa_J54032,SuffixII_MluI,29,,,Not Released,,Not in stock,,2 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-15,,Tag.csv
+BBa_J54033,"PrefixII_SalI,BamHI",19,,,Not Released,,Not in stock,,8 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-16,,Tag.csv
+BBa_J54034,SuffixII_MluI,5,,,Not Released,,Not in stock,,11 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-16,,Tag.csv
+BBa_J54100,Prefix-Suffix(deltaP),87,,,Not Released,,Not in stock,,1 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-15,,Tag.csv
+BBa_J63007,PKI nuclear export sequence; yeast codon optimized,30,,,Not Released,,It's complicated,Works,2 Uses,Silver Lab,Caroline Ajo-Franklin,2006-10-11,,Tag.csv
+BBa_J64005,3x FLAG affinity tag,81,,,Not Released,,Not in stock,Works,3 Uses,Voigt Lab,Dan Widmaier,2008-01-15,,Tag.csv
+BBa_J64008,SicP-SptP chaperone-secretion tag pair from Salmonella type III secretion system,880,,,Not Released,,Not in stock,Works,1 Uses,Voigt Lab,Dan Widmaier,2008-01-15,,Tag.csv
+BBa_J70042,6his part for use with BioScaffold parts ATG-6his-GGATCC (glycine serine),27,,,Not Released,,Not in stock,None,9 Uses,Knight Lab,Julie Norville,2009-01-22,,Tag.csv
+BBa_J70044,6his part for use with BioScaffold parts (G)GATCC(glycine serine)-6his-TAA,26,,,Not Released,,Not in stock,,7 Uses,Knight Lab,Julie Norville,2009-01-22,,Tag.csv
+BBa_J70046,6his part for use with BioScaffold parts ATG-6 his-GATCC(glycine serine)-TAA,30,,,Not Released,,Not in stock,,2 Uses,Knight Lab,Julie Norville,2009-01-22,,Tag.csv
+BBa_J70048,6his part for use with BioScaffold parts ATG-GGATCC (glycine serine)-6 His-TAA,30,,,Not Released,,Not in stock,None,6 Uses,Knight Lab,Julie Norville,2009-02-05,,Tag.csv
+BBa_J70609,RFC12 7x His Tag Head Domain,27,,,Not Released,BBa_T2001,Not in stock,None,2 Uses,Knight Lab,Joseph Lynch,2010-07-16,,Tag.csv
+BBa_J70620,RFC12 Maltose Binding Protein Internal Domain [malE] ,1140,,,Not Released,,Not in stock,,Not Used,Knight Lab,Joseph Lynch,2010-08-05,,Tag.csv
+BBa_J70621,RFC12 7x His Tag Tail Domain,27,,,Not Released,BBa_T2000,Not in stock,,Not Used,Knight Lab,Joseph Lynch,2010-08-08,,Tag.csv
+BBa_J70622,RFC12 cMyc Tag Head Domain,36,,,Not Released,BBa_T2007,Not in stock,,Not Used,Knight Lab,Joseph Lynch,2010-08-08,,Tag.csv
+BBa_J70623,RFC12 cMyc Tag Tail Domain,36,,,Not Released,BBa_T2006,Not in stock,,Not Used,Knight Lab,Joseph Lynch,2010-08-08,,Tag.csv
+BBa_J70624,RFC12 FLAG Tag Head Domain,30,,,Not Released,BBa_T2004,Not in stock,,Not Used,Knight Lab,Joseph Lynch,2010-08-08,,Tag.csv
+BBa_J70627,RFC12 Internal Chitin Binding Domain,156,,,Not Released,,Not in stock,None,1 Uses,Knight Lab,Joseph Lynch,2010-08-11,,Tag.csv
+BBa_J70628,RFC12 Sce VMA Intein Internal Domain,1362,,,Not Released,,Not in stock,,1 Uses,Knight Lab,Joseph Lynch,2010-08-11,,Tag.csv
+BBa_J70629,RFC12 Intein + Chitin Binding Protein Tail Domain ,1526,,,Not Released,,Not in stock,,Not Used,Knight Lab,Joseph Lynch,2010-08-11,,Tag.csv
+BBa_J85600,attB1 recombination site,22,,,Not Released,,Not in stock,None,75 Uses,Weiss Lab,Ron Weiss,2011-09-06,,Tag.csv
+BBa_J85601,scar1, ,,,Not Released,,No part sequence,,No Sequence,Weiss Lab,Ron Weiss,2011-09-06,,Tag.csv
+BBa_K1033239,Signal peptide from Lactobacillus reuteri collagen binding protein,99,,,Not Released,,Not in stock,,Not Used,iGEM13_Uppsala,Anton Berglund,2013-08-23,,Tag.csv
+BBa_K1033240,Signal peptide from Lactobacillus reuteri cell surface protein,168,,,Not Released,,Not in stock,,Not Used,iGEM13_Uppsala,Anton Berglund,2013-08-23,,Tag.csv
+BBa_K1033241,Signal peptide from Lactococcus lactis usp45, ,,,Not Released,,No part sequence,,No Sequence,iGEM13_Uppsala,Anton Berglund,2013-08-23,,Tag.csv
+BBa_K105014,cln2 PEST destabilization domain for rapid protein turnover,537,,,Not Released,BBa_K194000;BBa_K1051203,It's complicated,None,Not Used,iGEM08_ESBS-Strasbourg,Robin Sorg,2008-10-19,,Tag.csv
+BBa_K105015,hsl1 - cell cycle dependent degradation tag in yeast,618,1,,Not Released,,It's complicated,None,4 Uses,iGEM08_ESBS-Strasbourg,Robin Sorg,2008-10-22,,Tag.csv
+BBa_K1051206,"The degradation tag in E. coil ,M0050 with TAATAA.",39,,iGEM14_Edinburgh:4,Not Released,,Not in stock,,2 Uses,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-25,,Tag.csv
+BBa_K1051207,"The degradation tag in E. coil ,M0051 with TAATAA.",45,,iGEM14_Edinburgh:4,Not Released,,Not in stock,,2 Uses,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-25,,Tag.csv
+BBa_K1051208,"The degradation tag in E. coil ,M0052 with TAATAA.",39,,iGEM14_Edinburgh:4,Not Released,,Not in stock,,5 Uses,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-25,,Tag.csv
+BBa_K1072008,Flag tag,27,,,Not Released,,Not in stock,Works,3 Uses,iGEM13_SCUT,"Junqi kuang, Xihao liao and Jianhui gong",2013-09-07,,Tag.csv
+BBa_K1075020,E. coli ssrA(DAS+4) ,51,,,Not Released,,Not in stock,None,5 Uses,iGEM13_Bonn,Max Schelski,2013-09-23,,Tag.csv
+BBa_K1088025,3xFLAG,66,,,Not Released,,Not in stock,None,1 Uses,iGEM13_SDU-Denmark,Andreas Kjær,2013-09-18,,Tag.csv
+BBa_K112502,< myc > in BBb,30,,,Not Released,BBa_M10045,It's complicated,None,Not Used,iGEM08_UC_Berkeley,Sherine Cheung,2008-10-22,,Tag.csv
+BBa_K112503,< myc ! in BBb,33,,,Not Released,,It's complicated,None,1 Uses,iGEM08_UC_Berkeley,Sherine Cheung,2008-10-22,,Tag.csv
+BBa_K112506,< HA > in BBb,30,,,Not Released,,It's complicated,None,Not Used,iGEM08_UC_Berkeley,Sherine Cheung,2008-10-22,,Tag.csv
+BBa_K112507,< HA ! in BBb,33,,,Not Released,,It's complicated,None,1 Uses,iGEM08_UC_Berkeley,Sherine Cheung,2008-10-22,,Tag.csv
+BBa_K112600, {< AP tag >} in BBb ,45,,,Not Released,,It's complicated,None,Not Used,iGEM08_UC_Berkeley,Sherine Cheung,2008-09-03,,Tag.csv
+BBa_K112601,< AP tag ! in BBb,48,,,Not Released,,It's complicated,None,1 Uses,iGEM08_UC_Berkeley,Sherine Cheung,2008-09-03,,Tag.csv
+BBa_K112602,< FLAG tag > in BBb,24,,,Not Released,BBa_M10019;BBa_K330000,It's complicated,None,Not Used,iGEM08_UC_Berkeley,Sherine Cheung,2008-09-03,,Tag.csv
+BBa_K112603,< FLAG tag ! in BBb,27,,,Not Released,,It's complicated,None,1 Uses,iGEM08_UC_Berkeley,Sherine Cheung,2008-09-03,,Tag.csv
+BBa_K112703,His affinity tag,21,,,Not Released,,Not in stock,None,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,Tag.csv
+BBa_K112705,S affinity tag,48,,,Not Released,,Not in stock,None,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,Tag.csv
+BBa_K1149022,pelB (E.coli optimized),66,,,Not Released,,Not in stock,None,6 Uses,iGEM13_Imperial_College,Margarita Kopniczky,2013-09-10,,Tag.csv
+BBa_K1159312,,39,,,Not Released,,Not in stock,None,Not Used,iGEM13_TU-Munich,TU Munich 2013,2013-09-17,,Tag.csv
+BBa_K1159313,,42,,,Not Released,,Not in stock,,Not Used,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-17,,Tag.csv
+BBa_K1162009,10x-Histidine (10x-His) Tag with Met (ATG) For N-terminal purification,33,,,Not Released,,It's complicated,Works,2 Uses,iGEM13_Utah_State,Kathleen Miller,2013-09-15,,Tag.csv
+BBa_K1188003,FMN-binding protein,381,,,Not Released,,It's complicated,None,Not Used,iGEM13_CU-Boulder,William Heymann,2013-09-05,,Tag.csv
+BBa_K1188004,ELP Tag,318,,,Not Released,,It's complicated,None,Not Used,iGEM13_CU-Boulder,Elijah Lovelace,2013-09-17,,Tag.csv
+BBa_K1189026,Linker,48,,,Not Released,,Not in stock,,Not Used,iGEM13_Calgary,Himika Dastidar,2013-09-17,,Tag.csv
+BBa_K1223006,His-Tag,27,,,Not Released,,It's complicated,Works,1 Uses,iGEM13_BGU_Israel,Orr Schlesinger,2013-09-07,,Tag.csv
+BBa_K125550,Protein Linker SSGSSG Library,18,,,Not Released,BBa_J133550,Not in stock,None,Not Used,iGEM08_Hawaii,Norman Wang,2011-12-03,,Tag.csv
+BBa_K128004,signal sequence from Lactobacillus bulgaricus; secretes protein,143,1,,Not Released,,It's complicated,None,Not Used,iGEM08_MIT,Sara Mouradian,2008-07-18,,Tag.csv
+BBa_K128005,His affinity tag,18,1,,Not Released,,It's complicated,None,1 Uses,iGEM08_MIT,Prarthna Desai,2008-10-25,,Tag.csv
+BBa_K1319007,6xHis tag with double stop codon,24,,,Not Released,,Not in stock,,Not Used,iGEM14_Aachen,Michael Osthege,2014-09-25,,Tag.csv
+BBa_K133036,RGD-His affinity tag-Stop,30,,,Not Released,,It's complicated,None,34 Uses,iGEM08_Slovenia,Jerneja Mori,2008-10-26,,Tag.csv
+BBa_K133132,8 aa protein domain linker,24,,,Not Released,,It's complicated,None,14 Uses,iGEM08_Slovenia,Jan Lonzaric,2008-10-24,,Tag.csv
+BBa_K133133,His affinity tag-stop,21,,,Not Released,,It's complicated,Works,13 Uses,iGEM08_Slovenia,Katja Kolar,2008-10-23,,Tag.csv
+BBa_K1362255,MinD MTS tag,72,,,Not Released,,Not in stock,None,1 Uses,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,,Tag.csv
+BBa_K1362256,Myristoilation signal sequence, ,,,Not Released,,No part sequence,None,No Sequence,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,,Tag.csv
+BBa_K1362428,FLAG tag,24,,,Not Released,,Not in stock,None,1 Uses,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,,Tag.csv
+BBa_K1362430,C-terminal His6 (N-Intein),24,,,Not Released,BBa_K1362300,Not in stock,None,10 Uses,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-05,,Tag.csv
+BBa_K1362431,N-terminal His6 (C-Intein),21,,,Not Released,,Not in stock,None,9 Uses,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,,Tag.csv
+BBa_K1362442,His6 tag with spacers,30,,,Not Released,,Not in stock,None,1 Uses,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,,Tag.csv
+BBa_K1362457,Hexahistidine tag,18,,,Not Released,BBa_M0021;BBa_K1904006;BBa_K1929202,Not in stock,None,2 Uses,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,,Tag.csv
+BBa_K1362458,Hexahistidine tag,18,,,Not Released,,Not in stock,None,3 Uses,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,,Tag.csv
+BBa_K1362468,hexahistidine-tag,18,,,Not Released,,Not in stock,,2 Uses,iGEM14_Heidelberg,Jakob Kreft,2014-10-09,,Tag.csv
+BBa_K1362469,hexahistidine-tag,18,,,Not Released,BBa_K157011;BBa_J18909;BBa_J96037,It's complicated,,Not Used,iGEM14_Heidelberg,Jakob Kreft,2014-10-09,,Tag.csv
+BBa_K1362900,N-terminal tripleSWAGtag (N-intein),42,,,Not Released,,Not in stock,None,Not Used,iGEM14_Heidelberg,Jakob Kreft,2014-10-08,,Tag.csv
+BBa_K1362901,C-terminal tripleSWAGtag (C-intein),42,,,Not Released,,Not in stock,,Not Used,iGEM14_Heidelberg,Jakob Kreft,2014-10-08,,Tag.csv
+BBa_K1362999,iGEMHD tag,26,,,Not Released,,Not in stock,None,9 Uses,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,,Tag.csv
+BBa_K1371017,Docking domain 1 suf,132,,,Not Released,,It's complicated,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1371019,Docking domain 2 suf,117,,,Not Released,,Not in stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1371022,Docking domain 4 pre,181,,,Not Released,,Not in stock,None,Not Used,iGEM14_SCUT-China,Qifeng Tan,2014-10-07,,Tag.csv
+BBa_K1381024,B0034-PgsA-(EAAAR)x4,1227,,,Not Released,,It's complicated,None,Not Used,iGEM14_Uppsala,"Viktor Blomkvist, Tim Hagelby Edstrom, Laura Pacoste and Tersea Reinli",2014-10-07,,Tag.csv
+BBa_K1448009,GST-tag,750,,,Not Released,,Not in stock,,Not Used,iGEM14_KIT-Kyoto,yuma kobayashi,2014-10-16,,Tag.csv
+BBa_K145012,N-terminal UmuD-derived degradation tag,87,,,Not Released,,Not in stock,None,Not Used,iGEM08_KULeuven,Benjamien Moeyaert,2008-07-24,,Tag.csv
+BBa_K1484104,N7 nuclear localisation tag,262,,,Not Released,,Not in stock,,Not Used,iGEM14_Cambridge-JIC,Salil Bhate,2014-10-08,,Tag.csv
+BBa_K1484105,Localisation tag linker, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_Cambridge-JIC,Salil Bhate,2014-10-08,,Tag.csv
+BBa_K1486026,sfGFP + Kanamycin resistance for yeast,2535,,,Not Released,,Not in stock,Works,Not Used,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-26,,Tag.csv
+BBa_K1486027,R.reniformis luciferase + ADH1 terminator + Kanamycin resistance,2681,,,Not Released,,Not in stock,None,Not Used,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-27,,Tag.csv
+BBa_K1486028,Yeast optimized sfGFP N-terminus (1-214),642,,,Not Released,,Not in stock,None,1 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-27,,Tag.csv
+BBa_K1486033,R.reniformis luciferase + ADH1 terminator + CaUra3,2523,,,Not Released,,Not in stock,None,Not Used,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-27,,Tag.csv
+BBa_K1486034,Yeast optimized superfolder GFP C-terminus (215-238),75,,,Not Released,,Not in stock,None,1 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-27,,Tag.csv
+BBa_K1486035,Yeast Optimized sfGFP-C + ADH1 terminator + CaUra3 Cassette,1662,,,Not Released,,Not in stock,Works,Not Used,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-27,,Tag.csv
+BBa_K1486036,rLucC + ADH1 terminator + CaUra3 cassette,2193,,,Not Released,,Not in stock,None,Not Used,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-27,,Tag.csv
+BBa_K1503000,Cell cycle dependend degradation-tag from S. cerevisia.,165,,,Not Released,,Not in stock,,Not Used,iGEM14_Gothenburg,Markus Janasch,2014-10-16,,Tag.csv
+BBa_K1616026,His-Tag,18,,,Not Released,,Not in stock,,1 Uses,iGEM15_IONIS,Marwa Zerhouni,2015-09-19,,Tag.csv
+BBa_K163005,Mefp Decapeptide Optimized for E. coli,54,,,Not Released,,Not in stock,None,Not Used,iGEM08_University_of_Chicago,Daniel M. Choi,2008-10-11,,Tag.csv
+BBa_K1642007,Ecolivk,69,,,Not Released,,Not in stock,,Not Used,iGEM15_SJTU-BioX-Shanghai,Can Yin,2015-08-16,,Tag.csv
+BBa_K1642008,Sll1338,81,,,Not Released,,Not in stock,,Not Used,iGEM15_SJTU-BioX-Shanghai,Can Yin,2015-08-16,,Tag.csv
+BBa_K1654007,USP45 secretion tag for Lactococcus lactis,81,,TMMU-China-2016:4,Not Released,,Not in stock,,2 Uses,iGEM15_IIT_Madras,Nitish Kumar Singh,2015-09-16,,Tag.csv
+BBa_K1680004,SV40 NLS,24,,,Not Released,,Not in stock,Works,Not Used,iGEM15_Tuebingen,Katharina Sporbeck,2015-09-17,,Tag.csv
+BBa_K1696013,Mf-ssrA Tag1,81,,,Not Released,,Not in stock,None,Not Used,iGEM15_TJU,Yue Liu,2015-09-14,Spring 2017 Distribution,Tag.csv
+BBa_K1696016,Mf-ssrA Tag2,81,,,Not Released,,Not in stock,None,Not Used,iGEM15_TJU,Yue Liu,2015-09-15,,Tag.csv
+BBa_K1696017,tag3 for mf-lon to recognize,81,,,Not Released,,Not in stock,,Not Used,iGEM15_TJU,Yue Liu,2015-09-15,,Tag.csv
+BBa_K1696018,tag4 for mf-lon to recognize,81,,,Not Released,,Not in stock,,Not Used,iGEM15_TJU,Yue Liu,2015-09-15,,Tag.csv
+BBa_K1696019,tag5 for mf-lon to recognize,81,,,Not Released,,Not in stock,,Not Used,iGEM15_TJU,Yue Liu,2015-09-15,,Tag.csv
+BBa_K1696020,tag6 for mf-lon to recognize,81,,,Not Released,,Not in stock,,Not Used,iGEM15_TJU,Yue Liu,2015-09-15,,Tag.csv
+BBa_K1861102,His-Tag,27,,,Not Released,,Not in stock,None,6 Uses,iGEM15_FAU_Erlangen,Vladyslav Vyshnevskyi,2015-09-18,,Tag.csv
+BBa_K1887003,cA anchoring domain,663,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_TMMU_China,Zhigang Huang,2016-08-17,,Tag.csv
+BBa_K1904006,Optimised HisTag RFC 25,18,,,Not Released,BBa_M0021;BBa_K1362457;BBa_K1929202,Not in stock,None,-1 Uses,iGEM16_TecCEM,"Enrique Chimal Juarez, Roger Milton Rubio Sánchez, Enrique Palomino, Brian Morteo",2016-06-07,,Tag.csv
+BBa_K1921029,Histag.a,18,,,Not Released,,Not in stock,,-1 Uses,iGEM16_TJUSLS_China,Zhuozhi Chen,2016-10-17,,Tag.csv
+BBa_K1921030,Histag.b,18,,,Not Released,,Not in stock,,-1 Uses,iGEM16_TJUSLS_China,Zhuozhi Chen,2016-10-17,,Tag.csv
+BBa_K1992003,Tar chemoreceptor tagged with GFP,2400,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Technion_Israel,Shilo Ohayon,2016-10-08,,Tag.csv
+BBa_K2013021,pelB-5D,81,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Binglin Liu,2016-10-13,,Tag.csv
+BBa_K2018023,hlyA secretion tag,186,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SDU-Denmark,Joel Vej-Nielsen,2016-06-16,,Tag.csv
+BBa_K2018025,3xFLAG,72,,,Not Released,,Not in stock,,-1 Uses,iGEM16_SDU-Denmark,Joel Vej-Nielsen,2016-06-16,,Tag.csv
+BBa_K2027052,Flag-Lumio-HisTag,72,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Stanford-Brown,Michael Becich,2016-10-24,,Tag.csv
+BBa_K2075000,Strep Tag,90,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Hannover,Kim Luehmann,2016-10-13,,Tag.csv
+BBa_K208002,Gene III Signal Peptide - Silver Fusion Compatible,54,,,Not Released,,It's complicated,Works,6 Uses,iGEM09_Utah_State,USU iGEM 2009,2009-10-12,,Tag.csv
+BBa_K208003,OmpA Signal Peptide - Silver Fusion Compatible,63,,,Not Released,BBa_K257006;BBa_K387007,It's complicated,None,8 Uses,iGEM09_Utah_State,USU iGEM 2009,2009-10-12,,Tag.csv
+BBa_K208005,TorA Signal Peptide - Silver Fusion Compatible,126,,,Not Released,,It's complicated,Works,8 Uses,iGEM09_Utah_State,USU iGEM 2009,2009-10-12,,Tag.csv
+BBa_K210004,PEST sequence,147,,,Not Released,,It's complicated,None,Not Used,iGEM09_Kyoto,Makoto Kashima,2009-10-13,,Tag.csv
+BBa_K2144009,Sequence for His6-tag and LPXTGG-tag,51,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Stockholm,Oskar Öhman,2016-10-12,,Tag.csv
+BBa_K2148007,Verde FP with HA Tag (CTAG Phytobrick),719,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Cambridge-JIC,Chern Juin Ong,2016-10-09,,Tag.csv
+BBa_K215001,Secretion Signal and Streptavidin Binding Tags,865,,,Not Released,,It's complicated,None,5 Uses,iGEM09_Washington,Jeff Nivala,2009-09-30,Spring 2017 Distribution;Spring 2016 Distribution,Tag.csv
+BBa_K2169137,ZnO binding Tag,72,,,Not Released,,Not in stock,,-1 Uses,iGEM16_FAU_Erlangen,Filip Cierniak,2016-10-14,,Tag.csv
+BBa_K2169138,ZnS nucleation Tag,27,,,Not Released,,Not in stock,,-1 Uses,iGEM16_FAU_Erlangen,Filip Cierniak,2016-10-14,,Tag.csv
+BBa_K2170200,Antibody binding site A3C5 tag in RFC[25],33,,,Not Released,,Not in stock,,-1 Uses,iGEM16_LMU-TUM_Munich,Max Mustermann,2016-10-11,,Tag.csv
+BBa_K2170202,StrepTag for interaction with biotin binding poteins in RFC[25],24,,,Not Released,,Not in stock,,-1 Uses,iGEM16_LMU-TUM_Munich,Max Mustermann,2016-10-11,,Tag.csv
+BBa_K2333001,mf-Lon Protein Degradation Tag #3,87,,,Not Released,,Not in stock,None,-1 Uses,iGEM17_William_and_Mary,Ethan M Jones,2017-06-14,,Tag.csv
+BBa_K2333002,mf-Lon Protein Degradation Tag #3a,87,,,Not Released,BBa_K2333003,Not in stock,None,-1 Uses,iGEM17_William_and_Mary,Ethan M Jones,2017-06-14,,Tag.csv
+BBa_K2333003,mf-Lon Protein Degradation Tag #3b,87,,,Not Released,BBa_K2333002,Not in stock,None,-1 Uses,iGEM17_William_and_Mary,Ethan M Jones,2017-06-14,,Tag.csv
+BBa_K2333004,mf-Lon Protein Degradation Tag #3c,87,,,Not Released,,Not in stock,,-1 Uses,iGEM17_William_and_Mary,Xingyu Zheng,2017-06-14,,Tag.csv
+BBa_K2333005,mf-Lon Protein Degradation Tag #3d,87,,,Not Released,,Not in stock,None,-1 Uses,iGEM17_William_and_Mary,Ethan M Jones,2017-06-14,,Tag.csv
+BBa_K2333006,mf-Lon Protein Degradation Tag #3e,87,,,Not Released,,Not in stock,None,-1 Uses,iGEM17_William_and_Mary,Ethan M Jones,2017-06-14,,Tag.csv
+BBa_K237008,"OmpA leader sequence - Targeting to periplasm, cleaved during transport",65,,,Not Released,,Not in stock,,Not Used,iGEM09_SDU-Denmark,Marc T. K. Nielsen,2009-10-21,,Tag.csv
+BBa_K258001,Lipase ABC transporter recognition domain (LARD 1),528,,,Not Released,,It's complicated,None,2 Uses,iGEM09_METU-Gene,Jung Hoon Ahn from Korea Advanced Institute of Science and Technology,2009-10-03,Spring 2017 Distribution;Spring 2016 Distribution,Tag.csv
+BBa_K258006,Thermostable lipase (TliA) of Pseudomonas fluorescens SIK W1,1428,,,Not Released,,Not in stock,Works,5 Uses,iGEM09_METU-Gene,Jung Hoon Ahn from Korea Advanced Institute of Science and Technology  ,2009-10-09,,Tag.csv
+BBa_K265002,Proteolytic Cleavage Sequence,114,,,Not Released,,Not in stock,None,Not Used,iGEM09_UC_Davis,Timothy Fenton,2009-06-26,,Tag.csv
+BBa_K294190,just for practise, ,,,Not Released,,No part sequence,,No Sequence,iGEM09_Example,Yifeng Wang,2009-06-27,,Tag.csv
+BBa_K319039,yeGFP (no stop),711,,,Not Released,,It's complicated,,Not Used,iGEM10_uOttawa,Afnan Azizi,2010-10-26,,Tag.csv
+BBa_K330000,Protein Tag: FLAG-tag,24,,,Not Released,BBa_K112602;BBa_M10019,It's complicated,Works,Not Used,iGEM10_HKUST,LI Zhuo; LU Wei,2010-07-25,,Tag.csv
+BBa_K331007,Beta-lactamase Bla Signal Sequence,69,,,Not Released,,Not in stock,None,Not Used,iGEM10_Lethbridge,Lisza Bruder,2010-06-28,,Tag.csv
+BBa_K331009,Heat-stable Toxin I,63,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Lethbridge,Lisza Bruder,2010-06-28,,Tag.csv
+BBa_K331012,Penicillin Binding Protein DacA,87,,,Not Released,,Not in stock,None,Not Used,iGEM10_Lethbridge,Lisza Bruder,2010-06-29,,Tag.csv
+BBa_K387007,OmpA: An excretory signal peptide in bacteria,63,,,Not Released,BBa_K257006;BBa_K208003,It's complicated,Works,Not Used,iGEM10_SJTU-BioX-Shanghai,Yupeng He,2010-10-06,,Tag.csv
+BBa_K390003,pilA secretion tag for Synechocystis sp. PCC 6803,64,,,Not Released,,It's complicated,None,1 Uses,iGEM10_Utah_State,Cody Tramp,2010-08-01,,Tag.csv
+BBa_K390004,art+ secretion tag for Synechocystis sp. PCC 6803,64,,,Not Released,,It's complicated,,1 Uses,iGEM10_Utah_State,Cody Tramp,2010-08-01,,Tag.csv
+BBa_K416000,Aga2 CDS Responsible for Yeast Surface Display,261,,,Not Released,,Not in stock,None,2 Uses,iGEM10_NYU,Russell Durrett,2010-05-28,,Tag.csv
+BBa_K416003,Yeast Secretion Tag,114,,manugimenez:5,Not Released,,It's complicated,Works,12 Uses,iGEM10_NYU,John Phair,2010-06-23,,Tag.csv
+BBa_K496003,"RBS + SlrP secretion tag, salmonella T3 sec. sys.",587,,,Not Released,,In stock,None,Not Used,iGEM10_HokkaidoU_Japan,Shunichi MAKINO,2010-10-17,Spring 2017 Distribution;Spring 2016 Distribution,Tag.csv
+BBa_K549018,STREP-tag improved,75,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Franziska Haefele,2011-09-16,,Tag.csv
+BBa_K549019,10x His-tag,69,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Franziska Haefele,2011-09-16,,Tag.csv
+BBa_K562001,Salty_PduD20 Targeting Tag,184,,iGEM Dundee 2011:5,Not Released,,It's complicated,Works,Not Used,iGEM11_Dundee,Frank Sargent,2011-09-16,,Tag.csv
+BBa_K562002,Salty_PduD40 Targeting Tag,244,,iGEM Dundee 2011:5,Not Released,,It's complicated,Works,Not Used,iGEM11_Dundee,Frank Sargent,2011-09-16,,Tag.csv
+BBa_K608404,IPTG-inducible Promoter with plastic binding domain-tagged GFP,985,,,Not Released,,It's complicated,None,Not Used,iGEM11_Freiburg,Sophie Cramer,2011-09-14,,Tag.csv
+BBa_K608405,plastic binding domain,31,,,Not Released,,Not in stock,,1 Uses,iGEM11_Freiburg,Sophie Cramer,2011-09-14,,Tag.csv
+BBa_K608408,GST tag,684,,,Not Released,,It's complicated,,Not Used,iGEM11_Freiburg,Rüdiger Trojok,2011-09-14,,Tag.csv
+BBa_K638402,TorA tag variant,129,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Cambridge,Matthew Jones,2011-09-19,,Tag.csv
+BBa_K792002,Secretion tag from yeast α-factor mating pheromone (MFα1),54,,manugimenez:5,Not Released,,Not in stock,Works,2 Uses,iGEM12_Buenos_Aires,Manuel Giménez,2012-09-24,,Tag.csv
+BBa_K900005,Plasma Membrane Targeting Sequence,12,,,Not Released,BBa_K1051117,Not in stock,Works,2 Uses,iGEM12_Berkeley,Austin Jones,2012-10-02,,Tag.csv
+BBa_K918000,Mating Factor Alpha Secretion Tag,273,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Colorado_State,steven denham,2012-09-23,,Tag.csv
+BBa_M0020,glutathione S-transferase (GST) affinity tag, ,,,,,,,,,,,,
+BBa_M0021,Poly-His affinity tag,18,,,,,,,,,,,,
+BBa_M0022,FLAG affinity tag, ,,,,,,,,,,,,
+BBa_M0023,Calmodulin binding peptide (CBP) affinity tag, ,,,,,,,,,,,,
+BBa_M0024,Biotin affinity tag, ,,,,,,,,,,,,
+BBa_M0025,Maltose binding protein (MBP) affinity tag, ,,,,,,,,,,,,
+BBa_M0026,IMPACT affinity tag, ,,,,,,,,,,,,
+BBa_M0027,Cellulose binding peptide (CBP) affinity tag, ,,,,,,,,,,,,
+BBa_M0028,T7 affinity tag, ,,,,,,,,,,,,
+BBa_M0029,S-protein affinity tag, ,,,,,,,,,,,,
+BBa_M0030,Poly-Arginine affinity tag, ,,,,,,,,,,,,
+BBa_M0031,Strep-tag II affinity tag, ,,,,,,,,,,,,
+BBa_M0032,c-Myc affinity tag, ,,,,,,,,,,,,
+BBa_M0033,HAT affinity tag, ,,,,,,,,,,,,
+BBa_M0040,LVA degradation tag,33,,,,,,,,,,,,
+BBa_M0042,LAA degradation tag, ,,,,,,,,,,,,
+BBa_M0044,AAV degradation tag,33,,,,,,,,,,,,
+BBa_M0046,ASV degradation tag,33,,,,,,,,,,,,
+BBa_M0050,AANDENYALAA. (Very fast) SsrA degradation tag. ,33,,iGEM14_Edinburgh:4,Not Released,,Not in stock,None,5 Uses,Endy Lab,Felix Moser,2007-12-05,,Tag.csv
+BBa_M0051,AANDENYNYADAS. (Fast) SsrA degradation tag.,39,,iGEM14_Edinburgh:4,Not Released,,Not in stock,None,6 Uses,Endy Lab,Felix Moser,2007-12-05,,Tag.csv
+BBa_M0052,AANDENYADAS (moderately fast) SsrA degradation tag.,33,,iGEM14_Edinburgh:4,Not Released,,Not in stock,None,12 Uses,Endy Lab,Felix Moser,2007-12-05,,Tag.csv
+BBa_M10019,{˂FLAG˃},24,,,Not Released,BBa_K112602;BBa_K330000,It's complicated,None,Not Used,Berkeley BioE140L - S09,John Wang,2009-05-09,,Tag.csv
+BBa_M10037,{˂KILR˃},106,,,Not Released,,Not in stock,None,Not Used,Berkeley BioE140L - S09,Patrick Harrigan,2009-05-10,,Tag.csv
+BBa_M10045,Myc Tag,30,,,Not Released,BBa_K112502,It's complicated,,Not Used,Berkeley BioE140L - S09,Sam Ng,2009-05-10,,Tag.csv
+BBa_M1534,8-Histidine Tag,27,,,Not Released,,Not in stock,,4 Uses,UtahState_BE5930_-_S11,Sarah Allred,2012-04-20,,Tag.csv
+BBa_M36144,EP-B2 His-tag,57,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,Tatyanna Dadabbo & Richard Hojel & Soraya Karimi,2015-10-22,,Tag.csv
+BBa_M36202,6-Histidine Tag,18,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,Steven Lee,2011-12-05,,Tag.csv
+BBa_M36726,Type II Signal Peptide,66,,,Not Released,,Not in stock,None,6 Uses,Stanford BIOE44 - S11,"Nathan Barnett, Meghan Bowler, Kian Torabian",2011-04-28,,Tag.csv
+BBa_M36981,Type II Signal Peptide (Correct),72,,,Not Released,,Not in stock,None,2 Uses,Stanford BIOE44 - S11,"Meghan Bowler, Nathan Barnett, Kian Torabian",2011-05-17,,Tag.csv
+BBa_M50075,IPTG Inducible Promoter,163,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,Jorge Ivan Mercado,2017-06-11,,Tag.csv
+BBa_M50077,FLAG tag for western blot detection,24,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,Jorge Ivan Mercado,2017-06-12,,Tag.csv

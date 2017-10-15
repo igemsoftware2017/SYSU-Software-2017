@@ -1,0 +1,9 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distribution
+BBa_F1610,,,1,0,Released HQ 2013,BBa_I9023;BBa_S03571;BBa_K091167;BBa_K082014;BBa_K569000;BBa_K805016;BBa_K1104931,In stock,Works,75 Uses,Antiquity,Caitlin Conboy and Jennifer Braff,2003-12-04,
+BBa_F1780,AI-1 Sender Device,,,0,Not Released,BBa_P0478;BBa_S03878,In stock,None,Not Used,Antiquity,"Fred, Jay, Madeline, Debra",2004-07-13,
+BBa_K574004,3OC12HSL regulated by TetR,,,0,Released HQ 2013,,In stock,None,1 Uses,iGEM11_Tsinghua_auto,Lei Wei,2011-09-29,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution
+BBa_K574005,3OC12HSL and YFP regulated by pBad,,,0,Released HQ 2013,,In stock,None,1 Uses,iGEM11_Tsinghua_auto,Lei Wei,2011-09-29,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution
+BBa_F1611,,,,0,Not Released,,Not in stock,None,4 Uses,Antiquity,jcbraff (page edited by BC 5/9/05),2004-08-07,
+BBa_F1700,N-butyryl-HSL Sender Device,,,0,Not Released,BBa_I9027;BBa_P0470;BBa_K092200;BBa_K082023,It's complicated,None,Not Used,Antiquity,mit,2004-07-13,
+BBa_F1760,,,,0,Not Released,BBa_I9031;BBa_P0476;BBa_K1375012,It's complicated,None,1 Uses,Antiquity,mit,2004-07-13,
+BBa_I13015,,,,0,Not Released,,Not in stock,Works,2 Uses,Antiquity,"Debra, Fred, Jay, Madeleine, Cell-Cell Signaling SMUG",2004-07-08,

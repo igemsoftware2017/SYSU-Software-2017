@@ -1,0 +1,739 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_I14044,weak RBS . LacI,1173,,Antiquity:0,Released HQ 2013,BBa_S0112;BBa_J09340;BBa_J24683,In stock,None,Not Used,Antiquity,"Aditi Shrivastava, Jiwon Lee, Sarah Welch",2004-08-04,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_I732081,Tet repressor (RBS+ LVA- TERM-),645,,,Released HQ 2013,,In stock,Works,2 Uses,iGEM07_USTC,Zhan Jian,2007-08-03,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_I746350,ogr activator from P2 phage,237,1,,Not Released,,In stock,None,23 Uses,iGEM07_Cambridge,Stefan Milde,2007-09-11,,Transcriptional regulation.csv
+BBa_I746351,pag activator from PSP3 phage,237,1,,Not Released,,In stock,None,13 Uses,iGEM07_Cambridge,Stefan Milde,2007-09-12,,Transcriptional regulation.csv
+BBa_I746352,delta activator from phiR73 phage,264,1,Cooper Union iGEM 2014:4,Not Released,,In stock,None,33 Uses,iGEM07_Cambridge,Stefan Milde,2007-09-12,,Transcriptional regulation.csv
+BBa_I712069,RBS-T7 RNA polymerase with NLS,2678,1,,Not Released,BBa_K113008,In stock,None,6 Uses,iGEM07_Ljubljana,Sasa Jereb,2007-10-22,,Transcriptional regulation.csv
+BBa_K118007,rbs+appY (encoding a DNA-binding transcriptional activator),769,1,,Released HQ 2013,,In stock,None,1 Uses,iGEM08_Edinburgh,Andrew Hall,2008-08-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K081007,cI repressor (TERM-),796,1,,Released HQ 2013,BBa_J09045;BBa_S03665;BBa_S04571;BBa_K648032,In stock,None,Not Used,iGEM08_UNIPV-Pavia,"Lorenzo Pasotti, Paolo Magni",2008-10-18,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K081020,cI and lasR protein generator (TERM-),1606,1,,Released HQ 2013,,In stock,None,Not Used,iGEM08_UNIPV-Pavia,"Lorenzo Pasotti, Paolo Magni",2008-10-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K082009,B0034-C0051,793,,,Released HQ 2013,BBa_S0103;BBa_J06550;BBa_J09044;BBa_K088000;BBa_K093006;BBa_K327000;BBa_S04621;BBa_K648031;BBa_K909004;BBa_S05081;BBa_S05082,In stock,Works,Not Used,iGEM08_USTC,"Yanting Xue , He Shen",2008-10-27,,Transcriptional regulation.csv
+BBa_K346000,RBS(B0032)+T3 DNA-directed RNA polymerase,2674,,,Released HQ 2013,,In stock,Works,3 Uses,iGEM10_Peking,Haoqian Zhang and Weiye Wang,2010-09-25,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_I15040,RBS.TetR from pASKIBA3,642,,Antiquity:0,Not Released,,It's complicated,None,4 Uses,UTAustin,Jeff Tabor,2005-06-02,,Transcriptional regulation.csv
+BBa_J37033,RBS + LuxR,799,1,,Not Released,BBa_S01414;BBa_S01640;BBa_S03613;BBa_I726002;BBa_S04213;BBa_K188124;BBa_K329007,It's complicated,None,9 Uses,iGEM2006_Imperial,John Sy,2006-08-23,,Transcriptional regulation.csv
+BBa_I714892,CIind-,726,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,Transcriptional regulation.csv
+BBa_K091138,RBS+lsrR,972,,,Not Released,BBa_K848000,It's complicated,Works,Not Used,iGEM08_Davidson-Missouri_Western,Xiao Zhu,2008-07-15,,Transcriptional regulation.csv
+BBa_K100010,RBS + XylR Transcriptional Regulator,1200,,,Not Released,,It's complicated,Works,Not Used,iGEM08_PennState,Garrett Tobin,2008-08-18,,Transcriptional regulation.csv
+BBa_K131016,LuxOU from Vibrio harveyi,1945,1,,Not Released,BBa_K218001,It's complicated,None,1 Uses,iGEM08_Calgary_Wetware,Thane Kubik,2008-09-28,,Transcriptional regulation.csv
+BBa_K092800,"Coding sequence for LacI modified with a different rate of translation than LacI, RBS",1103,1,,Not Released,,It's complicated,None,1 Uses,iGEM08_EPF-Lausanne,EPF-Lausanne Team 2008,2008-10-22,,Transcriptional regulation.csv
+BBa_K082012,B0034-LacI,1103,,,Not Released,,It's complicated,Works,Not Used,iGEM08_USTC,"Zhen Xu , Binjie Xu",2008-10-27,,Transcriptional regulation.csv
+BBa_K772007,GFP - LasR anchor-inducer protein complex,1720,,,Not Released,,Not in stock,None,Not Used,iGEM12_Fatih,Mustafa Elitok,2012-09-26,,Transcriptional regulation.csv
+BBa_K1520501,Rbs-luxR(scarless),799,,,Not Released,,Not in stock,,3 Uses,iGEM14_Nanjing-China,yue wu,2014-09-22,,Transcriptional regulation.csv
+BBa_K1520502,Rbs-lacI(scarless),1171,,,Not Released,,Not in stock,,3 Uses,iGEM14_Nanjing-China,yue wu,2014-09-22,,Transcriptional regulation.csv
+BBa_K1520503,Rbs-cI(scarless),793,,,Not Released,,Not in stock,,1 Uses,iGEM14_Nanjing-China,yue wu,2014-09-22,,Transcriptional regulation.csv
+BBa_K1520505,Rbs-tetR(scarless),703,,,Not Released,,Not in stock,,5 Uses,iGEM14_Nanjing-China,yue wu,2014-09-22,,Transcriptional regulation.csv
+BBa_I9026,rhlI translational unit,685,,,Released HQ 2013,BBa_K082010;BBa_K1529251,In stock,None,12 Uses,Antiquity,crackdots,2004-01-27,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_C0261,"AHL-making Enzyme, luxI (+RBS)",661,1,Antiquity:0,Released HQ 2013,BBa_S01413;BBa_S01522;BBa_I9022;BBa_I751200;BBa_I751300,In stock,None,70 Uses,Antiquity,robertb,2004-08-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K082010,B0034-C0070 ,685,,,Released HQ 2013,BBa_I9026;BBa_K1529251,In stock,Works,Not Used,iGEM08_USTC,"Zhen Xu , Binjie Xu",2008-10-27,,Transcriptional regulation.csv
+BBa_K082007,B0030-C0070 ,688,,,Not Released,BBa_I14046,It's complicated,Works,Not Used,iGEM08_USTC,"Zhen Xu , Binjie Xu",2008-10-27,,Transcriptional regulation.csv
+BBa_K082008,B0032-C0070 ,686,,,Not Released,,It's complicated,Works,Not Used,iGEM08_USTC,"Zhen Xu , Binjie Xu",2008-10-27,,Transcriptional regulation.csv
+BBa_K1520504,Rbs-luxI(scarless),661,,,Not Released,,Not in stock,,12 Uses,iGEM14_Nanjing-China,yue wu,2014-09-22,,Transcriptional regulation.csv
+BBa_I742155,crtY (lycopene cyclase) with native rbs,1171,1,,Not Released,BBa_I742117,In stock,None,1 Uses,iGEM07_Edinburgh,Chris French,2007-10-24,,Transcriptional regulation.csv
+BBa_I742158,crtZ (beta-carotene hydroxylase) with native rbs,547,1,,Released HQ 2013,BBa_I742118,In stock,None,12 Uses,iGEM07_Edinburgh,Chris French,2007-10-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K118004,rbs+dxs (1-deoxyxylulose-5-phosphate synthase),1882,1,,Released HQ 2013,,In stock,None,2 Uses,iGEM08_Edinburgh,Andrew Hall,2008-08-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K118005,rbs+crtI (phytoene dehydrogenase),1498,1,,Released HQ 2013,,In stock,Works,7 Uses,iGEM08_Edinburgh,Andrew Hall,2008-08-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K118006,rbs+crtB (phytoene synthase),949,1,,Released HQ 2013,,In stock,Works,4 Uses,iGEM08_Edinburgh,Andrew Hall,2008-08-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K118013,rbs+crtY (lycopene B-cyclase),1162,1,,Not Released,,In stock,None,2 Uses,iGEM08_Edinburgh,Andrew Hall,2008-08-19,,Transcriptional regulation.csv
+BBa_K118014,rbs+crtE (geranylgeranyl pyrophosphate synthase),922,1,,Not Released,,In stock,Works,7 Uses,iGEM08_Edinburgh,Andrew Hall,2008-08-19,,Transcriptional regulation.csv
+BBa_I742152,crtE (geranylgeranyl pyrophosphate synthase) with native rbs.,954,,,Not Released,BBa_I742116,It's complicated,None,Not Used,iGEM07_Edinburgh,Chris French,2007-10-24,,Transcriptional regulation.csv
+BBa_I742161,crtI (phytoene dehydrogenase) and crtB (phytoene synthase),2430,1,,Not Released,BBa_I742119,It's complicated,None,Not Used,iGEM07_Edinburgh,Chris French,2007-10-24,,Transcriptional regulation.csv
+BBa_K152001,rbs + crtE,928,,,Not Released,,It's complicated,None,3 Uses,iGEM08_Guelph,David Johnston Monje,2008-10-29,,Transcriptional regulation.csv
+BBa_K152002,RBS + crtB,910,,,Not Released,,It's complicated,None,3 Uses,iGEM08_Guelph,David Johnston Monje,2008-10-29,,Transcriptional regulation.csv
+BBa_K152003,CrtY + RBS,1168,,,Not Released,,It's complicated,None,3 Uses,iGEM08_Guelph,David Johnston Monje,2008-10-30,,Transcriptional regulation.csv
+BBa_I716338,rbs-ThpD,938,,,Not Released,,In stock,None,Experience: None,iGEM07_Berkeley_UC,nhu nguyen,2007-08-14,,Transcriptional regulation.csv
+BBa_I716339,rbs-thpB-rbs-ThpC,1726,,,Not Released,,In stock,None,Experience: None,iGEM07_Berkeley_UC,nhu nguyen,2007-08-14,,Transcriptional regulation.csv
+BBa_I742109,COMT gene with ribosome binding site,1117,1,,Released HQ 2013,,In stock,None,5 Uses,iGEM07_Edinburgh,sarah hollingshead,2007-10-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_I742111,Limonene synthase gene with ribosome binding site,1687,1,iGEM Dundee 2011:3;iGEM Wisconsin-Madison 2012:2,Released HQ 2013,,In stock,None,5 Uses,iGEM07_Edinburgh,sarah hollingshead,2007-10-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K118017,rbs+glgC (ADP-glucose pyrophosphorylase),1315,1,,Released HQ 2013,,In stock,Works,1 Uses,iGEM08_Edinburgh,Andrew Hall,2008-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K118018,rbs+glgC16 (glgC with G336D substitution),1315,1,,Released HQ 2013,,In stock,Works,2 Uses,iGEM08_Edinburgh,Andrew Hall,2008-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K081008,luxI protein generator (TERM-),664,1,Aberdeen_Scotland 2009:4,Released HQ 2013,,In stock,Works,5 Uses,iGEM08_UNIPV-Pavia,"Lorenzo Pasotti, Paolo Magni",2008-10-18,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K081009,lasI protein generator (TERM-),688,1,,Released HQ 2013,,In stock,None,7 Uses,iGEM08_UNIPV-Pavia,"Lorenzo Pasotti, Paolo Magni",2008-10-18,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K081017,pcyA protein generator (TERM-),796,1,,Released HQ 2013,BBa_K193402;BBa_K1587002,In stock,None,1 Uses,iGEM08_UNIPV-Pavia,"Lorenzo Pasotti, Paolo Magni",2008-10-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K130000,srlD,792,1,,Released HQ 2013,,In stock,None,1 Registry Star,iGEM08_Wisconsin,Basudeb Bhattacharyya,2008-10-27,,Transcriptional regulation.csv
+BBa_K759007,RBS(B0034)and phaB (acetoacetyl-CoA reductase orgin from Ralstonia eutropha),756,,,Not Released,,In stock,None,Not Used,iGEM12_HokkaidoU_Japan,Ami Kawahata,2012-09-20,,Transcriptional regulation.csv
+BBa_J45396,BAT2 enzyme translational unit,1155,,,Not Released,,It's complicated,Works,Not Used,iGEM2006_MIT,André Green II,2006-10-28,,Transcriptional regulation.csv
+BBa_I716337,rbs-ThpC,1155,,,Not Released,,It's complicated,None,Not Used,iGEM07_Berkeley_UC,nhu nguyen,2007-08-14,,Transcriptional regulation.csv
+BBa_I742147,sam5 (coumarate hydroxylase) with native rbs.,1558,,,Not Released,BBa_I742105,It's complicated,None,1 Uses,iGEM07_Edinburgh,sarah hollingshead,2007-10-24,,Transcriptional regulation.csv
+BBa_I742148,sam8 (tyrosine ammonia lyase) with native rbs,1550,,,Not Released,BBa_I742106;BBa_I742149;BBa_K238027,It's complicated,None,2 Uses,iGEM07_Edinburgh,sarah hollingshead,2007-10-24,,Transcriptional regulation.csv
+BBa_I737020,PoPS->Agarase (Digests agar),2591,,,Not Released,,It's complicated,None,1 Uses,iGEM07_Calgary,Vladislav Lavrovsky,2007-10-26,,Transcriptional regulation.csv
+BBa_K125801,RBS-phaA,1251,,,Not Released,,It's complicated,None,Not Used,iGEM08_Hawaii,Norman Wang,2008-09-03,,Transcriptional regulation.csv
+BBa_K125803,RBS-phaC,1158,,,Not Released,,It's complicated,None,Not Used,iGEM08_Hawaii,Norman Wang,2008-09-03,,Transcriptional regulation.csv
+BBa_K125804,RBS-phaE,1014,,,Not Released,,It's complicated,None,Not Used,iGEM08_Hawaii,Norman Wang,2008-09-03,,Transcriptional regulation.csv
+BBa_K156015,RBS + phaA,1201,,,Not Released,,It's complicated,None,2 Uses,iGEM08_Virginia,George McArthur IV,2008-10-28,,Transcriptional regulation.csv
+BBa_K156016,RBS + phaB1,760,,,Not Released,,It's complicated,None,3 Uses,iGEM08_Virginia,George McArthur IV,2008-10-28,,Transcriptional regulation.csv
+BBa_K156017,RBS + phaC1,1368,,,Not Released,,It's complicated,None,2 Uses,iGEM08_Virginia,George McArthur IV,2008-10-28,,Transcriptional regulation.csv
+BBa_K759006,B0034 and  phaA (beta-ketothiolase orgin from Ralstonia eutropha),1200,,,Not Released,,It's complicated,None,Not Used,iGEM12_HokkaidoU_Japan,Ami Kawahata,2012-09-19,,Transcriptional regulation.csv
+BBa_K759008,B0034 and phaC (BBa_K342001),1809,,,Not Released,,It's complicated,,Not Used,iGEM12_HokkaidoU_Japan,Ami Kawahata,2012-09-20,,Transcriptional regulation.csv
+BBa_K759009,RBS-phaC-RBS-phaA-RBS-phaB,3781,,,Not Released,,It's complicated,,1 Uses,iGEM12_HokkaidoU_Japan,Ami Kawahata,2012-09-20,,Transcriptional regulation.csv
+BBa_I716336,rbs-ThpB, ,,,Not Released,,No part sequence,None,No Sequence,iGEM07_Berkeley_UC,nhu nguyen,2007-08-14,,Transcriptional regulation.csv
+BBa_K125802,RBS-phaB,744,,,Not Released,,Not in stock,None,Not Used,iGEM08_Hawaii,Norman Wang,2008-09-03,,Transcriptional regulation.csv
+BBa_I718007,RBS-CRE, ,,,Not Released,BBa_S03847,In stock,None,3 Uses,iGEM07_Paris,David Bikard,2007-10-26,,Transcriptional regulation.csv
+BBa_K112205,{rbs.xis!} The xis gene with native rbs site and stop codon; assembly standard 21, ,,,Not Released,,It's complicated,None,Not Used,iGEM08_UC_Berkeley,Molly Allen,2008-10-21,,Transcriptional regulation.csv
+BBa_K112212,"{rbs.int!} The integrase gene with native rbs site and stop codon, BBb format", ,,,Not Released,,It's complicated,None,Not Used,iGEM08_UC_Berkeley,Molly Allen,2008-10-21,,Transcriptional regulation.csv
+BBa_K112218,"{rbs.ihfA!} The ihf alpha gene with native rbs and stop codon, BBb format", ,,,Not Released,,It's complicated,None,1 Uses,iGEM08_UC_Berkeley,Molly Allen,2008-10-21,,Transcriptional regulation.csv
+BBa_K112224,"{rbs.ihfB!} The ihf beta gene with native rbs and stop codon, BBb format", ,,,Not Released,,It's complicated,None,1 Uses,iGEM08_UC_Berkeley,Molly Allen,2008-10-21,,Transcriptional regulation.csv
+BBa_K112234,{rbs.xis.int!} The bacteriophage lambda xis/integrase gene with native rbs and stop codon; assembly , ,,,Not Released,,It's complicated,None,2 Uses,iGEM08_UC_Berkeley,Molly Allen,2008-10-21,,Transcriptional regulation.csv
+BBa_K082011,B0034-J61047 , ,,,Not Released,,It's complicated,Works,Not Used,iGEM08_USTC,Xunyao Wu,2008-10-27,,Transcriptional regulation.csv
+BBa_K112005,rbs.T4 holin!,673,1,,Not Released,,In stock,None,1 Registry Star,iGEM08_UC_Berkeley,Bing Xia,2008-09-03,,Transcriptional regulation.csv
+BBa_K112011,rbs.T4 antiholin! in BBb,308,1,,Released HQ 2013,,In stock,None,1 Registry Star,iGEM08_UC_Berkeley,Bing Xia,2008-09-03,,Transcriptional regulation.csv
+BBa_K112017,rbs.T4 lysozyme! in BBb,511,1,,Not Released,,It's complicated,None,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-09-03,,Transcriptional regulation.csv
+BBa_K112305,{rbs.lambda lysozyme!} in BBb format,496,,,Not Released,,It's complicated,Works,6 Uses,iGEM08_UC_Berkeley,Aron Lau,2008-10-21,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K112311,{rbs.lambda holin!} in BBb format,338,,,Not Released,,It's complicated,Works,6 Uses,iGEM08_UC_Berkeley,Aron Lau,2008-10-21,,Transcriptional regulation.csv
+BBa_K112317,{rbs.lambda antiholin!} in BBb format,344,,,Not Released,,It's complicated,Works,6 Uses,iGEM08_UC_Berkeley,Aron Lau,2008-10-21,,Transcriptional regulation.csv
+BBa_K1631002,Translational unit of Colicin-E3,1668,,,Not Released,,Not in stock,,2 Uses,iGEM15_UT-Tokyo,Yuto Yamanaka,2015-09-12,,Transcriptional regulation.csv
+BBa_K1631003,Tlanslational unit of Colicin Lysis Protein (for colicin-E3),156,,,Not Released,,Not in stock,,2 Uses,iGEM15_UT-Tokyo,Yuto Yamanaka,2015-09-13,,Transcriptional regulation.csv
+BBa_K836004,Lysis inhibitor from Enterobacteria phage lambda (codon usage optimized for R. opacus),338,,,Not Released,,Not in stock,None,1 Uses,iGEM12_TEC-UNA,Ricardo Alvarado,2012-09-20,,Transcriptional regulation.csv
+BBa_K836006,Lysis protein S from 	Enterobacteria phage lambda (codon usage optimized for R. opacus),333,,,Not Released,,Not in stock,None,1 Uses,iGEM12_TEC-UNA,Ricardo Alvarado,2012-09-20,,Transcriptional regulation.csv
+BBa_I15016,B0032.ECFP,742,1,ahessel:5;Antiquity:5,Released HQ 2013,,In stock,Works,3 Uses,UTAustin,Jeff Tabor,2005-04-15,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_I15017,B0032.EYFP,742,1,Antiquity:5,Released HQ 2013,BBa_J70372;BBa_K621000,In stock,Works,7 Uses,UTAustin,Jeff Tabor,2005-04-15,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_E5501,B0032.E0040,739,,Antiquity:0,Released HQ 2013,BBa_J70380,In stock,None,5 Uses,Registry,jcbraff,2005-05-17,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_I13502,Screening plasmid intermediate,724,1,Antiquity:0,Released HQ 2013,BBa_S03255;BBa_S03873;BBa_S04014;BBa_K093005;BBa_J70390;BBa_S04419;BBa_S04587;BBa_S04627,In stock,None,17 Uses,MIT,jkm,2005-05-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_I13503,Screening plasmid intermediate,725,,Antiquity:0,Released HQ 2013,BBa_J70388,In stock,None,Not Used,MIT,jkm,2005-05-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_J24679,RBS + LacI,1170,1,,Released HQ 2013,BBa_S0106,In stock,None,2 Uses,iGEM2006_Brown,Annie Gao,2006-10-26,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_J61201,[rbsGenR],560,1,,Not Released,,In stock,Issues,1 Registry Star,Arkin Lab,Josh Kittleson,2007-01-30,,Transcriptional regulation.csv
+BBa_I732017,lacZ full-length (RBS+ TERM-),3093,1,,Released HQ 2013,BBa_K823016;BBa_K1695024,In stock,Works,20 Uses,iGEM07_USTC,Zhan Jian,2007-07-14,,Transcriptional regulation.csv
+BBa_I732018,lacZ alpha fragment (RBS+ TERM-),252,,,Released HQ 2013,BBa_K329005;BBa_K346083,In stock,Works,19 Uses,iGEM07_USTC,Zhan Jian,2007-07-14,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_I718011,rbs-dapA coli,903,,,Released HQ 2013,BBa_S03754,In stock,None,1 Uses,iGEM07_Paris,David Bikard,2007-10-26,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_I718014,rbs-dapA (B. Subtilis),897,,,Released HQ 2013,,In stock,None,1 Uses,iGEM07_Paris,David Bikard,2007-10-26,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K088000,RBS+cI,793,,,Released HQ 2013,BBa_S0103;BBa_J06550;BBa_J09044;BBa_K093006;BBa_K082009;BBa_K327000;BBa_S04621;BBa_K648031;BBa_K909004;BBa_S05081;BBa_S05082,In stock,None,Not Used,iGEM08_CPU-NanJing,Hai Chen,2008-10-13,,Transcriptional regulation.csv
+BBa_K190019,fMT ,222,,iGEM Groningen 2009:2;iGEM Dundee 2011:3;iGEM Tokyo_NokoGen 2011:2,Not Released,,In stock,Issues,2 Uses,iGEM09_Groningen,Nienke Kuipers,2009-08-19,,Transcriptional regulation.csv
+BBa_K228803,RBS(B0034)+lacI(C0012),1171,,,Released HQ 2013,BBa_S0100;BBa_S03520;BBa_J24685;BBa_K188122,In stock,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K228809,RBS(B0034)+tetR(C0040),703,,,Released HQ 2013,BBa_S0101;BBa_I10013;BBa_S03518;BBa_J09041;BBa_J24688;BBa_S03879;BBa_S04603;BBa_K1392936;BBa_S05256;BBa_K1392939,In stock,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K193402,RBS is located upstream of pcyA,796,,,Released HQ 2013,BBa_K081017;BBa_K1587002,In stock,None,1 Uses,iGEM09_Tokyo_Tech,HIroshi Shiba,2009-10-13,,Transcriptional regulation.csv
+BBa_K216008,bacterial luciferase LuxAB of Xenorhabdus luminescens,2110,,,Not Released,BBa_K322139,In stock,Works,2 Uses,iGEM09_Edinburgh,Edinburgh iGEM 2009,2009-10-16,,Transcriptional regulation.csv
+BBa_K415100,RBS : pVIII,240,,,Not Released,BBa_K1039019,In stock,None,1 Uses,iGEM10_MIT,Grant Robinson,2010-06-26,,Transcriptional regulation.csv
+BBa_K322139,Blue emitting luciferase (from X. luminescens),2110,,,Not Released,BBa_K216008,In stock,Works,3 Uses,iGEM10_Edinburgh, Richard Partridge-Hicks and Maria Kowal,2010-09-25,,Transcriptional regulation.csv
+BBa_K314110,f1 origin,455,,,Released HQ 2013,,In stock,Works,5 Uses,iGEM10_Washington,IGEM 2010 Team Washington,2010-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K329005,Strong RBS (B0034) - LacZ-alpha fragment (I732006),252,,,Released HQ 2013,BBa_I732018;BBa_K346083,In stock,,Not Used,iGEM10_Paris_Liliane_Bettencourt,Raphael Pantier,2010-10-12,,Transcriptional regulation.csv
+BBa_K346083,RBS(B0034)+lacZ alpha(BBa_I732006),252,,,Released HQ 2013,BBa_I732018;BBa_K329005,In stock,Works,Not Used,iGEM10_Peking,Zairan Liu,2010-10-18,,Transcriptional regulation.csv
+BBa_K346056,RBS-phiR73 delta(BBa_I746352)+Terminator(B0015),401,,,Not Released,BBa_I746342;BBa_K1087005,In stock,Works,Not Used,iGEM10_Peking,Heng Pan,2010-10-18,,Transcriptional regulation.csv
+BBa_K325101,,1673,,,Not Released,,In stock,Works,2 Uses,iGEM10_Cambridge,Ben Reeve and Hannah Copley,2010-10-23,,Transcriptional regulation.csv
+BBa_K325211,,1667,,,Not Released,BBa_K1740002,In stock,Works,1 Uses,iGEM10_Cambridge,Bill Collins and Peter Emmrich,2010-10-23,,Transcriptional regulation.csv
+BBa_K606013,SpoVG RFPmCherry double terminator. Translational unit for B. Subtilis,861,,,Released HQ 2013,,In stock,Works,7 Uses,iGEM11_Paris_Bettencourt,Cyrille Pauthenier,2011-07-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K606017,T7 polymerase expression casette for Bacillus Subtilis,2673,,,Released HQ 2013,,In stock,,1 Uses,iGEM11_Paris_Bettencourt,Cyrille Pauthenier,2011-07-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K523001,RBS + malS (E. coli periplasmic α-amylase),2067,,,Released HQ 2013,,In stock,Works,1 Uses,iGEM11_Edinburgh,"Mun Ching Lee, Sylvia Ispasanie, Allan Crossman",2011-07-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K523002,RBS + bglX (E. coli perisplasmic β-glucosidase),2338,,,Released HQ 2013,,In stock,Works,1 Uses,iGEM11_Edinburgh,"Sylvia Ispasanie, Mun Ching Lee",2011-07-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K516012,luxI protein generator TERM- RBS+(B0032),662,,,Not Released,,In stock,Issues,Not Used,iGEM11_UNIPV-Pavia,"Paolo Magni, Nicolo' Politi, Tommaso Goggia",2011-09-08,,Transcriptional regulation.csv
+BBa_K516011,luxI protein generator TERM- RBS+(B0031),663,,,Released HQ 2013,,In stock,Works,1 Uses,iGEM11_UNIPV-Pavia,"Nicolo' Politi, Tommaso Goggia, Paolo Magni",2011-09-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K538101,RBS + Cpn60,1668,,,Released HQ 2013,,In stock,None,Not Used,iGEM11_Amsterdam,Bas Stringer,2011-09-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K538104,RBS + CspC,213,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_Amsterdam,Bas Stringer,2011-09-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_S04602,B0034:C0077,805,,,Released HQ 2013,BBa_S03160,In stock,None,2 Uses,Guests,Pinilla robin,2011-09-20,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_S04603,B0034:C0040,703,,,Released HQ 2013,BBa_S0101;BBa_I10013;BBa_S03518;BBa_J09041;BBa_J24688;BBa_S03879;BBa_K228809;BBa_K1392936;BBa_S05256;BBa_K1392939,In stock,None,3 Uses,Guests,Pinilla robin,2011-09-20,,Transcriptional regulation.csv
+BBa_S04605,S04603:E0240,1587,,,Released HQ 2013,,In stock,None,Not Used,Guests,Pinilla robin,2011-09-20,,Transcriptional regulation.csv
+BBa_K517002,alpha-pinene synthase,1884,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_British_Columbia,Joe Ho,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K517003,beta-pinene synthase ,1881,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_British_Columbia,Marianne Park,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K517005,erg20-2,1059,,,Released HQ 2013,,In stock,None,1 Uses,iGEM11_British_Columbia,Gurpal Bisra,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K646000,Hemeoxygenase with RBS,744,,,Not Released,,In stock,Works,3 Uses,iGEM11_Macquarie_Australia,Edward Moh,2011-09-29,,Transcriptional regulation.csv
+BBa_K567012,tRNA(Asp)-AGG,323,,,Not Released,,In stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Bin Zhao,2011-09-29,,Transcriptional regulation.csv
+BBa_K567013,tRNA(Asp)-TAG,323,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Bin Zhao,2011-09-29,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K567015,PT7-metGN,1445,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,You Wang,2011-09-29,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K567016,metY-CGA,574,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,You Wang,2011-09-29,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K622000,rpoN: coding sigma 54 factor,1461,,,Not Released,,In stock,,1 Uses,iGEM11_Kyoto,Fumitaka Hashiya,2011-10-01,,Transcriptional regulation.csv
+BBa_K622006,ChitinaseA1,1870,,,Not Released,,In stock,,Not Used,iGEM11_Kyoto,Fumitaka Hashiya,2011-10-02,,Transcriptional regulation.csv
+BBa_K917000,cscA sucrose hydrolase from E. coli 157:H7 Sakai,1444,,,Not Released,,In stock,Works,2 Uses,iGEM12_Edinburgh,Chris French,2012-06-19,,Transcriptional regulation.csv
+BBa_K741006,RBS-crogfp-T,1088,,,Released HQ 2013,,In stock,Works,3 Uses,iGEM12_USTC-China,Wuyang Chen,2012-07-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K917006,E. coli cytochrome maturation gene cluster ccmA-H,6467,,,Not Released,,In stock,None,2 Uses,iGEM12_Edinburgh,Jakub Krakowiak,2012-08-10,,Transcriptional regulation.csv
+BBa_K917003,E coli quinol dehydrogenase napC,631,,,Not Released,,In stock,Works,1 Uses,iGEM12_Edinburgh,Jakub Krakowiak,2012-08-10,,Transcriptional regulation.csv
+BBa_K733003,,303,,,Not Released,,In stock,None,Not Used,iGEM12_HKUST_Hong_Kong,"WANG, Yuqi",2012-09-16,,Transcriptional regulation.csv
+BBa_K762100,LIMS1 with RBS,1684,,,Not Released,,In stock,None,Not Used,iGEM12_Wisconsin-Madison,Menuka Samaranayake,2012-09-23,,Transcriptional regulation.csv
+BBa_K953001,Deinococcus radiodurans Bacteriophytochrome with RBS (E. coli Codon Optimised),2296,,,Not Released,,In stock,Works,1 Uses,iGEM12_Macquarie_Australia,Daniel Winter,2012-09-23,,Transcriptional regulation.csv
+BBa_K953002,Agrobacterium tumefaciens Bacteriophytochrome with RBS (E. coli Codon Optimised),2236,,,Released HQ 2013,,In stock,Works,2 Uses,iGEM12_Macquarie_Australia,Daniel Winter,2012-09-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K917011,lac promoter plus sucrose hydrolase (cscA),2052,,,Not Released,,In stock,Works,Not Used,iGEM12_Edinburgh,Elitsa Peeva,2012-09-24,,Transcriptional regulation.csv
+BBa_K902059,katG +LAA behind an RBS (B0034),2235,,,Released HQ 2013,,In stock,Works,1 Uses,iGEM12_Calgary,"Lisa Oberding, Ali Honarmand",2012-10-01,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K773001,mCherry-AAV,12,,,Released HQ 2013,BBa_B0034;BBa_J34801;BBa_J70591;BBa_K783051;BBa_K1529997;BBa_K1325011;BBa_K1583061;BBa_K2149018,In stock,,Not Used,iGEM12_Caltech,Katie Knister,2012-10-01,,Transcriptional regulation.csv
+BBa_K773003,mCherry-LVA,765,,,Released HQ 2013,,In stock,,28 Uses,iGEM12_Caltech,Katie Knister,2012-10-01,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K773004,mCherry-AAV,765,,,Released HQ 2013,,In stock,,Not Used,iGEM12_Caltech,Katie Knister,2012-10-01,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,Transcriptional regulation.csv
+BBa_K902040,B0034 + CarAd,1008,,,Not Released,,In stock,None,Not Used,iGEM12_Calgary,"Jeff Addison, Anya Kornilo",2012-10-02,,Transcriptional regulation.csv
+BBa_K902070,B0034-rhaS,855,,,Not Released,,In stock,None,Not Used,iGEM12_Calgary,Chris Wintersinger,2012-10-02,,Transcriptional regulation.csv
+BBa_K1065104,RBS + SAM synthetase,1169,,,Not Released,,In stock,None,1 Uses,iGEM13_UNITN-Trento,Gabriele Girelli,2013-08-13,,Transcriptional regulation.csv
+BBa_K1122674,Plac+fused PDC-ADH,3622,,,Not Released,,In stock,Works,Not Used,iGEM13_Edinburgh,"Aleksandra Lewicka, Jan Lyczakowski",2013-08-22,,Transcriptional regulation.csv
+BBa_K1039015,Inverted GFP,740,,,Not Released,,In stock,None,4 Uses,iGEM13_Waterloo,Jama Hagi-Yusuf,2013-09-13,,Transcriptional regulation.csv
+BBa_K1065103,PchBA,1892,,,Not Released,BBa_J45319,In stock,None,Not Used,iGEM13_UNITN-Trento,Caterina Marchioretti Michele Pedrotti,2013-08-28,,Transcriptional regulation.csv
+BBa_K1122676,IPTG inducible pdc and adhB,3660,,,Not Released,,In stock,Works,Not Used,iGEM13_Edinburgh,"Aleksandra Lewicka, Jan Lyczakowski",2013-08-30,,Transcriptional regulation.csv
+BBa_K1033120,B0034-ExpTag-Linker-Miraculin-Linker-6xHis,717,,Iowis Zhu:4,Not Released,,In stock,None,1 Uses,iGEM13_Uppsala,"Magnus Bergman, Pontus Danielsson, Alexander Wirtanen, Nils Anlind, Christoffer Frisk, Thorsteinn Olaufsson, Malin Borg, Niclas Sandberg ",2013-09-02,,Transcriptional regulation.csv
+BBa_K1223011,ampR translational unit (ampicilin resistance CDS+promoter),1014,,,Not Released,,In stock,Works,Not Used,iGEM13_BGU_Israel,Orr Schlesinger,2013-09-10,,Transcriptional regulation.csv
+BBa_K1223003,Kanamicin ressistance,967,,,Not Released,BBa_P1003,In stock,Works,Not Used,iGEM13_BGU_Israel,Orr Schlesinger,2013-09-07,,Transcriptional regulation.csv
+BBa_K1159213,Membrane-anchored SpyCatcher with secretory nLuc_SpyTag reporter fusion translational unit,2725,,,Not Released,,In stock,,Not Used,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-17,,Transcriptional regulation.csv
+BBa_K1017602,37℃ RBS  + mGFP,778,,,Not Released,,In stock,Works,Not Used,iGEM13_NCTU_Formosa,Wen-Hui Cheng,2013-09-12,,Transcriptional regulation.csv
+BBa_K1017603,37℃ RBS + LuxR,839,,,Not Released,,In stock,Works,Not Used,iGEM13_NCTU_Formosa,Wen-Hui Cheng,2013-09-12,,Transcriptional regulation.csv
+BBa_K1115004,dhlA Haloalkane dehalogenase,958,,,Not Released,,In stock,None,Not Used,iGEM13_SydneyUni_Australia,Robert Oppenheimer,2013-09-14,,Transcriptional regulation.csv
+BBa_K1115006,dhlB + dhlA ligated with HindIII,1744,,,Not Released,BBa_K1115008,In stock,None,Not Used,iGEM13_SydneyUni_Australia,Vivian Li,2013-09-15,,Transcriptional regulation.csv
+BBa_K1039019,pVIII of M13 Bacteriophage with strong RBS (B0034),240,,,Not Released,BBa_K415100,In stock,None,Not Used,iGEM13_Waterloo,Julia Manalil,2013-09-16,,Transcriptional regulation.csv
+BBa_K1159113,Eukaryotic light-switchable TEV Protease translational unit (PhyB/PIF3 based),4625,,,Not Released,,In stock,,No Results,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-16,,Transcriptional regulation.csv
+BBa_K1159114,Eukaryotic light-switchable TEV Protease translational unit (PhyB/PIF6 based),4625,,,Not Released,,In stock,,No Results,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-16,,Transcriptional regulation.csv
+BBa_K1159115,Eukaryotic light-switchable TEV Protease translational unit (PhyB/PIF3 based) with downstream IRES,5269,,,Not Released,,In stock,,2 Uses,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-16,,Transcriptional regulation.csv
+BBa_K1159116,Eukaryotic light-switchable TEV Protease translational unit (PhyB/PIF6 based) with downstream IRES,5269,,,Not Released,,In stock,,2 Uses,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-16,,Transcriptional regulation.csv
+BBa_K1159117,Red light triggered Kill Switch for plants translation unit (PhyB/PIF3 version),6191,,,Not Released,,In stock,,No Results,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-16,,Transcriptional regulation.csv
+BBa_K1159118,Red light triggered Kill Switch for plants translation unit (PhyB/PIF6 version),6191,,,Not Released,,In stock,,No Results,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-16,,Transcriptional regulation.csv
+BBa_K1159120,Red light triggered TEV Protease with FRET Reporter for plants translation unit (PhyB/PIF6 version),6751,,,Not Released,,In stock,,No Results,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-16,,Transcriptional regulation.csv
+BBa_K1159119,Red light triggered TEV Protease with FRET Reporter for plants translation unit (PhyB/PIF3 version),6751,,,Not Released,,In stock,None,Experience: None,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-16,,Transcriptional regulation.csv
+BBa_K1159212,Membrane-anchored SpyCatcher with secretory SpyTag_nLuc reporter fusion translational unit,2725,,,Not Released,,In stock,,Not Used,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-17,,Transcriptional regulation.csv
+BBa_K1159214,Membrane-anchored SpyTag with secretory nLuc_SpyCatcher reporter fusion translational unit,2725,,,Not Released,,In stock,,Not Used,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-17,,Transcriptional regulation.csv
+BBa_K1159215,Membrane-anchored SpyTag with secretory SpyCatcher_nLuc reporter fusion translational unit,2725,,,Not Released,,In stock,,Not Used,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-17,,Transcriptional regulation.csv
+BBa_K1115008,dhlB + dhlA ligated with HindIII,1744,,,Not Released,BBa_K1115006,In stock,,2 Uses,iGEM13_SydneyUni_Australia,Andrew Tuckwell,2013-09-17,,Transcriptional regulation.csv
+BBa_K1202109,LsrK Generator,1643,,,Not Released,,In stock,Works,1 Uses,iGEM13_ATOMS-TURKIYE,Ömer Bilgiç,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202108,pLsr promoter and LsrR Generator,1799,,,Not Released,,In stock,Works,1 Uses,iGEM13_ATOMS-TURKIYE,Ömer Bilgiç,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202110,AI-2 Generator (LuxS-Pfs),1307,,,Not Released,,In stock,None,Not Used,iGEM13_ATOMS-TURKIYE,safa tapan,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202114,C215 Presenting Dock (With OmpA),914,,,Not Released,,In stock,Works,Not Used,iGEM13_ATOMS-TURKIYE,Muhammed Taha Akcay,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202115,Tat Apoptin For Bacterial Secretion With TorA Signal Peptide,745,,,Not Released,,In stock,,Not Used,iGEM13_ATOMS-TURKIYE,safa tapan,2013-09-24,,Transcriptional regulation.csv
+BBa_T6001,test translational unit,738,,,Not Released,BBa_I13500;BBa_J70382;BBa_J85201;BBa_K1001756;BBa_S05211;BBa_K1461312;BBa_T6002,In stock,,Not Used,Registry,Vinoo Selvarajah,2014-09-04,,Transcriptional regulation.csv
+BBa_K1429001,"Red Fluorescent Protein (RFP) ""Rudolph"" coding region, intellectual property-free",703,,,Not Released,,In stock,Works,1 Uses,iGEM14_Genspace,Ramsez McCall,2014-09-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1364003,RBS - Antifungal D4E1 - Double terminator,322,,,Not Released,,In stock,Works,2 Uses,iGEM14_Toulouse,Jourdan Camille,2014-09-25,,Transcriptional regulation.csv
+BBa_K1461312,pEpCAM-RBS-GFP-4 miR 142 3p site-d.term,738,,,Not Released,BBa_I13500;BBa_J70382;BBa_J85201;BBa_K1001756;BBa_S05211;BBa_T6001;BBa_T6002,In stock,,Not Used,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1402005,RBS-AtFatA-Terminator,1558,,,Not Released,,In stock,,1 Uses,iGEM14_NJU-QIBEBT,Chen Xi,2014-09-29,,Transcriptional regulation.csv
+BBa_K1402001,RBS-MsbA-Terminator,1890,,,Not Released,,In stock,None,1 Uses,iGEM14_NJU-QIBEBT,Chen Xi,2014-09-29,,Transcriptional regulation.csv
+BBa_K1429002,"Cyan Fluorescent Protein (CFP) ""Cindy Lou"" coding region, intellectual property-free",724,,,Not Released,,In stock,Works,Not Used,iGEM14_Genspace,Christal Gordon,2014-09-29,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1465206,"Shell-proteins (csoS4AB, csoS1CAB) of the carboxysome of Halothiobacillus neapolitanus",1654,,,Not Released,,In stock,None,1 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-09-29,,Transcriptional regulation.csv
+BBa_K1505000,RBS+mntH,1324,,,Not Released,,In stock,None,Not Used,iGEM14_Penn,Renyao Wei,2014-10-09,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1521000,Quorum threshold expression element (qteE) from Pseudomonas aeruginosa + SpoVg RBS,591,,,Not Released,,In stock,,No Results,iGEM14_USP-UNESP-UFSCar-BRA,Danilo Keiji Zampronio,2014-10-01,,Transcriptional regulation.csv
+BBa_K1364002,RBS - Antifungal GAFP-1,187,,,Not Released,,In stock,Works,3 Uses,iGEM14_Toulouse,Manon Molina,2014-10-01,,Transcriptional regulation.csv
+BBa_K1465207,Pore-forming protein (csoS1D) of the carboxysome of Halothiobacillus neapolitanus,663,,,Not Released,,In stock,None,1 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-01,,Transcriptional regulation.csv
+BBa_K1319020,Translational unit of mRFP-galectin3-his,1613,,,Not Released,,In stock,,Not Used,iGEM14_Aachen,Michael Osthege,2014-10-01,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1362172,Split sfGFP reconstitution C-terminal non-splicing control half,707,,Heidelberg 2014:5,Not Released,,In stock,Works,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena Buescher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Schaefer, Carolin Schmelas, Silvan Schmitz, Max Waldhauer",2014-10-10,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1364000,N-acetylatedGlucosamine based chemotaxis for Bacillus subtilis,2239,,,Not Released,,In stock,Works,1 Uses,iGEM14_Toulouse,Jourdan Camille,2014-10-03,,Transcriptional regulation.csv
+BBa_K1465103,Fumarate reductase subunit A (FumA) from Actinobacillus succinogenes,1803,,,Not Released,,In stock,Works,1 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-03,,Transcriptional regulation.csv
+BBa_K1402015,RBS-BTE-Terminator,1702,,,Not Released,,In stock,,Not Used,iGEM14_NJU-QIBEBT,Chen Xi,2014-10-04,,Transcriptional regulation.csv
+BBa_K1526000,SpPCS: Phytochelatin synthase from Schizosaccharomyces pombe,1269,,,Not Released,,In stock,None,2 Uses,iGEM14_York,Teodora Manea,2014-10-05,,Transcriptional regulation.csv
+BBa_K1526001,Gsh1*: Mutated Glutamate-Cysteine Ligase(Gsh1) from Saccharomyces cerevisiae,1581,,,Not Released,,In stock,None,1 Uses,iGEM14_York,Ruth Haley,2014-10-05,,Transcriptional regulation.csv
+BBa_K1465228,"Sedoheptulose 1,7-bisphosphatase (glpX) from Bacillus methanolicus",975,,,Not Released,,In stock,Works,1 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-05,,Transcriptional regulation.csv
+BBa_K1465302,Isobutanol pathway,6738,,,Not Released,,In stock,Works,2 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1497011,B0034-ANS,1170,,,Not Released,,In stock,Works,2 Uses,iGEM14_TU_Darmstadt,"Sascha Hein, Sven Jager, Thomas Dohmen",2014-10-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1526003,CysP from Bacillus subtilis,1089,,,Not Released,,In stock,,1 Uses,iGEM14_York,Cauã Westmann,2014-10-07,,Transcriptional regulation.csv
+BBa_K1497013,B0034-DFR,1080,,,Not Released,,In stock,Works,5 Uses,iGEM14_TU_Darmstadt,"Bastian Wagner, Christian Mende, Andreas Schmidt, Max Dombrowsky",2014-10-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1362011,RBS + λ-Lysozyme,539,,,Not Released,,In stock,Works,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1362050,Intein protease - T7RBS-His-SspDnaBC,500,,,Not Released,,In stock,None,1 Uses,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1362013,RBS + Circular λ-Lysozyme with rigid linker,1016,,,Not Released,,In stock,None,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1362021,RBS + Circular Xylanase with His6 linker,1070,,,Not Released,,In stock,None,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1362020,RBS + Xylanase,582,,,Not Released,,In stock,None,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1362023,RBS + Xylanase (with His6),612,,,Not Released,,In stock,None,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1465303,,7781,,,Not Released,,In stock,Works,1 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-08,,Transcriptional regulation.csv
+BBa_K1362170,Split sfGFP reconstitution positive control,791,,Heidelberg 2014:5,Not Released,,In stock,Works,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena Buescher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Schaefer, Carolin Schmelas, Silvan Schmitz, Max Waldhauer",2014-10-09,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1505002,RBS+mntH+mCerulean,2034,,,Not Released,,In stock,None,Not Used,iGEM14_Penn,"Jane Shmushkis, Amey Vrudhula",2014-10-10,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1362173,Split sfGFP reconstitution N-terminal splicing half,575,,Heidelberg 2014:5,Not Released,,In stock,Works,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena Buescher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Schaefer, Carolin Schmelas, Silvan Schmitz, Max Waldhauer",2014-10-10,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1362174,Split sfGFP reconstitution N-terminal non-splicing control half,575,,,Not Released,,In stock,Works,Not Used,iGEM14_Heidelberg,Jan Gleixner,2014-10-10,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1375005,RBS+amilCP+DT,824,,,Not Released,BBa_K1155003;BBa_K1387000;BBa_K1357009,In stock,,Not Used,iGEM14_SCU-China,Zheng Xu,2014-10-10,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,Transcriptional regulation.csv
+BBa_K1500008,IPTG-GFP mutated MutY,2026,,,Not Released,,In stock,,Not Used,iGEM14_uchicago_IGSB,Kevin Yang,2014-10-17,,Transcriptional regulation.csv
+BBa_C0260,"autoinducer inactivation enzyme, AaiiA (+RBS)",832,,Antiquity:0,Not Released,BBa_S01415;BBa_K1529240,It's complicated,None,14 Uses,Antiquity,robertb,2004-08-23,,Transcriptional regulation.csv
+BBa_I15019,B0031.ECFP,743,,Antiquity:0,Not Released,,It's complicated,None,Not Used,UTAustin,Jeff Tabor,2005-04-15,,Transcriptional regulation.csv
+BBa_I15020,B0031.EYFP,743,,Antiquity:0,Not Released,BBa_J70371,It's complicated,None,Not Used,UTAustin,Jeff Tabor,2005-04-15,,Transcriptional regulation.csv
+BBa_I15013,B0030.EYFP,744,,Antiquity:0,Not Released,BBa_J70370,It's complicated,None,Not Used,UTAustin,Jeff Tabor,2005-05-12,,Transcriptional regulation.csv
+BBa_I15012,B0030.ECFP,744,,Antiquity:0,Not Released,,It's complicated,None,1 Uses,UTAustin,Jeff Tabor,2005-05-12,,Transcriptional regulation.csv
+BBa_E5500,B0030.E0040,741,,Antiquity:0,Not Released,BBa_S04119;BBa_J70378,It's complicated,None,17 Uses,Registry,jcbraff,2005-05-17,,Transcriptional regulation.csv
+BBa_I742164,ftsK (cell division protein) of E. coli with native rbs,4016,1,,Not Released,,It's complicated,None,Not Used,iGEM07_Edinburgh,Caroline Dahl and Xiaonan Wang,2007-10-25,,Transcriptional regulation.csv
+BBa_K091158,RBS+lsrK,1611,,,Not Released,BBa_K848001,It's complicated,Works,Not Used,iGEM08_Davidson-Missouri_Western,Xiao Zhu,2008-07-28,,Transcriptional regulation.csv
+BBa_K131015,LuxPQ from Vibrio harveyi,3825,1,,Not Released,BBa_K218000,It's complicated,None,1 Uses,iGEM08_Calgary_Wetware,Thane Kubik,2008-09-28,,Transcriptional regulation.csv
+BBa_K112227,"{rbs.ompT} The ompT gene with native rbs, BBb format",83,,,Not Released,,It's complicated,None,2 Uses,iGEM08_UC_Berkeley,Molly Allen,2008-10-21,,Transcriptional regulation.csv
+BBa_K112120,rbs.BamHI,661,,,Not Released,,It's complicated,None,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,Transcriptional regulation.csv
+BBa_K112232,rbs.barstar!,292,,,Not Released,,It's complicated,None,1 Uses,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,Transcriptional regulation.csv
+BBa_K132000,RBS+kanR+LVA,870,,,Not Released,,In stock,None,5 Uses,iGEM08_Tianjin,"Du Jin,Hou Nan,Liu Duo,Yuan Fang,Zhang Weiran",2008-10-22,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K132001,RBS+cmR+LVA,716,,,Not Released,,It's complicated,None,3 Uses,iGEM08_Tianjin,"Du Jin,Hou Nan,Liu Duo,Zhang Weiran,Yuan Fang",2008-10-22,,Transcriptional regulation.csv
+BBa_K098999,mtrB with RBS,2112,,,Not Released,,It's complicated,None,1 Uses,iGEM08_Harvard,Harvard iGEM 08,2008-10-26,,Transcriptional regulation.csv
+BBa_K156024,RBS + OFP,883,,,Not Released,,It's complicated,None,1 Uses,iGEM08_Virginia,George McArthur IV,2008-10-28,,Transcriptional regulation.csv
+BBa_K156025,RBS + SBFP2,739,,,Not Released,,It's complicated,None,Not Used,iGEM08_Virginia,George McArthur IV,2008-10-28,,Transcriptional regulation.csv
+BBa_K156026,Strong RBS + SBFP2,738,,,Not Released,,It's complicated,None,2 Uses,iGEM08_Virginia,George McArthur IV,2008-10-28,,Transcriptional regulation.csv
+BBa_K116512,SasA with RBS(B0034+K116502) ,1182,,,Not Released,,It's complicated,None,1 Uses,iGEM08_NYMU-Taipei,Chun-Ju Yang,2008-10-28,,Transcriptional regulation.csv
+BBa_K112121,BglII endonuclease with ribosome binding site,696,,,Not Released,,It's complicated,None,2 Uses,iGEM08_UC_Berkeley,Madhvi Venkatesh,2008-10-29,,Transcriptional regulation.csv
+BBa_K165057,Kozak + mCherry,761,,,Not Released,,It's complicated,None,Not Used,iGEM08_BrownTwo,John Szymanski,2008-10-29,,Transcriptional regulation.csv
+BBa_K165058,Kozak + YFP,770,,,Not Released,,It's complicated,None,Not Used,iGEM08_BrownTwo,John Szymanski,2008-10-29,,Transcriptional regulation.csv
+BBa_K165059,Kozak + CFPx2 ,1520,,,Not Released,,It's complicated,None,Not Used,iGEM08_BrownTwo,John Szymanski,2008-10-29,,Transcriptional regulation.csv
+BBa_K176027,PoPS->RBS+lacZalpha-ccdB->PoPS,498,,,Not Released,,It's complicated,Works,1 Uses,iGEM09_USTC,"Zongxiao He, Hao Jiang",2009-07-18,,Transcriptional regulation.csv
+BBa_K216002,TNT Receptor TNT-R1,851,,,Not Released,,It's complicated,None,1 Uses,iGEM09_Edinburgh,Edinburgh iGEM 2009,2009-08-04,,Transcriptional regulation.csv
+BBa_K176061,PoPS->RBS(weak)+lacZalpha-ccdB->PoPS,500,,,Not Released,,It's complicated,None,1 Uses,iGEM09_USTC,"Zongxiao He, Hao Jiang",2009-08-07,,Transcriptional regulation.csv
+BBa_K176106,PoPS->RBS+GFP->RBS+luxI-LVA->PoPS,1407,,,Not Released,,It's complicated,None,3 Uses,iGEM09_USTC,"Danqian Liu, Hao Jiang",2009-08-10,,Transcriptional regulation.csv
+BBa_K228801,RBS(B0030)+lacI(C0012),1174,,,Not Released,BBa_I14002;BBa_J09339;BBa_S05375;BBa_K1899012,It's complicated,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K228802,RBS(B0032)+lacI(C0012),1172,,,Not Released,BBa_S03163;BBa_I14043;BBa_J24684;BBa_S05101;BBa_K1899009,It's complicated,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K228804,RBS(J61100)+lacI(C0012),1171,,,Not Released,,It's complicated,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K228805,RBS(J61107)+lacI(C0012),1171,,,Not Released,,It's complicated,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K228806,RBS(J61127)+lacI(C0012),1171,,,Not Released,,It's complicated,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K228807,RBS(B0030)+tetR(C0040),706,,,Not Released,BBa_S03162;BBa_I14003;BBa_J09042;BBa_K1899011,It's complicated,Issues,1 Uses,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K228808,RBS(B0032)+tetR(C0040),704,,,Not Released,BBa_S03164;BBa_J09047;BBa_J24687;BBa_K136050;BBa_K177043;BBa_S05102;BBa_K1899010,It's complicated,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K228810,RBS(J61100)+tetR(C0040),703,,,Not Released,,It's complicated,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K228811,RBS(J61107)+tetR(C0040),703,,,Not Released,,It's complicated,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K228864,RBS(B0034)-mutated PhiR73 delta(K228863),261,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_PKU_Beijing,Lin Min,2009-09-22,,Transcriptional regulation.csv
+BBa_K173014,adhB translational unit (RBS B0030),1176,,,Not Released,,It's complicated,None,2 Uses,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Giulio Chiesa, Paolo Magni",2009-10-16,,Transcriptional regulation.csv
+BBa_K228032,RBS and AraC coding sequence,958,,,Not Released,,It's complicated,Works,1 Uses,iGEM09_PKU_Beijing,Gao Rencheng,2009-09-22,,Transcriptional regulation.csv
+BBa_K228033,RBS and AraC coding sequence,958,,,Not Released,,It's complicated,Works,Not Used,iGEM09_PKU_Beijing,Gao Rencheng,2009-09-22,,Transcriptional regulation.csv
+BBa_K228034,RBS and AraC coding sequence,961,,,Not Released,BBa_I14010,It's complicated,Works,Not Used,iGEM09_PKU_Beijing,Gao Rencheng,2009-09-22,,Transcriptional regulation.csv
+BBa_K228035,RBS and AraC coding sequence,958,,,Not Released,BBa_S03153;BBa_S03519;BBa_S03550;BBa_J24682,It's complicated,Works,Not Used,iGEM09_PKU_Beijing,Gao Rencheng,2009-09-22,,Transcriptional regulation.csv
+BBa_K228036,RBS and AraC coding sequence,958,,,Not Released,,It's complicated,Works,Not Used,iGEM09_PKU_Beijing,Gao Rencheng,2009-09-22,,Transcriptional regulation.csv
+BBa_K228037,RBS and AraC coding sequence,959,,,Not Released,BBa_J24681,It's complicated,Works,Not Used,iGEM09_PKU_Beijing,Gao Rencheng,2009-09-22,,Transcriptional regulation.csv
+BBa_K176159,PoPS->RBS+ccdB-LVA->PoPS,360,,,Not Released,,It's complicated,None,1 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,Transcriptional regulation.csv
+BBa_K176160,PoPS->RBS+lacZalpha-ccdB-LVA->PoPS,531,,,Not Released,,It's complicated,None,1 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,Transcriptional regulation.csv
+BBa_K176162,PoPS->RBS(weak)+lacZalpha-ccdB-LVA->PoPS,533,,,Not Released,,It's complicated,None,1 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,Transcriptional regulation.csv
+BBa_K216003,TNT receptor TNT-R3,851,,,Not Released,,It's complicated,None,Not Used,iGEM09_Edinburgh,Edinburgh iGEM 2009,2009-09-25,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K216004,Trz hybrid signal transduction protein,1505,,,Not Released,,It's complicated,None,1 Uses,iGEM09_Edinburgh,Edinburgh iGEM 2009,2009-09-25,,Transcriptional regulation.csv
+BBa_K176191,PoPS->RBS(weak)+AID->PoPS,620,,,Not Released,,It's complicated,None,3 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-10,,Transcriptional regulation.csv
+BBa_K176223,PoPS->RBS+mRFP->RBS+luxI-LVA->PoPS,1393,,,Not Released,,It's complicated,None,2 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-10,,Transcriptional regulation.csv
+BBa_K173013,pdc translational unit (RBS B0030),1731,,,Not Released,,It's complicated,None,2 Uses,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Giulio Chiesa, Paolo Magni",2009-10-16,,Transcriptional regulation.csv
+BBa_K216006,pentaerythritol tetranitrate reductase with native rbs,1109,,,Not Released,,It's complicated,None,1 Uses,iGEM09_Edinburgh,Edinburgh iGEM 2009,2009-10-16,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K216007,lumazine protein,584,,,Not Released,,It's complicated,None,Not Used,iGEM09_Edinburgh,Edinburgh iGEM 2009,2009-10-16,,Transcriptional regulation.csv
+BBa_K218000,LuxPQ from Vibrio harveyi,3825,,,Not Released,BBa_K131015,It's complicated,,2 Uses,iGEM09_Calgary,Jeremy Kubik,2009-10-16,,Transcriptional regulation.csv
+BBa_K218001,LuxOU from Vibrio harveyi,1945,,,Not Released,BBa_K131016,It's complicated,,5 Uses,iGEM09_Calgary,Jeremy Kubik,2009-10-17,,Transcriptional regulation.csv
+BBa_K206009,rbs - GFP_LVA,777,,,Not Released,BBa_K188224;BBa_J102000,It's complicated,Works,4 Uses,iGEM09_British_Columbia,Amelia Hardjasa,2009-10-18,,Transcriptional regulation.csv
+BBa_K218026,Rbs-autoinducer inactivation Enzyme (aiiA)- Double terminators,911,,,Not Released,BBa_I13911;BBa_P34160,It's complicated,,Not Used,iGEM09_Calgary,Prima Moinul,2009-10-18,,Transcriptional regulation.csv
+BBa_J18945,ZipR34 ~ GLucFrag2,683,,,Not Released,,It's complicated,None,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18946,ZipE34 ~ bla-frag1,998,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18947,Lov2 ~ GLucFrag1,1016,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18941,FRB ~ GLucFrag2,833,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18940,FRB ~ GLucFrag1,881,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18939,FKBP ~ bla-frag2,935,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18938,FKBP ~ bla-frag1,1190,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18948,Lov2 ~ GLucFrag2,968,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18934,FKBP~GLucFrag2,875,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18935,FKBP ~ mCitrine,1361,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18936,FKBP ~ mCherry,1352,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18937,FKBP ~ mCerulean,1361,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18944,ZipE34 ~ mCerulean,1169,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18949,GLucFrag1 ~ Lov2,1016,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18933,FKBP~GLucFrag1,923,,,Not Released,,It's complicated,Issues,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18942,FRB ~ mCherry,1310,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18943,ZipE34 ~ GLucFrag1,731,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18950,mCitrine ~ Lov2,1454,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18951,FRB ~ mCitrine,1319,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18952,FRB ~ mCerulean,1319,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18953,ZipE34 ~ mCherry,1160,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18954,ZipR34 ~ mCitrine,1169,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18955,Lov2 ~ mCitrine,1454,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18956,Lov2 ~ mCerulean,1454,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J18957,mCerulean ~ Lov2,1454,,,Not Released,,It's complicated,,Not Used,Affiliates,Raik Gruenberg,2010-01-26,,Transcriptional regulation.csv
+BBa_J102000,RBS + GFP with LVA,777,,,Not Released,BBa_K206009;BBa_K188224,It's complicated,None,1 Uses,Emberly_Lab,Michael Pettigrew,2010-07-02,,Transcriptional regulation.csv
+BBa_K415126,RBS_weak:pVIII-cys, ,,,Not Released,,No part sequence,None,No Sequence,iGEM10_MIT,Shirley Galbiati,2010-07-09,,Transcriptional regulation.csv
+BBa_K371000,pduJK(Propanediol utilization gene J+K)[RBS+pduJ+RBS+pduK],783,,,Not Released,,It's complicated,Works,2 Uses,iGEM10_USTC,Yang Zhang,2010-08-27,,Transcriptional regulation.csv
+BBa_K371001,pduAB(Propanediol utilization gene A+B)[RBS+pduA+RBS+pduB],1112,,,Not Released,,It's complicated,Works,2 Uses,iGEM10_USTC,Yang Zhang,2010-08-27,,Transcriptional regulation.csv
+BBa_K371003,pduAB+pduJK,1903,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_USTC,Yang Zhang,2010-08-27,,Transcriptional regulation.csv
+BBa_K371004,pduN(Propanediol utilization gene N)[RBS+pduN],294,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_USTC,Yang Zhang,2010-08-27,,Transcriptional regulation.csv
+BBa_K371005,pduTUV(Propanediol utilization gene T+U+V)[RBS+pduT+RBS+pduU+RBS+pduV],1396,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_USTC,Yang Zhang,2010-08-27,,Transcriptional regulation.csv
+BBa_K371006,pduN+pduTUV,1698,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_USTC,Yang Zhang,2010-08-27,,Transcriptional regulation.csv
+BBa_K371007,pduAB+pduJK+pduN+pduTUV,3609,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_USTC,Yang Zhang,2010-08-27,,Transcriptional regulation.csv
+BBa_K358012,SΔTMD1,289,,,Not Released,,It's complicated,,2 Uses,iGEM10_Kyoto,Ken Kajita,2010-09-19,,Transcriptional regulation.csv
+BBa_K322124,Red light sensor Cph8 (from Coliroid) with RBS,2253,,,Not Released,,It's complicated,None,7 Uses,iGEM10_Edinburgh,Chris French  and Richard Edward Partridge-Hicks,2010-09-25,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K322210,Chloramphenicol acetyltransferase (cat),1081,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_Edinburgh,Geraldine Avila,2010-09-25,,Transcriptional regulation.csv
+BBa_K322123,Phycobilin synthesis operon without terminator,1399,,,Not Released,,It's complicated,None,6 Uses,iGEM10_Edinburgh,Chris French  and Richard Edward Partridge-Hicks,2010-09-25,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K322122,Phycocyanobilin synthesis operon,1531,,,Not Released,,It's complicated,None,1 Uses,iGEM10_Edinburgh,Chris French  and Richard Edward Partridge-Hicks,2010-09-26,,Transcriptional regulation.csv
+BBa_K322921,B. subtilis levansucrase. Lethal to E. coli in presence of sucrose.,1437,,,Not Released,,It's complicated,Works,9 Uses,iGEM10_Edinburgh,Chris French  and Maria Kowal,2010-09-24,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K322007,,582,,,Not Released,,It's complicated,None,2 Uses,iGEM10_Edinburgh,Chris French and Maria Kowal,2010-09-26,,Transcriptional regulation.csv
+BBa_K395160,RBS-CmR(no promoter and terminator),679,,,Not Released,,It's complicated,Works,11 Uses,iGEM10_Tokyo_Tech,Kaneta Yusuke,2010-10-02,,Transcriptional regulation.csv
+BBa_K395705,crtW (beta-carotene ketolase) with rbs ,751,,,Not Released,,It's complicated,Works,3 Uses,iGEM10_Tokyo_Tech,Yumiko Kinoshita,2010-10-06,,Transcriptional regulation.csv
+BBa_K346001,RBS (B0034) + MerR (mercury-responsive transcription factor),453,,,Not Released,,It's complicated,Works,9 Uses,iGEM10_Peking,Ao Liu & Ying Sheng,2010-10-08,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K329000,Medium RBS (B0032) - Tetracycline resistance protein TetA(C) (J31007),1210,,,Not Released,,It's complicated,None,Not Used,iGEM10_Paris_Liliane_Bettencourt,Raphael Pantier,2010-10-12,,Transcriptional regulation.csv
+BBa_K398402,Prefoldin-alpha generator,517,,,Not Released,,It's complicated,Works,Not Used,iGEM10_TU_Delft,Hugo Federico Cueto Rojas,2010-10-12,,Transcriptional regulation.csv
+BBa_K398403,Prefoldin-beta generator,415,,,Not Released,,It's complicated,Works,Not Used,iGEM10_TU_Delft,Hugo Federico Cueto Rojas,2010-10-12,,Transcriptional regulation.csv
+BBa_K329003,Strong RBS (B0034) - Tetracycline resistance protein TetA(C) (J31007),1209,,,Not Released,BBa_S03710;BBa_J85206;BBa_J85100;BBa_S05245,It's complicated,None,1 Uses,iGEM10_Paris_Liliane_Bettencourt,Raphael Pantier,2010-10-12,,Transcriptional regulation.csv
+BBa_K329004,Weak RBS (B0031) - Tetracycline resistance protein TetA(C) (J31007),1211,,,Not Released,,It's complicated,,1 Uses,iGEM10_Paris_Liliane_Bettencourt,Raphael Pantier,2010-10-12,,Transcriptional regulation.csv
+BBa_K329006,Weak RBS (B0031) - LacZ alpha fragment (I732006),254,,,Not Released,,It's complicated,,Not Used,iGEM10_Paris_Liliane_Bettencourt,Raphael Pantier,2010-10-12,,Transcriptional regulation.csv
+BBa_K329007,Strong RBS (B0034) - LuxR (C0062),799,,,Not Released,BBa_S01414;BBa_S01640;BBa_J37033;BBa_S03613;BBa_I726002;BBa_S04213;BBa_K188124,It's complicated,,Not Used,iGEM10_Paris_Liliane_Bettencourt,Raphael Pantier,2010-10-12,,Transcriptional regulation.csv
+BBa_K346003,RBS(B0032)+MBP(mercury metal binding peptide engineered from MerR),342,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_Peking,Huyang Tengxin,2010-10-14,,Transcriptional regulation.csv
+BBa_K329010,RBS + Int HK022,1074,,,Not Released,,It's complicated,None,1 Uses,iGEM10_Paris_Liliane_Bettencourt,Xavier Duportet,2010-10-17,,Transcriptional regulation.csv
+BBa_K329011,RBS + Xis-Int HK022,1292,,,Not Released,,It's complicated,None,1 Uses,iGEM10_Paris_Liliane_Bettencourt,Xavier Duportet,2010-10-17,,Transcriptional regulation.csv
+BBa_K317018,RBS-Antigen 43,3138,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Tokyo-NoKoGen,Yuta Sakai,2010-10-19,,Transcriptional regulation.csv
+BBa_K316015,"ComD receptor for CSP-1 (S. pneumoniae), phosphorylates ComE",1375,,,Not Released,,It's complicated,None,Not Used,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-20,,Transcriptional regulation.csv
+BBa_K341004,recombination sequence +mCherry+I-Sce I cutting site,731,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Tsinghua,Danyang He,2010-10-20,,Transcriptional regulation.csv
+BBa_K341005,recombination sequence + Kan+I-Sce I cutting site,877,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Tsinghua,Danyang He,2010-10-20,,Transcriptional regulation.csv
+BBa_K341006,recombination sequence +chlr+I-Sce I cutting site,721,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Tsinghua,Danyang He,2010-10-20,,Transcriptional regulation.csv
+BBa_K323123,Jazz::crtE,1259,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Tina Ilc,2010-10-20,,Transcriptional regulation.csv
+BBa_K323127,Gli1:crtZ,1088,,,Not Released,,It's complicated,None,Not Used,iGEM10_Slovenia,Tina Ilc,2010-10-20,,Transcriptional regulation.csv
+BBa_K316030,LytC cell wall anchoring protein for B. subtilis,974,,,Not Released,,It's complicated,None,1 Uses,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-20,,Transcriptional regulation.csv
+BBa_K323128,HivC::crtO,1946,,,Not Released,,It's complicated,None,1 Uses,iGEM10_Slovenia,Tina Ilc,2010-10-20,,Transcriptional regulation.csv
+BBa_K341444,mCherry -> landing pad -> I-Scel site, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Tsinghua,ZHANG Yunxiao,2010-10-20,,Transcriptional regulation.csv
+BBa_K323126,PbsII::crtY,1475,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Tina Ilc,2010-10-20,,Transcriptional regulation.csv
+BBa_K323125,Zif268:crtI,1811,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Tina Ilc,2010-10-20,,Transcriptional regulation.csv
+BBa_K323124,Blues::crtB,1280,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Tina Ilc,2010-10-20,,Transcriptional regulation.csv
+BBa_K317041,RBS(B0034)-pduABJKNU-Term(B0015) ,2743,,,Not Released,,It's complicated,,2 Uses,iGEM10_Tokyo-NoKoGen,Yoshiyuki MURAKAMI,2010-10-21,,Transcriptional regulation.csv
+BBa_K341011,recombination sequence+mCherry+Chlr+I-SceI cutting site, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Tsinghua,Danyang He,2010-10-21,,Transcriptional regulation.csv
+BBa_K341012,recombination sequence+Kan+Chlr+I-SceI cutting site, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Tsinghua,Danyang He,2010-10-21,,Transcriptional regulation.csv
+BBa_K341013,recombination sequence+Kan+Chlr+I-SceI cutting site, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Tsinghua,Danyang He,2010-10-21,,Transcriptional regulation.csv
+BBa_K341014,recombination sequence+eGFP+mCherry+Kan+Chlr, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Tsinghua,Danyang He,2010-10-21,,Transcriptional regulation.csv
+BBa_K427002,Mor protein of Mu bacteriophage,405,,,Not Released,,It's complicated,None,2 Uses,iGEM10_Tec-Monterrey,Jan Marte Contreras Ortiz,2010-10-22,,Transcriptional regulation.csv
+BBa_K427001,C protein of the Mu bacteriophage,438,,,Not Released,,It's complicated,None,2 Uses,iGEM10_Tec-Monterrey,Jan Marte Contreras Ortiz,2010-10-22,,Transcriptional regulation.csv
+BBa_K329012,RBS + Int Lambda,1300,,,Not Released,,It's complicated,None,Not Used,iGEM10_Paris_Liliane_Bettencourt,Xavier Duportet,2010-10-23,,Transcriptional regulation.csv
+BBa_K325102,,948,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Cambridge,Anja Hohmann and Emily Knott,2010-10-23,,Transcriptional regulation.csv
+BBa_K325202,,950,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Cambridge,Paul Masset and Theo Sanderson,2010-10-23,,Transcriptional regulation.csv
+BBa_K332033,37℃ induced RBS + tetR + double terminator,864,,,Not Released,,It's complicated,Works,7 Uses,iGEM10_NCTU_Formosa,"KUO, CHIA-CHUN",2010-10-24,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K329014,RBS - IntI1,1037,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_Paris_Liliane_Bettencourt,Raphael Pantier,2010-10-24,,Transcriptional regulation.csv
+BBa_K329016,RBS + Xis-Int Lambda,1288,,,Not Released,,It's complicated,None,1 Uses,iGEM10_Paris_Liliane_Bettencourt,Xavier Duportet,2010-10-24,,Transcriptional regulation.csv
+BBa_K329018,RBS + Xis-Int Tn916,1658,,,Not Released,,It's complicated,None,1 Uses,iGEM10_Paris_Liliane_Bettencourt,Xavier Duportet,2010-10-24,,Transcriptional regulation.csv
+BBa_K329020,RBS - mccA ,45,,,Not Released,,It's complicated,,1 Uses,iGEM10_Paris_Liliane_Bettencourt,Xavier Duportet,2010-10-24,,Transcriptional regulation.csv
+BBa_K329024,Weak RBS (B0031) - LuxR (C0062),801,,,Not Released,,It's complicated,,Not Used,iGEM10_Paris_Liliane_Bettencourt,Raphael Pantier,2010-10-24,,Transcriptional regulation.csv
+BBa_K329025,Medium RBS (B0032) - LuxR (C0062),800,,,Not Released,BBa_K116616,It's complicated,,Not Used,iGEM10_Paris_Liliane_Bettencourt,Raphael Pantier,2010-10-24,,Transcriptional regulation.csv
+BBa_K323213,RBS crtO,1649,,,Not Released,,It's complicated,None,2 Uses,iGEM10_Slovenia,Tina Ilc,2010-10-25,,Transcriptional regulation.csv
+BBa_K316018,ComE responsive promoter,140,,,Not Released,,It's complicated,None,Not Used,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-25,,Transcriptional regulation.csv
+BBa_K316019,Reverse strand coding ComE responsive promoter,140,,,Not Released,,It's complicated,None,Not Used,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-25,,Transcriptional regulation.csv
+BBa_K376004,Anaerobic Fluorescent Protein with RBS,448,,,Not Released,,It's complicated,Works,2 Uses,iGEM10_Penn_State,Andrew Kirk,2010-10-26,,Transcriptional regulation.csv
+BBa_K376010,LuxR with RBS,799,,,Not Released,,It's complicated,Works,2 Uses,iGEM10_Penn_State,"Anisha Katyal, Andrew Kirk, Erik McCann, Lauren Rossi, Becky Hennessey",2010-10-27,,Transcriptional regulation.csv
+BBa_K371035,MPF(meta-prefix)+pduN+RBS+pduU+MSF(meta-suffix),678,,,Not Released,,It's complicated,Works,Not Used,iGEM10_USTC,Yang Zhang,2010-10-27,,Transcriptional regulation.csv
+BBa_K371036,MPF(meta-prefix)+pduN+RBS+pduT+MSF(meta-suffix),879,,,Not Released,,It's complicated,Works,Not Used,iGEM10_USTC,Yang Zhang,2010-10-27,,Transcriptional regulation.csv
+BBa_K608151,translational unit of pcyA,883,,,Not Released,,It's complicated,,Not Used,iGEM11_Freiburg,Julia Müller,2011-09-14,,Transcriptional regulation.csv
+BBa_K608352,Bacteriophage Lysis Cassette with RBS,1256,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Freiburg,Theodhor Tiko,2011-09-14,,Transcriptional regulation.csv
+BBa_K606029,RBS SpoVG GFPmut3b T7terminator ,1036,,,Not Released,,It's complicated,Works,2 Uses,iGEM11_Paris_Bettencourt,"Axel Séguret, Cyrille Pauthenier",2011-09-18,,Transcriptional regulation.csv
+BBa_S04606,S04603:S04602,1516,,,Not Released,,It's complicated,None,Not Used,Guests,Pinilla robin,2011-09-20,,Transcriptional regulation.csv
+BBa_K557001,Aptamer-CheZ: theophylline-sensitive synthetic riboswitch+phosphatase which dephosphorylates CheY-P,698,,,Not Released,,It's complicated,Works,2 Uses,iGEM11_USTC,Yinghong Lan,2011-10-02,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K625000,RBS-LacIM1,1121,,,Not Released,,It's complicated,,Not Used,iGEM11_ETH_Zurich,Michael Eichenberger,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K517004,ERG20,1059,,,Not Released,,It's complicated,None,Not Used,iGEM11_British_Columbia,Gurpal Bisra,2011-09-21,,Transcriptional regulation.csv
+BBa_K578005,J23102+E0840 (Constitutive GFP),921,,,Not Released,BBa_K299817,It's complicated,,Not Used,iGEM11_Arizona_State,Kylie Standage-Beier,2011-09-28,,Transcriptional regulation.csv
+BBa_K581021,RBS+afsA,924,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Peking_Signaling,"Wenhan Luo, Yanrong Ma",2011-09-28,,Transcriptional regulation.csv
+BBa_K567002,sulA promoter-tRNA(Arg),567,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Yunfeng Ruan and Chunying Li,2011-09-29,,Transcriptional regulation.csv
+BBa_K567011,PT7-TDRS,1775,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Bin Zhao,2011-09-29,,Transcriptional regulation.csv
+BBa_K567014,PT7-metGM,2265,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,You Wang,2011-09-29,,Transcriptional regulation.csv
+BBa_K622001,"glnL: coding a nitrogen regulatory protein, NtrB",1115,,,Not Released,,It's complicated,,Not Used,iGEM11_Kyoto,Fumitaka Hashiya,2011-10-01,,Transcriptional regulation.csv
+BBa_K622003,"glnG: coding a nitrogen regulatory protein, NtrC",1382,,,Not Released,,It's complicated,,Not Used,iGEM11_Kyoto,Fumitaka Hashiya,2011-10-01,,Transcriptional regulation.csv
+BBa_K622004,glnLG: coding both nitrogen regulatory protein NtrB and NtrC,2497,,,Not Released,,It's complicated,,Not Used,iGEM11_Kyoto,Fumitaka Hashiya,2011-10-01,,Transcriptional regulation.csv
+BBa_K557006,lasI+lasR,1376,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_USTC,Yinghong Lan,2011-10-02,,Transcriptional regulation.csv
+BBa_K917007,S. oneidensis decaheme cytochrome c electron export system mtrCAB,5232,,,Not Released,,It's complicated,None,Not Used,iGEM12_Edinburgh,Jakub Krakowiak,2012-08-10,,Transcriptional regulation.csv
+BBa_K917008,S. oneidensis decaheme cytochrome c mtrA,1024,,,Not Released,,It's complicated,None,Not Used,iGEM12_Edinburgh,Jakub Krakowiak,2012-08-10,,Transcriptional regulation.csv
+BBa_K734000,Caffeine demethylation pathway,5653,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Austin_Texas,Erik Quandt,2012-08-07,,Transcriptional regulation.csv
+BBa_K917009,S. oneidensis tetraheme cytochrome c cymA,599,,,Not Released,,It's complicated,Works,1 Uses,iGEM12_Edinburgh,Jakub Krakowiak,2012-08-10,,Transcriptional regulation.csv
+BBa_K906100,"Extended psbA2 with Zeaxanthin 7,8-cleavage dioxygenase (ZCD)",1310,,,Not Released,,It's complicated,,Not Used,iGEM12_WashU,Lucas B. Harrington,2012-08-13,,Transcriptional regulation.csv
+BBa_K906102,ZCD with Histidine Patch Thioredoxins and Hist-tag,2135,,,Not Released,,It's complicated,Works,Not Used,iGEM12_WashU,Lucas B. Harrington,2012-08-22,,Transcriptional regulation.csv
+BBa_K906103,Safranal and Crocin Producing Construct (Cs42s),3751,,,Not Released,,It's complicated,,Not Used,iGEM12_WashU,Lucas B. Harrington,2012-08-23,,Transcriptional regulation.csv
+BBa_K861044,FadI with a RBS,1332,,,Not Released,,It's complicated,Works,3 Uses,iGEM12_WHU-China,Kuanwei Sheng,2012-09-06,,Transcriptional regulation.csv
+BBa_K733004,,371,,,Not Released,,It's complicated,None,Not Used,iGEM12_HKUST_Hong_Kong,"WANG, Yuqi",2012-09-16,,Transcriptional regulation.csv
+BBa_K917004,nfsI nitroreductase gene from Enterobacter cloacae,671,,,Not Released,,It's complicated,Works,1 Uses,iGEM12_Edinburgh,Elitsa Peeva,2012-09-20,,Transcriptional regulation.csv
+BBa_K914009,P1003* Ser133->Amber Codon,967,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Paris_Bettencourt,Jean Cury,2012-09-21,,Transcriptional regulation.csv
+BBa_K776010,RBS +  PpsR, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_CINVESTAV-IPN-UNAM_MX,Jhonatan Alejandro Hernandez-Valdes,2012-09-25,,Transcriptional regulation.csv
+BBa_K776009,RBS +  AppA, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_CINVESTAV-IPN-UNAM_MX,Jhonatan Alejandro Hernandez-Valdes,2012-09-25,,Transcriptional regulation.csv
+BBa_K776006,RBS + PrrA, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_CINVESTAV-IPN-UNAM_MX,Patricia Elizabeth Arias Orozco,2012-09-25,,Transcriptional regulation.csv
+BBa_K776007,RBS + PrrB, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_CINVESTAV-IPN-UNAM_MX,Patricia Elizabeth Arias Orozco,2012-09-25,,Transcriptional regulation.csv
+BBa_K776008,RBS + PrrC, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_CINVESTAV-IPN-UNAM_MX,Patricia Elizabeth Arias Orozco,2012-09-25,,Transcriptional regulation.csv
+BBa_K902051,dszA behind and RBS (B0034),1380,,,Not Released,,It's complicated,None,Not Used,iGEM12_Calgary,"Lisa Oberding, Ali Honarmand",2012-10-01,,Transcriptional regulation.csv
+BBa_K902020,B0034-S7,711,,,Not Released,,It's complicated,,1 Uses,iGEM12_Calgary,Himika Dastidar,2012-10-02,,Transcriptional regulation.csv
+BBa_K902056,dszC behind an RBS (B0034),1272,,,Not Released,,It's complicated,None,2 Uses,iGEM12_Calgary,"Lisa Oberding, Ali Honarmand",2012-10-02,,Transcriptional regulation.csv
+BBa_K902072,mgtAp-mgtArb-J04650,1173,,,Not Released,,It's complicated,None,Not Used,iGEM12_Calgary,Emily Hicks,2012-10-02,,Transcriptional regulation.csv
+BBa_K914018,P1003**  Kan resistant gene with 2 Amber Codon,967,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Paris_Bettencourt,Jean Cury,2012-10-25,,Transcriptional regulation.csv
+BBa_K1065100,BSMT1 enzyme,1230,,,Not Released,BBa_J45119,It's complicated,Works,1 Uses,iGEM13_UNITN-Trento,Caterina Marchioretti Michele Pedrotti,2013-06-25,,Transcriptional regulation.csv
+BBa_K1202100,Nanofactory Binding Zone (C215),482,,,Not Released,,It's complicated,Works,Not Used,iGEM13_ATOMS-TURKIYE,safa tapan,2013-09-24,,Transcriptional regulation.csv
+BBa_K1087000,RBS-cre-ssrA(LAA)tag,1108,,,Not Released,,It's complicated,,1 Uses,iGEM13_SCU_China,Tong Xu,2013-08-28,,Transcriptional regulation.csv
+BBa_K1087001,RBS-RFP-ssrA tag, ,,,Not Released,,No part sequence,None,No Sequence,iGEM13_SCU_China,Tong Xu,2013-08-29,,Transcriptional regulation.csv
+BBa_K1122679,pSpac - LacZ - fused pdc and adhB,3412,,,Not Released,,It's complicated,None,Not Used,iGEM13_Edinburgh,"Aleksandra Lewicka, Jan Lyczakowski",2013-08-30,,Transcriptional regulation.csv
+BBa_K1122680,Plac - LacZ - Fur,1056,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Edinburgh,"Aleksandra Lewicka, Jan Lyczakowski",2013-08-30,,Transcriptional regulation.csv
+BBa_K1021004,T7 promoter + RBS + afp1 (antifungal) ,483,,,Not Released,,It's complicated,,Not Used,iGEM13_Cornell,Swati Sureka,2013-08-30,,Transcriptional regulation.csv
+BBa_K1115005,REVERSE INSERT! Coding region of dicholoroethane (DCA) dehydrogenase,791,,,Not Released,,It's complicated,None,Not Used,iGEM13_SydneyUni_Australia,Andrew Tuckwell,2013-09-15,,Transcriptional regulation.csv
+BBa_K1044002,High-level expression of  myoglobin in Escherichia coli.,480,,,Not Released,,It's complicated,None,Not Used,iGEM13_Biwako_Nagahama,hitomi ueda,2013-09-05,,Transcriptional regulation.csv
+BBa_K1223005,cI translational unit,845,,,Not Released,,It's complicated,Works,1 Uses,iGEM13_BGU_Israel,Orr Schlesinger,2013-09-07,,Transcriptional regulation.csv
+BBa_K1100012,OUTS1 repressible cI,813,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,Shuqi Du,2013-09-13,,Transcriptional regulation.csv
+BBa_K1100151,AAC(6')-Ib translational unit with B0015 terminator,775,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,Yanwei Cai,2013-09-16,,Transcriptional regulation.csv
+BBa_K1125000,SrUCPa w/ kozack sequence,935,,,Not Released,,It's complicated,None,Not Used,iGEM13_NTU_Taiwan,"Tsung-Yu, Lu",2013-09-16,,Transcriptional regulation.csv
+BBa_K1115007,dhlB 2-haloalkanoic acid dehalogenase ,791,,,Not Released,,It's complicated,None,Not Used,iGEM13_SydneyUni_Australia,Andrew Tuckwell,2013-09-17,,Transcriptional regulation.csv
+BBa_K1109006,lqs response unite,3292,,,,,,,,,,,,
+BBa_K1202103,Tat-Apoptin with HlyA signal peptide,740,,,Not Released,,It's complicated,None,Not Used,iGEM13_ATOMS-TURKIYE,safa tapan,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202101,Nanofactory Enzyme Zone (LuxS-Pfs),1373,,,Not Released,,It's complicated,Works,Not Used,iGEM13_ATOMS-TURKIYE,Ömer Bilgiç,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202102,Nanofactory Connecting Domain (Protein G),707,,,Not Released,,It's complicated,Works,Not Used,iGEM13_ATOMS-TURKIYE,Muhammed Taha Akcay,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202104,TorA GFP,1003,,,Not Released,,It's complicated,Works,Not Used,iGEM13_ATOMS-TURKIYE,safa tapan,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202106,TAT-HA2-Apoptin: Cancer killing peptide,629,,,Not Released,,It's complicated,Works,Not Used,iGEM13_ATOMS-TURKIYE,safa tapan,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202105,TAT-Apoptin: Cancer killing peptide,515,,,Not Released,,It's complicated,Works,Not Used,iGEM13_ATOMS-TURKIYE,Muhammed Taha Akcay,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202111,MPG-Apoptin: Cancer killing peptide,554,,,Not Released,,It's complicated,Works,Not Used,iGEM13_ATOMS-TURKIYE,safa tapan,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202107,TAT-E4-orf4: Cancer killing peptide,497,,,Not Released,,It's complicated,Works,Not Used,iGEM13_ATOMS-TURKIYE,Muhammed Taha Akcay,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202112,GFP HlyA,1054,,,Not Released,,It's complicated,Works,Not Used,iGEM13_ATOMS-TURKIYE,safa tapan,2013-09-24,,Transcriptional regulation.csv
+BBa_K1202113,TAT-RFP,830,,,Not Released,,It's complicated,None,Not Used,iGEM13_ATOMS-TURKIYE,safa tapan,2013-09-24,,Transcriptional regulation.csv
+BBa_K1465201,Phosphoribulokinase prkA from Synechococcus elongatus,1020,,,Not Released,,It's complicated,Works,2 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-08-13,,Transcriptional regulation.csv
+BBa_K1465202,"Ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO) from Halothiobacillus neapolitanus",1791,,,Not Released,,It's complicated,Works,1 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-09-02,,Transcriptional regulation.csv
+BBa_K1465205,Carbonic anhydrase (csoS3) of the carboxysome of Halothiobacillus neapolitanus,1565,,,Not Released,,It's complicated,None,1 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-09-22,,Transcriptional regulation.csv
+BBa_K1465204,Shell-associated protein (csoS2) of the carboxysome of Halothiobacillus neapolitanus,2674,,,Not Released,,It's complicated,None,1 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-09-22,,Transcriptional regulation.csv
+BBa_K1472603,testing, ,,,Not Released,,No part sequence,None,No Sequence,iGEM14_CityU_HK,Kai Kin Chi,2014-09-18,,Transcriptional regulation.csv
+BBa_K1461316,pEpCAM-RBS-GFP-2 miR 142 3p bindgin sites-2 miR 142 5p binding site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1333302,Rose42-RFP	,808,,,Not Released,BBa_K1679013,It's complicated,,Not Used,iGEM14_SYSU-China,Runwen Yao,2014-09-24,,Transcriptional regulation.csv
+BBa_K1461306,pCMV-RBS-GFP-4 miR 142 3p site-d.term,1595,,,Not Released,,It's complicated,,Not Used,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461307,pCMV-RBS-GFP-4 miR 142 5p site-d.term,1587,,,Not Released,,It's complicated,,Not Used,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461308,pCMV-RBS-GFP-4 miR 142 3p non-binding sites-d.term,1589,,,Not Released,,It's complicated,,Not Used,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461309,pCMV-RBS-GFP-4 miR 142 5p non-bindgin sites-d.term,1595,,,Not Released,,It's complicated,,Not Used,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461310,pCMV-RBS-GFP-2 miR 142 3p bindgin sites-2 miR 142 5p binding site-d.term,1591,,,Not Released,,It's complicated,,Not Used,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461311,pCMV-RBS-GFP-2 miR 142 3p non-bindgin sites-2 miR 142 5p non-binding site-d.term,1591,,,Not Released,,It's complicated,,Not Used,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461313,pEpCAM-RBS-GFP-4 miR 142 5p site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461314,pEpCAM-RBS-GFP-4 miR 142 3p non-bindng site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461315,pEpCAM-RBS-GFP-4 miR 142 5p non-bindng site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461317,pEpCAM-RBS-GFP-2 miR 142 3p non-bindgin sites-2 miR 142 5p non-binding site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461318,pEpCAM(mutant)-RBS-GFP-4 miR 142 3p site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461319,pEpCAM(mutant)-RBS-GFP-4 miR 142 5p site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461320,pEpCAM(mutant)-RBS-GFP-4 miR 142 3p non-bindng site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461321,pEpCAM(mutant)-RBS-GFP-4 miR 142 5p non-bindng site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461322,pEpCAM(mutant)-RBS-GFP-2 miR 142 3p bindgin sites-2 miR 142 5p binding site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1461323,pEpCAM(mutant)-RBS-GFP-2 miR 142 3p non-bindgin sites-2 miR 142 5p non-binding site-d.term, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UT-Tokyo,Shunsuke Sumi,2014-09-26,,Transcriptional regulation.csv
+BBa_K1334018,RBS+FDH,2195,,,Not Released,,It's complicated,None,Not Used,iGEM14_WHU-China,Qiushuang Wu,2014-09-27,,Transcriptional regulation.csv
+BBa_K1334019,promoter+RBS+FDH+terminator,2399,,,Not Released,,It's complicated,,Not Used,iGEM14_WHU-China,Qiushuang Wu,2014-09-27,,Transcriptional regulation.csv
+BBa_K1402002,T7-RBS-MsbA-Terminator,1924,,,Not Released,,It's complicated,None,Not Used,iGEM14_NJU-QIBEBT,Chen Xi,2014-09-29,,Transcriptional regulation.csv
+BBa_K1402006,T7-RBS-AtFatA-Terminator,1592,,,Not Released,,It's complicated,,Not Used,iGEM14_NJU-QIBEBT,Chen Xi,2014-09-29,,Transcriptional regulation.csv
+BBa_K1430002,TRP1 gene from yeast ,1501,,,Not Released,,It's complicated,,Not Used,iGEM14_Goettingen,Cedric Blötz,2014-09-30,,Transcriptional regulation.csv
+BBa_K1430004,LEU2 gene from yeast,1921,,,Not Released,,It's complicated,,Not Used,iGEM14_Goettingen,Cedric Blötz,2014-09-30,,Transcriptional regulation.csv
+BBa_K1521001,RBS SpoVG (K143021) + lasR ,738,,,Not Released,,It's complicated,,1 Uses,iGEM14_USP-UNESP-UFSCar-BRA,Danilo Keiji Zampronio,2014-10-01,,Transcriptional regulation.csv
+BBa_K1429003,"Orange Fluorescent Protein (OFP) ""Yukon"" coding region with RBS, intellectual property-free",703,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Genspace,Eric Fernandez,2014-10-02,,Transcriptional regulation.csv
+BBa_K1465101,Cytochrome c from Geobacter sulfurreducens,465,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-03,,Transcriptional regulation.csv
+BBa_K1344004,malS-HlyA (with RBS),2255,,,Not Released,,It's complicated,Works,1 Uses,iGEM14_UI-Indonesia,UI Indonesia 2014,2014-10-05,,Transcriptional regulation.csv
+BBa_K1500014,paroF->MCherry-MutH(E56A),1667,,,Not Released,BBa_K1500015;BBa_K1500016,It's complicated,None,Not Used,iGEM14_uchicago_IGSB,Ryan Beckner,2014-10-17,,Transcriptional regulation.csv
+BBa_K1465104,Fumarate reductase FumBCD from Actinobacillus succinogenes,1539,,,Not Released,,It's complicated,None,1 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-05,,Transcriptional regulation.csv
+BBa_K1362992, -- No description -- , ,,,Not Released,,No part sequence,None,No Sequence,iGEM14_Heidelberg,Jakob Kreft,2014-10-05,,Transcriptional regulation.csv
+BBa_K1465301,,1035,,,Not Released,,It's complicated,Works,3 Uses,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-06,,Transcriptional regulation.csv
+BBa_K1497002,B0034-eANS (engineered anthocyanidin synthase with strong RBS),968,,,Not Released,,It's complicated,Works,2 Uses,iGEM14_TU_Darmstadt,"Sascha Hein, Sven Jager, Thomas Dohmen, Sven Rumpf",2014-10-07,,Transcriptional regulation.csv
+BBa_K1497004,B0034-CHS - Chalcone Synthase from Gerbera with strong RBS,1215,,,Not Released,BBa_K1497197,It's complicated,Works,1 Uses,iGEM14_TU_Darmstadt,"Sascha Hein, Niklas Hummel, Sebastian Barthel, Thomas Dohmen",2014-10-07,,Transcriptional regulation.csv
+BBa_K1497012,B0034-F3H,1125,,,Not Released,,It's complicated,Works,5 Uses,iGEM14_TU_Darmstadt,"Bastian Wagner, Christian Mende, Andreas Schmidt, Max Dombrowsky",2014-10-07,,Transcriptional regulation.csv
+BBa_K1321334,pSB-AcsAB,4684,,,Not Released,,It's complicated,None,1 Uses,iGEM14_Imperial,Laura de Arroyo Garcia,2014-10-08,,Transcriptional regulation.csv
+BBa_K1362012,RBS + Circular λ-Lysozyme with His6 linker,998,,,Not Released,,It's complicated,None,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,,Transcriptional regulation.csv
+BBa_K1321335,acsCD,4451,,,Not Released,,It's complicated,None,Not Used,iGEM14_Imperial,Laura de Arroyo Garcia,2014-10-08,,Transcriptional regulation.csv
+BBa_K1362022,RBS + Circular Xylanase,1052,,,Not Released,,It's complicated,None,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena B&uuml;scher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Sch&auml;fer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-08,,Transcriptional regulation.csv
+BBa_K1362171,Split sfGFP reconstitution C-terminal splicing half,707,,Heidelberg 2014:5,Not Released,,It's complicated,Works,Not Used,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena Buescher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Schaefer, Carolin Schmelas, Silvan Schmitz, Max Waldhauer",2014-10-09,,Transcriptional regulation.csv
+BBa_K1505001,RBS+smtA+mCherry,977,,,Not Released,,It's complicated,None,Not Used,iGEM14_Penn,Renyao Wei,2014-10-10,,Transcriptional regulation.csv
+BBa_K1375006,RBS+amilCP+DT+Pcon+RBS,887,,,Not Released,,It's complicated,,Not Used,iGEM14_SCU-China,Zheng Xu,2014-10-10,,Transcriptional regulation.csv
+BBa_K1375007,RBS+lasR+RhlR+DT,1671,,,Not Released,,It's complicated,,Not Used,iGEM14_SCU-China,Zheng Xu,2014-10-10,,Transcriptional regulation.csv
+BBa_K1500001,ParoF-mCherry backbone,950,,,Not Released,,It's complicated,,5 Uses,iGEM14_uchicago_IGSB,Kevin Yang,2014-10-17,,Transcriptional regulation.csv
+BBa_K1500002,IPTG promoter-GFP (IG) backbone,946,,,Not Released,BBa_J70480;BBa_J70546;BBa_J70561;BBa_K1189034;BBa_K1955010,It's complicated,,7 Uses,iGEM14_uchicago_IGSB,Kevin Yang,2014-10-17,,Transcriptional regulation.csv
+BBa_K1500004,IPTG-GFP MutD,1705,,,Not Released,,It's complicated,,Not Used,iGEM14_uchicago_IGSB,Kevin Yang,2014-10-17,,Transcriptional regulation.csv
+BBa_K1500013,ParoF--mCherry--dam,1814,,,Not Released,,It's complicated,,Not Used,iGEM14_uchicago_IGSB,Kevin Yang,2014-10-17,,Transcriptional regulation.csv
+BBa_K1500012,ParoF--mCherry--EmrR,1487,,,Not Released,,It's complicated,,Not Used,iGEM14_uchicago_IGSB,Rivka Baker Keusch,2014-10-17,,Transcriptional regulation.csv
+BBa_K1500007,IPTG->GFP+mutH(E56A),1663,,,Not Released,,It's complicated,,Not Used,iGEM14_uchicago_IGSB,Ryan Beckner,2014-10-17,,Transcriptional regulation.csv
+BBa_K1500010,IPTG--GFP--EmrR,1504,,,Not Released,,It's complicated,,Not Used,iGEM14_uchicago_IGSB,Rivka Baker Keusch,2014-10-17,,Transcriptional regulation.csv
+BBa_K1500015,paroF->MCherry-MutH(),1667,,,Not Released,BBa_K1500014;BBa_K1500016,It's complicated,,Not Used,iGEM14_uchicago_IGSB,Ryan Beckner,2014-10-17,,Transcriptional regulation.csv
+BBa_K1500016,paroF->MCherry-MutH(E56A),1667,,,Not Released,BBa_K1500014;BBa_K1500015,It's complicated,None,Not Used,iGEM14_uchicago_IGSB,Ryan Beckner,2014-10-17,,Transcriptional regulation.csv
+BBa_K1604030,pncB ,1220,,,Not Released,,Not in stock,Works,1 Uses,iGEM15_UNITN-Trento,Riccardo Corbellari,2015-08-18,,Transcriptional regulation.csv
+BBa_T6002,test translational unit,738,,,Not Released,BBa_I13500;BBa_J70382;BBa_J85201;BBa_K1001756;BBa_S05211;BBa_T6001;BBa_K1461312,In stock,,Not Used,Registry,Vinoo Selvarajah,2015-06-08,,Transcriptional regulation.csv
+BBa_K1604000,Strong RBS + Proteorhodopsin ,791,,,Not Released,,Not in stock,None,1 Uses,iGEM15_UNITN-Trento,Silvia Galvan,2015-07-08,,Transcriptional regulation.csv
+BBa_K1695031,RBS + Bacteriophage λ Rz gene ,480,,,Not Released,,Not in stock,None,1 Uses,iGEM15_CityU_HK,Ma Lee,2015-08-12,,Transcriptional regulation.csv
+BBa_K1695002,RBS + Bacteriophage 21 codon optimized S gene,225,,,Not Released,BBa_K1695012,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695004,RBS + Bacteriophage 21 codon optimized R gene,516,,,Not Released,BBa_K1695013,Not in stock,None,2 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695006,RBS + Bacteriophage 21 codon optimized Rz gene,480,,,Not Released,BBa_K1695014,Not in stock,None,2 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695008,RBS + Bacteriophage 21 codon optimized S mutant gene ,153,,,Not Released,,Not in stock,None,Not Used,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695010,RBS + Bacteriophage 21 S mutant gene,153,,,Not Released,,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695012,Riboswitch +  Bacteriophage 21 codon optimized S gene ,225,,,Not Released,BBa_K1695002,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695013,Riboswitch +  Bacteriophage 21 codon optimized R gene,516,,,Not Released,BBa_K1695004,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695014,Riboswitch +  Bacteriophage 21 codon optimized Rz gene,480,,,Not Released,BBa_K1695006,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695017,Riboswitch +  Bacteriophage λ codon optimized S gene ,482,,,Not Released,,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695018,Riboswitch + Bacteriophage λ codon optimized R gene ,641,,,Not Released,,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695020,Riboswitch + Bacteriophage λ codon optimized Rz gene,626,,,Not Released,,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-11,,Transcriptional regulation.csv
+BBa_K1695026,RBS + Bacteriophage λ S gene ,342,,,Not Released,,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-12,,Transcriptional regulation.csv
+BBa_K1695027,RBS + Bacteriophage  λ S mutant gene ,336,,,Not Released,,Not in stock,None,Not Used,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-12,,Transcriptional regulation.csv
+BBa_K1695028,RBS + Bacteriophage λ R gene,495,,,Not Released,,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-12,,Transcriptional regulation.csv
+BBa_K1695029,RBS + Bacteriophage λ codon-optimized S gene ,336,,,Not Released,,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-12,,Transcriptional regulation.csv
+BBa_K1695030,RBS + Bacteriophage λ codon-optimized S mutant gene ,336,,,Not Released,,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-12,,Transcriptional regulation.csv
+BBa_K1695033,RBS + Bacteriophage λ codon optimized Rz gene ,480,,,Not Released,,Not in stock,None,2 Uses,iGEM15_CityU_HK,Ma Lee,2015-08-12,,Transcriptional regulation.csv
+BBa_K1695032,RBS + Bacteriophage λ codon-optimized R gene ,495,,,Not Released,,Not in stock,None,2 Uses,iGEM15_CityU_HK,Ma Lee,2015-08-12,,Transcriptional regulation.csv
+BBa_K1593667,T7-SCVE,300,,,Not Released,,Not in stock,,Not Used,iGEM15_USTC,Juntao Yu,2015-08-14,,Transcriptional regulation.csv
+BBa_K1593211,micF-E0040,1084,,,Not Released,,Not in stock,,Not Used,iGEM15_USTC,Juntao Yu,2015-09-03,,Transcriptional regulation.csv
+BBa_K1604019,"RBS + β-carotene 15,15'-dioxygenase (blh gene)",844,,,Not Released,,Not in stock,None,1 Uses,iGEM15_UNITN-Trento,Veronica Pinamonti,2015-09-11,,Transcriptional regulation.csv
+BBa_K1695050,testing,16,,,Not Released,,Not in stock,,Not Used,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-22,,Transcriptional regulation.csv
+BBa_K1695051,RBS Bacteriophage 21 Lysis Cassette S R Rz,1258,,,Not Released,,Not in stock,None,1 Uses,iGEM15_CityU_HK,Aruna Surendran Ramkrishnan,2015-08-24,,Transcriptional regulation.csv
+BBa_K1670002,cepR activator,766,,,Not Released,,It's complicated,,Not Used,iGEM15_Manchester-Graz,Christoph Schilling,2015-08-25,,Transcriptional regulation.csv
+BBa_K1670004,EsaI 3OC6-HSL sender device,673,,,Not Released,,It's complicated,,Not Used,iGEM15_Manchester-Graz,Christoph Schilling,2015-08-25,,Transcriptional regulation.csv
+BBa_K1670005,EsaR repressor/activator,793,,,Not Released,,Not in stock,,Not Used,iGEM15_Manchester-Graz,Christoph Schilling,2015-08-26,,Transcriptional regulation.csv
+BBa_K1632020,rbs_CmR(ssrA degradation tag),712,,,Not Released,,Not in stock,Works,3 Uses,iGEM15_Tokyo_Tech,Jun kawamura,2015-08-30,,Transcriptional regulation.csv
+BBa_K1653031,RBS+idi,567,,,Not Released,,Not in stock,None,Not Used,iGEM15_Nagahama,"Daiki Haraguchi, Yuhei Kaneda",2015-09-01,,Transcriptional regulation.csv
+BBa_K1653032,RBS+ispDF,1208,,,Not Released,,Not in stock,None,Not Used,iGEM15_Nagahama,"Daiki Haraguchi, Yuhei Kaneda",2015-09-01,,Transcriptional regulation.csv
+BBa_K1653034,RBS+dxs+RBS,1901,,,Not Released,,Not in stock,None,Not Used,iGEM15_Nagahama,"Daiki Haraguchi, Yuhei Kaneda",2015-09-01,,Transcriptional regulation.csv
+BBa_K1724001,RBS+CsgA,476,,,Not Released,,Not in stock,Works,Not Used,iGEM15_SCUT,Yanrui Ye,2015-09-05,,Transcriptional regulation.csv
+BBa_K1724003,RBS+MntA,2297,,,Not Released,,Not in stock,None,Not Used,iGEM15_SCUT,Yanrui Ye,2015-09-05,,Transcriptional regulation.csv
+BBa_K1679013,RNA thermometer (ROSE)+mRFP,808,,,Not Released,BBa_K1333302,It's complicated,Works,Not Used,iGEM15_OUC-China,Cun Wei,2015-09-07,,Transcriptional regulation.csv
+BBa_K1641014,Up-side-down RBS::mcherry-ssra with loxP recognition sites.,845,,,Not Released,,Not in stock,,4 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-10,,Transcriptional regulation.csv
+BBa_K1679014,RNA thermometer (FourU) +mRFP,764,,,Not Released,,Not in stock,Works,Not Used,iGEM15_OUC-China,Cun Wei,2015-09-07,,Transcriptional regulation.csv
+BBa_K1679015,RNA thermometer (PrfA) +mRFP,821,,,Not Released,,Not in stock,Fails,Not Used,iGEM15_OUC-China,Cun Wei,2015-09-07,,Transcriptional regulation.csv
+BBa_K1679019,GFP+Promoter+RNA thermometer (FourU) +mRFP,1690,,,Not Released,,Not in stock,,Not Used,iGEM15_OUC-China,Cun Wei,2015-09-07,,Transcriptional regulation.csv
+BBa_K1725421,RBS + UirR,745,,,Not Released,BBa_S05288,Not in stock,None,4 Uses,iGEM15_Glasgow,Andrey Filipov,2015-09-08,,Transcriptional regulation.csv
+BBa_K1641004,"Fusion protein of Cre::EGFP::ssra-tag, with RBS at beginning",1745,,,Not Released,,Not in stock,,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-09,,Transcriptional regulation.csv
+BBa_K1641005,"Fusion protein of Flp-EGFP-ssra, with RBS at beginning",2073,,,Not Released,,Not in stock,None,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-09,,Transcriptional regulation.csv
+BBa_K1641006,"Fusion protein of Vcre::EGFP::ssra-tag, with RBS at beginning",1944,,,Not Released,,Not in stock,None,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-09,,Transcriptional regulation.csv
+BBa_K1641007,"Fusion protein of Scre::EGFP::ssra-tag, with RBS at beginning",1896,,,Not Released,,Not in stock,None,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-09,,Transcriptional regulation.csv
+BBa_K1641008,"Fusion protein of Dre::EGFP::ssra-tag, with RBS at beginning",1830,,,Not Released,,Not in stock,,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-10,,Transcriptional regulation.csv
+BBa_K1641042,"Fusion protein of Cre-EGFP, with RBS at the beginning",1707,,,Not Released,,Not in stock,None,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-10,,Transcriptional regulation.csv
+BBa_K1602007,B0034+cadA,1002,,,Not Released,BBa_K1602008,Not in stock,Works,Not Used,iGEM15_TU_Darmstadt,"Alexandra Goretzki, Tanja Habeck, Nina Kuschik-Maczollek, Laurin Monnheimer, Steven Pilger, Bianca Reisinger, Daniel Stumpf",2015-09-10,,Transcriptional regulation.csv
+BBa_K1602008,B0034+GRE3,1002,,,Not Released,BBa_K1602007,Not in stock,Works,Not Used,iGEM15_TU_Darmstadt,"Alexandra Goretzki, Tanja Habeck, Nina Kuschik-Maczollek, Laurin Monnheimer, Steven Pilger, Bianca Reisinger, Daniel Stumpf",2015-09-10,Spring 2017 Distribution,Transcriptional regulation.csv
+BBa_K1641015,Up-side-down RBS::mcherry-ssra with FRT recognition sites,845,,,Not Released,,Not in stock,,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-10,,Transcriptional regulation.csv
+BBa_K1641016,"Up-side-down RBS::mcherry-ssra with Rox, recognition site of Dre ",841,,,Not Released,,Not in stock,,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-10,,Transcriptional regulation.csv
+BBa_K1641018,"Up-side-down RBS::mcherry-ssra with SloxM1, Scre recognition sites",845,,,Not Released,,Not in stock,,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-10,,Transcriptional regulation.csv
+BBa_K1641017,"Up-side-down RBS::mcherry-ssra with Vox, Vika recognition sites", ,,,Not Released,,No part sequence,,No Sequence,iGEM15_SYSU_CHINA,Pai Li,2015-09-11,,Transcriptional regulation.csv
+BBa_K1641019," Up-side-down RBS::mcherry-ssra with VloxP, Vcre recognition sites",845,,,Not Released,,Not in stock,,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-11,,Transcriptional regulation.csv
+BBa_K1641021,"Up-side-down RBS::mcherry-ssra(fast) with LoxP, recognition site of Cre", ,,,Not Released,,No part sequence,,No Sequence,iGEM15_SYSU_CHINA,Pai Li,2015-09-11,,Transcriptional regulation.csv
+BBa_K1641022,"Up-side-down RBS::mcherry with LoxP, recognition site of Cre",812,,,Not Released,,Not in stock,,1 Uses,iGEM15_SYSU_CHINA,Pai Li,2015-09-11,,Transcriptional regulation.csv
+BBa_K1631000,Translational unit of Barnase ,348,,,Not Released,,Not in stock,None,2 Uses,iGEM15_UT-Tokyo,Yuto Yamanaka,2015-09-12,,Transcriptional regulation.csv
+BBa_K1641009,"Fusion protein of Vika-EGFP-ssra, with RBS at beginning",1887,,,Not Released,,Not in stock,,Not Used,iGEM15_SYSU_CHINA,Pai Li,2015-09-12,,Transcriptional regulation.csv
+BBa_K1631004,Tlanslational unit of Immunity protein for Colicin-E3,270,,,Not Released,,Not in stock,,3 Uses,iGEM15_UT-Tokyo,Yuto Yamanaka,2015-09-13,,Transcriptional regulation.csv
+BBa_K1587000,ho1 with RBS,744,,,Not Released,,Not in stock,Issues,Not Used,iGEM15_Toulouse,Alexandre Le Scornet,2015-09-13,,Transcriptional regulation.csv
+BBa_K1587002,pcyA with RBS,796,,,Not Released,BBa_K081017;BBa_K193402,In stock,Issues,Not Used,iGEM15_Toulouse,Alexandre Le Scornet,2015-09-13,,Transcriptional regulation.csv
+BBa_K1639007,DAMP-Pexiganan,694,,,Not Released,,Not in stock,Works,Not Used,iGEM15_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2015-09-13,,Transcriptional regulation.csv
+BBa_K1631005,Translational unit of Barstar (Barnase immunity protein),285,,,Not Released,,Not in stock,,1 Uses,iGEM15_UT-Tokyo,Yuto Yamanaka,2015-09-14,,Transcriptional regulation.csv
+BBa_K1641212,B0034-Cre-ssrA,1005,,,Not Released,,Not in stock,None,1 Uses,iGEM15_SYSU_CHINA,Jianheng Liu,2015-09-14,,Transcriptional regulation.csv
+BBa_K1729001,Yeast mitochondrial ribosomal protein MRPS12,480,,,Not Released,,Not in stock,None,Not Used,iGEM15_RHIT,Dani Bauhan and Richard Anthony,2015-09-14,,Transcriptional regulation.csv
+BBa_K1688003,RhlB Gene,1327,,,Not Released,,Not in stock,None,1 Uses,iGEM15_Uppsala,Biosurfers,2015-09-15,,Transcriptional regulation.csv
+BBa_K1688006,ModLac laccase with His-tag and HlyA export tag (inc RBS),1800,,,Not Released,,Not in stock,None,2 Uses,iGEM15_Uppsala,Fredrik Lindeberg,2015-09-15,,Transcriptional regulation.csv
+BBa_K1602014,    B0034-yagE,927,,,Not Released,,Not in stock,None,2 Uses,iGEM15_TU_Darmstadt,"Leon Kraus, Jonathan Pletzer-Zelgert, Jonas Sindlinger, Carmen Sakas Gandullo, Sebastian Holzner, Elena Tonchevska, Mirjam Haun",2015-09-16,Spring 2017 Distribution,Transcriptional regulation.csv
+BBa_K1602015,    B0034-yqhD,1182,,,Not Released,,Not in stock,None,2 Uses,iGEM15_TU_Darmstadt,"Leon Kraus, Jonathan Pletzer-Zelgert, Jonas Sindlinger, Carmen Sakas Gandullo, Sebastian Holzner, Elena Tonchevska, Mirjam Haun",2015-09-16,,Transcriptional regulation.csv
+BBa_K1679020,RBS+ftnA,501,,,Not Released,,Not in stock,None,Not Used,iGEM15_OUC-China,Cun Wei,2015-09-16,,Transcriptional regulation.csv
+BBa_K1639019,Ribosome Reinitiation Unit,21,,,Not Released,,Not in stock,Issues,Not Used,iGEM15_ATOMS-Turkiye,Berke Kahraman,2015-09-17,,Transcriptional regulation.csv
+BBa_K1602037,eYFP with C-terminal GBD ligand and RBS BBa_B0034,849,,,Not Released,,Not in stock,None,1 Uses,iGEM15_TU_Darmstadt,"Jasmin Weber, Michelle Zoeller, Marcus Geissler, Stefan Bohn, Simon Linder, Sebastian Barthel",2015-09-17,Spring 2017 Distribution,Transcriptional regulation.csv
+BBa_K1602038,eYFP with C-terminal SH3 ligand and RBS BBa_B0034,786,,,Not Released,,Not in stock,None,1 Uses,iGEM15_TU_Darmstadt,"Jasmin Weber, Michelle Zoeller, Marcus Geissler, Stefan Bohn, Simon Linder, Sebastian Barthel",2015-09-17,Spring 2017 Distribution,Transcriptional regulation.csv
+BBa_K1602039,eYFP with C-terminal PDZ ligand and RBS BBa_B0034,771,,,Not Released,,Not in stock,None,1 Uses,iGEM15_TU_Darmstadt,"Jasmin Weber, Michelle Zoeller, Marcus Geissler, Stefan Bohn, Simon Linder, Sebastian Barthel",2015-09-17,,Transcriptional regulation.csv
+BBa_K1593888,tRNA +tRNA synthetase,999,,,Not Released,,Not in stock,,Not Used,iGEM15_USTC,Yuting Liu,2015-09-18,,Transcriptional regulation.csv
+BBa_K1706008,HxlR-T7 ,2889,,,Not Released,,Not in stock,,Not Used,iGEM15_Jilin_China,Chaohui Gao,2015-09-18,,Transcriptional regulation.csv
+BBa_K1706009,HxlR-T7 ,3615,,,Not Released,,Not in stock,,Not Used,iGEM15_Jilin_China,Chaohui Gao,2015-09-18,,Transcriptional regulation.csv
+BBa_K1706010,T7-PADH-NAD,2339,,,Not Released,,Not in stock,,Not Used,iGEM15_Jilin_China,Chaohui Gao,2015-09-18,,Transcriptional regulation.csv
+BBa_K2077002,mls-yeGFP,837,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_RHIT,"Xintong Xia, Xander Lacrampe, Richard Anthony",2016-08-17,,Transcriptional regulation.csv
+BBa_T9010,aacC2 with RBS,879,,,Not Released,,Not in stock,,-1 Uses,,Abigail Sison,2016-08-22,,Transcriptional regulation.csv
+BBa_K2003002,pBad+RBS+CPF1+Terminator,5286,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Uppsala,Ida Isolehto,2016-09-01,,Transcriptional regulation.csv
+BBa_K2042010,RBS + Pct,1588,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Evry,Jonathan Tellechea,2016-09-02,,Transcriptional regulation.csv
+BBa_K2042011,RBS +PhaC_resinovorans,1693,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Evry,Jonathan Tellechea,2016-09-02,,Transcriptional regulation.csv
+BBa_K2042012,RBS + PhaC_sp. MBEL 6-19,1693,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Evry,Delphine Dessaux,2016-09-03,,Transcriptional regulation.csv
+BBa_S05326,B0032-phlF,622,,,Not Released,,Not in stock,None,-1 Uses,Guests,HKUST_iGEM 2016,2016-09-24,,Transcriptional regulation.csv
+BBa_S05329,B0034:K1725040,621,,,Not Released,BBa_S05328,Not in stock,None,-1 Uses,Guests,Lai Long Ching,2016-09-29,,Transcriptional regulation.csv
+BBa_S05330,B0030:K1725040,624,,,Not Released,BBa_S05327,Not in stock,None,-1 Uses,Guests,Lai Long Ching,2016-09-29,,Transcriptional regulation.csv
+BBa_K1949031,rbs-yafO,420,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Tokyo_Tech,Yoshio Takata,2016-10-06,,Transcriptional regulation.csv
+BBa_K1949051,rbs-amiE,1494,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Tokyo_Tech,Yoshio Takata,2016-10-06,,Transcriptional regulation.csv
+BBa_K2078000,cmpA,1375,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_CLSB-UK,Michael O,2016-10-06,,Transcriptional regulation.csv
+BBa_K2123201,Strong RBS + MerB (Organomercurial Lyase) + Strong RBS + MerA (Mercuric Reductase) + B0015,661,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UFAM-UEA_Brazil,Maria Clara Tavares Astolfi,2016-10-10,,Transcriptional regulation.csv
+BBa_K2170201,Single chain avidin with ribosomal binding site (RBS_scAvidin) in RFC[25] N-part,1716,,,Not Released,,Not in stock,,-1 Uses,iGEM16_LMU-TUM_Munich,Max Mustermann,2016-10-11,,Transcriptional regulation.csv
+BBa_K2013001,123, ,,,Not Released,,No part sequence,,-1 Uses,iGEM16_UESTC-China,Demin Xu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2084001,T3 Unit,2655,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Pittsburgh,Maya Lemmon-Kishi,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013003,RBS and MHETase,1842,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Binglin Liu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013004,RBS and terephthalic acid(TPA) transporter,487,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Binglin Liu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013005,RBS and terephthalic acid(TPA) transporter,1528,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Binglin Liu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013006,transcriptional regulator,304,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Demin Xu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013007,TPA binding receptor,991,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Demin Xu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013008,"TPA 1,2-dioxygenase",1267,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Binglin Liu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013009,"TPA 1,2-dioxygenase",487,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Mei Deng,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013010,DCDDH,1003,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Binglin Liu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013011,"TPA 1,2-dioxygenase",1039,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Mei Deng,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013012,PCA 3.4-dioxygenase,667,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Demin Xu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013013, PCA 3.4-dioxygenase,790,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Binglin Liu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013015,protocatechuate decarboxylase ,1462,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Demin Xu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013016,catechol 2，3dioxygenase,1171,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Demin Xu,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013017,2-oxopent-4-enoate hydratase,852,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Mei Deng,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013018,2-oxopent-4-enoate hydratase ,831,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Mei Deng,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013019, 4-hydroxy-2-ketovalerate aldolase,1035,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Mei Deng,2016-10-12,,Transcriptional regulation.csv
+BBa_K2013020,Sc Alcohol dehydrogenase 2,1068,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UESTC-China,Mei Deng,2016-10-12,,Transcriptional regulation.csv
+BBa_K1976021,OMT tRNA synthetase with RBS,939,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_TU_Darmstadt,"Sonja Elbrich, Claudia Kreher, Patrick Kunzmann, Nina Kuschik-Maczollek, Bianca Reisinger, Sabine Schäfer, Inka Schröter, Viktoria Schuster",2016-10-13,,Transcriptional regulation.csv
+BBa_K1976028,Colicin E2 immunity protein (+amber codon) with RBS,279,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_TU_Darmstadt,"Sonja Elbrich, Claudia Kreher, Patrick Kunzmann, Nina Kuschik-Maczollek, Bianca Reisinger, Sabine Sch&#228;fer, Inka Schr&#246;ter, Viktoria Schuster",2016-10-13,,Transcriptional regulation.csv
+BBa_K1976029,Colicin E2 immunity protein with RBS,279,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_TU_Darmstadt,"Sonja Elbrich, Claudia Kreher, Patrick Kunzmann, Nina Kuschik-Maczollek, Bianca Reisinger, Sabine Sch&#228;fer, Inka Schr&#246;ter, Viktoria Schuster",2016-10-13,,Transcriptional regulation.csv
+BBa_K2123202, MerT + MerP (Hg transporters) + MerB (Organomercurial Lyase) + MerA (Mercuric Reductase) + B0015,1189,,,Not Released,BBa_K1355001,In stock,None,-1 Uses,iGEM16_UFAM-UEA_Brazil,Maria Clara Tavares Astolfi,2016-10-13,,Transcriptional regulation.csv
+BBa_K1968015,Phleomycin resistance cassette Phytobrick,1399,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Edinburgh_OG,Alejandra Adriana Schiavon Osorio,2016-10-13,,Transcriptional regulation.csv
+BBa_K2149000,crtE (geranylgeranyl diphosphate synthase),983,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_USP-EEL-Brazil,André Tomas Vilela Hermann,2016-10-13,,Transcriptional regulation.csv
+BBa_K2149001,HPPD from Pseudomonas putida,1146,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_USP-EEL-Brazil,Aline Larissa Gonçalves,2016-10-13,,Transcriptional regulation.csv
+BBa_K2149002,HPT (Homogentisate phytyltransferase),1001,,,Not Released,,Not in stock,,-1 Uses,iGEM16_USP-EEL-Brazil,Aline Larissa Gonçalves,2016-10-13,,Transcriptional regulation.csv
+BBa_K2149016,luxE (Acyl-protein synthetase),1181,,,Not Released,,Not in stock,,-1 Uses,iGEM16_USP-EEL-Brazil,André Tomas Vilela Hermann,2016-10-13,,Transcriptional regulation.csv
+BBa_K1893019,T7 phage gene product 2 (Gp2),213,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Imperial_College,"Henry Lloyd-Laney, Stefan Grossfurthner",2016-10-14,,Transcriptional regulation.csv
+BBa_K1893027,3-isopropylmalate dehydrogenase (leuB),1104,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Imperial_College,"Henry Lloyd-Laney, Stefan Grossfurthner",2016-10-14,,Transcriptional regulation.csv
+BBa_K2070011,rbs ecf sigma35,606,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UT-Tokyo,iGEM UT-Tokyo 2016,2016-10-14,,Transcriptional regulation.csv
+BBa_K1932001,orf1 and orf2 from Bifidobacterium,1742,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Jilin_China,Jin Liu,2016-10-14,,Transcriptional regulation.csv
+BBa_K2029011,nprb_XynA,1160,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UBonn_HBRS,Bui Hoang Duy,2016-10-14,,Transcriptional regulation.csv
+BBa_K2029012,nprb_CelA,1862,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UBonn_HBRS,Bui Hoang Duy,2016-10-14,,Transcriptional regulation.csv
+BBa_K2029013,nprb_EstC2,2266,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UBonn_HBRS,Bui Hoang Duy,2016-10-14,,Transcriptional regulation.csv
+BBa_K2182002,Expression for Proteorhodopsin and BLH,1837,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Northeastern,"David Rosenberg, Joshua Timmons",2016-10-14,,Transcriptional regulation.csv
+BBa_K2182003,Translational Unit for His-tagged NOX,3166,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Northeastern,David Rosenberg,2016-10-14,,Transcriptional regulation.csv
+BBa_K2090001,phoA->LbCHI32->Flag tag,1068,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_TP_CC_SanDiego,TP_CC-SanDiego 2016,2016-10-14,,Transcriptional regulation.csv
+BBa_K2090000,phoA->LbCHI31->Flag tag,1077,,,Not Released,,Not in stock,,-1 Uses,iGEM16_TP_CC_SanDiego,Anthony Kang,2016-10-14,,Transcriptional regulation.csv
+BBa_K1953000,TrkG,1470,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UConn,Adrian Coscia,2016-10-18,,Transcriptional regulation.csv
+BBa_K2179003,Chlorite Dismutase CDS+RBS from I. dechloratans with His-tag,817,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_UrbanTundra_Edmonton,michael ellison,2016-10-21,,Transcriptional regulation.csv
+BBa_M50003,StickyGreen,1456,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,Nicolas Quach,2016-10-25,,Transcriptional regulation.csv
+BBa_E0021,ECFP (RBS+ LVA-),740,,Antiquity:0,Not Released,,Not in stock,None,38 Uses,Antiquity,Caitlin Conboy and Jennifer Braff,2004-04-22,,Transcriptional regulation.csv
+BBa_E0031,EYFP (RBS+ LVA-),740,,Antiquity:0,Not Released,,Not in stock,None,39 Uses,Antiquity,Caitlin Conboy and Jennifer Braff,2004-04-22,,Transcriptional regulation.csv
+BBa_K993000,RFP Generator with ROSE thermometer,902,,,Not Released,,Not in stock,,Not Used,iGEM13_AUC_TURKEY,ABDÜLKAD&#304;R KARADA&#286;,2013-06-14,,Transcriptional regulation.csv
+BBa_K993003,Urease generator with ROSE thermometer,2663,,,Not Released,,Not in stock,Issues,Not Used,iGEM13_AUC_TURKEY,FURKAN SAC&#304;T CEYLAN,2013-06-14,,Transcriptional regulation.csv
+BBa_K993002,IbpB RNA Thermometer with RFP,917,,,Not Released,,Not in stock,Works,Not Used,iGEM13_AUC_TURKEY,&#304;BRAH&#304;M YAS&#304;R ORHAN,2013-06-14,,Transcriptional regulation.csv
+BBa_J70312,"E0031 (RBS+EYFP), B0014 (terminator) ",843,,,Not Released,,It's complicated,,4 Uses,Knight Lab,Julie Norville,2009-06-17,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_J70314,"J70029 (RBS+mcherry), B0014 (terminator) ",802,,,Not Released,,Not in stock,,13 Uses,Knight Lab,Julie Norville,2009-06-17,,Transcriptional regulation.csv
+BBa_J70325,I13500(B0034+E0040 gfp)+B0014,841,,,Not Released,,Not in stock,,11 Uses,Knight Lab,Julie Norville,2009-06-18,,Transcriptional regulation.csv
+BBa_J70368,I13502 or K093005 (B0034+E1010) rfp without PsrI sites ,724,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-28,,Transcriptional regulation.csv
+BBa_K216001,Photobacterium phosphoreum luxB gene with RBS B0034,1008,,,Not Released,,Not in stock,,Not Used,iGEM09_Edinburgh,Chris French,2009-06-20,,Transcriptional regulation.csv
+BBa_K190020,MymT,180,,,Not Released,,Not in stock,None,Not Used,iGEM09_Groningen,Nienke Kuipers,2009-08-19,,Transcriptional regulation.csv
+BBa_K190021,SmtA,189,,,Not Released,,Not in stock,None,2 Uses,iGEM09_Groningen,Nienke Kuipers,2009-08-19,,Transcriptional regulation.csv
+BBa_K228812,RBS(J61127)+tetR(C0040),703,,,Not Released,,Not in stock,Issues,Not Used,iGEM09_PKU_Beijing,Shuke Wu,2009-09-07,,Transcriptional regulation.csv
+BBa_K176161,PoPS->RBS(weak)+ccdB-LVA->PoPS,362,,,Not Released,,Not in stock,None,1 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,Transcriptional regulation.csv
+BBa_K175042,GFP-LVA translational unit + I-SceI RS + TetR generator,1844,,,Not Released,,Not in stock,None,2 Uses,iGEM09_TUDelft,Tim_Weenink,2009-10-11,,Transcriptional regulation.csv
+BBa_J78002,Arg[1],4125,,,Not Released,,Not in stock,,Not Used,Neilan lab,Nathan Dunn,2009-10-11,,Transcriptional regulation.csv
+BBa_K193403,teminator is located downstream of the BBa_193402,899,,,Not Released,,Not in stock,None,1 Uses,iGEM09_Tokyo_Tech,HIroshi Shiba,2009-10-13,,Transcriptional regulation.csv
+BBa_K193405,RBS is located upstream of cph8,2284,,,Not Released,,Not in stock,None,Not Used,iGEM09_Tokyo_Tech,HIroshi Shiba,2009-10-13,,Transcriptional regulation.csv
+BBa_K193201,Anti-Freeze Protein with RBS,314,,,Not Released,,Not in stock,None,Not Used,iGEM09_Tokyo_Tech,Nao Nakatani,2009-10-14,,Transcriptional regulation.csv
+BBa_K193204,EGFP(His tag+) downstream with RBS ,820,,,Not Released,,Not in stock,None,3 Uses,iGEM09_Tokyo_Tech,Nao Nakatani,2009-10-14,,Transcriptional regulation.csv
+BBa_K193205,TmTHP with EGFP for fusion of Anti-Freeze Protein and RBS,1081,,,Not Released,,Not in stock,None,3 Uses,iGEM09_Tokyo_Tech,Nao Nakatani,2009-10-14,,Transcriptional regulation.csv
+BBa_K216017,luxCDE genes of Xenorhabdus luminescens (aldehyde biosynthesis),3590,,,Not Released,,Not in stock,None,Not Used,iGEM09_Edinburgh,Edinburgh iGEM 2009,2009-10-21,,Transcriptional regulation.csv
+BBa_J15505,rbs+lacI,1102,,,Not Released,,Not in stock,None,1 Uses,French Lab,Chris French,2010-01-22,,Transcriptional regulation.csv
+BBa_J70565,"luxAB Fusion gene, Xenorhabdus luminescens  ",2126,,,Not Released,,Not in stock,,Not Used,Knight Lab,Joseph Lynch,2010-03-30,,Transcriptional regulation.csv
+BBa_K415108,RBS : pIII,1295,,,Not Released,,Not in stock,None,2 Uses,iGEM10_MIT,Grant Robinson,2010-06-27,,Transcriptional regulation.csv
+BBa_K415137,RBS Weak : pIII,1297,,,Not Released,,Not in stock,,Not Used,iGEM10_MIT,Grant Robinson,2010-07-09,,Transcriptional regulation.csv
+BBa_K415116,RBS : pIX,99,,,Not Released,BBa_M13009;BBa_M300060;BBa_M31379,Not in stock,,Not Used,iGEM10_MIT,Grant Robinson,2010-07-06,,Transcriptional regulation.csv
+BBa_K415118,RBS Weak : pVIII-Jun,1262,,,Not Released,,Not in stock,,Not Used,iGEM10_MIT,Grant Robinson,2010-07-11,,Transcriptional regulation.csv
+BBa_K415117,RBS Weak : pVIII-Fos,1400,,,Not Released,,Not in stock,,Not Used,iGEM10_MIT,Grant Robinson,2010-07-11,,Transcriptional regulation.csv
+BBa_K302017,spaIFEG cluster,2773,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Newcastle,"Steven Woodhouse, Alan Koh, Rachel May Boyd, Philip Hall",2010-08-18,,Transcriptional regulation.csv
+BBa_K302005,yneA RBS and coding sequence,354,,,Not Released,,Not in stock,Works,1 Uses,iGEM10_Newcastle,"Rachel May Boyd, Phil Hall, Deena Tsu, Jannetta Steyn ",2010-08-12,,Transcriptional regulation.csv
+BBa_K302000,rocF RBS and coding sequence,930,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Newcastle,"Alan Koh, Steven Woodhouse, Harsh Sheth",2010-08-12,,Transcriptional regulation.csv
+BBa_K322451,Photinus pyralis luciferase mutated for increased bioluminescence.,1674,,,Not Released,,Not in stock,Works,Not Used,iGEM10_Edinburgh,William Rostain,2010-09-01,,Transcriptional regulation.csv
+BBa_K358004,lambda lysis cassette[SRRz/Rz1],1273,,,Not Released,,Not in stock,,1 Uses,iGEM10_Kyoto,Ken Kajita,2010-09-19,,Transcriptional regulation.csv
+BBa_K395161,RBS-KanR(no promoter and terminator),835,,,Not Released,,Not in stock,None,2 Uses,iGEM10_Tokyo_Tech,Kaneta Yusuke,2010-10-05,,Transcriptional regulation.csv
+BBa_K341446,ParaBAD+I-SceI coding sequence,780,,,Not Released,,Not in stock,Works,1 Uses,iGEM10_Tsinghua,Wang Wanyang,2010-10-20,,Transcriptional regulation.csv
+BBa_K341452,Plac+recA,1251,,,Not Released,,Not in stock,None,Not Used,iGEM10_Tsinghua,Wang Wanyang,2010-10-21,,Transcriptional regulation.csv
+BBa_K341454,PlacI+repA101,1103,,,Not Released,,Not in stock,None,Not Used,iGEM10_Tsinghua,Wang Wanyang,2010-10-21,,Transcriptional regulation.csv
+BBa_K341008,recombination sequence+eGFP+mCherry+Isce I,1477,,,Not Released,,Not in stock,Works,Not Used,iGEM10_Tsinghua,Danyang He,2010-10-21,,Transcriptional regulation.csv
+BBa_K341009,recombination sequence+eGFP+Kan+I-SceI cutting site,1579,,,Not Released,,Not in stock,,Not Used,iGEM10_Tsinghua,Danyang He,2010-10-21,,Transcriptional regulation.csv
+BBa_K341010,recombination sequence+mCherry+Kan+I-SceI cutting site,1571,,,Not Released,,Not in stock,,Not Used,iGEM10_Tsinghua,Danyang He,2010-10-21,,Transcriptional regulation.csv
+BBa_K358014,SΔTMD1RRz,1201,,,Not Released,,Not in stock,,1 Uses,iGEM10_Kyoto,Ken Kajita,2010-10-24,,Transcriptional regulation.csv
+BBa_K497003,Deinococcus radiodurans bacteriophytochrome gene with Ribosome Binding Site,2280,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-24,,Transcriptional regulation.csv
+BBa_K497004,Agrobacterium tumefaciens bacteriophytochrome & RBS & 3,2374,,,Not Released,,Not in stock,None,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-24,,Transcriptional regulation.csv
+BBa_K497006,Synechocystis heme oxygenase 1 with Agrobacterium tumefaciens bacteriophytochrome & RBS,2946,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-24,,Transcriptional regulation.csv
+BBa_K497007,Synechocystis heme oxygenase 1 with Deinococcus radiodurans bacteriophytochrome & RBS,3003,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-24,,Transcriptional regulation.csv
+BBa_K415141,RBS + M13 p8-Fos fusion,444,,,Not Released,,Not in stock,,1 Uses,iGEM10_MIT,Jason Stevens,2010-10-24,,Transcriptional regulation.csv
+BBa_K415142,RBS + M13 p8-Jun fusion,441,,,Not Released,,Not in stock,,1 Uses,iGEM10_MIT,Jason Stevens,2010-10-24,,Transcriptional regulation.csv
+BBa_K415139,RBS + M13 p8-GR1 fusion,435,,,Not Released,,Not in stock,,1 Uses,iGEM10_MIT,Jason Stevens,2010-10-24,,Transcriptional regulation.csv
+BBa_K415140,RBS + M13 p8-GR2 fusion,438,,,Not Released,,Not in stock,None,1 Uses,iGEM10_MIT,Jason Stevens,2010-10-24,,Transcriptional regulation.csv
+BBa_K415143,RBS + M13 p8-ACID fusion,411,,,Not Released,,Not in stock,,1 Uses,iGEM10_MIT,Jason Stevens,2010-10-24,,Transcriptional regulation.csv
+BBa_K415144,RBS + M13 p8-BASE fusion,414,,,Not Released,,Not in stock,,1 Uses,iGEM10_MIT,Jason Stevens,2010-10-24,,Transcriptional regulation.csv
+BBa_K302034,mazEF toxin-antitoxin cluster,607,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Newcastle,Philip Hall,2010-10-25,,Transcriptional regulation.csv
+BBa_K395604,MpAAT1 coding region,1687,,,Not Released,,Not in stock,None,2 Uses,iGEM10_Tokyo_Tech,Toshitaka Matsubara,2010-10-26,,Transcriptional regulation.csv
+BBa_K497009,Agrobacterium tumefaciens bacteriophytochrome with RBS,2223,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-26,,Transcriptional regulation.csv
+BBa_K316042,LytC - Glycine Linker - TEV Cleavage Site - AIP - His Tag,1140,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-27,,Transcriptional regulation.csv
+BBa_K316043,LytC - Flexible Linker - TEV Cleavage Site - AIP - His Tag,1179,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-27,,Transcriptional regulation.csv
+BBa_K316044,LytC - Helical Linker - TEV Cleavage Site - AIP - His Tag,1182,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-27,,Transcriptional regulation.csv
+BBa_K316045,LytC - Glycine Linker - Elastase Cleavage Site - AIP - His Tag,1098,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-27,,Transcriptional regulation.csv
+BBa_K316046,LytC - Flexible Linker - Elastase Cleavage Site - AIP - His Tag,1137,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-27,,Transcriptional regulation.csv
+BBa_K316047,LytC - Helical Linker - Elastase Cleavage Site - AIP - His Tag,1140,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-27,,Transcriptional regulation.csv
+BBa_K371058,B0034-ATG-MSF HeadPart,31,,,Not Released,,Not in stock,,1 Uses,iGEM10_USTC,Hao Jiang,2010-11-05,,Transcriptional regulation.csv
+BBa_M36004,predicted glycogen synthesis protein (w/ UTR&term),344,,,Not Released,,Not in stock,None,Not Used,Stanford BIOE44 - S11,"Jesse Palmer, Elliot Lui",2011-04-28,,Transcriptional regulation.csv
+BBa_M36003,glycogen synthase (w/UTR&term),1563,,,Not Released,,Not in stock,None,Not Used,Stanford BIOE44 - S11,Elliott Lui and Jesse Palmer,2011-04-28,,Transcriptional regulation.csv
+BBa_M36002,gluc1phos adenylyltrans (with 5'UTR & term),1425,,,Not Released,,Not in stock,None,Not Used,Stanford BIOE44 - S11,Elliott Lui and Jesse Palmer,2011-04-28,,Transcriptional regulation.csv
+BBa_J85002,theoretical RBS with no translation of RFP,722,,,Not Released,,Not in stock,None,2 Uses,Weiss Lab,"Hattie Chung, Stephanie Fung",2011-08-04,,Transcriptional regulation.csv
+BBa_K515000,IaaM - tryptophan-2-mono-oxygenase,1686,,NUDT_CHINA 2015:5,Not Released,,Not in stock,Works,1 Uses,iGEM11_Imperial_College_London,Atipat Patharagulpong,2011-09-01,,Transcriptional regulation.csv
+BBa_K515001,IaaH - Indoleacetamide hydrolyase,1382,,NUDT_CHINA 2015:5,Not Released,,Not in stock,Works,1 Uses,iGEM11_Imperial_College_London,Atipat Patharagulpong,2011-09-01,,Transcriptional regulation.csv
+BBa_K515002,PA2652,1724,,,Not Released,,Not in stock,Works,1 Uses,iGEM11_Imperial_College_London,Atipat Patharagulpong,2011-09-01,,Transcriptional regulation.csv
+BBa_K515004,T4 Anti-Holin,332,,,Not Released,,Not in stock,Works,2 Uses,iGEM11_Imperial_College_London,Atipat Patharagulpong,2011-09-07,,Transcriptional regulation.csv
+BBa_K515005,superfolder GFP (sfGFP),744,,,Not Released,,It's complicated,Works,7 Uses,iGEM11_Imperial_College_London,Atipat Patharagulpong,2011-09-07,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K538100,RBS + Cpn10,315,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Amsterdam,Bas Stringer,2011-09-08,,Transcriptional regulation.csv
+BBa_K538102,RBS + SheDnaK,1938,,,Not Released,,Not in stock,None,Not Used,iGEM11_Amsterdam,Bas Stringer,2011-09-08,,Transcriptional regulation.csv
+BBa_K538103,RBS + CspA,213,,,Not Released,,Not in stock,None,Not Used,iGEM11_Amsterdam,Bas Stringer,2011-09-08,,Transcriptional regulation.csv
+BBa_K567023,PT7-Luc-4AGG-tRNA(Arg),2043,,,Not Released,,Not in stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,You Wang,2011-10-28,,Transcriptional regulation.csv
+BBa_K646001,Agrobacterium tumefaciens Bacteriophotochrome (Rhizobium radiobacter),2229,,,Not Released,,Not in stock,None,2 Uses,iGEM11_Macquarie_Australia,David Dubow,2011-09-29,,Transcriptional regulation.csv
+BBa_K646002,Deinococcus radiodurans bacteriophytochrome,2281,,,Not Released,,Not in stock,None,2 Uses,iGEM11_Macquarie_Australia,David Dubow,2011-09-29,,Transcriptional regulation.csv
+BBa_K567022,PT7-Luc-2AGG-tRNA(Arg),2037,,,Not Released,,Not in stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,You Wang,2011-10-28,,Transcriptional regulation.csv
+BBa_K567024,PT7-Luc-6AGG-tRNA(Arg),2049,,,Not Released,,Not in stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,You Wang,2011-10-28,,Transcriptional regulation.csv
+BBa_K567025,PT7-Luc-8AGG-tRNA(Arg),2055,,,Not Released,,Not in stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,You Wang,2011-10-28,,Transcriptional regulation.csv
+BBa_J119027,BD21 bicistronic translational junction - High efficiency,88,,,Not Released,BBa_M36288,Not in stock,None,5 Uses,Eckdahl_Lab,Vivek Mutalik ,2011-12-21,,Transcriptional regulation.csv
+BBa_J119028,BD24 bicistronic translational junction - Highest efficiency,88,,,Not Released,,Not in stock,None,5 Uses,Eckdahl_Lab,Vivek Mutalik,2011-12-21,,Transcriptional regulation.csv
+BBa_J119024,BD18 bicistronic translational junction - Medium effiency,88,,,Not Released,,Not in stock,None,11 Uses,Eckdahl_Lab,Vivek Mutalik ,2011-12-21,,Transcriptional regulation.csv
+BBa_J119025,BD2 bicistronic translational junction - Lowest efficiency,88,,,Not Released,BBa_M36282;BBa_M36925;BBa_M36120,Not in stock,None,6 Uses,Eckdahl_Lab,Vivek Mutalik   ,2011-12-21,,Transcriptional regulation.csv
+BBa_J119026,BD10 bicistronic translational junction - Low efficiency,88,,,Not Released,,Not in stock,None,5 Uses,Eckdahl_Lab,Vivek Mutalik   ,2011-12-21,,Transcriptional regulation.csv
+BBa_K741013,RBS-lysis-T,299,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_USTC-China,Wuyang Chen,2012-07-25,,Transcriptional regulation.csv
+BBa_K734001,Theophylline demethylation pathway,4953,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Austin_Texas,Erik Quandt,2012-08-08,,Transcriptional regulation.csv
+BBa_K861043,FadA with a RBS,1185,,,Not Released,,Not in stock,None,3 Uses,iGEM12_WHU-China,Kuanwei Sheng,2012-09-06,,Transcriptional regulation.csv
+BBa_K836005,"Lysozyme from 	Rhodococcus phage RER2 (codon usage optimized for R, opacus)",1347,,,Not Released,,Not in stock,,1 Uses,iGEM12_TEC-UNA,Ricardo Alvarado,2012-09-20,,Transcriptional regulation.csv
+BBa_K836007,Nitrilase regulator from R. rhodochrous (codon usage optimized for R. opacus),981,,,Not Released,,Not in stock,None,1 Uses,iGEM12_TEC-UNA,Ricardo Alvarado & Veronica Delgado,2012-09-20,,Transcriptional regulation.csv
+BBa_K772001,EpCAM Binding Dock: C-terminus,1159,,,Not Released,BBa_K1202000,Not in stock,Works,1 Uses,iGEM12_Fatih,Mustafa Elitok,2012-09-24,,Transcriptional regulation.csv
+BBa_K772002,EpCAM Binding Dock: N terminus,1138,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_Fatih,Mustafa Elitok,2012-09-24,,Transcriptional regulation.csv
+BBa_K772003,TEV protease Full Structure,1044,,,Not Released,,Not in stock,None,Not Used,iGEM12_Fatih,Mustafa Elitok,2012-09-24,,Transcriptional regulation.csv
+BBa_K772006,GFP - LacZ anchor-inducer protein complex,1207,,,Not Released,,Not in stock,None,1 Uses,iGEM12_Fatih,Mustafa Elitok,2012-09-25,,Transcriptional regulation.csv
+BBa_K953004,Hemeoxygenase with RBS (E. coli Codon Optimised),748,,,Not Released,,In stock,None,2 Uses,iGEM12_Macquarie_Australia,David Dubow,2012-09-25,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K812057,A GoldenBricked version of sfGFP protein,768,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Evry,Hafez El Sayyed,2012-09-26,,Transcriptional regulation.csv
+BBa_K1065000,2-oxoglutarate oxygenase/decarboxylase (EFE),1078,,,Not Released,,It's complicated,Works,2 Uses,iGEM13_UNITN-Trento,Thomas Perli,2013-06-20,Spring 2017 Distribution;Spring 2016 Distribution,Transcriptional regulation.csv
+BBa_K976009,TDH3 Promoter + Yeast Kozak + FGFR-1/FRS2 Complex +TEF1 Terminator,5224,,,Not Released,,Not in stock,None,Not Used,iGEM13_MCIT_Indianapolis,Amna Sohail,2013-06-21,,Transcriptional regulation.csv
+BBa_K1058002,Translational unit of penicillinase repressor blaI,381,,,Not Released,,Not in stock,Works,Not Used,iGEM13_BIT,Yunjie Qiu&#65292;Rui Zhou,2013-08-27,,Transcriptional regulation.csv
+BBa_K1139100,Adenylate isopentenyltransferase 4,978,,,Not Released,,Not in stock,None,Not Used,iGEM13_Tokyo_Tech,Naoki Watarai,2013-08-29,,Transcriptional regulation.csv
+BBa_K1139101,Adenylate isopentenyltransferase 7,1011,,,Not Released,,Not in stock,None,1 Uses,iGEM13_Tokyo_Tech,Naoki Watarai,2013-08-29,,Transcriptional regulation.csv
+BBa_K1122678,pSpac - LacZ - pdc- adhB,3450,,,Not Released,,Not in stock,None,Not Used,iGEM13_Edinburgh,"Aleksandra Lewicka, Jan Lyczakowski",2013-08-30,,Transcriptional regulation.csv
+BBa_K1122681,pSpac - LacZ - Fur ,846,,,Not Released,,Not in stock,None,Not Used,iGEM13_Edinburgh,"Aleksandra Lewicka, Jan Lyczakowski",2013-08-30,,Transcriptional regulation.csv
+BBa_K1202000,His-C215 ,1159,,,Not Released,BBa_K772001,Not in stock,None,Not Used,iGEM13_ATOMS-TURKIYE,Ayse Demirci,2013-09-18,,Transcriptional regulation.csv
+BBa_K1151035,Hpn translational unit,200,,,Not Released,,Not in stock,,Not Used,iGEM13_UniSalento_Lecce,Davide Magrì,2013-09-21,,Transcriptional regulation.csv
+BBa_K1291571,HORSERADISH PEROXIDASE TYPE C,1059,,,Not Released,,Not in stock,Works,1 Uses,iGEM14_AUC_TURKEY,&#304;BRAH&#304;M YAS&#304;R ORHAN,2014-06-23,,Transcriptional regulation.csv
+BBa_K1291453,LIGNIN PEROXIDASE TYPE I,1116,,,Not Released,,Not in stock,Works,Not Used,iGEM14_AUC_TURKEY,&#304;BRAH&#304;M YAS&#304;R ORHAN,2014-06-23,,Transcriptional regulation.csv
+BBa_J90001,BCP translational unit,810,,,Not Released,,Not in stock,None,1 Uses,Fong Lab,George McArthur IV,2014-07-22,,Transcriptional regulation.csv
+BBa_K1465203,"Ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO) from Synechococcus elongatus",1791,,,Not Released,BBa_K1465555,Not in stock,None,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-09-04,,Transcriptional regulation.csv
+BBa_K1429000,"Green Fluorescent Protein (GFP) ""Comet"" coding region, intellectual property-free",714,,,Not Released,,Not in stock,None,Not Used,iGEM14_Genspace,Giorgia Cannici,2014-09-06,,Transcriptional regulation.csv
+BBa_K1520500,red fluorescent protein,732,,,Not Released,,Not in stock,None,9 Uses,iGEM14_Nanjing-China,Peiqing Sun,2014-09-22,,Transcriptional regulation.csv
+BBa_K1472612,"Delta 9,12 and 15 Desaturase ",3218,,,Not Released,,Not in stock,None,Not Used,iGEM14_CityU_HK,"Choi hiu Ying, LEE Cheuk Lam, Tse Yui Shing, Yeung Sin Yu",2014-09-29,,Transcriptional regulation.csv
+BBa_K1497003,B0034-CHI -  Chalcone Isomerase from Petunia with strong RBS,744,,,Not Released,,Not in stock,Works,1 Uses,iGEM14_TU_Darmstadt,"Sascha Hein, Niklas Hummel, Sebastian Barthel, Thomas Dohmen",2014-10-11,,Transcriptional regulation.csv
+BBa_K1500009,IPTG--GFP--DnaE,4455,,,Not Released,,Not in stock,,Not Used,iGEM14_uchicago_IGSB,Rivka Baker Keusch,2014-10-17,,Transcriptional regulation.csv
+BBa_M36428,"RBS, spacer, Bxb1 integrase",1515,,,Not Released,,Not in stock,,1 Uses,Stanford BIOE44 - S11,Anna Jaffe,2014-10-23,,Transcriptional regulation.csv
+BBa_K1523103,The translational unit of yieF,761,,,Not Released,,Not in stock,,Not Used,iGEM14_LZU-China,Haotian Wang,2014-12-14,,Transcriptional regulation.csv
+BBa_K1602001,B0034-xylC,888,,,Not Released,,Not in stock,None,1 Uses,iGEM15_TU_Darmstadt,"Jonas Sindlinger, Leon Kraus, Jonathan Pletzer-Zelgert, Elena Tonchevska, Sebastian Holzner, Mirjam Haun, Sebastian Barthel",2015-08-28,Spring 2017 Distribution,Transcriptional regulation.csv
+BBa_K1602000,B0034-xylB,765,,,Not Released,,Not in stock,Works,1 Uses,iGEM15_TU_Darmstadt,"Jonas Sindlinger, Leon Kraus, Jonathan Pletzer-Zelgert, Elena Tonchevska, Sebastian Holzner, Mirjam Haun, Sebastian Barthel",2015-08-28,Spring 2017 Distribution,Transcriptional regulation.csv
+BBa_K1602002,B0034-yjhG,1986,,,Not Released,,Not in stock,None,2 Uses,iGEM15_TU_Darmstadt,"Jonas Sindlinger, Leon Kraus, Jonathan Pletzer-Zelgert, Elena Tonchevska, Sebastian Holzner, Mirjam Haun, Sebastian Barthel",2015-08-28,,Transcriptional regulation.csv
+BBa_K1688002,RhlA Gene,965,,,Not Released,,Not in stock,None,1 Uses,iGEM15_Uppsala,Biosurfers,2015-09-15,,Transcriptional regulation.csv

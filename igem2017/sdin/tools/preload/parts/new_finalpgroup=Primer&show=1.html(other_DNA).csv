@@ -1,0 +1,1083 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distribution,filename
+BBa_G00100,Forward primer for sequencing/amplifying BioBrick parts (VF2),n/a,,Antiquity:5,Not Released,,Not in stock,Works,23 Uses,Antiquity,Tom Knight,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00101,Reverse primer for sequencing/amplifying BioBrick parts (VR),175,,Antiquity:5;raik:2,Not Released,BBa_K237007,Not in stock,Works,Not Used,Antiquity,Tom Knight,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00103,M13-F (-20), ,,,Not Released,,Not in stock,Works,Not Used,Part Editors,Tom Knight,2006-06-08,,pgroup=Primer&show=1.html.csv
+BBa_G00104,M13-R (-26), ,,,Not Released,,Not in stock,Works,Not Used,Part Editors,Tom Knight,2006-06-08,,pgroup=Primer&show=1.html.csv
+BBa_G00105,M13-F (-40), ,,,Not Released,,Not in stock,Works,Not Used,Part Editors,Tom Knight,2006-06-08,,pgroup=Primer&show=1.html.csv
+BBa_G00106,M13-F (-46), ,,,Not Released,,Not in stock,Works,Not Used,Part Editors,Tom Knight,2006-06-08,,pgroup=Primer&show=1.html.csv
+BBa_G00107,M13-R (-46), ,,,Not Released,,Not in stock,Works,Not Used,Part Editors,Tom Knight,2006-06-08,,pgroup=Primer&show=1.html.csv
+BBa_G00108,"SP6 universal primer, 18-mer", ,,,Not Released,BBa_K2037000,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00109,"SP6 promoter sequencing primer, 24-mer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00110,"T3 promoter sequencing primer, 17-mer  ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00111,"T3 promoter primer, 20-mer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00112,"T3 promoter sequencing primer, 24-mer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00113,"T7 promoter sequencing primer, 20-mer", ,,,Not Released,BBa_K923003;BBa_K2150031;BBa_K2066537,It's complicated,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00120,Forward Primer to C0012,438,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00121,Reverse Primer to C0012,n/a,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00200,"Forward primer for sequencing composite parts; binds to CFP/YFP (BBa_E0020/22, BBa_E0030/32)", ,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00201,Reverse primer for sequencing composite parts; binds to GFP (BBa_E0040),n/a,,,Not Released,,Not in stock,Works,Not Used,iGEM2006_MIT,Bartholomew Canton,2007-03-01,,pgroup=Primer&show=1.html.csv
+BBa_G00400,Forward Primer to C0040,409,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00401,Reverse Primer to C0040,n/a,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00500,Forward Primer to C0050,434,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00501,Reverse Primer to C0050,n/a,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00510,Forward Primer to C0051,438,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00511,Reverse Primer to C0051,n/a,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00520,Forward Primer to C0052,378,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00521,Reverse Primer to C0052,n/a,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00530,Forward Primer to C0053, ,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00531,Reverse Primer to C0053, ,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00600,Forward Primer to C0060, ,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00601,Reverse Primer to C0060, ,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00602,Forward primer to C0062, ,,,Not Released,,Not in stock,Works,Not Used,iGEM2006_MIT,Bartholomew Canton,2007-03-29,,pgroup=Primer&show=1.html.csv
+BBa_G00700,Forward primer for I0500 (pBAD),790,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,Barry Canton,2004-09-23,,pgroup=Primer&show=1.html.csv
+BBa_G00701,Reverse primer for I0500 (pBAD),430,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,Barry Canton,2004-09-23,,pgroup=Primer&show=1.html.csv
+BBa_G1000,Forward primer for amplifying BioBrick plasmid backbones by PCR (Suffix-f), ,,,Not Released,BBa_G00001;BBa_M1906;BBa_K1795201;BBa_K1945013,Not in stock,Works,Not Used,iGEM2006_MIT,Jason Kelly,2008-04-22,,pgroup=Primer&show=1.html.csv
+BBa_G1001,Reverse primer for amplifying BioBrick plasmid backbones by PCR (Prefix-r), ,,,Not Released,,Not in stock,Works,Not Used,iGEM2006_MIT,Jason Kelly,2008-04-22,,pgroup=Primer&show=1.html.csv
+BBa_G1002,Forward primer for amplifying BioBrick plasmid backbones by PCR (Suffix-f), ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G1003,Reverse primer for amplifying BioBrick plasmid backbones by PCR (Prefix-r), ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G1004,Forward BioBrick prefix primer for amplifying BioBrick parts (BioBrick-f), ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G1005,Reverse BioBrick suffix primer for amplifying BioBrick parts (BioBrick-r), ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_I749000,bchB reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Berkeley_LBL,Laina Magaya,2007-10-26,,pgroup=Primer&show=1.html.csv
+BBa_I749001,bchB forward primer , ,,,Not Released,,Not in stock,,Not Used,iGEM07_Berkeley_LBL,Laina Magaya,2007-10-26,,pgroup=Primer&show=1.html.csv
+BBa_J133700,primers tail extension EX for BioBricking, ,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-06-24,,pgroup=Primer&show=1.html.csv
+BBa_J133701,primers tail extension SP for BioBricking, ,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-06-24,,pgroup=Primer&show=1.html.csv
+BBa_J18907,VR2: Reverse Primer to pSB1 Biobrick Vectors (optimized VR), ,,,Not Released,,Not in stock,Works,Not Used,Affiliates,Raik Gruenberg,2009-02-26,,pgroup=Primer&show=1.html.csv
+BBa_J18910,RFC 25 vector forward (suffix), ,,,Not Released,,Not in stock,Works,Not Used,Affiliates,Raik Gruenberg,2010-01-25,,pgroup=Primer&show=1.html.csv
+BBa_J18911,RFC 25 vector reverse (prefix), ,,,Not Released,,Not in stock,Works,Not Used,Affiliates,Raik Gruenberg,2010-01-25,,pgroup=Primer&show=1.html.csv
+BBa_K1182401,[Forward] Split β-galactosidase - ω fragment, ,,,Not Released,,Not in stock,Works,Not Used,iGEM13_UI-Indonesia,Muhammad Hanifi,2013-09-16,,pgroup=Primer&show=1.html.csv
+BBa_K1182501,[Reverse] Split β-galactosidase - ω fragment, ,,,Not Released,,Not in stock,Works,Not Used,iGEM13_UI-Indonesia,Muhammad Hanifi,2013-09-16,,pgroup=Primer&show=1.html.csv
+BBa_K119004,Upper primer  for aiiA with normal lacZ promoter, ,,,Not Released,,Not in stock,None,Not Used,iGEM08_LCG-UNAM-Mexico,Martín del Castillo Velasco,2008-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K119005,Upper primer  for aiiA with mutated lacZ promoter, ,,,Not Released,,Not in stock,None,Not Used,iGEM08_LCG-UNAM-Mexico,Martín del Castillo Velasco,2008-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K119007,Upper primer  for RcnA, ,,,Not Released,,Not in stock,None,Not Used,iGEM08_LCG-UNAM-Mexico,Libertad Pantoja,2008-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K119008,Lower primer for RcnA (BBa_K119003), ,,,Not Released,,Not in stock,,Not Used,iGEM08_LCG-UNAM-Mexico,Libertad Pantoja,2008-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K1441006,Mambalgin-1 Forward Primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Georgia_State,Reza Alavi,2014-10-04,,pgroup=Primer&show=1.html.csv
+BBa_K1441007,Mambalgin-1 reverse Primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Georgia_State,Reza Alavi,2014-10-04,,pgroup=Primer&show=1.html.csv
+BBa_K1441014,DNA ligase Ecor1 F primer, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1441015,DNA ligase Ecor1 F primer, ,,,Not Released,,It's complicated,,Not Used,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1441016,DNA ligase R primer, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1441017,DNA ligase R primer, ,,,Not Released,,It's complicated,,Not Used,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1441018,pGMCSF1, ,,,Not Released,,It's complicated,,Not Used,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1441019,pGMCSR1, ,,,Not Released,,It's complicated,,Not Used,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1443003,RFP Binding Forward Primer for Backbone Amplification, ,,,Not Released,,Not in stock,None,Not Used,iGEM14_Aalto,Lassi Vapaakallio,2014-10-09,,pgroup=Primer&show=1.html.csv
+BBa_K1443004,RFP Binding Reverse Primer for Backbone Amplification, ,,,Not Released,,Not in stock,None,Not Used,iGEM14_Aalto,Lassi Vapaakallio,2014-10-09,,pgroup=Primer&show=1.html.csv
+BBa_K1456007,Superoxide dismutase-1 (SOD-1) Forward primer with restriction site and kozak sequence, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,safa tapan,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456008,"Superoxide Dismutase enzyme reverse primer with restriction site, two stop codon and  6X His-Tag", ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,safa tapan,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456009,Glutathione Peroxidase (GPx) enzyme forward primer with restriction site and kozak sequence, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,safa tapan,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456010,"Glutathione Peroxidase (GPx) enzyme reverse primer with restriction site, two stop codon and  6X His", ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,safa tapan,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456011,Human Tissue Plasminogen Activator (tPA) enzyme forward primer with restriction site and kozak seque, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,safa tapan,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456012,"Human Tissue Plasminogen Activator reverse primer with restriction site, 2 stop codons and 6X His", ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456013,Oxygen dependent degradation(ODD) domain from HIF-1a forward primer with restriction site, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456014,Oxygen dependent degradation(ODD) domain from HIF-1a reverse primer with restriction site, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456019,Superoxide dismutase-1 (SOD-1) Forward primer-2 with restriction site and kozak sequence, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1456020,Superoxide dismutase-1 (SOD-1) reverse primer-2 with restriction site and kozak sequence, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1456021,Glutathione Peroxidase-1 (GPx-1) enzyme forward primer-2 with restriction site and kozak sequence, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1456022,"Glutathione Peroxidase(GPx1) enzyme reverse primer-2 with restriction site, two stop codon and 6xHis", ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1456023,Human Tissue Plasminogen Activator (tPA) enzyme forward primer-2 with restriction site and kozak seq, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1456024,"Human Tissue Plasminogen Activator reverse primer-2 with restriction site, 2 stop codons and 6XHis", ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1465107,porine fwd, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K1465108,porine rev, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K1465109,dcuB fwd, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K1465110,dcuB rev, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K1465403,alr fwd, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-07,,pgroup=Primer&show=1.html.csv
+BBa_K1465404,alr rev, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-07,,pgroup=Primer&show=1.html.csv
+BBa_K1465405,dadX_fwd, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-07,,pgroup=Primer&show=1.html.csv
+BBa_K1465406,dadX_rev, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-07,,pgroup=Primer&show=1.html.csv
+BBa_K152012,Zea mays Actin1 Intron Reverse Primer, ,,,Not Released,,It's complicated,,Not Used,iGEM08_Guelph,David Johnston Monje,2008-10-30,,pgroup=Primer&show=1.html.csv
+BBa_K1539021,HE RBS Primer , ,,,Not Released,,Not in stock,None,Not Used,iGEM14_GeorgiaTech,Coleen Tran,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1539034,LE RBS Primer, ,,,Not Released,,Not in stock,None,Not Used,iGEM14_GeorgiaTech,Coleen Tran,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1539055,HE Promoter Primer, ,,,Not Released,,Not in stock,None,Not Used,iGEM14_GeorgiaTech,Coleen Tran,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1539089,LE Promoter Primer, ,,,Not Released,,Not in stock,None,Not Used,iGEM14_GeorgiaTech,Coleen Tran,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1614003,RFC 110 forward linearization primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM15_Heidelberg,Stefan Holderbach,2015-09-14,,pgroup=Primer&show=1.html.csv
+BBa_K1614004,RFC 110 reverse linearization primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM15_Heidelberg,Stefan Holderbach,2015-09-14,,pgroup=Primer&show=1.html.csv
+BBa_K1614005,RFC 110 forward fragment extraction primer, ,,,,,,,,,,,,
+BBa_K1614006,RFC 110 reverse fragment extraction primer, ,,,,,,,,,,,,
+BBa_K1636001,Primer for lead-II-ions-specific aptamer, ,,,Not Released,,Not in stock,None,Not Used,iGEM15_TecCEM,Roger Milton Rubio Sanchez,2015-09-05,,pgroup=Primer&show=1.html.csv
+BBa_K1639017,pColA Forward Primer, ,,,Not Released,,Not in stock,Issues,Not Used,iGEM15_ATOMS-Turkiye,Berke Kahraman,2015-09-17,,pgroup=Primer&show=1.html.csv
+BBa_K1639018,pColA Reverse Primer, ,,,Not Released,,Not in stock,Issues,Not Used,iGEM15_ATOMS-Turkiye,Berke Kahraman,2015-09-17,,pgroup=Primer&show=1.html.csv
+BBa_K176047,"Reverse primer VR3 (bind to K176037), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176048,"Reverse primer VR4 (bind to K176038), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176049,"Reverse primer VR5 (bind to K176039), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176050,"Reverse primer VR6 (bind to K176040), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176051,"Reverse primer VR7 (bind to K176041), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176052,"Reverse primer VR8 (bind to K176042), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176053,"Reverse primer VR9 (bind to K176043), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176054,"Reverse primer VR10 (bind to K176044), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176055,"Reverse primer VR11 (bind to K176045), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176056,"Reverse primer VR12 (bind to K176046), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176057,Forward sequencing primer binds to tetR 3prime terminal (VFtetR), ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,Hao Jiang,2009-07-20,,pgroup=Primer&show=1.html.csv
+BBa_K176058,Reverse sequencing primer binds to ccdB 5prime terminal (VRccdB), ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,Hao Jiang,2009-07-21,,pgroup=Primer&show=1.html.csv
+BBa_K176059,M13 -47 general primer as a reverse primer binds to 5prime terminal of lacZ, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,Hao Jiang,2009-07-21,,pgroup=Primer&show=1.html.csv
+BBa_K176088,Reverse sequencing primer binds to the middle of luxR (VRluxR), ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,Hao Jiang,2009-08-05,,pgroup=Primer&show=1.html.csv
+BBa_K187033,pAB/BA forward primer for sequencing, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187034,pAB/BA reverse primer for sequencing, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187035,"accB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187036,"accB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187037,"accD, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187038,"accD, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187039,ftsW ORF forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187040,"acpP, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187041,"acpP, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187042,ftsZ ORF forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187043,"acpS, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187044,"acpS, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187045,gapA ORF forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187046,ispU ORF forward primer, ,,,Not Released,BBa_K187318,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187047,"asnS, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187048,glmM ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187049,"asnS, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187050,gltX ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187051,"atpE, ORF, foward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187052,"atpE, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187053,"cca, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187054,"cca, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187055,glyA ORF  Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187056,"coaA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187057,ispU ORF reverse primer, ,,,Not Released,BBa_K187319,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187058,"coaA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187059,kdsB ORF forward primer, ,,,Not Released,BBa_K187321,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187060,"cydA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187061,kdsB ORF reverse primer, ,,,Not Released,BBa_K187323,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187062,glyQ ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187063,"cydA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187064,"cydC, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187065,glyQ ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187066,"cydC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187068,glyS ORF Forward primer , ,,,Not Released,BBa_K187071,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187069,"def, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187070,"def, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187071,glyS ORF Reverse primer , ,,,Not Released,BBa_K187068,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187072,"der, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187073,"der, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187075,gmK ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187076,"dnaB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187078,gmK ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187079,"dnaB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187080,"dnaN, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187081,"dnaN, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187082,"dnaX, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187083,"dnaX, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187084,"dut, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187085,gpsA ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187086,"ftsW, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187087,"dut, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187088,gpsA ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187089,"dxs, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187091,grpE ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187092,"dxs, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187093,"fabA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187095,grpE ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187096,"fabA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187097,"fabB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187098,"fabB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187099,hemC ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187100,"fabG, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187102,hemC ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187103,"fabG, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187104,"fabH, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187106,hemd ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187107,"fabH, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187108,"fadD, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187109,hemD ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187110,"fadD, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187111,"ffh, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187112,"ffh, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187113,"fldA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187114,"fldA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187115,"folA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187116, -- No description -- , ,,,Not Released,,No part sequence,None,No Sequence,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187117,"folA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187118,"folB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187119,"folB, ORF, reverse primer", ,,,Not Released,,No part sequence,Works,No Sequence,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187120,hemE ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187121,hemE ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187122,hemF ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187123,hemF ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187124,hemG ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187125,"nadA, b0750, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187126,hemG ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187127,hemH ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187128,hemH ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187129,hemL ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187130,"nadA, b0750, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187131,hemL ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187132,hisS ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187133,hisS ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187134,holA ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187135,holA ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187136,hpt ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187137,hpt ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187138,infA ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187139,infA ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187140,infC ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187141,infC ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187142,ispA ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187143,ispA ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187144,ispD ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187145,ispD ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187146,ispE ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187147,ispE ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187148,ispF ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187149,ispF ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187150,ispG ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187151,ispG ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187152,ispH ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187153,ispH ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187154,"ptsG, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187156,"ptsG, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187157,"ptsI, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187158,"rpsS, ORF, forward primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187159,"rpsS, ORF, reverse primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187160,"rsgA,ORF,forward primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187161,"ptsI, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187162,"rsgA,ORF,reverse primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187163,"secM, ORF, forward primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187164,"purA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187165,"secM, ORF, reverse primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187166,"purA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187167,"pfkA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187168,"secY,ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187169,"purB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187170,"secY,ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187171,"purB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187172,"rplO, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187173,"pgi, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187174,"pgsA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187175,"rplO, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187176,"pitA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187177,"ssb, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187178,"ssb, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187179,"suhB, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187180,"suhB, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187181,"plsB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187182,"tadA, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187183,"rplP, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187184,"tadA, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187185,"tdk, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187186,"tdk, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187187,"plsC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187188,"thiK, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187189,"thiK, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187190,"tmk, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187191,"tmk, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187192,"rplP, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187193,"pyrG, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187194,"trmD, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187195,"prfB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187196,"trmD, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187197,"trpS, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187198,"pyrG, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187199,"trpS, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187200,"rplT. ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187201,"ribB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187202,"priA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187203,"ribB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187204,"ribC, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187205,"rplT, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187206,"psd, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187207,"ribC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187208,"ribF, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187209,"pssA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187210,"ribF, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187211,"rplU, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187212,"pth, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187213,"rlpB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187214,"rlpB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187215,"rplU, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187216,"rnc, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187217,"rnc, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187218,"rplV, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187219,"rplV, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187220,"rplW, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187221,"rplW, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187222,"rplX, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187223,"rplX, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187224,"rpmA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187225,"rpmA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187226,"rpmB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187227,trxB ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187228,"rpmB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187229,trxB ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187230,"rpmC, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187231,ubiA ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187232,ubiA ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187233,"rpmC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187234,ubiB ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187235,"rpmD, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187236,ubiB ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187237,ubiC ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187238,"rpmD, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187239,ubiC ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187240,ubiD ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187241,ubiD ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187242,ubiE ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187243,ubiE ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187244,ubiF ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187245,ubiF ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187246,ubiG ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187247,ubiG ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187248,ubiH ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187249,ubiH ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187250,udk ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187251,udk ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187252,"folC, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187253,"folC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187254,"folD, ORF, forward primer", ,,,Not Released,BBa_K187255,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187255,"folD, ORF, reverse primer", ,,,Not Released,BBa_K187254,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187256,"folE, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187258,"folE, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187259,"folK, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187260,"folK, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187261,"ftsA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187262,"ftsA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187263,"ftsB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187264,"ftsB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187265,"ftsL, ORF, forward", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187266,"ftsL, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187267,"ftsN, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187268,"ftsN, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187269,"ftsQ, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187270,"ftsQ, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187271,"rne ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187272,"rne ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187273,"rnpA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187274,rnpA ORF Reverse Primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187275,"rpe ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187276,"rpe ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187277,"rplB ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187278,"rplB ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187279,"rplC ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187280,"rplC ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187281,"rplD ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187282,"rplD ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187283,"rplE ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187284,"rplE ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187285,"rplL ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187286,"rplL ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187287,"rplM ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187288,"rplM ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187289,"rplN ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187290,"rplN ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187291,metK ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187292,"metK ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187293,"mnmA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187294,"mnmA ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187295,"mrdA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187296,"mrdA ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187297,"mrdB ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187298,"mrdB ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187299,"mreD ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187300,mreD ORF Reverse Primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187301,"msbA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187302,"msbA ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187303,"mukE ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187304,"mukE ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187305,"murA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187306,"murA ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187307,"lolA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187308,"murB ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187309,"murB ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187310,"murC ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187311,"murC ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187312,"murE ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187313,"murE ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187314,"murG ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187315,"murG ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187316,"lolA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187317,"lolB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187318,"ispU ORF, Forward Primer", ,,,Not Released,BBa_K187046,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187319,"ispU ORF, Reverse Primer", ,,,Not Released,BBa_K187057,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187320,"lolB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187321,"kdsB ORF, Forward Primer", ,,,Not Released,BBa_K187059,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187322,"lolC, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187323,"kdsB ORF, Reverse Primer", ,,,Not Released,BBa_K187061,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187324,"kdsC ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187325,"kdsC ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187326,"lolC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187327,"lepB ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187328,"lepB ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187329,"lexA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187330,"lexA ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187331,"lgt ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187332,"lptB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187333,"lgt ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187334,"lnt ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187335,"lptB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187336,"lnt ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187338,"lpxA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187340,"lpxA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187341,"lpxK, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187342,"lpxK, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187343,"map, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187344,"map, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187345,"nadB, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187346,"nadB, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187347,"nadC, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187348,"nadC, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187349,"nadD, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187350,"nadD, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187351,"nadE, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187352,"nadE, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187353,"nrdA, ORF, Forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187354,"nrdA, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187355,"nrdB, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187356,"nrdB, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187357,"nudB, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187358,"nudB, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187359,"nusB, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187360,"nusB, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187361,"obgE, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187362,"obgE, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187363,"orn, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187364,"orn, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187365,pAB_F (A end) USER primer for BioBytes plasmid pAB, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Team Biobytes,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187366,pAB_R (B end) USER primer for BioBytes plasmid pAB, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Team Biobytes,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187367,pBA_F (B end) USER primer for BioBytes plasmid pBA, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Team BioBytes,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187368,pBA_R (A end) USER primer for BioBytes plasmid pBA, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Team Biobytes,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187369,"rpmH, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187370,"rpmH, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187371,"ftsZ, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187372,"gapA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187373,"glmM, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187374,"gltX, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187375,"glyA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187376,"rpsB, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187377,"rpsB, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187378,"rpsC, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187379,"rpsC, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187380,"rpsD, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187381,"rpsD, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187382,"rpsG, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187383,"rpsG, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187384,"rpsH, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187385,"rpsH, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187386,"wzyE, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187387,"rpsJ, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187388,"wzyE, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187389,"rpsJ, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187390,"yafF, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187391,"yafF, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187392,"rpsK, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187393,"rpsK, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187394,"yceQ, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187395,"yceQ, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187396,"yeaZ, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187397,"yeaZ, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187398,"ygjD, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187399,"rpsL, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187400,"ygjD, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187401,"yihA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187402,"rpsL, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187403,"yihA, ORF, reveser primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187404,"rpsP, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187405,"yjeE, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187406,"yjeE, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187407,"rpsP, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187408,"yqgF, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187410,"yqgF, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187411,"rpsQ, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187412,"rpsQ, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187413,"rpsR, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187414,"rpsR, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187424," Origin in AB, Forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187425,"Origin in AB, Reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187426,"Origin in BA, Forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187427,"Origin in BA, Reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K2184039,Forward primer, ,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Danci-K8,Margalit Mualem,2016-09-30,,pgroup=Primer&show=1.html.csv
+BBa_K2184040,Reverse primer, ,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Danci-K8,Margalit Mualem,2016-09-30,,pgroup=Primer&show=1.html.csv
+BBa_K237007,VR2, ,,,Not Released,BBa_G00101,Not in stock,Works,Not Used,iGEM09_SDU-Denmark,Marc T. K. Nielsen,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268018,YOR049C -> GFP, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268019,YOR186W -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268020,YGR213C -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268021,YGR236C -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268022,YLR346C -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268023,YGL219W -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268024,YJL287W -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268025,YGR243C -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268026,YHL012W -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268027,YDL205C -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K284004,Forward Primer to BBa_K284000, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284005,Reverse Primer to BBa_K284000, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284009,Forward Primer to BBa_K284002, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284010,Reverse Primer  to BBa_K284002, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284011,Forward Primer to BBa_K284003, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284012,Reverse Primer to BBa_K284003, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284013,Forward Primer to BBa_K284001, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284014,Reverse Primer to BBa_K284001, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K300975,Phi80 locus forward primer, ,,UNIPV-Pavia iGEM 2010:5,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Manuel Lupotto, Matteo Meroso, Paolo Magni",2010-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K300976,BBa_K300000 reverse verification primer, ,,UNIPV-Pavia iGEM 2010:5,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Manuel Lupotto, Matteo Meroso, Paolo Magni",2010-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K300977,BBa_K300000 forward verification primer, ,,UNIPV-Pavia iGEM 2010:1,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Manuel Lupotto, Matteo Meroso, Paolo Magni",2010-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K300978,Phi80 locus reverse primer, ,,UNIPV-Pavia iGEM 2010:5,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Manuel Lupotto, Matteo Meroso, Paolo Magni",2010-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K360114,Primer to change RBS of P. pyralis luciferase, ,,,Not Released,,Not in stock,None,Not Used,iGEM10_UNAM-Genomics_Mexico,Mariana Ruiz Velasco Leyva,2010-10-15,,pgroup=Primer&show=1.html.csv
+BBa_K391002,Forward Primer to PCR agrCA (with RBS)  from S. aureus, ,,,Not Released,,It's complicated,,Not Used,iGEM10_British_Columbia,Phillip Chu,2010-10-25,,pgroup=Primer&show=1.html.csv
+BBa_K391003,Reverse Primer to PCR agrCA (with RBS)  from S. aureus, ,,,Not Released,,It's complicated,,Not Used,iGEM10_British_Columbia,Phillip Chu,2010-10-25,,pgroup=Primer&show=1.html.csv
+BBa_K391004,Forward primer to PCR S. aureus plasmid replicon, ,,,Not Released,,It's complicated,,Not Used,iGEM10_British_Columbia,Phillip Chu,2010-10-25,,pgroup=Primer&show=1.html.csv
+BBa_K391005,Reverse primer to PCR S. aureus plasmid replicon, ,,,Not Released,,Not in stock,,Not Used,iGEM10_British_Columbia,Phillip Chu,2010-10-25,,pgroup=Primer&show=1.html.csv
+BBa_K496000,Forward primer  for visualizing restriction enzyme digestion., ,,,Not Released,,Not in stock,None,Not Used,iGEM10_HokkaidoU_Japan,Laurynas VANAGAS,2010-08-25,,pgroup=Primer&show=1.html.csv
+BBa_K496002,Reverse primer for visualizing restriction enzyme digestion., ,,,Not Released,,Not in stock,None,Not Used,iGEM10_HokkaidoU_Japan,Laurynas VANAGAS,2010-08-25,,pgroup=Primer&show=1.html.csv
+BBa_K497010,Agrobacterium tumefaciens bacteriophytochrome fwd primer, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497011,Agrobacterium tumefaciens bacteriophytochrome fwd primer with RBS insertion, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497012,Agrobacterium tumefaciens bacteriophytochrome rvs primer, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497013,Deinococcus radiodurans bacteriophytochrome fwd primer, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497014,Deinococcus radiodurans bacteriophytochrome fwd primer with RBS, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497015,Deinococcus radiodurans bacteriophytochrome rvs primer, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497016,Agrobacterium tumefaciens fwd primer for bacteriophytochrome for insertion after heme oxygenase, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497017,Reverse primer for Agrobacterium tumefaciens bacteriophytochrome gene for insertion after heme oxyge, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497018,Forward primer Deinococcus radiodurans bacteriophytochrome gene for insertion after heme oxygenase, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497019,Reverse primer Deinococcus radiodurans bacteriophytochrome gene for insertion after heme oxygenase, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K590083,"pGA Prefix, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Washington,Michael Brasino,2011-09-22,,pgroup=Primer&show=1.html.csv
+BBa_K590084,"pGA Prefix, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Washington,Michael Brasino,2011-09-22,,pgroup=Primer&show=1.html.csv
+BBa_K590085,"pGA Suffix, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Washington,Michael Brasino,2011-09-22,,pgroup=Primer&show=1.html.csv
+BBa_K590086,"pGA Suffix, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Washington,Michael Brasino,2011-09-22,,pgroup=Primer&show=1.html.csv
+BBa_K624034,revised minC primer (forward), ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_NYMU-Taiwan,Yi-Hong Liou,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K624035,revised minC primer (reverse), ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_NYMU-Taiwan,Yi-Hong Liou,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K624063,nested_Inv F (inter-strain nested primer), ,,,Not Released,,No part sequence,Works,No Sequence,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K624064,nested_Inv R (inter-strain nested primer), ,,,Not Released,,No part sequence,Works,No Sequence,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K624065,nested_LLO F (inter-strain nested primer), ,,,Not Released,,No part sequence,Works,No Sequence,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K624066,nested_LLO R (inter-strain nested primer), ,,,Not Released,,No part sequence,Works,No Sequence,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K864445,Spot42 randomized forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Uppsala,"Arvid Hedén Gynnå, Sabri Jamal, Lisa Branzell, Hampus Elofsson",2012-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K864446,Spot42 randomized reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Uppsala,"Arvid Hedén Gynnå, Sabri Jamal, Lisa Branzell, Hampus Elofsson",2012-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K923001,Forward Primer for Thermobifida fusca cutinase, ,,,Not Released,,Not in stock,,Not Used,iGEM12_BAU_Indonesia,Achmad Farajallah,2012-09-26,,pgroup=Primer&show=1.html.csv
+BBa_K923002,Reverse Primer for Thermobifida fusca cutinase, ,,,Not Released,,Not in stock,,Not Used,iGEM12_BAU_Indonesia,Achmad Farajallah,2012-09-26,,pgroup=Primer&show=1.html.csv
+BBa_M36988,Secreting Antifreeze Protein Correcting Reverse Primer, ,,,Not Released,,Not in stock,,Not Used,Stanford BIOE44 - S11,Nathan Barnett,2011-06-08,,pgroup=Primer&show=1.html.csv
+BBa_M36989,Secreting Antifreeze Protein Correcting Forward Primer, ,,,,,,,,,,,,
+BBa_G00100,Forward primer for sequencing/amplifying BioBrick parts (VF2),n/a,,Antiquity:5,Not Released,,Not in stock,Works,23 Uses,Antiquity,Tom Knight,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00101,Reverse primer for sequencing/amplifying BioBrick parts (VR),175,,Antiquity:5;raik:2,Not Released,BBa_K237007,Not in stock,Works,Not Used,Antiquity,Tom Knight,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00103,M13-F (-20), ,,,Not Released,,Not in stock,Works,Not Used,Part Editors,Tom Knight,2006-06-08,,pgroup=Primer&show=1.html.csv
+BBa_G00104,M13-R (-26), ,,,Not Released,,Not in stock,Works,Not Used,Part Editors,Tom Knight,2006-06-08,,pgroup=Primer&show=1.html.csv
+BBa_G00105,M13-F (-40), ,,,Not Released,,Not in stock,Works,Not Used,Part Editors,Tom Knight,2006-06-08,,pgroup=Primer&show=1.html.csv
+BBa_G00106,M13-F (-46), ,,,Not Released,,Not in stock,Works,Not Used,Part Editors,Tom Knight,2006-06-08,,pgroup=Primer&show=1.html.csv
+BBa_G00107,M13-R (-46), ,,,Not Released,,Not in stock,Works,Not Used,Part Editors,Tom Knight,2006-06-08,,pgroup=Primer&show=1.html.csv
+BBa_G00108,"SP6 universal primer, 18-mer", ,,,Not Released,BBa_K2037000,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00109,"SP6 promoter sequencing primer, 24-mer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00110,"T3 promoter sequencing primer, 17-mer  ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00111,"T3 promoter primer, 20-mer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00112,"T3 promoter sequencing primer, 24-mer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00113,"T7 promoter sequencing primer, 20-mer", ,,,Not Released,BBa_K923003;BBa_K2150031;BBa_K2066537,It's complicated,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G00120,Forward Primer to C0012,438,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00121,Reverse Primer to C0012,n/a,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00200,"Forward primer for sequencing composite parts; binds to CFP/YFP (BBa_E0020/22, BBa_E0030/32)", ,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00201,Reverse primer for sequencing composite parts; binds to GFP (BBa_E0040),n/a,,,Not Released,,Not in stock,Works,Not Used,iGEM2006_MIT,Bartholomew Canton,2007-03-01,,pgroup=Primer&show=1.html.csv
+BBa_G00400,Forward Primer to C0040,409,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00401,Reverse Primer to C0040,n/a,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-05-25,,pgroup=Primer&show=1.html.csv
+BBa_G00500,Forward Primer to C0050,434,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00501,Reverse Primer to C0050,n/a,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00510,Forward Primer to C0051,438,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00511,Reverse Primer to C0051,n/a,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00520,Forward Primer to C0052,378,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00521,Reverse Primer to C0052,n/a,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00530,Forward Primer to C0053, ,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00531,Reverse Primer to C0053, ,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00600,Forward Primer to C0060, ,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00601,Reverse Primer to C0060, ,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,cconboy,2004-06-02,,pgroup=Primer&show=1.html.csv
+BBa_G00602,Forward primer to C0062, ,,,Not Released,,Not in stock,Works,Not Used,iGEM2006_MIT,Bartholomew Canton,2007-03-29,,pgroup=Primer&show=1.html.csv
+BBa_G00700,Forward primer for I0500 (pBAD),790,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,Barry Canton,2004-09-23,,pgroup=Primer&show=1.html.csv
+BBa_G00701,Reverse primer for I0500 (pBAD),430,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,Barry Canton,2004-09-23,,pgroup=Primer&show=1.html.csv
+BBa_G1000,Forward primer for amplifying BioBrick plasmid backbones by PCR (Suffix-f), ,,,Not Released,BBa_G00001;BBa_M1906;BBa_K1795201;BBa_K1945013,Not in stock,Works,Not Used,iGEM2006_MIT,Jason Kelly,2008-04-22,,pgroup=Primer&show=1.html.csv
+BBa_G1001,Reverse primer for amplifying BioBrick plasmid backbones by PCR (Prefix-r), ,,,Not Released,,Not in stock,Works,Not Used,iGEM2006_MIT,Jason Kelly,2008-04-22,,pgroup=Primer&show=1.html.csv
+BBa_G1002,Forward primer for amplifying BioBrick plasmid backbones by PCR (Suffix-f), ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G1003,Reverse primer for amplifying BioBrick plasmid backbones by PCR (Prefix-r), ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G1004,Forward BioBrick prefix primer for amplifying BioBrick parts (BioBrick-f), ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_G1005,Reverse BioBrick suffix primer for amplifying BioBrick parts (BioBrick-r), ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Example,Reshma Shetty,2008-10-17,,pgroup=Primer&show=1.html.csv
+BBa_I749000,bchB reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Berkeley_LBL,Laina Magaya,2007-10-26,,pgroup=Primer&show=1.html.csv
+BBa_I749001,bchB forward primer , ,,,Not Released,,Not in stock,,Not Used,iGEM07_Berkeley_LBL,Laina Magaya,2007-10-26,,pgroup=Primer&show=1.html.csv
+BBa_J133700,primers tail extension EX for BioBricking, ,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-06-24,,pgroup=Primer&show=1.html.csv
+BBa_J133701,primers tail extension SP for BioBricking, ,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-06-24,,pgroup=Primer&show=1.html.csv
+BBa_J18907,VR2: Reverse Primer to pSB1 Biobrick Vectors (optimized VR), ,,,Not Released,,Not in stock,Works,Not Used,Affiliates,Raik Gruenberg,2009-02-26,,pgroup=Primer&show=1.html.csv
+BBa_J18910,RFC 25 vector forward (suffix), ,,,Not Released,,Not in stock,Works,Not Used,Affiliates,Raik Gruenberg,2010-01-25,,pgroup=Primer&show=1.html.csv
+BBa_J18911,RFC 25 vector reverse (prefix), ,,,Not Released,,Not in stock,Works,Not Used,Affiliates,Raik Gruenberg,2010-01-25,,pgroup=Primer&show=1.html.csv
+BBa_K1182401,[Forward] Split β-galactosidase - ω fragment, ,,,Not Released,,Not in stock,Works,Not Used,iGEM13_UI-Indonesia,Muhammad Hanifi,2013-09-16,,pgroup=Primer&show=1.html.csv
+BBa_K1182501,[Reverse] Split β-galactosidase - ω fragment, ,,,Not Released,,Not in stock,Works,Not Used,iGEM13_UI-Indonesia,Muhammad Hanifi,2013-09-16,,pgroup=Primer&show=1.html.csv
+BBa_K119004,Upper primer  for aiiA with normal lacZ promoter, ,,,Not Released,,Not in stock,None,Not Used,iGEM08_LCG-UNAM-Mexico,Martín del Castillo Velasco,2008-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K119005,Upper primer  for aiiA with mutated lacZ promoter, ,,,Not Released,,Not in stock,None,Not Used,iGEM08_LCG-UNAM-Mexico,Martín del Castillo Velasco,2008-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K119007,Upper primer  for RcnA, ,,,Not Released,,Not in stock,None,Not Used,iGEM08_LCG-UNAM-Mexico,Libertad Pantoja,2008-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K119008,Lower primer for RcnA (BBa_K119003), ,,,Not Released,,Not in stock,,Not Used,iGEM08_LCG-UNAM-Mexico,Libertad Pantoja,2008-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K1441006,Mambalgin-1 Forward Primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Georgia_State,Reza Alavi,2014-10-04,,pgroup=Primer&show=1.html.csv
+BBa_K1441007,Mambalgin-1 reverse Primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Georgia_State,Reza Alavi,2014-10-04,,pgroup=Primer&show=1.html.csv
+BBa_K1441014,DNA ligase Ecor1 F primer, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1441015,DNA ligase Ecor1 F primer, ,,,Not Released,,It's complicated,,Not Used,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1441016,DNA ligase R primer, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1441017,DNA ligase R primer, ,,,Not Released,,It's complicated,,Not Used,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1441018,pGMCSF1, ,,,Not Released,,It's complicated,,Not Used,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1441019,pGMCSR1, ,,,Not Released,,It's complicated,,Not Used,iGEM14_Georgia_State,Matthew Brewer,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1443003,RFP Binding Forward Primer for Backbone Amplification, ,,,Not Released,,Not in stock,None,Not Used,iGEM14_Aalto,Lassi Vapaakallio,2014-10-09,,pgroup=Primer&show=1.html.csv
+BBa_K1443004,RFP Binding Reverse Primer for Backbone Amplification, ,,,Not Released,,Not in stock,None,Not Used,iGEM14_Aalto,Lassi Vapaakallio,2014-10-09,,pgroup=Primer&show=1.html.csv
+BBa_K1456007,Superoxide dismutase-1 (SOD-1) Forward primer with restriction site and kozak sequence, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,safa tapan,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456008,"Superoxide Dismutase enzyme reverse primer with restriction site, two stop codon and  6X His-Tag", ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,safa tapan,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456009,Glutathione Peroxidase (GPx) enzyme forward primer with restriction site and kozak sequence, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,safa tapan,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456010,"Glutathione Peroxidase (GPx) enzyme reverse primer with restriction site, two stop codon and  6X His", ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,safa tapan,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456011,Human Tissue Plasminogen Activator (tPA) enzyme forward primer with restriction site and kozak seque, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,safa tapan,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456012,"Human Tissue Plasminogen Activator reverse primer with restriction site, 2 stop codons and 6X His", ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456013,Oxygen dependent degradation(ODD) domain from HIF-1a forward primer with restriction site, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456014,Oxygen dependent degradation(ODD) domain from HIF-1a reverse primer with restriction site, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K1456019,Superoxide dismutase-1 (SOD-1) Forward primer-2 with restriction site and kozak sequence, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1456020,Superoxide dismutase-1 (SOD-1) reverse primer-2 with restriction site and kozak sequence, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1456021,Glutathione Peroxidase-1 (GPx-1) enzyme forward primer-2 with restriction site and kozak sequence, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1456022,"Glutathione Peroxidase(GPx1) enzyme reverse primer-2 with restriction site, two stop codon and 6xHis", ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1456023,Human Tissue Plasminogen Activator (tPA) enzyme forward primer-2 with restriction site and kozak seq, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1456024,"Human Tissue Plasminogen Activator reverse primer-2 with restriction site, 2 stop codons and 6XHis", ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_ATOMS-Turkiye,Mustafa Y&#305;lmaz,2014-10-22,,pgroup=Primer&show=1.html.csv
+BBa_K1465107,porine fwd, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K1465108,porine rev, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K1465109,dcuB fwd, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K1465110,dcuB rev, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K1465403,alr fwd, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-07,,pgroup=Primer&show=1.html.csv
+BBa_K1465404,alr rev, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-07,,pgroup=Primer&show=1.html.csv
+BBa_K1465405,dadX_fwd, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-07,,pgroup=Primer&show=1.html.csv
+BBa_K1465406,dadX_rev, ,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Bielefeld-CeBiTec,iGEM-Team Bielefeld 2014,2014-10-07,,pgroup=Primer&show=1.html.csv
+BBa_K152012,Zea mays Actin1 Intron Reverse Primer, ,,,Not Released,,It's complicated,,Not Used,iGEM08_Guelph,David Johnston Monje,2008-10-30,,pgroup=Primer&show=1.html.csv
+BBa_K1539021,HE RBS Primer , ,,,Not Released,,Not in stock,None,Not Used,iGEM14_GeorgiaTech,Coleen Tran,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1539034,LE RBS Primer, ,,,Not Released,,Not in stock,None,Not Used,iGEM14_GeorgiaTech,Coleen Tran,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1539055,HE Promoter Primer, ,,,Not Released,,Not in stock,None,Not Used,iGEM14_GeorgiaTech,Coleen Tran,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1539089,LE Promoter Primer, ,,,Not Released,,Not in stock,None,Not Used,iGEM14_GeorgiaTech,Coleen Tran,2014-10-10,,pgroup=Primer&show=1.html.csv
+BBa_K1614003,RFC 110 forward linearization primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM15_Heidelberg,Stefan Holderbach,2015-09-14,,pgroup=Primer&show=1.html.csv
+BBa_K1614004,RFC 110 reverse linearization primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM15_Heidelberg,Stefan Holderbach,2015-09-14,,pgroup=Primer&show=1.html.csv
+BBa_K1614005,RFC 110 forward fragment extraction primer, ,,,,,,,,,,,,
+BBa_K1614006,RFC 110 reverse fragment extraction primer, ,,,,,,,,,,,,
+BBa_K1636001,Primer for lead-II-ions-specific aptamer, ,,,Not Released,,Not in stock,None,Not Used,iGEM15_TecCEM,Roger Milton Rubio Sanchez,2015-09-05,,pgroup=Primer&show=1.html.csv
+BBa_K1639017,pColA Forward Primer, ,,,Not Released,,Not in stock,Issues,Not Used,iGEM15_ATOMS-Turkiye,Berke Kahraman,2015-09-17,,pgroup=Primer&show=1.html.csv
+BBa_K1639018,pColA Reverse Primer, ,,,Not Released,,Not in stock,Issues,Not Used,iGEM15_ATOMS-Turkiye,Berke Kahraman,2015-09-17,,pgroup=Primer&show=1.html.csv
+BBa_K176047,"Reverse primer VR3 (bind to K176037), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176048,"Reverse primer VR4 (bind to K176038), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176049,"Reverse primer VR5 (bind to K176039), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176050,"Reverse primer VR6 (bind to K176040), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176051,"Reverse primer VR7 (bind to K176041), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176052,"Reverse primer VR8 (bind to K176042), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176053,"Reverse primer VR9 (bind to K176043), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176054,"Reverse primer VR10 (bind to K176044), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176055,"Reverse primer VR11 (bind to K176045), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176056,"Reverse primer VR12 (bind to K176046), member of VR3~VR12", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,"Jiayi Dou, Hao Jiang",2009-08-13,,pgroup=Primer&show=1.html.csv
+BBa_K176057,Forward sequencing primer binds to tetR 3prime terminal (VFtetR), ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,Hao Jiang,2009-07-20,,pgroup=Primer&show=1.html.csv
+BBa_K176058,Reverse sequencing primer binds to ccdB 5prime terminal (VRccdB), ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,Hao Jiang,2009-07-21,,pgroup=Primer&show=1.html.csv
+BBa_K176059,M13 -47 general primer as a reverse primer binds to 5prime terminal of lacZ, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,Hao Jiang,2009-07-21,,pgroup=Primer&show=1.html.csv
+BBa_K176088,Reverse sequencing primer binds to the middle of luxR (VRluxR), ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_USTC,Hao Jiang,2009-08-05,,pgroup=Primer&show=1.html.csv
+BBa_K187033,pAB/BA forward primer for sequencing, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187034,pAB/BA reverse primer for sequencing, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187035,"accB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187036,"accB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187037,"accD, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187038,"accD, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187039,ftsW ORF forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187040,"acpP, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187041,"acpP, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187042,ftsZ ORF forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187043,"acpS, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187044,"acpS, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187045,gapA ORF forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187046,ispU ORF forward primer, ,,,Not Released,BBa_K187318,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187047,"asnS, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187048,glmM ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187049,"asnS, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187050,gltX ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187051,"atpE, ORF, foward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187052,"atpE, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187053,"cca, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187054,"cca, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187055,glyA ORF  Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187056,"coaA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187057,ispU ORF reverse primer, ,,,Not Released,BBa_K187319,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187058,"coaA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187059,kdsB ORF forward primer, ,,,Not Released,BBa_K187321,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187060,"cydA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187061,kdsB ORF reverse primer, ,,,Not Released,BBa_K187323,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187062,glyQ ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187063,"cydA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187064,"cydC, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187065,glyQ ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187066,"cydC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187068,glyS ORF Forward primer , ,,,Not Released,BBa_K187071,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187069,"def, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187070,"def, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187071,glyS ORF Reverse primer , ,,,Not Released,BBa_K187068,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187072,"der, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187073,"der, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187075,gmK ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187076,"dnaB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187078,gmK ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187079,"dnaB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187080,"dnaN, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187081,"dnaN, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187082,"dnaX, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187083,"dnaX, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187084,"dut, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187085,gpsA ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187086,"ftsW, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187087,"dut, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187088,gpsA ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187089,"dxs, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187091,grpE ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187092,"dxs, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187093,"fabA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187095,grpE ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187096,"fabA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187097,"fabB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187098,"fabB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187099,hemC ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187100,"fabG, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187102,hemC ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187103,"fabG, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187104,"fabH, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187106,hemd ORF Forward primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187107,"fabH, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187108,"fadD, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187109,hemD ORF Reverse primer , ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Oscar Cortes,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187110,"fadD, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187111,"ffh, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187112,"ffh, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187113,"fldA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187114,"fldA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187115,"folA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187116, -- No description -- , ,,,Not Released,,No part sequence,None,No Sequence,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187117,"folA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187118,"folB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187119,"folB, ORF, reverse primer", ,,,Not Released,,No part sequence,Works,No Sequence,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187120,hemE ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187121,hemE ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187122,hemF ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187123,hemF ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187124,hemG ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187125,"nadA, b0750, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187126,hemG ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187127,hemH ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187128,hemH ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187129,hemL ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187130,"nadA, b0750, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187131,hemL ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187132,hisS ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187133,hisS ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187134,holA ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187135,holA ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187136,hpt ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187137,hpt ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187138,infA ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187139,infA ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187140,infC ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187141,infC ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187142,ispA ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187143,ispA ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187144,ispD ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187145,ispD ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187146,ispE ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187147,ispE ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187148,ispF ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187149,ispF ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187150,ispG ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187151,ispG ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187152,ispH ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187153,ispH ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187154,"ptsG, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187156,"ptsG, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187157,"ptsI, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187158,"rpsS, ORF, forward primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187159,"rpsS, ORF, reverse primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187160,"rsgA,ORF,forward primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187161,"ptsI, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187162,"rsgA,ORF,reverse primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187163,"secM, ORF, forward primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187164,"purA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187165,"secM, ORF, reverse primer ", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187166,"purA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187167,"pfkA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187168,"secY,ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187169,"purB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187170,"secY,ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187171,"purB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187172,"rplO, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187173,"pgi, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187174,"pgsA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187175,"rplO, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187176,"pitA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187177,"ssb, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187178,"ssb, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187179,"suhB, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187180,"suhB, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187181,"plsB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187182,"tadA, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187183,"rplP, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187184,"tadA, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187185,"tdk, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187186,"tdk, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187187,"plsC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187188,"thiK, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187189,"thiK, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187190,"tmk, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187191,"tmk, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187192,"rplP, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187193,"pyrG, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187194,"trmD, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187195,"prfB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187196,"trmD, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187197,"trpS, ORF,forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187198,"pyrG, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187199,"trpS, ORF,reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,uche davidson,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187200,"rplT. ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187201,"ribB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187202,"priA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187203,"ribB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187204,"ribC, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187205,"rplT, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187206,"psd, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187207,"ribC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187208,"ribF, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187209,"pssA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187210,"ribF, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187211,"rplU, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187212,"pth, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Jennifer Yau,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187213,"rlpB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187214,"rlpB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187215,"rplU, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187216,"rnc, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187217,"rnc, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Anh Dao,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187218,"rplV, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187219,"rplV, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187220,"rplW, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187221,"rplW, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187222,"rplX, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187223,"rplX, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187224,"rpmA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187225,"rpmA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187226,"rpmB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187227,trxB ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187228,"rpmB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187229,trxB ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187230,"rpmC, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187231,ubiA ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187232,ubiA ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187233,"rpmC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187234,ubiB ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187235,"rpmD, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187236,ubiB ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187237,ubiC ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187238,"rpmD, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Eric Leung,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187239,ubiC ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187240,ubiD ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187241,ubiD ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187242,ubiE ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187243,ubiE ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187244,ubiF ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187245,ubiF ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187246,ubiG ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187247,ubiG ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187248,ubiH ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187249,ubiH ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187250,udk ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187251,udk ORF reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Julia Pon,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187252,"folC, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187253,"folC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187254,"folD, ORF, forward primer", ,,,Not Released,BBa_K187255,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187255,"folD, ORF, reverse primer", ,,,Not Released,BBa_K187254,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187256,"folE, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187258,"folE, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187259,"folK, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187260,"folK, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187261,"ftsA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187262,"ftsA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187263,"ftsB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187264,"ftsB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187265,"ftsL, ORF, forward", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187266,"ftsL, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187267,"ftsN, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187268,"ftsN, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187269,"ftsQ, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187270,"ftsQ, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-19,,pgroup=Primer&show=1.html.csv
+BBa_K187271,"rne ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187272,"rne ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187273,"rnpA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187274,rnpA ORF Reverse Primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187275,"rpe ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187276,"rpe ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187277,"rplB ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187278,"rplB ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187279,"rplC ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187280,"rplC ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187281,"rplD ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187282,"rplD ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187283,"rplE ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187284,"rplE ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187285,"rplL ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187286,"rplL ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187287,"rplM ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187288,"rplM ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187289,"rplN ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187290,"rplN ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Zach Wiltshire,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187291,metK ORF forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187292,"metK ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187293,"mnmA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187294,"mnmA ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187295,"mrdA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187296,"mrdA ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187297,"mrdB ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187298,"mrdB ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187299,"mreD ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187300,mreD ORF Reverse Primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187301,"msbA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187302,"msbA ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187303,"mukE ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187304,"mukE ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187305,"murA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187306,"murA ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187307,"lolA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187308,"murB ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187309,"murB ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187310,"murC ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187311,"murC ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187312,"murE ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187313,"murE ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187314,"murG ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187315,"murG ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187316,"lolA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187317,"lolB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187318,"ispU ORF, Forward Primer", ,,,Not Released,BBa_K187046,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187319,"ispU ORF, Reverse Primer", ,,,Not Released,BBa_K187057,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187320,"lolB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187321,"kdsB ORF, Forward Primer", ,,,Not Released,BBa_K187059,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187322,"lolC, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187323,"kdsB ORF, Reverse Primer", ,,,Not Released,BBa_K187061,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187324,"kdsC ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187325,"kdsC ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187326,"lolC, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187327,"lepB ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187328,"lepB ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187329,"lexA ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187330,"lexA ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187331,"lgt ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187332,"lptB, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187333,"lgt ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187334,"lnt ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187335,"lptB, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187336,"lnt ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Stephen Jahns,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187338,"lpxA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187340,"lpxA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187341,"lpxK, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187342,"lpxK, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187343,"map, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187344,"map, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Alina Ponomarev,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187345,"nadB, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187346,"nadB, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187347,"nadC, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187348,"nadC, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187349,"nadD, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187350,"nadD, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187351,"nadE, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187352,"nadE, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187353,"nrdA, ORF, Forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187354,"nrdA, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187355,"nrdB, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187356,"nrdB, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187357,"nudB, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187358,"nudB, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187359,"nusB, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187360,"nusB, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187361,"obgE, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187362,"obgE, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187363,"orn, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187364,"orn, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187365,pAB_F (A end) USER primer for BioBytes plasmid pAB, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Team Biobytes,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187366,pAB_R (B end) USER primer for BioBytes plasmid pAB, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Team Biobytes,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187367,pBA_F (B end) USER primer for BioBytes plasmid pBA, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Team BioBytes,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187368,pBA_R (A end) USER primer for BioBytes plasmid pBA, ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Team Biobytes,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187369,"rpmH, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187370,"rpmH, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187371,"ftsZ, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187372,"gapA, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187373,"glmM, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187374,"gltX, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187375,"glyA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187376,"rpsB, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187377,"rpsB, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187378,"rpsC, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187379,"rpsC, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187380,"rpsD, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187381,"rpsD, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187382,"rpsG, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187383,"rpsG, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187384,"rpsH, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187385,"rpsH, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187386,"wzyE, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187387,"rpsJ, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187388,"wzyE, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K187389,"rpsJ, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187390,"yafF, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187391,"yafF, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187392,"rpsK, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187393,"rpsK, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187394,"yceQ, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187395,"yceQ, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187396,"yeaZ, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187397,"yeaZ, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187398,"ygjD, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187399,"rpsL, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187400,"ygjD, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187401,"yihA, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187402,"rpsL, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187403,"yihA, ORF, reveser primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187404,"rpsP, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187405,"yjeE, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187406,"yjeE, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187407,"rpsP, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187408,"yqgF, ORF, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187410,"yqgF, ORF, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,David Lloyd,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187411,"rpsQ, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187412,"rpsQ, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187413,"rpsR, ORF, Forward Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187414,"rpsR, ORF, Reverse Primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Amber Paul,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187424," Origin in AB, Forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187425,"Origin in AB, Reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187426,"Origin in BA, Forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K187427,"Origin in BA, Reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Alberta,Mitch Paquette,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K2184039,Forward primer, ,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Danci-K8,Margalit Mualem,2016-09-30,,pgroup=Primer&show=1.html.csv
+BBa_K2184040,Reverse primer, ,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Danci-K8,Margalit Mualem,2016-09-30,,pgroup=Primer&show=1.html.csv
+BBa_K237007,VR2, ,,,Not Released,BBa_G00101,Not in stock,Works,Not Used,iGEM09_SDU-Denmark,Marc T. K. Nielsen,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268018,YOR049C -> GFP, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268019,YOR186W -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268020,YGR213C -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268021,YGR236C -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268022,YLR346C -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268023,YGL219W -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268024,YJL287W -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268025,YGR243C -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268026,YHL012W -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K268027,YDL205C -> GFP, ,,,Not Released,,Not in stock,,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K284004,Forward Primer to BBa_K284000, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284005,Reverse Primer to BBa_K284000, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284009,Forward Primer to BBa_K284002, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284010,Reverse Primer  to BBa_K284002, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284011,Forward Primer to BBa_K284003, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284012,Reverse Primer to BBa_K284003, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284013,Forward Primer to BBa_K284001, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K284014,Reverse Primer to BBa_K284001, ,,,Not Released,,Not in stock,None,Not Used,iGEM09_UNICAMP-Brazil,Taís Sineiro Herig and Gleidson Silva Teixeira,2009-10-12,,pgroup=Primer&show=1.html.csv
+BBa_K300975,Phi80 locus forward primer, ,,UNIPV-Pavia iGEM 2010:5,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Manuel Lupotto, Matteo Meroso, Paolo Magni",2010-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K300976,BBa_K300000 reverse verification primer, ,,UNIPV-Pavia iGEM 2010:5,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Manuel Lupotto, Matteo Meroso, Paolo Magni",2010-10-21,,pgroup=Primer&show=1.html.csv
+BBa_K300977,BBa_K300000 forward verification primer, ,,UNIPV-Pavia iGEM 2010:1,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Manuel Lupotto, Matteo Meroso, Paolo Magni",2010-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K300978,Phi80 locus reverse primer, ,,UNIPV-Pavia iGEM 2010:5,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Manuel Lupotto, Matteo Meroso, Paolo Magni",2010-10-20,,pgroup=Primer&show=1.html.csv
+BBa_K360114,Primer to change RBS of P. pyralis luciferase, ,,,Not Released,,Not in stock,None,Not Used,iGEM10_UNAM-Genomics_Mexico,Mariana Ruiz Velasco Leyva,2010-10-15,,pgroup=Primer&show=1.html.csv
+BBa_K391002,Forward Primer to PCR agrCA (with RBS)  from S. aureus, ,,,Not Released,,It's complicated,,Not Used,iGEM10_British_Columbia,Phillip Chu,2010-10-25,,pgroup=Primer&show=1.html.csv
+BBa_K391003,Reverse Primer to PCR agrCA (with RBS)  from S. aureus, ,,,Not Released,,It's complicated,,Not Used,iGEM10_British_Columbia,Phillip Chu,2010-10-25,,pgroup=Primer&show=1.html.csv
+BBa_K391004,Forward primer to PCR S. aureus plasmid replicon, ,,,Not Released,,It's complicated,,Not Used,iGEM10_British_Columbia,Phillip Chu,2010-10-25,,pgroup=Primer&show=1.html.csv
+BBa_K391005,Reverse primer to PCR S. aureus plasmid replicon, ,,,Not Released,,Not in stock,,Not Used,iGEM10_British_Columbia,Phillip Chu,2010-10-25,,pgroup=Primer&show=1.html.csv
+BBa_K496000,Forward primer  for visualizing restriction enzyme digestion., ,,,Not Released,,Not in stock,None,Not Used,iGEM10_HokkaidoU_Japan,Laurynas VANAGAS,2010-08-25,,pgroup=Primer&show=1.html.csv
+BBa_K496002,Reverse primer for visualizing restriction enzyme digestion., ,,,Not Released,,Not in stock,None,Not Used,iGEM10_HokkaidoU_Japan,Laurynas VANAGAS,2010-08-25,,pgroup=Primer&show=1.html.csv
+BBa_K497010,Agrobacterium tumefaciens bacteriophytochrome fwd primer, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497011,Agrobacterium tumefaciens bacteriophytochrome fwd primer with RBS insertion, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497012,Agrobacterium tumefaciens bacteriophytochrome rvs primer, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497013,Deinococcus radiodurans bacteriophytochrome fwd primer, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497014,Deinococcus radiodurans bacteriophytochrome fwd primer with RBS, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497015,Deinococcus radiodurans bacteriophytochrome rvs primer, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497016,Agrobacterium tumefaciens fwd primer for bacteriophytochrome for insertion after heme oxygenase, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497017,Reverse primer for Agrobacterium tumefaciens bacteriophytochrome gene for insertion after heme oxyge, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497018,Forward primer Deinococcus radiodurans bacteriophytochrome gene for insertion after heme oxygenase, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K497019,Reverse primer Deinococcus radiodurans bacteriophytochrome gene for insertion after heme oxygenase, ,,,Not Released,,Not in stock,,Not Used,iGEM10_Macquarie_Australia,Joanna Hare,2010-10-27,,pgroup=Primer&show=1.html.csv
+BBa_K590083,"pGA Prefix, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Washington,Michael Brasino,2011-09-22,,pgroup=Primer&show=1.html.csv
+BBa_K590084,"pGA Prefix, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Washington,Michael Brasino,2011-09-22,,pgroup=Primer&show=1.html.csv
+BBa_K590085,"pGA Suffix, reverse primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Washington,Michael Brasino,2011-09-22,,pgroup=Primer&show=1.html.csv
+BBa_K590086,"pGA Suffix, forward primer", ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Washington,Michael Brasino,2011-09-22,,pgroup=Primer&show=1.html.csv
+BBa_K624034,revised minC primer (forward), ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_NYMU-Taiwan,Yi-Hong Liou,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K624035,revised minC primer (reverse), ,,,Not Released,,Not in stock,Works,Not Used,iGEM11_NYMU-Taiwan,Yi-Hong Liou,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K624063,nested_Inv F (inter-strain nested primer), ,,,Not Released,,No part sequence,Works,No Sequence,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K624064,nested_Inv R (inter-strain nested primer), ,,,Not Released,,No part sequence,Works,No Sequence,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K624065,nested_LLO F (inter-strain nested primer), ,,,Not Released,,No part sequence,Works,No Sequence,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K624066,nested_LLO R (inter-strain nested primer), ,,,Not Released,,No part sequence,Works,No Sequence,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-05,,pgroup=Primer&show=1.html.csv
+BBa_K864445,Spot42 randomized forward primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Uppsala,"Arvid Hedén Gynnå, Sabri Jamal, Lisa Branzell, Hampus Elofsson",2012-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K864446,Spot42 randomized reverse primer, ,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Uppsala,"Arvid Hedén Gynnå, Sabri Jamal, Lisa Branzell, Hampus Elofsson",2012-09-29,,pgroup=Primer&show=1.html.csv
+BBa_K923001,Forward Primer for Thermobifida fusca cutinase, ,,,Not Released,,Not in stock,,Not Used,iGEM12_BAU_Indonesia,Achmad Farajallah,2012-09-26,,pgroup=Primer&show=1.html.csv
+BBa_K923002,Reverse Primer for Thermobifida fusca cutinase, ,,,Not Released,,Not in stock,,Not Used,iGEM12_BAU_Indonesia,Achmad Farajallah,2012-09-26,,pgroup=Primer&show=1.html.csv
+BBa_M36988,Secreting Antifreeze Protein Correcting Reverse Primer, ,,,Not Released,,Not in stock,,Not Used,Stanford BIOE44 - S11,Nathan Barnett,2011-06-08,,pgroup=Primer&show=1.html.csv
+BBa_M36989,Secreting Antifreeze Protein Correcting Forward Primer, ,,,,,,,,,,,,

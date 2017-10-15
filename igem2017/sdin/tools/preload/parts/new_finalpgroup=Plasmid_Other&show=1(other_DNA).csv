@@ -1,0 +1,531 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_I732951,P_template1 + lacZ alpha,389,,,Released HQ 2013,BBa_I732020,In stock,Works,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1199003,"LinA     gamma-HCH-> 1,3,4,6-tetrachloro-1,4-cyclohexadiene ",471,,,Not Released,BBa_K1199004;BBa_K1199011;BBa_K1199038;BBa_K1199041,In stock,None,Experience: None,iGEM13_UESTC_Life,Tian Wang,2013-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1199004,"LinA   lindane (-yhexachlorocyclohexane) ->  1,3,4,6-tetrachloro-1,4-cyclohexadiene",471,,,Not Released,BBa_K1199003;BBa_K1199011;BBa_K1199038;BBa_K1199041,In stock,None,Experience: None,iGEM13_UESTC_Life,Tian Wang,2013-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1199005,"LinB   1,3,4,6-tetrachloro-1,4-cyclohexadiene->2,5-dichloro-2,5-cyclohexadiene-1,4-diol",891,,,Not Released,BBa_K1199012;BBa_K1199042,In stock,None,Not Used,iGEM13_UESTC_Life,Tian Wang,2013-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1199007,"HheC     2,3-DCP->Glycerol",765,,,Not Released,BBa_K1199014;BBa_K1199044,In stock,None,Experience: None,iGEM13_UESTC_Life,Tian Wang,2013-09-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1441012,DNA ligase from Escherichia coli  with His-tag In pGAPz alpha A,2064,,,Not Released,BBa_K525710;BBa_K1441013,In stock,None,Not Used,iGEM14_Georgia_State,Derrica Burke,2014-10-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_I11003,pZS4Int-1 plasmid,6000,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Lutz and Bujard,2004-08-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_I11004,pZA3PLtet-0luc,3665,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Lutz and Bujard,2004-08-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_I11005,pZE1PA1lacO plasmid,3901,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Lutz and Bujard,2004-08-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_I11006,pZE1PLlacO-1 plasmid,3891,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Lutz and Bujard,2004-08-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_I11007,pZE2 PLtetO-1 plasmid--MCS2,2217,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Lutz and Bujard,2004-08-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_I11008,pUHS*2Plac/ara-1 plasmid (MCS 1),4004,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Lutz and Bujard,2004-08-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_I50010,oriV origin,627,,,Not Released,,Not in stock,,Not Used,,Reshma Shetty,2005-12-03,,pgroup=Plasmid_Other&show=1.csv
+BBa_I50020,Minimal pUC19-derived high copy replication origin,674,,RS:0,Not Released,,Not in stock,Fails,4 Uses,,Reshma Shetty,2006-01-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_I51000,"BioBrick base vector, as originally designed",2446,,RS:0,Not Released,,Not in stock,Fails,Not Used,,Reshma Shetty,2006-03-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_I53322,p15A.Amp,2505,,,Not Released,,Not in stock,,Not Used,,Reshma Shetty,2008-05-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_I53323,p15A.Kan,2529,,,Not Released,,Not in stock,,Not Used,,Reshma Shetty,2008-05-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_I53324,p15A.Cm,2331,,,Not Released,,Not in stock,,Not Used,,Reshma Shetty,2008-05-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_I53325,p15A.Tet,2845,,,Not Released,,Not in stock,,Not Used,,Reshma Shetty,2008-05-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_I53422,pSC101.Amp,2988,,,Not Released,,Not in stock,,Not Used,,Reshma Shetty,2008-05-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_I53423,pSC101.Kan,3012,,,Not Released,,Not in stock,,Not Used,,Reshma Shetty,2008-05-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_I53424,pSC101.Cm,2814,,,Not Released,,Not in stock,,Not Used,,Reshma Shetty,2008-05-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_I53425,pSC101.Tet,3328,,,Not Released,,Not in stock,,Not Used,,Reshma Shetty,2008-05-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713001,A pBBR1MCS plasmid without the mob gene.,4177,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713002,C1MCS,5683,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713003,T7Blue,2168,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713004,pEB-AclANcoI-,5815,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713005,pEB-SC101,5687,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713006,T7BLUE T7X,4816,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713007,pEB T7X / Amp Kan,6593,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713008,AAV110,6293,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713009,LAA110,6293,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713010,LVA110,6293,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713011,AAV111,6293,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713012,LAA111,6293,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713013,LVA111,6293,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713014,AAV112,6293,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713015,LAA112,6293,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713016,LVA112,6293,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713017,pLZHindIII2,5822,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713018,pLZCI3,3950,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713019,FLP-p15a,5676,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713020,pEASY-p15a,6016,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713021,pBL-Blunt,2533,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713022,pKD-pBL,3486,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713023,pKD-pBL-lambda,3552,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713024,pEG-FLP,5215,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713025,pEB-lambda,4875,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713026,pEB-Lambda Amp-,4394,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713027,pBL-FLP,4188,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713028,pEB-C1,4663,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713029,pEB-Mob,4963,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713030,pACYC-Lux,5889,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713031,pBL-Linker,2661,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713032,pBL-FLPMob,4940,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713033,pGEM-FLP,4308,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713034,pT7Blue-XisT7X,4943,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713035,pEB-EGFPL,3440,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I713036,pET15b-LacI(-),4741,,,Not Released,,It's complicated,,Not Used,iGEM07_Tsinghua,Zhenyu Shi,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I714038,pSC101 with relaxase and oriT deleted,8089,,,Not Released,,Not in stock,,Not Used,iGEM07_Peking,Anting Xu,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I714946,pCC002,2961,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Xili Liu,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I718019,araC-pBad-mRFP,4158,,,Not Released,,It's complicated,None,Not Used,iGEM07_Paris,Eimad Shotar,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I718020,ptet-lox71-rbs-gfp-ter-lox66-mRFP,3972,,,Not Released,,It's complicated,None,Not Used,iGEM07_Paris,Eimad Shotar,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I722002,Yiplac211(-EcoRI), ,,,Not Released,,No part sequence,None,No Sequence,iGEM07_Tianjin,Shuobo Shi,2007-06-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_I722004,Yiplac211(-EcoRI),3805,,,Not Released,,Not in stock,,Not Used,iGEM07_Tianjin,Shuobo Shi,2007-08-22,,pgroup=Plasmid_Other&show=1.csv
+BBa_I732953,Ptemplate1 + RBS.ARL2A0301,3411,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I732954,Ptemplate1 + RBS.ARL4A0604,3411,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I732955,Ptemplate1 + RBS.ARL2A0103.TERM,4580,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I732956,Ptemplate1 + RBS.ARL2A0203.TERM,4580,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I732957,Ptemplate1 + RBS.ARL2A0301.TERM,4580,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I732958,Ptemplate1 + RBS.ARL4A0604.TERM,4515,,,Not Released,BBa_I732959,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I732959,Ptemplate1 + RBS.ARL4A0604 + RBS.ARL2A0103.TERM,4515,,,Not Released,BBa_I732958,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I732960,Ptemplate1 + RBS.ARL4A0604 + RBS.ARL2A0203.TERM,4515,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I732961,Ptemplate1 + RBS.ARL4A0604 + RBS.LRLa.TERM,4652,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I735003,Cloning CDS PHO80 in psB3C6,3172,,,Not Released,,Not in stock,,Not Used,iGEM07_Naples,Giovanni Russo,2007-09-14,,pgroup=Plasmid_Other&show=1.csv
+BBa_I735005,Cloning CDS PHO80 mutated in psB3C6,3172,,,Not Released,,Not in stock,,Not Used,iGEM07_Naples,Giovanni Russo,2007-09-14,,pgroup=Plasmid_Other&show=1.csv
+BBa_I735006,Cloning CDS PHO80 mutated in EX-Ptet-S-rbsRFP-P ,3002,,,Not Released,,Not in stock,,Not Used,iGEM07_Naples,Giovanni Russo,2007-09-28,,pgroup=Plasmid_Other&show=1.csv
+BBa_I735007,"Cloning CDS PHO80 mutated in EX-Ptet-S-rbsRFP-P ""RFP reporter""",3838,,,Not Released,,Not in stock,Issues,Not Used,iGEM07_Naples,Giovanni Russo,2007-09-28,,pgroup=Plasmid_Other&show=1.csv
+BBa_I739203,pBR322BB2,3655,,,Not Released,,Not in stock,None,Not Used,iGEM07_ETHZ,Stefan Luzi,2007-10-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_I742103,pTG262 Plasmid (Gram negative to Gram positive shuttle vector),5567,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Edinburgh,sarah hollingshead,2007-10-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745000,Backbone TRE plasmid,9519,,,Not Released,,Not in stock,None,5 Uses,iGEM07_Princeton,Weiss Lab,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745001,pFUGW,8676,,,Not Released,,Not in stock,None,4 Uses,iGEM07_Princeton,David Baltimore Lab,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745002,pTHM   ,11084,,,Not Released,,Not in stock,None,1 Uses,iGEM07_Princeton,Trono lab,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745003,p148D64V,10703,,,Not Released,BBa_I745017,It's complicated,None,Not Used,iGEM07_Princeton,Princeton iGEM2007,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745006,TRE-Bax-IRES2-EGFP,19046,,,Not Released,,It's complicated,None,Not Used,iGEM07_Princeton,Princeton iGEM2007,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745007,TRE-Bak-IRES2-EGFP,9981,,,Not Released,,It's complicated,None,Not Used,iGEM07_Princeton,Princeton iGEM2007,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745008,pLV-TH-siGFP,10242,,,Not Released,,It's complicated,None,Not Used,iGEM07_Princeton,Weiss Lab,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745012,pLV-TH-siGata3-3',11113,,,Not Released,,It's complicated,None,Not Used,iGEM07_Princeton,Princeton iGEM2007,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745013,pLV-UBC-GFP-siGata3-3',8705,,,Not Released,BBa_I745014,It's complicated,None,Not Used,iGEM07_Princeton,Princeton iGEM2007,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745014,pLV-UBC-siGata3-3'-GFP,8705,,,Not Released,BBa_I745013,It's complicated,None,Not Used,iGEM07_Princeton,Princeton iGEM2007,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745015,pLV-UBC-miR661-GFP,8707,,,Not Released,,It's complicated,None,Not Used,iGEM07_Princeton,Princeton iGEM2007,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745016,pLV-UBC-GFP-siGata3-5',8705,,,Not Released,,It's complicated,None,Not Used,iGEM07_Princeton,Princeton iGEM2007,2007-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745017,p148,10703,,,Not Released,BBa_I745003,It's complicated,None,Not Used,iGEM07_Princeton,not sure,2007-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_I745018,pLV, ,,,Not Released,,No part sequence,None,No Sequence,iGEM07_Princeton,Not sure,2007-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_I751000,pBR322 (Pst I site mutated),4361,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Tokyo_Tech,Kenichiro Iwasaki,2007-10-19,,pgroup=Plasmid_Other&show=1.csv
+BBa_I751001,pBR Biobrick-Tokyo Standard,2999,,,Not Released,,Not in stock,,Not Used,iGEM07_Tokyo_Tech,Kenichiro Iwasaki,2007-10-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_I766235,Ent5p-ENTH PH -GFP under medium constitutive promoter,1577,,,Not Released,,Not in stock,,Not Used,iGEM07_UCSF,Nili Sommovilla,2007-10-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_I766337,FYVE-EEA1-GFP under medium constitutive promoter,1445,,,Not Released,,Not in stock,,Not Used,iGEM07_UCSF,Nili Sommovilla,2007-10-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_I766349,PLCdeltaPH-GFP under medium constitutive promoter,1529,,,Not Released,,Not in stock,,Not Used,iGEM07_UCSF,Nili Sommovilla,2007-10-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_I766994,pRS315,6018,,,Not Released,,Not in stock,None,Not Used,iGEM07_UCSF,Nili Sommovilla,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I766995,pRS305,5504,,,Not Released,,Not in stock,None,Not Used,iGEM07_UCSF,Nili Sommovilla,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_I766996,pRS306,4373,,,Not Released,BBa_K165063;BBa_K1437001,It's complicated,None,Not Used,iGEM07_UCSF,Nili Sommovilla,2007-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_J01077,"F plasmid (x-OriT, x-TraJ)", ,,Antiquity:5,Not Released,,No part sequence,Works,No Sequence,iGEM2005,Golden Bear,2005-11-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_J01078,"R plasmid (x-OriT, x-TraJ)", ,,Antiquity:5,Not Released,,No part sequence,Works,No Sequence,iGEM2005,Golden Bear,2005-11-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100169,P5 promoter + M6''-R6 ammeline riboswitch + RFP ,872,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Kathryn Smith ,2014-07-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100253,This is a modification of pClone Cherry (J100251),1669,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Grace Harper,2016-04-05,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100254,Part J119137 + P5,1576,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Grace Harper,2016-04-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100265,pJC173b (Carlson et al. 2014),6389,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Owen Koucky,2016-06-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100266,pJC173g-SD8_AP-neg (Carlson et al. 2014),4105,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Owen Koucky,2016-06-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100267,pJC174c-R5 (Carlson et al. 2014),4269,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Owen Koucky,2016-06-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100268,pJC184d5,8529,,,Not Released,,Not in stock,None,-1 Uses,Campbell_M_Lab,Owen Koucky,2016-06-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100269,SP-T7Promiscuous_L1-192.2 (Carlson et al. 2014),8829,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Owen Koucky,2016-06-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100270,SP-T7Specific_L2-48.3 (Carlson et al. 2014),8829,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Owen Koucky,2016-06-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100271,SP-T7WT (Carlson et al. 2014),8829,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Owen Koucky,2016-06-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100284,JC184d5 with Mutagenesis Cassette Removed,3760,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Zachary Shaver,2016-07-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100285,SPT7specific with Riboswitch C ,8875,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Dylan Maghini,2016-07-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100287,J100265 (pJC173b) with GFP replacing LuxAB,4981,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Owen Koucky,2016-07-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100288,pJC173b with gIII neg,6178,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Hartlee Johnston,2016-07-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100310,J100287 with two bases removed between gene III and GFP,4979,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Zachary Shaver,2016-11-14,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100315,J100288 with RFP replacing LuxAB,4735,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Dylan Maghini,2017-05-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100316,J100284 with GFP reporter after geneIII,4476,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Dylan Maghini,2017-05-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100317,1.1.1.41 IDH in pSB1A2 Plasmid Backbone,3339,,,Not Released,,Not in stock,None,-1 Uses,Campbell_M_Lab,"Owen Koucky, Jacob Wagner",2017-06-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_J100318,1.1.1.42 IDH in pSB1A2 Plasmid Backbone,3480,,,Not Released,,Not in stock,None,-1 Uses,Campbell_M_Lab,"Owen Koucky, Jacob Wagner",2017-06-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_J119141,Device for Testing New Promoters via BsgI Golden Gate Assembly ,1652,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,"Todd Eckdahl, Claire Shinneman",2013-04-15,,pgroup=Plasmid_Other&show=1.csv
+BBa_J119307,pSB1A2-BR-HS-A-RNA-I,2079,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Brandon Grieshaber and Todd Eckdahl,2013-07-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J119308,pSB1A2-BR-HS-C-RNA-I,2079,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Brandon Grieshaber and Todd Eckdahl,2013-07-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J119309,pSB1A2-BR-HS-G-RNA-I,2079,,,Not Released,BBa_J119061;BBa_J119366,Not in stock,None,Not Used,Eckdahl_Lab,Brandon Grieshaber and Todd Eckdahl,2013-07-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J119310,pSB1A2-BR-HS-G-IT-GGTT-RNA-I,2079,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Brandon Grieshaber and Todd Eckdahl,2013-07-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J119311,pSB1A2-BR-P5-RNA-I,2066,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Brandon Grieshaber and Todd Eckdahl,2013-07-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J119312,pSB1A2-BR-HS-T-RNA-I,2079,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Brandon Grieshaber and Todd Eckdahl,2013-07-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_J119366,pSB1A2-BR,2079,,,Not Released,BBa_J119061;BBa_J119309,Not in stock,,Not Used,Eckdahl_Lab,Todd Eckdahl,2014-08-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_J119399,RS10 in J100270 Selection Phage,8905,,,Not Released,,Not in stock,None,-1 Uses,Eckdahl_Lab,Andrew Hunn,2016-07-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_J16010,test plasmid,4,,,Not Released,,Not in stock,,Not Used,,Melissa Li,2006-10-19,,pgroup=Plasmid_Other&show=1.csv
+BBa_J18901,pSB1AC3F construction plasmid for protein fusion BioBricks,3071,,,Not Released,,Not in stock,Works,Not Used,Affiliates,Raik Gruenberg,2008-08-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J18902,pSB1AK3F construction plasmid for protein fusion BioBricks,3205,,,Not Released,,Not in stock,Works,Not Used,Affiliates,Raik Gruenberg,2008-08-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J18903,pSB1AT3F construction plasmid for protein fusion BioBricks,3462,,,Not Released,,Not in stock,Works,Not Used,Affiliates,Raik Gruenberg,2008-08-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J18904,pSB1AC3X Freiburg Fusion -> BioFusion conversion plasmid,3065,,,Not Released,,Not in stock,None,Not Used,Affiliates,Raik Gruenberg,2008-08-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J18905,pSB1AK3X Freiburg Fusion -> BioFusion conversion plasmid,3199,,,Not Released,,Not in stock,None,Not Used,Affiliates,Raik Gruenberg,2008-08-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J18906,pSB1AT3X Freiburg Fusion -> BioFusion conversion plasmid,3456,,,Not Released,,Not in stock,None,Not Used,Affiliates,Raik Gruenberg,2008-08-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_J23001,pSB3C6-J01022 p15A+CmR plasmid with OnRFP part,3125,,,Not Released,,Not in stock,Works,Not Used,iGEM2006_Berkeley,John Anderson,2006-06-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_J23004,Plasmid for destroying biobrick restriction sites,3090,,,Not Released,,Not in stock,,Not Used,iGEM2006_Berkeley,John Anderson,2006-06-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_J23076,pSB3C6-like RFP reporter,2988,,,Not Released,,Not in stock,,Not Used,iGEM2006_Berkeley,John Anderson,2006-09-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_J331016,amilCP,1353,,,Not Released,,Not in stock,,-1 Uses,Colegio_Roosevelt_Lima_Peru,Gilles Yvan Buck,2016-12-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_J331019,hsp90+rbs, ,,,Not Released,,No part sequence,,-1 Uses,Colegio_Roosevelt_Lima_Peru,Gilles Yvan Buck,2016-12-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_J331020,hsp90+rbs,3402,,,Not Released,,Not in stock,,-1 Uses,Colegio_Roosevelt_Lima_Peru,Gilles Yvan Buck,2016-12-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_J331023,Vanpiros Plasmid,3447,,,Not Released,,Not in stock,,-1 Uses,Colegio_Roosevelt_Lima_Peru,Gilles Yvan Buck,2016-12-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_J34700,AND part 1,1258,,,Not Released,,Not in stock,None,Not Used,iGEM2006_ETHZ,Alexandra Choutko,2006-11-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_J34701,AND part 2,4213,,,Not Released,,Not in stock,None,Not Used,iGEM2006_ETHZ,Alexandra Choutko,2006-11-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_J34710,XOR Part1,1818,,,Not Released,,Not in stock,None,Not Used,iGEM2006_ETHZ,Alexandra Choutko,2006-11-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_J34711,XOR Part2,1377,,,Not Released,,Not in stock,None,Not Used,iGEM2006_ETHZ,Alexandra Choutko,2006-11-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_J34712,XOR Part3,1925,,,Not Released,,Not in stock,None,Not Used,iGEM2006_ETHZ,Alexandra Choutko,2006-11-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61004,pAC-TetInv,5559,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-08-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61005,pAC-LuxInv,7181,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-08-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61006,pBACr-AraInv,10830,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-08-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61007,pKQ-upp,2888,,,Not Released,,It's complicated,Works,Not Used,Arkin Lab,John Anderson,2006-08-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61008,pBACr-FdhInv,9764,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-08-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61009,pAC-LuxGFP,5130,,,Not Released,,It's complicated,Works,Not Used,Arkin Lab,John Anderson,2006-08-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61011,pBR939b,5566,,,Not Released,,Not in stock,Works,1 Uses,Arkin Lab,John Anderson,2006-08-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61012,pAC-SalSer914,3854,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-08-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61013,pBACr-AraT7940 clone B9,10494,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-08-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61014,pBACr-AraT7940 clone F11,10494,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-08-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61018,pBAC987,10987,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-08-22,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61019,pBAC978,10987,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-08-22,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61035,EcoRI-GenR-XbaI,3539,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-11-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61036,pBAC874t,9797,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-12-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61037,pBAC872s,11004,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-12-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61038,pBACr-mgr901,10330,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-12-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61039,pBACr-Mgr940,9820,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-12-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61040,pAC-SupDb,3067,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-12-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61041,pSupDLux,3919,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-12-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61042,pSupDLuxR,3381,,,Not Released,,Not in stock,Works,Not Used,Arkin Lab,John Anderson,2006-12-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61148,pBca9145 basic pUC/Amp plasmid in BBb,2072,,,Not Released,,Not in stock,,Not Used,Arkin Lab,John Anderson,2007-09-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_J61149,pBca1101 RIPS reporter plasmid in BBb,2919,,,Not Released,,Not in stock,,Not Used,Arkin Lab,John Anderson,2007-09-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_J64101,ColE1 biobrick plasmid with backward terminator,2254,,,Not Released,,Not in stock,None,Not Used,Voigt Lab,Jeffrey J Tabor,2007-04-14,,pgroup=Plasmid_Other&show=1.csv
+BBa_J69000, LuxAIC Vector (pJ36 - DNA2.0),4543,,,Not Released,,Not in stock,None,Not Used,Haseloff Lab,James Brown,2007-01-19,,pgroup=Plasmid_Other&show=1.csv
+BBa_J69100,LasAIC Vector (pJ35 - DNA2.0),3863,,,Not Released,,Not in stock,None,Not Used,Haseloff Lab,James Brown,2007-02-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_J70003,Geneart Cloning Plasmid pGA4,2961,,,Not Released,,Not in stock,None,Not Used,Knight Lab,Randy Rettberg,2008-01-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_J70004,BioBasic Cloning Plasmid pUC57,2710,,,Not Released,BBa_K1341008,Not in stock,None,Not Used,Knight Lab,Meagan Lizarazo,2008-01-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_J70022,GENEART pGA4 plasmid,2978,,,Not Released,,Not in stock,None,Not Used,Knight Lab,Reshma Shetty,2008-09-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_J70023,MF-plasmid-ori,1877,,,Not Released,,Not in stock,,Not Used,Knight Lab,Tom Knight,2008-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_J72008,phi80 integration helper plasmid pInt80-649,6335,,UNIPV-Pavia iGEM 2010 Team:5,Not Released,,Not in stock,,Not Used,Anderson Lab,John Anderson,2008-07-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_J72009,pBca1101 RFP expression plasmid in BBb,2932,,,Not Released,,Not in stock,,Not Used,Anderson Lab,John Anderson,2008-07-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_J72043,pMLLKA 2AB Construction Plasmid,2877,,,Not Released,,Not in stock,,Not Used,Anderson Lab,Jennifer Brophy,2010-07-15,,pgroup=Plasmid_Other&show=1.csv
+BBa_J72044,pMLLAC 2AB Construction Plasmid,2745,,,Not Released,,Not in stock,,Not Used,Anderson Lab,Jennifer Brophy,2010-07-15,,pgroup=Plasmid_Other&show=1.csv
+BBa_J95039,plasmid vector for Rhodobacter sphaeroides,5670,,,Not Released,BBa_J73998,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-08-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K076000,pLV-TRE-Ngn1-linker-EYFP-2A-mKate-Ubc-Bla,13176,,,Not Released,,Not in stock,Works,Not Used,iGEM08_Princeton,iGEM2008 Princeton team,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K076001,pLV-TRE-Sox17-Ubc-Bla,10859,,,Not Released,,Not in stock,Works,3 Uses,iGEM08_Princeton,Cil Purnick,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K076007,pLV-TRE-Ngn1-linker-EYFP-Ubc-Bla,12382,,,Not Released,,Not in stock,Works,Not Used,iGEM08_Princeton,iGEM2008 Team Princeton,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K076013,pLV-TRE-Lbx1-T2A-GLRA1-P2A-D5R-Ubc-Bla,14628,,,Not Released,,Not in stock,None,Not Used,iGEM08_Princeton,iGEM2008 Princeton team,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K076015,pLV-TRE-Mash1-IRES2-mKate,10941,,,Not Released,,Not in stock,None,Not Used,iGEM08_Princeton,iGEM2008 Princeton team,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K076018,pLV-TRE-D5R-Ubc-Bleo,12567,,,Not Released,,Not in stock,None,Not Used,iGEM08_Princeton,iGEM2008 Princeton team,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K090401,Gram-positive Shuttle Vector for Episomal Expression,5208,,,Not Released,,Not in stock,None,3 Uses,iGEM08_Cambridge,Daniel Goodman,2008-10-27,,pgroup=Plasmid_Other&show=1.csv
+BBa_K090403,Gram-positive Shuttle Vector for Chromosomal Integration,5632,,,Not Released,,It's complicated,None,Not Used,iGEM08_Cambridge,Daniel Goodman,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1019008,pEBS Expression Plasmid,5494,,,Not Released,,It's complicated,None,Not Used,iGEM13_Toronto,Boris Dyakov,2013-09-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1033206,Lactobacillus shuttle vector pSBLbC,3057,,,Not Released,,It's complicated,None,Not Used,iGEM13_Uppsala,"Anders Edlund, Viktor Blomkvist, Mikael Strandgren, Jens Isaksson",2013-09-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1033207,Shuttle vector pSBLbE for E. coli and Lactobacillus,3307,,,Not Released,,It's complicated,None,Not Used,iGEM13_Uppsala,"Mikael Strandgren, Viktor Blomkvist, Jens Isaksson, Anders Edlund",2013-09-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1033208,Shuttle vector pSBLbE for e.coli and lactobacillus, ,,,Not Released,,No part sequence,,No Sequence,iGEM13_Uppsala,Anders Edlund,2013-09-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1039016,HPdO Helper Plasmid,8356,,,Not Released,,It's complicated,None,Not Used,iGEM13_Waterloo,Julia Manalil,2013-09-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1039017,HPdO with deleted gVIII Helper Plasmid,8172,,,Not Released,,It's complicated,None,Not Used,iGEM13_Waterloo,Julia Manalil,2013-09-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1044006,Vinary Vector for E.coli and Agrobacterium , ,,,Not Released,,No part sequence,None,No Sequence,iGEM13_Biwako_Nagahama,Kei Iwana,2013-09-05,,pgroup=Plasmid_Other&show=1.csv
+BBa_K105000,pSB1A2_fusion,2077,,,Not Released,BBa_J63009,Not in stock,None,Not Used,iGEM08_ESBS-Strasbourg,"Manuel Gersbacher, Robin Sorg, Marius Müller, Paul Bourgine, Sandra Dittmann, Michi Wild und Katja Karstens",2008-10-28,,pgroup=Plasmid_Other&show=1.csv
+BBa_K106700,pRS303,4443,,,Not Released,BBa_K165060,It's complicated,Works,Not Used,iGEM08_UCSF,Andrew Horwitz,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K106701,pCR2.1 TOPO Vector (to contain AarI inserts),3931,,,Not Released,,Not in stock,Works,Not Used,iGEM08_UCSF,Andrew Horwitz,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1074001,PHT43 ,8057,,iGEM13_USTC_China:2,Not Released,,Not in stock,,Not Used,iGEM13_USTC_CHINA,Changlong Zhao,2013-09-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1110002,Mambalgin cDNA in BBA-K1110001,3281,,,Not Released,,It's complicated,None,Not Used,iGEM13_Georgia_State,Lydia Studdard,2013-09-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1114409,DVL0_DG,534,,,Not Released,,Not in stock,None,Not Used,iGEM13_BostonU,Shawn Jin,2013-09-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112143,Entry vector with OriV replication origin,3182,,,Not Released,,It's complicated,,Not Used,iGEM08_UC_Berkeley,Madhvi Venkatesh,2008-11-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112144,Phagemid plasmid,5295,,,Not Released,,It's complicated,,Not Used,iGEM08_UC_Berkeley,Madhvi Venkatesh,2008-11-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112145,Phagemid plasmid with xis int,7470,,,Not Released,,It's complicated,,Not Used,iGEM08_UC_Berkeley,Madhvi Venkatesh,2008-11-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1122002,Vector pDonor2,2462,,,Not Released,BBa_K1122009,Not in stock,None,Not Used,iGEM13_Edinburgh,Lina Gasi&#363;nait&#279;,2013-08-14,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1122009,pDonor2,2462,,,Not Released,BBa_K1122002,Not in stock,Works,Not Used,iGEM13_Edinburgh,Lina Gasi&#363;nait&#279;,2013-08-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112247,{pAH57 promoter}{rbs.xis.int!} inserted into  K112950 plasmid,5565,,,Not Released,,It's complicated,Works,Not Used,iGEM08_UC_Berkeley,Molly Allen,2008-10-28,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112248,{pAH57 promoter}{rbs.xis.int!}{rbs.ihfA!}{rbs.ihfB!} inserted into K112950 plasmid,6202,,,Not Released,,It's complicated,Works,Not Used,iGEM08_UC_Berkeley,Molly Allen,2008-10-28,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112950,BBb1 entry vector - specR,2487,,,Not Released,BBa_J72117,Not in stock,None,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112951,BBb1 assembly vector - A/C resistance,3210,,,Not Released,,Not in stock,,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112952,BBb1 assembly vector - C/A,3212,,,Not Released,BBa_K112995,Not in stock,,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112953,BBb1 assembly vector - A/K,3344,,,Not Released,,Not in stock,,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112954,BBb1 assembly vector - K/A,3344,,,Not Released,,Not in stock,,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112955,BBb1 assembly vector - C/K,3149,,,Not Released,,Not in stock,,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112956,BBb1 assembly vector - K/C,3147,,,Not Released,,Not in stock,,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K112995,BBb1 assembly vector - C/A,3212,,,Not Released,BBa_K112952,Not in stock,,Not Used,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1152998,X,8971,,,Not Released,BBa_K1152999,Not in stock,None,Not Used,iGEM13_Heidelberg,Philipp D. Walch,2013-09-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1152999,X,8971,,,Not Released,BBa_K1152998,Not in stock,None,Not Used,iGEM13_Heidelberg,Philipp D. Walch,2013-09-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1160000,coding sequence of Cas9 from CRISPR system type II,9159,,,Not Released,,It's complicated,None,Not Used,iGEM13_NJU_NJUT_China,Huang Xingxu,2013-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1160001,chimeric RNA，combining crRNA and tracrRNA,4900,,,Not Released,,It's complicated,,Not Used,iGEM13_NJU_NJUT_China,Yang Rongwu,2013-09-14,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1160002,cas9 cleavage detector,5093,,,Not Released,,It's complicated,,Not Used,iGEM13_NJU_NJUT_China,Yang Rongwu,2013-09-14,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1189035,TALE B and EHEC 2 target,24,,,Not Released,,Not in stock,None,Not Used,iGEM13_Calgary,Himika Dastidar,2013-10-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1199002,"LinA   gamma-HCH->1,3,4,6-tetrachloro-1,4-cyclohexadiene",468,,,Not Released,BBa_K1199050,Not in stock,None,Not Used,iGEM13_UESTC_Life,Tian Wang,2013-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1199006,"DhaA   TCP->2,3-DCP",900,,,Not Released,BBa_K1199013;BBa_K1199043,It's complicated,None,Not Used,iGEM13_UESTC_Life,Tian Wang,2013-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1223008,pUC-57-P.A.S.E.2,3894,,,Not Released,,It's complicated,Works,Not Used,iGEM13_BGU_Israel,Orr Schlesinger,2013-09-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1223010,pUC-57-P.A.S.E.1,4850,,,Not Released,,Not in stock,,Not Used,iGEM13_BGU_Israel,Orr Schlesinger,2013-09-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1256012,pSB1C3-Plac-RFP-Cm-LacI ,4468,,,Not Released,,Not in stock,None,Not Used,iGEM14_Mingdao,Pei-Hong Chen,2014-06-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1256013,pSB1C3-Plac-ccdB-Cm-LacI ,4066,,,Not Released,,Not in stock,,Not Used,iGEM14_Mingdao,Pei-Hong Chen,2014-06-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1256014,pSB1C3-Pred-ccdB-light sensor ,6436,,,Not Released,,Not in stock,,Not Used,iGEM14_Mingdao,Pei-Hong Chen,2014-06-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K128007,pLEM415 plasmid,6332,,,Not Released,,Not in stock,Works,Not Used,iGEM08_MIT,Derek Ju,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K128008,pJK650 plasmid,8932,,,Not Released,,Not in stock,Works,Not Used,iGEM08_MIT,Derek Ju,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1297000,Klebsiella oxytoca Urease,4947,,,Not Released,,Not in stock,None,Not Used,iGEM14_CSIA-SouthKore,Kyoungwoo Jang,2014-06-05,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1312004,pSB1C3 plus 6x His tag,2091,,,Not Released,,Not in stock,,Not Used,iGEM14_Kyoto,Yutaka Murata,2014-10-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1314018,nif structure 5 in pUC57 (amp resistance),1000,,,Not Released,,It's complicated,,Not Used,iGEM14_Hong_Kong-CUHK,Seak Chi U,2014-10-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1314019,Nif accessory 4 in pUC57 (amp resistance),1000,,,Not Released,,Not in stock,,Not Used,iGEM14_Hong_Kong-CUHK,Seak Chi U,2014-10-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1314020,nif accessory 1 in pUC57 (amp resistance),1000,,,Not Released,,Not in stock,,Not Used,iGEM14_Hong_Kong-CUHK,Seak Chi U,2014-10-07,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321302,pSEVA331-BB with J23100-RFP,3797,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321304,pSEVA321-BB with J23117-RFP,4497,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321309,pBAV1K-T5-sfGFP,3621,,,Not Released,,Not in stock,None,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321310,Anderson J23101-RFP in pSEVA 331-Bb,3797,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321312,Anderson J23103 in pSEVA 331-Bb,3797,,,Not Released,BBa_K1321317,Not in stock,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321313,Anderson J23104-RFP in pSEVA331-Bb,3797,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321314,Anderson J23105-RFP in pSEVA331-Bb,3797,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321315,Anderson J23106-RFP in pSEVA331-Bb,3797,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321316,Anderson J23110-RFP in pSEVA331-Bb,3797,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321317,Anderson J23112-RFP in pSEVA331-Bb,3797,,,Not Released,BBa_K1321312,Not in stock,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321318,Anderson J23114-RFP in pSEVA331-Bb,3797,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321320,Anderson J23117-RFP in pSEVA331-Bb,3797,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321322,Anderson J23118-RFP in pSEVA321-Bb,4497,,,Deleted,BBa_K1321322,Discontinued,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1321328,J-sRNA-331Bb,4562,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Imperial,Michael Florea,2014-10-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_K133041,T7 promoter expression plasmid backbone,3273,,,Not Released,,It's complicated,Works,Not Used,iGEM08_Slovenia,Ana Lasic,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1369006,"pBAD FsrA, pFsrA-GFP, RR with no recruitment",9122,,,Not Released,,Not in stock,,Not Used,iGEM14_Caltech,Monique Alkiewicz,2014-10-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1369007,"pBAD FsrA-SH3pep, pFsrA-GFP, RR with direct recruitment (SH3 peptide). Ideal pBad concentrations wil",9200,,,Not Released,,Not in stock,,Not Used,iGEM14_Caltech,Monique Alkiewicz,2014-10-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1369008,"pCon FsrC, constituatively expressed non-inhibited HK with 4 SH3 domains",4865,,,Not Released,,Not in stock,,Not Used,iGEM14_Caltech,Monique Alkiewicz,2014-10-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1369009,"pBAD LamA, pLamA-GFP, RR with no recruitment",9112,,,Not Released,,Not in stock,,Not Used,iGEM14_Caltech,Monique Alkiewicz,2014-10-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1369010,"pBAD LamA-L-SH3pep, pLamA-GFP, RR with direct recruitment (SH3 peptide). Ideal pBad concentrations w",9190,,,Not Released,,Not in stock,,Not Used,iGEM14_Caltech,Monique Alkiewicz,2014-10-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1369011,"pCon LamC, constituatively expressed non-inhibited HK with 4 SH3 domains",4802,,,Not Released,,Not in stock,,Not Used,iGEM14_Caltech,Monique Alkiewicz,2014-10-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K138000,NifHp in BioBrick Compatible Leucine Landing Pad,284,,,Not Released,,It's complicated,None,Not Used,iGEM08_Michigan,Amrit Misra,2008-10-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1380001,pnz8048 ,3349,,,Not Released,,Not in stock,,Not Used,iGEM14_UIUC_Illinois,Sameer Andani,2014-10-09,,pgroup=Plasmid_Other&show=1.csv
+BBa_K138001,nifHp driving mutant NifL in Leucine Landing Pad,1850,,,Not Released,,It's complicated,,Not Used,iGEM08_Michigan,Amrit Misra,2008-10-12,,pgroup=Plasmid_Other&show=1.csv
+BBa_K138002,Arabinose Landing Pad, ,,,Not Released,,No part sequence,None,No Sequence,iGEM08_Michigan,Alyssa Delke,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391004,CD79A-TCS-Gal4VP16,1383,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Alexa Garcia,2014-10-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391005,CD79B-TCS-Gal4VP16,1392,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Alexa Garcia,2014-10-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391006,Syk,1941,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Alexa Garcia,2014-10-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391007,Syk-TEVp,2676,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Alexa Garcia,2014-10-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391008,Lyn,1542,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Alexa Garcia,2014-10-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391009,Lyn-TEVp,2307,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Alexa Garcia,2014-10-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391010,pENTR_PirB,2529,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391011,pENTR_LilrB2,1800,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391012,pENTR_Cofilin (Inactivated - pseudophosphorylated),501,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391013,pENTR_PirB_TCS_Gal4VP16,3228,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391014,pENTR_LilrB2_TCS_Gal4VP16,2499,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391015,pENTR_Cofilin(inactivated)_TEVp,1266,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391016,pENTR_hEF1a,1218,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391018,pENTR_L7Ae,2913,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391019,MAV1212_hEF1a_L7Ae,6021,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391020,MAV1212_hEF1a_eBFP2,6383,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391021,Low sensor: eBFP2_miR-144,5885,,,Not Released,,It's complicated,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391022,Low sensor: eBFP2_miR-181c,5913,,,Not Released,,It's complicated,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391023,High sensor: L7Ae_miR-30d,5551,,,Not Released,,It's complicated,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391024,High sensor: L7Ae_miR-146a,5551,,,Not Released,,It's complicated,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391025,High sensor: L7Ae_miR-125b,5551,,,Not Released,,It's complicated,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391026,High sensor: L7Ae_miR-let-7f,5515,,,Not Released,,It's complicated,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391027,Low sensor: eBFP2_miR-144_miR-181c,6016,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,"Jing Wei ""Raymond"" Liu",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391028,pENTR_BACE1,1506,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391029,pENTR_BACE2,1557,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391030,pENTR_miRNAG1,1104,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391031,pENTR_miRNAG2,1103,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391032,pENTR_miRNAG3,1103,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391033,pENTR_miRNAG4,1021,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391100,pEXPR_Gantenerumab Variable Human Ig-M Heavy Chain,1860,,,Not Released,BBa_K1391000,It's complicated,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391101,pEXPR_Gantenerumab Variable Human Ig-M Light Chain,720,,,Not Released,BBa_K1391001,It's complicated,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391102,pEXPR_hEF1a:CD79A,678,,,Not Released,BBa_K1391104;BBa_K1391103;BBa_K1391105,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391103,pEXPR_hEF1a:CD79B,678,,,Not Released,BBa_K1391104;BBa_K1391102;BBa_K1391105,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391104,pEXPR_hEF1a:CD79A-TCS-Gal4VP16,678,,,Not Released,BBa_K1391102;BBa_K1391103;BBa_K1391105,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391105,pEXPR_hEF1a:CD79B-TCS-Gal4VP16,678,,,Not Released,BBa_K1391104;BBa_K1391102;BBa_K1391103,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391106,pEXPR_TRE:Syk,8600,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391107,pEXPR_TRE:Syk-TEVp,9339,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391108,pENTR_hEF1a:Lyn, ,,,Not Released,,No part sequence,None,No Sequence,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391109,pEXPR_TRE:Lyn-TEVp,8204,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391110,pEXPR_hEF1a:PirB,10033,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391111,pEXPR_hEF1a:LilrB2,9304,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391112,pEXPR_Tret:Cofilin (Inactivated - pseudophosphorylated),5912,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391113,pEXPR hEF1a:PirB_TCS_Gal4VP16,10740,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391114,pEXPR hEF1a: LilrB_TCS_Gal4VP16,10011,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391115,pEXPR TRE:Cofilin-TEVp,7882,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391128,pEXPR_BACE1,8964,,,Not Released,BBa_K1391143,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391129,pEXPR_BACE2,8173,,,Not Released,BBa_K1391144,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391130,pEXPR_TRE:miRNAG1,7762,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391131,pEXPR_TRE:miRNAG2,7763,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391132,pEXPR_TRE:miRNAG3,3707,,,Not Released,BBa_K1391137,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391133,pEXPR_TRE:miRNAG4,3707,,,Not Released,BBa_K1391138,Not in stock,,Not Used,iGEM14_MIT,Shinjini Saha,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391135,pEXPR TRE:miRNAg1,3707,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,James Anderson,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391136,pEXPR TRE:miRNAg2,3708,,,Not Released,,Not in stock,None,Not Used,iGEM14_MIT,James Anderson,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391137,pEXPR TRE:miRNAg3,3707,,,Not Released,BBa_K1391132,Not in stock,None,Not Used,iGEM14_MIT,James Anderson,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391138,pEXPR TRE:miRNAg4,3707,,,Not Released,BBa_K1391133,Not in stock,,Not Used,iGEM14_MIT,James Anderson,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391139,pENTR BACE1-eYFP,4851,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,James Anderson,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391140,pENTR BACE2-eYFP,4908,,,Not Released,,Not in stock,,Not Used,iGEM14_MIT,James Anderson,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391141,pENTR eYFP-BACE1,4860,,,,,,,,,,,,
+BBa_K1391142,pENTR eYFP-BACE2,4908,,,,,,,,,,,,
+BBa_K1391143,pEXPR Hef1a:BACE1,8964,,,Not Released,BBa_K1391128,Not in stock,,Not Used,iGEM14_MIT,James Anderson,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1391144,pEXPR TRE:BACE2,8173,,,Not Released,BBa_K1391129,Not in stock,,Not Used,iGEM14_MIT,James Anderson,2014-10-30,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1401606,pBad- BCD2 - RFP ,1080,,,Not Released,,Not in stock,,Not Used,iGEM14_BostonU,Yash Agarwal,2014-10-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1401607,pLac - BCD2 - tetR,1110,,,Not Released,,Not in stock,,Not Used,iGEM14_BostonU,Yash Agarwal,2014-10-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1416002,pStG: a ncAA Synthetase/tRNA Pair Plasmid Standard,5315,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Austin_Texas,"Michael Hammerling, Razan Alnahhas, Jordan Monk",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1416003,pFRYC: a Reporter Control for Measuring ncAA Incorporation,5966,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Austin_Texas,"Jordan Monk, Colin Brown, Dennis Mishler",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1416004,pFRY: a Reporter Plasmid for Measuring ncAA Incorporation,5966,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Austin_Texas,"Jordan Monk, Colin Brown, Dennis Mishler",2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K142077,pMA,2456,,,Not Released,,Not in stock,,Not Used,iGEM08_ETH_Zurich,Julius Rabl,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1422505,"Lactose-inducible killswitch, produces SAMS and NAS1",3865,,,Not Released,,Not in stock,,Not Used,iGEM14_Purdue,Casey Martin,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1422506,"Plasmid producing corn NAAT1, DMAS, and TOM1",4912,,,Not Released,,Not in stock,,Not Used,iGEM14_Purdue,Casey Martin,2014-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1437003,PRS304 ,4267,,,Not Released,,It's complicated,,Not Used,iGEM14_HIT-Harbin,Yifan Wu,2014-09-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1438030,pQE_80L Expression Plasmid,4715,,,Not Released,BBa_K1438031,It's complicated,,Not Used,iGEM14_Berlin,Johann Bauerfeind,2014-10-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1441008,PGAPz alpha A + RFP,4203,,,Not Released,BBa_K1441011,Not in stock,Works,Not Used,iGEM14_Georgia_State,Shivani Shah,2014-10-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1453001,pBluescript II KS(+) EcoRV deletion,2937,,,,,,,,,,,,
+BBa_K1453001,pBluescript II KS(+) ScaI deletion 999,2927,,,,,,,,,,,,
+BBa_K1453003,pBluescript II KS(+)_3_copy,2955,,,Not Released,BBa_K1453303,It's complicated,None,Not Used,iGEM14_SJTU-BioX-Shanghai,"Ziyang Tan, Renhe Luo",2014-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1453004,pBluescript II KS(+)_5_copy,2998,,,Not Released,BBa_K1453304,It's complicated,None,Not Used,iGEM14_SJTU-BioX-Shanghai,"Ziyang Tan, Renhe Luo",2014-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1453901,pBluescript II KS(+) ScaI deletion,2927,,,Not Released,BBa_K1453901;BBa_K1453001,It's complicated,None,Not Used,iGEM14_SJTU-BioX-Shanghai,Binhan Hao,2014-10-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K146000,pCR2.1 PCR product cloning vector,3972,,,Not Released,,Not in stock,,Not Used,iGEM08_Missouri_Miners,Rachel Klapper,2008-10-28,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1473000,pBluescript + RFP,3884,,,Not Released,,Not in stock,,Not Used,iGEM14_TCU_Taiwan,"Shan, Zhe",2014-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K155000,LIC plasmid,2068,,,Not Released,,It's complicated,None,Not Used,iGEM08_Lethbridge_CCS,"Marc Slingerland, Nathan Puhl",2008-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1613016,It is a new part which can detect cadmium ions in liquid.,102,,,Not Released,,Not in stock,None,Not Used,iGEM15_HSNU-TAIPEI,CHANG I,2015-09-06,,pgroup=Plasmid_Other&show=1.csv
+BBa_K163101,pUC8 Plasmid DNA,3952,,,Not Released,,Not in stock,,Not Used,iGEM08_University_of_Chicago,Daniel M. Choi,2008-10-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1650011,sRNA Anti-MinC leading to Minicell Production,2361,,,Not Released,,Not in stock,None,Not Used,iGEM15_MARBURG,Matthias Franz,2015-09-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_K165060,"pRS303 yeast shuttle vector, HIS3",4443,,,Not Released,BBa_K106700,It's complicated,,Not Used,iGEM08_BrownTwo,Aaron Glieberman,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K165061,"pRS304* yeast shuttle vector, TRP1 selection",4268,1,,Not Released,,It's complicated,None,Not Used,iGEM08_BrownTwo,Aaron Glieberman,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K165062,"pRS305 yeast shuttle vector, LEU2 selection",5504,,,Not Released,,It's complicated,Works,Not Used,iGEM08_BrownTwo,Aaron Glieberman,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K165063,"pRS306 yeast shuttle vector, URA3 selection",4373,,,Not Released,BBa_I766996;BBa_K1437001,It's complicated,,Not Used,iGEM08_BrownTwo,Aaron Glieberman,2008-10-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1743000,Plastocyanin variant #1 in pSB1C3, ,,,Not Released,,No part sequence,,No Sequence,iGEM15_GeorgiaTech,Jung Mok,2015-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1743001,Plastocyanin variant #2 in pSB1C3,381,,,Not Released,BBa_K1743012,Not in stock,,Not Used,iGEM15_GeorgiaTech,Jung Mok,2015-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1743002,Plastocyanin variant #3 in pSB1C3,381,,,Not Released,BBa_K1743013,Not in stock,,Not Used,iGEM15_GeorgiaTech,Jung Mok,2015-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1743003,Plastocyanin variant #3 in pSB1C3, ,,,Not Released,,No part sequence,,No Sequence,iGEM15_GeorgiaTech,Jung Mok,2015-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1743004,Plastocyanin variant #1 in pSB1C3,381,,,Not Released,BBa_K1743011,Not in stock,,Not Used,iGEM15_GeorgiaTech,Jung Mok,2015-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1743005,Plastocyanin variant #4 in pSB1C3,381,,,Not Released,BBa_K1743014,Not in stock,,Not Used,iGEM15_GeorgiaTech,Jung Mok,2015-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1743006,Plastocyanin variant #5 in pSB1C3,381,,,Not Released,BBa_K1743015,Not in stock,,Not Used,iGEM15_GeorgiaTech,Jung Mok,2015-09-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1760000,TodE,3101,,,Not Released,,Not in stock,None,Not Used,iGEM15_Toronto,"Seray Cicek, Umar Owadally, Katariina Jeanes, ChungMin Lee, Anthony Zhao",2015-09-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1843000,Thrombin switch 1.0,1003,,,Not Released,,Not in stock,,Not Used,iGEM15_Michigan,Cristina Castillo,2015-09-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_K197038,BBb - BseRI/AcuI entry vector,2481,,,Not Released,,Not in stock,None,Not Used,iGEM09_Berkeley_Wetlab,Jennifer Brophy,2009-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_K197039,BBb Assembly Vector A/C,3046,,,Not Released,,Not in stock,None,Not Used,iGEM09_Berkeley_Wetlab,Jennifer Brophy,2009-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_K197040,BBb CK Assembly Vector,2985,,,Not Released,,Not in stock,,Not Used,iGEM09_Berkeley_Wetlab,Jennifer Brophy,2009-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_K197041,BBb CA Assembly Vector,3048,,,Not Released,,Not in stock,,Not Used,iGEM09_Berkeley_Wetlab,Jennifer Brophy,2009-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K197042,BBb AK Assembly Vector,3180,,,Not Released,,Not in stock,,Not Used,iGEM09_Berkeley_Wetlab,Jennifer Brophy,2009-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1971000,psb1c3-ompt-crm197,3939,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_BHU_China,KE GUAN YU,2016-10-14,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1971001,psb1c3-ompt-mal85,3688,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BHU_China,KE GUAN YU,2016-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1971007,pet28a-ompt-crm197,6911,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BHU_China,KE GUAN YU,2016-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1971008,pet28a-ompt-mal85,6660,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BHU_China,KE GUAN YU,2016-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1971009,psb-crm197,4787,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BHU_China,KE GUAN YU,2016-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K1971010,psb-mal85,4547,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BHU_China,KE GUAN YU,2016-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K203099,pSMB_REFERENCE,5139,,,Not Released,,It's complicated,None,Not Used,iGEM09_Heidelberg,"Lars Velten, Simon Haas, Anne Rademacher, Hannah Meyer and Michael Bartoschek",2009-10-15,,pgroup=Plasmid_Other&show=1.csv
+BBa_K2033011,N-Acyl Homoserine Lactone (AHL) Modular Sender Vector,960,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Arizona_State,Jimmy Xu,2016-10-12,,pgroup=Plasmid_Other&show=1.csv
+BBa_K2061000,tGFP ORF under EF1a promoter,1969,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Tel-Hai,avi matityahu,2016-08-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_K2061001,cftr exon 11 donor,944,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Tel-Hai,avi matityahu,2016-08-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_K2061002,gRNA1 for editing F508 deletion,471,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Tel-Hai,avi matityahu,2016-08-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_K2061003,gRNA2 for editing F508 deletion,471,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Tel-Hai,avi matityahu,2016-08-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_K2061004,hgjg, ,,,Not Released,,No part sequence,,-1 Uses,iGEM16_Tel-Hai,avi matityahu,2016-10-14,,pgroup=Plasmid_Other&show=1.csv
+BBa_K209399,AarI A-D acceptor vector,2632,,,Not Released,,It's complicated,Works,21 Uses,iGEM09_UCSF,Oliver Hoeller,2009-09-14,,pgroup=Plasmid_Other&show=1.csv
+BBa_K210014,blunt end clonig vector by Stu1,2091,,,Not Released,,It's complicated,Issues,Not Used,iGEM09_Kyoto,Makoto Kashima,2009-10-15,,pgroup=Plasmid_Other&show=1.csv
+BBa_K2141000,pET28a(+) expression plasmid,5369,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Istanbul_Tech,"Altug Uludag, Nedim Haciosmanoglu, Galip Can Guclu, Yagmur Guneri, Melis Akgun",2016-10-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_K229001,Aequorin-GFP, ,,,Not Released,,No part sequence,,No Sequence,iGEM09_TzuChiU_Formosa,Ta-chun Lin,2009-10-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K233324,pIDTSmart-KAN   Vector,1946,,,Not Released,,Not in stock,None,Not Used,iGEM09_IBB_Pune,"swetha srinivasan,samit watve, mandar phatak, chinar patil",2009-10-19,,pgroup=Plasmid_Other&show=1.csv
+BBa_K243031,pMA ,2440,,,Not Released,,It's complicated,Works,Not Used,iGEM09_Freiburg_bioware,Freiburg Bioware09,2009-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K243033,pEX,5675,,,Not Released,,It's complicated,Works,Not Used,iGEM09_Freiburg_bioware,Freiburg Bioware09,2009-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K243034,pJS418,4655,,,Not Released,BBa_K1438032,It's complicated,Works,Not Used,iGEM09_Freiburg_bioware,Freiburg Bioware09,2009-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K243035,pJS419,4654,,,Not Released,,It's complicated,Works,Not Used,iGEM09_Freiburg_bioware,Freiburg Bioware09,2009-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K243037,pBAD,4651,,,Not Released,,It's complicated,None,Not Used,iGEM09_Freiburg_bioware,Freiburg Bioware09,2009-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K258007,Export of recombinant proteins in Escherichia coli using ABC transporter of Erwinia chrysanthemi ,4900,,,Not Released,BBa_K258008,It's complicated,Works,Not Used,iGEM09_METU-Gene,Cihan Tastan donated by Jung Hoon Ahn from  Korea Advanced Institute of Science and Technology,2009-10-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K258008,Export of recombinant proteins in Escherichia coli using ABC transporter of Erwinia chrysanthemi ,4900,,,Not Released,BBa_K258007,It's complicated,Works,Not Used,iGEM09_METU-Gene,Jung Hoon Ahn from Korea Advanced Institute of Science and Technology,2009-10-10,,pgroup=Plasmid_Other&show=1.csv
+BBa_K260000,pCC2FosM,47697,,,Not Released,,It's complicated,None,Not Used,iGEM09_BIOTEC_Dresden,Kaj Bernhardt,2009-10-17,,pgroup=Plasmid_Other&show=1.csv
+BBa_K277000,pGEM-T Cloning Vector,3002,,,Not Released,,Not in stock,,Not Used,iGEM09_Johns_Hopkins-BAG,James DiCarlo,2009-10-19,,pgroup=Plasmid_Other&show=1.csv
+BBa_K341000,recombination sequence + eGFP+I-Sce I cutting site,772,,,,,,,,,,,,
+BBa_K341709,plasmid of Donor Plasmid,948,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Tsinghua,Teng Li,2010-10-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K364332,TRE-Gal4-PXR-PolyA in PSB1A3 (expression vector),1709,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Debrecen-Hungary,Endre Károly Kristóf,2010-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K364333,TRE-Gal4-EcR-PolyA in PSB1A3 (expression vector),1670,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Debrecen-Hungary,Endre Károly Kristóf,2010-10-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382000,pORE Open Series Vector with BioBrick MCS (Basta resistance),7208,,,Not Released,,It's complicated,None,Not Used,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382002,"pORE Expression Series Vector with BioBrick MCS, Basta resistance",7786,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Harvard,Mara C. Inniss,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382003,pORE Expression Series Vector with BioBrick MCS (Kan reistance),7969,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382050,Arabidopsis optimized Miraculin in Agrobacteria expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Mara C. Inniss,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382051,Arabidopsis optimized Miraculin in Agrobacteria expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Mara C. Inniss,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382052,Arabidopsis optimized Brazzein (in plant Basta vector), ,,,Not Released,,No part sequence,None,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382053,Arabidopsis optimized Brazzeing (in plant Kan vector), ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382054,amiRNA GFP knockdown 1 in Basta plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382055,amiRNA GFP knockdown 1 in Kan plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382056,amiRNA GFP knockdown 2 in Basta plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382057,amiRNA GFP knockdown 2 in Kan plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382058,amiRNA LUT2 knockdown in Basta plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382059,amiRNA beta-Ohase 1 knockdown in Basta plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382060,amiRNA LYC knockdown in Basta plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382061,amiRNA LUT2 knockdown in Kan plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382062,amiRNA beta-Ohase 1 knockdown in Kan plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382063,amiRNA LYC knockdown in Kan plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382064,amiRNA LTP knockdown in Basta plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382065,amiRNA LTP knockdown in Kan plant expression vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382066,intron hairpin RNAi knockdown of Ger allergen in Basta plant vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382067,intron hairpin RNAi knockdown of Ger allergen in Kan plant vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382068,intron hairpin RNAi knockdown of Bet v 1 allergen in Basta plant vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382069,intron hairpin RNAi knockdown of Bet v 1 allergen in Kan plant vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382070,intron hairpin RNAi knockdown of LTP allergen in Basta plant vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K382071,intron hairpin RNAi knockdown of LTP allergen in Kan plant vector, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Harvard,Christina Agapakis,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K404200,pSB1C3-001,2087,,,Not Released,,It's complicated,None,Not Used,iGEM10_Freiburg_Bioware,Freiburg Bioware 2010,2010-08-28,,pgroup=Plasmid_Other&show=1.csv
+BBa_K404999,pBAD-mVenus,4771,,,Not Released,,It's complicated,None,Not Used,iGEM10_Freiburg_Bioware,Freiburg Bioware 2010,2010-08-31,,pgroup=Plasmid_Other&show=1.csv
+BBa_K422002,pSEVA231, ,,,Not Released,,No part sequence,None,No Sequence,iGEM10_ETHZ_Basel,Katharina Zwicky,2010-10-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_K422015,pSEVA132,6827,,,Not Released,,It's complicated,,Not Used,iGEM10_ETHZ_Basel,Katharina Zwicky,2010-10-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K510000,pUC18Sfi-miniTn7BB-Gm,4388,,,Not Released,,It's complicated,Works,9 Uses,iGEM11_UPO-Sevilla,"David Caballero, Fernando Govantes",2011-09-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K510001,pUC18SfiI-miniTn7BB-Cm,4500,,,Not Released,,Not in stock,,Not Used,iGEM11_UPO-Sevilla,Fernando Govantes,2011-09-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K510002,pUC18SfiI-miniTn7BB-Km,4659,,,Not Released,,It's complicated,None,Not Used,iGEM11_UPO-Sevilla,Fernando Govantes,2011-09-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K510012,pUC18R6KT-miniTn7BB-Gm,4549,,,Not Released,,It's complicated,Works,9 Uses,iGEM11_UPO-Sevilla,David Caballero & Fernando Govantes,2011-09-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_K510013,pUC18R6KT-miniTn7BB-Cm,4661,,,Not Released,,Not in stock,,Not Used,iGEM11_UPO-Sevilla,David Caballero,2011-09-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_K510014,pUC18R6KT-miniTn7BB-Km,4820,,,Not Released,,Not in stock,,Not Used,iGEM11_UPO-Sevilla,David Caballero,2011-09-18,,pgroup=Plasmid_Other&show=1.csv
+BBa_K524005,pToolkit,5273,,,Not Released,,It's complicated,None,Not Used,iGEM11_HKUST,HO Yuan Heng Trevor ,2011-10-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_K524204,pTE,1389,,,Not Released,,Not in stock,Works,Not Used,iGEM11_HKUST,HO Yuan Heng Trevor,2012-08-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530028,pRSBB403 HIS3 Integrating Yeast Shuttle Vector,4348,,,Not Released,,It's complicated,None,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530029,pRSBB404 TRP1 Integrating Yeast Shuttle Vector	,4166,,,Not Released,,It's complicated,None,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530030,pRSBB405 LEU2 Integrating Yeast Shuttle Vector ,5399,,,Not Released,,It's complicated,None,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530031,pRSBB406 URA3 Integrating Yeast Shuttle Vector ,4276,,,Not Released,,It's complicated,None,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530032,pRSBB413 HIS3 CEN/ARS Yeast Shuttle Vector ,4862,,,Not Released,,It's complicated,None,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530033,pRSBB414 TRP1 CEN/ARS Yeast Shuttle Vector	,4680,,,Not Released,,It's complicated,,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530034,pRSBB415 LEU2 CEN/ARS Yeast Shuttle Vector ,5913,,,Not Released,,It's complicated,None,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530035,pRSBB416 URA3 CEN/ARS Yeast Shuttle Vector ,4790,,,Not Released,,It's complicated,,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530036,pRSBB423 HIS3 2Micron Episomal Yeast Shuttle Vector ,5690,,,Not Released,,Not in stock,,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530037,pRSBB424 TRP1 2Micron Episomal Yeast Shuttle Vector ,5508,,,Not Released,,It's complicated,,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530038,pRSBB425 LEU2 2Micron Episomal Yeast Shuttle Vector ,6741,,,Not Released,,It's complicated,,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K530039,pRSBB426 URA3 2Micron Episomal Yeast Shuttle Vector ,5618,,,Not Released,,Not in stock,None,Not Used,iGEM11_Johns_Hopkins,Daniel Bibl,2011-09-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_K541800,B.subtilis and E.coli Episomal Shuttle Vector with Consitutive RFP to express in E.coli,6285,,,Not Released,,It's complicated,Works,Not Used,iGEM11_FAGEM,Mustafa Elitok,2011-09-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K541815,B.subtilis and E.coli Episomal Shuttle Vector with LALF and SacB signal peptide,5753,,,Not Released,,It's complicated,,Not Used,iGEM11_FAGEM,Mustafa Elitok,2011-09-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K541915,Multi-host vector pTG262 converted to BioBrick vector wtih LALF protein and SacB signal peptide,6109,,,Not Released,,It's complicated,Works,Not Used,iGEM11_FAGEM,Mustafa Elitok,2011-09-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K541925,Multi-host vector pTG262 converted to BioBrick vector wtih LALF protein and LipA signal peptide,6115,,,Not Released,,It's complicated,,Not Used,iGEM11_FAGEM,Mustafa Elitok,2011-09-21,,pgroup=Plasmid_Other&show=1.csv
+BBa_K551001,plasmid of insertion and deletion,10878,,,Not Released,,It's complicated,Works,Not Used,iGEM11_ULB-Brussels,ULB-Brussels team,2011-09-19,,pgroup=Plasmid_Other&show=1.csv
+BBa_K563052,"combination of pSB1A11, CEN/ARS, TRP1",3836,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tianjin,Guo Jing,2011-10-05,,pgroup=Plasmid_Other&show=1.csv
+BBa_K596004,Algae Protein Expression Vector,3808,,,Not Released,,Not in stock,None,Not Used,iGEM11_Bilkent_UNAM_Turkey,Ebuzer Kalyoncu,2011-09-19,,pgroup=Plasmid_Other&show=1.csv
+BBa_K617000,Biobrick Compatible Lambda Chromosomal Insertion Plasmid,2440,,,Not Released,,It's complicated,None,Not Used,iGEM11_UIUC-Illinois,Will Jones ,2011-09-27,,pgroup=Plasmid_Other&show=1.csv
+BBa_K617001,pINT-ts,5129,,,Not Released,,It's complicated,None,Not Used,iGEM11_UIUC-Illinois,"Andreas Haldimann, Barry Wanner",2011-09-27,,pgroup=Plasmid_Other&show=1.csv
+BBa_K617002,pAH57,5201,,,Not Released,,It's complicated,None,Not Used,iGEM11_UIUC-Illinois,"Andreas Haldimann, Barry Wanner ",2011-09-27,,pgroup=Plasmid_Other&show=1.csv
+BBa_K624027,pYMB (shuttle vector between Escherichia coli and Magnetospirillum magneticum AMB-1),3819,,,Not Released,,It's complicated,Works,Not Used,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_K626000,TRE-Bax-PolyA in PSB1A3 (expression vector),1101,,,Not Released,,It's complicated,None,Not Used,iGEM11_Debrecen_Hungary,Endre Károly Kristóf,2011-09-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K654095,RFP Cloning Control pSB1A3_IntC6803,6762,,,Not Released,,It's complicated,,Not Used,iGEM11_Utah_State,Cody Tramp,2011-09-27,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678049,pJEJAM1,6092,,,Not Released,,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678050,pJEJAM2,6101,,,Not Released,,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678051,pJEJAM3,6170,,,Not Released,,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678052,pJEJAM4,6083,,,Not Released,BBa_K678053,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678053,pJEJAM5,6083,,,Not Released,BBa_K678052,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678054,pJEJAM6,4054,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678055,pJEJAM7,4210,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678056,pJEJAM8,3485,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678057,pJEJAM9,3659,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678058,pJEJAM10,7121,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678059,pJEJAM11,6855,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678060,pJEJAM12,8133,,,Not Released,,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678061,pJEJAM13,8142,,,Not Released,,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678062,pJEJAM14,8091,,,Not Released,,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678063,pJEJAM15,8112,,,Not Released,,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678064,pJEJAM16,8362,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678065,pJEJAM17,8269,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678066,pJEJAM18,7531,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678067,pJEJAM19,8188,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678068,pJEJAM20,8230,,,Not Released,,It's complicated,None,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K678070,p68,12812,,,Not Released,,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K727700,pSB1K3 with RFP coding device,3273,,,Not Released,,Not in stock,,Not Used,iGEM12_AUC_Turkey,&#304;BRAH&#304;M YAS&#304;R ORHAN,2012-06-16,,pgroup=Plasmid_Other&show=1.csv
+BBa_K734005,pReporter for ZombiE.coli,7229,,,Not Released,,Not in stock,,Not Used,iGEM12_Austin_Texas,Ben Slater,2012-10-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K734006,pReporter.permaflipped control for ZombiE.coli,7229,,,Not Released,,Not in stock,,Not Used,iGEM12_Austin_Texas,Ben Slater,2012-10-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K747098,MammoBrick,4087,,,Not Released,,Not in stock,,Not Used,iGEM12_Freiburg,Lucas Schneider,2012-09-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K747102,pTAL-AID,6582,,,Not Released,,Not in stock,None,Not Used,iGEM12_Freiburg,Lucas Schneider (Freigem 2012) + Team Potsdam 2012,2012-09-26,,pgroup=Plasmid_Other&show=1.csv
+BBa_K755000,Shuttle Vector for E. coli and P. pastoris, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_GeorgiaState,Sarah Boyd,2012-10-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K773000,mCherry + AAV, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_Caltech,Katie Knister,2012-10-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783055,Level 0 MoClo Destination Vector with AB,540,,,Not Released,BBa_K1114400,Not in stock,None,Not Used,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783056,Level 0 MoClo Destination Vector with EB, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783057,Level 0 MoClo Destination Vector with GB, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783058,Level 0 MoClo Destination Vector with BC, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783059,Level 0 MoClo Destination Vector with CD, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783060,Level 0 MoClo Destination Vector with DF, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783061,Level 0 MoClo Destination Vector with DG, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783062,Level 1 MoClo Destination Vector with AE, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783063,Level 1 MoClo Destination Vector with EF, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783064,Level 1 MoClo Destination Vector with FG, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K783065,Level 1 MoClo Destination Vector with GH, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Plasmid_Other&show=1.csv
+BBa_K788004,pPZP212, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_Nanjing_China,Jia-Bao Chen,2012-09-25,,pgroup=Plasmid_Other&show=1.csv
+BBa_K797012,Lactose induced GFP and RFP generator asembled by Golden gate assembly, ,,,Not Released,,No part sequence,None,No Sequence,iGEM12_Kyoto,Tomohiro Nobeyama,2012-09-22,,pgroup=Plasmid_Other&show=1.csv
+BBa_K802003,,6527,,,Not Released,BBa_K802004,Not in stock,Works,Not Used,iGEM12_Lyon_INSA,Sandu Ioana,2012-09-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K802004,,6527,,,Not Released,BBa_K802003,Not in stock,Works,Not Used,iGEM12_Lyon_INSA,Sandu Ioana,2012-09-20,,pgroup=Plasmid_Other&show=1.csv
+BBa_K823054,,6313,,,Not Released,,It's complicated,None,Not Used,iGEM12_LMU-Munich,Jara Radeck,2012-09-23,,pgroup=Plasmid_Other&show=1.csv
+BBa_K879927, , ,,,Not Released,,No part sequence,None,No Sequence,iGEM12_Alberta,Nien-Tsu Tseng,2012-10-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K879928, , ,,,Not Released,,No part sequence,None,No Sequence,iGEM12_Alberta,Nien-Tsu Tseng,2012-10-01,,pgroup=Plasmid_Other&show=1.csv
+BBa_K890000,methanococcus shuttle vector pAW42,4956,,,Not Released,,Not in stock,,Not Used,iGEM12_UGA1,James Bevington,2012-10-03,,pgroup=Plasmid_Other&show=1.csv
+BBa_K950008,pRS313 shuttle vector,4967,,,Not Released,,Not in stock,None,Not Used,iGEM12_Tuebingen,Jan Rudolph,2012-07-29,,pgroup=Plasmid_Other&show=1.csv
+BBa_K950010,pRS315 shuttle vector,6018,,,Not Released,,Not in stock,,Not Used,iGEM12_Tuebingen,Jakob Matthes,2012-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K950011,pRS316 shuttle vector,4887,,,Not Released,,Not in stock,,Not Used,iGEM12_Tuebingen,Jakob Matthes,2012-09-13,,pgroup=Plasmid_Other&show=1.csv
+BBa_K954004,8xLexAop-Sic1hs-His6x protein and plasmid, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_Duke,Peter Fan,2012-10-03,,pgroup=Plasmid_Other&show=1.csv
+BBa_M11400,Integration Plasmid for Synechocystis sp. PCC 6803,7075,,,Not Released,,Not in stock,,Not Used,UtahState BE5930 - S09 UtahState BE5930 - S10,Cody Tramp,2010-04-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_M36161,T7 17.5 Plasmid,387,,,Not Released,,Not in stock,None,Not Used,Stanford BIOE44 - S11,Matt Kandath and Eric Kofman,2012-06-04,,pgroup=Plasmid_Other&show=1.csv
+BBa_M36226,SFP1 (PJ1201),2193,,,Not Released,,Not in stock,,Not Used,Stanford BIOE44 - S11,Samed Susam,2013-12-03,,pgroup=Plasmid_Other&show=1.csv
+BBa_M36533,Arsenate Bioremediation Actuator Plasmid Containing PHO84 Gene ,1764,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,Inderpreet Kaur Hayer,2015-10-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_M36534,Arsenate Bioremediation Actuator Plasmid Containing ACR 1 and ACR 2 Genes,1329,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,Inderpreet Kaur Hayer,2015-10-24,,pgroup=Plasmid_Other&show=1.csv
+BBa_M39203,Vector for creation of micro-dystrophin SFV,4463,,,Not Released,,Not in stock,,Not Used,MIT BE 20.20-S12,Hannah Kempton,2012-05-15,,pgroup=Plasmid_Other&show=1.csv
+BBa_M45124,F-Plasmid Coding Sequence for E coli, ,,,Not Released,,No part sequence,,No Sequence,UtahState_BE5930_-_S14,Sherissa Ward,2014-04-19,,pgroup=Plasmid_Other&show=1.csv
+BBa_M50052,alkB1 + alkG,1746,,,Not Released,,Not in stock,,-1 Uses,Stanford BIOE44 - S11,Nicholas M Kuntz,2016-12-11,,pgroup=Plasmid_Other&show=1.csv
+BBa_P10501,GoldenBraid destination vector pDGB3 alpha1,6965,,,Not Released,,Not in stock,,-1 Uses,Plants,Vinoo Selvarajah,2016-06-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_P10502, GoldenBraid destination vector pDGB3 alpha1R,6969,,,Not Released,,Not in stock,,-1 Uses,Plants,Vinoo Selvarajah,2016-06-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_P10503,GoldenBraid destination vector pDGB3 alpha2,6967,,,Not Released,,Not in stock,,-1 Uses,Plants,Vinoo Selvarajah,2016-06-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_P10504,GoldenBraid destination vector pDGB3 alpha2R,6968,,,Not Released,,Not in stock,,-1 Uses,Plants,Vinoo Selvarajah,2016-06-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_P10505,GoldenBraid destination vector pDGB3 omega1,7295,,,Not Released,,Not in stock,,-1 Uses,Plants,Vinoo Selvarajah,2016-06-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_P10506,GoldenBraid destination vector pDGB3 omega1R,7299,,,Not Released,,Not in stock,,-1 Uses,Plants,Vinoo Selvarajah,2016-06-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_P10507,GoldenBraid destination vector pDGB3 omega2,7295,,,Not Released,,Not in stock,,-1 Uses,Plants,Vinoo Selvarajah,2016-06-08,,pgroup=Plasmid_Other&show=1.csv
+BBa_P10508, GoldenBraid destination vector pDGB3 omega2R,7297,,,Not Released,,Not in stock,,-1 Uses,Plants,Vinoo Selvarajah,2016-06-08,,pgroup=Plasmid_Other&show=1.csv
+pSB1AC0,pSB1AC0,3031,,,Not Released,,Not in stock,,Not Used,iGEM2006_MIT,Reshma Shetty,2006-06-01,,pgroup=Plasmid_Other&show=1.csv
+pSB5A5,pSB5A5,7012,,,Not Released,,Not in stock,,Not Used,iGEM2006_MIT,Reshma Shetty,2006-06-01,,pgroup=Plasmid_Other&show=1.csv
+pSB5AC5,pSB5AC5-P1011.I50020,7858,,Antiquity:0,Not Released,,Not in stock,None,Not Used,BE.109 Instructors,Reshma Shetty,2006-03-13,,pgroup=Plasmid_Other&show=1.csv

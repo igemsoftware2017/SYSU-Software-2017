@@ -1,0 +1,461 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_I714894,SDA_CI,726,,,Not Released,,In stock,Works,4 Uses,iGEM07_Peking,Chunbo Lou,2007-10-21,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=generator_basic&show=1.csv
+BBa_I732084,"Tet repressor generator (version1, TERM-)",689,1,,Not Released,,In stock,Works,1 Uses,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=generator_basic&show=1.csv
+BBa_J33201,E. coli chromosomal ars promoter with arsR repressor gene,518,,"iGEM Edinburgh 2006:2;iGEM IvyTechSouthBendIN 2012:2;iGEM Gaston Day School 2012
+We grew liquid cultures for 24 hours with varying concentrations of Cadmium Nitrate in the presence of our cells. After growth, the tests were spun down, then resuspended in 1X PBS (Phosphate Buffer Solution). We tested the detector with Cadmium since the promoter is responsive to multiple heavy metals. Due to safety issues, we were unable to use Arsenic because we are in BSL1 and it is a known poison. The results were measured in fluorescence per OD 600. The graph below shows our results.:2;iGEM Worcester WPI:3",Released HQ 2013,BBa_M33334,In stock,Works,16 Uses,iGEM2006_Edinburgh,Chris French,2006-10-13,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1033990,Zeocin resistance cassette,449,,,Not Released,,In stock,Works,Not Used,iGEM13_Uppsala,Erik Gullberg,2013-09-03,,pgroup=generator_basic&show=1.csv
+BBa_K1100009,Csy4 generator with no terminator,659,,,Not Released,,In stock,Works,1 Uses,iGEM13_Fudan,YingQi Lou,2013-09-13,,pgroup=generator_basic&show=1.csv
+BBa_K1228006,25aa with T1 terminator and Constitutive promoter veg,391,,,Not Released,,In stock,Works,Not Used,iGEM13_HZAU-China,Zhang SW,2013-09-09,,pgroup=generator_basic&show=1.csv
+BBa_K1228008,38aa with T1 terminator and Constitutive promoter veg,428,,,Not Released,,In stock,Works,Not Used,iGEM13_HZAU-China,Zhang SW,2013-09-09,,pgroup=generator_basic&show=1.csv
+BBa_K1228009,38aa and 25aa fusion peptide with T1 terminator and Constitutive promoter veg,511,,,Not Released,,In stock,Works,Not Used,iGEM13_HZAU-China,Zhang SW,2013-09-10,,pgroup=generator_basic&show=1.csv
+BBa_K1321200,J23101+B0034+VHb (Vitreoscilla haemoglobin),504,,Hongbin Yu from SCU-China 2016:4,Not Released,,In stock,Works,2 Uses,iGEM14_Imperial,Xenia Spencer-Milnes,2014-10-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1332011,Histidine tag (8 AA) and RFP semi-permanent generator,1376,,,Not Released,,In stock,Works,Not Used,iGEM14_Gifu,Kenta Nomura,2014-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K1355001,Regulation and transport of mercury ions,1189,,,Not Released,BBa_K2123202,In stock,Works,3 Uses,iGEM14_UFAM_BRAZIL,"Maria Clara Astolfi, Luna Barroco de Lacerda",2014-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K1404002,"Ptac-NiCoTB, improves nickel and cobalt internalization",1306,,,Not Released,,In stock,Works,1 Uses,iGEM14_INSA-LYON,Alexandre Duprey,2014-09-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1404006,"p70-CsgA, curli generator",547,,,Not Released,,In stock,Works,Not Used,iGEM14_INSA-LYON,"Juliette Paillet, Alexandre Duprey, Emiel van der Kouwe",2014-09-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1404007,"p70-CsgA-His, His-tagged curli generator",577,,,Not Released,,In stock,Works,Not Used,iGEM14_INSA-LYON,"Juliette Paillet, Alexandre Duprey, Emiel van der Kouwe",2014-09-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1404008,"p70-CsgA-His*2, double His-tagged curli generator",607,,,Not Released,,In stock,Works,Not Used,iGEM14_INSA-LYON,"Juliette Paillet, Alexandre Duprey, Emiel van der Kouwe",2014-09-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1807000,Protein generator device suitable for blue-white screening and Gibson Assembly.,403,,,Not Released,BBa_K1807015,Not in stock,Works,Not Used,iGEM15_York,Ivan Gyulev,2015-09-14,,pgroup=generator_basic&show=1.csv
+BBa_K325209,,3841,,,Released HQ 2013,,In stock,Works,Not Used,iGEM10_Cambridge,Anja Hohmann and Will Handley,2010-09-17,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K325259,,3841,,,Released HQ 2013,,In stock,Works,Not Used,iGEM10_Cambridge,Ben Reeve and Emily Knott,2010-10-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K325909,,7637,,"As a part of our project, we set out to investigate the conditions which affect the output of the LuxBrick. As we are using various elements from this Biobrick, we believe that is cornersome to know how we may increase its output by modifying the conditions that affect its behaviour.:34;2012iGEM team Fudan_Lux:3;Peking 2012 iGEM team:4",Released HQ 2013,,In stock,Works,2 Uses,iGEM10_Cambridge,Theo Sanderson and Will Handley,2010-10-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K398029,ALDH generator (low expression),1555,,,Not Released,,In stock,Works,Not Used,iGEM10_TU_Delft,Kira Schipper,2010-10-07,,pgroup=generator_basic&show=1.csv
+BBa_K537001,Theophylline Riboswitch 1-CheZ,698,,,Not Released,,In stock,Works,1 Uses,iGEM11_WITS_CSIR_SA,Natasia Kruger,2011-07-19,,pgroup=generator_basic&show=1.csv
+BBa_K537002,Theophylline Riboswitch 2-CheZ,702,,,Not Released,,In stock,Works,1 Uses,iGEM11_WITS_CSIR_SA,Natasia Kruger,2011-07-19,,pgroup=generator_basic&show=1.csv
+BBa_K537003,Theophylline Riboswitch 1-Venus,779,,,Not Released,,In stock,Works,1 Uses,iGEM11_WITS_CSIR_SA,Gloria Hlongwane,2011-09-09,,pgroup=generator_basic&show=1.csv
+BBa_K537004,Theophylline Riboswitch 2-Venus,780,,,Not Released,,In stock,Works,1 Uses,iGEM11_WITS_CSIR_SA,Gloria Hlongwane,2011-09-09,,pgroup=generator_basic&show=1.csv
+BBa_K541505,limulus anti-LPS factor (LALF),312,,,Released HQ 2013,,In stock,Works,2 Uses,iGEM11_FAGEM,Fazilet Guler,2011-07-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K558007,Bay Laurel Thioesterse Generator for Fatty Acid Production,1147,,,Not Released,,In stock,Works,Not Used,iGEM11_Nevada,Megan Tabor,2011-09-20,,pgroup=generator_basic&show=1.csv
+BBa_K581011,pBAD-rbs-cqsA-terminator,1465,,,Not Released,,In stock,Works,Not Used,iGEM11_Peking_Signaling,"Handuo SHI, Dingqiao Wen",2011-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K638202,Arabinose inducible Poly-His Reflectin A1 generator,2456,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_Cambridge,Matthew Jones,2011-09-19,,pgroup=generator_basic&show=1.csv
+BBa_K638401,Arabinose inducible TorA Export Tagged Reflectin A1 Poly His generator,2582,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_Cambridge,Matthew Jones,2011-09-19,,pgroup=generator_basic&show=1.csv
+BBa_K649201,PlacIQ-lox2272-rfp-lox2272-gfp,1914,,,Not Released,,In stock,Works,Not Used,iGEM11_Tokyo_Tech,SeoHyun Kim ,2011-09-18,,pgroup=generator_basic&show=1.csv
+BBa_K649202,PlacIQ-lox71-rfp-lox66-gfp,1914,,,Not Released,,In stock,Works,Not Used,iGEM11_Tokyo_Tech,SeoHyun Kim ,2011-09-18,,pgroup=generator_basic&show=1.csv
+BBa_K738002,Theophyline riboswitch regulated RNA Scaffold (clover vision 2),217,,,Released HQ 2013,,In stock,Works,Not Used,iGEM12_ZJU-China,Huachun Liu,2012-08-09,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K819009,Weak cheZ generator,703,,,Not Released,,In stock,Works,Not Used,iGEM12_Peking,Xing Wenmin,2012-09-03,,pgroup=generator_basic&show=1.csv
+BBa_K819010,Medium cheZ generator,706,,2016iGEM_HZAU:5,Released HQ 2013,,In stock,Works,Not Used,iGEM12_Peking,Xing Wenmin,2012-09-03,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K819012,Luminesensor repressible LacIM generator,1292,,,Released HQ 2013,,In stock,Works,Not Used,iGEM12_Peking,ZHANG Hong,2012-09-03,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_P1003,kanamycin resistance cassette,967,1,Reshma Shetty:5,Not Released,BBa_K1223003,In stock,Works,23 Uses,BE.109 Instructors,Reshma Shetty,2006-01-23,,pgroup=generator_basic&show=1.csv
+BBa_P1004,chloramphenicol resistance cassette,769,1,Reshma Shetty:5;UNIPV-Pavia iGEM 2010 Team:4,Released HQ 2013,,In stock,Works,13 Uses,BE.109 Instructors,Reshma Shetty,2006-02-03,,pgroup=generator_basic&show=1.csv
+BBa_P1005,tetracycline resistance cassette,1283,1,Reshma Shetty:5,Released HQ 2013,,In stock,Works,6 Uses,BE.109 Instructors,Reshma Shetty,2006-02-03,,pgroup=generator_basic&show=1.csv
+BBa_I13458,promoter C and arabinose C operon,1114,1,,Released HQ 2013,,In stock,,20 Uses,MIT,Josh Michener,2005-08-17,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_I712076,CMV promoter - Myc tag - CCR5  (shortened),1608,1,,Not Released,,In stock,None,2 Uses,iGEM07_Ljubljana,Rok Gaber,2007-10-22,,pgroup=generator_basic&show=1.csv
+BBa_I716341,rbs-ThpB-rbs-ThpC-rbs-ThpD-TT,2775,,,Not Released,,In stock,None,Experience: None,iGEM07_Berkeley_UC,nhu nguyen,2007-08-14,,pgroup=generator_basic&show=1.csv
+BBa_J23012,Spectinomycin R open-reading-frame basic part,888,,,Not Released,,In stock,Issues,3 Uses,iGEM2006_Berkeley,Will Bosworth,2006-07-24,,pgroup=generator_basic&show=1.csv
+BBa_K1010001,RBS (B0034) + NphR (PNP-responsive positive regulator)  + Terminator (B0015),1166,,,Not Released,,In stock,None,1 Uses,iGEM13_SCAU-China,Gousi Li,2013-08-22,,pgroup=generator_basic&show=1.csv
+BBa_K1053000,taRNA responsive Hammerhead Ribozyme(TR-HHR) with RBS,110,,,Not Released,,In stock,Issues,1 Uses,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-10,,pgroup=generator_basic&show=1.csv
+BBa_K1053005,PBAD- TR-HHR*(RBS)-GFPuv-DT,2190,,,Not Released,BBa_K1053004,In stock,None,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-10,,pgroup=generator_basic&show=1.csv
+BBa_K1057002,pBAD/araC-ferritin_middle,2500,,,Not Released,,In stock,None,Not Used,iGEM13_Chiba,Yuki Kimura,2013-09-12,,pgroup=generator_basic&show=1.csv
+BBa_K1075010,pC-RBS32-FKBP12-EcsspB[XB]-Term-pB-RBS32-EcsspB[Core]-FRB-Term-Term (Rapamycin inducable EcsspB),1594,,,Not Released,,In stock,None,2 Uses,iGEM13_Bonn,Max Schelski,2013-09-22,,pgroup=generator_basic&show=1.csv
+BBa_K1216000,β-Glucuronidase (gusA) from Bacillis Subtilis,1847,,,Not Released,,In stock,None,Not Used,iGEM13_ETH_Zurich,Angela Aeschbach,2013-08-29,,pgroup=generator_basic&show=1.csv
+BBa_K1216002,Acetyl esterase (aes) from Escherichia Coli,995,,,Not Released,,In stock,None,Not Used,iGEM13_ETH_Zurich,Parvathi Chandran,2013-08-29,,pgroup=generator_basic&show=1.csv
+BBa_K1216003,beta-N-Acetylglucosaminidase (nagZ) from Escherichia Coli,1062,,,Not Released,,In stock,None,Not Used,iGEM13_ETH_Zurich,Angela Aeschbach,2013-08-29,,pgroup=generator_basic&show=1.csv
+BBa_K1216004,β-Glucuronidase (gusA) from Bacillis Subtilis with TEV and poly-HIS tags,1890,,,Not Released,,In stock,None,Not Used,iGEM13_ETH_Zurich,Parvathi Chandran,2013-08-29,,pgroup=generator_basic&show=1.csv
+BBa_K1216006,Acetyl esterase (aes) from Escherichia Coli with TEV and poly-HIS tags,1040,,,Not Released,,In stock,None,Not Used,iGEM13_ETH_Zurich,Parvathi Chandran,2013-08-29,,pgroup=generator_basic&show=1.csv
+BBa_K1316015,pRhamnose regulating csgB and csgA curli proteins,1128,,,Not Released,,In stock,,Not Used,iGEM14_TU_Delft-Leiden,Joan Cortada Garcia,2014-09-29,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1332012,A TTHA0715 with sequence cut by thrombin semi-permanent generator,926,,,Not Released,,In stock,Fails,Not Used,iGEM14_Gifu,Kenta Nomura,2014-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K1332013,SmtA semi-permanent generator,848,,,Not Released,,In stock,Issues,Not Used,iGEM14_Gifu,Kenta Nomura,2014-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K1403013,Geosmin expression cassette,1195,,,Not Released,,In stock,None,Not Used,iGEM14_aris_Bettencourt,Paris Bettencourt 2014,2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1481001,his-mRFP under rhamnose promoter,887,,,Not Released,,In stock,None,Not Used,iGEM14_PoznanBioInf,"Przemys&#322;aw Nuc, Melania Nowicka, Weronika Krzynowek, Jakub Bartoszewicz, Katarzyna R&#380;osi&#324;ska",2014-10-10,,pgroup=generator_basic&show=1.csv
+BBa_K1481002,sfGFP under arabinose promoter,1967,,,Not Released,,In stock,,Not Used,iGEM14_PoznanBioInf,Melania Nowicka,2014-10-10,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1481003,sfGFP with R4-tag under arabinose promoter,1979,,,Not Released,,In stock,None,Not Used,iGEM14_PoznanBioInf,"Przemys&#322;aw Nuc, Melania Nowicka, Weronika Krzynowek, Jakub Bartoszewicz, Katarzyna R&#380;osi&#324;ska",2014-10-10,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1481004,sfGFP with MLRR tag under arabinose promoter,1967,,,Not Released,,In stock,None,Not Used,iGEM14_PoznanBioInf,"Przemys&#322;aw Nuc, Melania Nowicka, Weronika Krzynowek, Jakub Bartoszewicz, Katarzyna R&#380;osi&#324;ska",2014-10-10,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1499004,Cellulose binding domains with streptavidin domain generator,1052,,,Not Released,,In stock,,Not Used,iGEM14_StanfordBrownSpelman,Raman Nelakanti,2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1510008,E.coli Signal sequence YebF,35,,,Not Released,BBa_J23100;BBa_K654030;BBa_K823004;BBa_J72177;BBa_K783038;BBa_K1088001;BBa_K1523102;BBa_K1796201;BBa_K1893024;BBa_K1893025;BBa_K1893026,In stock,None,Not Used,iGEM14_NYMU-Taipei,Chien-Yung Huang,2014-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K218010,"Mistake, sorry",275,,,Not Released,BBa_K131017,In stock,None,Not Used,iGEM09_Calgary,Sung Yong (Kevin) Shin,2009-10-16,,pgroup=generator_basic&show=1.csv
+BBa_K294206,sss,12,,,Not Released,BBa_J61100;BBa_K2116029;BBa_K2116092,In stock,,Not Used,iGEM09_Example,Koji Sode,2009-06-27,,pgroup=generator_basic&show=1.csv
+BBa_K325903,,1921,,,Released HQ 2013,,In stock,None,Not Used,iGEM10_Cambridge,Peter Emmrich and Anja Hohmann,2010-10-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K524004,pir gene,1162,,,Not Released,,In stock,None,Not Used,iGEM11_HKUST,HO Yuan Heng Trevor   ,2011-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K541506,Reflectin1A from Cephalopod,855,,,Released HQ 2013,,In stock,None,4 Uses,iGEM11_FAGEM,Fazilet Guler,2011-07-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K652004,RBS-ZeAFP-Term,282,,,Released HQ 2013,,In stock,,Not Used,iGEM11_Yale,Darren Zhu,2011-08-26,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K769010,lux operon,7158,,,Not Released,,In stock,,3 Uses,iGEM12_Tokyo-NoKoGen,Mayumi Nakamura,2012-09-19,,pgroup=generator_basic&show=1.csv
+BBa_K801073,CaXMT1 expression cassette for yeast,2172,,,Not Released,,In stock,None,Not Used,iGEM12_TU_Munich,Dennis Hell,2012-09-21,,pgroup=generator_basic&show=1.csv
+BBa_K801074,CaMXMT1 expression cassette for yeast,1991,,,Not Released,,In stock,None,Not Used,iGEM12_TU_Munich,Dennis Hell,2012-09-21,,pgroup=generator_basic&show=1.csv
+BBa_K907004,Dual phase protein generator(GFP default). mRFP and GFP,1575,,BIT-China 2015:5,Not Released,,In stock,None,Not Used,iGEM12_KAIST_Korea,"Dong-hui Choe, Soo-in Lee",2012-09-20,,pgroup=generator_basic&show=1.csv
+BBa_K907005,Dual phase protein generator(mRFP default). mRFP and GFP,1575,,,Not Released,,In stock,None,Not Used,iGEM12_KAIST_Korea,"Dong-hui Choe, Soo-in Lee",2012-09-20,,pgroup=generator_basic&show=1.csv
+BBa_K957002,Salicylate inducible mtrB with cut sites flanking RBS ,3207,,,Not Released,,In stock,None,Not Used,iGEM12_Cornell,Dylan Patrick Webster,2012-07-28,,pgroup=generator_basic&show=1.csv
+BBa_I10999,ornithine transcarbamylase generator ,1917,,Antiquity:0,Not Released,,Not in stock,None,Not Used,BE.109 2006 BE.109 Instructors,Tala Qusous,2006-05-18,,pgroup=generator_basic&show=1.csv
+BBa_I712082,CMV promoter - CD4 (shortened),1907,1,,Not Released,,It's complicated,None,4 Uses,iGEM07_Ljubljana,Marko Bitenc,2007-10-22,,pgroup=generator_basic&show=1.csv
+BBa_I714893,SDcro_CI434,646,,,Not Released,,Not in stock,Works,1 Uses,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=generator_basic&show=1.csv
+BBa_I716340,rbs-thpD-TT,1073,,,Not Released,,It's complicated,None,Not Used,iGEM07_Berkeley_UC,nhu nguyen,2007-08-14,,pgroup=generator_basic&show=1.csv
+BBa_I716354,Biobricked Unmodified Hemoglobin Cassette in petDUET format,1408,,,Not Released,,It's complicated,None,Not Used,iGEM07_Berkeley_UC,Austin Day,2007-10-24,,pgroup=generator_basic&show=1.csv
+BBa_I716438,{rbs1-A}{GTG.Cre}{b0015 TT},1193,,,Not Released,,It's complicated,None,Not Used,iGEM07_Berkeley_UC,Samantha Liang,2007-10-23,,pgroup=generator_basic&show=1.csv
+BBa_I728001,nothing,1773,,,Not Released,BBa_I728000;BBa_I769100,Not in stock,,Not Used,iGEM07_MIT,Forrest Liau,2007-05-26,,pgroup=generator_basic&show=1.csv
+BBa_I741011,Total XylR Transcriptional Regulator Right Facing,1473,,,Not Released,,Not in stock,None,Not Used,iGEM07_Penn_State,Galen Lynch,2007-06-13,,pgroup=generator_basic&show=1.csv
+BBa_I741016,Reverse Total XylR Transcriptional Regulator Left Facing (I741011 reverse complement,1473,,,Not Released,,Not in stock,None,Not Used,iGEM07_Penn_State,Galen Lynch,2007-06-21,,pgroup=generator_basic&show=1.csv
+BBa_I746000,AIP generator (agrB + agrD with RBSes),759,,,Not Released,,Not in stock,,2 Uses,iGEM07_Cambridge,David Wyatt,2007-10-20,,pgroup=generator_basic&show=1.csv
+BBa_I746100,AIP sensor infrastructure (agrC + agrA from S. aureus with RBSes),1920,,,Not Released,,Not in stock,,1 Uses,iGEM07_Cambridge,David Wyatt,2007-10-20,,pgroup=generator_basic&show=1.csv
+BBa_I750016,Gas Vesicle polycistonic gene,6064,1,Antiquity:5;iGEM Groningen 2009:5,Not Released,,It's complicated,None,11 Uses,iGEM07_Melbourne,Phillip Dodson,2007-10-21,,pgroup=generator_basic&show=1.csv
+BBa_I753001,generator,834,,,Not Released,BBa_Z52934;BBa_I753000;BBa_I738002;BBa_I769102,Not in stock,,Not Used,iGEM07_Boston_University,Stephen Schneider,2007-05-26,,pgroup=generator_basic&show=1.csv
+BBa_J100105,Low production of eCDM8,3295,,,Not Released,,Not in stock,None,Not Used,Campbell_M_Lab,Erin McGuire,2013-01-29,,pgroup=generator_basic&show=1.csv
+BBa_J100106,Riboswitch and GFP +Low production of eCDM8,4182,,,Not Released,,Not in stock,None,Not Used,Campbell_M_Lab,Erin McGuire,2013-02-19,,pgroup=generator_basic&show=1.csv
+BBa_J100122,P5+riboswitch+adhE,2833,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Malcolm Campbell,2013-09-06,,pgroup=generator_basic&show=1.csv
+BBa_J100133,P5+BD24+gst1,733,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Sarah Dwyer,2013-10-02,,pgroup=generator_basic&show=1.csv
+BBa_J100134,P5+BD24+gst9,796,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Sarah Dwyer,2013-10-04,,pgroup=generator_basic&show=1.csv
+BBa_J100135,thyA Gene,929,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Elizabeth Brunner,2013-10-07,,pgroup=generator_basic&show=1.csv
+BBa_J100136,T5+riboswitchD+thyA,954,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Malcolm Campbell,2014-02-20,,pgroup=generator_basic&show=1.csv
+BBa_J100201,RBS (BD24) + GFP,810,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Malcolm Campbell,2014-10-24,,pgroup=generator_basic&show=1.csv
+BBa_J119302,eCDM8 expression with medium promoter and medium C dog RBS,3274,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,"Todd Eckdahl, Claire Shinneman",2013-06-10,,pgroup=generator_basic&show=1.csv
+BBa_J119303,eCDM8 expression with high promoter and high C dog RBS,3274,,,Not Released,,Not in stock,None,2 Uses,Eckdahl_Lab,"Todd Eckdahl, Claire Shinneman",2013-06-10,,pgroup=generator_basic&show=1.csv
+BBa_J119304,eCDM8 expression with low promoter and low C dog RBS,3277,,,Not Released,,Not in stock,None,1 Uses,Eckdahl_Lab,"Todd Eckdahl, Claire Shinneman",2013-06-10,,pgroup=generator_basic&show=1.csv
+BBa_J33101,LacZ ,3075,,,Not Released,,Not in stock,,Not Used,iGEM2006_Edinburgh,Judith Nicholson,2006-08-02,,pgroup=generator_basic&show=1.csv
+BBa_J33210,lac promoter and lacZ,600,1,,Not Released,,It's complicated,None,Not Used,iGEM2006_Edinburgh,"Grace Kwan, original design by Chris French",2008-11-23,,pgroup=generator_basic&show=1.csv
+BBa_J61000,chloramphenicol resistance cassette,894,1,,Not Released,,It's complicated,Works,3 Uses,Arkin Lab,John Anderson,2006-07-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_basic&show=1.csv
+BBa_J61023,Tn5 Transposase [Tnp1-PN] (with PstI and NotI),1733,1,,Not Released,,It's complicated,Works,3 Uses,Arkin Lab,John Anderson,2006-09-21,,pgroup=generator_basic&show=1.csv
+BBa_J70304,constitutive cat cassette for Mesoplasma florum,997,,,Not Released,,Not in stock,,Not Used,Knight Lab,Tom Knight,2009-05-06,,pgroup=generator_basic&show=1.csv
+BBa_J70596,J70577 cut with BsaXI and with 6his inserts (J70564-fi) added, ,,,Not Released,,No part sequence,,No Sequence,Knight Lab,Julie Norville,2010-06-27,,pgroup=generator_basic&show=1.csv
+BBa_J70597,J70577 cut with BsaXI and with 6his inserts (J70564-fi) added,936,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2010-06-27,,pgroup=generator_basic&show=1.csv
+BBa_J70636,pheS gene from M. florum,1154,,,Not Released,,Not in stock,,Not Used,Knight Lab,Tom Knight,2010-11-01,,pgroup=generator_basic&show=1.csv
+BBa_J72000,[kanR] complete kanamycin resistance cassette,1020,,,Not Released,,Not in stock,,Not Used,Anderson Lab,John Anderson,2008-02-03,,pgroup=generator_basic&show=1.csv
+BBa_J72011,RFP expression device in BBb,895,,,Not Released,,Not in stock,,Not Used,Anderson Lab,John Anderson,2008-07-25,,pgroup=generator_basic&show=1.csv
+BBa_J72092,{KanR Cassette} in BglBrick Format,1021,,,Not Released,,Not in stock,,Not Used,Anderson Lab,Josh Kittleson,2011-11-09,,pgroup=generator_basic&show=1.csv
+BBa_J85225,Kan_off,967,,,Not Released,,Not in stock,None,1 Uses,Weiss Lab,Jonathan W Babb,2012-03-26,,pgroup=generator_basic&show=1.csv
+BBa_K098010,"HO-pcyA, low expression",1531,1,,Not Released,,It's complicated,None,1 Uses,iGEM08_Harvard,Harvard iGEM 08,2008-10-26,,pgroup=generator_basic&show=1.csv
+BBa_K098011,"E. coli ompR, expressed at low level",917,1,,Not Released,,It's complicated,None,1 Uses,iGEM08_Harvard,Harvard iGEM 08,2008-10-26,,pgroup=generator_basic&show=1.csv
+BBa_K1049002,Isoamyl acetate generator,1832,,,Not Released,,Not in stock,Works,Not Used,iGEM13_KIT-Kyoto,Yohei TAMIAKI,2013-09-19,,pgroup=generator_basic&show=1.csv
+BBa_K105016,Leu2 - Beta-isopropylmalate dehydrogenase of yeast,1829,1,,Not Released,,It's complicated,None,Not Used,iGEM08_ESBS-Strasbourg,"Michael Wild, Katja Karstens",2008-10-22,,pgroup=generator_basic&show=1.csv
+BBa_K105017,Ura3 - Orotidine-5-phosphate decarboxylase,1121,1,,Not Released,,It's complicated,None,Not Used,iGEM08_ESBS-Strasbourg,"Michael Wild, Katja Karstens",2008-10-22,,pgroup=generator_basic&show=1.csv
+BBa_K1053003,taRNA responsive Hammerhead Ribozyme with RBS + GFPuv + DT,960,,,Not Released,,It's complicated,None,1 Uses,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-10,,pgroup=generator_basic&show=1.csv
+BBa_K1053006,PBAD-TR(42)-HHR-taR12-DT,1481,,,Not Released,BBa_K1053016,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1053008,PBAD-taR12-DT,1407,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1053009,PBAD-taR42-DT,1407,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1053010,PBAD-taR12y-DT,1407,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1053011,taRNA(taR42) responsive Hammerhead Ribozyme(TR(42)-HHR) with RBS,106,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1053012,taRNA(taR12y) responsive Hammerhead Ribozyme(TR(12y)-HHR) with RBS,109,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1053013,PLlacOI-crR12-GFPuv-DT,958,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1053014,TR(12)-HHR-taR12y,164,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1053015,PBAD-TR(12)-HHR-taR12y-DT,1481,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1053016,PBAD-TR(12y)-HHR-taR42-DT,1481,,,Not Released,BBa_K1053006,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Ippei Sakamoto,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1053100,RNA scaffold,98,,,Not Released,,Not in stock,,2 Uses,iGEM13_Tokyo-NoKoGen,Eri Takagi,2013-09-10,,pgroup=generator_basic&show=1.csv
+BBa_K1053101,HHR with RNA scaffold,200,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo-NoKoGen,Eri Takagi,2013-09-10,,pgroup=generator_basic&show=1.csv
+BBa_K1053102,HHR*: HHR mutant type with RNA scaffold,200,,,Not Released,,Not in stock,None,Not Used,iGEM13_Tokyo-NoKoGen,Eri Takagi,2013-09-10,,pgroup=generator_basic&show=1.csv
+BBa_K1057009,pBAD/araC-ferritin_strong,2519,,,Not Released,,It's complicated,None,Not Used,iGEM13_Chiba,Yuki Kimura,2013-09-12,,pgroup=generator_basic&show=1.csv
+BBa_K1057012,pBAD/araC-BsaI-sfGFP-BsaI,2094,,,Not Released,,It's complicated,None,Not Used,iGEM13_Chiba,Yuki Kimura,2013-09-16,,pgroup=generator_basic&show=1.csv
+BBa_K1057013,dCas9, ,,,Not Released,,No part sequence,,No Sequence,iGEM13_Chiba,Yuki Kimura,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1057014,CRISPRi-fur, ,,,Not Released,,No part sequence,,No Sequence,iGEM13_Chiba,Yuki Kimura,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1057015,CRISPRi-fieF, ,,,Not Released,,No part sequence,,No Sequence,iGEM13_Chiba,Yuki Kimura,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1057016,CRISPRi-gor, ,,,Not Released,,No part sequence,,No Sequence,iGEM13_Chiba,Yuki Kimura,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1057017,CRISPRi-trxB, ,,,Not Released,,No part sequence,,No Sequence,iGEM13_Chiba,Yuki Kimura,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1060011,Beta Farnesene production,1965,,,Not Released,,It's complicated,None,Not Used,iGEM13_KU_Leuven,"Ingmar Claes, Lukas Marcelis, Su Wang",2013-09-19,,pgroup=generator_basic&show=1.csv
+BBa_K1060013,LacI-AroG* production under regulation of TetR repressible promoter,2417,,,Not Released,,Not in stock,None,Not Used,iGEM13_KU_Leuven,Ingmar Claes,2013-09-24,,pgroup=generator_basic&show=1.csv
+BBa_K106342,AB shuttle vector,3117,,,Not Released,,Not in stock,Works,Not Used,iGEM08_UCSF,Andrej Ondracka,2008-10-27,,pgroup=generator_basic&show=1.csv
+BBa_K106343,BD shuttle vector,3114,,,Not Released,,Not in stock,Works,Not Used,iGEM08_UCSF,Andrej Ondracka,2008-10-27,,pgroup=generator_basic&show=1.csv
+BBa_K1072005,PT7+RBS+α-ALS+T7TM,1919,,,Not Released,,Not in stock,Works,Not Used,iGEM13_SCUT,"Xuenian chen, Zewei yan and Yichong wang",2013-09-07,,pgroup=generator_basic&show=1.csv
+BBa_K1076002,"FadL, Long-chain fatty acid outer membrane transporte ",1856,,,Not Released,,It's complicated,None,Not Used,iGEM13_Manaus_Amazonas-Brazil,Carlos Gustavo Nunes,2013-09-13,,pgroup=generator_basic&show=1.csv
+BBa_K1076004,"FadD, Long-chain-fatty-acid-CoA ligase",2100,,,Not Released,,It's complicated,None,Not Used,iGEM13_Manaus_Amazonas-Brazil,Carlos Gustavo Nunes,2013-09-13,,pgroup=generator_basic&show=1.csv
+BBa_K1083000,HEWL-Antigen-RFP ,1182,,,Not Released,,It's complicated,,Not Used,iGEM13_Linkoping_Sweden,David Jullesson,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1083001,HEWL-Antigen-Luciferase,2693,,,Not Released,,It's complicated,,Not Used,iGEM13_Linkoping_Sweden,David Jullesson,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1083002,Promotor for LacI and HEWL antibody,1196,,,Not Released,,Not in stock,,Not Used,iGEM13_Linkoping_Sweden,David Jullesson,2013-10-02,,pgroup=generator_basic&show=1.csv
+BBa_K1083003,The HEWL antigen generator,669,,,Not Released,,Not in stock,,Not Used,iGEM13_Linkoping_Sweden,David Jullesson,2013-10-02,,pgroup=generator_basic&show=1.csv
+BBa_K1113400,Targeting sequence for the delivery of the LacZ gene to the Carboxysome., ,,,Not Released,,No part sequence,,No Sequence,iGEM13_UC_Chile,Sebastián Alvarez,2013-09-16,,pgroup=generator_basic&show=1.csv
+BBa_K1113410,Targeting sequence for the delivery of the LacZ gene to the Carboxysome., ,,,Not Released,,No part sequence,,No Sequence,iGEM13_UC_Chile,Sebastián Alvarez,2013-09-16,,pgroup=generator_basic&show=1.csv
+BBa_K112129,"TrfA with an RBS , followed by terminiator",2196,,,Not Released,,It's complicated,None,Not Used,iGEM08_UC_Berkeley,Christina Brown,2008-10-29,,pgroup=generator_basic&show=1.csv
+BBa_K1124011,hpaBC (+RBS(natural)),2107,,,Not Released,,It's complicated,None,1 Uses,iGEM13_UT-Tokyo,Yuta Otsuka,2013-09-11,,pgroup=generator_basic&show=1.csv
+BBa_K117001,ColicinE7 with Immunity ,1899,1,,Not Released,,It's complicated,Fails,2 Uses,iGEM08_NTU-Singapore,Nguyen Xuan Hung,2008-10-07,,pgroup=generator_basic&show=1.csv
+BBa_K1179015,A U6_gRNA(Cr9) plasmid which produces Cr9 targeting guide RNA's for Cas9,365,,,Not Released,BBa_K2080000,It's complicated,,Not Used,iGEM13_MIT,Nelson Hall,2013-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1179041,U6_gRNA 1A Reverse,368,,,Not Released,,It's complicated,None,Not Used,iGEM13_MIT,Kyle Lathem,2013-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1179042,U6-gRNA 1A,368,,,Not Released,,It's complicated,,Not Used,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1179043,U6-gRNA 2A,368,,,Not Released,,It's complicated,,Not Used,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1179044,U6-gRNA 3A,368,,,Not Released,,It's complicated,,Not Used,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1179045,U6-gRNA 4A,368,,,Not Released,,It's complicated,,Not Used,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1179046,U6-gRNA 5A,368,,,Not Released,,It's complicated,,Not Used,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1179047,U6-gRNA 6A,368,,,Not Released,,It's complicated,,Not Used,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1179048,U6-gRNA 6A Reverse,425,,,Not Released,,It's complicated,,Not Used,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1189032,EHEC TALE1 (binds to 19bp of stx2 gene),2662,,,Not Released,,Not in stock,None,Not Used,iGEM13_Calgary,Ali Honarmand,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1189033,EHEC TALE2 (binds to a 19bp region of stx2 gene),2662,,,Not Released,,Not in stock,None,Not Used,iGEM13_Calgary,Ali Honarmand,2013-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1216001,Alkaline Phosphatase (phoA) from Citrobacter,1491,,,Not Released,,It's complicated,None,Not Used,iGEM13_ETH_Zurich,Parvathi Chandran,2013-08-29,,pgroup=generator_basic&show=1.csv
+BBa_K1216005,Alkaline phosphatase (phoA) from Citrobacter with TEV and poly-HIS tags,1536,,,Not Released,,It's complicated,None,Not Used,iGEM13_ETH_Zurich,Parvathi Chandran,2013-08-29,,pgroup=generator_basic&show=1.csv
+BBa_K1283000,The protective melittin generator,335,,,Not Released,,It's complicated,,1 Uses,iGEM14_Beijing_HFLS,Hongmei Du,2014-06-13,,pgroup=generator_basic&show=1.csv
+BBa_K131000,ColE2 Operon,2640,1,,Not Released,,It's complicated,Works,Not Used,iGEM08_Calgary_Wetware,Kevin McLeod,2008-07-22,,pgroup=generator_basic&show=1.csv
+BBa_K1312000,generate some magnetosome proteins,2142,,,Not Released,,It's complicated,None,Not Used,iGEM14_Kyoto,Tatsui yusuke,2014-09-30,,pgroup=generator_basic&show=1.csv
+BBa_K1312001,Pcon-mamQ-histag, ,,,Not Released,,No part sequence,None,No Sequence,iGEM14_Kyoto,Tatsui yusuke,2014-09-30,,pgroup=generator_basic&show=1.csv
+BBa_K1322231,Santalene Synthase,1693,,,Not Released,,It's complicated,None,Not Used,iGEM14_Vanderbilt,Jarrod Shilts,2014-10-16,,pgroup=generator_basic&show=1.csv
+BBa_K1343000,P_tet->NheI->RBS->luxI->double terminator,801,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Technion-Israel,Shira Attias,2014-09-22,,pgroup=generator_basic&show=1.csv
+BBa_K1343001,P_ompC->NheI->RBS->luxI->double terminator,851,,,Not Released,,It's complicated,,Not Used,iGEM14_Technion-Israel,Ronen Ben Jehuda,2014-09-22,,pgroup=generator_basic&show=1.csv
+BBa_K1343016,Pcat->RBS->TaZ->dTer,1893,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Technion-Israel,Karen Joseph,2014-10-05,,pgroup=generator_basic&show=1.csv
+BBa_K1350003,Alkaline Cellulase,2087,,,Not Released,,It's complicated,Works,Not Used,iGEM14_szu-china, Yongyi Wang,2014-09-28,,pgroup=generator_basic&show=1.csv
+BBa_K1364005,Pveg + Chitin Binding Protein for Bacillus subtilis,1543,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Toulouse,Fournié Mathieu,2014-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K1367005,siRNA GFP ,62,,,Not Released,,It's complicated,None,Not Used,iGEM14_UB_Indonesia,Galuh Wening Permatasari,2014-10-09,,pgroup=generator_basic&show=1.csv
+BBa_K137126,Lambda Lysis Cassette,1316,,,Not Released,,It's complicated,None,1 Uses,iGEM08_Caltech,Robert Ovadia,2008-10-16,,pgroup=generator_basic&show=1.csv
+BBa_K1388000,IntI1 coding region under AraC-pBad control,2346,,,Not Released,,It's complicated,None,Not Used,iGEM14_USyd-Australia,"Rokiah Alford, Tom Geddes, Andreas Bachler",2014-10-07,,pgroup=generator_basic&show=1.csv
+BBa_K1403003,Limonene synthase (LIMS1) expression cassette,1758,,,Not Released,,It's complicated,None,Not Used,iGEM14_aris_Bettencourt,Sylvia,2014-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K1403006,Jasmonic acid carboxyl methyltransferase (JMT) expression cassette,1264,,,Not Released,,It's complicated,None,Not Used,iGEM14_aris_Bettencourt,Antonio Villarreal Larrauri,2014-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K1403009, Benzoic acid/salicylic acid carboxyl methyltransferase 1 (BSMT1) expression cassette,1168,,,Not Released,BBa_K1403021,It's complicated,None,Not Used,iGEM14_aris_Bettencourt,Paris Bettencourt 2014,2014-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K1403012,Alcohol acetyltransferase I (ATF1) expression cassette,1782,,,Not Released,,It's complicated,None,Not Used,iGEM14_aris_Bettencourt,Paris Bettencourt 2014,2014-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K1403015,,1447,,,Not Released,,It's complicated,Works,Not Used,iGEM14_aris_Bettencourt,Clovis & François,2014-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K1403017,,805,,,Not Released,,It's complicated,None,Not Used,iGEM14_aris_Bettencourt,Sylvia,2014-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K1444018,Xylose -> comK,802,,,Not Released,,Not in stock,Works,Not Used,iGEM14_Calgary,Dave Curran,2014-10-15,,pgroup=generator_basic&show=1.csv
+BBa_K1448001,Yeast ɤ-terpinene generator,1685,,,Not Released,BBa_K1448000;BBa_K1448002,It's complicated,,Not Used,iGEM14_KIT-Kyoto,yuma kobayashi,2014-10-15,,pgroup=generator_basic&show=1.csv
+BBa_K1448002,E.coli ɤ-terpinene generator ,1685,,,Not Released,BBa_K1448000;BBa_K1448001,It's complicated,None,Not Used,iGEM14_KIT-Kyoto,yuma kobayashi,2014-10-16,,pgroup=generator_basic&show=1.csv
+BBa_K1472608,"Oleic acid (18:0) -> alpha-Linolenic acid (18:3-9,12,15)", ,,,Not Released,,No part sequence,None,No Sequence,iGEM14_CityU_HK,Lau Tsz Kit,2014-09-25,,pgroup=generator_basic&show=1.csv
+BBa_K1481000,his-mRFP under arabinose promoter,1928,,,Not Released,,It's complicated,None,Not Used,iGEM14_PoznanBioInf,"Przemys&#322;aw Nuc, Melania Nowicka, Weronika Krzynowek, Jakub Bartoszewicz, Katarzyna R&#380;osi&#324;ska",2014-10-08,,pgroup=generator_basic&show=1.csv
+BBa_K1484100,4-hydroxybenzalacetone generator,4061,,,Not Released,BBa_K1484317,It's complicated,,Not Used,iGEM14_Cambridge-JIC,Guy Lewy,2014-10-04,,pgroup=generator_basic&show=1.csv
+BBa_K1484317,4-Hydroxybenzalacetone Generator,4061,,,Not Released,BBa_K1484100,It's complicated,Works,Not Used,iGEM14_Cambridge-JIC,Guy Lewy,2014-10-08,,pgroup=generator_basic&show=1.csv
+BBa_K1486016,fLuc[1],474,,,Not Released,,Not in stock,None,2 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1486017,fLuc[2],1248,,,Not Released,,Not in stock,None,2 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1486019,rLuc[1],330,,,Not Released,,Not in stock,None,7 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1486020,rLuc[2],606,,,Not Released,,Not in stock,None,7 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-15,,pgroup=generator_basic&show=1.csv
+BBa_K1486024,Yeast kanamycin resistance,1357,,,Not Released,,Not in stock,None,3 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K1486031,CaUra3 selection marker,1360,,,Not Released,,Not in stock,None,3 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1486032,sfGFP + ADH1 terminator + Ura3 cassette,2544,,,Not Released,,Not in stock,None,Not Used,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1486038,sfGFPN,642,,,Not Released,BBa_K2009430,Not in stock,None,1 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1486039,sfGFPC,72,,,Not Released,,Not in stock,None,1 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-27,,pgroup=generator_basic&show=1.csv
+BBa_K1486042,Leucine Zipper,150,,,Not Released,,Not in stock,None,2 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-10-02,,pgroup=generator_basic&show=1.csv
+BBa_K1486044,IFP[1] Mutated,402,,,Not Released,,Not in stock,None,1 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-10-05,,pgroup=generator_basic&show=1.csv
+BBa_K1486045,IFP[2] Mutated,582,,,Not Released,,Not in stock,None,1 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-10-07,,pgroup=generator_basic&show=1.csv
+BBa_K1499203,SdaB protein generator without tRNA + 5 amber stops,1529,,,Not Released,,It's complicated,,Not Used,iGEM14_StanfordBrownSpelman,Raman Nelakanti,2014-10-09,,pgroup=generator_basic&show=1.csv
+BBa_K1499253,aeBlue generator with 3 UAG stops + supP tRNA ,1103,,,Not Released,,It's complicated,Works,Not Used,iGEM14_StanfordBrownSpelman,Raman Nelakanti,2014-10-08,,pgroup=generator_basic&show=1.csv
+BBa_K1510009,E.coli Signal sequence YebF,541,,,Not Released,,It's complicated,,4 Uses,iGEM14_NYMU-Taipei,Chien-Yung Huang,2014-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K152006,frdBCD operon from E. coli (missing the first gene fumarate oxidase),1545,1,,Not Released,,It's complicated,None,1 Uses,iGEM08_Guelph,David Johnston Monje,2008-10-30,,pgroup=generator_basic&show=1.csv
+BBa_K1555004,the expression of T7 polymerase controlled by copa promoter,2904,,,Not Released,,It's complicated,,Not Used,iGEM14_NJAU_China,Xu Xuan,2014-10-08,,pgroup=generator_basic&show=1.csv
+BBa_K1598003,RBS-ChAT-6xHis-Terminator,2069,,,Not Released,,Not in stock,None,Not Used,iGEM15_UCL,Marta Napiorkowska,2015-08-27,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1598004,RBS-GAD-6xHis-Terminator,1575,,,Not Released,,Not in stock,,Not Used,iGEM15_UCL,Marta Napiorkowska,2015-08-27,,pgroup=generator_basic&show=1.csv
+BBa_K1602054,RRGFP,945,,,Not Released,,Not in stock,Issues,Not Used,iGEM15_TU_Darmstadt,"Christian Sator,Stefan Zens, Max Zander, Benedikt Spannenkrebs, Sebastian Jaeger",2015-09-16,,pgroup=generator_basic&show=1.csv
+BBa_K1641041,Inductive invertase generating vector - pInv-gen-Vika-EGFP-ssra, ,,,Not Released,,No part sequence,,No Sequence,iGEM15_SYSU_CHINA,Pai Li,2015-09-12,,pgroup=generator_basic&show=1.csv
+BBa_K1642003,Kanamycin Resistance Cassette in Cyanobacteria,1405,,,Not Released,,Not in stock,None,4 Uses,iGEM15_SJTU-BioX-Shanghai,Can Yin,2015-08-15,,pgroup=generator_basic&show=1.csv
+BBa_K1673201,T4 Pyrimidine Dimer Glycosylase (Mutation Optimized),417,,,Not Released,,Not in stock,,Not Used,iGEM15_Vanderbilt,Jarrod Shilts,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741000,sfGFP under arabinose promoter s1 without AraC (Arashort1) ,1059,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741002,sfGFP under a short arabinose promoter s2 without O1 and O2 ,877,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741003,sfGFP under melibiose promoter ,913,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741004,sfGFP under melibiose promoter (improved 5'UTR),914,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741005,sfGFP under rhamnose promoter with removed EcoRI site ,906,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741006,sfGFP under short rhamnose promoter (very weak),855,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741007,sfGFP under xylose promoter xylA (xylWT) ,1115,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741008,sfGFP under promoter xylA1 with improved 5'UTR,1126,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741009,sfGFP under shortened promoter xylA1 with improved 5'UTR,892,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741010,sfGFP under xylose promoter xylF (very weak),930,,,Not Released,,Not in stock,Issues,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741011,sfGFP under T7 promoter ,886,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741012,sfGFP under proC promoter,908,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741013,sfGFP under proC promoter with a hairpin in 5'UTR,939,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1741014,sfGFP under proD promoter ,908,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UAM_Poznan,Marta &#379;ardecka,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1758122,RraA with N-terminal His-TEV-tag under T7 promoter,756,,,Not Released,,Not in stock,Works,Not Used,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-27,,pgroup=generator_basic&show=1.csv
+BBa_K1758201,His-tagged lac repressor under the control of the T7 promoter,1151,,,Not Released,,Not in stock,Works,Not Used,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-28,,pgroup=generator_basic&show=1.csv
+BBa_K1758202,His-tagged lac repressor fused to superfolder GFP under the control of the T7 promoter,1877,,,Not Released,,Not in stock,Works,Not Used,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-29,,pgroup=generator_basic&show=1.csv
+BBa_K1758203,His-tagged arsenic repressor fused to superfolder GFP under the control of T7 promoter,1283,,,Not Released,,Not in stock,Works,Not Used,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-29,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1758204,His-tagged blc repressor fused to superfolder GFP under the control of the T7 promoter,1755,,,Not Released,,Not in stock,Works,Not Used,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-29,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1758311,mRFP under control of the chromium responsive promoter,848,,,Not Released,,Not in stock,None,Not Used,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-30,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1758312,Chromium responsive promoter with UTR+RBS and sfGFP ,1073,,,Not Released,,Not in stock,Works,2 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-29,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1758321,mRFP under control of copper responsive promoter,770,,,Not Released,,Not in stock,None,1 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-29,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1758323,UTR-sfGFP under control of Copper responsive promoter ,992,,,Not Released,,Not in stock,Works,2 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-29,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1758331,Lead responsive promoter with mRFP,755,,,Not Released,,Not in stock,None,1 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-30,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1758332,Lead responsive promoter with UTR-sfGFP ,977,,,Not Released,,Not in stock,Works,2 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-29,,pgroup=generator_basic&show=1.csv
+BBa_K1758342,Mercury responsive promoter with UTR-sfGFP ,966,,,Not Released,,Not in stock,Works,1 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-29,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1758350,Nickel repressor under control of constitutive promoter and strong RBS ,334,,,Not Released,,Not in stock,None,1 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-09-08,,pgroup=generator_basic&show=1.csv
+BBa_K1758351,Nickel responsive promoter with RFP,791,,,Not Released,,Not in stock,None,Not Used,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-30,,pgroup=generator_basic&show=1.csv
+BBa_K1758352,Nickel responsive promoter with UTR-sfGFP ,1013,,,Not Released,,Not in stock,None,2 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-30,,pgroup=generator_basic&show=1.csv
+BBa_K1758360,gabR gene and gabT promoter from Bacillus subtilis,1546,,,Not Released,,Not in stock,Works,1 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-22,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1758370,"BlcR, repressor of blcABC operon, with promoter and RBS",889,,,Not Released,,Not in stock,None,1 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-27,,pgroup=generator_basic&show=1.csv
+BBa_K1758376,GHB / GBL biosensor - reporter part,966,,,Not Released,,Not in stock,Works,1 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-09-01,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1763444,Bombyx mori silk co-spinning module,1639,,,Not Released,,Not in stock,Works,Not Used,iGEM15_UCLA,Fasih Ahsan,2015-09-15,Spring 2017 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K1807001,Escherichia coli Exopolyphosphatase (PPX),1753,,,Not Released,,Not in stock,None,Not Used,iGEM15_York,Ivan Gyulev,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1807002,Escherichia coli Polyphosphate Kinase Enzyme,2278,,,Not Released,,Not in stock,Works,Not Used,iGEM15_York,Ivan Gyulev,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1807003,Accummulibacter phosphatis BA-91str. Polyphosphate Kinase gene,2335,,,Not Released,,Not in stock,None,Not Used,iGEM15_York,Ivan Gyulev,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1807004,Polyphosphate kinase gene from Accumulibacter phosphatis SK-12,2335,,,Not Released,,Not in stock,None,Not Used,iGEM15_York,Ivan Gyulev,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1807005,Polyphosphate Kinase from Accumulibacter phosphatis UW-1,2335,,,Not Released,,Not in stock,None,Not Used,iGEM15_York,Ivan Gyulev,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1807006,Polyphosphate kinase gene from Kingella oralis,2263,,,Not Released,,Not in stock,Works,Not Used,iGEM15_York,Ivan Gyulev,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1807007,Synthetic Phosphate-specific Transporter Operon,3934,,,Not Released,,Not in stock,None,Not Used,iGEM15_York,Ivan Gyulev,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1833004,lac promoter -> RpoA-N-terminus fused to Gal4,1076,,,Not Released,,Not in stock,None,Not Used,iGEM15_Pitt,Konstantin Borisov,2015-09-16,,pgroup=generator_basic&show=1.csv
+BBa_K1833005,pT7-Phage 434 repressor N-terminus,385,,,Not Released,,Not in stock,None,Not Used,iGEM15_Pitt,Konstantin Borisov,2015-09-16,,pgroup=generator_basic&show=1.csv
+BBa_K1833006,lac promoter -> Zinc finger 225 binding domain fused to Gal11P,782,,,,,,,,,,,,
+BBa_K1833008,pT7-MMP9 sensitive repressor,757,,,Not Released,,Not in stock,None,Not Used,iGEM15_Pitt,Konstantin Borisov,2015-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K1833009,T7 promoter -> 434 cI N terminus with P22 repressor specificity,358,,,Not Released,,Not in stock,,Not Used,iGEM15_Pitt,Konstantin Borisov,2015-09-18,,pgroup=generator_basic&show=1.csv
+BBa_K1833010,pT7-MMP2 sensitive repressor,760,,,Not Released,,Not in stock,None,Not Used,iGEM15_Pitt,Konstantin Borisov,2015-09-18,,pgroup=generator_basic&show=1.csv
+BBa_K1833011,lac promoter -> Zinc finger 225 binding domain fused to immunogenic MUC1 peptide,632,,,Not Released,,Not in stock,,Not Used,iGEM15_Pitt,Konstantin Borisov,2015-09-18,,pgroup=generator_basic&show=1.csv
+BBa_K1875011,This part produces a guide RNA that pairs with an operator.,352,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_BostonU,Jeffrey Marano,2016-10-11,,pgroup=generator_basic&show=1.csv
+BBa_K1875012,This part produces a guide RNA that pairs with an operator.,352,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_BostonU,Jeffrey Marano,2016-10-11,,pgroup=generator_basic&show=1.csv
+BBa_K190074,Gas Vesicle polycistonic gene without repeat,5664,,,Not Released,,Not in stock,,Not Used,iGEM09_Groningen,Wilfred Poppinga,2009-10-17,,pgroup=generator_basic&show=1.csv
+BBa_K1934060,p51 subunit of HIV reverse transcriptase,1471,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_INSA-Lyon,Mathilde Gonthier,2016-10-13,,pgroup=generator_basic&show=1.csv
+BBa_K1934061,p66 subunit of HIV reverse transcriptase,1852,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_INSA-Lyon,Mathilde Gonthier,2016-10-13,,pgroup=generator_basic&show=1.csv
+BBa_K1976001,λ-Integrase,1127,,iGEM TU Darmstadt 2016:1,Not Released,,Not in stock,None,-1 Uses,iGEM16_TU_Darmstadt,"Thomas Dohmen, Milana Kremenovic, Yannick Kristiansen, Tim Maier",2016-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K1979003,PBP5 coding device (promoter+PBP5+T7 terminator),1523,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SDSZ_China,MA Xinyi,2016-08-26,,pgroup=generator_basic&show=1.csv
+BBa_K1979004,GFP-PBP5,2237,,,Not Released,,Not in stock,,-1 Uses,iGEM16_SDSZ_China,MA Xinyi,2016-08-28,,pgroup=generator_basic&show=1.csv
+BBa_K1979005,CBD-PBP5,1667,,,Not Released,,Not in stock,,-1 Uses,iGEM16_SDSZ_China,MA Xinyi,2016-09-17,,pgroup=generator_basic&show=1.csv
+BBa_K2012013,Strong CheZ generator with a fusion GFP reporter ,1438,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_HZAU-China,Wenqi Huang ,2016-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K2012014,A medium CheZ generator with fusion GFP reporter,1438,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_HZAU-China,Wenqi Huang ,2016-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K2012016,A weak CheZ generator with fusion GFP reporter,1438,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_HZAU-China,Wenqi Huang ,2016-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K2012017,A strong generator of CheZ,705,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_HZAU-China,Wenqi Huang ,2016-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K2012018,A medium CheZ generator,705,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_HZAU-China,Wenqi Huang ,2016-10-07,,pgroup=generator_basic&show=1.csv
+BBa_K2012020,A weak CheZ generator,705,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_HZAU-China,Wenqi Huang ,2016-10-07,,pgroup=generator_basic&show=1.csv
+BBa_K2014000,pBAD-E15'UTR->sfGFP,1072,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Przemyslaw Nuc,2016-10-11,,pgroup=generator_basic&show=1.csv
+BBa_K2014001,prha1-E15'UTR->htsfGFP,924,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Przemyslaw Nuc,2016-10-11,,pgroup=generator_basic&show=1.csv
+BBa_K2014002,pxylS-E1_5'UTR->sfGFP,881,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2014003,pBAD-M5'UTR->sfGFP ,1059,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2014004,pxylS-M5'UTR->sfGFP ,869,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2014005,AraC-pBAD->sfGFP_B  ,1967,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2014006, AraC-pBAD->sfGFP_W ,1967,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2014007,AraC-pBAD->sfGFP_8R,1991,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2014008,AraC-pBAD->mRFP_W,1928,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2014009,pxylS-E1_5'UTR->sfGFP_B,881,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2014010,pxylS-E1_5'UTR->sfGFP_W,881,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2014011,pxylF-xylA->sfGFP_B,1115,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2014012,pxylF-xylA->sfGFP_W,1115,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UAM_Poznan,Daria Niewiadomska,2016-10-12,,pgroup=generator_basic&show=1.csv
+BBa_K2036009,pRM-GFP-LVAssrAtag,811,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_HUST-China,Zhangyu Cheng,2016-09-19,,pgroup=generator_basic&show=1.csv
+BBa_K2036016,pR-GFP-LVAssrAtag,873,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_HUST-China,Zhangyu Cheng,2016-09-19,,pgroup=generator_basic&show=1.csv
+BBa_K2039003,Coding sequences of proteins FKBP and GFP10 (subunit of tripartite GFP),528,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Paris_Saclay,Maxence Pfeiffer,2016-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K2039004,Coding sequences of proteins FRB* and GFP11 (subunit of tripartite GFP),498,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Paris_Saclay,Maxence Pfeiffer,2016-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K2039005,Coding sequences of protein GFP 1.9 (subunit of tripartite GFP),633,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Paris_Saclay,Maxence Pfeiffer,2016-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K2060002,LUXoperon with mKeima,8333,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Cardiff_Wales,"Cardiff_Wales Team, Geraint Parry",2016-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K2066533,tetO Synthetic Enhancer Helper Cassette,2954,,,Not Released,,Not in stock,,-1 Uses,iGEM16_William_and_Mary,John Marken,2016-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K2068000,PCQuad 3.0 Wildtype,1406,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UCLA,Nithin Dharmaraj,2016-09-07,,pgroup=generator_basic&show=1.csv
+BBa_K2068001,PCQuad Mutant 1,1427,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UCLA,Nithin Dharmaraj,2016-09-08,,pgroup=generator_basic&show=1.csv
+BBa_K2068002,PCQuad Mutant 2,1427,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UCLA,Nithin Dharmaraj,2016-09-13,,pgroup=generator_basic&show=1.csv
+BBa_K2068003,PCQuad Mutant 4,1427,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UCLA,Nithin Dharmaraj,2016-09-13,,pgroup=generator_basic&show=1.csv
+BBa_K2068004,PCQuad Mutant 13,1421,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UCLA,Nithin Dharmaraj,2016-09-13,,pgroup=generator_basic&show=1.csv
+BBa_K2068005,O3-33 Wild Type ,617,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UCLA,Nithin Dharmaraj,2016-09-13,,pgroup=generator_basic&show=1.csv
+BBa_K2068006,O3-33 Mutant aa88,705,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UCLA,Nithin Dharmaraj,2016-09-13,,pgroup=generator_basic&show=1.csv
+BBa_K2068007,O3-33 Mutant aa118,705,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UCLA,Nithin Dharmaraj,2016-09-13,,pgroup=generator_basic&show=1.csv
+BBa_K2068008,O3-33 Mutant aa173,711,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UCLA,Nithin Dharmaraj,2016-09-13,,pgroup=generator_basic&show=1.csv
+BBa_K2070017,Arabinose Inducible Toehold Trigger generator  ,332,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UT-Tokyo,iGEM UT-Tokyo 2016,2016-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K2070023,Constitutive Toehold Trigger generator  ,237,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UT-Tokyo,iGEM UT-Tokyo 2016,2016-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K2080000,sgRNA generator,365,,,Not Released,BBa_K1179015,It's complicated,None,-1 Uses,iGEM16_SCUT-China_B,Haojian Li,2016-09-18,,pgroup=generator_basic&show=1.csv
+BBa_K2082110,Weak RBS - dnaQ926 cds - terminator,914,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Bielefeld-CeBiTec,Carsten Hain,2016-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K2082111,"Assembly of six mutator genes, each with weak promoter; terminal terminator",3832,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Bielefeld-CeBiTec,Carsten Hain,2016-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K210005,LacI generator yeast-optimized ,1836,,,Not Released,,It's complicated,None,Not Used,iGEM09_Kyoto,Makoto Kashima,2009-10-13,,pgroup=generator_basic&show=1.csv
+BBa_K210006,EGFP::PEST sequence generator yeast-optimized ,1549,,,Not Released,,It's complicated,None,Not Used,iGEM09_Kyoto,Makoto Kashima,2009-10-15,,pgroup=generator_basic&show=1.csv
+BBa_K210009,HIV-TAT::(LALAAAA)3 generator,347,,,Not Released,,It's complicated,Issues,Not Used,iGEM09_Kyoto,Makoto Kashima,2009-10-15,,pgroup=generator_basic&show=1.csv
+BBa_K210010,TIM23complex signal::EGFP generator,1001,,,Not Released,,It's complicated,None,Not Used,iGEM09_Kyoto,Makoto Kashima,2009-10-15,,pgroup=generator_basic&show=1.csv
+BBa_K2107001,Stationary Phase Promoter + Kil Protein,263,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Lubbock_TTU,Ellen Wilson,2016-10-19,,pgroup=generator_basic&show=1.csv
+BBa_K215011,K215090+K215002: OpdA with Secretion Signal and Streptavidin Binding Tags,2010,,,Not Released,,It's complicated,None,Not Used,iGEM09_Washington,Jeff Nivala,2009-10-01,,pgroup=generator_basic&show=1.csv
+BBa_K2152006,T7 promoter + RBS + killerred,804,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_ShanghaiTechChina_B,MingZhe Chen,2016-10-13,,pgroup=generator_basic&show=1.csv
+BBa_K223040,SoxR Gene: Produces the SoxR protein,506,,,Not Released,,It's complicated,Works,4 Uses,iGEM09_Stanford,Suzanne Bartram,2009-10-17,,pgroup=generator_basic&show=1.csv
+BBa_K223042,Blh Gene: Cleaves beta-carotene into retinal,869,,,Not Released,,Not in stock,None,4 Uses,iGEM09_Stanford,Suzanne Bartram,2009-10-17,,pgroup=generator_basic&show=1.csv
+BBa_K223043,RALDH II gene: Converts retinal into retinoic acid,1579,,,Not Released,,Not in stock,None,3 Uses,iGEM09_Stanford,Suzanne Bartram,2009-10-17,,pgroup=generator_basic&show=1.csv
+BBa_K223052,5MT Mutant TrpR gene,368,,,Not Released,,Not in stock,,1 Uses,iGEM09_Stanford,Anusuya Ramasubramanian,2009-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K223053,hIL-6  Generator (Freiburg-compatible),620,,,Not Released,,Not in stock,None,Not Used,iGEM09_Stanford,Anusuya Ramasubramanian,2009-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K223055,TolC gene,1523,,,Not Released,,Not in stock,,1 Uses,iGEM09_Stanford,Anusuya Ramasubramanian,2009-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K223056,"Front Flanking Sequence (HlyR, IS1, HlyC)",3069,,,Not Released,,Not in stock,,1 Uses,iGEM09_Stanford,Anusuya Ramasubramanian,2009-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K223057,Rear Flanking Sequence (HlyB and HlyD),3693,,,Not Released,,Not in stock,,1 Uses,iGEM09_Stanford,Anusuya Ramasubramanian,2009-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K223061,hIL-6 + HlyAs Fusion protein (Freiburg Compatible),887,,,Not Released,,It's complicated,None,Not Used,iGEM09_Stanford,Anusuya Ramasubramanian,2009-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K228008,AraC regulatory protein,1141,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_PKU_Beijing,Gao Rencheng,2009-09-09,,pgroup=generator_basic&show=1.csv
+BBa_K265009,Ice Nucleation Protein NC + Proteolytic Cleavage Sequence,1044,,,Not Released,,It's complicated,None,Not Used,iGEM09_UC_Davis,Timothy Fenton,2009-10-04,,pgroup=generator_basic&show=1.csv
+BBa_K265011,OmpA with proteolytic cleavage tag,584,,,Not Released,,It's complicated,None,Not Used,iGEM09_UC_Davis,Richard Hauser,2009-10-15,,pgroup=generator_basic&show=1.csv
+BBa_K300989,[LoxP-KanMX-LoxP] excisable marker for yeast,1541,,UNIPV-Pavia iGEM 2010:2;NTNU_Trondheim iGEM 2014:2,Not Released,,Not in stock,None,2 Uses,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Giacomo Zambianchi, Federica Sampietro, Paolo Magni",2010-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K300999,chloramphenicol resistance cassette (rev),769,,UNIPV-Pavia iGEM 2010:4,Not Released,,Not in stock,Works,3 Uses,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Manuel Lupotto, Paolo Magni",2010-10-02,,pgroup=generator_basic&show=1.csv
+BBa_K314111,Lac I,1092,,,Not Released,,It's complicated,Works,4 Uses,iGEM10_Washington,IGEM 2010 Team Washington,2010-10-08,,pgroup=generator_basic&show=1.csv
+BBa_K316016,ComE transcription factor phosphorylation-activated by ComD,903,,,Not Released,,Not in stock,None,Not Used,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K320004,Origin for Asaia and resistance to Kanamycin ,2374,,,Not Released,,It's complicated,Issues,Not Used,iGEM10_EPF_Lausanne,Perrudet Christian,2010-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K320006,Constitutive expression of Immunotoxin,1131,,,Not Released,,It's complicated,Works,Not Used,iGEM10_EPF_Lausanne,Perrudet Christian,2010-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K320007,Constitutive expression of P25,765,,,Not Released,,It's complicated,None,Not Used,iGEM10_EPF_Lausanne,Perrudet Christian,2010-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K320008,Constitutive expression of Immunotoxin in Asaia and resistance to Kanamycine,3505,,,Not Released,,It's complicated,None,Not Used,iGEM10_EPF_Lausanne,Perrudet Christian,2010-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K320009,Constitutive expression of P28 in Asaia and Resistance to Tetracycline,3458,,,Not Released,,It's complicated,None,Not Used,iGEM10_EPF_Lausanne,Perrudet Christian,2010-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K320011,Origin for Asaia and resistance to Ampicillin,2350,,,Not Released,,Not in stock,None,Not Used,iGEM10_EPF_Lausanne,Perrudet Christian,2010-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K320012,Weak constitutive expression of Immunotoxin,1107,,,Not Released,,Not in stock,None,Not Used,iGEM10_EPF_Lausanne,Perrudet Christian,2010-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K320013,Weak constitutive expression of P25,741,,,Not Released,,Not in stock,None,Not Used,iGEM10_EPF_Lausanne,Perrudet Christian,2010-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K320014,S + P25 + P28 + Ori + Tet,4223,,,Not Released,,Not in stock,None,Not Used,iGEM10_EPF_Lausanne,Perrudet Christian,2010-10-24,,pgroup=generator_basic&show=1.csv
+BBa_K323001,cYFP link Zif268 under T7 promoter,803,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K323004,cCFP link Jazz under T7 promoter,807,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K323007,cCFP link Blues under T7 promoter,764,,,Not Released,,It's complicated,None,Not Used,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K323015,PBSII link nYFP under T7 promoter,984,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K323040,PBSII link nCFP under T7 promoter, ,,,Not Released,,No part sequence,None,No Sequence,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K323042,cYFP link ZNF HIVC under T7 promoter , ,,,Not Released,,No part sequence,None,No Sequence,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K323047,cYFP link PBSII under T7 promoter, ,,,Not Released,,No part sequence,None,No Sequence,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K323058,Gli1 link nCFP under T7 promoter ,1257,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K323069,cCFP link ZNF HIVC under T7 promoter ,738,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K323070,Blues link nCFP under T7 promoter,1008,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=generator_basic&show=1.csv
+BBa_K325229,,3841,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Cambridge,Will Handley and Peter Emmrich,2010-10-23,,pgroup=generator_basic&show=1.csv
+BBa_K325239,,3841,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Cambridge,Theo Sanderson and Hannah Copley,2010-10-23,,pgroup=generator_basic&show=1.csv
+BBa_K325249,,3841,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Cambridge,Paul Masset and Bill Collins,2010-10-23,,pgroup=generator_basic&show=1.csv
+BBa_K325902,,2398,,,Not Released,,It's complicated,None,Not Used,iGEM10_Cambridge,Theo Sanderson and Bill Collins,2010-10-23,,pgroup=generator_basic&show=1.csv
+BBa_K325905,,6478,,,Not Released,,It's complicated,Fails,1 Uses,iGEM10_Cambridge,Will Handley and Emily Knott,2010-10-23,,pgroup=generator_basic&show=1.csv
+BBa_K336102,pT7-RBS-bcsA-double terminator　, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Tokyo_Metropolitan,Naoto Shimada ,2010-10-27,,pgroup=generator_basic&show=1.csv
+BBa_K336103,pT7-RBS-bcsB-double terminator　, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Tokyo_Metropolitan,Naoto Shimada ,2010-10-27,,pgroup=generator_basic&show=1.csv
+BBa_K336104,pT7-RBS-bcsC-double terminator　, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Tokyo_Metropolitan,Naoto Shimada ,2010-10-27,,pgroup=generator_basic&show=1.csv
+BBa_K336105,pT7-RBS-bcsD-double terminator, ,,,Not Released,,No part sequence,None,No Sequence,iGEM10_Tokyo_Metropolitan,Naoto Shimada ,2010-10-27,,pgroup=generator_basic&show=1.csv
+BBa_K346029,T7p(BBa_I719005)+RBS(B0034)+Lpp-OmpA+MBP(surface display of lead binding peptide),817,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Peking,Chen Yiwei,2010-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K346030,T7p(BBa_I719005)+RBS(B0034)+DsbA+MBP(periplasm display of lead binding peptide),1202,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Peking,Chen Yiwei,2010-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K346033,T7p(BBa_I719005)+RBS(B0034)+DsbA+MBP(periplasm display of mercury binding peptide),788,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_Peking,Liang Donghai Teng Xin,2010-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K346034,T7p(BBa_I719005)+RBS(B0034)+Lpp-OmpA+MBP(surface display of mercury binding peptide),836,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_Peking,Junyi Jiao,2010-10-14,,pgroup=generator_basic&show=1.csv
+BBa_K346037,T3 promoter drived amplifier+Agn43,3120,,,Not Released,BBa_K346007,It's complicated,Works,Not Used,iGEM10_Peking,miao jing,2010-10-15,,pgroup=generator_basic&show=1.csv
+BBa_K346085,Ptet-RBS-T7polymerase,2735,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_Peking,Junyi Jiao,2010-10-18,,pgroup=generator_basic&show=1.csv
+BBa_K346086,RBS(BBa_B0034)+MerT,369,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_Peking,miao jing,2010-10-15,,pgroup=generator_basic&show=1.csv
+BBa_K346087,RBS(BBa_B0034)+MerP,294,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_Peking,miao jing,2010-10-15,,pgroup=generator_basic&show=1.csv
+BBa_K346088,RBS(BBa_B0034)+MerC,441,,,Not Released,,It's complicated,Works,1 Uses,iGEM10_Peking,miao jing,2010-10-15,,pgroup=generator_basic&show=1.csv
+BBa_K387005,RBS34-SoxR-dT,629,,,Not Released,,It's complicated,None,Not Used,iGEM10_SJTU-BioX-Shanghai,Yupeng He,2010-10-06,,pgroup=generator_basic&show=1.csv
+BBa_K395600,Apple fragrance enzyme (MpAAT1) generator ,1757,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Tokyo_Tech,Toshitaka Matsubara,2010-10-04,,pgroup=generator_basic&show=1.csv
+BBa_K396001,pLux/cI434 hybrid promoter with GFPuv,839,,,Not Released,,It's complicated,None,Not Used,iGEM10_Chiba,Ling Li ,2010-10-21,,pgroup=generator_basic&show=1.csv
+BBa_K396010,pLux/cI434 hybrid promoter with destablized GFPuv, ,,,,,,,,,,,,
+BBa_K396011,LuxR protein generator,824,,,Not Released,,It's complicated,,Not Used,iGEM10_Chiba,Ike Kohei,2010-10-24,,pgroup=generator_basic&show=1.csv
+BBa_K408000,GFP with signal peptide for hemolysin system,958,,,Not Released,,It's complicated,Fails,Not Used,iGEM10_IIT_Delhi_1,Pavan Choppakatla,2010-11-05,,pgroup=generator_basic&show=1.csv
+BBa_K411123,Split RFP-eIF4A_A Generator (R0040 + B0034 + RFP_split_A+Linker+eIF4A_split_A + B0015),1140,,,Not Released,BBa_K411103,It's complicated,None,Not Used,iGEM10_NYMU-Taipei,"LAI,CHUN-YU",2010-10-11,,pgroup=generator_basic&show=1.csv
+BBa_K499581,LucC generator (awesome), ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Example,Leonard Pattenden,2010-06-26,,pgroup=generator_basic&show=1.csv
+BBa_K524003,,1198,,,Not Released,,It's complicated,None,2 Uses,iGEM11_HKUST,HO Yuan Heng Trevor,2011-09-28,,pgroup=generator_basic&show=1.csv
+BBa_K524200,E. coli Translation Initiation Factor 1 (IF1) Operon (infA),635,,,Not Released,,Not in stock,,1 Uses,iGEM11_HKUST,HO Yuan Heng Trevor,2012-08-06,,pgroup=generator_basic&show=1.csv
+BBa_K537000,Atrazine Riboswitch-CheZ fusion,727,,,Not Released,,It's complicated,Issues,1 Uses,iGEM11_WITS_CSIR_SA,Natasia Kruger,2011-07-19,,pgroup=generator_basic&show=1.csv
+BBa_K537008,Atrazine Riboswitch-mRFP,766,,,Not Released,,It's complicated,Issues,1 Uses,iGEM11_WITS_CSIR_SA,Alexandra Reznichenko,2011-09-12,,pgroup=generator_basic&show=1.csv
+BBa_K558001,s70/PDC/ADH Ethanol Generator,3047,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Nevada,Jovanna Casas,2011-08-25,,pgroup=generator_basic&show=1.csv
+BBa_K581002,RBS+cinI+Terminator ,919,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Peking_Signaling,"Weiyue Ji, Hanchi Lin",2011-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K581009,pqrr-GFP ssrA degradation tag,943,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Peking_Signaling,"Handuo SHI, Dingqiao Wen",2011-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K581014,lux repressible promoter-rbs-GFP-ssrA-terminator,973,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Peking_Signaling,"Weiyue Ji, Dingqiao Wen",2011-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K581020,"Pc+arpA+terminator, constitutive ArpA protein generator",1026,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Peking_Signaling,SUN Rui,2011-09-28,,pgroup=generator_basic&show=1.csv
+BBa_K606054,pVeg SpoVG LacI double terminator pHyperspank, ,,,Not Released,,No part sequence,,No Sequence,iGEM11_Paris_Bettencourt,Axel Séguret,2011-09-18,,pgroup=generator_basic&show=1.csv
+BBa_K638301,Arabinose inducible Reflectin A1-sfGFP fusion generator,3151,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Cambridge,Matthew Jones,2011-09-19,,pgroup=generator_basic&show=1.csv
+BBa_K638403,Arabinose inducible TorA-Reflectin A1-sfGFP generator,3281,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Cambridge,Joseph Harvey,2011-09-20,,pgroup=generator_basic&show=1.csv
+BBa_K649101,PlsrR-lsrR,2764,,,Not Released,,Not in stock,Works,1 Uses,iGEM11_Tokyo_Tech,Hiroki Yoshise,2011-09-23,,pgroup=generator_basic&show=1.csv
+BBa_K649107,PlacIQ-lsrR-lsrK,2703,,,Not Released,,It's complicated,None,1 Uses,iGEM11_Tokyo_Tech,Hiroki Yoshise,2011-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K649301,Ptrc-RBS-rocF,983,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tokyo_Tech,Goshi Sugano,2011-09-19,,pgroup=generator_basic&show=1.csv
+BBa_K652000,T7-RBS-eGFP-TEV-RiAFP-His-Term,1284,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Yale,Darren Zhu,2011-08-05,,pgroup=generator_basic&show=1.csv
+BBa_K652001,T7-RBS-RiAFP-His-Term,537,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Yale,Darren Zhu,2011-08-26,,pgroup=generator_basic&show=1.csv
+BBa_K652002,T7-RBS-His-eGFP-TEV-TmAFP-Term,1179,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Yale,Darren Zhu,2011-08-26,,pgroup=generator_basic&show=1.csv
+BBa_K652003,T7-RBS-eGFP-TmAFP-His-Term,1146,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Yale,Darren Zhu,2011-08-26,,pgroup=generator_basic&show=1.csv
+BBa_K727001,Monomethylamine Methyltransferase (MMT),1415,,,Not Released,,Not in stock,None,4 Uses,iGEM12_AUC_Turkey,Mustafa Elitok,2012-06-16,,pgroup=generator_basic&show=1.csv
+BBa_K727002,Dimethylamine Methyltransferase (DMT),1442,,,Not Released,,Not in stock,None,4 Uses,iGEM12_AUC_Turkey,Mustafa Elitok,2012-06-16,,pgroup=generator_basic&show=1.csv
+BBa_K727003,Trimethylamine Methyltransferase (TMT),1523,,,Not Released,,Not in stock,None,3 Uses,iGEM12_AUC_Turkey,&#304;BRAH&#304;M YAS&#304;R ORHAN,2012-06-16,,pgroup=generator_basic&show=1.csv
+BBa_K727004,Flavin monooxygenase 3,1637,,,Not Released,,Not in stock,None,2 Uses,iGEM12_AUC_Turkey,&#304;BRAH&#304;M YAS&#304;R ORHAN,2012-06-16,,pgroup=generator_basic&show=1.csv
+BBa_K727005,Geranyl diphosphate Synthase,941,,,Not Released,,Not in stock,None,5 Uses,iGEM12_AUC_Turkey,&#304;BRAH&#304;M YAS&#304;R ORHAN,2012-06-16,,pgroup=generator_basic&show=1.csv
+BBa_K727006,Geraniol Synthase,1850,,,Not Released,,Not in stock,None,6 Uses,iGEM12_AUC_Turkey,&#304;BRAH&#304;M YAS&#304;R ORHAN,2012-06-16,,pgroup=generator_basic&show=1.csv
+BBa_K737014,gvpC-GFP fusion protein UH ,2005,,,Not Released,,It's complicated,None,Not Used,iGEM12_OUC-China,Tianhe Wang,2012-09-18,,pgroup=generator_basic&show=1.csv
+BBa_K738000,RNA Scaffold generator,171,,,Not Released,,It's complicated,Works,Not Used,iGEM12_ZJU-China,Huachun Liu,2012-07-13,,pgroup=generator_basic&show=1.csv
+BBa_K743014,after dusk -> LuxAB luciferase (Photorabdus luminiscens),2234,,,Not Released,,It's complicated,Fails,Not Used,iGEM12_UC_Chile,Simon Alamos,2012-09-22,,pgroup=generator_basic&show=1.csv
+BBa_K743015,after dusk -> LuxAB luciferase (Vibrio fischerii),2234,,,Not Released,,It's complicated,Fails,Not Used,iGEM12_UC_Chile,Bernardo Pollak,2012-09-22,,pgroup=generator_basic&show=1.csv
+BBa_K766005,T7 promoter-Hig tag-LuxI wihout LVA tag,866,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Tsinghua,Yu Zhao,2012-09-24,,pgroup=generator_basic&show=1.csv
+BBa_K772004,AHL regulated PoPS generator: Las receiver device,1122,,,Not Released,,Not in stock,,2 Uses,iGEM12_Fatih,Mustafa Elitok,2012-09-25,,pgroup=generator_basic&show=1.csv
+BBa_K772005,AHL generator: LasI,2098,,,Not Released,,Not in stock,,1 Uses,iGEM12_Fatih,Mustafa Elitok,2012-09-25,,pgroup=generator_basic&show=1.csv
+BBa_K797015,FT generator with Histag,606,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Kyoto,Tomohiro Nobeyama,2012-09-22,,pgroup=generator_basic&show=1.csv
+BBa_K801062,(+)-limonene synthase 1  expression cassette for yeast,2424,,,Not Released,,It's complicated,,Not Used,iGEM12_TU_Munich,Lara Kuntz,2012-09-21,,pgroup=generator_basic&show=1.csv
+BBa_K801063,(+)-limonene synthase 1  expression cassette for yeast,2652,,,Not Released,,It's complicated,,Not Used,iGEM12_TU_Munich,Lara Kuntz,2012-09-21,,pgroup=generator_basic&show=1.csv
+BBa_K801064,(+)-limonene synthase 1 expression cassette for yeast,2618,,,Not Released,,It's complicated,,Not Used,iGEM12_TU_Munich,Lara Kuntz,2012-09-21,,pgroup=generator_basic&show=1.csv
+BBa_K801075,CaDXMT1 expression cassette for yeast,2208,,,Not Released,,It's complicated,None,Not Used,iGEM12_TU_Munich,Dennis Hell,2012-09-21,,pgroup=generator_basic&show=1.csv
+BBa_K801076,Yeast expression cassette for CaXMT1 and CaMXMT1,4171,,,Not Released,,It's complicated,None,Not Used,iGEM12_TU_Munich,Dennis Hell,2012-09-21,,pgroup=generator_basic&show=1.csv
+BBa_K801100,RFP Coding Device - RFC10 and RFC25 compatible,1069,,,Not Released,,It's complicated,Works,Not Used,iGEM12_TU_Munich,TU Munich,2012-10-21,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K802000,,1632,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Lyon_INSA,"Carine Gimbert, Anne Haziza",2012-09-20,,pgroup=generator_basic&show=1.csv
+BBa_K802001,,1324,,,Not Released,,It's complicated,Works,2 Uses,iGEM12_Lyon_INSA,"Remi Hocq, Audrey Masi",2012-09-20,,pgroup=generator_basic&show=1.csv
+BBa_K812052,pLac promoter R0010  with GoldenBrick extension,248,,,Not Released,,It's complicated,None,Not Used,iGEM12_Evry,Cyrille Pauthenier,2012-09-20,,pgroup=generator_basic&show=1.csv
+BBa_K814000,dehydroquinate synthase (DHQS) generator,1445,,,Not Released,,Not in stock,None,3 Uses,iGEM12_Minnesota,"Nolan Kennedy, Michelle Goettge, Grayson Wawrzyn",2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K814001,ATP-grasp (ATPG) generator,1589,,,Not Released,,It's complicated,None,3 Uses,iGEM12_Minnesota,"Nolan Kennedy, Michelle Goettge, Grayson Wawrzyn",2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K814002,dehydroquinate O-methyltrasferase (O-MT) generator,1052,,,Not Released,,Not in stock,None,2 Uses,iGEM12_Minnesota,"Nolan Kennedy, Michelle Goettge, Grayson Wawrzyn",2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K814003,shinorine non-ribosomal peptide synthase (NRPS) generator,2880,,,Not Released,,It's complicated,None,1 Uses,iGEM12_Minnesota,"Nolan Kennedy, Michelle Goettge, Grayson Wawrzyn",2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K814007,ScyA (acetolactate synthase) generator,1181,,,Not Released,,Not in stock,None,1 Uses,iGEM12_Minnesota,"Nolan Kennedy, Michelle Goettge, Grayson Wawrzyn",2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K814008,ScyB (leucine dehydrogenase) generator,1274,,,Not Released,,Not in stock,None,2 Uses,iGEM12_Minnesota,"Nolan Kennedy, Michelle Goettge, Grayson Wawrzyn",2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K814009,ScyC generator,2087,,,Not Released,,It's complicated,,2 Uses,iGEM12_Minnesota,Sarah Bloch,2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K814012,XMT1 protein generator,1659,,,Not Released,,Not in stock,None,1 Uses,iGEM12_Minnesota,"George Chao, Misha Patel, Hannah Aho, Molly Swanson, Dana Morrone",2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K814013,DXMT1 generator,2105,,,Not Released,,It's complicated,None,1 Uses,iGEM12_Minnesota,"George Chao, Misha Patel, Hannah Aho, Molly Swanson, Dana Morrone",2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K819005,Constitutive LuxBrick Generator,6480,,,Not Released,BBa_K819008,It's complicated,Works,Not Used,iGEM12_Peking,ZHANG Zidong,2012-09-02,,pgroup=generator_basic&show=1.csv
+BBa_K819008,Lux Operon under T7 promoter,6480,,,Not Released,BBa_K819005,It's complicated,Works,Not Used,iGEM12_Peking,ZHANG Zidong,2012-09-03,,pgroup=generator_basic&show=1.csv
+BBa_K842014,T7 RBS cheZ,683,,,Not Released,,It's complicated,None,Not Used,iGEM12_USC,"Sean P. Curran, Percy Genyk, Ellen Park, Rebecca, Gao, Stephan Genyk, Megan Bernstein, Rachel Kohan, Eric Siryj, Luke Quinto",2012-10-02,,pgroup=generator_basic&show=1.csv
+BBa_K844012,"tRNA expression cassette for spider silk ""F"" proteins",812,,,Not Released,,Not in stock,,Not Used,iGEM12_Utah_State,Andrea Halling,2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K844013,"tRNA expression cassette for spider silk ""B"" proteins",668,,,Not Released,,Not in stock,,Not Used,iGEM12_Utah_State,Ryan Putman,2012-10-03,,pgroup=generator_basic&show=1.csv
+BBa_K879358,tetR with promoter 3,730,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Alberta,Nien-Tsu Tseng,2012-10-01,,pgroup=generator_basic&show=1.csv
+BBa_K879367,Lac I with promoter 3,1198,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Alberta,Nien-Tsu Tseng,2012-10-01,,pgroup=generator_basic&show=1.csv
+BBa_K926000,K414007-Kozak-RIAFP-HSP18.2, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_Toronto,Adam Komorowski,2012-10-02,,pgroup=generator_basic&show=1.csv
+BBa_K926001,At1g73160-Kozak-CarrotExtensin-PhyA-K382024, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_Toronto,Adam Komorowski,2012-10-02,,pgroup=generator_basic&show=1.csv
+BBa_K942012,proU+RiAFP+Term,1136,,,Not Released,,It's complicated,,Not Used,iGEM12_Tec-Monterrey,Luis Mario Leal Garza,2012-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K942013,pBAD+OmpA+RiAFP+Term,1753,,,Not Released,,It's complicated,,Not Used,iGEM12_Tec-Monterrey,Luis Mario Leal Garza,2012-09-26,,pgroup=generator_basic&show=1.csv
+BBa_K957000,Arsenic inducible mtrB with cut sites flanking RBS,2625,,,Not Released,,It's complicated,None,Not Used,iGEM12_Cornell,Dylan Patrick Webster,2012-07-26,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=generator_basic&show=1.csv
+BBa_K957001,Arsenic inducible mtrB,2704,,,Not Released,,It's complicated,None,Not Used,iGEM12_Cornell,Dylan Patrick Webster,2012-07-27,,pgroup=generator_basic&show=1.csv
+BBa_K957003,Salicylate inducible mtrB,3284,,,Not Released,,It's complicated,None,Not Used,iGEM12_Cornell,Dylan Patrick Webster,2012-09-25,,pgroup=generator_basic&show=1.csv
+BBa_K988002,Oxytocin-Neurophysin1,406,,,Not Released,,It's complicated,,1 Uses,iGEM13_Lethbridge_Canada,Isaac Ward,2013-06-21,,pgroup=generator_basic&show=1.csv
+BBa_K990003,HO1+PcyA+pOmpC+Amp Resistance,2879,,,Not Released,,Not in stock,None,Not Used,iGEM13_NGSS_AEI_TURKEY,Fatma Betul CEVIK,2013-06-21,,pgroup=generator_basic&show=1.csv
+BBa_K994000,UV- Responsive Wintergreen Odor ,1433,,,Not Released,BBa_K1283001,It's complicated,None,1 Uses,iGEM13_Beijing_HDFLS_High,Hongmei Du,2013-06-21,,pgroup=generator_basic&show=1.csv
+BBa_M36037,Alpha Factor Mating Pheromone Producer,39,,,Not Released,,Not in stock,Issues,1 Uses,Stanford BIOE44 - S11,"Joe Schlicht, Trevor! Kalkus, and David Eduardo Arrambide Montemayor",2011-12-10,,pgroup=generator_basic&show=1.csv
+BBa_M45964,phasin phasin, ,,,Not Released,,No part sequence,,No Sequence,UtahState_BE5930_-_S14,Charles Miller,2015-03-27,,pgroup=generator_basic&show=1.csv
+BBa_M50017,d-Limonene Synthase,1821,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,"Taylor Merkel, Chloe Thai, Julia Schulz",2016-10-27,,pgroup=generator_basic&show=1.csv
+BBa_P1000,chloramphenicol resistance cassette,792,1,Antiquity:5,Not Released,,It's complicated,Works,1 Uses,Knight Lab,Austin Che,2005-12-19,,pgroup=generator_basic&show=1.csv
+BBa_P1001,tetracycline resistance cassette,1279,1,Antiquity:5,Not Released,,It's complicated,Works,Not Used,Knight Lab,Austin Che,2005-12-19,,pgroup=generator_basic&show=1.csv
+BBa_P1002,ampicillin resistance cassette,943,1,Reshma Shetty:5,Not Released,,It's complicated,Works,5 Uses,BE.109 Instructors,Reshma Shetty,2006-01-23,,pgroup=generator_basic&show=1.csv
+BBa_P1006,"ampicillin resistance cassette, reverse orientation",943,,Reshma Shetty:5,Not Released,,Not in stock,Works,6 Uses,BE.109 Instructors,Reshma Shetty,2006-02-03,,pgroup=generator_basic&show=1.csv
+BBa_P1007,kanamycin resistance cassette,967,,,Not Released,,Not in stock,None,3 Uses,BE.109 Instructors,Reshma Shetty,2006-02-03,,pgroup=generator_basic&show=1.csv
+BBa_P1008,tetracycline resistance cassette,1283,,,Not Released,,Not in stock,None,Not Used,BE.109 Instructors,Reshma Shetty,2006-03-13,,pgroup=generator_basic&show=1.csv
+BBa_P1009,CmR (reverse),789,,,Not Released,,Not in stock,,2 Uses,iGEM2006_MIT,Reshma Shetty,2006-06-01,,pgroup=generator_basic&show=1.csv
+BBa_P1012,gentamycin/kanamycin resistance cassette,1943,,,Not Released,,Not in stock,None,Not Used,Part Editors,Tom Knight,2006-03-15,,pgroup=generator_basic&show=1.csv
+BBa_P1013,gentamycin resistance cassette (aacC1 gene),841,,,Not Released,,Not in stock,None,Not Used,Part Editors,Tom Knight,2006-03-16,,pgroup=generator_basic&show=1.csv
+BBa_P1014,gentamicin resistance cassette aph(2),1089,1,,Not Released,,It's complicated,None,Not Used,Part Editors,Tom Knight,2006-06-11,,pgroup=generator_basic&show=1.csv

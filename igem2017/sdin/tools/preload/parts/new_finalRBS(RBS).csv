@@ -1,0 +1,503 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_B0030,RBS.1 (strong) -- modified from R. Weiss,15,1,,Released HQ 2013,BBa_K783047;BBa_K1828000;BBa_K1789002,In stock,Works,734 Uses,Antiquity,"Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander D Wissner-Gross and Peter Carr IAP, 2003. ",2003-01-31,Spring 2017 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_B0031,RBS.2 (weak) -- derivative of BBa_0030,14,1,,Released HQ 2013,BBa_K783048,In stock,Works,200 Uses,Antiquity,"Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander      D Wissner-Gross and Peter Carr IAP, 2003.",2003-01-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_B0032,RBS.3 (medium) -- derivative of BBa_0030,13,1,,Released HQ 2013,BBa_J34803;BBa_J24817;BBa_K783049;BBa_K1059011;BBa_K1725317,In stock,Works,606 Uses,Antiquity,"Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander      D Wissner-Gross and Peter Carr IAP, 2003. ",2003-01-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_B0033,RBS.4 (weaker) -- derivative of BBa_0030,11,1,Antiquity:5,Released HQ 2013,BBa_K783050;BBa_K2150010,In stock,Works,121 Uses,Antiquity,"Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander      D Wissner-Gross and Peter Carr IAP, 2003. ",2003-01-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_B0034,RBS (Elowitz 1999) -- defines RBS efficiency,12,1,,Released HQ 2013,BBa_J34801;BBa_J70591;BBa_K773001;BBa_K783051;BBa_K1529997;BBa_K1325011;BBa_K1583061;BBa_K2149018,In stock,Works,3713 Uses,Antiquity,"Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander      D Wissner-Gross and Peter Carr IAP, 2003. ",2003-01-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_J176012,Kozak,18,,,Released HQ 2013,BBa_Y00002;BBa_J63003;BBa_K165002,In stock,Works,Experience: Works,Haynes_Lab,Brady Laughlin,2011-09-29,,RBS.csv
+BBa_J44001,,15,1,,Released HQ 2013,,In stock,Works,17 Uses,iGEM2006_Missouri,Todd Eckdahl,2006-08-02,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_J61100,Ribosome Binding Site Family Member,12,1,,Not Released,BBa_K294206;BBa_K2116029;BBa_K2116092,In stock,Works,95 Uses,Arkin Lab,John Anderson,2007-01-28,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_J61101,Ribosome Binding Site Family Member,12,1,,Not Released,,In stock,Works,48 Uses,Arkin Lab,John Anderson,2007-01-28,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_J61102,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,8 Uses,Arkin Lab,John Anderson,2007-01-28,,RBS.csv
+BBa_J61103,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,3 Uses,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61104,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,3 Uses,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61105,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,1 Uses,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61106,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,1 Uses,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61107,Ribosome Binding Site Family Member,12,1,,Not Released,,In stock,Works,16 Uses,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61108,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61109,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,1 Uses,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61110,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61111,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61112,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61113,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61114,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61115,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61116,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61117,Ribosome Binding Site Family Member,12,1,,Not Released,,In stock,Works,8 Uses,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61118,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-24,,RBS.csv
+BBa_J61119,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61120,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61121,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61123,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61124,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61125,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61126,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61127,Ribosome Binding Site Family Member,12,1,,Not Released,,In stock,Works,17 Uses,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61128,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61129,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,1 Uses,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61130,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61131,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61132,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61133,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61134,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,1 Uses,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61136,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61137,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61138,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61139,Ribosome Binding Site Family Member,12,,,Not Released,,In stock,Works,Not Used,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J63003,designed yeast Kozak sequence,18,1,manugimenez:5,Released HQ 2013,BBa_Y00002;BBa_K165002;BBa_J176012,In stock,Works,1 Registry Star,Silver Lab,Caroline Ajo-Franklin,2006-10-11,,RBS.csv
+BBa_K1017202,Regulation RBS-2,21,,,Not Released,,In stock,Works,1 Uses,iGEM13_NCTU_Formosa,Wen-Hui Cheng,2013-09-12,,RBS.csv
+BBa_K1045010,RBS BBa_B0034 with inversed Pre- and Suffix,12,,,Not Released,,In stock,Works,Not Used,iGEM13_Goettingen,iGEM Team Göttingen 2013,2013-09-20,,RBS.csv
+BBa_K1100014,ALeaderT (with insulator),106,,,Not Released,,In stock,Works,Not Used,iGEM13_Fudan,"Hao-tian Guo, Chenxi He",2013-09-13,,RBS.csv
+BBa_K143021,SpoVG ribosome binding site (RBS) for B. subtilis,12,,Adi:5,Released HQ 2013,BBa_K606061;BBa_K1697001,In stock,Works,33 Uses,iGEM08_Imperial_College,James Chappell,2008-09-17,,RBS.csv
+BBa_K606061,SpoVG Ribosome Binding Site (RBS) for B. subtilis,12,,,Released HQ 2013,BBa_K143021;BBa_K1697001,In stock,Works,4 Uses,iGEM11_Paris_Bettencourt,Axel Séguret,2011-09-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_K737033,galK is the leader sequence of galactokinase (GalK),127,,,Released HQ 2013,,In stock,Works,11 Uses,iGEM12_OUC-China,Peiran Zhang,2012-09-18,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_J23080,b0034 derived RBS to match spacing of J01122,10,,,Not Released,BBa_K1379010,In stock,None,2 Uses,iGEM2006_Berkeley,bryan hernandez,2006-09-21,,RBS.csv
+BBa_J34801,ribosome binding site,12,,,Released HQ 2013,BBa_B0034;BBa_J70591;BBa_K773001;BBa_K783051;BBa_K1529997;BBa_K1325011;BBa_K1583061;BBa_K2149018,In stock,None,2 Uses,iGEM2006_ETHZ,Alexandra Choutko,2006-10-26,,RBS.csv
+BBa_J34803,ribosome binding site,13,,,Released HQ 2013,BBa_B0032;BBa_J24817;BBa_K783049;BBa_K1059011;BBa_K1725317,In stock,None,2 Uses,iGEM2006_ETHZ,Alexandra Choutko,2006-10-26,,RBS.csv
+BBa_J70591,RFC12 Elowitz RBS,12,,,Released HQ 2013,BBa_B0034;BBa_J34801;BBa_K773001;BBa_K783051;BBa_K1529997;BBa_K1325011;BBa_K1583061;BBa_K2149018,In stock,,1 Uses,Knight Lab,Joseph Lynch,2010-06-18,,RBS.csv
+BBa_K1084101,SD2,33,,,Not Released,,In stock,None,3 Uses,iGEM13_HokkaidoU_Japan,Ryotaro Nouda,2013-08-27,,RBS.csv
+BBa_K1084103,SD6,33,,,Not Released,,In stock,None,1 Uses,iGEM13_HokkaidoU_Japan,Ami Kawahata,2013-08-28,,RBS.csv
+BBa_K1084104,SD8,33,,,Not Released,,In stock,None,1 Uses,iGEM13_HokkaidoU_Japan,Ami Kawahata,2013-08-28,,RBS.csv
+BBa_K1114100,MoClo format of a modified version of BBa_B0030 with BC fusion sites.,32,,,Not Released,,In stock,,Not Used,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1114101,MoClo format of a modified version of BBa_B0031 with BC fusion sites.,31,,,Not Released,,In stock,,Not Used,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1114102,MoClo format of a modified version of BBa_B0032 with BC fusion sites,30,,,Not Released,,In stock,,Not Used,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1114103,MoClo formatted version of B0033 with BC fusion sites,28,,,Not Released,,In stock,,Not Used,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1114104,MoClo formatted version of B0034 with BC fusion sites,29,,,Not Released,,In stock,,Not Used,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1114107,"Bicistronic Design RBS 2, MoClo Format with BC fusion sites",92,,,Not Released,,In stock,,24 Uses,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1114108,"Bicistronic design RBS 8, MoClo Format with BC fusion sites",92,,,Not Released,,In stock,,1 Uses,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1114109,"Bicistronic design RBS 12, MoClo Format with BC fusion sites",92,,,Not Released,,In stock,,2 Uses,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1114110,"Bicistronic design RBS 13, MoClo Format with BC fusion sites",92,,,Not Released,BBa_M36781,In stock,,2 Uses,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1114111,"Bicistronic design RBS 16, MoClo Format with BC fusion sites",92,,,Not Released,,In stock,,2 Uses,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1159300,Polioviral Internal Ribosome Entry Site (IRES) for polycistronic expression in eukaryotes,627,,,Not Released,,In stock,None,8 Uses,iGEM13_TU-Munich,Dong-Jiunn Jeffery TRUONG,2013-09-14,,RBS.csv
+BBa_K1231002,Lpp-RBS is a constitutive promoter,90,,,Not Released,,In stock,,3 Uses,iGEM13_Northwestern,Brendan Tran,2013-09-17,,RBS.csv
+BBa_K1323016,Translational initiation region (RBS) for Staphylococcus aureus,28,,,Not Released,,In stock,,Not Used,iGEM14_Waterloo,Julia Manalil,2014-10-04,,RBS.csv
+BBa_K1351028,LMU Bacillus RBS collection 1,11,,,Not Released,,In stock,,Not Used,iGEM14_LMU-Munich,Florian Riemer,2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,RBS.csv
+BBa_K1351029,LMU Bacillus RBS collection 2,11,,,Not Released,,In stock,,Not Used,iGEM14_LMU-Munich,Florian Riemer,2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,RBS.csv
+BBa_K1351030,LMU Bacillus RBS collection 3,11,,,Not Released,,In stock,,Not Used,iGEM14_LMU-Munich,Florian Riemer,2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,RBS.csv
+BBa_K1351031,LMU Bacillus RBS collection 4,11,,,Not Released,,In stock,,Not Used,iGEM14_LMU-Munich,Florian Riemer,2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,RBS.csv
+BBa_K1351032,LMU Bacillus RBS collection 5,11,,,Not Released,,In stock,,Not Used,iGEM14_LMU-Munich,Florian Riemer,2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,RBS.csv
+BBa_K1351033,LMU Bacillus RBS collection 6,11,,,Not Released,,In stock,,Not Used,iGEM14_LMU-Munich,Florian Riemer,2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,RBS.csv
+BBa_K1351034,LMU Bacillus RBS collection 7,11,,,Not Released,,In stock,,Not Used,iGEM14_LMU-Munich,Florian Riemer,2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,RBS.csv
+BBa_K1379015,B0032 derivate for RBS used in Lock 3C,12,,,Not Released,,In stock,None,1 Uses,iGEM14_Hong_Kong_HKUST,Medina Cuellar Raul Guillermo,2014-09-23,,RBS.csv
+BBa_K1442023,EMCV IRES,625,,,Not Released,,In stock,None,2 Uses,iGEM14_Warwick,Caroline de Cock,2014-08-28,,RBS.csv
+BBa_K1442024,NKRF IRES,667,,,Not Released,,In stock,None,1 Uses,iGEM14_Warwick,Caroline de Cock,2014-08-28,,RBS.csv
+BBa_K1461000,crRBS,52,,,Not Released,,In stock,None,3 Uses,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-22,,RBS.csv
+BBa_K1529997,aa,12,,,Not Released,BBa_B0034;BBa_J34801;BBa_J70591;BBa_K773001;BBa_K783051;BBa_K1325011;BBa_K1583061;BBa_K2149018,In stock,,Not Used,iGEM14_Tokyo_Tech,Kino Yuta,2014-08-30,,RBS.csv
+BBa_K165002,Kozak sequence (yeast RBS),18,,,Released HQ 2013,BBa_Y00002;BBa_J63003;BBa_J176012,In stock,None,Experience: None,iGEM08_BrownTwo,John Szymanski,2008-10-26,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_K545006,mag ,32,,,Not Released,,In stock,None,2 Uses,iGEM11_Grenoble,Grenoble 2011,2011-09-20,,RBS.csv
+BBa_K545666,rpos leader sequence,223,,,Released HQ 2013,,In stock,None,Not Used,iGEM11_Grenoble,Grenoble 2011,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,RBS.csv
+BBa_K783047,This is a MoClo converted version of BBa_B0030,15,,,Released HQ 2013,BBa_B0030;BBa_K1828000;BBa_K1789002,In stock,,Not Used,iGEM12_BostonU,Traci Haddock,2012-10-02,,RBS.csv
+BBa_K783048,This is a MoClo converted version of BBa_B0031,14,,,Released HQ 2013,BBa_B0031,In stock,,Not Used,iGEM12_BostonU,Traci Haddock,2012-10-02,,RBS.csv
+BBa_K783049,This is a MoClo converted version of BBa_B0032,13,,,Released HQ 2013,BBa_B0032;BBa_J34803;BBa_J24817;BBa_K1059011;BBa_K1725317,In stock,,Not Used,iGEM12_BostonU,Traci Haddock,2012-10-02,,RBS.csv
+BBa_K783050,This is a MoClo converted version of BBa_B0033,11,,,Released HQ 2013,BBa_B0033;BBa_K2150010,In stock,,Not Used,iGEM12_BostonU,Traci Haddock,2012-10-02,,RBS.csv
+BBa_K783051,This is a MoClo converted version of BBa_B0034,12,,,Released HQ 2013,BBa_B0034;BBa_J34801;BBa_J70591;BBa_K773001;BBa_K1529997;BBa_K1325011;BBa_K1583061;BBa_K2149018,In stock,,Not Used,iGEM12_BostonU,Traci Haddock,2012-10-02,,RBS.csv
+BBa_M36781,BCD13,92,,,Not Released,BBa_K1114110,In stock,,1 Uses,Stanford BIOE44 - S11,Sylvia Yang,2013-10-26,,RBS.csv
+BBa_B0029,1 bp deletion from B0031,15,,,Not Released,,Not in stock,None,12 Uses,iGEM2006_MIT,Jason Kelly,2008-02-07,,RBS.csv
+BBa_B0035,RBS (B0030 derivative),14,,,Not Released,BBa_M45193,Not in stock,None,26 Uses,Antiquity,Jason Kelly,2004-01-27,,RBS.csv
+BBa_B0036,Specialized RBS,5,,Antiquity:0,Not Released,,Not in stock,None,5 Uses,Antiquity,Barry Canton,2004-06-08,,RBS.csv
+BBa_B0037,Specialized RBS,10,,,Not Released,,Not in stock,None,4 Uses,MIT,Barry Canton,2005-12-06,,RBS.csv
+BBa_B0038,RBS 1,23,,,Not Released,,Not in stock,None,1 Uses,MIT,Josh Michener,2005-12-20,,RBS.csv
+BBa_B0039,RBS 2,22,,,Not Released,,Not in stock,None,1 Uses,MIT,Josh Michener,2005-12-20,,RBS.csv
+BBa_B0041,RBS 3,20,,,Not Released,,Not in stock,None,1 Uses,MIT,Josh Michener,2005-12-20,,RBS.csv
+BBa_B0064,Tuned RBS for Q04401,12,,,Not Released,BBa_K1676023,Not in stock,None,5 Uses,iGEM2006_MIT,Jason Kelly,2008-02-23,,RBS.csv
+BBa_B0070,Specialized RBS modified from that of B0036 (Brink et al.),16,,,Not Released,,Not in stock,None,3 Uses,MIT,Barry Canton,2006-03-03,,RBS.csv
+BBa_B0071,Specialized RBS,12,,,Not Released,,Not in stock,None,2 Uses,MIT,Barry Canton,2006-03-03,,RBS.csv
+BBa_B0072,orthogonal RBS,6,,,Not Released,,Not in stock,None,3 Uses,MIT,Bartholomew Canton,2006-05-02,,RBS.csv
+BBa_B0073,Specialized RBS,9,,,Not Released,,Not in stock,None,15 Uses,MIT,Bartholomew Canton,2006-05-02,,RBS.csv
+BBa_B0074,Orthogonal RBS,11,,,Not Released,BBa_M1105,Not in stock,None,3 Uses,MIT,Bartholomew Canton,2006-05-02,,RBS.csv
+BBa_B0075,Orthogonal RBS,8,,,Not Released,,Not in stock,None,Not Used,Endy Lab,Felix Moser,2008-01-17,,RBS.csv
+BBa_B0076,Specialized RBS,7,,,Not Released,,Not in stock,None,2 Uses,MIT,Bartholomew Canton,2006-05-02,,RBS.csv
+BBa_B0077,Specialized RBS,10,,,Not Released,,Not in stock,None,3 Uses,MIT,Bartholomew Canton,2006-05-02,,RBS.csv
+BBa_B0078,Specialized RBS,12,,,Not Released,,Not in stock,None,3 Uses,MIT,Bartholomew Canton,2006-05-02,,RBS.csv
+BBa_B2001,T7 RBS 0.3 ,20,,,Not Released,BBa_B2101,Not in stock,None,1 Uses,T7.2,Heather Keller,2006-09-27,,RBS.csv
+BBa_B2002,T7 RBS 0.4,20,,,Not Released,BBa_I20298,Not in stock,None,Not Used,T7.2,Heather Keller,2006-09-28,,RBS.csv
+BBa_B2003,T7 RBS 0.5,20,,,Not Released,,Not in stock,None,Not Used,T7.2,Heather Keller,2006-09-28,,RBS.csv
+BBa_B2017,2.8 RBS from T7,20,,,Not Released,,Not in stock,None,1 Uses,iGEM2006_MIT,Bartholomew Canton,2007-05-23,,RBS.csv
+BBa_B2022,4B RBS from T7,20,,,Not Released,,Not in stock,None,1 Uses,iGEM2006_MIT,Bartholomew Canton,2007-05-23,,RBS.csv
+BBa_B2040,8 RBS from T7,20,,,Not Released,,Not in stock,None,1 Uses,iGEM2006_MIT,Bartholomew Canton,2007-05-23,,RBS.csv
+BBa_I11010,RBS,11,,Antiquity:0,Not Released,,Not in stock,None,12 Uses,Antiquity,bu,2004-09-03,,RBS.csv
+BBa_I20298,RBS from T7 gene 4,20,,,Not Released,BBa_B2002,Not in stock,,1 Uses,Endy Lab,Francois St-Pierre,2010-06-21,,RBS.csv
+BBa_I20299,"RBS from T7 gene 4, optimal aligned spacing",16,,,Not Released,,Not in stock,,1 Uses,Endy Lab,Francois St-Pierre,2010-06-21,,RBS.csv
+BBa_I723012,Estimated RBS for DntR,24,,,Not Released,,Not in stock,None,2 Uses,iGEM07_Glasgow,Scott Ramsay,2007-10-25,,RBS.csv
+BBa_I723014,Estimated RBS for DntA,25,,,Not Released,,Not in stock,None,2 Uses,iGEM07_Glasgow,Scott Ramsay,2007-10-25,,RBS.csv
+BBa_I723019,RBS for XylR,20,,,Not Released,,Not in stock,None,2 Uses,iGEM07_Glasgow,Scott Ramsay,2007-10-25,,RBS.csv
+BBa_I742130,Reverse RBS,10,,,Not Released,,Not in stock,None,1 Uses,iGEM07_Edinburgh,Caroline Dahl,2007-10-22,,RBS.csv
+BBa_I742145,sam5 native rbs,16,,,Not Released,,Not in stock,None,3 Uses,iGEM07_Edinburgh,Chris French,2007-10-24,,RBS.csv
+BBa_I742146,sam8 native rbs,14,,,Not Released,,Not in stock,None,2 Uses,iGEM07_Edinburgh,Chris French,2007-10-24,,RBS.csv
+BBa_I742150,crtE native rbs,42,,,Not Released,,Not in stock,None,1 Uses,iGEM07_Edinburgh,Chris French,2007-10-24,,RBS.csv
+BBa_I742153,crtY native rbs,19,,,Not Released,,Not in stock,None,1 Uses,iGEM07_Edinburgh,Chris French,2007-10-24,,RBS.csv
+BBa_I742156,crtZ native rbs,16,,,Not Released,,Not in stock,None,7 Uses,iGEM07_Edinburgh,Chris French,2007-10-24,,RBS.csv
+BBa_I742159,crtI native rbs,22,,,Not Released,,Not in stock,None,1 Uses,iGEM07_Edinburgh,Chris French,2007-10-24,,RBS.csv
+BBa_I742163,native ftsK rbs,26,,,Not Released,,Not in stock,None,1 Uses,iGEM07_Edinburgh,Chris French,2007-10-25,,RBS.csv
+BBa_J100112,BD24 C.dog cloned into J100110,191,,,Not Released,,Not in stock,None,Not Used,Campbell_M_Lab,Jessica Gronniger,2013-06-29,,RBS.csv
+BBa_J100296,rClone Red Version 2 with RBS 2.0: Device for GGA Cloning and Testing RBS elements and Riboswitches, ,,,Not Released,,No part sequence,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-07-22,,RBS.csv
+BBa_J100297,rClone Red Version 1.5 with RBS 2.0: Device for GGA Cloning and Testing RBS elements and Riboswitche, ,,,Not Released,,No part sequence,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-07-22,,RBS.csv
+BBa_J119053,J23100 Promoter with BD18 RBS w/ leader and RFP reporter,870,,,Not Released,,Not in stock,,Not Used,Eckdahl_Lab,David Carr,2012-01-25,,RBS.csv
+BBa_J119390,Collection of RBSs from N6 rClone Red Library,8,,,Not Released,,Not in stock,None,-1 Uses,Eckdahl_Lab,Anthony J. Eckdahl,2016-04-29,,RBS.csv
+BBa_J119391,Collection of RBSs from N8 rClone Red Library ,8,,,Not Released,,Not in stock,None,-1 Uses,Eckdahl_Lab,Anthony J. Eckdahl,2016-04-29,,RBS.csv
+BBa_J119392,Collection of Bicistronic RBSs from N6 rClone Red Library ,8,,,Not Released,,Not in stock,None,-1 Uses,Eckdahl_Lab,Anthony J. Eckdahl,2016-04-29,,RBS.csv
+BBa_J119393,Collection of Bicistronic RBSs from N8 rClone Red Library ,8,,,Not Released,,Not in stock,None,-1 Uses,Eckdahl_Lab,Anthony J. Eckdahl,2016-04-29,,RBS.csv
+BBa_J146000,Consensus RBS,37,,,Not Released,,Not in stock,,-1 Uses,Wipat_Lab_,Anil Wipat,2017-06-27,,RBS.csv
+BBa_J15001,strong synthetic E. coli ribosome binding site with SacI site.,10,,,Not Released,,Not in stock,None,43 Uses,French Lab,Chris French,2007-07-13,,RBS.csv
+BBa_J18912,T7 promoter + RBS + START,83,,,Not Released,,It's complicated,Works,25 Uses,Affiliates,Raik Gruenberg,2010-01-26,,RBS.csv
+BBa_J26002,Mario Binding Site ,6,,,,,,,,,,,,
+BBa_J29048,RBS,13,,,Not Released,,Not in stock,None,1 Uses,iGEM2006_Chiba,Maiko Furubayashi,2006-10-20,,RBS.csv
+BBa_J329998,Short Version of RBS with Predicted TIR of 99 au,14,,,Not Released,,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2015-10-12,,RBS.csv
+BBa_J329999,RBS with Predicted TIR of 99 au for BBa_C0061,31,,,Not Released,,Not in stock,,1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2015-08-06,,RBS.csv
+BBa_J331018,RBS for hsp90,56,,,Not Released,,Not in stock,,-1 Uses,Colegio_Roosevelt_Lima_Peru,Gilles Yvan Buck,2016-12-13,,RBS.csv
+BBa_J34810,ribosome binding site,8,,,Not Released,,Not in stock,None,1 Uses,iGEM2006_ETHZ,Alexandra Choutko,2006-10-26,,RBS.csv
+BBa_J364100,"Bicistronic Design Element, Number 2 (BCD2)",84,,,Not Released,,Not in stock,,-1 Uses,Measurement_Lab,Traci Haddock-Angelli,2017-04-19,,RBS.csv
+BBa_J56013,Rbs2 ribosome binding site ,19,,,Not Released,,Not in stock,None,1 Uses,iGEM2006_UCSF,Matt Eames,2006-10-31,,RBS.csv
+BBa_J56016,Rbs-orig - ribosome binding site,21,,,Not Released,,Not in stock,None,2 Uses,iGEM2006_UCSF,Matt Eames,2006-10-31,,RBS.csv
+BBa_J59001,tuba,34,,,Not Released,,Not in stock,None,1 Uses,iGEM2006_Turkey,Fatos tuba,2006-08-29,,RBS.csv
+BBa_J61122,Ribosome Binding Site Family Member,12,,,Not Released,,It's complicated,Works,2 Uses,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61135,Ribosome Binding Site Family Member,12,,,Not Released,,It's complicated,Works,1 Uses,Arkin Lab,John Anderson,2007-04-25,,RBS.csv
+BBa_J61140,{rbs1} Library Member in BBb,15,,,Not Released,,Not in stock,None,Not Used,Arkin Lab,John Anderson,2007-09-04,,RBS.csv
+BBa_J61141,{rbs1} Library Member in BBb,15,,,Not Released,,Not in stock,None,Not Used,Arkin Lab,John Anderson,2007-09-04,,RBS.csv
+BBa_J61142,{rbs1} Library Member in BBb,15,,,Not Released,,Not in stock,None,Not Used,Arkin Lab,John Anderson,2007-09-04,,RBS.csv
+BBa_J61143,{rbs1} Library Member in BBb,15,,,Not Released,,Not in stock,None,Not Used,Arkin Lab,John Anderson,2007-09-04,,RBS.csv
+BBa_J61144,{rbs1} Library Member in BBb,15,,,Not Released,,Not in stock,None,Not Used,Arkin Lab,John Anderson,2007-09-04,,RBS.csv
+BBa_J61145,{rbs1} Library Member in BBb,15,,,Not Released,,Not in stock,None,Not Used,Arkin Lab,John Anderson,2007-09-04,,RBS.csv
+BBa_J61146,{rbs1} Library Member in BBb,15,,,Not Released,,Not in stock,None,Not Used,Arkin Lab,John Anderson,2007-09-04,,RBS.csv
+BBa_J61147,{rbs1} Library Member in BBb,15,,,Not Released,,Not in stock,None,Not Used,Arkin Lab,John Anderson,2007-09-04,,RBS.csv
+BBa_J64011,invB RBS,19,,,Not Released,,Not in stock,Works,3 Uses,Voigt Lab,Dan Widmaier,2008-01-15,,RBS.csv
+BBa_J64013,sipA RBS,18,,,Not Released,,Not in stock,Works,1 Uses,Voigt Lab,Dan Widmaier,2008-01-16,,RBS.csv
+BBa_J64015,sopA RBS,16,,,Not Released,,Not in stock,Works,1 Uses,Voigt Lab,Dan Widmaier,2008-01-16,,RBS.csv
+BBa_J64018,invJ RBS,17,,,Not Released,,Not in stock,Works,1 Uses,Voigt Lab,Dan Widmaier,2008-01-16,,RBS.csv
+BBa_J64020,invI RBS,20,,,Not Released,,Not in stock,Works,1 Uses,Voigt Lab,Dan Widmaier,2008-01-16,,RBS.csv
+BBa_J64022,sicA RBS,20,,,Not Released,,Not in stock,Works,4 Uses,Voigt Lab,Dan Widmaier,2008-01-16,,RBS.csv
+BBa_J64024,sipC RBS,15,,,Not Released,,Not in stock,Works,1 Uses,Voigt Lab,Dan Widmaier,2008-01-16,,RBS.csv
+BBa_J64026,sigE RBS,18,,,Not Released,,Not in stock,Works,1 Uses,Voigt Lab,Dan Widmaier,2008-01-16,,RBS.csv
+BBa_J64028,sopB RBS,20,,,Not Released,,Not in stock,Works,1 Uses,Voigt Lab,Dan Widmaier,2008-01-16,,RBS.csv
+BBa_J64030,sopD RBS,17,,,Not Released,,Not in stock,Works,1 Uses,Voigt Lab,Dan Widmaier,2008-01-16,,RBS.csv
+BBa_J64031,sptP RBS,20,,,Not Released,,Not in stock,Works,Not Used,Voigt Lab,Dan Widmaier,2008-01-16,,RBS.csv
+BBa_J64609,creD RBS,22,,,Not Released,,Not in stock,None,1 Uses,Voigt Lab,Ryan Ritterson,2007-03-19,,RBS.csv
+BBa_J64807,RocD RBS,16,,,Not Released,,Not in stock,None,Not Used,Voigt Lab,David Stanley,2007-03-19,,RBS.csv
+BBa_J64808,RocE RBS,14,,,Not Released,,Not in stock,None,10 Uses,Voigt Lab,David Stanley,2007-03-19,,RBS.csv
+BBa_J64809,RocF RBS,14,,,Not Released,,Not in stock,None,1 Uses,Voigt Lab,David Stanley,2007-03-19,,RBS.csv
+BBa_J64907,creA RBS,21,,,Not Released,,Not in stock,None,1 Uses,Voigt Lab,Ryan Ritterson,2007-03-19,,RBS.csv
+BBa_J64908,RBS for creC in e coli operon,24,,,Not Released,,Not in stock,None,1 Uses,Voigt Lab,Ryan Ritterson,2007-03-19,,RBS.csv
+BBa_J64968,RBS on creB,21,,,Not Released,,Not in stock,None,1 Uses,Voigt Lab,Kristopher Kuchenbecker,2007-03-19,,RBS.csv
+BBa_J90000,Weak RBS,11,,,Not Released,,Not in stock,,Not Used,Fong Lab,George McArthur IV,2009-12-03,,RBS.csv
+BBa_J95015,Strong RBS for Rhodobacter sphaeroides,12,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-04-20,,RBS.csv
+BBa_J95016,Weak RBS for Rhodobacter sphaeroides,12,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-04-20,,RBS.csv
+BBa_J95017,Weaker RBS-GGAGG8 for Rhodobacter sphaeroides,12,,,Not Released,,Not in stock,None,Not Used,Hinton Lab,Junling Huo,2010-04-20,,RBS.csv
+BBa_J95018,Medium RBS-GGAGG10 for Rhodobacter sphaeroides,12,,,Not Released,,Not in stock,None,Not Used,Hinton Lab,Junling Huo,2010-04-20,,RBS.csv
+BBa_J95019,Medium RBS-GGAGG11 for Rhodobacter sphaeroides,12,,,Not Released,,Not in stock,None,Not Used,Hinton Lab,Junling Huo,2010-04-20,,RBS.csv
+BBa_J95021,RBS for Rhodobacter sphaeroides,12,,,Not Released,,Not in stock,,13 Uses,Hinton Lab,Junling Huo,2010-05-18,,RBS.csv
+BBa_J95028,RBS for Rhodobacter sphaeroides,12,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-08-03,,RBS.csv
+BBa_J96040,IRES,504,,,Not Released,,Not in stock,,Not Used,Serrano Lab,Raik Gruenberg,2010-08-26,,RBS.csv
+BBa_J96043,PS3,50,,,Not Released,,Not in stock,None,Not Used,Serrano Lab,Raik Gruenberg,2010-08-26,,RBS.csv
+BBa_J96044,PS4,48,,,Not Released,,Not in stock,,Not Used,Serrano Lab,Raik Gruenberg,2010-08-27,,RBS.csv
+BBa_K082000,reconstruct strong RBS,17,,,Not Released,,It's complicated,Works,Not Used,iGEM08_USTC,"Yanting Xue , Binjie Xu",2008-10-27,,RBS.csv
+BBa_K082001,RBS medium,15,,,Not Released,,It's complicated,Works,Not Used,iGEM08_USTC,"Yanting Xue , Binjie Xu",2008-10-27,,RBS.csv
+BBa_K082002,RBS defines RBS efficiency,14,,,Not Released,,It's complicated,Works,Not Used,iGEM08_USTC,"Yanting Xue , Binjie Xu",2008-10-27,,RBS.csv
+BBa_K090505,''Bacillus subtilis'' consensus RBS,11,,,Not Released,,Not in stock,None,14 Uses,iGEM08_Cambridge,Daniel Goodman,2008-10-27,,RBS.csv
+BBa_K090506,''Bacillus subtilis'' weak RBS,11,,,Not Released,,Not in stock,None,Not Used,iGEM08_Cambridge,Daniel Goodman,2008-10-27,,RBS.csv
+BBa_K103015,consensus RBS,6,,,Not Released,BBa_K1373006,Not in stock,None,2 Uses,iGEM08_Warsaw,Michael Lower,2008-10-09,,RBS.csv
+BBa_K104003,RBS_spaR,9,,,Not Released,,Not in stock,,Not Used,iGEM08_Newcastle_University,Anil Wipat,2009-09-23,,RBS.csv
+BBa_K104005,RBS_spaK,9,,,Not Released,,Not in stock,,Not Used,iGEM08_Newcastle_University,Anil Wipat,2009-10-14,,RBS.csv
+BBa_K104009,RBS_gfp,8,,,Not Released,,Not in stock,,Not Used,iGEM08_Newcastle_University,Anil Wipat,2009-10-14,,RBS.csv
+BBa_K1074015,RBS for Pgrac,16,,,Not Released,,Not in stock,,2 Uses,iGEM13_USTC_CHINA,Changlong Zhao,2013-09-25,,RBS.csv
+BBa_K1074016,RBS for Pctc,18,,,Not Released,,Not in stock,,2 Uses,iGEM13_USTC_CHINA,Changlong Zhao,2013-09-25,,RBS.csv
+BBa_K1084102,SD4                                 ,33,,,Not Released,,It's complicated,None,2 Uses,iGEM13_HokkaidoU_Japan,Ami Kawahata,2013-08-27,,RBS.csv
+BBa_K1088055,RBS from pKT25,19,,,Not Released,BBa_K1638001,Not in stock,None,1 Uses,iGEM13_SDU-Denmark,Patrick Rosendahl Andreassen,2015-03-30,,RBS.csv
+BBa_K1100000,ALeader,75,,,Not Released,,It's complicated,Works,6 Uses,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,RBS.csv
+BBa_K1100001,ALeaderT:The First Artificial Triphase Riboswitch,87,,,Not Released,,Not in stock,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,RBS.csv
+BBa_K1100071,RNA-IN S1,32,,,Not Released,,Not in stock,Works,1 Uses,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,RBS.csv
+BBa_K1100072,RNA-IN S4,32,,,Not Released,,Not in stock,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,RBS.csv
+BBa_K1100073,RNA-IN S5,32,,,Not Released,,Not in stock,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,RBS.csv
+BBa_K1100074,RNA-IN S31,32,,,Not Released,,Not in stock,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,RBS.csv
+BBa_K1100075,RNA-IN S34,34,,,Not Released,BBa_K1100076,Not in stock,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,RBS.csv
+BBa_K1100076,RNA-IN S49,34,,,Not Released,BBa_K1100075,Not in stock,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,RBS.csv
+BBa_K1114106,"Bicistronic Design RBS 1, MoClo Format with BC fusion sites",92,,,Not Released,,It's complicated,,2 Uses,iGEM13_BostonU,Traci Haddock,2013-09-07,,RBS.csv
+BBa_K1123010,Ribosoom Binding Site,22,,,Not Released,BBa_K2182005,Not in stock,,9 Uses,iGEM13_TU-Eindhoven,Ardjan van der Linden,2013-09-08,,RBS.csv
+BBa_K1130003,L. plantarum RBS,33,,,Not Released,,It's complicated,,Not Used,iGEM13_BIOSINT_Mexico,Alicia Gabriela Quiroz Rocha ,2013-09-20,,RBS.csv
+BBa_K1145003,A ribosome switch which can be opened by atrazine.,87,,,Not Released,,Not in stock,None,Not Used,iGEM13_Nanjing-China,KUN LV,2013-09-14,,RBS.csv
+BBa_K118012,Synthetic ribosome binding site added by Son of Babel procedure,4,,,Not Released,,Not in stock,None,4 Uses,iGEM08_Edinburgh,Andrew Hall,2008-08-19,,RBS.csv
+BBa_K121016,Tokyo Standard prefix suffix RBS,64,,,Not Released,,Not in stock,None,2 Uses,iGEM08_Tokyo_Tech,Shotaro Ayukawa,2008-10-26,,RBS.csv
+BBa_K1323022,Ribosome binding site from the sodA Staphylococcus aureus gene,18,,,Not Released,,Not in stock,None,Not Used,iGEM14_Waterloo,Julia Manalil,2014-10-08,,RBS.csv
+BBa_K1341023,LTT-rbs,13,,,Not Released,,Not in stock,,Not Used,iGEM14_AHUT_China,Run-ze Zhang,2014-09-27,,RBS.csv
+BBa_K1362090,strong T7 RBS,29,,iGEM team Heidelberg 2014:5,Not Released,,It's complicated,Works,41 Uses,iGEM14_Heidelberg,"Constantin Ahlmann-Eltze, Charlotte Bunne, Magdalena Büscher, Jan Gleixner, Max Horn, Anna Huhn, Nils Klughammer, Jakob Kreft, Elisabeth Schäfer, Carolin Schmelas, Silvan Schmitz, Max Waldha",2014-10-03,,RBS.csv
+BBa_K1403008,sRBS,35,,,Not Released,,Not in stock,None,Not Used,iGEM14_aris_Bettencourt,Paris Bettencourt 2014,2014-10-06,,RBS.csv
+BBa_K1403010,RBS for agaA in E coli,35,,,Not Released,,Not in stock,,1 Uses,iGEM14_aris_Bettencourt,Cristina Garcia-Timermans,2014-10-06,,RBS.csv
+BBa_K1403011,sRBS,35,,,Not Released,BBa_K1403020,Not in stock,None,Not Used,iGEM14_aris_Bettencourt,Antonio Villarreal Larrauri,2014-10-06,,RBS.csv
+BBa_K1403020,sRBS ,35,,,Not Released,BBa_K1403011,Not in stock,None,Not Used,iGEM14_aris_Bettencourt,Sylvia,2014-10-18,,RBS.csv
+BBa_K1419003,Universal riboregulatable RBS,39,,,Not Released,,It's complicated,None,Not Used,iGEM14_Lethbridge,Harland Brandon,2014-10-09,,RBS.csv
+BBa_K143020,GsiB ribosome binding site (RBS) for B. subtilis,11,,,Not Released,,Not in stock,None,7 Uses,iGEM08_Imperial_College,James Chappell,2008-09-15,,RBS.csv
+BBa_K1442000,Test,28,,,Not Released,,Not in stock,None,Not Used,iGEM14_Warwick,Iva Burova,2014-06-24,,RBS.csv
+BBa_K1442008,EMCV IRES, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_Warwick,Yin Ho Vong,2014-08-28,,RBS.csv
+BBa_K1442109,EMCV IRES with forward GFP,1432,,,Not Released,,It's complicated,None,Not Used,iGEM14_Warwick,Caroline de Cock,2014-10-07,,RBS.csv
+BBa_K1442110,NKRF IRES with forward GFP,1498,,,Not Released,,It's complicated,None,Not Used,iGEM14_Warwick,Caroline de Cock,2014-10-07,,RBS.csv
+BBa_K1453790,try, ,,,Not Released,,No part sequence,,-1 Uses,iGEM14_SJTU-BioX-Shanghai,Ming Chen,2015-09-23,,RBS.csv
+BBa_K1453791,try, ,,,Not Released,,No part sequence,,-1 Uses,iGEM14_SJTU-BioX-Shanghai,Ming Chen,2015-09-23,,RBS.csv
+BBa_K1463100,"GvpA, K737016, RBS",8,,,Not Released,,Not in stock,,2 Uses,iGEM14_Glasgow,Beth Greig,2014-10-04,,RBS.csv
+BBa_K1463560,Reverse RBS,10,,,Not Released,,Not in stock,None,1 Uses,iGEM14_Glasgow,Sean Colloms,2014-10-02,,RBS.csv
+BBa_K1471011,RBS (Arabidopsis Thaliana).,11,,,Not Released,,Not in stock,None,9 Uses,iGEM14_Biosint_MEXICO,Juan Noe Hernandez Salazar,2014-10-14,,RBS.csv
+BBa_K1479003,Just for upload test, ,,,Not Released,,No part sequence,None,No Sequence,iGEM14_SJTU-Software,Weijian Cao,2014-10-01,,RBS.csv
+BBa_K1479004,Just for upload test,431,,,Not Released,,Not in stock,None,Not Used,iGEM14_SJTU-Software,ChenYB,2014-10-01,,RBS.csv
+BBa_K1479006,Just for upload test,32,,,Not Released,BBa_K1479007;BBa_K1479008;BBa_K1479013;BBa_K1479009;BBa_K1479012,Not in stock,None,Not Used,iGEM14_SJTU-Software,Weijian Cao,2014-10-07,,RBS.csv
+BBa_K1479007,Just for upload test,32,,,Not Released,BBa_K1479006;BBa_K1479008;BBa_K1479013;BBa_K1479009;BBa_K1479012,Not in stock,None,Not Used,iGEM14_SJTU-Software,ChenYB,2014-10-07,,RBS.csv
+BBa_K1479015,Just for test,16,,,Not Released,BBa_K1479005,Not in stock,None,Not Used,iGEM14_SJTU-Software,tester,2014-10-07,,RBS.csv
+BBa_K150005,ribosome binding site of pTrc99a,13,,,Not Released,,Not in stock,None,3 Uses,iGEM08_Heidelberg,Pascal Kraemer,2008-10-21,,RBS.csv
+BBa_K1529948,abe,24,,,Not Released,,Not in stock,,Not Used,iGEM14_Tokyo_Tech,Gyomon Ryu,2014-08-30,,RBS.csv
+BBa_K1583008,RBS,12,,,Not Released,,Not in stock,None,3 Uses,iGEM15_TU_Delft,Max van ,2015-09-04,,RBS.csv
+BBa_K1583058,RBS ,12,,,Not Released,,Not in stock,,3 Uses,iGEM15_TU_Delft,Stefan Robert Marsden,2015-09-04,,RBS.csv
+BBa_K1583061,RBS ,12,,,Not Released,BBa_B0034;BBa_J34801;BBa_J70591;BBa_K773001;BBa_K783051;BBa_K1529997;BBa_K1325011;BBa_K2149018,In stock,,3 Uses,iGEM15_TU_Delft,Stefan Robert Marsden,2015-09-08,,RBS.csv
+BBa_K1605002, nifZ RBS,15,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605004,nifE RBS,15,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605006,nifH RBS,15,,,Not Released,,Not in stock,,2 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605008,Ptet mRFP nifS RBS,15,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605010,nifK RBS,15,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605012,nifB RBS,15,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605014,nifD RBS,15,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605016,nifN RBS,15,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605018,hesB RBS,16,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605020,hesA RBS,15,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605022,cysE2 RBS,15,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1605024,nifV RBS,15,,,Not Released,,Not in stock,,1 Uses,iGEM15_WashU_StLouis,Mike Toomey,2015-09-14,,RBS.csv
+BBa_K1616011,RBS reversed,14,,,Not Released,,Not in stock,None,6 Uses,iGEM15_IONIS,Johanna Chesnel,2015-09-17,,RBS.csv
+BBa_K1624003,RBS,7,,,Not Released,,Not in stock,,Not Used,iGEM15_LASATX,Andrew Ellington,2015-09-12,,RBS.csv
+BBa_K1638001,RBS from pKT25 and pUT18,19,,,Not Released,BBa_K1088055,Not in stock,None,2 Uses,iGEM15_SDU-Denmark,Jens Sivkær Pettersen,2015-05-07,,RBS.csv
+BBa_K1638017,RBS from pKT25 and pUT18C with consensus Shine-Dalgarno,19,,,Not Released,,Not in stock,,2 Uses,iGEM15_SDU-Denmark,Jens Sivkær Pettersen,2015-08-12,,RBS.csv
+BBa_K1642004,SD sequence of cpcB,20,,,Not Released,,Not in stock,None,4 Uses,iGEM15_SJTU-BioX-Shanghai,Can Yin,2015-08-15,,RBS.csv
+BBa_K1650034,RBS,12,,,Not Released,,Not in stock,,4 Uses,iGEM15_MARBURG,Alexandra Richter,2015-09-18,,RBS.csv
+BBa_K1676001,RBS Mutant 1AC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-10,,RBS.csv
+BBa_K1676002,RBS Mutant 1AG,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676003,RBS Mutant 1AT,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676004,RBS Mutant 2AC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676005,RBS Mutant 2AG,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676006,RBS Mutant 2AT,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676007,RBS Mutant 3AC,12,,,Not Released,,Not in stock,None,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676008,RBS Mutant 3AG,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676009,RBS Mutant 3AT,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676010,RBS Mutant 4GA,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676011,RBS Mutant 4GC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676012,RBS Mutant 4GT,12,,,Not Released,,Not in stock,None,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676013,RBS Mutant 5AC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676014,RBS Mutant 5AG,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676015,RBS Mutant 5AT,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676016,RBS Mutant 6GA,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676017,RBS Mutant 6GC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676018,RBS Mutant 6GT,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676019,RBS Mutant 7GA,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676020,RBS Mutant 7GC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676021,RBS Mutant 7GT,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676022,RBS Mutant 8AC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676023,RBS Mutant 8AG,12,,,Not Released,BBa_B0064,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676024,RBS Mutant 8AT,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676025,RBS Mutant 9GA,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676026,RBS Mutant 9GC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676027,RBS Mutant 9GT,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676028,RBS Mutant 10AC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676029,RBS Mutant 10AG,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676030,RBS Mutant 10AT,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676031,RBS Mutant 11AC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676032,RBS Mutant 11AG,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676033,RBS Mutant 11AT,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676034,RBS Mutant 12AC,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676035,RBS Mutant 12AG,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676036,RBS Mutant 12AT,12,,,Not Released,,Not in stock,,4 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-16,,RBS.csv
+BBa_K1676073,Mutant RBS Opt,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-Singapore,Ooi Kean Hean,2015-09-17,,RBS.csv
+BBa_K1705011,rCHU_1284,32,,,Not Released,,Not in stock,None,Not Used,iGEM15_MIT,Wendi Guraziu,2015-09-18,,RBS.csv
+BBa_K1725301,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,2 Uses,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725302,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,4 Uses,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725303,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725304,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725305,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,2 Uses,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725306,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725307,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,2 Uses,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725308,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725309,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,2 Uses,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725310,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725311,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725312,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725313,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725314,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725315,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725316,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725317,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,BBa_B0032;BBa_J34803;BBa_J24817;BBa_K783049;BBa_K1059011,In stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725318,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725319,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725320,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725321,Member of the RBS library - derived from BBa_0032,13,,,Not Released,,Not in stock,,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725322,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725323,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725324,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725325,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725326,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725327,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725328,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725329,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725330,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725331,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1725332,Member of the RBS library - derived from BBa_B0032,13,,,Not Released,,Not in stock,None,Not Used,iGEM15_Glasgow,Vilija Lomeikaite,2015-09-11,,RBS.csv
+BBa_K1759900,try, ,,,Not Released,,No part sequence,,No Sequence,iGEM15_SJTU-Software,Ming Chen,2015-09-19,,RBS.csv
+BBa_K1789002,RBS30,15,,,Not Released,BBa_B0030;BBa_K783047;BBa_K1828000,In stock,,9 Uses,iGEM15_NUDT_CHINA,Xinyuan Qiu,2015-09-14,Spring 2017 Distribution,RBS.csv
+BBa_K1799011,LsrA RBS,10,,,Not Released,,Not in stock,,Not Used,iGEM15_Genspace,Will Shindel,2015-08-27,Spring 2017 Distribution,RBS.csv
+BBa_K1799012,LsrC RBS,10,,,Not Released,,Not in stock,,Not Used,iGEM15_Genspace,Will Shindel,2015-08-27,Spring 2017 Distribution,RBS.csv
+BBa_K1799013,LsrD RBS,10,,,Not Released,,Not in stock,,Not Used,iGEM15_Genspace,Will Shindel,2015-08-27,Spring 2017 Distribution,RBS.csv
+BBa_K1799014,LsrB RBS,10,,,Not Released,,Not in stock,,Not Used,iGEM15_Genspace,Will Shindel,2015-08-27,Spring 2017 Distribution,RBS.csv
+BBa_K1799028,RBS.2,50,,,,,,,,,,,,
+BBa_K1799029,RBS.4,48,,,,,,,,,,,,
+BBa_K1841003,ribosome binding site for lactobacillus casei,16,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-LIHPAO-Taiwan,MIN YI YOU,2015-08-28,,RBS.csv
+BBa_K1841012,rbs (lactobacillus casei) ,12,,,Not Released,,Not in stock,,1 Uses,iGEM15_NTU-LIHPAO-Taiwan,MIN YI YOU,2015-09-03,,RBS.csv
+BBa_K1875001,This part contains a Kozak sequence,9,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_BostonU,Jeffrey Marano,2016-10-11,,RBS.csv
+BBa_K1893033,Strong ribosome binding site (RBS),20,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Imperial_College,Akash Bhattacharjee,2016-10-23,,RBS.csv
+BBa_K1895001,rpoH,16,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Newcastle,Lauren Mills,2016-07-08,,RBS.csv
+BBa_K1897031,B0033 with flanking Scar sites,25,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_NUS_Singapore,Keshiniy Madivannan,2016-10-13,,RBS.csv
+BBa_K1897032,B0032 with flanking Scar sites,27,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_NUS_Singapore,Keshiniy Madivannan,2016-10-13,,RBS.csv
+BBa_K1897034,B0032-Scar site,19,,,Not Released,BBa_M36559,Not in stock,None,-1 Uses,iGEM16_NUS_Singapore,Keshiniy Madivannan,2016-10-13,,RBS.csv
+BBa_K1897036,B0033-Scar site,17,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_NUS_Singapore,Keshiniy Madivannan,2016-10-13,,RBS.csv
+BBa_K1906010,Ribothermometer A1,42,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906011,Ribothermometer JB2-B1,42,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906012,RNAT Mut,42,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906013,Ribothermometer JB2-C6,42,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906014,Ribothermometer JB1-A8,42,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906015,Ribothermometer JB1-B2,42,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906016,Ribothermometer JB1_B5,37,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906017,Ribothermometer JB2-B6,42,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906018,Ribothermometer JB1-G3,42,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906019,Ribothermometer JB1-G4,42,,,Not Released,BBa_K1906020,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906020,ribothermometer modified A1 to work as positive cpntrol,42,,,Not Released,BBa_K1906019,Not in stock,None,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1906021,ribothermometer, ,,,Not Released,,No part sequence,,-1 Uses,iGEM16_XJTLU-CHINA,Yuwei Han,2016-10-14,,RBS.csv
+BBa_K1925000,sdasd, ,,,Not Released,,No part sequence,,-1 Uses,iGEM16_Fudan,Zi Yue Wang,2016-09-22,,RBS.csv
+BBa_K1968002,Synechocystis RBS* Phytobrick,23,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Edinburgh_OG,Paolo Marangio,2016-10-09,,RBS.csv
+BBa_K1992000,Tar native RBS,24,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Technion_Israel,Shilo Ohayon,2016-10-09,,RBS.csv
+BBa_K1993016,IRES,588,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SYSU-MEDICINE,Su Xiaojun,2016-10-11,,RBS.csv
+BBa_K1994002,RBS 173k TIRv1,30,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Warwick,Liam Carroll,2016-09-22,,RBS.csv
+BBa_K1994004,RBS 28.4k_NEQ RBSCv1.1,47,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Warwick,Liam Carroll,2016-09-22,,RBS.csv
+BBa_K1994007,synRBS 9675 TIRv(1 or 2) ,30,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Warwick,Liam Carroll,2016-09-22,,RBS.csv
+BBa_K2018026,Ribosomal binding site for hlyB,71,,,Not Released,,Not in stock,,-1 Uses,iGEM16_SDU-Denmark,Joel Vej-Nielsen,2016-06-16,,RBS.csv
+BBa_K2018028,RBS for hlyD,18,,,Not Released,,Not in stock,,-1 Uses,iGEM16_SDU-Denmark,Joel Vej-Nielsen,2016-06-16,,RBS.csv
+BBa_K2018032,RBS for panK,21,,,Not Released,,Not in stock,,-1 Uses,iGEM16_SDU-Denmark,Joel Vej-Nielsen,2016-06-23,,RBS.csv
+BBa_K2027073,(pMS-AFa-DEa) pAKP444 RBS 1 extraction,28,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Stanford-Brown,Gordon Sun,2016-10-25,,RBS.csv
+BBa_K2027074,(pMS-AFa-DEa) pAKP444 RBS 2 extraction,26,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Stanford-Brown,Gordon Sun,2016-10-25,,RBS.csv
+BBa_K2042003,RBS,7,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Evry,Charlotte NAYRAC,2016-09-02,,RBS.csv
+BBa_K2066510,Strong RBS from Lou et. al 2012,12,,,Not Released,,Not in stock,,-1 Uses,iGEM16_William_and_Mary,Likhitha Kolla,2016-08-31,,RBS.csv
+BBa_K2066515,RBS2 (weak),12,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-07,,RBS.csv
+BBa_K2066526,B0034 with scar TACTAG, ,,,Not Released,,No part sequence,,-1 Uses,iGEM16_William_and_Mary,Joseph L Maniaci,2016-10-12,,RBS.csv
+BBa_K2066527,B0034 with scar TACTAG,18,,,Not Released,BBa_K1933005,Not in stock,,-1 Uses,iGEM16_William_and_Mary,Joseph L Maniaci,2016-10-12,,RBS.csv
+BBa_K2066549,Synthetic Enhancer Project: RBS,1,,,Not Released,BBa_J23056;BBa_J23055;BBa_G0009;BBa_K122013;BBa_K122010;BBa_K122009;BBa_K122008;BBa_K122014;BBa_K122015;BBa_K1497024;BBa_K2066534;BBa_K2066056;BBa_K2066032,In stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-14,,RBS.csv
+BBa_K208100,Rhodobacter sphaeroides RBS,21,,,Not Released,,Not in stock,None,Not Used,iGEM09_Utah_State,Junling Huo,2009-10-14,,RBS.csv
+BBa_K208101,Rhodobacter sphaeroides RBS,21,,,Not Released,,Not in stock,None,Not Used,iGEM09_Utah_State,Junling Huo,2009-10-14,,RBS.csv
+BBa_K208102,Rhodobacter sphaeroides RBS,21,,,Not Released,,Not in stock,None,Not Used,iGEM09_Utah_State,Junling Huo,2009-10-14,,RBS.csv
+BBa_K208103,Rhodobacter sphaeroides RBS,21,,,Not Released,,Not in stock,None,Not Used,iGEM09_Utah_State,Junling Huo,2009-10-14,,RBS.csv
+BBa_K208104,Rhodobacter sphaeroides RBS,21,,,Not Released,,Not in stock,None,Not Used,iGEM09_Utah_State,Junling Huo,2009-10-14,,RBS.csv
+BBa_K208105,Rhodobacter sphaeroides RBS,21,,,Not Released,,Not in stock,None,Not Used,iGEM09_Utah_State,Junling Huo,2009-10-14,,RBS.csv
+BBa_K208106,Rhodobacter sphaeroides RBS,21,,,Not Released,,Not in stock,None,Not Used,iGEM09_Utah_State,Junling Huo,2009-10-14,,RBS.csv
+BBa_K208107,Rhodobacter sphaeroides RBS,21,,,Not Released,,Not in stock,None,Not Used,iGEM09_Utah_State,Junling Huo,2009-10-14,,RBS.csv
+BBa_K208108,Rhodobacter sphaeroides RBS,21,,,Not Released,,Not in stock,None,Not Used,iGEM09_Utah_State,Junling Huo,2009-10-14,,RBS.csv
+BBa_K2116019,RBS designed for sfgfp,35,,,Not Released,BBa_K2116093,Not in stock,,-1 Uses,iGEM16_ETH_Zurich,Asli Azizoglu,2016-10-14,,RBS.csv
+BBa_K2116020,RBS for mNectarine,32,,,Not Released,BBa_K2116094,Not in stock,,-1 Uses,iGEM16_ETH_Zurich,Asli Azizoglu,2016-10-14,,RBS.csv
+BBa_K2116031,RBS for sfGFP,41,,,Not Released,BBa_K2116034,Not in stock,,-1 Uses,iGEM16_ETH_Zurich,Lukas Schmidheini,2016-10-26,,RBS.csv
+BBa_K2116033,RBS_esaR,17,,,Not Released,BBa_K2116000;BBa_K2116999,Not in stock,,-1 Uses,iGEM16_ETH_Zurich,Lukas Schmidheini,2016-10-19,,RBS.csv
+BBa_K2116094,Salis RBS for BB assembly,32,,,Not Released,BBa_K2116020,Not in stock,,-1 Uses,iGEM16_ETH_Zurich,Lukas Schmidheini,2016-10-25,,RBS.csv
+BBa_K2116999,RBS for EsaR,17,,,Not Released,BBa_K2116000;BBa_K2116033,Not in stock,,-1 Uses,iGEM16_ETH_Zurich,Lukas Schmidheini,2016-10-26,,RBS.csv
+BBa_K2138000,RNA thermometer and RBS (40C),2187,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UMass-Dartmouth,Austin Nykiel,2016-10-19,,RBS.csv
+BBa_K2138001,RNA thermometer and RBS (39C),2283,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UMass-Dartmouth,Austin Nykiel,2016-10-19,,RBS.csv
+BBa_K2138002,RNA thermometer and RBS (33C),2175,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UMass-Dartmouth,Austin Nykiel,2016-10-19,,RBS.csv
+BBa_K2182004,RBS for BBa_K2182003,22,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Northeastern,"Vasileios Kreouzis, David Rosenberg",2016-10-14,,RBS.csv
+BBa_K2241000,233?, ,,,Not Released,,No part sequence,,-1 Uses,iGEM17_USTC-Software,Xueqing Wu,2017-08-07,,RBS.csv
+BBa_K234001, -- No description -- , ,,,Not Released,,No part sequence,,No Sequence,iGEM09_uOttawa,Daniel Jedrysiak,2009-07-22,,RBS.csv
+BBa_K234090, -- No description -- , ,,,Not Released,,No part sequence,None,No Sequence,iGEM09_uOttawa,Daniel Jedrysiak,2009-07-22,,RBS.csv
+BBa_K239008,RBS from RpoS ,567,,,Not Released,,Not in stock,,Not Used,iGEM09_UCL_London,Axel Nystrom,2009-08-17,,RBS.csv
+BBa_K252015,f, ,,,Not Released,,No part sequence,,No Sequence,iGEM09_Illinois,Steven Waltersdorf,2009-10-21,,RBS.csv
+BBa_K285201,mrgA rbs,27,,,Not Released,,It's complicated,,Not Used,iGEM09_Cornell,Xing Xiong,2009-10-18,,RBS.csv
+BBa_K294120,nasa, ,,,Not Released,,No part sequence,,No Sequence,iGEM09_Example,Nasa SAVORY,2009-06-27,,RBS.csv
+BBa_K356105,Desinged RBS,14,,,Not Released,,Not in stock,Works,1 Uses,iGEM10_St_Andrews,Fatemeh Salimi,2010-10-26,,RBS.csv
+BBa_K356106,Desinged RBS,16,,,Not Released,,Not in stock,None,1 Uses,iGEM10_St_Andrews,Fatemeh Salimi,2010-10-26,,RBS.csv
+BBa_K360031,Strong RBS with spacer.,11,,,Not Released,,Not in stock,,4 Uses,iGEM10_UNAM-Genomics_Mexico,Jorge Arturo Zepeda Martínez,2010-10-21,,RBS.csv
+BBa_K376001,Super RBS,24,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Penn_State,Andrew Kirk,2010-10-26,,RBS.csv
+BBa_K390001,5'UTR and native RBS from psbA2 in Synechocystis sp. PCC 6803,49,,,Not Released,BBa_M11402,It's complicated,None,11 Uses,iGEM10_Utah_State,Cody Tramp,2010-08-01,,RBS.csv
+BBa_K390002,5'UTR and consensus RBS from psbA2 in Synechocystis sp. PCC 6803,49,,,Not Released,,It's complicated,None,11 Uses,iGEM10_Utah_State,Cody Tramp,2010-08-01,,RBS.csv
+BBa_K393002,short RBS,12,,,Not Released,,Not in stock,,1 Uses,iGEM10_Yale,Dan Spakowicz,2010-10-25,,RBS.csv
+BBa_K415145,p8Acid, ,,,Not Released,,No part sequence,,No Sequence,iGEM10_MIT,Grant Robinson,2010-10-27,,RBS.csv
+BBa_K545005,fha ,137,,,Not Released,,It's complicated,None,Not Used,iGEM11_Grenoble,Grenoble 2011,2011-09-20,,RBS.csv
+BBa_K566037,RBS.3 (Inverted),13,,,Not Released,,Not in stock,None,1 Uses,iGEM11_UANL_Mty-Mexico,José Eduardo Almeyda Carbajal,2011-09-28,,RBS.csv
+BBa_K619892,mutated prfA thermosensor from listeria,140,,,Not Released,,It's complicated,,Not Used,iGEM11_BYU_Provo,Julianne Grose,2011-09-27,,RBS.csv
+BBa_K624012,RBS from Pmsp3,31,,,Not Released,,Not in stock,,21 Uses,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-02,,RBS.csv
+BBa_K624013,RBS (6 bps truncated) from Pmsp3,22,,,Not Released,,Not in stock,,9 Uses,iGEM11_NYMU-Taiwan,Shang-Jui Tsai,2011-10-02,,RBS.csv
+BBa_K641001,rbs for ffGFP,30,,,Not Released,,Not in stock,,Not Used,iGEM11_Berkeley,Spencer Scott,2011-08-31,,RBS.csv
+BBa_K641004,rbs for ToxR,25,,,Not Released,,Not in stock,,1 Uses,iGEM11_Berkeley,Spencer Scott,2011-09-01,,RBS.csv
+BBa_K737020,Cyanobacteria gene ribosome binding site ,5,,,Not Released,BBa_K923005,It's complicated,None,2 Uses,iGEM12_OUC-China,Tianhe Wang,2012-09-18,,RBS.csv
+BBa_K780001,Strong RBS for Bacillus Subtilis,16,,,Not Released,,It's complicated,None,Not Used,iGEM12_Warsaw,Krzysztof Szczepaniak,2012-09-26,,RBS.csv
+BBa_K780002,Strong RBS for Bacillus Subtilis,16,,,Not Released,,It's complicated,None,8 Uses,iGEM12_Warsaw,Krzysztof Szczepaniak,2012-09-26,,RBS.csv
+BBa_K784007,Spacer + RBS from theophylline riboswitch,46,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_Technion,Ilya Vainberg Slutskin,2012-09-15,,RBS.csv
+BBa_K784012,Spacer2 + RBS from theophylline riboswitch,51,,,Not Released,,Not in stock,,1 Uses,iGEM12_Technion,Ilya Vainberg Slutskin,2012-09-16,,RBS.csv
+BBa_K792001,Kozak sequence from yeast α-factor mating pheromone (MFα1),21,,manugimenez:5,Not Released,,Not in stock,Works,7 Uses,iGEM12_Buenos_Aires,Manuel Giménez,2012-09-24,,RBS.csv
+BBa_K809008,RBS sequence of yeast mitochondrial  gene AI1,54,,,Not Released,,Not in stock,None,2 Uses,iGEM12_Shenzhen,Xiaopeng Xu,2012-09-24,,RBS.csv
+BBa_K809009,RBS sequence of yeast mitochondrial gene OLI1,114,,,Not Released,,Not in stock,None,5 Uses,iGEM12_Shenzhen,Xiaopeng Xu,2012-09-24,,RBS.csv
+BBa_K812053,RBS B0034 with GoldenBrick sequence,47,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Evry,Cyrille Pauthenier,2012-09-20,,RBS.csv
+BBa_K812058,A GoldenBricked-medium strenght RBS J61107,48,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Evry,Hafez El Sayyed,2012-09-26,,RBS.csv
+BBa_K812059,A GoldenBricked version of week RBS J61117 ,48,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Evry,Hafez El Sayyed,2012-09-26,,RBS.csv
+BBa_K821009,Orthogonal RBS 1,6,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_Tianjin,"Qinfeng Wu, Bin Jia",2012-09-18,,RBS.csv
+BBa_K879021,rbs based on B0034,26,,,Not Released,,Not in stock,Works,7 Uses,iGEM12_Alberta,Nien-Tsu Tseng,2012-09-29,,RBS.csv
+BBa_K879022,Rbs 2,29,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_Alberta,Nien-Tsu Tseng,2012-09-29,,RBS.csv
+BBa_K879023,Rbs 3,29,,,Not Released,,Not in stock,Works,2 Uses,iGEM12_Alberta,Nien-Tsu Tseng,2012-09-29,,RBS.csv
+BBa_K879024,rbs 4,29,,,Not Released,,Not in stock,None,Not Used,iGEM12_Alberta,Nien-Tsu Tseng,2012-09-29,,RBS.csv
+BBa_K879025,Rbs 5,29,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Alberta,Nien-Tsu Tseng,2012-09-29,,RBS.csv
+BBa_K879026,Rbs 6,29,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Alberta,Nien-Tsu Tseng,2012-09-29,,RBS.csv
+BBa_K892005,Strong RBS ,16,,,Not Released,,Not in stock,,1 Uses,iGEM12_Washington,Ruihong Wang,2012-06-21,,RBS.csv
+BBa_K896599,"Strophurus rankini voucher AMS R140490 NADH dehydrogenase subunit 4 (ND4) gene, partial cds; tRNA-Hi",435,,,Not Released,,Not in stock,,Not Used,iGEM12_NYMU_Taiwan,JHONG-YOU HUANG,2012-04-27,,RBS.csv
+BBa_K899009,Doubble ribosomal binding site (FFT) (shine-dalgarno and kozak sequence),13,,,Not Released,,Not in stock,None,3 Uses,iGEM12_SDU-Denmark,Andreas Kjær,2012-09-26,,RBS.csv
+BBa_K899010,Doubble ribosomal binding site (SST) (shine-dalgarno and kozak sequence),13,,,Not Released,,Not in stock,None,2 Uses,iGEM12_SDU-Denmark,Andreas Kjær,2012-09-26,,RBS.csv
+BBa_K923005,Ribosome Binding Site in pET14b plasmid,5,,,Not Released,BBa_K737020,It's complicated,,Not Used,iGEM12_BAU_Indonesia,Masrukhin,2012-10-03,,RBS.csv
+BBa_M1105,Pyrene degradation enzyme RBS,11,,,Not Released,BBa_B0074,Not in stock,,Not Used,UtahState_BE5930_-_S11,Elizabeth Martinez ,2012-04-25,,RBS.csv
+BBa_M11402,5' UTR and RBS of psbA2 gene in Synechocystis sp. PCC 6803,49,,,Not Released,BBa_K390001,It's complicated,,Not Used,UtahState BE5930 - S09 UtahState BE5930 - S10,Cody Tramp,2010-04-24,,RBS.csv
+BBa_M13501,M13K07 gene I RBS,16,,,Not Released,,Not in stock,None,Not Used,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M13502,M13KO7 gene II RBS,16,,,Not Released,,Not in stock,None,3 Uses,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M13503,M13K07 gene III RBS,16,,,Not Released,,Not in stock,None,7 Uses,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M13504,M13K07 gene IV RBS,16,,,Not Released,,Not in stock,None,Not Used,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M13505,M13KO7 gene V RBS,16,,,Not Released,,Not in stock,None,7 Uses,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M13506,M13K07 gene VI RBS,16,,,Not Released,,Not in stock,None,Not Used,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M13507,M13KO7 gene VII RBS,16,,,Not Released,BBa_M300057,Not in stock,None,8 Uses,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M13508,M13K07 gene VIII RBS,16,,,Not Released,BBa_M300062,Not in stock,None,8 Uses,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M13509,M13Ko7 gene IX RBS,16,,,Not Released,,Not in stock,None,8 Uses,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M13510,M13KO7 gene X RBS,16,,,Not Released,,Not in stock,None,6 Uses,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M13511,M13K07 gene XI RBS,15,,,Not Released,,Not in stock,None,Not Used,Berkeley BioE140L - S010,Natalie Kuldell,2006-12-14,,RBS.csv
+BBa_M1694,Ribosome binding site,14,,,Not Released,,Not in stock,,4 Uses,UtahState_BE5930_-_S11,Tiffany Hansen,2013-04-10,,RBS.csv
+BBa_M1782,Synechocystis RBS Site,10,,,Not Released,,Not in stock,,1 Uses,UtahState_BE5930_-_S11,Ashik Sathish,2012-04-23,,RBS.csv
+BBa_M36000,"5' Bicistronic UTR (weak), does not include ATG start",47,,,Not Released,,Not in stock,,2 Uses,Stanford BIOE44 - S11,Drew Endy,2011-04-26,,RBS.csv
+BBa_M36001,"5' Bicistronic UTR (medium), does not include ATG start ",47,,,Not Released,,Not in stock,,7 Uses,Stanford BIOE44 - S11,Drew Endy,2011-04-26,,RBS.csv
+BBa_M36009,"5' Bicistronic UTR (strong), does not include ATG start 		",47,,,Not Released,,Not in stock,,21 Uses,Stanford BIOE44 - S11,Drew Endy,2011-04-26,,RBS.csv
+BBa_M36034,BCD02 - Bicistronic Design 02,85,,,Not Released,BBa_M36236;BBa_M36556;BBa_M36682,Not in stock,,2 Uses,Stanford BIOE44 - S11,Jacob Waggoenr,2013-10-24,,RBS.csv
+BBa_M36068,Adapted fnr binding site,130,,,Not Released,,Not in stock,None,Not Used,Stanford BIOE44 - S11,"Rahul Sastry, Anjan Katta",2013-06-10,,RBS.csv
+BBa_M36070,Bicistronic RBS - BIOFAB ID: apFAB681 (BCD1),88,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,"Alex Rosay, Justin Diep, Ben Blankenmeister",2012-12-07,,RBS.csv
+BBa_M36120,5' Bicistronic UTR (strong) contains ATG start Codon. ,88,,,Not Released,BBa_M36282;BBa_J119025;BBa_M36925,Not in stock,,4 Uses,Stanford BIOE44 - S11,Alaina Shumate,2013-10-25,,RBS.csv
+BBa_M36204,Bicistronic RBS (BD14),85,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,Steven Lee,2011-12-06,,RBS.csv
+BBa_M36236,5' Bicistronic UTR (no ATG),85,,,Not Released,BBa_M36556;BBa_M36682;BBa_M36034,Not in stock,None,2 Uses,Stanford BIOE44 - S11,Lawrence Xing,2011-12-10,,RBS.csv
+BBa_M36237,5' Bicistronic UTR (no ATG),85,,,Not Released,,Not in stock,,1 Uses,Stanford BIOE44 - S11,Lawrence Xing,2011-12-10,,RBS.csv
+BBa_M36269,RBS: modified BBa_B0034,15,,,Not Released,,Not in stock,,1 Uses,Stanford BIOE44 - S11,Diana Gong,2014-10-24,,RBS.csv
+BBa_M36282,"5' Bicistronic UTR, includes ATG start codon",88,,,Not Released,BBa_J119025;BBa_M36925;BBa_M36120,Not in stock,None,6 Uses,Stanford BIOE44 - S11,"Sunil Bodapati, Julia Joung, Daniel  Esquivel-Reynoso",2011-11-29,,RBS.csv
+BBa_M36288,medium 5' Bicistronic UTR (BD21),88,,,Not Released,BBa_J119027,Not in stock,None,1 Uses,Stanford BIOE44 - S11,"Victoria Robles, Kyung Ri Park, Ken Xiong",2011-12-09,,RBS.csv
+BBa_M36289,medium 5' Bicistronic UTR (BD8),88,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,"Victoria Robles, Kyung Ri Park, Ken Xiong",2011-12-09,,RBS.csv
+BBa_M36293,"5' Bicistronic UTR, includes ATG start ",88,,,Not Released,,Not in stock,None,3 Uses,Stanford BIOE44 - S11,"Dominique Dabija, Christopher Jackson, Debha Amatya",2011-12-06,,RBS.csv
+BBa_M36361,"5' Bicistronic UTR (apFAB866, GENE10_BCD2), No ATG Start",83,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,Ethan Li,2013-10-25,,RBS.csv
+BBa_M36405,Bicistronic RBS (medium) pFAB1646,88,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,"Justo A. Caballero, Shamik Mascharak and Sibel Sayiner",2012-12-05,,RBS.csv
+BBa_M36450,Bicistronic RBS - pFAB1692,85,,,Not Released,,Not in stock,None,3 Uses,Stanford BIOE44 - S11,"Max Whitmeyer, Ian Lewis",2013-12-17,,RBS.csv
+BBa_M36452,RBS - MCD 6,29,,,Not Released,,Not in stock,None,3 Uses,Stanford BIOE44 - S11,"Max Whitmeyer, Ian Lewis",2013-12-17,,RBS.csv
+BBa_M36454,MCD 20,30,,,Not Released,,Not in stock,None,3 Uses,Stanford BIOE44 - S11,"Max Whitmeyer, Ian Lewis",2013-12-17,,RBS.csv
+BBa_M36516,Bicistronic RBS #5,88,,,Not Released,,Not in stock,,1 Uses,Stanford BIOE44 - S11,Kevin Bui,2012-12-06,,RBS.csv
+BBa_M36521,"strong 5' bicistronic UTR, with ATG at end",86,,,Not Released,,Not in stock,None,2 Uses,Stanford BIOE44 - S11,"Scanner Cheung, Emily Marx",2013-10-29,,RBS.csv
+BBa_M36542,BCD22 - RBS,88,,,Not Released,,Not in stock,,1 Uses,Stanford BIOE44 - S11,Danielle Fraga,2013-10-25,,RBS.csv
+BBa_M36556,"5' Bicistronic UTR (medium), does not include ATG start",85,,,Not Released,BBa_M36236;BBa_M36682;BBa_M36034,Not in stock,,Not Used,Stanford BIOE44 - S11,Elvis Ikwa,2012-12-04,,RBS.csv
+BBa_M36559,RBS and Spacer,19,,,Not Released,BBa_K1897034,Not in stock,Works,1 Uses,Stanford BIOE44 - S11,Michael Raitor,2014-10-24,,RBS.csv
+BBa_M36583,Strong RBS - BBa_J61100,28,,,Not Released,,Not in stock,,-1 Uses,Stanford BIOE44 - S11,Aris Kare,2015-10-24,,RBS.csv
+BBa_M36595,Bicistronic design RBS,87,,,Not Released,,Not in stock,,Not Used,Stanford BIOE44 - S11,Jessica Lam,2013-06-10,,RBS.csv
+BBa_M36724,"5' Bicistronic UTR (strong), does not include ATG start ",85,,,Not Released,,Not in stock,,5 Uses,Stanford BIOE44 - S11,Drew Endy,2011-04-28,,RBS.csv
+BBa_M36771,Strong RBS from DNA 2.0 Gene Designer,13,,,Not Released,BBa_M36804,Not in stock,,2 Uses,Stanford BIOE44 - S11,Preston Lim,2014-10-23,,RBS.csv
+BBa_M36804,pRBS-SD1+6A,13,,,Not Released,BBa_M36771,Not in stock,,3 Uses,Stanford BIOE44 - S11,Bradley Hammoor,2014-04-30,,RBS.csv
+BBa_M36913,takes PoPs input,88,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,"Rohit Talreja, Kelly Nguyen, Jacqueline Tao",2012-12-06,,RBS.csv
+BBa_M36917,Zinc Promoter (ZntR regulated) with own RBS,91,,,Not Released,,Not in stock,,Not Used,Stanford BIOE44 - S11,Leah Chase,2014-10-22,,RBS.csv
+BBa_M36925,Bicistronic RBS (medium) apFAB682,88,,,Not Released,BBa_M36282;BBa_J119025;BBa_M36120,Not in stock,,Not Used,Stanford BIOE44 - S11,Alexandra Ritchie,2013-06-09,,RBS.csv
+BBa_M45193,E. coli RBS,14,,,Not Released,BBa_B0035,Not in stock,,-1 Uses,UtahState_BE5930_-_S14,Thomas Harris,2016-04-18,,RBS.csv
+BBa_M45214,Physcomitrella patens ribosome binding site,207,,,Not Released,,Not in stock,,-1 Uses,UtahState_BE5930_-_S14,Cody Maughan,2016-04-16,,RBS.csv
+BBa_M45406,minimal TATA Box,64,,,Not Released,,Not in stock,None,4 Uses,UtahState_BE5930_-_S14,Farhad Farjood,2015-04-10,,RBS.csv
+BBa_M50007,U1 Thermosensitive 5'-UTR (includes RBS),38,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,"Cale Lester, Raquel Freeman, Tristan Yeung",2016-10-31,,RBS.csv
+BBa_M50008,U10 Thermosensitive 5'-UTR (includes RBS),39,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,"Cale Lester, Raquel Freeman, Tristan Yeung",2016-10-31,,RBS.csv
+BBa_M50019,Strong ribosome binding site,15,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,"Taylor Merkel, Chloe Thai, Julia Schulz",2016-10-27,,RBS.csv
+BBa_M50024,RBS for Gold detection plasmid,10,,,Not Released,,Not in stock,,-1 Uses,Stanford BIOE44 - S11,James Benjami Hu,2016-10-27,,RBS.csv
+BBa_M50062,Strong RBS,13,,,Not Released,,Not in stock,,-1 Uses,Stanford BIOE44 - S11,Kara Helmke Rogers,2017-04-26,,RBS.csv
+BBa_Z0261,Strong T7.2 RBS,20,,,Not Released,,Not in stock,None,98 Uses,T7.2,Sriram Kosuri,2006-05-16,,RBS.csv
+BBa_Z0262,Medium strength T7.2 RBS,20,,,Not Released,,Not in stock,None,117 Uses,T7.2,Sriram Kosuri,2006-05-16,,RBS.csv
