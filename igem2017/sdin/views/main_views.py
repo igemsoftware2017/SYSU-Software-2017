@@ -91,13 +91,13 @@ def work(request):
                         part.append({
                             'BBa': item,
                             'name': item,
-                            'isFavourite' False})
+                            'isFavourite': False})
 
             except Parts.DoesNotExist:
                 part.append({
                     'BBa': item,
                     'name': item,
-                    'isFavourite' False})
+                    'isFavourite': False})
         try:
             UserFavorite.objects.get(user = request.user, circuit = wk.Circuit)
             favorite = True

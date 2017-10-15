@@ -5,9 +5,21 @@ from django.db import models
 
 class Parts(models.Model):
     Name = models.CharField(max_length = 50, unique = True, db_index = True)
-    Description = models.CharField(max_length = 100)
+    Description = models.TextField()
+    Length = models.IntegerField(default = 0) # 0表示Unknow
+    Part_rating = models.IntegerField(default = 0)#0表示Unknow
     Type = models.CharField(max_length = 20)
-    Safety = models.CharField(max_length = 500)
+    Safety = models.IntegerField(default = 0) #0表示Unknow
+    Scores = models.FloatField(default=0.0) # 0.0分表示Unknow
+    Release_status = models.CharField(max_length = 100, default = "To be add")
+    Twins = models.CharField(max_length = 500, default = "To be add")
+    Sample_status = models.CharField(max_length = 50, default = "To be add")
+    Part_results = models.CharField(max_length = 16, default = "To be add")
+    Use = models.CharField(max_length = 50, default = "To be add")
+    Group = models.CharField(max_length = 100, default = "To be add")
+    Author = models.CharField(max_length = 256, default = "To be add")
+    DATE = models.CharField(max_length = 10, default = "To be add")
+    Distribution = models.CharField(max_length = 500, default = "To be add")
     Sequence = models.TextField()
 
     def __str__(self):

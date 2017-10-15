@@ -65,7 +65,7 @@ class Works(models.Model):
     Chassis = models.CharField(max_length = 100, default = "None")
     IEF = models.FloatField(default=0.0)
     Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE, null = True)
-    ReadCount = models.IntegerField(defalut = 0)
+    ReadCount = models.IntegerField(default = 0)
 
 
     def __str__(self):

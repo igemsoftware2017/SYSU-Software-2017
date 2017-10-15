@@ -11,15 +11,13 @@ import csv
 import json
 import traceback
 import xlrd
+from os.path import join
 
 # load parts data
 def get_parts_type(filename):
-    if "other_DNA" in filename:
-        return str("other_DNA")
-    elif "_" in filename:
-        return "%s" % filename[0 : filename.index("_")]
-    else:
-        return "%s" % filename[0 : filename.index(".")]
+    l = filename.rindex("(")
+    r = filename.rindex(")")
+    return filename[l+1:r]
 
 @atomic
 def atomic_save(items):
@@ -33,64 +31,120 @@ def atomic_add(part_subparts):
 
 def load_parts(parts_floder_path):
     errors = 0
-
     print('Deleting all previous parts...')
     Parts.objects.all().delete()
 
     print('Adding parts...')
     parts = []
+    Nameset = set()
     for root, dirs, files in os.walk(parts_floder_path):
         for name in files:
-            filepath = os.path.join(root,name)
-            csv_reader = csv.reader(open(filepath, encoding='utf-8'))
+            if "info" in name or "safety" in name or "score" in name:
+                continue
+            filepath = os.path.join(root, name)
+            csv_reader = csv.reader(open(filepath, "r", encoding='utf-8'))
             part_type = get_parts_type(name)
             print('  Loading %s...' % filepath)
-
             next(csv_reader)
             for row in csv_reader:
                 try:
+                    row[0] = row[0].strip()
+                    if row[0] in Nameset:
+                        continue
+                    Nameset.add(row[0])
+                    if row[0] == "BBa_K1899002":
+                        row.pop(1)
+                    row[13] = ";".join(list(set(row[13].strip().split(";"))))
+                    if not row[2].isdigit():
+                        row[2] = 0
+                    if not row[3].isdigit():
+                        row[3] = 0
                     parts.append(Parts(
-                        Name = row[0],
-                        Description = row[1],
-                        Type = row[2],
-                        Safety = row[4],
-                        Sequence  = row[5]
+                        Name = row[0], Description = row[1],
+                        Length = int(row[2]), Type = part_type,
+                        Part_rating = int(row[3]), Release_status = row[5],
+                        Twins = row[6],Sample_status = row[7],
+                        Part_results = row[8], Use = row[9],
+                        Group = row[10], Author = row[11],
+                        DATE =row[12], Distribution = row[13]
                     ))
-                except:
+                except Exception as err:
                     errors += 1
+                    print(err)
                     pass
     print('Saving...')
     atomic_save(parts)
     print('Error: {0:6d}'.format(errors))
-
-    errors = 0
-
-    print('Adding subparts...')
     all_parts = {p.Name: p for p in Parts.objects.all()}
-    part_subparts = []
-    for root, dirs, files in os.walk(parts_floder_path):
-        for name in files:
-            filepath = os.path.join(root, name)
-            csv_reader = csv.reader(open(filepath, encoding='utf-8'))
-            print('  Loading %s...subpart' % filepath)
+    load_part_score_and_Safety(parts_floder_path, all_parts)
+    load_part_info(parts_floder_path, all_parts)
 
-            next(csv_reader)
-            for row in csv_reader:
-                if len(row) > 3 and row[3] != "":
-                    new_part = all_parts[row[0]]
-                    for part_name in json.loads(row[3].replace('\'', '"')):
-                        try:
-                            subpart = all_parts[part_name]
-                            part_subparts.append(SubParts(
-                                parent = new_part,
+def load_part_score_and_Safety(parts_floder_path, all_parts):
+    files = ["part_score.csv", "part_safety.csv"]
+    for name in files:
+        parts = []
+        filepath = join(parts_floder_path, name)
+        reader = csv.reader(open(filepath, encoding='utf-8'))
+        print('  Loading %s...' % filepath)
+        errors = 0
+        next(reader)
+        for row in reader:
+            part = all_parts[row[0]]
+            try:
+                if name == "part_score.csv":
+                    part.Score = row[1]
+                else:
+                    part.Safety = row[1]
+                parts.append(part)
+            except:
+                errors += 1
+                pass
+        print('Saving ...')
+        atomic_save(parts)
+        print('Error: {0:6d}'.format(errors))
+
+def load_part_info(parts_floder_path, all_parts):
+    files = ["partsinfo.csv", "other_DNA_info.csv"]
+    part_subparts = []
+    parts = []
+    err1, err2 = 0, 0
+    for name in files:
+        filepath = join(parts_floder_path, name)
+        reader = csv.reader(open(filepath, encoding='utf-8'))
+        print('  Loading %s...' % filepath)
+        next(reader)
+        for row in reader:
+            if row[0] not in all_parts:
+                #print(row[0])
+                continue
+            part = all_parts[row[0]]
+            try:
+                part.Sequence = row[4]
+                parts.append(part)
+            except:
+                err1 += 1
+                pass
+            if row[2] != "":
+                for subname in json.loads(row[2].replace('\'', '"')):
+                    try:
+                        subname.replace("'", "")
+                        if subname not in all_parts:
+                           continue
+                        subpart = all_parts[subname]
+                        part_subparts.append(SubParts(
+                                parent = part,
                                 child = subpart
-                            ))
-                        except:
-                            errors += 1
-                            pass
-    print('Saving...')
+                        ))
+                    except Exception as error:
+                        #print(repr(error))
+                        err2 += 1
+                        pass
+    print('Saving parts...')
+    atomic_save(parts)
+    print('Error: {0:6d}'.format(err1))
+    print('Saving Subparts...')
     atomic_save(part_subparts)
-    print('Error: {0:6d}'.format(errors))
+    print('Error: {0:6d}'.format(err2))
 
 #load works data
 def load_works(works_floder_path):
@@ -104,9 +158,9 @@ def load_works(works_floder_path):
         if "circuits" in root:
             continue
         for name in files:
-            if name == "Team_description.csv":
+            if name == "Team_description.csv" or "score" in name:
                 continue
-            filepath = os.path.join(root,name)
+            filepath = os.path.join(root, name)
             csv_reader = csv.reader(open(filepath, encoding='utf-8'))
             print('  Loading %s...' % filepath)
             
@@ -158,8 +212,26 @@ def load_works(works_floder_path):
             works.append(work)
         except Exception as err3:
             errors += 1
-            print(row[0],' ',row[1])
             print(err3)
+            pass
+    print('Saving...')
+    atomic_save(works)
+    print('Error: {0:6d}'.format(errors))
+
+    print('Loading Team_IEF value...')
+    works = []
+    filepath = os.path.join(works_floder_path, "project_score.csv")
+    csv_reader = csv.reader(open(filepath, encoding='utf-8'))
+    errors = 0
+    next(csv_reader)
+    for row in csv_reader:
+        try:
+            work = Works.objects.get(TeamID = int(row[0]))
+            work.IEF = row[3]
+            works.append(work)
+        except Exception as err4:
+            errors += 1
+            print(err4)
             pass
     print('Saving...')
     atomic_save(works)
@@ -321,6 +393,6 @@ def load_circuits(circuits_floder_path):
 
 
 def pre_load_data(currentpath):
-    #load_parts(os.path.join(currentpath, 'parts'))
+    load_parts(os.path.join(currentpath, 'parts'))
     load_works(os.path.join(currentpath, 'works'))
     load_circuits(os.path.join(currentpath, 'works/circuits'))
