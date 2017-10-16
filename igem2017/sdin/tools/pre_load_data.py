@@ -52,8 +52,6 @@ def load_parts(parts_floder_path):
                     if row[0] in Nameset:
                         continue
                     Nameset.add(row[0])
-                    if row[0] == "BBa_K1899002":
-                        row.pop(1)
                     row[13] = ";".join(list(set(row[13].strip().split(";"))))
                     if not row[2].isdigit():
                         row[2] = 0
