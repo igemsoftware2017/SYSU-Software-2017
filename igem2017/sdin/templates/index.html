@@ -11,24 +11,10 @@
   </head>
   <body>
     {% include "nav.html" %}
-    <div class="ui main container">
-      <div class="ui left aligned container" id="logo-search-box">
-        <div class="ui middle aligned grid">
-          <div class="two wide column">
-            <img class="ui tiny image" src="./static/img/logo.png" alt="S-Din">
-          </div>
-          <div class="fourteen wide column">
-            <div class="ui form">
-              <div class="ui fluid icon input" id="search-box">
-                <input type="text" id="search-edit" placeholder="Search for projects...">
-                <i class="search icon" id="search-icon"></i>
-              </div>
-              <div id="dimmer"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+    {% include 'search-box.html' %}
+    <link rel="stylesheet" href="/static/css/search-box.css">
+
   </body>
 
   {% include "login-modal.html" %}
@@ -37,4 +23,5 @@
   <script src="/static/semantic/dist/semantic.js"></script>
   <script src="/static/js/index.js"></script>
   <script src="/static/js/login.js"></script>
+  <script src="/static/js/search-box.js"></script>
 </html>

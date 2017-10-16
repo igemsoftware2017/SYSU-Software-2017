@@ -14,21 +14,10 @@
   </head>
   <body>
     {% include "nav.html" %}
-    <div id="search-box-container">
-      <div id="logo">
-          <img class="ui fluid image" src="/static/img/logo.png" alt="S-Din">
-      </div>
-      <div id="search-box">
-        <div class="ui form">
-          <div class="field">
-            <div class="ui fluid icon input">
-              <input type="text" placeholder="Search for projects...">
-              <i class="search icon"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+    {% include 'search-box.html' %}
+    <link rel="stylesheet" href="/static/css/search-box.css">
+
     <div id="result-container">
       <div id="search-type-menu" class="ui secondary pointing inverted menu">
         <a class="active item">Project</a>
@@ -38,7 +27,7 @@
         Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
       </div>
       <div class="line">
-        <code>446</code><span id="result-span">RESULTS</span>
+        <code>{{ resultsCount }}</code><span id="result-span">RESULTS</span>
         <a id="tool">Search Tools<i class="filter icon"></i></a>
         <div class="ui flowing popup bottom left transition hidden">
           <p>Chasis</p>
@@ -90,101 +79,25 @@
       </div>
       <div id="result-list">
         <div class="ui items">
-          <div class="item">
+          {% for work in works %}
+          <div class="link item">
             <div class="fluid image"><img src="/static/img/logo.png" alt=""></div>
             <div class="content">
-              <a class="ui header" href="/detail">Year-Project name | <span class="smaller">school</span></a>
+              <a class="ui header" href="/work?id={{ work.id }}">{{ work.year }}-{{ work.projectName }}| <span class="smaller">{{ work.school }}</span></a>
               <div class="right floated">
-                IEF Value: 00000000
                 <i class="empty star icon" v-on:click="fav"></i>
                 <i class="diamond icon"></i>
               </div>
-              <div class="meta">Chasis | E.coli</div>
+              <div class="meta">{{ work.chassis }}</div>
               <div class="description">
-                <p>Description</p>
+                <p>{{ work.description }}</p>
               </div>
               <div class="middle aligned extra">
                 <a class="right floated" href="#">Rewards</a>
-                <p>Collections: 80</p>
               </div>
             </div>
           </div>
-          <div class="item">
-            <div class="image"><img src="/static/img/logo.png" alt=""></div>
-            <div class="content">
-              <a class="ui header" href="/detail">Year-Project name | <span class="smaller">school</span></a>
-              <div class="right floated">
-                IEF Value: 00000000
-                <i class="empty star icon" v-on:click="fav"></i>
-                <i class="diamond icon"></i>
-              </div>
-              <div class="meta">Chasis | E.coli</div>
-              <div class="description">
-                <p>Description</p>
-              </div>
-              <div class="middle aligned extra">
-                <a class="right floated" href="#">Rewards</a>
-                <p>Collections: 80</p>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="image"><img src="/static/img/logo.png" alt=""></div>
-            <div class="content">
-              <a class="ui header" href="/detail">Year-Project name | <span class="smaller">school</span></a>
-              <div class="right floated">
-                IEF Value: 00000000
-                <i class="empty star icon" v-on:click="fav"></i>
-                <i class="diamond icon"></i>
-              </div>
-              <div class="meta">Chasis | E.coli</div>
-              <div class="description">
-                <p>Description</p>
-              </div>
-              <div class="middle aligned extra">
-                <a class="right floated" href="#">Rewards</a>
-                <p>Collections: 80</p>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="image"><img src="/static/img/logo.png" alt=""></div>
-            <div class="content">
-              <a class="ui header" href="/detail">Year-Project name | <span class="smaller">school</span></a>
-              <div class="right floated">
-                IEF Value: 00000000
-                <i class="empty star icon" v-on:click="fav"></i>
-                <i class="diamond icon"></i>
-              </div>
-              <div class="meta">Chasis | E.coli</div>
-              <div class="description">
-                <p>Description</p>
-              </div>
-              <div class="middle aligned extra">
-                <a class="right floated" href="#">Rewards</a>
-                <p>Collections: 80</p>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="image"><img src="/static/img/logo.png" alt=""></div>
-            <div class="content">
-              <a class="ui header" href="/detail">Year-Project name | <span class="smaller">school</span></a>
-              <div class="right floated">
-                IEF Value: 00000000
-                <i class="empty star icon" v-on:click="fav"></i>
-                <i class="diamond icon"></i>
-              </div>
-              <div class="meta">Chasis | E.coli</div>
-              <div class="description">
-                <p>Description</p>
-              </div>
-              <div class="middle aligned extra">
-                <a class="right floated" href="#">Rewards</a>
-                <p>Collections: 80</p>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -198,6 +111,7 @@
   <script src="/static/semantic/dist/semantic.js"></script>
   <script src="/static/semantic/dist/components/popup.min.js"></script>
   <script src="/static/semantic/dist/components/calendar.min.js"></script>
+  <script src="/static/js/search-box.js"></script>
   <script src="/static/js/search.js"></script>
   <script src="/static/js/login.js"></script>
 </html>

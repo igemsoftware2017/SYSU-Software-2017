@@ -29,23 +29,6 @@ body {
   background-attachment: fixed;
   overflow-y: hidden;
 }
-#search-box-container {
-  margin-left: 2em;
-  margin-top: 5em;
-  position: relative;
-}
-#logo {
-  width: 50px;
-  position: absolute;
-}
-#search-box {
-  width: 876px;
-  position: absolute;
-}
-#search-box input {
-  border-radius: 0;
-  border: 0;
-}
 #detail-container {
   position: absolute;
   margin-left: 2em;
@@ -67,6 +50,7 @@ body {
   color: #6b6969;
   margin-top: 17.5px;
   margin-bottom: 17.5px;
+  cursor: pointer;
 }
 #detail-container>.title {
   margin-left: 38px;
