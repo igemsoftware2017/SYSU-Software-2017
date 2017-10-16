@@ -49,9 +49,6 @@ def search(request):
 def interest(request):
     return render(request, 'interest.html')
 
-def detail(request):
-    return render(request, 'detail.html')
-
 def register(request):
     if request.method == "POST":
         form = RegisterForm(request.POST)
@@ -192,7 +189,7 @@ def search(request):
                 'teamName': s[0],
                 'Year': s[1],
                 isFavourite: False})
-    
+
     context = {
         'works': works,
         'parts': parts,

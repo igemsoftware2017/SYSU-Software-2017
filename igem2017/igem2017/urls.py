@@ -25,7 +25,6 @@ urlpatterns = [
     url(r'^$', main_views.index),
     url(r'^index$', main_views.index),
     url(r'^search$', main_views.search),
-    url(r'^detail$', main_views.detail),
     url(r'^interest$', main_views.interest),
     url(r'^register$', main_views.register),
     url(r'^login', main_views.login_view),
