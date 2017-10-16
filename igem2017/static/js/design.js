@@ -77,7 +77,7 @@ function stickPartPanel() {
         .draggable('option', 'snapTolerance', 100)
         .draggable('option', 'axis', 'x')
         .on('drag', function(event, ui) {
-            if (ui === undefined)
+            if (ui === undefined || ui.helper[0] !== win[0])
                 return;
             if (ui.position.left < ui.originalPosition.left - 100) {
                 if (partPanelStickedToRight)
