@@ -77,7 +77,7 @@ GET: /work
     parameters: {
         id: integer
     }
-    
+
     render: {
         projectName: string
         year: integer or string
