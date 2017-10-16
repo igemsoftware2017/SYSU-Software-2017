@@ -2,13 +2,6 @@
 
 // initializing position
 let leftBlank = `2em + ${$('#logo').width()}px`;
-$('#search-box-container').css({
-    height: $('#logo').height()
-});
-$('#search-box').css({
-    left: `calc(${leftBlank})`,
-    top: ($('#search-box-container').height() - $('#search-box').height()) / 2
-});
 $('#detail-container').css({
     left: `calc(${leftBlank})`
 });
@@ -45,3 +38,5 @@ $(window).scroll( function() {
         });
     }
 });
+
+$('.back').on('click', () => { history.back(); });

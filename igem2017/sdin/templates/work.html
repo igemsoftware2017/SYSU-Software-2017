@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/css/custom.css">
-    <link rel="stylesheet" href="/static/css/detail.css">
+    <link rel="stylesheet" href="/static/css/work.css">
   </head>
   <body>
     {% include "nav.html" %}
@@ -21,22 +21,8 @@
       </div>
     </div>
 
-    <div id="search-box-container">
-      <div id="logo">
-          <img class="ui fluid image" src="/static/img/logo.png" alt="S-Din">
-      </div>
-      <div id="search-box">
-        <div class="ui form">
-          <div class="field">
-            <div class="ui fluid icon input">
-              <input type="text" placeholder="Search for projects...">
-              <i class="search icon"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    {% include 'search-box.html' %}
+    <link rel="stylesheet" href="/static/css/search-box.css">
 
     <div id="detail-container">
       <div class="back-icon">
@@ -95,6 +81,7 @@
 
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/semantic/dist/semantic.js"></script>
-  <script src="/static/js/detail.js"></script>
+  <script src="/static/js/work.js"></script>
   <script src="/static/js/login.js"></script>
+  <script src="/static/js/search-box.js"></script>
 </html>
