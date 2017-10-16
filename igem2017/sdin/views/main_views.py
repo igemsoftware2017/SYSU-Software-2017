@@ -12,6 +12,8 @@ from django.contrib.auth import authenticate, login, logout
 
 from django.contrib.auth.decorators import login_required
 
+from django.http import JsonResponse
+
 Err = "Something wrong!"
 Inv = "Invalid form!"
 
@@ -70,3 +72,130 @@ def register(request):
 
     return render(request, 'register.html')
 
+def work(request):
+    try:
+        wk = Works.objects.get(TeamID = request.GET.get('id'))
+        use_parts = wk.Use_parts.split(';')
+        part = []
+        for item in use_parts:
+            try:
+                pt = Parts.objects.get(Name = item)
+                if request.user.is_authenticated:
+                    try:
+                        FavoriteParts.objects.get(user = request.user, part = pt)
+                        part.append({
+                            'BBa': item,
+                            'name': item,
+                            'isFavourite': True})
+                    except FavoriteParts.DoesNotExist:
+                        part.append({
+                            'BBa': item,
+                            'name': item,
+                            'isFavourite': False})
+
+            except Parts.DoesNotExist:
+                part.append({
+                    'BBa': item,
+                    'name': item,
+                    'isFavourite': False})
+        if request.user.is_authenticated:
+            try:
+                UserFavorite.objects.get(user = request.user, circuit = wk.Circuit)
+                favorite = True
+            except UserFavorite.DoesNotExist:
+                favorite = False
+        else:
+            favorite = False
+
+        context = {
+            'projectName': wk.Name,
+            'year': wk.Year,
+            'readCount': wk.ReadCount,
+            'medal': wk.Medal,
+            'rewards': wk.Award,
+            'description': wk.Description,
+            'isFavourite': favorite,
+            # TODO
+            'images': '???',
+            'designId': '???',
+            'part': part}
+
+        return render(request, 'work.html', context)
+
+    except Works.DoesNotExist:
+        return HttpResponse("Work Does Not Exist!")
+
+# TODO
+search_url = 'http://e8749c0f.ap.ngrok.io'
+import requests
+import json
+
+def search(request):
+    key = request.GET.get('q')
+    res = requests.get(search_url + "?key=" + key)
+    result = json.loads(res.text)
+    parts = []
+    for item in result['parts']:
+        try:
+            p = Parts.objects.get(Name = item)
+            if request.user.is_authenticated:
+                try:
+                    FavoriteParts.objects.get(user = request.user, part = p)
+                    favourite = True
+                except FavoriteParts.DoesNotExist:
+                    favourite = False
+            else:
+                favourite = False
+            parts.append({
+                'name': p.Name,
+                'type': p.Type,
+                'id': p.id,
+                'isFavourite': favourite})
+        except Parts.DoesNotExist:
+            parts.append({
+                'name': item,
+                'type': 'unkown',
+                'id': -1,
+                'isFavourite': False})
+
+    works = []
+    for item in result['teams']:
+        try:
+            s = item.split(' ')
+            w = Works.objects.get(Teamname = s[0], Year = s[1])
+            if request.user.is_authenticated:
+                try:
+                    UserFavorite.objects.get(user = request.user, circuit = w.Circuit)
+                    favourite = True
+                except UserFavorite.DoesNotExist:
+                    favourite = False
+            else:
+                favourite = False
+            works.append({
+                'id': w.TeamID,
+                # TODO
+                'image': '???',
+                'year': w.Year,
+                'teamName': w.Teamname,
+                'projectName': w.Name,
+                # TODO
+                'school': '???',
+                'risk': '???',
+                'modal': w.Medal,
+                'description': w.Description,
+                'chassis': w.Chassis,
+                'rewards': [w.Award],
+                'isFavourite': favourite})
+        except Works.DoesNotExist:
+            works.append({
+                'id': -1,
+                'teamName': s[0],
+                'Year': s[1],
+                isFavourite: False})
+    
+    context = {
+        'works': works,
+        'parts': parts,
+        'keywords': result['keyWords'],
+        'resultsCount': len(works)}
+    return render(request, 'search.html', context)

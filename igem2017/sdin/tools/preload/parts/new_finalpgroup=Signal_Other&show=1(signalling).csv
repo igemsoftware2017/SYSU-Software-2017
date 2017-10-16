@@ -1,0 +1,413 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_I13261,Lux Receiver (I13263 with reversed part order),,,Antiquity:5,Released HQ 2013,,In stock,Works,Not Used,Antiquity,Barry Canton,2004-10-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_I13262,,,,Antiquity:5,Released HQ 2013,BBa_A340620;BBa_K317037,In stock,Works,5 Uses,Antiquity,Barry Canton,2004-08-09,,pgroup=Signal_Other&show=1.csv
+BBa_I13263,Lux Receiver (HSL & R0063 driven),,,Antiquity:5,Released HQ 2013,,In stock,Works,3 Uses,Antiquity,Barry Canton,2004-08-09,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_I13272,,,,Antiquity:5,Released HQ 2013,,In stock,Works,Not Used,Antiquity,Barry Canton,2004-11-23,,pgroup=Signal_Other&show=1.csv
+BBa_K084007,Lac repressible lasI generator (No LVA ),,1,iGEMChiba 2008:5,Released HQ 2013,,In stock,Works,Not Used,iGEM08_Chiba,"Masahiro Tominaga,Yoshimi Iyama,Kohei Kawasaki",2008-09-18,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K084008,Lac repressible RhlI generator (No LVA ),,1,iGEMChiba 2008:5,Released HQ 2013,,In stock,Works,Not Used,iGEM08_Chiba,"Masahiro Tominaga, Yoshimi Iyama, Kohei Kawasaki",2008-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K084012,Lac repressible 3OC6HSL generator (No LVA),,1,iGEMChiba 2008:5,Released HQ 2013,,In stock,Works,1 Uses,iGEM08_Chiba,"Yoshimi Iyama, Kohei Kawasaki, Masahiro Tominaga",2008-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K091153,Standard RBS with LuxS,,,,Not Released,BBa_S03968,In stock,Works,1 Uses,iGEM08_Davidson-Missouri_Western,Andrew Gordon,2008-07-21,,pgroup=Signal_Other&show=1.csv
+BBa_K091167,RBS+LuxI+TT,,,,Released HQ 2013,BBa_F1610;BBa_I9023;BBa_S03571;BBa_K082014;BBa_K569000;BBa_K805016;BBa_K1104931,In stock,Works,Not Used,iGEM08_Davidson-Missouri_Western,Andrew Gordon,2008-07-31,,pgroup=Signal_Other&show=1.csv
+BBa_K1334020,a signal complex to test whether the lux system works,,,,Not Released,,In stock,Works,Not Used,iGEM14_WHU-China,Qiushuang Wu,2014-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K137018,AHL receiver + GFP,,1,XMU-China 2011:4,Released HQ 2013,BBa_K658022,In stock,Works,Not Used,iGEM08_Caltech,Doug Tischer,2008-07-15,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K137019,AHL receiver + tet inverter + GFP,,1,,Released HQ 2013,,In stock,Works,Not Used,iGEM08_Caltech,Doug Tischer,2008-07-16,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K395162,CmR activated by LuxR and 3OC6HSL(AHL of Lux family),,,,Not Released,,In stock,Works,3 Uses,iGEM10_Tokyo_Tech,Kaneta Yusuke,2010-10-05,,pgroup=Signal_Other&show=1.csv
+BBa_K548000,Humanized Aequorin ,,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_Penn,Peter Qiao,2011-09-27,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K750000,pBADGLT:unstable gfp expression device activated by arabinose,,,,Released HQ 2013,BBa_K206005,In stock,Works,1 Uses,iGEM12_XMU-China,"Sifan Wang, Yizhen Yan, Jianzhao Chi, Qingshu Wu",2012-09-18,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K750009,TIME DELAY1.0:LuxI(RBS1.0)->LuxR->LuxPR->GFP,,,,Released HQ 2013,,In stock,Works,Not Used,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu,Xinyi Yao,Qingshu Wu",2012-09-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K750010,TIME DELAY 0.6:LuxI(RBS0.6)->LuxR->LuxPR->GFP,,,,Released HQ 2013,,In stock,Works,Not Used,iGEM12_XMU-China,"Sifan Wang, Ruosang Qiu, Shuqin Hu,Zhao Ma,Yunxin Long",2012-09-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K750012,TIME DELAY0.01:LuxI(RBS0.01)->LuxR->LuxPR->GFP,,,,Released HQ 2013,,In stock,Works,Not Used,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu,Jianzhao Chi,Muxin Yu",2012-09-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K750103,PcIGLT:GFP(lva) repression system activated by cI protein,,,,Released HQ 2013,BBa_I763011,In stock,Works,5 Uses,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Jianzhao Chi,Qingshu Wu",2012-09-21,,pgroup=Signal_Other&show=1.csv
+BBa_K766001,C6HSL reporter,,,,Released HQ 2013,BBa_J09855,In stock,Works,Not Used,iGEM12_Tsinghua,Yu Zhao,2012-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K797002,TorA signal with RBS,,,,Not Released,,In stock,Works,Not Used,iGEM12_Kyoto,Tomohiro Nobeyama,2012-09-20,,pgroup=Signal_Other&show=1.csv
+BBa_K808028,PhoA: signal sequence for peri plasmic expression,,,,Not Released,,In stock,Works,Not Used,iGEM12_TU_Darmstadt,"Marie Burghard, Jascha Diemer, Adrian Eilingsfeld, Philipp Rottmann, Rene Sahm, Arne Wehling",2012-09-02,,pgroup=Signal_Other&show=1.csv
+BBa_T9002,GFP Producer Controlled by 3OC6HSL Receiver Device,,1,,Released HQ 2013,BBa_K204034;BBa_K204700,In stock,Works,5 Uses,,Anna Labno,2005-06-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_I0466,RhlR Protein Generator,,1,Antiquity:0,Released HQ 2013,BBa_P0471,In stock,None,10 Uses,Antiquity,mit,2004-07-13,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_I13018,LuxR Cassette under Ptet (Other),,,Antiquity:0,Released HQ 2013,BBa_S03119;BBa_T9012;BBa_K082020;BBa_K318511;BBa_K1713016,In stock,None,1 Uses,Antiquity,mit,2004-07-13,,pgroup=Signal_Other&show=1.csv
+BBa_I13202,,,,Antiquity:0,Released HQ 2013,BBa_I751250;BBa_I751350,In stock,None,5 Uses,Antiquity,Barry Canton,2004-07-30,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_I13207,HSL/aiiA test construct,,,Antiquity:0,Released HQ 2013,,In stock,None,2 Uses,Antiquity,Barry Canton,2004-08-01,,pgroup=Signal_Other&show=1.csv
+BBa_I13211,Biobricked version of the natural Lux quorum sensing system,,,Antiquity:0,Released HQ 2013,BBa_J28028;BBa_K546000,In stock,None,Not Used,Antiquity,Barry Canton,2004-08-05,,pgroup=Signal_Other&show=1.csv
+BBa_I1466,RhlR protein generator (LVA-),,1,Antiquity:0,Released HQ 2013,,In stock,None,17 Uses,Antiquity,Barry Canton,2004-08-10,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_I731017,Ptet bicistronic 3OC6HSL Sender + mCherry,,,,Released HQ 2013,BBa_J24007,In stock,,Not Used,iGEM07_Harvard,George Xu,2007-10-18,,pgroup=Signal_Other&show=1.csv
+BBa_I746001,I746000 (AIP generator - agrB + agrD with RBSes) + B0015 (Terminator),,,,Released HQ 2013,,In stock,,4 Uses,iGEM07_Cambridge,Lovelace Soirez,2007-10-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_I746008,I0500 (Inducible pBad/araC) + I746001 (AIP generator - agrB + agrD with RBSes + Terminator),,,,Released HQ 2013,,In stock,,Not Used,iGEM07_Cambridge,Lovelace Soirez,2007-10-23,,pgroup=Signal_Other&show=1.csv
+BBa_I746101,I746100 (AIP sensor infrastructure - agrC + agrA with RBSes) + B0015 (Terminator),,1,,Released HQ 2013,,In stock,,8 Uses,iGEM07_Cambridge,Lovelace Soirez,2007-10-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_I746103,I746101 (AIP sensor infrastructure - agrC + agrA with RBSes + Terminator) + I746104 (Inducible P2),,,,Released HQ 2013,,In stock,None,2 Uses,iGEM07_Cambridge,Lovelace Soirez,2007-10-23,,pgroup=Signal_Other&show=1.csv
+BBa_I746107,I746101 (AIP sensor infrastructure) + I746105 (Inducible P2 + GFP reporter),,1,,Released HQ 2013,,In stock,,1 Uses,iGEM07_Cambridge,Lovelace Soirez,2007-10-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_J06001,Tet repressible luxI generator ( LVA+ ),,,Antiquity:0,Released HQ 2013,BBa_J23039;BBa_K082030;BBa_K082029;BBa_K336100;BBa_K1692023,In stock,None,Not Used,iGEM2005,sash31,2005-06-13,,pgroup=Signal_Other&show=1.csv
+BBa_J06101,Tet repressible lasI generator ( LVA+ ),,,Antiquity:0,Not Released,BBa_K204047;BBa_K336008,In stock,None,Not Used,iGEM2005,kxjin,2005-06-21,,pgroup=Signal_Other&show=1.csv
+BBa_J06201,Tet repressible rhI generator (LVA+),,,Antiquity:0,Released HQ 2013,BBa_K082035,In stock,None,Not Used,iGEM2005,sash31,2005-06-24,,pgroup=Signal_Other&show=1.csv
+BBa_J13040,pOmpR dependent 3OC6HSL sender device,,,Antiquity:0,Not Released,,In stock,None,Not Used,iGEM2005,Jeff Tabor,2005-07-19,,pgroup=Signal_Other&show=1.csv
+BBa_J23040,"[TetR][rbs][LuxR][dblTerm][LuxPR]+[rbs][LacI][dblTerm]  ""AHL-dependent inverter""",,,,Released HQ 2013,,In stock,,Not Used,iGEM2006_Berkeley,Will Bosworth,2006-08-01,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_J24007,AHL Sender w/ mCherry,,,,Released HQ 2013,BBa_I731017,In stock,,Not Used,iGEM2006_Brown,Jamie Lemon,2006-06-29,,pgroup=Signal_Other&show=1.csv
+BBa_J24018,TetR promoted AHL sensor and LacI producer,,1,,Released HQ 2013,,In stock,None,Not Used,iGEM2006_Brown,Jamie Lemon,2006-07-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K092000,TetR coding sequence with RBS and terminator,,,,Released HQ 2013,BBa_P0440;BBa_S03880;BBa_K176006;BBa_K228814;BBa_K195603,In stock,None,2 Uses,iGEM08_EPF-Lausanne,EPF-Lausanne Team 2008,2008-10-12,,pgroup=Signal_Other&show=1.csv
+BBa_K1071012,SP1,,,,Not Released,,In stock,None,Experience: None,iGEM13_Marburg,Team Marburg 2013,2013-09-19,,pgroup=Signal_Other&show=1.csv
+BBa_K1071013,SP2,,,,Not Released,,In stock,None,Not Used,iGEM13_Marburg,Team Marburg 2013,2013-09-19,,pgroup=Signal_Other&show=1.csv
+BBa_K1150010,NLS,,,,Not Released,BBa_K404153,In stock,None,Experience: None,iGEM13_Freiburg,Freiburg 2013,2013-09-16,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K1166003,His-TAT,,,,Not Released,,In stock,,Not Used,iGEM13_TecMonterrey,Luis Mario Leal Garza,2013-09-17,,pgroup=Signal_Other&show=1.csv
+BBa_K1214000,ComC,,,,Not Released,,In stock,,Not Used,iGEM13_UT_Dallas,Alec Spinhirne,2013-09-16,,pgroup=Signal_Other&show=1.csv
+BBa_K123004,Ptet-RFP,,,,Released HQ 2013,BBa_J13069;BBa_S03887;BBa_K092300;BBa_K199051;BBa_K257014;BBa_K577897,In stock,,Not Used,iGEM08_University_of_Alberta,Jason Gardiner,2008-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_K1343015,PT7-LuxI,,,,Not Released,,In stock,None,Not Used,iGEM14_Technion-Israel,"Tal Naor, Ricarina Rabinovitz, Ittai Rubinstein, Yair Maimon",2014-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K1343019,Plux->Green Renilla Luciferase->tetR ,,,,Not Released,,In stock,None,Not Used,iGEM14_Technion-Israel,"Tal Naor, Ricarina Rabinovitz, Ittai Rubinstein, Yair Maimon",2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K1343020,Plux->Green Renilla Luciferase->lacI,,,,Not Released,,In stock,None,Not Used,iGEM14_Technion-Israel,"Tal Naor, Ricarina Rabinovitz, Ittai Rubinstein, Yair Maimon",2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K1343021,Plux->amilCP->lambda CI,,,,Not Released,,In stock,None,Not Used,iGEM14_Technion-Israel,"Tal Naor, Ricarina Rabinovitz, Ittai Rubinstein, Yair Maimon",2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K1343022,Plux->amilCP->tetR,,,,Not Released,,In stock,None,Not Used,iGEM14_Technion-Israel,"Tal Naor, Ricarina Rabinovitz, Ittai Rubinstein, Yair Maimon",2014-10-06,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K1365998,AHL Generator that can be used in E.coli and L.lactis,,,,Not Released,,In stock,,Not Used,iGEM14_Groningen,chandhuru Jagadeesan,2014-10-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K1541001,test,,,,Not Released,,In stock,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K1541002,test,,,,Not Released,BBa_K1793000,In stock,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K1541003,test,,,,Not Released,,In stock,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K1541004,test,,,,Not Released,,In stock,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K1541008,test,,,,Not Released,,In stock,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K1541017,rhlI with optimized RBS,,,,Not Released,,In stock,None,Not Used,iGEM14_ETH_Zurich,Daniel Gerngross,2014-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K177028,mitochondrial location signal from Cox gene,,,,Not Released,BBa_K1119000;BBa_K1119001,In stock,,No Results,iGEM09_Warsaw,Kamila Ornoch,2009-07-15,,pgroup=Signal_Other&show=1.csv
+BBa_K422001,Archeal light receptor fused to bacterial chemotaxis transducer,,,,Not Released,,In stock,None,Not Used,iGEM10_ETHZ_Basel,Katharina Zwicky,2010-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_I0424,I0404.I6101,,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,jcbraff,2004-07-14,,pgroup=Signal_Other&show=1.csv
+BBa_I0426,I0406.I6107,,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,jcbraff,2004-07-14,,pgroup=Signal_Other&show=1.csv
+BBa_I0428,I0408.I6106,,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,jcbraff,2004-07-14,,pgroup=Signal_Other&show=1.csv
+BBa_I0429,I0408.I6116,,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,jcbraff,2004-07-14,,pgroup=Signal_Other&show=1.csv
+BBa_I0464,LasR Protein Generator,,,Antiquity:0,Not Released,BBa_I2010;BBa_P0479;BBa_S03547;BBa_S03882;BBa_S03954;BBa_K136048,It's complicated,None,1 Uses,Antiquity,"Fred, Jay, Madeline, Debra",2004-07-13,,pgroup=Signal_Other&show=1.csv
+BBa_I0468,Cin R Protein Generator,,,Antiquity:0,Not Released,BBa_P0477;BBa_S03548,Not in stock,None,1 Uses,Antiquity,mit,2004-07-13,,pgroup=Signal_Other&show=1.csv
+BBa_I13035,,,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,CC Signalling,2004-07-20,,pgroup=Signal_Other&show=1.csv
+BBa_I13203,pBad.aiiA protein generator (LVA-),,,Antiquity:0,Not Released,BBa_I534160,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-30,,pgroup=Signal_Other&show=1.csv
+BBa_I13205,HSL/aiiA test construct,,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-30,,pgroup=Signal_Other&show=1.csv
+BBa_I13206,aiiA (LVA-) protein generator driven by ptet,,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-30,,pgroup=Signal_Other&show=1.csv
+BBa_I13208,aiiA (LVA-) protein generator driven by plac,,,Antiquity:0,Not Released,,It's complicated,None,1 Uses,Antiquity,Barry Canton,2004-08-03,,pgroup=Signal_Other&show=1.csv
+BBa_I13210,Lux/Cin Relaxation Oscillator,,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,SMUG Cell-Cell Signalling: Jay,2004-07-30,,pgroup=Signal_Other&show=1.csv
+BBa_I13212,LuxR Protein Generator Controlled by the Left Lux Promoter,,,Antiquity:0,Not Released,BBa_J06497;BBa_J06483;BBa_K1421004,It's complicated,None,1 Uses,Antiquity,Barry Canton,2004-08-05,,pgroup=Signal_Other&show=1.csv
+BBa_I13213,BioBricked version of the natural Lux system with order reversed,,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-08-05,,pgroup=Signal_Other&show=1.csv
+BBa_I13220,Natural Lux Promoter 2nd Generation,,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-08-18,,pgroup=Signal_Other&show=1.csv
+BBa_I13264,Lux based Sender/Receiver/Reporter system,,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-08-09,,pgroup=Signal_Other&show=1.csv
+BBa_I13265,Lux based Sender/Receiver/Reporter system (LVA-),,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-08-09,,pgroup=Signal_Other&show=1.csv
+BBa_I13266,Lux-based Sender/Receiver Device which outputs PoPS,,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-08-09,,pgroup=Signal_Other&show=1.csv
+BBa_I13273,,,,Antiquity:5,Not Released,BBa_T9300,It's complicated,Works,4 Uses,Antiquity,Barry Canton,2004-08-09,,pgroup=Signal_Other&show=1.csv
+BBa_I13274,Lux Receiver (HSL & R0011 driven),,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-08-26,,pgroup=Signal_Other&show=1.csv
+BBa_I13277,"PoPS->PoPS amplifier (CinR-based, HSL driven)",,,Antiquity:0,Not Released,,Not in stock,None,2 Uses,Antiquity,"Debra Lin, Cell-Cell Signaling SMUG",2004-08-09,,pgroup=Signal_Other&show=1.csv
+BBa_I1467,AI-1 protein generator (LVA-),,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Endy Lab,labnoa,2005-07-11,,pgroup=Signal_Other&show=1.csv
+BBa_I534060,aiiA Protein Generator (LVA+) Controlled by a tet Repressible Promoter,,,Antiquity:0,Not Released,BBa_I13204,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-30,,pgroup=Signal_Other&show=1.csv
+BBa_I711006,Red light sensor,,,,Not Released,,Not in stock,None,Not Used,iGEM07_Virginia,VGEM 2007,2007-06-05,,pgroup=Signal_Other&show=1.csv
+BBa_I722006,GFP Producer Controlled by 3OC6HSL (without Promoter),,,,Not Released,BBa_S03825,It's complicated,Works,Not Used,iGEM07_Tianjin,"Zhu Manli, Cao Yingxiu, Wang Xing",2007-10-20,,pgroup=Signal_Other&show=1.csv
+BBa_I722008,GFP Producer induced by IPTG ,,,,Not Released,,It's complicated,None,2 Uses,iGEM07_Tianjin,"Wang Xing, Zhu Manli, Cao Yingxiu",2007-10-20,,pgroup=Signal_Other&show=1.csv
+BBa_I722009,Test of expression of CI repressor,,,,Not Released,,Not in stock,None,Not Used,iGEM07_Tianjin,"Wang Xing, Zhu Manli, Cao Yingxiu",2007-10-20,,pgroup=Signal_Other&show=1.csv
+BBa_I731005,Constitutive lux I + Constitutive lux R + luxpR-regulated GFP,,,,Not Released,,It's complicated,,Not Used,iGEM07_Harvard,Stephanie Lo,2007-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_I731006,Constitutive lux I + mRFP1 ,,,,Not Released,,It's complicated,,Not Used,iGEM07_Harvard,Stephanie Lo,2007-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_I731007,lacI+pL-promoter regulated lux I + mRFP1,,,,Not Released,,It's complicated,,Not Used,iGEM07_Harvard,Stephanie Lo,2007-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_I731009,Constitutive lux I + GFP,,,,Not Released,,It's complicated,,Not Used,iGEM07_Harvard,Stephanie Lo,2007-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_I731010,lacI+pl-promoter regulated lux I + GFP,,,,Not Released,,It's complicated,,Not Used,iGEM07_Harvard,Stephanie Lo,2007-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_I731012,Constitutive luxR + luxpR-controlled RFP,,,,Not Released,BBa_I13549;BBa_J107032,It's complicated,,Not Used,iGEM07_Harvard,Stephanie Lo,2007-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_I731013,luxpR-regulated luxR + luxpR-regulated GFP,,,,Not Released,BBa_I731018,It's complicated,,Not Used,iGEM07_Harvard,Stephanie Lo,2007-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_I731014,"The luxR based receiver, F2620 (formerly I13270), controls the production of mCherry",,1,,Not Released,BBa_I13556,It's complicated,,Not Used,iGEM07_Harvard,George Xu,2007-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_I731015,luxpR controlled 3OC6HSL sender + receiver,,,,Not Released,,It's complicated,,Not Used,iGEM07_Harvard,George Xu,2007-10-18,,pgroup=Signal_Other&show=1.csv
+BBa_I731016,luxpR Receiver and luxpR RFP ,,,,Not Released,,It's complicated,,Not Used,iGEM07_Harvard,George Xu,2007-10-18,,pgroup=Signal_Other&show=1.csv
+BBa_I731018,luxpR controlled luxR and GFP,,,,Not Released,BBa_I731013,It's complicated,,Not Used,iGEM07_Harvard,George Xu,2007-10-25,,pgroup=Signal_Other&show=1.csv
+BBa_I746210,AIP Sender,,,,Not Released,,It's complicated,,Not Used,iGEM07_Cambridge,Narin Hengrung,2007-10-23,,pgroup=Signal_Other&show=1.csv
+BBa_I746211,AIP Sender,,,,Not Released,,It's complicated,None,Not Used,iGEM07_Cambridge,David Wyatt,2007-10-23,,pgroup=Signal_Other&show=1.csv
+BBa_I746220,AIP Detector,,,,Not Released,,It's complicated,,Not Used,iGEM07_Cambridge,Narin Hengrung,2007-10-23,,pgroup=Signal_Other&show=1.csv
+BBa_I756028,cmv - IgM signal- VH-VL-EporD2-EporTm mut- gp130i- dnaEC-VP16-SV40PA,,,,Not Released,,Not in stock,,Not Used,iGEM07_Bay_Area_RSI,Jennifer Lei,2007-10-25,,pgroup=Signal_Other&show=1.csv
+BBa_I756030,cmv-mLexa-dnaEN-Shp2-SV40PA,,,,Not Released,,Not in stock,,Not Used,iGEM07_Bay_Area_RSI,Jennifer Lei,2007-10-25,,pgroup=Signal_Other&show=1.csv
+BBa_I756032,FcGammaRIIa-R131,,,,Not Released,,Not in stock,,Not Used,iGEM07_Bay_Area_RSI,Omar Khan,2007-10-25,,pgroup=Signal_Other&show=1.csv
+BBa_I756033,CD11a,,,,Not Released,,Not in stock,,Not Used,iGEM07_Bay_Area_RSI,Jennifer Lei,2007-10-25,,pgroup=Signal_Other&show=1.csv
+BBa_I756034,CD18-gsl-Nub  ,,,,Not Released,,Not in stock,,Not Used,iGEM07_Bay_Area_RSI,Jennifer Lei,2007-10-25,,pgroup=Signal_Other&show=1.csv
+BBa_I756035,CD18-Cub-mlexA-linker-VP16,,,,Not Released,,Not in stock,,Not Used,iGEM07_Bay_Area_RSI,Jennifer Lei,2007-10-25,,pgroup=Signal_Other&show=1.csv
+BBa_I765013,Iron promoter- luxI  HSL signaling device,,,,Not Released,,It's complicated,None,Not Used,iGEM07_Colombia_Israel,Juliana Maria Navia and Alex Quintero,2007-10-26,,pgroup=Signal_Other&show=1.csv
+BBa_J06002,Tet repressible luxI generator ( LVA- ),,,Antiquity:0,Not Released,BBa_K204022,Not in stock,None,Not Used,iGEM2005,sash31,2005-06-13,,pgroup=Signal_Other&show=1.csv
+BBa_J06102,Tet repressible lasI generator ( LVA- ),,,Antiquity:0,Not Released,,Not in stock,None,Not Used,iGEM2005,kxjin,2005-06-21,,pgroup=Signal_Other&show=1.csv
+BBa_J06400,3OC12HSL Receiver,,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,iGEM2005,kxjin,2005-06-22,,pgroup=Signal_Other&show=1.csv
+BBa_J06401,30C12HSL Sender,,,Antiquity:0,Not Released,BBa_S03291,Not in stock,None,1 Uses,iGEM2005,kxjin,2005-06-22,,pgroup=Signal_Other&show=1.csv
+BBa_J06402,C4HSL Receiver,,,Antiquity:0,Not Released,,Not in stock,None,6 Uses,iGEM2005,kxjin,2005-06-23,,pgroup=Signal_Other&show=1.csv
+BBa_J07012,scFv anti-fluorescein [4-4-20],,,Antiquity:0,Not Released,,It's complicated,None,3 Uses,iGEM2005,mit_igem_2005,2005-07-08,,pgroup=Signal_Other&show=1.csv
+BBa_J07013,scFv anti-fluorescein [S101A],,,Antiquity:0,Not Released,,It's complicated,None,3 Uses,iGEM2005,mit_igem_05,2005-07-08,,pgroup=Signal_Other&show=1.csv
+BBa_J07014,scFv anti-fluorescein [4M5.3],,,Antiquity:0,Not Released,,It's complicated,None,3 Uses,iGEM2005,mit_igem_2005,2005-07-08,,pgroup=Signal_Other&show=1.csv
+BBa_J07043,J07012.B0015 (scFv 4-4-20.TT),,,,Not Released,,It's complicated,,Not Used,iGEM2005,Jenny Nguyen,2005-08-03,,pgroup=Signal_Other&show=1.csv
+BBa_J07044,J07013.B0015 (scFv S101A.TT),,,,Not Released,,It's complicated,,Not Used,iGEM2005,Jenny Nguyen,2005-08-03,,pgroup=Signal_Other&show=1.csv
+BBa_J07045,J07014.B0015 (scFv 4M5.3.TT),,,,Not Released,,It's complicated,,Not Used,iGEM2005,Jenny Nguyen,2005-08-03,,pgroup=Signal_Other&show=1.csv
+BBa_J07073, -- No description --,,,,Not Released,,Not in stock,,Not Used,iGEM2005,Will Bosworth,2005-08-23,,pgroup=Signal_Other&show=1.csv
+BBa_J23120,Locked RFP (J23077) with OriT (J01003). Lock that can be transferred via conjugation,,,,Not Released,,Not in stock,,Not Used,iGEM2006_Berkeley,Will Bosworth,2006-10-08,,pgroup=Signal_Other&show=1.csv
+BBa_J23121,J01003::J23007 key3 and OriT (goes with J23120) ,,,,Not Released,,Not in stock,,Not Used,iGEM2006_Berkeley,Will Bosworth,2006-10-08,,pgroup=Signal_Other&show=1.csv
+BBa_J23203,Ser2-tRNA key with 9bp spacer,,,,Not Released,,No part sequence,,No Sequence,iGEM2006_Berkeley,Samantha Liang,2006-11-27,,pgroup=Signal_Other&show=1.csv
+BBa_J24006, -- No description -- ,,,,Not Released,,Not in stock,,Not Used,iGEM2006_Brown,Jamie Lemon,2006-06-29,,pgroup=Signal_Other&show=1.csv
+BBa_J24667,TetR repressed LuxI / RFP Generator,,,,Not Released,,Not in stock,,Not Used,iGEM2006_Brown,Brendan Hickey,2006-07-03,,pgroup=Signal_Other&show=1.csv
+BBa_J24668,TetR regulated AHL Producer (with LVA- RFP),,,,Not Released,,Not in stock,,Not Used,iGEM2006_Brown,Brendan Hickey,2006-07-06,,pgroup=Signal_Other&show=1.csv
+BBa_J28031,lux autoinducer,,1,,Not Released,,It's complicated,None,9 Uses,iGEM2006_Cambridge,Cambridge iGEM 2006 Team,2006-10-24,,pgroup=Signal_Other&show=1.csv
+BBa_J28032,las autoinducer,,1,,Not Released,,It's complicated,None,7 Uses,iGEM2006_Cambridge,Cambridge iGEM 2006 Team,2006-10-25,,pgroup=Signal_Other&show=1.csv
+BBa_J329000,Simple lux-based QS system,,,,Not Released,BBa_J329040,Not in stock,,Not Used,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2015-06-02,,pgroup=Signal_Other&show=1.csv
+BBa_J329001,Simple lux-based QS circuit expressing untagged GFP,,,,Not Released,BBa_K1072000,It's complicated,,Not Used,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2015-06-09,,pgroup=Signal_Other&show=1.csv
+BBa_J329003,Simple Quorum Sensing System Expressing YFP,,,,Not Released,,Not in stock,,Not Used,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2015-06-22,,pgroup=Signal_Other&show=1.csv
+BBa_J329004,Quorum Sensing Sender Part for Use in BBa_J329003,,,,Not Released,BBa_J329005,Not in stock,,Not Used,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2015-06-22,,pgroup=Signal_Other&show=1.csv
+BBa_J329005,LuxI for RBS Swapping,,,,Not Released,BBa_J329004,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2015-09-23,,pgroup=Signal_Other&show=1.csv
+BBa_J329006,Simple QS Circuit with GFP Controlled by LuxR Promoter ,,,,Not Released,,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2017-03-11,,pgroup=Signal_Other&show=1.csv
+BBa_J329040,luxIR QS System with B0034 RBSs and LVA-tagged GFP ,,,,Not Released,BBa_J329000,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2016-07-07,,pgroup=Signal_Other&show=1.csv
+BBa_J329050,Strong AiiA Expression Plasmid,,,,Not Released,,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2016-09-08,,pgroup=Signal_Other&show=1.csv
+BBa_J329051,Low AiiA Expression Plasmid,,,,Not Released,,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2016-09-08,,pgroup=Signal_Other&show=1.csv
+BBa_J329052,Medium AiiA Expression Part,,,,Not Released,,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2016-09-14,,pgroup=Signal_Other&show=1.csv
+BBa_J329053,Medium AiiA Expression Part,,,,Not Released,,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2016-09-14,,pgroup=Signal_Other&show=1.csv
+BBa_J329054,Medium AiiA Expression Part,,,,Not Released,,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2016-09-14,,pgroup=Signal_Other&show=1.csv
+BBa_J329055,Medium AiiA Expression Part,,,,Not Released,BBa_S03263,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2016-09-14,,pgroup=Signal_Other&show=1.csv
+BBa_J329056,Medium AiiA Expression Part,,,,Not Released,,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2016-09-14,,pgroup=Signal_Other&show=1.csv
+BBa_J329060,Strong AiiA Expression with RFP ,,,,Not Released,,Not in stock,,-1 Uses,Micro_NanoScale_Biotic_Abiotic_Systems_Engineering_Laboratory_,Eric Leaman,2016-09-26,,pgroup=Signal_Other&show=1.csv
+BBa_J37015,Prey Molecule Generator (AHL) + GFP Reporter,,1,IGEM:IMPERIAL/2006:5,Not Released,,It's complicated,None,1 Uses,iGEM2006_Imperial,Tom Hinson,2006-07-17,,pgroup=Signal_Other&show=1.csv
+BBa_J46000,Arabinose Sensor linked to ECFP and HSL production,,,,Not Released,,Not in stock,,1 Uses,iGEM2006_Oklahoma,Graham Wiley,2006-08-11,,pgroup=Signal_Other&show=1.csv
+BBa_J46001,HSL amplifier,,,,Not Released,,Not in stock,,1 Uses,iGEM2006_Oklahoma,Graham Wiley,2006-08-11,,pgroup=Signal_Other&show=1.csv
+BBa_J46002,Arabinose Sensor w/ Signal Amplifier,,,,Not Released,,Not in stock,,Not Used,iGEM2006_Oklahoma,Graham Wiley,2006-08-11,,pgroup=Signal_Other&show=1.csv
+BBa_J47420,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47421,constitutive luxI sender device,,,,Not Released,BBa_I741003,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47422,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47423,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47424,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47425,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47426,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47427,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47428,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47429,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47430,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J47431,constitutive luxI sender device,,,,Not Released,,Not in stock,,Not Used,iGEM2006_PennState,Jon Badalamenti,2006-10-27,,pgroup=Signal_Other&show=1.csv
+BBa_J48109,lux I ,,,,Not Released,,Not in stock,,1 Uses,iGEM2006_PrairieView,Laina Magaya,2006-11-03,,pgroup=Signal_Other&show=1.csv
+BBa_J69010,3OC6-HSL Lux Reciever Device - Codon-Optimised,,,,Not Released,,Not in stock,None,1 Uses,Haseloff Lab,James Brown,2009-01-12,,pgroup=Signal_Other&show=1.csv
+BBa_J69011,3OC6-HSL Lux Reciever Device (Codon-Optimised) with GFP Reporter,,,,Not Released,,Not in stock,,1 Uses,Haseloff Lab,James Brown,2009-01-23,,pgroup=Signal_Other&show=1.csv
+BBa_J69050,C6 Sender Device,,,,Not Released,BBa_J69055,Not in stock,Works,1 Uses,Haseloff Lab,James Brown,2008-10-31,,pgroup=Signal_Other&show=1.csv
+BBa_J69110,Las Reciever ,,,,Not Released,,Not in stock,,1 Uses,Haseloff Lab,James Brown,2007-03-29,,pgroup=Signal_Other&show=1.csv
+BBa_J69111,Las Reciever with GFP Output,,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2007-03-29,,pgroup=Signal_Other&show=1.csv
+BBa_J69120,3OC12-HSL Receiver [lasR:(p)luxI],,,,Not Released,BBa_J69121,Not in stock,None,Not Used,Haseloff Lab,James Brown,2007-03-29,,pgroup=Signal_Other&show=1.csv
+BBa_J69121,3OC12-HSL Receiver ,,,,Not Released,BBa_J69120,Not in stock,None,3 Uses,Haseloff Lab,James Brown,2010-09-01,,pgroup=Signal_Other&show=1.csv
+BBa_J69122,C12 AHL Receiver test construct with EYFP Reporter ,,,,Not Released,BBa_T9201,Not in stock,,Not Used,Haseloff Lab,James Brown,2011-11-30,,pgroup=Signal_Other&show=1.csv
+BBa_J69130,3OC12-HSL Receiver with GFP [lasR:(p)vqsR:GFP],,,,Not Released,,Not in stock,,1 Uses,Haseloff Lab,James Brown,2010-09-01,,pgroup=Signal_Other&show=1.csv
+BBa_J69131,3OC12-HSL Receiver with GFP [lasR:(p)vqsR:GFP],,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2010-09-01,,pgroup=Signal_Other&show=1.csv
+BBa_J69210,cviR-vioA Receiver Device v2.00,,,,Not Released,,Not in stock,None,1 Uses,Haseloff Lab,James Brown,2010-02-18,,pgroup=Signal_Other&show=1.csv
+BBa_J69211,cviR-vioA Receiver Device v2.01,,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2010-02-18,,pgroup=Signal_Other&show=1.csv
+BBa_J69212,cviR-vioA Receiver Device v2.02,,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2010-02-18,,pgroup=Signal_Other&show=1.csv
+BBa_K084009,Lac repressible RhlI generator,,1,iGEMChiba 2008:5,Not Released,,It's complicated,Works,Not Used,iGEM08_Chiba,"Masahiro Tominaga, Yoshimi Iyama, Kohei Kawasaki",2008-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K084010,Lac repressible CinI generator,,,iGEMChiba 2008:5,Not Released,,It's complicated,None,Not Used,iGEM08_Chiba,"Masahiro Tominaga, Yoshimi Iyama, Kohei Kawasaki",2008-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K084014,3OC6HSL Sender Device,,1,iGEMChiba 2008:5,Not Released,BBa_S03822,It's complicated,Works,1 Uses,iGEM08_Chiba,"Kawasaki Kohei,Masahiro Tominaga, Yoshimi Iyama",2008-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K091135,Las Sender Testing Device,,,,Not Released,BBa_K091136,It's complicated,None,Not Used,iGEM08_Davidson-Missouri_Western,Erin Feeney,2008-07-14,,pgroup=Signal_Other&show=1.csv
+BBa_K091136,Las Sender Testing Device,,,,Not Released,BBa_K091135,It's complicated,None,1 Uses,iGEM08_Davidson-Missouri_Western,Erin Feeney,2008-07-14,,pgroup=Signal_Other&show=1.csv
+BBa_K091149,pLas' Testing Construct B,,,,Not Released,,Not in stock,None,Not Used,iGEM08_Davidson-Missouri_Western,Erin Feeney,2008-07-17,,pgroup=Signal_Other&show=1.csv
+BBa_K091150,pLas' Testing Construct C,,,,Not Released,,Not in stock,None,Not Used,iGEM08_Davidson-Missouri_Western,Erin Feeney,2008-07-18,,pgroup=Signal_Other&show=1.csv
+BBa_K091151,pLas' Testing Construct D,,,,Not Released,,Not in stock,None,Not Used,iGEM08_Davidson-Missouri_Western,Erin Feeney,2008-07-18,,pgroup=Signal_Other&show=1.csv
+BBa_K091152,pLas' Testing Construct D,,,,Not Released,BBa_S04019,Not in stock,None,Not Used,iGEM08_Davidson-Missouri_Western,Erin Feeney,2008-07-18,,pgroup=Signal_Other&show=1.csv
+BBa_K091161,RBS+LasI+RBS+Mnt+TT,,,,Not Released,,It's complicated,None,1 Uses,iGEM08_Davidson-Missouri_Western,Andrew Gordon,2008-07-28,,pgroup=Signal_Other&show=1.csv
+BBa_K091162,Promoter+RBS+LasI+RBS+Mnt+TT,,,,Not Released,,It's complicated,None,1 Uses,iGEM08_Davidson-Missouri_Western,Andrew Gordon,2008-07-28,,pgroup=Signal_Other&show=1.csv
+BBa_K091163,RBS+LuxS+RBS+Mnt+TT,,,,Not Released,,It's complicated,None,1 Uses,iGEM08_Davidson-Missouri_Western,Andrew Gordon,2008-07-28,,pgroup=Signal_Other&show=1.csv
+BBa_K091164,pLux/cI-RBS-LuxS-RBS-Mnt-TT,,,,Not Released,,It's complicated,None,1 Uses,iGEM08_Davidson-Missouri_Western,Andrew Gordon,2008-07-28,,pgroup=Signal_Other&show=1.csv
+BBa_K091166,pBAD-RBS-luxR,,,,Not Released,,It's complicated,Works,5 Uses,iGEM08_Davidson-Missouri_Western,Andrew Gordon,2008-07-31,,pgroup=Signal_Other&show=1.csv
+BBa_K091179,LuxR receiver and pBAD promoter,,,,Not Released,BBa_K327003,It's complicated,Works,2 Uses,iGEM08_Davidson-Missouri_Western,Andrew Gordon,2008-08-04,,pgroup=Signal_Other&show=1.csv
+BBa_K091183,pBAD+RBS+LuxR+RBS+cI lam+TT,,,,Not Released,,It's complicated,None,1 Uses,iGEM08_Davidson-Missouri_Western,Andrew Gordon,2008-08-06,,pgroup=Signal_Other&show=1.csv
+BBa_K092100,Constitutive RhlR Receiver,,1,,Not Released,,It's complicated,None,1 Uses,iGEM08_EPF-Lausanne,EPF-Lausanne Team 2008,2008-10-12,,pgroup=Signal_Other&show=1.csv
+BBa_K092200,RhlI with RBS and terminator,,,,Not Released,BBa_I9027;BBa_P0470;BBa_F1700;BBa_K082023,It's complicated,None,Not Used,iGEM08_EPF-Lausanne,EPF-Lausanne Team 2008,2008-10-12,,pgroup=Signal_Other&show=1.csv
+BBa_K092400,LuxI with RBS and Terminator ,,1,,Not Released,,It's complicated,None,3 Uses,iGEM08_EPF-Lausanne,EPF-Lausanne Team 2008,2008-10-19,,pgroup=Signal_Other&show=1.csv
+BBa_K094150,pLacI/ara-1-rbs-luxR-rbs-luxI-terminator,,,,Not Released,,It's complicated,Works,1 Uses,iGEM08_iHKU,Liu Chenli,2008-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K1024002,Reporter for quorum sensing systems in yeast,,,,Not Released,,It's complicated,None,Not Used,iGEM13_Tsinghua,Sun Xiaochen,2013-09-09,,pgroup=Signal_Other&show=1.csv
+BBa_K1024003,Reporter for Tet system in Yeast,,,,Not Released,,It's complicated,None,Not Used,iGEM13_Tsinghua,Sun Xiaochen,2013-09-09,,pgroup=Signal_Other&show=1.csv
+BBa_K1024004,Sensor yeast (inducible TetR+VP16),,,,Not Released,,Not in stock,None,Not Used,iGEM13_Tsinghua,Sun Xiaochen,2013-09-09,,pgroup=Signal_Other&show=1.csv
+BBa_K1024005,Report yeast (inducible ADE2),,,,Not Released,,Not in stock,None,Not Used,iGEM13_Tsinghua,Sun Xiaochen,2013-09-09,,pgroup=Signal_Other&show=1.csv
+BBa_K104001,Sensor for small peptide Subtilin,,,,Not Released,,Not in stock,Works,Not Used,iGEM08_Newcastle_University,The Newcastle 2008 iGEM team,2008-10-24,,pgroup=Signal_Other&show=1.csv
+BBa_K1071010,SPTP1,,,,Not Released,,It's complicated,None,Not Used,iGEM13_Marburg,Team Marburg 2013,2013-09-19,,pgroup=Signal_Other&show=1.csv
+BBa_K1071011,SPTP2,,,,Not Released,,It's complicated,None,Not Used,iGEM13_Marburg,Team Marburg 2013,2013-09-19,,pgroup=Signal_Other&show=1.csv
+BBa_K1072009,Bovine rhodopsin signalling pipetide,,,,Not Released,,Not in stock,None,3 Uses,iGEM13_SCUT,"Junqi kuang, Xihao liao and Jianhui gong",2013-09-07,,pgroup=Signal_Other&show=1.csv
+BBa_K1103001,NF-κB Binding Element,,,,Not Released,,No part sequence,Works,No Sequence,iGEM13_LZU-China,Jinbo Yang,2013-08-30,,pgroup=Signal_Other&show=1.csv
+BBa_K1151012,LuxI nickel regulated ,,,,Not Released,,It's complicated,,5 Uses,iGEM13_UniSalento_Lecce,Gian Piero Lazzari,2013-09-23,,pgroup=Signal_Other&show=1.csv
+BBa_K1151014,LuxR nickel regulated,,,,Not Released,,Not in stock,,2 Uses,iGEM13_UniSalento_Lecce,Gabriele Alfarano,2013-09-24,,pgroup=Signal_Other&show=1.csv
+BBa_K1165009,CepI AHL Synthase,,,,Not Released,,Not in stock,None,Not Used,iGEM13_Concordia,iGEM Concordia 2013,2013-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K1165010,CepR AHL-induced Regulatory Protein,,,,Not Released,,Not in stock,None,Not Used,iGEM13_Concordia,iGEM Concordia 2013,2013-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K1180002,fusion protein of lamp 2b and RVG for brain targeting of the exosome,,,,Not Released,,Not in stock,Works,Not Used,iGEM13_NJU_China,Gong Fei &#65292;Wang Wei&#65292; Wei Xiuqing,2013-09-24,,pgroup=Signal_Other&show=1.csv
+BBa_K1180003,Fusion protein of lamp 2b and pre-s1 for liver targeting of the exosome,,,,Not Released,,Not in stock,None,Not Used,iGEM13_NJU_China,"Chen Xi, Niu Yuchen,Dai Yimei",2013-09-24,,pgroup=Signal_Other&show=1.csv
+BBa_K130002,torA export,,,,Not Released,,Not in stock,,Not Used,iGEM08_Wisconsin,Basudeb Bhattacharyya,2008-10-28,,pgroup=Signal_Other&show=1.csv
+BBa_K130003,YcbK export,,,,Not Released,,Not in stock,,Not Used,iGEM08_Wisconsin,Basudeb Bhattacharyya,2008-10-28,,pgroup=Signal_Other&show=1.csv
+BBa_K130004,YcdO Export,,,,Not Released,,Not in stock,,Not Used,iGEM08_Wisconsin,Basudeb Bhattacharyya,2008-10-28,,pgroup=Signal_Other&show=1.csv
+BBa_K130005,YcdB Export,,,,Not Released,BBa_K233306,It's complicated,,Not Used,iGEM08_Wisconsin,Basudeb Bhattacharyya,2008-10-28,,pgroup=Signal_Other&show=1.csv
+BBa_K1334021,promoter+RBS+luxI,,,,Not Released,,It's complicated,None,Not Used,iGEM14_WHU-China,Qiushuang Wu,2014-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K1334030,luxI generator,,,Xinyuan Qiu NUDT_CHINA2014:5,Not Released,,Not in stock,Works,Not Used,iGEM14_WHU-China,Haoyuan Sun,2014-10-15,,pgroup=Signal_Other&show=1.csv
+BBa_K1369003,AgrC+4xSH3 domain,,,,Not Released,,It's complicated,None,Not Used,iGEM14_Caltech,Andrew Hou,2014-09-04,,pgroup=Signal_Other&show=1.csv
+BBa_K1369004,AgrA+SH3 peptide; P2 promoter+GFP,,,,Not Released,,Not in stock,None,Not Used,iGEM14_Caltech,Andrew Hou,2014-09-04,,pgroup=Signal_Other&show=1.csv
+BBa_K1369005,AgrA; P2 promoter+GFP,,,,Not Released,,Not in stock,None,Not Used,iGEM14_Caltech,Andrew Hou,2014-09-11,,pgroup=Signal_Other&show=1.csv
+BBa_K1369012,lamBD,,,,Not Released,,Not in stock,,Not Used,iGEM14_Caltech,Galen Gao,2014-10-17,,pgroup=Signal_Other&show=1.csv
+BBa_K1369014,fsrB,,,,Not Released,,Not in stock,,Not Used,iGEM14_Caltech,Galen Gao,2014-10-17,,pgroup=Signal_Other&show=1.csv
+BBa_K1497019,fdeR (Naringenin binding protein) and fde operon regulatory domain,,,,Not Released,,It's complicated,Works,3 Uses,iGEM14_TU_Darmstadt,"Sascha Hein, Niklas Hummel, Sebastian Barthel, Thomas Dohmen",2014-10-07,,pgroup=Signal_Other&show=1.csv
+BBa_K150000,3OC6HSL Sender Controlled by constitutive medium strong Promoter,,,,Not Released,,It's complicated,Works,Not Used,iGEM08_Heidelberg,"Pascal Kraemer, Marika Ziesack, Kathrin Nussbaum and Andreas Kuehne",2008-10-21,,pgroup=Signal_Other&show=1.csv
+BBa_K1541000,promoter lux pR with riboregulator RR12y,,,,Not Released,BBa_K1541023,It's complicated,None,Not Used,iGEM14_ETH_Zurich,Daniel Gerngross,2014-09-25,,pgroup=Signal_Other&show=1.csv
+BBa_K1541005,test,,,,Not Released,,It's complicated,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K1541006,sfGFP under promoter lux pR with riboregulator RR12y,,,,Not Released,BBa_K1541025,It's complicated,None,Not Used,iGEM14_ETH_Zurich,Daniel Gerngross,2014-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K1541007,test,,,,Not Released,,It's complicated,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K1541025,sfGFP under promoter P(Lux) with riboregulator RR12y,,,,Not Released,BBa_K1541006,It's complicated,,Not Used,iGEM14_ETH_Zurich,Daniel Gerngross,2014-10-29,,pgroup=Signal_Other&show=1.csv
+BBa_K1568001,a magical part,,,,Not Released,,No part sequence,,No Sequence,iGEM14_Example_2,Ana Paola Sifuentes Infante,2014-09-23,,pgroup=Signal_Other&show=1.csv
+BBa_K1718004,LuxI with GFP,,,,Not Released,,Not in stock,None,2 Uses,iGEM15_CU_Boulder,Michael Donovan,2015-09-15,,pgroup=Signal_Other&show=1.csv
+BBa_K1728020,Rhodopsin signaling peptide (bovine),,,,Not Released,,Not in stock,Issues,2 Uses,iGEM15_CGU_Taiwan,"Wan-Yun Chiu, Ming-Fei Hsieh",2015-09-17,,pgroup=Signal_Other&show=1.csv
+BBa_K1728022,LUCY tag,,,,Not Released,,Not in stock,Issues,1 Uses,iGEM15_CGU_Taiwan,Wan-Yun Chiu,2015-09-17,,pgroup=Signal_Other&show=1.csv
+BBa_K1734012,gRNA1 (Nanoluc + gRNA scaffold),,,,Not Released,,Not in stock,None,Not Used,iGEM15_Tec-Monterrey,Ana Karen Tello Gómez,2015-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K1734013,gRNA2 (Nanoluc + gRNA scaffold),,,,Not Released,,Not in stock,None,Not Used,iGEM15_Tec-Monterrey,Ana Karen Tello Gómez,2015-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K176018,pCon max(J23119)->RBS+luxI-LVA+T,,,,Not Released,,It's complicated,Works,1 Uses,iGEM09_USTC,"Danqian Liu, Chao Li, Hao Jiang",2009-07-01,,pgroup=Signal_Other&show=1.csv
+BBa_K176019,pCon 1.00(J23100)->RBS+luxI-LVA+T,,,,Not Released,,It's complicated,Works,1 Uses,iGEM09_USTC,"Danqian Liu, Chao Li, Hao Jiang",2009-07-01,,pgroup=Signal_Other&show=1.csv
+BBa_K176020,pCon 0.70(J23101)->RBS+luxI-LVA+T,,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_USTC,"Danqian Liu, Chao Li, Hao Jiang",2009-07-01,,pgroup=Signal_Other&show=1.csv
+BBa_K176021,pCon 0.36(K176009)->RBS+luxI-LVA+T,,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_USTC,"Danqian Liu, Chao Li, Hao Jiang",2009-07-01,,pgroup=Signal_Other&show=1.csv
+BBa_K176022,pCon 0.15(K176008)->RBS+luxI-LVA+T,,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_USTC,"Danqian Liu, Chao Li, Hao Jiang",2009-07-01,,pgroup=Signal_Other&show=1.csv
+BBa_K176023,pCon 0.04(J23109)->RBS+luxI-LVA+T,,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_USTC,"Danqian Liu, Chao Li, Hao Jiang",2009-07-01,,pgroup=Signal_Other&show=1.csv
+BBa_K176024,pCon 0.01(J23103)->RBS+luxI-LVA+T,,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_USTC,"Danqian Liu, Chao Li, Hao Jiang",2009-07-01,,pgroup=Signal_Other&show=1.csv
+BBa_K176026,TetR repressible AHL->GFP Receiver (Very High LuxR): pCon 0.70->luxR+pLux/Tet->GFP,,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_USTC,"Danqian Liu, Chao Li, Hao Jiang",2009-07-16,,pgroup=Signal_Other&show=1.csv
+BBa_K176028,TetR repressible AHL->PoPS Receiver (Very High LuxR): pCon 0.70->luxR+pLux/Tet->PoPS,,,,Not Released,,It's complicated,Works,19 Uses,iGEM09_USTC,"Danqian Liu, Chao Li, Hao Jiang",2009-07-20,,pgroup=Signal_Other&show=1.csv
+BBa_K176036,TetR repressible AHL->Death Receiver: pCon 0.70->luxR+pLux/Tet->lacZalpha-ccdB,,,,Not Released,,It's complicated,None,Not Used,iGEM09_USTC,"Zongxiao He, Hao Jiang",2009-07-20,,pgroup=Signal_Other&show=1.csv
+BBa_K176090,TetR repressible AHL->Death Receiver: pCon 0.70->luxR+pLux/Tet->lacZalpha-ccdB(weak RBS),,,,Not Released,,It's complicated,None,Not Used,iGEM09_USTC,"Zongxiao He, Hao Jiang",2009-08-10,,pgroup=Signal_Other&show=1.csv
+BBa_K176123,TetR repressible AHL->PoPS Receiver (PoPS->luxR): PoPS->luxR+pLux/Tet->PoPS,,,,Not Released,,It's complicated,None,3 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K176124,TetR repressible AHL->GFP Receiver (PoPS->luxR): PoPS->luxR+pLux/Tet->GFP,,,,Not Released,,It's complicated,None,3 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K176125,TetR repressible AHL->PoPS Receiver (High LuxR): pCon 0.36->luxR+pLux/Tet->PoPS,,,,Not Released,,Not in stock,Works,8 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K176126,TetR repressible AHL->GFP Receiver (High LuxR): pCon 0.36->luxR+pLux/Tet->GFP,,,,Not Released,,It's complicated,Works,1 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K176127,TetR repressible AHL->PoPS Receiver (Medium LuxR): pCon 0.15->luxR+pLux/Tet->PoPS,,,,Not Released,,It's complicated,Works,3 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K176128,TetR repressible AHL->GFP Receiver (Medium LuxR): pCon 0.15->luxR+pLux/Tet->GFP,,,,Not Released,,It's complicated,Works,1 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K176129,TetR repressible AHL->PoPS Receiver (Low LuxR): pCon 0.04->luxR+pLux/Tet->PoPS,,,,Not Released,,Not in stock,None,3 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K176130,TetR repressible AHL->GFP Receiver (Low LuxR): pCon 0.04->luxR+pLux/Tet->GFP,,,,Not Released,,It's complicated,Works,1 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K176132,TetR repressible AHL->Death Receiver: pCon 0.36->luxR+pLux/Tet->lacZalpha-ccdB(weak RBS),,,,Not Released,,It's complicated,None,Not Used,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K176167,TetR repressible AHL->Death Receiver: pCon 0.70->luxR+pLux/Tet->ccdB-LVA,,,,Not Released,,Not in stock,Issues,Not Used,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K176168,TetR repressible AHL->Death Receiver: pCon 0.70->luxR+pLux/Tet->lacZalpha-ccdB-LVA,,,,Not Released,,It's complicated,Issues,Not Used,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K176169,TetR repressible AHL->Death Receiver: pCon 0.70->luxR+pLux/Tet->ccdB-LVA(weak RBS),,,,Not Released,,Not in stock,Issues,Not Used,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K176170,TetR repressible AHL->Death Receiver: pCon 0.70->luxR+pLux/Tet->lacZalpha-ccdB-LVA(weak RBS),,,,Not Released,,It's complicated,Issues,Not Used,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K176186,TetR repressible AHL->Death Receiver: pCon 0.15->luxR+pLux/Tet->lacZalpha-ccdB(weak RBS),,,,Not Released,,Not in stock,None,Not Used,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K176188,TetR repressible AHL->Death Receiver: pCon 0.04->luxR+pLux/Tet->lacZalpha-ccdB(weak RBS),,,,Not Released,,It's complicated,None,Not Used,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K176189,CI Inverter + luxI-LVA: PoPS->cI-LVA+pCI->luxI-LVA->PoPS,,,,Not Released,,It's complicated,None,2 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-09,,pgroup=Signal_Other&show=1.csv
+BBa_K176192,PoPS->GFP->CI Inverter(cI-LVA+pCI)->luxI-LVA->PoPS,,,,Not Released,,It's complicated,None,1 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-10,,pgroup=Signal_Other&show=1.csv
+BBa_K176224,PoPS->mRFP->CI Inverter(cI-LVA+pCI)->luxI-LVA->PoPS,,,,Not Released,,It's complicated,None,3 Uses,iGEM09_USTC,"Danqian Liu, Zongxiao He, Hao Jiang",2009-10-10,,pgroup=Signal_Other&show=1.csv
+BBa_K1766005,OmpR Regulated RhlI,,,,Not Released,,Not in stock,Works,1 Uses,iGEM15_Stockholm,Sarah Wideman,2015-09-08,,pgroup=Signal_Other&show=1.csv
+BBa_K1766006,MicF regulated LuxI,,,,Not Released,,Not in stock,None,1 Uses,iGEM15_Stockholm,Sarah Wideman,2015-09-10,,pgroup=Signal_Other&show=1.csv
+BBa_K1800001,Alpha-Factor Secretion Signal,,,,Not Released,,Not in stock,None,Not Used,iGEM15_Georgia_State,Laura Lee Irvin,2015-08-28,,pgroup=Signal_Other&show=1.csv
+BBa_K1819002,Twin-arginine translocation signal (TAT signal),,,,Not Released,,Not in stock,None,Not Used,iGEM15_Brasil-USP,Lais Ribovski,2015-09-13,,pgroup=Signal_Other&show=1.csv
+BBa_K182200,Constitutively expressed LuxR/LuxI operon,,,,Not Released,,It's complicated,None,Not Used,iGEM09_Aberdeen_Scotland,Jennifer Kleine-Albers and Katriona McMichael,2009-07-07,,pgroup=Signal_Other&show=1.csv
+BBa_K1830002,SPusp45,,,TMMU-China-2016:1,Not Released,,It's complicated,None,2 Uses,iGEM15_Concordia,Mathieu Husser,2015-08-06,,pgroup=Signal_Other&show=1.csv
+BBa_K1897001,HasA hemophore expression unit,,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_NUS_Singapore,Choi Yan Ru,2016-10-09,,pgroup=Signal_Other&show=1.csv
+BBa_K1904007,TAT signal peptide (RFC 25 N-part),,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_TecCEM,"Enrique Chimal Juarez, Roger Milton Rubio Sánchez, Enrique Palomino, Brian Morteo",2016-06-07,,pgroup=Signal_Other&show=1.csv
+BBa_K1904008,TAT signal peptide with inducible promoter and RBS,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_TecCEM,"Roger Milton Rubio Sánchez, Enrique Chimal, Enrique Palomino, Brian Morteo",2016-06-07,,pgroup=Signal_Other&show=1.csv
+BBa_K1909001,pathogen associated molecular pattern sensor,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Hamburg,Daniel Cortés,2016-10-13,,pgroup=Signal_Other&show=1.csv
+BBa_K1909007,Strong Anderson / mTaz,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Hamburg,Daniel Wedemeyer,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K1909008,Medium Anderson / mTaz,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Hamburg,Daniel Wedemeyer,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K1909009,Weak Anderson / mTaz,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Hamburg,Daniel Wedemeyer,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K1909010,Strong Anderson / Taz,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Hamburg,Daniel Wedemeyer,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K1909011,Medium Anderson / Taz,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Hamburg,Daniel Wedemeyer,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K1909012,Weak Anderson / Taz,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Hamburg,Daniel Wedemeyer,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K1921027,Sp.a,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_TJUSLS_China,Zhuozhi Chen,2016-10-17,,pgroup=Signal_Other&show=1.csv
+BBa_K1921028,Sp.b,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_TJUSLS_China,Zhuozhi Chen,2016-10-17,,pgroup=Signal_Other&show=1.csv
+BBa_K1929400,Las Quorum System,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_McMasterU,Maxwell Ng,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K1960003,Quorum sensing controller for gram-negative bacterium with cyan fluorescent protein (CFP),,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_XMU-China,Yawen Jiang,2016-09-17,,pgroup=Signal_Other&show=1.csv
+BBa_K1960004,Low-level expression of LuxR and the lux pR promoter,,,,Not Released,BBa_K543011,It's complicated,Works,-1 Uses,iGEM16_XMU-China,Shijia Qi,2016-09-17,,pgroup=Signal_Other&show=1.csv
+BBa_K1960050,Low-level expression of LuxR and the lux pR promoter,,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_XMU-China,Yuan Cheng,2016-10-08,,pgroup=Signal_Other&show=1.csv
+BBa_K1960051,High-level expression of LuxR and the lux pR promoter,,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_XMU-China,Yu Zhu,2016-10-08,,pgroup=Signal_Other&show=1.csv
+BBa_K1960054,GFP reporter and Self-induced synthetase for AHL,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_XMU-China,Wei Guo,2016-10-08,,pgroup=Signal_Other&show=1.csv
+BBa_K196010,Lux cassette + c2 P22 promoter + RBS +  LuxI + ter,,,,Not Released,,Not in stock,,Not Used,iGEM09_ULB-Brussels,Laetitia Warny,2009-08-20,,pgroup=Signal_Other&show=1.csv
+BBa_K196011,c2 P22 promoter + RBS + LuxR + ter,,,,Not Released,BBa_K196013,Not in stock,,Not Used,iGEM09_ULB-Brussels,Laetitia Warny,2009-08-20,,pgroup=Signal_Other&show=1.csv
+BBa_K196013,Hybrid promoter (Lux cassette + c2 P22 promoter) + RBS + LuxR + ter,,,,Not Released,BBa_K196011,Not in stock,,Not Used,iGEM09_ULB-Brussels,Laetitia Warny,2009-10-01,,pgroup=Signal_Other&show=1.csv
+BBa_K1971004,ompt,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BHU_China,KE GUAN YU,2016-10-20,,pgroup=Signal_Other&show=1.csv
+BBa_K1978002,TorA-RFP,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Goettingen,Gregor Hoffmann,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K2033000,N-dodecanoyl-L-homoserine lactone (C(12)-HSL) Sender- AubI,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Arizona_State,Brady Dennison,2016-07-28,,pgroup=Signal_Other&show=1.csv
+BBa_K2033001,C(12)-HSL Receiver Device - AubR,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Arizona_State,Brady Dennison,2016-08-15,,pgroup=Signal_Other&show=1.csv
+BBa_K2033002,"isovaleryl-HSL, 3-methyl-N-[(3S)-2-oxooxolan-3-yl]butanamide Sender- BjaI ",,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Arizona_State,Brady Dennison,2016-08-15,,pgroup=Signal_Other&show=1.csv
+BBa_K2033003,Isovaleryl-HSL (IV-HSL) Receiver Device - BjaR,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Arizona_State,Brady Dennison,2016-08-15,,pgroup=Signal_Other&show=1.csv
+BBa_K2033004,(3S)-3-[(2-oxo-3-phenylpropyl)amino]oxolan-2-one (3-phenyl-HSL) Sender- BraI,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Arizona_State,Brady Dennison,2016-08-15,,pgroup=Signal_Other&show=1.csv
+BBa_K2033006,3OH-7-cis-C14-HSL Sender Device-CerI,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Arizona_State,Brady Dennison,2016-09-20,,pgroup=Signal_Other&show=1.csv
+BBa_K2033008,N-3-oxo-tetradecanoyl-L-Homoserine lactone*  Sender- SinI ,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Arizona_State,Brady Dennison,2016-09-20,,pgroup=Signal_Other&show=1.csv
+BBa_K2033010,C(12)-HSL Receiver Device - AubR gBlock,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Arizona_State,Brady Dennison,2016-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K2033012,3-oxo-C6-HSL Sender- EsaI,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Arizona_State,Jimmy Xu,2016-10-24,,pgroup=Signal_Other&show=1.csv
+BBa_K2033014,p-Coumaroyl HSL Sender-RpaI,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Arizona_State,Jimmy Xu,2016-10-24,,pgroup=Signal_Other&show=1.csv
+BBa_K204050,AI-1 receiver,,,,Not Released,BBa_F2790,Not in stock,,Not Used,iGEM09_Osaka,Uno Keisuke,2009-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K2057007,Signal peptide of ChiA74,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Guanajuato_Mx,José Eleazar Barboza Corona,2016-10-17,,pgroup=Signal_Other&show=1.csv
+BBa_K2070019,ecf sigma11 inducible GFP generator ,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UT-Tokyo,iGEM UT-Tokyo 2016,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K2070020,Cell division dependent GFP generator ,,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UT-Tokyo,iGEM UT-Tokyo 2016,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K2070021,Constitutive GFPlva generator ,,,,Not Released,BBa_K2070027,Not in stock,None,-1 Uses,iGEM16_UT-Tokyo,iGEM UT-Tokyo 2016,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K2084009,pT3 Controlled LacZ,,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Pittsburgh,Maya Lemmon-Kishi,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K2110017,α-factor signal peptide,,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Tianjin,Le He,2016-10-06,,pgroup=Signal_Other&show=1.csv
+BBa_K212004,secretion signal peptide + GFPmut3b,,,,Not Released,,It's complicated,None,Not Used,iGEM09_Brown,Elias Scheer,2009-10-20,,pgroup=Signal_Other&show=1.csv
+BBa_K212006,mRBP (modified ribose binding protein - now binds histamine),,,,Not Released,,It's complicated,None,Not Used,iGEM09_Brown,Elias Scheer,2009-10-20,,pgroup=Signal_Other&show=1.csv
+BBa_K2188085,Mammalian LacI,,,,Not Released,BBa_K2188095,Not in stock,,-1 Uses,iGEM16_Ain_Shams-Egypt,Mostafa Mohamed Abdelmageed Abdelmwla Eltobgy,2016-10-14,,pgroup=Signal_Other&show=1.csv
+BBa_K223054,HlyA Signal Sequence (Freiburg-compatible),,,,Not Released,,It's complicated,None,Not Used,iGEM09_Stanford,Anusuya Ramasubramanian,2009-10-18,,pgroup=Signal_Other&show=1.csv
+BBa_K233008,TorA-GFP,,,,Not Released,,It's complicated,None,Not Used,iGEM09_IBB_Pune,"swetha srinivasan, chinar patil, mandar phatak, samit watve",2009-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K233306,YcdB - This part is a export tag that utilizes the Twin Arginine Transport pathway(TAT),,,,Not Released,BBa_K130005,It's complicated,None,4 Uses,iGEM09_IBB_Pune,"Swetha Srinivasan, Samit Watve, Mandar Phatak, Chinar Patil",2009-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K233307,TorA- This part is a export tag that utilizes the Twin Arginine Transport pathway(TAT),,,,Not Released,,It's complicated,None,4 Uses,iGEM09_IBB_Pune,"Swetha Srinivasan, Samit Watve, Mandar Phatak, Chinar Patil",2009-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K233309,YcdB-GFP,,,,Not Released,,It's complicated,None,Not Used,iGEM09_IBB_Pune,"swetha srinivasan, chinar patil, mandar phatak, samit watve",2009-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K247003,ptet-rbs-mutant LuxR(Dull),,,,Not Released,,It's complicated,Works,Not Used,iGEM09_Chiba,"Kaoru Yamamoto, Yoshimi Iyama",2009-10-19,,pgroup=Signal_Other&show=1.csv
+BBa_K257019,FecA mutated - constitutive activity of the fec operon,,,,Not Released,,It's complicated,None,Not Used,iGEM09_Paris,Romain Bodinier,2009-10-19,,pgroup=Signal_Other&show=1.csv
+BBa_K266000,PAI+LasR -> LuxI (AI),,,Tokyo-tech iGEM 2012:1,Not Released,BBa_S04205;BBa_S04278,It's complicated,Works,1 Uses,iGEM09_IPN-UNAM-Mexico,UNAM FCIENCIAS-CINVESTAV IRA,2009-10-13,,pgroup=Signal_Other&show=1.csv
+BBa_K266005,PAI+LasR -> LasI & AI+LuxR --| LasI,,,,Not Released,BBa_S04304,It's complicated,Works,1 Uses,iGEM09_IPN-UNAM-Mexico,UNAM FCIENCIAS-CINVESTAV IRA,2009-10-13,,pgroup=Signal_Other&show=1.csv
+BBa_K266006,PAI+LasR -> LasI+GFP  &  AI+LuxR --| LasI+GFP,,,,Not Released,BBa_S04305,It's complicated,Works,1 Uses,iGEM09_IPN-UNAM-Mexico,UNAM FCIENCIAS-CINVESTAV IRA,2009-10-13,,pgroup=Signal_Other&show=1.csv
+BBa_K266007,Complex QS -> LuxI & LasI circuit,,,,Not Released,BBa_S04207,It's complicated,Works,Not Used,iGEM09_IPN-UNAM-Mexico,UNAM FCIENCIAS-CINVESTAV IRA,2009-10-13,,pgroup=Signal_Other&show=1.csv
+BBa_K300025,3OC6HSL sender device with J23101,,,,Not Released,,It's complicated,None,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi",2010-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K300026,3OC6HSL sender device with J23105,,,,Not Released,,It's complicated,None,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi",2010-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K300027,3OC6HSL sender device with J23106,,,,Not Released,,It's complicated,None,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi",2010-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K300028,3OC6HSL sender device with J23110,,,,Not Released,,It's complicated,None,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi",2010-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K300029,3OC6HSL sender device with J23116,,,,Not Released,,It's complicated,None,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi",2010-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K300030,3OC6HSL sender device with J23118,,,,Not Released,,It's complicated,None,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi",2010-10-16,,pgroup=Signal_Other&show=1.csv
+BBa_K354001,PlcR-PapR - Gram+ve Quorum Peptide,,,,Not Released,,It's complicated,None,Not Used,iGEM10_WITS-South_Africa,Michelle Robinson,2010-10-19,,pgroup=Signal_Other&show=1.csv
+BBa_K359002,"Agr quroum sensing sensor/generator, FepA pore, with P2 + reporter ",,,,Not Released,,Not in stock,,Not Used,iGEM10_Waterloo,Leah Kocsis,2010-08-18,,pgroup=Signal_Other&show=1.csv
+BBa_K360051,CcaS_CcaR Green light response in Synechocystis sp. PCC6803,,,iGEM11_Uppsala-Sweden:0,Not Released,,Not in stock,None,Not Used,iGEM10_UNAM-Genomics_Mexico,José Fabricio López,2010-09-06,,pgroup=Signal_Other&show=1.csv
+BBa_K360121,RBS + LovTAP Photosensor + terminator,,,,Not Released,,In stock,Issues,6 Uses,iGEM10_UNAM-Genomics_Mexico,Claudia Ivonne Hernandez Armenta,2010-09-09,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K395163,KanR activated by RhlR and C4HSL(AHL of Rhl family),,,,Not Released,,Not in stock,None,Not Used,iGEM10_Tokyo_Tech,Kaneta Yusuke,2010-10-05,,pgroup=Signal_Other&show=1.csv
+BBa_K395164,KanR activated by lasR and 3OC12HSL(AHL of Las family),,,,Not Released,,No part sequence,None,No Sequence,iGEM10_Tokyo_Tech,Kaneta Yusuke,2010-10-05,,pgroup=Signal_Other&show=1.csv
+BBa_K511300,Notch-Gal4-ESN Juxtacrine Signaling Receptor MammoBlock,,,,Not Released,,It's complicated,Works,3 Uses,iGEM11_MIT,Grant Robinson,2011-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K511301,Notch-Gal4-VP16 Juxtacrine Signaling Receptor MammoBlock,,,,Not Released,,It's complicated,Works,Not Used,iGEM11_MIT,Grant Robinson,2011-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K511302,Delta-mCherry Juxtacrine Signaling Ligand MammoBlock,,,,Not Released,,It's complicated,Works,4 Uses,iGEM11_MIT,Grant Robinson,2011-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K511303,Delta-mCherry-4xFF4 Juxtacrine Signaling Ligand MammoBlock,,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_MIT,Grant Robinson,2011-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K511400,AVPR2-TEVs-Gal4-VP16 Signaling Receptor MammoBlock,,,,Not Released,,It's complicated,Issues,1 Uses,iGEM11_MIT,Grant Robinson,2011-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K511401,HRH4-TEVs-GV16 Signaling Receptor MammoBlock,,,,Not Released,,It's complicated,Issues,Not Used,iGEM11_MIT,Grant Robinson,2011-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K511500,pDisplay-Vasopressin-MYC Ligand MammoBlock,,,,Not Released,,It's complicated,Issues,1 Uses,iGEM11_MIT,Grant Robinson,2011-09-27,,pgroup=Signal_Other&show=1.csv
+BBa_K511809,Repressible Tango Ligand Generator (Hef1a-LacO-pDisplay-Vasopressin-MYC) MammoBlock Device,,,,Not Released,,Not in stock,Issues,Not Used,iGEM11_MIT,Grant Robinson,2011-09-28,,pgroup=Signal_Other&show=1.csv
+BBa_K511810,Repressible Tango Receptor Generator (Hef1a-LacO-AVPR2-TEVs-Gal4-VP16) MammoBlock Device,,,,Not Released,,Not in stock,Issues,Not Used,iGEM11_MIT,Grant Robinson,2011-09-28,,pgroup=Signal_Other&show=1.csv
+BBa_K511811,Notch-Gal4-ESN Juxtacrine Receptor Generator (CMV-Notch-Gal4-ESN) MammoBlock Device,,,,Not Released,,Not in stock,,Not Used,iGEM11_MIT,Grant Robinson,2011-09-28,,pgroup=Signal_Other&show=1.csv
+BBa_K511814,Inducible Red Fluorescent Ligand Generator (TRE-Tight-Delta-mCherry) MammoBlock Device,,,,Not Released,,Not in stock,Works,Not Used,iGEM11_MIT,Grant Robinson,2011-09-28,,pgroup=Signal_Other&show=1.csv
+BBa_K511818,Inducible Notch-Gal4-ESN Receptor Generator (TRE-Tight-Notch-Gal4-ESN) MammoBlock Device ,,,,Not Released,,Not in stock,,Not Used,iGEM11_MIT,Grant Robinson,2011-09-28,,pgroup=Signal_Other&show=1.csv
+BBa_K511824,Inducible Red Fluorescent Ligand Generator (UAS-Gal4-Delta-mCherry) MammoBlock Device,,,,Not Released,,Not in stock,,Not Used,iGEM11_MIT,Grant Robinson,2011-09-28,,pgroup=Signal_Other&show=1.csv
+BBa_K511825,Inducible Notch-Gal4-ESN Receptor Generator (UAS-Gal4-Notch-Gal4-ESN) MammoBlock Device	,,,,Not Released,,Not in stock,,Not Used,iGEM11_MIT,Grant Robinson,2011-09-28,,pgroup=Signal_Other&show=1.csv
+BBa_K514002,C4-HSL -> PoPS,,,,Not Released,,It's complicated,None,Not Used,iGEM11_Sevilla,Arcanum,2011-09-20,,pgroup=Signal_Other&show=1.csv
+BBa_K549002,Nickel(II) dependent promotor with lacZ' as reporter,,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Sabine Wagner,2011-09-12,,pgroup=Signal_Other&show=1.csv
+BBa_K549003,Nickel(II) dependent promotor with luxAB as reporter,,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Sabine Wagner,2011-09-12,,pgroup=Signal_Other&show=1.csv
+BBa_K549039,fur is an iron-dependent regulator from N. meningitidis ,,,,Not Released,,Not in stock,,2 Uses,iGEM11_LMU_Munich,Jara Radeck,2011-09-21,,pgroup=Signal_Other&show=1.csv
+BBa_K608101,"CcaR, green light response regulator",,,,Not Released,,It's complicated,,Not Used,iGEM11_Freiburg,Julia Müller,2011-09-14,,pgroup=Signal_Other&show=1.csv
+BBa_K608102,"CcaS, green light receptor",,,,Not Released,,It's complicated,,Not Used,iGEM11_Freiburg,Julia Müller,2011-09-14,,pgroup=Signal_Other&show=1.csv
+BBa_K658012,3OC6HSL Sender and Receiver Device Driven by PLlac 0-1,,,,Not Released,,Not in stock,Works,1 Uses,iGEM11_XMU-China,Yunchuan Jiang,2011-10-01,,pgroup=Signal_Other&show=1.csv
+BBa_K658013,3OC6HSL Sender and Receiver Device with lux pR-3 Driven by PLlac 0-1,,,,Not Released,,Not in stock,Works,1 Uses,iGEM11_XMU-China,Yijuan Huang,2011-10-02,,pgroup=Signal_Other&show=1.csv
+BBa_K658014,3OC6HSL Sender and Receiver Device with lux pR-5 Driven by PLlac 0-1,,,,Not Released,,Not in stock,Works,1 Uses,iGEM11_XMU-China,Jie Chen,2011-10-02,,pgroup=Signal_Other&show=1.csv
+BBa_K658015,3OC6HSL Sender and Receiver Device with lux pR-3/5 Driven by PLlac 0-1,,,,Not Released,,Not in stock,Works,1 Uses,iGEM11_XMU-China,Qianwen Gao,2011-10-02,,pgroup=Signal_Other&show=1.csv
+BBa_K726005,T7 driven lac operated produced antitoxin relB,,,,Not Released,,Not in stock,,Not Used,iGEM12_UCSF,Sami Chu,2012-08-10,,pgroup=Signal_Other&show=1.csv
+BBa_K726007,T7 driven lac operated inducer for the las quorum-sensing system ,,,,Not Released,,Not in stock,,Not Used,iGEM12_UCSF,Sami Chu,2012-08-10,,pgroup=Signal_Other&show=1.csv
+BBa_K726008,T7 driven lac operated inducer for the rhl quorum-sensing system,,,,Not Released,,Not in stock,,Not Used,iGEM12_UCSF,Sami Chu,2012-08-10,,pgroup=Signal_Other&show=1.csv
+BBa_K750001,LuxI expression device activated by arabinose(Regulated by RBS of 1.0 strength),,,,Not Released,,Not in stock,Works,2 Uses,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu,Xinyi Yao,Qingshu Wu",2012-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K750002,LuxI expression device activated by arabinose(Regulated by RBS of 0.6 strength),,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu,Xinyi Yao,Qingshu Wu",2012-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K750003,LuxI expression device activated by arabinose(Regulated by RBS of 0.3 strength),,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu, Shuqin Wu,Zhao Ma,Yunxin Long",2012-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K750004,LuxI expression device activated by arabinose(Regulated by RBS of 0.07 strength),,,,Not Released,,Not in stock,Works,Not Used,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu,Jianzhao Chi,Muxin Yu",2012-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K750005,LuxI expression device activated by arabinose(Regulated by RBS of 0.01 strength),,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu,Rong Fan,Yizhen Yan,Youbin Mo",2012-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K750006,LuxR expression device activated by arabinose,,,,Not Released,,Not in stock,Works,2 Uses,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu,Jianzhao Chi,Muxin Yu",2012-09-18,,pgroup=Signal_Other&show=1.csv
+BBa_K750007,LuxR->LuxPR->GFP,,,,Not Released,,Not in stock,Works,4 Uses,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu,Shuqin Hu,Zhao Ma,Yunxin Long",2012-09-19,,pgroup=Signal_Other&show=1.csv
+BBa_K750008,Quorum sensing system based on LuxI and LuxR to control the expression of parts behind,,,,Not Released,,Not in stock,Works,Not Used,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu,Xinyi Yao,Qingshu Wu",2012-09-19,,pgroup=Signal_Other&show=1.csv
+BBa_K750011,TIME DELAY0.3:LuxI(RBS0.3)->LuxR->LuxPR->GFP,,,,Not Released,,Not in stock,None,Not Used,iGEM12_XMU-China,"Sifan Wang,Ruosang Qiu,Yizhen Yan,Youbin Mo",2012-09-19,,pgroup=Signal_Other&show=1.csv
+BBa_K750102,PtetcIT:atc sensor(J23119 promoter) with cI system,,,,Not Released,,Not in stock,None,1 Uses,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Jianzhao Chi,Qingshu Wu",2012-09-21,,pgroup=Signal_Other&show=1.csv
+BBa_K750104,pBADcIT-1.0:cI protein expression system activated by arabinose(RBS strength:1.0),,,,Not Released,,It's complicated,Works,2 Uses,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Jianzhao Chi,Qingshu Wu",2012-09-21,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K750105,pBADcIT-0.6:cI protein expression system activated by arabinose(RBS strength:0.6),,,,Not Released,,Not in stock,None,Not Used,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Jianzhao Chi,Qingshu Wu",2012-09-21,,pgroup=Signal_Other&show=1.csv
+BBa_K750106,pBADcIT-0.3:cI protein expression system activated by arabinose(RBS strength:0.3),,,,Not Released,,Not in stock,None,Not Used,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Jianzhao Chi,Qingshu Wu",2012-09-21,,pgroup=Signal_Other&show=1.csv
+BBa_K750107,pBADcIT-0.07:cI protein expression system activated by arabinose(RBS strength:0.07),,,,Not Released,,It's complicated,Works,Not Used,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Shuqin Hu,Yunxin Long,Zhao Ma",2012-09-21,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Signal_Other&show=1.csv
+BBa_K750108,PcIGLT-pBADGLT:GFP(lva) expression system controlled by cI protein or arabinose,,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Rong Fan,Muxin Yu",2012-09-21,,pgroup=Signal_Other&show=1.csv
+BBa_K750109,cI->GFP(lva)<-arabinose,,,,Not Released,,Not in stock,None,Not Used,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Shuqin Hu,Yunxin Long,Zhao Ma",2012-09-21,,pgroup=Signal_Other&show=1.csv
+BBa_K750111,PtetGLT:GFP(lva) expression system controlled by (anhydro)tetracyclin,,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Rong Fan,Muxin Yu",2012-09-21,,pgroup=Signal_Other&show=1.csv
+BBa_K750113,pBADcIT-PcIGLT: Pbad->cI(lva)->PcI->GFP(lva),,,,Not Released,,Not in stock,None,Not Used,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Shuqin Hu,Yunxin Long",2012-09-21,,pgroup=Signal_Other&show=1.csv
+BBa_K750114,PtetcIT-PcIGLT: atc->cI->GFP(lva),,,,Not Released,,Not in stock,None,1 Uses,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Ruosang Qiu,Youbin Mo",2012-09-21,,pgroup=Signal_Other&show=1.csv
+BBa_K750115,pBADcIT-PtetcIT-PcIGLT: arabinose or atc->cI protein->reduction of gfp(lva),,,,Not Released,,Not in stock,None,Not Used,iGEM12_XMU-China,"Sifan Wang,Yizhen Yan,Ruosang Qiu,Youbin Mo",2012-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_K764027,ompA signal peptide,,,,Not Released,,Not in stock,,1 Uses,iGEM12_Exeter,Frederic Dudbridge,2012-09-16,,pgroup=Signal_Other&show=1.csv
+BBa_K794000,CSP-lasI,,,,Not Released,BBa_K794001,It's complicated,,Not Used,iGEM12_Ehime,Mei Imamura,2012-09-25,,pgroup=Signal_Other&show=1.csv
+BBa_K794001,CSP(derived from E. coli) - lasI,,,,Not Released,BBa_K794000,It's complicated,,Not Used,iGEM12_Ehime,Miwa Ochi,2012-09-25,,pgroup=Signal_Other&show=1.csv
+BBa_K797009,Plasmid include TorA-R9 signal region,,,,Not Released,,It's complicated,None,Not Used,iGEM12_Kyoto,Tomohiro Nobeyama,2012-09-20,,pgroup=Signal_Other&show=1.csv
+BBa_K819015,Luminesensor repressible RecA408 promoter+CheZ,,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Peking,YU Zhou,2012-09-16,,pgroup=Signal_Other&show=1.csv
+BBa_K819016,Luminesensor repressible SulA408 promoter+CheZ,,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Peking,YU Zhou,2012-09-16,,pgroup=Signal_Other&show=1.csv
+BBa_K843005,3OC6HSL Sender Device - Constitutive promoter,,,,Not Released,,It's complicated,,1 Uses,iGEM12_METU,Berke Gürkan,2012-09-26,,pgroup=Signal_Other&show=1.csv
+BBa_K843006,3OC6HSL Receiver Device activated MinC cell inhibiton system,,,,Not Released,,It's complicated,,1 Uses,iGEM12_METU,Berke Gürkan,2012-09-26,,pgroup=Signal_Other&show=1.csv
+BBa_K858000,SdiA,,,,Not Released,,Not in stock,None,Not Used,iGEM12_CU_Boulder,"Sean Kalra, Jake Sheppard",2012-09-07,,pgroup=Signal_Other&show=1.csv
+BBa_K858002,LuxR_G2H,,,,Not Released,,Not in stock,,Not Used,iGEM12_CU_Boulder,Sean Kalra,2012-09-07,,pgroup=Signal_Other&show=1.csv
+BBa_K858003,LuxR_G2E,,,,Not Released,,Not in stock,,Not Used,iGEM12_CU_Boulder,Sean Kalra,2012-09-07,,pgroup=Signal_Other&show=1.csv
+BBa_K872000,"Signal converter, converts a HCO3- signal in a cAMP intermediate signal ",,,,Not Released,,Not in stock,,Not Used,iGEM12_Ciencias_UNAM,Ricardo Munguía Díaz,2012-09-26,,pgroup=Signal_Other&show=1.csv
+BBa_K876049,plac-lasI-RBS-RFP,,,,Not Released,,It's complicated,Works,Not Used,iGEM12_UT_Dallas,"Leah Ferrell, Sanket Shah, Shayan Ghassemi, Zakaraya Ashour",2012-10-02,,pgroup=Signal_Other&show=1.csv
+BBa_K876065,pTetR-lasR-TT-plasR-luxI-RBS-YFP-Term-Term,,,,Not Released,,It's complicated,Works,Not Used,iGEM12_UT_Dallas,"Zakarya Ashour, Sanket Shah",2012-10-02,,pgroup=Signal_Other&show=1.csv
+BBa_K892016,Cph8,,,,Not Released,,No part sequence,,No Sequence,iGEM12_Washington,Dongwook Choe,2012-10-01,,pgroup=Signal_Other&show=1.csv
+BBa_K895003,Salty_TtrRS_two_component_system,,,,Not Released,,It's complicated,,Not Used,iGEM12_Dundee,Frank Sargent,2012-09-22,,pgroup=Signal_Other&show=1.csv
+BBa_M31790,Insert to detect osmolarity,,,,Not Released,,Not in stock,,Not Used,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,Emilienne Repak,2007-02-28,,pgroup=Signal_Other&show=1.csv
+BBa_M36663,"fur binding site, PopS repressor",,,,Not Released,,Not in stock,,Not Used,Stanford BIOE44 - S11,Frankie Willcox,2013-10-25,,pgroup=Signal_Other&show=1.csv
+BBa_M36776,pH sensor,,,,Not Released,,Not in stock,,Not Used,Stanford BIOE44 - S11,Sylvia Yang,2013-12-03,,pgroup=Signal_Other&show=1.csv
+BBa_M41016,Calcium sensor from Streptococcus mutans,,,,Not Released,,Not in stock,,Not Used,MIT BE 20.20-S13,Laila Shehata,2013-05-14,,pgroup=Signal_Other&show=1.csv
+BBa_M45047,Estrogen Activated GFP,,,,Not Released,,Not in stock,,-1 Uses,UtahState_BE5930_-_S14,Zachary Fica,2017-04-22,,pgroup=Signal_Other&show=1.csv
+BBa_M50027,LuxS Synthase for Autoinducer-2 Pathway in E. coli,,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,"Anthony Agbay, Tyler Dao, Vivek Lam",2016-11-28,,pgroup=Signal_Other&show=1.csv
+BBa_M50050,IPTG-Inducible LuxS Expression in E. coli for Controlling Growth Rates,,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,Anthony Agbay,2016-12-11,,pgroup=Signal_Other&show=1.csv
+BBa_M50051,IPTG Inducible Plasmid for the Expression of LsrR Repressor,,,,Not Released,,Not in stock,,-1 Uses,Stanford BIOE44 - S11,Anthony Agbay,2016-12-11,,pgroup=Signal_Other&show=1.csv
+BBa_S04205,R0079:F1610,,,,Not Released,BBa_S04278;BBa_K266000,It's complicated,None,2 Uses,Guests,UNAM FCIENCIAS-CINVESTAV IRA,2009-06-03,,pgroup=Signal_Other&show=1.csv
+BBa_S04207,K091146:K093005:K081016,,,,Not Released,BBa_K266007,It's complicated,Works,Not Used,Guests,UNAM FCiencias-CINVESTAV IRA,2009-06-03,,pgroup=Signal_Other&show=1.csv
+BBa_T9001,GFP and Producer Controlled by 3OC6HSL Receiver Device,,,Antiquity:0,Not Released,BBa_K09100,It's complicated,None,Not Used,,labnoa,2005-06-21,,pgroup=Signal_Other&show=1.csv
+BBa_T9250,C12 Sender (Arabinose Inducible),,,,Not Released,,Not in stock,,Not Used,,James Brown,2011-10-31,,pgroup=Signal_Other&show=1.csv
+BBa_T9350,C6 Sender (Arabinose Inducible),,,,Not Released,,Not in stock,,Not Used,,James Brown,2011-10-31,,pgroup=Signal_Other&show=1.csv

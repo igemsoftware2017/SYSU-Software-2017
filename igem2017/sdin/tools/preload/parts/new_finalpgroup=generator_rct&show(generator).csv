@@ -1,0 +1,117 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distribution,filename
+BBa_I0462,luxR Protein Generator,936,1,,Released HQ 2013,,In stock,Works,74 Uses,Antiquity,Caitlin Conboy and Jennifer Braff,2003-12-04,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_J45199,Banana odor enzyme (ATF1) generator,1739,1,Reshma Shetty:5,Released HQ 2013,,In stock,Works,4 Uses,iGEM2006_MIT,André Green II,2006-10-28,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_J45219,Banana odor enzyme (ATF1) generator,1737,,,Released HQ 2013,,In stock,Works,1 Uses,iGEM2006_MIT,André Green II,2006-10-28,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_J45299,PchA & PchB enzyme generator,1894,,,Released HQ 2013,,In stock,Works,Not Used,iGEM2006_MIT,André Green II,2006-10-28,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_J45319,PchA & PchB enzyme generator,1892,1,UniTN-Trento2013:4;Reshma Shetty:3,Released HQ 2013,BBa_K1065103,In stock,Works,1 Uses,iGEM2006_MIT,André Green II,2006-10-28,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_I1468,CinR protein generator ,884,,Antiquity:0,Released HQ 2013,,In stock,None,2 Uses,Antiquity,Barry Canton,2004-08-10,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_P0140,PoPS -> TetR  [S0163],842,1,,Released HQ 2013,,In stock,,10 Uses,Antiquity,Randy Rettberg,2004-04-25,"Spring 2017 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2016 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2015 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2014 Distribution;MIT Distribution 4.04 -> BioBricks 2
+",pgroup=generator_rct&show=1.csv
+BBa_P0151,PoPS -> cI (lambda)   [S0165],932,1,,Released HQ 2013,BBa_K228238,In stock,,7 Uses,Antiquity,Randy Rettberg,2004-04-25,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_P0152,PoPS -> cI (434)   [S0166],851,1,,Released HQ 2013,,In stock,,4 Uses,Antiquity,Randy Rettberg,2004-04-25,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_P0153,PoPS -> cII (p22)   [S0167],869,1,,Released HQ 2013,,In stock,,2 Uses,Antiquity,Randy Rettberg,2004-04-25,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_P0312,PoPS -> LacI   [S0156],1307,1,,Released HQ 2013,,In stock,,5 Uses,Antiquity,Randy Rettberg,2004-04-27,"Spring 2017 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2016 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2015 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2014 Distribution;MIT Distribution 4.04 -> BioBricks 2
+",pgroup=generator_rct&show=1.csv
+BBa_P0340,PoPS -> TetR  [S0157],839,1,,Released HQ 2013,,In stock,,5 Uses,Antiquity,Randy Rettberg,2004-04-27,"Spring 2017 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2016 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2015 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2014 Distribution;MIT Distribution 4.04 -> BioBricks 2
+",pgroup=generator_rct&show=1.csv
+BBa_P0353,PoPS -> cII (p22)   [S0161],866,1,,Released HQ 2013,,In stock,,3 Uses,Antiquity,Randy Rettberg,2004-04-27,"Spring 2017 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2016 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2015 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2014 Distribution;MIT Distribution 4.04 -> BioBricks 2
+",pgroup=generator_rct&show=1.csv
+BBa_P0412,PoPS -> LacI   [S0150],1308,,,Released HQ 2013,BBa_J08002;BBa_K228813,In stock,,39 Uses,Antiquity,Randy Rettberg,2004-04-27,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_P0440,PoPS -> TetR  [S0151],840,1,HZAU-China 2014:3,Released HQ 2013,BBa_S03880;BBa_K092000;BBa_K176006;BBa_K228814;BBa_K195603,In stock,,72 Uses,Antiquity,Randy Rettberg,2004-04-27,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=generator_rct&show=1.csv
+BBa_P0451,PoPS -> cI (lambda)   [S0153],930,1,HZAU-China 2014:1,Released HQ 2013,BBa_I3401;BBa_S03427;BBa_M34567;BBa_K082022;BBa_K228241;BBa_K204069;BBa_K195633;BBa_K195630;BBa_S05083,In stock,,32 Uses,Antiquity,Randy Rettberg,2004-04-27,"Spring 2017 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2016 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2015 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2014 Distribution;MIT Distribution 4.04 -> BioBricks 2
+",pgroup=generator_rct&show=1.csv
+BBa_P0453,PoPS -> cII (p22)   [S0155],867,1,,Released HQ 2013,,In stock,,2 Uses,Antiquity,Randy Rettberg,2004-04-27,"Spring 2017 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2016 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2015 Distribution;MIT Distribution 4.04 -> BioBricks 2;Spring 2014 Distribution;MIT Distribution 4.04 -> BioBricks 2
+",pgroup=generator_rct&show=1.csv
+BBa_P0471,B0034.C0071.B0015,942,,Antiquity:0,Released HQ 2013,BBa_I0466,In stock,None,1 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_I12017,"Protein Generator (434, -LVA)",791,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,mcnamara,2004-07-22,,pgroup=generator_rct&show=1.csv
+BBa_I12220,Lambda cI - Gal4 fusion protein generator,1018,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,rwald,2004-08-06,,pgroup=generator_rct&show=1.csv
+BBa_I12221,Alpha-NTD - Gal11p fusion protein generator,1201,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,rwald,2004-08-07,,pgroup=generator_rct&show=1.csv
+BBa_I12222,Wild-type TetR(B) protein generator,808,,Antiquity:0,Not Released,,Not in stock,None,4 Uses,Antiquity,rwald,2004-08-07,,pgroup=generator_rct&show=1.csv
+BBa_I12223,TetR-4C protein generator,807,,Antiquity:0,Not Released,,Not in stock,None,2 Uses,Antiquity,rwald,2004-08-07,,pgroup=generator_rct&show=1.csv
+BBa_I12224,LacI protein generator (LVA-),1267,,Antiquity:0,Not Released,,Not in stock,None,4 Uses,Antiquity,rwald,2004-08-07,,pgroup=generator_rct&show=1.csv
+BBa_I12225,AraC protein generator (LVA-),1063,,Antiquity:0,Not Released,,Not in stock,None,4 Uses,Antiquity,rwald,2004-08-07,,pgroup=generator_rct&show=1.csv
+BBa_I9006,nor_input (tp901-cI) B0034.C0075.B0015,759,,,Not Released,,Not in stock,,1 Uses,Antiquity,crackdots,2004-01-27,,pgroup=generator_rct&show=1.csv
+BBa_I9009,nor_input (lambda-cI) B0034.I9200.B0015,897,,,Not Released,,Not in stock,,1 Uses,Antiquity,crackdots,2004-01-27,,pgroup=generator_rct&show=1.csv
+BBa_J29003,PoPS->CrtE protein generator,160,,,Not Released,,Not in stock,,3 Uses,iGEM2006_Chiba,Maiko Furubayashi,2006-08-02,,pgroup=generator_rct&show=1.csv
+BBa_J29004,PoPS ->CrtB protein generator,1017,,,Not Released,,Not in stock,,3 Uses,iGEM2006_Chiba,Mayu Ikezumi,2006-08-02,,pgroup=generator_rct&show=1.csv
+BBa_J29005,PoPs->CrtI protein generator,1638,,,Not Released,,Not in stock,,3 Uses,iGEM2006_Chiba,Keiichi Suzuki,2006-08-02,,pgroup=generator_rct&show=1.csv
+BBa_J45099,Wintergreen odor enzyme (BSMT1) generator,1232,,,Not Released,,It's complicated,Works,2 Uses,iGEM2006_MIT,Boyuan Zhu,2006-08-09,,pgroup=generator_rct&show=1.csv
+BBa_J45119,Wintergreen odor enzyme (BMST1) generator,1230,1,UniTN-Trento2013:4;Reshma Shetty:5,Not Released,BBa_K1065100,It's complicated,Works,10 Uses,iGEM2006_MIT,Boyuan Zhu,2006-08-10,,pgroup=generator_rct&show=1.csv
+BBa_J54006,PoPS->deoR protein generator,920,,,Not Released,,Not in stock,,Not Used,iGEM2006_Tokyo_Alliance,Shogo Hamada,2006-08-04,,pgroup=generator_rct&show=1.csv
+BBa_J54007,PoPs->cytR protein generator,1185,,,Not Released,,Not in stock,,Not Used,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-08-04,,pgroup=generator_rct&show=1.csv
+BBa_J54009,PoPs -> GalS protein generator,1165,,,Not Released,,Not in stock,,Not Used,iGEM2006_Tokyo_Alliance,Shotaro Ayukawa,2006-08-04,,pgroup=generator_rct&show=1.csv
+BBa_J54010,PoPS->galR protein generator,1156,,,Not Released,,Not in stock,,Not Used,iGEM2006_Tokyo_Alliance,Reshma Shetty,2006-08-04,,pgroup=generator_rct&show=1.csv
+BBa_J58115,PoPS -> CRP ,788,,,Not Released,,Not in stock,None,1 Uses,iGEM2006_Valencia,Valencia iGEM 2006,2006-10-26,,pgroup=generator_rct&show=1.csv
+BBa_K1379008,Constitutive banana odor enzyme (ATF1) generator,1780,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Hong_Kong_HKUST,Nadia Benedicta Bongso,2014-09-23,,pgroup=generator_rct&show=1.csv
+BBa_P0112,PoPS -> LacI   [S0162],1310,,,Not Released,,It's complicated,,2 Uses,Antiquity,Randy Rettberg,2004-04-25,,pgroup=generator_rct&show=1.csv
+BBa_P0150,PoPS -> cI (HK022) [S0164],926,,,Not Released,,It's complicated,,2 Uses,Antiquity,Randy Rettberg,2004-04-25,,pgroup=generator_rct&show=1.csv
+BBa_P0350,PoPS -> cI (HK022) [S0158],923,,,Not Released,,It's complicated,,Not Used,Antiquity,Randy Rettberg,2004-04-27,,pgroup=generator_rct&show=1.csv
+BBa_P0351,PoPS -> cI (lambda)   [S0159],929,,,Not Released,BBa_K228240,It's complicated,,1 Uses,Antiquity,Randy Rettberg,2004-04-27,,pgroup=generator_rct&show=1.csv
+BBa_P0352,PoPS -> cI (434)   [S0160],848,,,Not Released,,It's complicated,,1 Uses,Antiquity,Randy Rettberg,2004-04-27,,pgroup=generator_rct&show=1.csv
+BBa_P0413,B0034.C0013.B0015,1266,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_P0420,CheY Protein Generator (B0034.C0020.B0015),548,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,cconboy,2004-08-13,,pgroup=generator_rct&show=1.csv
+BBa_P0424,CheB Protein Generator (B0034.C0024.B0015),1233,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,cconboy,2004-08-13,,pgroup=generator_rct&show=1.csv
+BBa_P0428,cheR Protein Generator (B0034.C0028.B0015),1044,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,cconboy,2004-08-13,,pgroup=generator_rct&show=1.csv
+BBa_P0450,PoPS -> cI (HK022) [S01152],924,,,Not Released,BBa_I3400,It's complicated,,Not Used,Antiquity,Randy Rettberg,2004-04-27,,pgroup=generator_rct&show=1.csv
+BBa_P0452,PoPS -> cI (434)   [S0154],849,,,Not Released,BBa_M34568,It's complicated,,1 Uses,Antiquity,Randy Rettberg,2004-04-27,,pgroup=generator_rct&show=1.csv
+BBa_P0454,RBS.HK022 cI LVA+.Term,890,,Antiquity:0,Not Released,,It's complicated,None,Not Used,MIT,Reshma Shetty,2005-06-30,,pgroup=generator_rct&show=1.csv
+BBa_P0455,RBS.Lambda cI LVA+.Term,896,,Antiquity:0,Not Released,,It's complicated,None,10 Uses,MIT,Reshma Shetty,2005-06-30,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=generator_rct&show=1.csv
+BBa_P0456,RBS.434 cI LVA+.Term,815,,Antiquity:0,Not Released,BBa_I10200,It's complicated,None,1 Uses,MIT,Reshma Shetty,2005-06-30,,pgroup=generator_rct&show=1.csv
+BBa_P0457,PoPS -> P22 lambdoid c2 protein ,833,,Antiquity:0,Not Released,,It's complicated,None,Not Used,MIT,Reshma Shetty,2005-06-30,,pgroup=generator_rct&show=1.csv
+BBa_P0470,B0034.C0070.B0015,822,,Antiquity:0,Not Released,BBa_I9027;BBa_F1700;BBa_K092200;BBa_K082023,It's complicated,None,3 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_P0474,Pen1 protein generator,603,,Antiquity:0,Not Released,BBa_K195605,It's complicated,None,1 Uses,Antiquity,Barry Canton,2004-07-05,,pgroup=generator_rct&show=1.csv
+BBa_P0478,B0034.C0078.B0015,822,,Antiquity:0,Not Released,BBa_F1780;BBa_S03878,In stock,None,4 Uses,Antiquity,cconboy,2004-05-25,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=generator_rct&show=1.csv
+BBa_P0479,B0034.C0079.B0015,936,,Antiquity:0,Not Released,BBa_I2010;BBa_I0464;BBa_S03547;BBa_S03882;BBa_S03954;BBa_K136048,It's complicated,None,1 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_P0480,B0034.C0080.B0015,1095,,Antiquity:0,Not Released,BBa_I3701;BBa_S03556;BBa_K132018,It's complicated,None,1 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_P0481,B0034.C0081.B0015,905,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_P2005,Zif268-GCN4 protein generator,425,,,Not Released,,It's complicated,,3 Uses,iGEM2006_Bangalore,Reshma Shetty,2007-03-28,,pgroup=generator_rct&show=1.csv
+BBa_P2006,PoPS->MalE.FactorXa.Zif268-GCN4,1586,,,Not Released,,It's complicated,,2 Uses,iGEM2006_Bangalore,Reshma Shetty,2007-03-28,,pgroup=generator_rct&show=1.csv
+BBa_P2007,PoPS->Zif268-GCN4.MalE,1526,,,Not Released,,It's complicated,,1 Uses,iGEM2006_Bangalore,Reshma Shetty,2007-03-28,,pgroup=generator_rct&show=1.csv
+BBa_P34060,PoPS->aiiA Protein Generator,969,,Antiquity:0,Not Released,BBa_I0460;BBa_I13910,It's complicated,None,Not Used,Antiquity,Barry Canton,2004-08-12,,pgroup=generator_rct&show=1.csv
+BBa_P34160,PoPS->aiiA Protein Generator,911,,Antiquity:0,Not Released,BBa_I13911;BBa_K218026,It's complicated,None,1 Uses,Antiquity,Barry Canton,2004-08-12,,pgroup=generator_rct&show=1.csv
+BBa_I12017,"Protein Generator (434, -LVA)",791,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,mcnamara,2004-07-22,,pgroup=generator_rct&show=1.csv
+BBa_I12220,Lambda cI - Gal4 fusion protein generator,1018,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,rwald,2004-08-06,,pgroup=generator_rct&show=1.csv
+BBa_I12221,Alpha-NTD - Gal11p fusion protein generator,1201,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,rwald,2004-08-07,,pgroup=generator_rct&show=1.csv
+BBa_I12222,Wild-type TetR(B) protein generator,808,,Antiquity:0,Not Released,,Not in stock,None,4 Uses,Antiquity,rwald,2004-08-07,,pgroup=generator_rct&show=1.csv
+BBa_I12223,TetR-4C protein generator,807,,Antiquity:0,Not Released,,Not in stock,None,2 Uses,Antiquity,rwald,2004-08-07,,pgroup=generator_rct&show=1.csv
+BBa_I12224,LacI protein generator (LVA-),1267,,Antiquity:0,Not Released,,Not in stock,None,4 Uses,Antiquity,rwald,2004-08-07,,pgroup=generator_rct&show=1.csv
+BBa_I12225,AraC protein generator (LVA-),1063,,Antiquity:0,Not Released,,Not in stock,None,4 Uses,Antiquity,rwald,2004-08-07,,pgroup=generator_rct&show=1.csv
+BBa_I9006,nor_input (tp901-cI) B0034.C0075.B0015,759,,,Not Released,,Not in stock,,1 Uses,Antiquity,crackdots,2004-01-27,,pgroup=generator_rct&show=1.csv
+BBa_I9009,nor_input (lambda-cI) B0034.I9200.B0015,897,,,Not Released,,Not in stock,,1 Uses,Antiquity,crackdots,2004-01-27,,pgroup=generator_rct&show=1.csv
+BBa_J29003,PoPS->CrtE protein generator,160,,,Not Released,,Not in stock,,3 Uses,iGEM2006_Chiba,Maiko Furubayashi,2006-08-02,,pgroup=generator_rct&show=1.csv
+BBa_J29004,PoPS ->CrtB protein generator,1017,,,Not Released,,Not in stock,,3 Uses,iGEM2006_Chiba,Mayu Ikezumi,2006-08-02,,pgroup=generator_rct&show=1.csv
+BBa_J29005,PoPs->CrtI protein generator,1638,,,Not Released,,Not in stock,,3 Uses,iGEM2006_Chiba,Keiichi Suzuki,2006-08-02,,pgroup=generator_rct&show=1.csv
+BBa_J45099,Wintergreen odor enzyme (BSMT1) generator,1232,,,Not Released,,It's complicated,Works,2 Uses,iGEM2006_MIT,Boyuan Zhu,2006-08-09,,pgroup=generator_rct&show=1.csv
+BBa_J45119,Wintergreen odor enzyme (BMST1) generator,1230,1,UniTN-Trento2013:4;Reshma Shetty:5,Not Released,BBa_K1065100,It's complicated,Works,10 Uses,iGEM2006_MIT,Boyuan Zhu,2006-08-10,,pgroup=generator_rct&show=1.csv
+BBa_J54006,PoPS->deoR protein generator,920,,,Not Released,,Not in stock,,Not Used,iGEM2006_Tokyo_Alliance,Shogo Hamada,2006-08-04,,pgroup=generator_rct&show=1.csv
+BBa_J54007,PoPs->cytR protein generator,1185,,,Not Released,,Not in stock,,Not Used,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-08-04,,pgroup=generator_rct&show=1.csv
+BBa_J54009,PoPs -> GalS protein generator,1165,,,Not Released,,Not in stock,,Not Used,iGEM2006_Tokyo_Alliance,Shotaro Ayukawa,2006-08-04,,pgroup=generator_rct&show=1.csv
+BBa_J54010,PoPS->galR protein generator,1156,,,Not Released,,Not in stock,,Not Used,iGEM2006_Tokyo_Alliance,Reshma Shetty,2006-08-04,,pgroup=generator_rct&show=1.csv
+BBa_J58115,PoPS -> CRP ,788,,,Not Released,,Not in stock,None,1 Uses,iGEM2006_Valencia,Valencia iGEM 2006,2006-10-26,,pgroup=generator_rct&show=1.csv
+BBa_K1379008,Constitutive banana odor enzyme (ATF1) generator,1780,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Hong_Kong_HKUST,Nadia Benedicta Bongso,2014-09-23,,pgroup=generator_rct&show=1.csv
+BBa_P0112,PoPS -> LacI   [S0162],1310,,,Not Released,,It's complicated,,2 Uses,Antiquity,Randy Rettberg,2004-04-25,,pgroup=generator_rct&show=1.csv
+BBa_P0150,PoPS -> cI (HK022) [S0164],926,,,Not Released,,It's complicated,,2 Uses,Antiquity,Randy Rettberg,2004-04-25,,pgroup=generator_rct&show=1.csv
+BBa_P0350,PoPS -> cI (HK022) [S0158],923,,,Not Released,,It's complicated,,Not Used,Antiquity,Randy Rettberg,2004-04-27,,pgroup=generator_rct&show=1.csv
+BBa_P0351,PoPS -> cI (lambda)   [S0159],929,,,Not Released,BBa_K228240,It's complicated,,1 Uses,Antiquity,Randy Rettberg,2004-04-27,,pgroup=generator_rct&show=1.csv
+BBa_P0352,PoPS -> cI (434)   [S0160],848,,,Not Released,,It's complicated,,1 Uses,Antiquity,Randy Rettberg,2004-04-27,,pgroup=generator_rct&show=1.csv
+BBa_P0413,B0034.C0013.B0015,1266,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_P0420,CheY Protein Generator (B0034.C0020.B0015),548,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,cconboy,2004-08-13,,pgroup=generator_rct&show=1.csv
+BBa_P0424,CheB Protein Generator (B0034.C0024.B0015),1233,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,cconboy,2004-08-13,,pgroup=generator_rct&show=1.csv
+BBa_P0428,cheR Protein Generator (B0034.C0028.B0015),1044,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,cconboy,2004-08-13,,pgroup=generator_rct&show=1.csv
+BBa_P0450,PoPS -> cI (HK022) [S01152],924,,,Not Released,BBa_I3400,It's complicated,,Not Used,Antiquity,Randy Rettberg,2004-04-27,,pgroup=generator_rct&show=1.csv
+BBa_P0452,PoPS -> cI (434)   [S0154],849,,,Not Released,BBa_M34568,It's complicated,,1 Uses,Antiquity,Randy Rettberg,2004-04-27,,pgroup=generator_rct&show=1.csv
+BBa_P0454,RBS.HK022 cI LVA+.Term,890,,Antiquity:0,Not Released,,It's complicated,None,Not Used,MIT,Reshma Shetty,2005-06-30,,pgroup=generator_rct&show=1.csv
+BBa_P0455,RBS.Lambda cI LVA+.Term,896,,Antiquity:0,Not Released,,It's complicated,None,10 Uses,MIT,Reshma Shetty,2005-06-30,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=generator_rct&show=1.csv
+BBa_P0456,RBS.434 cI LVA+.Term,815,,Antiquity:0,Not Released,BBa_I10200,It's complicated,None,1 Uses,MIT,Reshma Shetty,2005-06-30,,pgroup=generator_rct&show=1.csv
+BBa_P0457,PoPS -> P22 lambdoid c2 protein ,833,,Antiquity:0,Not Released,,It's complicated,None,Not Used,MIT,Reshma Shetty,2005-06-30,,pgroup=generator_rct&show=1.csv
+BBa_P0470,B0034.C0070.B0015,822,,Antiquity:0,Not Released,BBa_I9027;BBa_F1700;BBa_K092200;BBa_K082023,It's complicated,None,3 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_P0474,Pen1 protein generator,603,,Antiquity:0,Not Released,BBa_K195605,It's complicated,None,1 Uses,Antiquity,Barry Canton,2004-07-05,,pgroup=generator_rct&show=1.csv
+BBa_P0478,B0034.C0078.B0015,822,,Antiquity:0,Not Released,BBa_F1780;BBa_S03878,In stock,None,4 Uses,Antiquity,cconboy,2004-05-25,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=generator_rct&show=1.csv
+BBa_P0479,B0034.C0079.B0015,936,,Antiquity:0,Not Released,BBa_I2010;BBa_I0464;BBa_S03547;BBa_S03882;BBa_S03954;BBa_K136048,It's complicated,None,1 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_P0480,B0034.C0080.B0015,1095,,Antiquity:0,Not Released,BBa_I3701;BBa_S03556;BBa_K132018,It's complicated,None,1 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_P0481,B0034.C0081.B0015,905,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,cconboy,2004-05-25,,pgroup=generator_rct&show=1.csv
+BBa_P2005,Zif268-GCN4 protein generator,425,,,Not Released,,It's complicated,,3 Uses,iGEM2006_Bangalore,Reshma Shetty,2007-03-28,,pgroup=generator_rct&show=1.csv
+BBa_P2006,PoPS->MalE.FactorXa.Zif268-GCN4,1586,,,Not Released,,It's complicated,,2 Uses,iGEM2006_Bangalore,Reshma Shetty,2007-03-28,,pgroup=generator_rct&show=1.csv
+BBa_P2007,PoPS->Zif268-GCN4.MalE,1526,,,Not Released,,It's complicated,,1 Uses,iGEM2006_Bangalore,Reshma Shetty,2007-03-28,,pgroup=generator_rct&show=1.csv
+BBa_P34060,PoPS->aiiA Protein Generator,969,,Antiquity:0,Not Released,BBa_I0460;BBa_I13910,It's complicated,None,Not Used,Antiquity,Barry Canton,2004-08-12,,pgroup=generator_rct&show=1.csv
+BBa_P34160,PoPS->aiiA Protein Generator,911,,Antiquity:0,Not Released,BBa_I13911;BBa_K218026,It's complicated,None,1 Uses,Antiquity,Barry Canton,2004-08-12,,pgroup=generator_rct&show=1.csv

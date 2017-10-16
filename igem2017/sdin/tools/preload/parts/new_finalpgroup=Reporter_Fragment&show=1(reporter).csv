@@ -1,0 +1,151 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_J33203,"E. coli ars promoter, arsR gene and lacZ",769,1,,Released HQ 2013,,In stock,Works,1 Uses,iGEM2006_Edinburgh,Chris French,2006-10-13,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Fragment&show=1.csv
+BBa_K093005,RFP with RBS,724,1,,Released HQ 2013,BBa_S03255;BBa_I13502;BBa_S03873;BBa_S04014;BBa_J70390;BBa_S04419;BBa_S04587;BBa_S04627,In stock,Works,41 Uses,iGEM08_Waterloo,"Kathy Lam, Danielle Nash",2008-10-27,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033900,"meffBlue, blue chromoprotein (incl RBS, J23110)",751,,,Not Released,,In stock,Works,Not Used,iGEM13_Uppsala,Sabri Jamal,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033903,"tsPurple, purple chromoprotein (incl RBS, J23110)",751,,,Not Released,,In stock,Works,1 Uses,iGEM13_Uppsala,Sabri Jamal,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033904,"tsPurple, purple chromoprotein (incl RBS, J23106)",751,,,Not Released,,In stock,Works,Not Used,iGEM13_Uppsala,Sabri Jamal,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033915,"amajLime, yellow-green chromoprotein (incl RBS)",711,,,Not Released,,In stock,Works,Not Used,iGEM13_Uppsala,Erik Gullberg,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033918,"gfasPurple, purple chromoprotein (incl RBS)",687,,,Not Released,,In stock,Works,Not Used,iGEM13_Uppsala,Erik Gullberg,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033920,"meffRed, red chromoprotein (incl RBS, J23110)",769,,,Not Released,,In stock,Works,Not Used,iGEM13_Uppsala,Sabri Jamal,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033921,"meffRed, red chromoprotein (incl RBS, J23106)",769,,,Not Released,,In stock,Works,Not Used,iGEM13_Uppsala,Sabri Jamal,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033923,"spisPink, pink chromoprotein (incl RBS, J23110)",740,,,Not Released,,In stock,Works,Not Used,iGEM13_Uppsala,Sabri Jamal,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033924,"spisPink, pink chromoprotein (incl RBS, J23106)",740,,,Not Released,,In stock,Works,1 Uses,iGEM13_Uppsala,Sabri Jamal,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033926,"asPink, pink chromoprotein (incl RBS, J23110)",763,,,Not Released,,In stock,Works,Not Used,iGEM13_Uppsala,Sabri Jamal,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033927,"asPink, pink chromoprotein (incl RBS)",720,,,Not Released,,In stock,Works,1 Uses,iGEM13_Uppsala,Erik Lundin,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033929,"aeBlue, blue chromoprotein (incl RBS)",717,,,Not Released,,In stock,Works,1 Uses,iGEM13_Uppsala,Erik Lundin,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033930,"amilCP, blue/purple chromoprotein (incl RBS)",687,,,Not Released,BBa_K592025;BBa_S05192,In stock,Works,2 Uses,iGEM13_Uppsala,Erik Lundin,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1033931,"amilGFP, yellow chromoprotein (incl RBS)",717,,,Not Released,BBa_S05058,In stock,Works,4 Uses,iGEM13_Uppsala,Erik Lundin,2013-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1368010,Spinach Aptamer 13-2 RNA driven by c1 promoter,207,,,Not Released,,In stock,Works,Not Used,iGEM14_HZAU-China,Zhixiang Liu,2014-09-30,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1491000,RBS-mTagBFP-His,741,,,Not Released,,In stock,Works,1 Uses,iGEM14_Carnegie_Mellon,Danielle Peters,2014-07-15,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1491005,RBS-SuperYFP2-His,759,,,Not Released,,In stock,Works,4 Uses,iGEM14_Carnegie_Mellon,Danielle Peters,2014-07-15,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1491007,RBS-mOrange-His,765,,,Not Released,,In stock,Works,1 Uses,iGEM14_Carnegie_Mellon,Danielle Peters,2014-07-15,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1491009,RBS-mRFP-His,717,,,Not Released,,In stock,Works,4 Uses,iGEM14_Carnegie_Mellon,Danielle Peters,2014-07-15,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Fragment&show=1.csv
+BBa_K592023,B0032-BFP,724,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_Uppsala-Sweden,Lei Sun,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Fragment&show=1.csv
+BBa_K592024,B0034-BFP,723,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_Uppsala-Sweden,Lei Sun,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Fragment&show=1.csv
+BBa_K592025,B0034-amilCP,687,,,Released HQ 2013,BBa_S05192;BBa_K1033930,In stock,Works,8 Uses,iGEM11_Uppsala-Sweden,Lei Sun,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Fragment&show=1.csv
+BBa_K649001,GFP regulated by 3OC12-HSL and LasR,1018,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_Tokyo_Tech,Tomoyuki Ohno,2011-09-26,Spring 2017 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2014 Distribution,pgroup=Reporter_Fragment&show=1.csv
+BBa_I15014,polycistronic EYFP+ECFP,1488,,Antiquity:0,Not Released,BBa_S04238,In stock,None,Not Used,UTAustin,Jeff Tabor,2005-05-03,,pgroup=Reporter_Fragment&show=1.csv
+BBa_J85201,B0034.E0040,738,,,Released HQ 2013,BBa_I13500;BBa_J70382;BBa_K1001756;BBa_S05211;BBa_T6001;BBa_K1461312;BBa_T6002,In stock,,3 Uses,Weiss Lab,Jonathan W Babb,2009-12-07,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1021023,PtrpC+GFP,1131,,,Not Released,,In stock,None,Not Used,iGEM13_Cornell,Swati Sureka,2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1021024,PtrpC+mRFP,1081,,,,,,,,,,,,
+BBa_K1021031,PgpdA+mRFP,1435,,,Not Released,,In stock,,Not Used,iGEM13_Cornell,Swati Sureka,2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1373011,ppsA promoter - gfp,890,,,,,,,,,,,,
+BBa_K823016,lacZ full-length (RBS+ TERM-),3093,,,,,,,,,,,,
+BBa_E0224,B0034.E0024,780,,,,,,,,,,,,
+BBa_E0226,B0034.E0026,780,,,,,,,,,,,,
+BBa_E0234,B0034.E0034,780,,,,,,,,,,,,
+BBa_E0236,B0034.E0036,780,,,,,,,,,,,,
+BBa_I14072,dsRed LVA+,728,,,,,,,,,,,,
+BBa_I712051,pT7-rLuc,988,,,,,,,,,,,,
+BBa_I712052,pT7-fLuc,1705,,,,,,,,,,,,
+BBa_I712054,pT7-mCer,772,,,,,,,,,,,,
+BBa_I763009,ECFP coding device regulated by pCMV Promoter,1383,,,,,,,,,,,,
+BBa_J119019,RFP(rev)-RBS(rev)-pT7(rev)-pLac-RBS-T7RNAP,3568,,,,,,,,,,,,
+BBa_J119068,RFPrev-RBSrev-pT7rev-pLacI-RBS-T7 RNAP (2SAT mutant 1) ,3590,,,,,,,,,,,,
+BBa_J119136,Device for Testing New Promoters via Golden Gate Assembly ,1632,,,,,,,,,,,,
+BBa_J119317,eCDM8 expression + Theophylline riboswitch GFP,4161,,,,,,,,,,,,
+BBa_J70311,"R0040 (TetR promotor), E0031 (RBS+EYFP) ",802,,,,,,,,,,,,
+BBa_J70313,"R0040 (tetR), J70029 (RBS+mcherry)",761,,,,,,,,,,,,
+BBa_J70525,R0010.10gfp.E0040,962,,,,,,,,,,,,
+BBa_J70526, R0010.100gfp.E0040,963,,,,,,,,,,,,
+BBa_J70527, R0010.1000gfp.E0040,959,,,,,,,,,,,,
+BBa_J70528, R0010.10000gfp.E0040,961,,,,,,,,,,,,
+BBa_J70529, R0010.100000gfp.E0040,958,,,,,,,,,,,,
+BBa_J70657,N-terminal 6 his fusion test for GFP J70610w604 inserts,939,,,,,,,,,,,,
+BBa_J70659,N-terminal 6 strep fusion test for GFP J70610w n-terminalstreptag inserts,951,,,,,,,,,,,,
+BBa_J70661,Reporter for assembly comparison project J70607-E0040,912,,,,,,,,,,,,
+BBa_J70665,MF optimized RFP reporter,762,,,,,,,,,,,,
+BBa_J70666,"MF optimized RFP reporter, MF promoter",789,,,,,,,,,,,,
+BBa_J70667,"MF optimized RFP reporter, MF heat induced promoter",818,,,,,,,,,,,,
+BBa_K1021020,PT7+GFP,808,,,,,,,,,,,,
+BBa_K1021021,PT7+mRFP,758,,,,,,,,,,,,
+BBa_K1033907,"fwYellow, yellow chromoprotein (incl RBS, J23110)",775,,,,,,,,,,,,
+BBa_K1033908,"fwYellow, yellow chromoprotein (incl RBS, J23106)",775,,,,,,,,,,,,
+BBa_K1051050,K1051000 (non stop codon RFP) + K1051008 (Stop codon + CAA terminator),701,,,,,,,,,,,,
+BBa_K1051051,K1051000 (non stop codon RFP) + K1051007 (Stop codon + SSV7 terminator),722,,,,,,,,,,,,
+BBa_K1051052,K1051000 (non stop codon RFP) + K1051006 (Stop codon + TBY-1 terminator),714,,,,,,,,,,,,
+BBa_K1051053,K1051001 (non stop codon ECFP + K1051006 (Stop codon + TBY-1 terminator),755,,,,,,,,,,,,
+BBa_K1051054,K1051001 (non stop codon ECFP + K1051007 (Stop codon + SSV7 terminator),763,,,,,,,,,,,,
+BBa_K1051055,K1051001 (non stop codon ECFP + K1051008 (Stop codon + CAA terminator),742,,,,,,,,,,,,
+BBa_K1051056,K1051002 (non stop codon EYFP + K1051006 (Stop codon +TBY-1 terminator),756,,,,,,,,,,,,
+BBa_K1051057,K1051002 (non stop codon EYFP + K1051007 (Stop codon +SSV7 terminator),764,,,,,,,,,,,,
+BBa_K1051058,K1051002 (non stop codon EYFP + K1051008 (Stop codon +CCA terminator),743,,,,,,,,,,,,
+BBa_K1051059,K1051003 (non stop codon GFP + K1051006 (Stop codon +TBY-1 terminator),753,,,,,,,,,,,,
+BBa_K1051060,K1051003 (non stop codon GFP + K1051007 (Stop codon +SSV7 terminator),761,,,,,,,,,,,,
+BBa_K1051061,K1051003 (non stop codon GFP + K1051008 (Stop codon +CCA terminator),740,,,,,,,,,,,,
+BBa_K1051062,K1051004 (non stop codon morange) + K1051006 (Stop codon +TBY-1terminator),777,,,,,,,,,,,,
+BBa_K1051063,K1051004 (non stop codon morange) + K1051007 (Stop codon +SSV7 terminator),785,,,,,,,,,,,,
+BBa_K1051064,K1051004 (non stop codon morange) + K1051008 (Stop codon +CCA terminator),764,,,,,,,,,,,,
+BBa_K1100015,R0010 with insulator and sfGFP,941,,,,,,,,,,,,
+BBa_K1100016,R0040 with insulator and sfGFP,795,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,"Chenxi He, Jiadong Ni",2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1100017,R0063 with insulator and sfGFP,892,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,"Chenxi He, Jiadong Ni",2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1100018,R1051 with insulator and sfGFP,790,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,"Chenxi He, Jiadong Ni",2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1100019,R1062 with insulator and sfGFP,797,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,"Chenxi He, Jiadong Ni",2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1100100,J23100 with insulator and sfGFP,776,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1100101,J23101 with insulator and sfGFP,776,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1100104,J23104 with insulator and sfGFP,776,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1100105,J23105 with insulator and sfGFP,776,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1100110,J23110 with insulator and sfGFP,776,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,Hao-tian Guo,2013-09-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K121005,test,37,,,Not Released,,Not in stock,,Not Used,iGEM08_Tokyo_Tech,Daisuke Kiga,2008-06-21,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K121012,Plac GFP on pSB6,1167,,,Not Released,BBa_K121097,It's complicated,Works,Not Used,iGEM08_Tokyo_Tech,Masashi Kajita,2008-10-16,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K121015,pL GFP on pSB6,1025,,,Not Released,BBa_K121998;BBa_K121098,It's complicated,Works,Not Used,iGEM08_Tokyo_Tech,"Masashi Kajita, Ryoji Sekine",2008-10-18,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1367009,amilCP-E coil,738,,,Not Released,,Not in stock,,Not Used,iGEM14_UB_Indonesia,Herlinda Mawardika,2014-10-11,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1459017,pmrC-GFP,772,,,Not Released,,Not in stock,,Not Used,iGEM14_Warsaw,Grzegorz &#346;cibisz,2014-10-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1491003,RBS-eGFP-His,758,,,Not Released,,It's complicated,Works,1 Uses,iGEM14_Carnegie_Mellon,Danielle Peters,2014-07-15,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1497020,Naringenin sensor (FdeR) with GFP as reporter,1940,,,Not Released,,It's complicated,Works,Not Used,iGEM14_TU_Darmstadt,"Sascha Hein, Niklas Hummel, Sebastian Barthel, Thomas Dohmen",2014-10-07,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1497021,Naringenin sensor (FdeR) with mKate as reporter,1937,,,Not Released,,It's complicated,Works,Not Used,iGEM14_TU_Darmstadt,"Sascha Hein, Niklas Hummel, Sebastian Barthel, Thomas Dohmen",2014-10-07,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1497022,Naringenin sensor (FdeR) with CFP as reporter,1943,,,Not Released,,It's complicated,Works,Not Used,iGEM14_TU_Darmstadt,"Sascha Hein, Niklas Hummel, Sebastian Barthel, Thomas Dohmen",2014-10-07,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1688004,dTomato (inc RBS),726,,,Not Released,,Not in stock,Works,3 Uses,iGEM15_Uppsala,Erik Gullberg,2015-09-15,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1769001,Dimeric FYVE + GFP,1152,,,Not Released,,Not in stock,None,Not Used,iGEM15_NYMU-Taipei,Ho-Tsang Tsai,2015-09-14,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K1865001,eforRed_BCEL,941,,,Not Released,,Not in stock,None,Not Used,iGEM15_Uni_Goettingen,"Avril von Hoyningen-Huene, Sindhu Thiagarajan, Verena Siebert",2015-09-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K199020,pOmpC (with intrinsic RBS)-GFP,905,,,Not Released,,It's complicated,Works,Not Used,iGEM09_MoWestern_Davidson,Kin Lau,2009-07-08,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K199021,RBS-RFP (all inverted),701,,,Not Released,BBa_S03644,It's complicated,Works,5 Uses,iGEM09_MoWestern_Davidson,Kin Lau,2009-07-08,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Fragment&show=1.csv
+BBa_K199042,pOmpC (with intrinsic RBS)-RFP,891,,,Not Released,,It's complicated,Works,Not Used,iGEM09_MoWestern_Davidson,Kin Lau,2009-07-17,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K2005051,mCherry with T7 expression (oxidation-resistant),752,,,Not Released,BBa_K2005061,Not in stock,,-1 Uses,iGEM16_Vanderbilt,Jarrod Shilts,2016-10-18,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K2005052,mCherry with T7 expression,752,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Vanderbilt,Jarrod Shilts,2016-10-18,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K2005062,GFP (T7 expression),758,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Vanderbilt,Jarrod Shilts,2016-10-18,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K206107,PoPS -> GFP,800,,,Not Released,,Not in stock,,Not Used,iGEM09_British_Columbia,Amelia Hardjasa,2009-05-21,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K216009,PyeaR with lacZ,351,,,Not Released,,It's complicated,Works,Not Used,iGEM09_Edinburgh,Edinburgh iGEM 2009,2009-10-16,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K216010,ompC promoter with lacZ,359,,,Not Released,,It's complicated,Works,Not Used,iGEM09_Edinburgh,Edinburgh iGEM 2009,2009-10-16,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K216016,PyeaR with bacterial luciferase,2218,,,Not Released,,Not in stock,Works,Not Used,iGEM09_Edinburgh,Edinburgh iGEM 2009,2009-10-21,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K247004,plux-rbs-mRFP,1241,,,Not Released,,It's complicated,Works,Not Used,iGEM09_Chiba,"Kaoru Yamamoto,Yoshimi Iyama",2009-10-19,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K294111,gfp rfp,1639,,,Not Released,,Not in stock,,Not Used,iGEM09_Example,Shotaro Ayukawa,2010-10-24,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K294112,gfp rfp,1641,,,Not Released,,Not in stock,,Not Used,iGEM09_Example,Shotaro Ayukawa,2010-10-24,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K299102,(J23100) J61101[RBS].E2050[mOrange] ,787,,,Not Released,,Not in stock,,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K299104,(J23100) J61101[RBS].I712028[mCherryNLS] ,751,,,Not Released,,Not in stock,None,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K313007,gfp generator in the reverse direction,880,,,Not Released,,It's complicated,Works,Not Used,iGEM10_UT-Tokyo,"Mingshuo Zeng, Ryo Kariyazono, Ryo Taniuchi, Masahiko Shimizu, Kosuke Uekusa, Ryosuke Kamei",2010-10-21,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K319002,GFP+TEF1 terminator,987,,,Not Released,,It's complicated,,Not Used,iGEM10_uOttawa,Afnan Azizi,2010-10-20,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K319034,yeGFP+ADH1 terminator,1064,,,Not Released,,It's complicated,,1 Uses,iGEM10_uOttawa,Afnan Azizi,2010-10-26,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K319038,yDsRed+ADH1 terminator,995,,,Not Released,,It's complicated,,Not Used,iGEM10_uOttawa,Afnan Azizi,2010-10-26,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K322117,phoA promoter and lacZ reporter ,411,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Edinburgh,William Rostain and   Meng Lu,2010-10-27,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K362007,"This composite part has the promoter ,ahpC-promoter controlled by OxyR protein, and GFP - T-T",1939,,,Not Released,,It's complicated,Works,Not Used,iGEM10_KIT-Kyoto,"Fumihiko Takeuchi,Aya Iwaki,Yuki Fukuyama,Satori Furumiti, Kazuma Usui, Akiko Kawashima, Toyokazu Nakamura,Reo Yoshimura",2010-10-13,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K362011,sodA promoter - RBS - GFP - Term - Term,1939,,,Not Released,,Not in stock,None,Not Used,iGEM10_KIT-Kyoto,"Fumihiko Takeuchi, Aya Iwaki, Akiko Kawashima , Yuki Fukuyama ",2010-10-23,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K362059,acrAB promoter - RBS - GFP - Term - Term ,1266,,,Not Released,,Not in stock,None,Not Used,iGEM10_KIT-Kyoto,"Fumihiko Takeuchi, Aya Iwaki, Akiko Kawashima , Yuki Fukuyama",2010-10-25,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K362060,dps promoter - RBS - GFP - Term - Term ,1439,,,Not Released,,Not in stock,None,Not Used,iGEM10_KIT-Kyoto,"Fumihiko Takeuchi, Aya Iwaki, Akiko Kawashima , Yuki Fukuyama",2010-10-25,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K362061,oxyR promoter - RBS - GFP - Term - Term ,1939,,,Not Released,,Not in stock,None,Not Used,iGEM10_KIT-Kyoto,"Fumihiko Takeuchi, Aya Iwaki, Akiko Kawashima , Yuki Fukuyama",2010-10-25,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K362062,sufA promoter - RBS - GFP - Term - Term ,1939,,,Not Released,,Not in stock,None,Not Used,iGEM10_KIT-Kyoto,"Fumihiko Takeuchi, Aya Iwaki, Akiko Kawashima , Yuki Fukuyama",2010-10-25,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K362063,yaiA promoter - RBS - GFP - Term - Term ,1573,,,Not Released,,Not in stock,None,Not Used,iGEM10_KIT-Kyoto,"Fumihiko Takeuchi, Aya Iwaki, Akiko Kawashima , Yuki Fukuyama",2010-10-25,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K395100,GFP reporter activated by LuxR and 3OC6HSL (R0062:K121013),994,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Tokyo_Tech,Shohei Kitano,2010-10-05,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K395101,GFP reporter repressed by LuxR and 3OC6HSL (R0061:K121013),969,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Tokyo_Tech,Shohei Kitano,2010-10-05,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K395105,GFP reporter repressed by LuxR and 3OC6HSL (K395008:K121013),969,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Tokyo_Tech,Shohei Kitano,2010-10-05,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K395106,GFP reporter repressed by LuxR and 3OC6HSL (K395009:K121013),969,,,Not Released,,It's complicated,None,Not Used,iGEM10_Tokyo_Tech,Shohei Kitano,2010-10-05,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K395107,GFP reporter activated by RhlR and C4HSL (R0071:K121013),992,,,Not Released,,Not in stock,,Not Used,iGEM10_Tokyo_Tech,Shohei Kitano,2010-10-05,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K395108,GFP reporter repressed by RhlR and C4HSL (K395015:K121013),969,,,Not Released,,Not in stock,None,Not Used,iGEM10_Tokyo_Tech,Shohei Kitano,2010-10-05,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K395110,GFP reporter repressed by LasR and 3OC12HSL (K395025:K121013),969,,,Not Released,,Not in stock,,Not Used,iGEM10_Tokyo_Tech,Shohei Kitano,2010-10-05,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K572004,PcstA_Luciferase Generator,1073,,,Not Released,,It's complicated,None,Not Used,iGEM11_IIT_Madras,Avaneesh T,2011-09-18,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K592033,PcpcG2-B0034,258,,,Not Released,,Not in stock,,Not Used,iGEM11_Uppsala-Sweden,Lei Sun,2011-09-21,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K634014,Reversed J23100-alkS,2690,,,Not Released,,Not in stock,,Not Used,iGEM11_Wisconsin-Madison,Eric Walters,2011-09-27,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K640007,Codon optimized Luciferase for chlamydomonas  with Hsp70A promoter,1599,,,Not Released,,It's complicated,,Not Used,iGEM11_Calgary,Emily Hicks,2011-10-28,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K648010,Lac-Inducible C230 Reporter,1166,,,Not Released,,Not in stock,,Not Used,iGEM11_Penn_State,Jim Rose,2011-07-04,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809301,RFP + signal peptide of ZIM17 ,853,,,Not Released,,Not in stock,,2 Uses,iGEM12_Shenzhen,Luohao Xu,2012-09-23,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809302,RFP + signal peptide of FER,808,,,Not Released,BBa_K809303,Not in stock,None,1 Uses,iGEM12_Shenzhen,Luohao Xu,2012-09-23,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809303,RFP + signal peptide of TIM21,808,,,Not Released,BBa_K809302,Not in stock,None,Not Used,iGEM12_Shenzhen,Luohao Xu,2012-09-23,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809304,RFP + signal peptide of Tom40,859,,,Not Released,,Not in stock,None,Not Used,iGEM12_Shenzhen,Luohao Xu,2012-09-23,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809305,RFP + signal peptide of Tom70,802,,,Not Released,,Not in stock,None,1 Uses,iGEM12_Shenzhen,Luohao Xu,2012-09-23,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809306,RFP + signal peptide of Tom22,842,,,Not Released,,Not in stock,None,1 Uses,iGEM12_Shenzhen,Luohao Xu,2012-09-23,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809313,YFP + signal peptide of ZIM17,179,,,Not Released,,Not in stock,None,1 Uses,iGEM12_Shenzhen,Luohao Xu,2012-09-25,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809314,YFP + signal peptide of  FER,134,,,Not Released,BBa_K809315,Not in stock,None,1 Uses,iGEM12_Shenzhen,Luohao Xu,2012-09-25,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809315,YFP + signal peptide of Tim21,134,,,Not Released,BBa_K809314,Not in stock,None,1 Uses,iGEM12_Shenzhen,Luohao Xu,2012-09-25,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809316,YFP + signal peptide of Tom40,185,,,Not Released,,Not in stock,None,1 Uses,iGEM12_Shenzhen,Luohao Xu,2012-09-25,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809317,YFP + signal peptide of Tom70,128,,,Not Released,,Not in stock,None,2 Uses,iGEM12_Shenzhen,Luohao Xu,2012-09-25,,pgroup=Reporter_Fragment&show=1.csv
+BBa_K809318,YFP + signal peptide of Tom22,168,,,Not Released,,Not in stock,None,1 Uses,iGEM12_Shenzhen,Luohao Xu,2012-09-25,,pgroup=Reporter_Fragment&show=1.csv

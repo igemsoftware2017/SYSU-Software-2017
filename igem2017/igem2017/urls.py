@@ -31,6 +31,8 @@ urlpatterns = [
     url(r'^login', main_views.login_view),
     url(r'^logout$', main_views.logout_view),
     url(r'^design$', design_views.design),
+    url(r'^work$', main_views.work),
+    url(r'^search$', main_views.search),
 ] + \
 [
     # API urls

@@ -1,0 +1,30 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_J45270,Stationary-phase-dependent banana odor generator,1802,1,,Not Released,,In stock,None,Not Used,iGEM2006_MIT,André Green II,2006-10-28,,pgroup=generator_prct&show=1.csv
+BBa_I5000,Olmecs: Inducible expression of HK022 cI repressor,953,,Antiquity:3,Not Released,,It's complicated,Issues,Not Used,Antiquity,Olmecs 2003 IAP Team,2003-11-27,,pgroup=generator_prct&show=1.csv
+BBa_I5010,Olmecs: Inducible expression of Lambda cI repressor,959,,Antiquity:3,Not Released,BBa_I758601;BBa_I758600;BBa_K1960005,It's complicated,Issues,3 Uses,Antiquity,Olmecs 2003 IAP Team,2003-11-27,,pgroup=generator_prct&show=1.csv
+BBa_I5020,Olmecs: Inducible expression of 434 cI repressor,878,,,Not Released,,It's complicated,,Not Used,Antiquity,Olmecs 2003 IAP Team,2003-11-27,,pgroup=generator_prct&show=1.csv
+BBa_I5030,Olmecs: Inducible expression of P22 c2 repressor,896,,Antiquity:5,Not Released,,It's complicated,Works,Not Used,Antiquity,Olmecs 2003 IAP Team,2003-11-27,,pgroup=generator_prct&show=1.csv
+BBa_I711001,generates the tyrosinase for melanin biosynthesis,992,,,Not Released,,Not in stock,,Not Used,iGEM07_Virginia,Ron Bauerle,2007-05-26,,pgroup=generator_prct&show=1.csv
+BBa_I711005,Melanogenesis with red light trigger,1535,,,Not Released,,Not in stock,None,Not Used,iGEM07_Virginia,VGEM 2007,2007-06-05,,pgroup=generator_prct&show=1.csv
+BBa_I711018,Acetyl-CoA -> acetoacetyl-CoA (thiolase),1343,,,Not Released,,Not in stock,,Not Used,iGEM07_Virginia,Ranjan Khan,2007-07-16,,pgroup=generator_prct&show=1.csv
+BBa_I711021,"Butanol dehydrogenase generator, beta-butryaldehyde -> butanol",1355,,,Not Released,,Not in stock,None,Not Used,iGEM07_Virginia,Ranjan Khan,2007-07-16,,pgroup=generator_prct&show=1.csv
+BBa_I731003,protein generator (EXAMPLE ONLY),773,,,Not Released,,Not in stock,,Not Used,iGEM07_Harvard,Michael Strong,2007-05-26,,pgroup=generator_prct&show=1.csv
+BBa_I738001,generates the feruloyl-CoA hydratase for vanillin,1001,,,Not Released,,Not in stock,,Not Used,iGEM07_Purdue,Kari Clase,2007-05-26,,pgroup=generator_prct&show=1.csv
+BBa_I754001,ech protein generator for vanillin biosynthesis,1015,,,Not Released,BBa_I760001;BBa_I769106,Not in stock,,Not Used,iGEM07_Turkey,Mahinur Akkaya,2007-06-27,,pgroup=generator_prct&show=1.csv
+BBa_I760001,ech protein generator for vanillin biosynthesis,1015,,,Not Released,BBa_I769106;BBa_I754001,Not in stock,,Not Used,iGEM07_Saint_Petersburg,Alexej Skvortsov,2007-06-27,,pgroup=generator_prct&show=1.csv
+BBa_I769106,ech protein generator for vanillin biosynthesis,1015,,,Not Released,BBa_I760001;BBa_I754001,Not in stock,None,Not Used,iGEM07_Example,Meagan Lizarazo,2007-06-27,,pgroup=generator_prct&show=1.csv
+BBa_J01101, [pTet][StrRBS][cI][DblTerm],992,1,Antiquity:5;Tokyo_Tech:1,Not Released,BBa_I12038;BBa_S03290;BBa_I744111;BBa_K1022108;BBa_K1053300;BBa_K1104902,It's complicated,Works,2 Uses,iGEM2005,Golden Bear,2005-12-29,,pgroup=generator_prct&show=1.csv
+BBa_J03101,cI repressor under LacI promoter,1104,,,Not Released,,Not in stock,,1 Uses,iGEM2005,James Godman,2005-10-05,,pgroup=generator_prct&show=1.csv
+BBa_J29006,CrtB protein generator,2235,,,Not Released,,Not in stock,,Not Used,iGEM2006_Chiba,Mayu Ikezumi,2006-08-02,,pgroup=generator_prct&show=1.csv
+BBa_J45100,Wintergreen odor enzyme (BSMT1) generator,1294,,,Not Released,,It's complicated,Works,Not Used,iGEM2006_MIT,Boyuan Zhu,2006-08-09,,pgroup=generator_prct&show=1.csv
+BBa_J45120,Wintergreen odor generator,1292,1,Reshma Shetty:5,Not Released,,It's complicated,Works,1 Uses,iGEM2006_MIT,MIT IGEM 2006,2006-08-10,,pgroup=generator_prct&show=1.csv
+BBa_J45170,Stationary-phase-dependent wintergreen odor generator,1295,,,Not Released,,It's complicated,None,Not Used,iGEM2006_MIT,MIT IGEM 2006,2006-08-10,,pgroup=generator_prct&show=1.csv
+BBa_J45200,Banana odor generator,1801,1,Reshma Shetty:5;mjgiroux:4,Not Released,,It's complicated,Works,2 Uses,iGEM2006_MIT,AndrÃ© Green II,2006-10-20,,pgroup=generator_prct&show=1.csv
+BBa_J45220,Banana odor generator,1800,,,Not Released,,It's complicated,Works,Not Used,iGEM2006_MIT,André Green II,2006-10-20,,pgroup=generator_prct&show=1.csv
+BBa_J45250,Stationary-phase-dependent banana odor generator,1946,,Reshma Shetty:5,Not Released,,It's complicated,Works,1 Uses,iGEM2006_MIT,André Green II,2006-10-28,,pgroup=generator_prct&show=1.csv
+BBa_J45320,Salicylate generator,1955,1,Reshma Shetty:3,Not Released,,It's complicated,Works,4 Uses,iGEM2006_MIT,André Green II,2006-10-20,,pgroup=generator_prct&show=1.csv
+BBa_J69601,Arabinose-inducible CI Generator,1053,,,Not Released,,Not in stock,,1 Uses,Haseloff Lab,James Brown,2007-03-29,,pgroup=generator_prct&show=1.csv
+BBa_J69602,TetR-repressible CI Generator,958,,,Not Released,BBa_I744121,It's complicated,,1 Uses,Haseloff Lab,James Brown,2007-03-29,,pgroup=generator_prct&show=1.csv
+BBa_K283003,pTet-rbs-chez_histag-double terminator,930,,,Not Released,,It's complicated,Works,Not Used,iGEM09_HKU-HKBU," Wei Ling , Nelson Chu, Shi  Lei",2009-10-13,,pgroup=generator_prct&show=1.csv
+BBa_K283016,pLacI-rbs-cheZ_histag-terminators,1076,,,Not Released,,It's complicated,Works,1 Uses,iGEM09_HKU-HKBU,"W Ling , Nelson Chu,  Shi Lei",2009-10-13,,pgroup=generator_prct&show=1.csv
+BBa_K343006,Expresses B-carotene monooxygenase on a constitutive promotor,2080,,,Not Released,,It's complicated,None,Not Used,iGEM10_SDU-Denmark,Christian Kurtzhals,2010-10-14,,pgroup=generator_prct&show=1.csv

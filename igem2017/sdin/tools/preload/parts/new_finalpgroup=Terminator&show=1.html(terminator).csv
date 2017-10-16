@@ -1,0 +1,376 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_B0011,LuxICDABEG (+/-),46,1,Antiquity:5,Released HQ 2013,,In stock,Works,78 Uses,Antiquity,Reshma Shetty,2003-01-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B0014,double terminator (B0012-B0011),95,1,Antiquity:5;iGEM Groningen 2009:5;iGEM LMU-Munich 2012:5,Released HQ 2013,BBa_K823017;BBa_K1479002;BBa_K1753000,In stock,Works,266 Uses,Antiquity,Reshma Shetty,2003-07-16,,pgroup=Terminator&show=1.html.csv
+BBa_B0015,double terminator (B0010-B0012),129,1,iGEM Team Göttingen 2013:5;iGEM13_Fudan:4;Aberdeen_Scotland 2009:4;Michigan iGEM 2012:5;Aberdeen_Scotland 2009:4;Michigan iGEM 2012:5,Released HQ 2013,BBa_J34805;BBa_J70612;BBa_J72049;BBa_K783020;BBa_M36912;BBa_K1045009;BBa_T6000;BBa_K1520029;BBa_K1685000;BBa_K2042020;BBa_K1972011;BBa_K2023000;BBa_S05347;BBa_K2175002;BBa_K2101000;BBa_K1903000,In stock,Works,3210 Uses,Antiquity,Reshma Shetty,2003-07-17,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B0021,"LuxICDABEG (+/-), reversed",46,1,Antiquity:5,Released HQ 2013,BBa_I742129,In stock,Works,9 Uses,Antiquity,Caitlin Conboy,2003-10-14,"Spring 2017 Distribution;MIT Distribution 4.04 -> BioBricks 1;Spring 2016 Distribution;MIT Distribution 4.04 -> BioBricks 1;Spring 2015 Distribution;MIT Distribution 4.04 -> BioBricks 1;Spring 2014 Distribution;MIT Distribution 4.04 -> BioBricks 1
+",pgroup=Terminator&show=1.html.csv
+BBa_B0024,"double terminator (B0012-B0011), reversed",95,1,,Not Released,,In stock,Works,26 Uses,Antiquity,Caitlin Conboy,2003-12-02,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B0025,"double terminator (B0015), reversed",129,1,Antiquity:5,Not Released,BBa_K093011;BBa_K1616010,In stock,Works,67 Uses,Antiquity,Caitlin Conboy,2003-12-02,Spring 2017 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B1001,"Terminator (artifical, small, %T~=90)",34,1,,Not Released,,In stock,Works,10 Uses,Knight Lab,Haiyao Huang,2006-08-30,,pgroup=Terminator&show=1.html.csv
+BBa_B1002,"Terminator (artificial, small, %T~=85%)",34,1,,Not Released,BBa_M36376,In stock,Works,1 Registry Star,Knight Lab,Haiyao Huang,2006-08-30,,pgroup=Terminator&show=1.html.csv
+BBa_B1003,"Terminator (artificial, small, %T~=80)",34,1,,Released HQ 2013,,In stock,Works,7 Uses,Knight Lab,Haiyao Huang,2006-08-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B1005,"Terminator (artificial, small, %T~=25%",34,1,,Released HQ 2013,,In stock,Works,6 Uses,Knight Lab,Haiyao Huang,2006-08-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B1006,"Terminator (artificial, large, %T~>90)",39,1,,Released HQ 2013,BBa_M36135;BBa_M36267,In stock,Works,141 Uses,Knight Lab,Haiyao Huang,2006-08-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B1007,"Terminator (artificial, large, %T~=80)",40,1,,Released HQ 2013,,In stock,Works,9 Uses,Knight Lab,Haiyao Huang,2006-09-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B1010,"Terninator (artificial, large, %T~<10)",40,1,,Released HQ 2013,,In stock,Works,10 Uses,Knight Lab,Haiyao Huang,2006-09-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_J61048,[rnpB-T1] Terminator,113,1,,Not Released,,In stock,Works,50 Uses,Arkin Lab,John Anderson,2007-02-20,,pgroup=Terminator&show=1.html.csv
+BBa_K1045009,Terminator BBa_B0015 with inversed Pre- and Suffix,129,,,Not Released,BBa_B0015;BBa_J34805;BBa_J70612;BBa_J72049;BBa_K783020;BBa_M36912;BBa_T6000;BBa_K1520029;BBa_K1685000;BBa_K2042020;BBa_K1972011;BBa_K2023000;BBa_S05347;BBa_K2175002;BBa_K2101000;BBa_K1903000,In stock,Works,Not Used,iGEM13_Goettingen,iGEM Team Göttingen 2013,2013-09-20,,pgroup=Terminator&show=1.html.csv
+BBa_K1051008,S. cerevisiae CAA terminator with stopcodon,18,,,Not Released,,In stock,Works,30 Uses,iGEM13_Shenzhen_BGIC_ATCG,Xiang LI,2013-07-08,,pgroup=Terminator&show=1.html.csv
+BBa_K731721,T7 terminator,48,,,Released HQ 2013,BBa_B0016;BBa_K395601;BBa_M36305;BBa_K785002;BBa_K923004;BBa_K1823000;BBa_M50032;BBa_M50049,In stock,Works,8 Uses,iGEM12_TRENTO,"Giacomo Giacomelli, Anna Depetris",2012-08-15,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_K731722,T1 terminator from  E. coli rrnB,79,,,Released HQ 2013,BBa_M36586,In stock,Works,2 Uses,iGEM12_TRENTO,"Anna Depetris, Giacomo Giacomelli",2012-08-23,Spring 2017 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_K823017,double terminator (B0012-B0011),95,,,Released HQ 2013,BBa_B0014;BBa_K1479002;BBa_K1753000,In stock,Works,36 Uses,iGEM12_LMU-Munich,Jara Radeck,2012-09-11,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_K864600,T0 (21 imm) transcriptional terminator,52,,,Released HQ 2013,,In stock,Works,Not Used,iGEM12_Uppsala,Erik Lundin,2012-09-25,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_K864601,Lambda t1 transcriptional terminator,53,,,Not Released,,In stock,Works,Not Used,iGEM12_Uppsala,Erik Lundin,2012-09-25,,pgroup=Terminator&show=1.html.csv
+BBa_K923004,T7 Terminator from pET14 Plasmid,48,,,Released HQ 2013,BBa_B0016;BBa_K395601;BBa_M36305;BBa_K731721;BBa_K785002;BBa_K1823000;BBa_M50032;BBa_M50049,In stock,Works,Not Used,iGEM12_BAU_Indonesia,Masrukhin,2012-09-27,,pgroup=Terminator&show=1.html.csv
+BBa_M36561,This terminator is a general terminator of transcription. It forms a stem loop which stops transcrip,80,,,Not Released,BBa_B0010;BBa_M36918;BBa_K2052013,In stock,Works,1 Uses,Stanford BIOE44 - S11,Ashley Henderson,2014-10-24,,pgroup=Terminator&show=1.html.csv
+BBa_B0010,T1 from E. coli rrnB,80,1,,Not Released,BBa_M36918;BBa_M36561;BBa_K2052013,In stock,None,657 Uses,Antiquity,Randy Rettberg,2003-11-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B0012,TE from coliphageT7,41,,KAIT_JAPAN:5,Released HQ 2013,,In stock,Fails,649 Uses,Antiquity,Reshma Shetty,2003-01-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B0013,TE from coliphage T7 (+/-),47,,Antiquity:0,Released HQ 2013,,In stock,Fails,3 Uses,Antiquity,Reshma Shetty,2003-01-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B0016,"Terminator (T7 RNAP specific, T_Phi)",48,,,Released HQ 2013,BBa_K395601;BBa_M36305;BBa_K731721;BBa_K785002;BBa_K923004;BBa_K1823000;BBa_M50032;BBa_M50049,In stock,,39 Uses,Antiquity,Sri Kosuri,2003-12-04,,pgroup=Terminator&show=1.html.csv
+BBa_B0017,double terminator (B0010-B0010),168,1,,Released HQ 2013,,In stock,None,21 Uses,Antiquity,Austin Che,2004-01-08,"Spring 2017 Distribution;MIT Distribution 4.04 -> BioBricks 1;Spring 2016 Distribution;MIT Distribution 4.04 -> BioBricks 1;Spring 2015 Distribution;MIT Distribution 4.04 -> BioBricks 1;Spring 2014 Distribution;MIT Distribution 4.04 -> BioBricks 1",pgroup=Terminator&show=1.html.csv
+BBa_B0023,"TE from coliphage T7, reversed",47,,Antiquity:0,Released HQ 2013,,In stock,Fails,2 Uses,Antiquity,Caitlin Conboy,2003-10-17,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B1008,"Terminator (artificial, large,  %T~=70)",40,1,,Released HQ 2013,,In stock,None,2 Uses,Knight Lab,Haiyao Huang,2006-09-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_B1009,"Terminator (artificial, large, %T~=40%)",40,1,,Released HQ 2013,,In stock,None,3 Uses,Knight Lab,Haiyao Huang,2006-09-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_I742129,Reverse terminator BBa_B0011 LuxICDABEG (+/-),46,,,Released HQ 2013,BBa_B0021,In stock,None,1 Uses,iGEM07_Edinburgh,Caroline Dahl,2007-10-22,,pgroup=Terminator&show=1.html.csv
+BBa_J34805,terminator,129,,,Released HQ 2013,BBa_B0015;BBa_J70612;BBa_J72049;BBa_K783020;BBa_M36912;BBa_K1045009;BBa_T6000;BBa_K1520029;BBa_K1685000;BBa_K2042020;BBa_K1972011;BBa_K2023000;BBa_S05347;BBa_K2175002;BBa_K2101000;BBa_K1903000,In stock,,2 Uses,iGEM2006_ETHZ,Alexandra Choutko,2006-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_J70612,RFC12 Double Terminator,129,,,Released HQ 2013,BBa_B0015;BBa_J34805;BBa_J72049;BBa_K783020;BBa_M36912;BBa_K1045009;BBa_T6000;BBa_K1520029;BBa_K1685000;BBa_K2042020;BBa_K1972011;BBa_K2023000;BBa_S05347;BBa_K2175002;BBa_K2101000;BBa_K1903000,In stock,,Not Used,Knight Lab,Joseph Lynch,2010-07-20,,pgroup=Terminator&show=1.html.csv
+BBa_J72049,{double terminator} in BglBrick Format,129,,,Released HQ 2013,BBa_B0015;BBa_J34805;BBa_J70612;BBa_K783020;BBa_M36912;BBa_K1045009;BBa_T6000;BBa_K1520029;BBa_K1685000;BBa_K2042020;BBa_K1972011;BBa_K2023000;BBa_S05347;BBa_K2175002;BBa_K2101000;BBa_K1903000,In stock,None,Not Used,Anderson Lab,Jin Huh,2011-11-08,,pgroup=Terminator&show=1.html.csv
+BBa_K093011,reverse B0015,129,,,Not Released,BBa_B0025;BBa_K1616010,In stock,,1 Uses,iGEM08_Waterloo,John Heil,2008-10-29,,pgroup=Terminator&show=1.html.csv
+BBa_K1021008,TtrpC,568,,,Not Released,,In stock,,2 Uses,iGEM13_Cornell,Swati Sureka,2013-09-13,,pgroup=Terminator&show=1.html.csv
+BBa_K1023002,xlnD terminator,836,,,Not Released,,In stock,,Not Used,iGEM13_Wageningen_UR,Michiel Karrenbelt,2013-09-17,,pgroup=Terminator&show=1.html.csv
+BBa_K1071005,T fcpA,241,,,Not Released,,In stock,None,Experience: None,iGEM13_Marburg,Team Marburg 2013,2013-09-19,,pgroup=Terminator&show=1.html.csv
+BBa_K1114021,The MoClo format of BBa_J23118 with AB fusion sites.,43,,,Not Released,,In stock,,Not Used,iGEM13_BostonU,Jake Awtry,2013-09-07,,pgroup=Terminator&show=1.html.csv
+BBa_K1114300,This is  the MoClo formatted part of BBa_B0015.,137,,,Not Released,,In stock,None,14 Uses,iGEM13_BostonU,Devina Desai,2013-09-07,,pgroup=Terminator&show=1.html.csv
+BBa_K1114301,This is MoClo formatted part of BBa_B0015,137,,,Not Released,,In stock,None,6 Uses,iGEM13_BostonU,Devina Desai,2013-09-07,,pgroup=Terminator&show=1.html.csv
+BBa_K1114302,,137,,,Not Released,,In stock,,Not Used,iGEM13_BostonU,Devina Desai,2013-09-07,,pgroup=Terminator&show=1.html.csv
+BBa_K1150012,BGH terminator,222,,,Not Released,,In stock,None,34 Uses,iGEM13_Freiburg,Freiburg 2013,2013-09-16,Spring 2017 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_K1159307,35S Terminator of Cauliflower Mosaic Virus (CaMV),217,,,Not Released,,In stock,None,1 Uses,iGEM13_TU-Munich,TU Munich 2013,2013-09-14,,pgroup=Terminator&show=1.html.csv
+BBa_K122013,tPGK1,1,,,Not Released,BBa_J23056;BBa_J23055;BBa_G0009;BBa_K122008;BBa_K122009;BBa_K122010;BBa_K122015;BBa_K122014;BBa_K1497024;BBa_K2066534;BBa_K2066549;BBa_K2066056;BBa_K2066032,In stock,,1 Uses,iGEM08_Rice_University,David Ouyang,2008-10-25,,pgroup=Terminator&show=1.html.csv
+BBa_K1510005, B0012+B0012,90,,,Not Released,,In stock,,Not Used,iGEM14_NYMU-Taipei,Yen-An Chang,2014-10-06,,pgroup=Terminator&show=1.html.csv
+BBa_K1520029,Terminator,129,,,Not Released,BBa_B0015;BBa_J34805;BBa_J70612;BBa_J72049;BBa_K783020;BBa_M36912;BBa_K1045009;BBa_T6000;BBa_K1685000;BBa_K2042020;BBa_K1972011;BBa_K2023000;BBa_S05347;BBa_K2175002;BBa_K2101000;BBa_K1903000,In stock,None,27 Uses,iGEM14_Nanjing-China,Peiqing Sun,2014-09-22,,pgroup=Terminator&show=1.html.csv
+BBa_K395601,T7 terminator,48,,,Released HQ 2013,BBa_B0016;BBa_M36305;BBa_K731721;BBa_K785002;BBa_K923004;BBa_K1823000;BBa_M50032;BBa_M50049,In stock,,4 Uses,iGEM10_Tokyo_Tech,Toshitaka Matsubara,2010-10-02,,pgroup=Terminator&show=1.html.csv
+BBa_K530014,KRE9 Yeast UTR,221,,,Released HQ 2013,,In stock,,1 Uses,iGEM11_Johns_Hopkins,Daniel Wolozny,2011-09-03,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_K530019,HHO1 Yeast UTR,312,,,Released HQ 2013,,In stock,None,6 Uses,iGEM11_Johns_Hopkins,Daniel Wolozny,2011-09-03,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_K783020,MoClo converted version of BBa_B0015,129,,,Released HQ 2013,BBa_B0015;BBa_J34805;BBa_J70612;BBa_J72049;BBa_M36912;BBa_K1045009;BBa_T6000;BBa_K1520029;BBa_K1685000;BBa_K2042020;BBa_K1972011;BBa_K2023000;BBa_S05347;BBa_K2175002;BBa_K2101000;BBa_K1903000,In stock,,11 Uses,iGEM12_BostonU,Traci Haddock,2012-10-02,,pgroup=Terminator&show=1.html.csv
+BBa_K785002,T7 terminator,48,,,Released HQ 2013,BBa_B0016;BBa_K395601;BBa_M36305;BBa_K731721;BBa_K923004;BBa_K1823000;BBa_M50032;BBa_M50049,In stock,,Not Used,iGEM12_Fudan_Lux,Zining Hou,2012-09-22,,pgroup=Terminator&show=1.html.csv
+BBa_K801011,TEF1 yeast terminator,507,,,Not Released,,In stock,,2 Uses,iGEM12_TU_Munich,Georg Schützinger,2012-09-21,,pgroup=Terminator&show=1.html.csv
+BBa_K801012,ADH1 yeast terminator,349,,,Released HQ 2013,,In stock,,43 Uses,iGEM12_TU_Munich,Georg Schützinger,2012-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_M36135,Transcription terminator (apFAB388),39,,,Released HQ 2013,BBa_B1006;BBa_M36267,In stock,,7 Uses,Stanford BIOE44 - S11,Vir Choksi,2012-06-01,,pgroup=Terminator&show=1.html.csv
+BBa_M36305,Transcription terminator pT-T7 from bacteriophage,48,,,Released HQ 2013,BBa_B0016;BBa_K395601;BBa_K731721;BBa_K785002;BBa_K923004;BBa_K1823000;BBa_M50032;BBa_M50049,In stock,None,2 Uses,Stanford BIOE44 - S11,"Darren Jindal, Raman Nelakanti, Dennis Te",2011-12-08,,pgroup=Terminator&show=1.html.csv
+BBa_M36912,"Transcription terminator, works well with BBa_M36913 RBS",129,,,Released HQ 2013,BBa_B0015;BBa_J34805;BBa_J70612;BBa_J72049;BBa_K783020;BBa_K1045009;BBa_T6000;BBa_K1520029;BBa_K1685000;BBa_K2042020;BBa_K1972011;BBa_K2023000;BBa_S05347;BBa_K2175002;BBa_K2101000;BBa_K1903000,In stock,None,1 Uses,Stanford BIOE44 - S11,"Rohit Talreja, Kelly Nguyen, Jacqueline Tao",2012-12-06,,pgroup=Terminator&show=1.html.csv
+BBa_M36918,T1 from E. coli rrnB,80,,,Not Released,BBa_B0010;BBa_M36561;BBa_K2052013,In stock,,Not Used,Stanford BIOE44 - S11,Leah Chase,2014-10-22,,pgroup=Terminator&show=1.html.csv
+BBa_B0020,Terminator (Reverse B0010),82,,Antiquity:0,Not Released,,Not in stock,None,2 Uses,Antiquity,Caitlin Conboy,2003-10-08,,pgroup=Terminator&show=1.html.csv
+BBa_B0022,"TE from coliphageT7, reversed",41,,Antiquity:0,Not Released,,It's complicated,Fails,1 Uses,Antiquity,Caitlin Conboy,2003-10-17,,pgroup=Terminator&show=1.html.csv
+BBa_B0050,"Terminator (pBR322, +/-)",33,,,Not Released,,Not in stock,,1 Uses,Antiquity,Caitlin Conboy,2004-01-29,,pgroup=Terminator&show=1.html.csv
+BBa_B0051,"Terminator (yciA/tonA, +/-)",35,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-01-29,,pgroup=Terminator&show=1.html.csv
+BBa_B0052,Terminator (rrnC),41,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-01-29,,pgroup=Terminator&show=1.html.csv
+BBa_B0053,Terminator (His),72,,,Not Released,,Not in stock,None,28 Uses,Antiquity,Caitlin Conboy,2004-01-29,,pgroup=Terminator&show=1.html.csv
+BBa_B0054,Transcriptional terminator,69,,,Not Released,,Not in stock,None,25 Uses,NCBS,Reshma Shetty,2005-11-16,,pgroup=Terminator&show=1.html.csv
+BBa_B0055, -- No description --,78,,,Not Released,,Not in stock,None,23 Uses,NCBS,Reshma Shetty,2005-11-16,,pgroup=Terminator&show=1.html.csv
+BBa_B0060,Terminator (Reverse B0050),33,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-01-29,,pgroup=Terminator&show=1.html.csv
+BBa_B0061,Terminator (Reverse B0051),35,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-01-29,,pgroup=Terminator&show=1.html.csv
+BBa_B0062,Terminator (Reverse B0052),41,,,Not Released,,Not in stock,None,25 Uses,Antiquity,Caitlin Conboy,2004-01-29,,pgroup=Terminator&show=1.html.csv
+BBa_B0063,Terminator (Reverse B0053),72,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-01-29,,pgroup=Terminator&show=1.html.csv
+BBa_B1004,"Terminator (artificial, small, %T~=55)",34,1,,Not Released,,It's complicated,Works,6 Uses,Knight Lab,Haiyao Huang,2006-08-31,,pgroup=Terminator&show=1.html.csv
+BBa_B1011,"Terminator (artificial, should not work)",34,,,Not Released,,Not in stock,,Not Used,Knight Lab,Haiyao Huang,2006-09-07,,pgroup=Terminator&show=1.html.csv
+BBa_C0440,Terminator (bgl),124,,,Not Released,,Not in stock,,2 Uses,NCBS,T. Senthil,2005-10-29,,pgroup=Terminator&show=1.html.csv
+BBa_C0450,Terminator (C0440 + C0440),256,,,Not Released,,Not in stock,,2 Uses,NCBS,T. Senthil,2005-10-29,,pgroup=Terminator&show=1.html.csv
+BBa_I11013,Modification of biobricks part BBa_B0015,129,,Antiquity:0,Not Released,,Not in stock,None,1 Uses,Antiquity,bu,2004-09-03,,pgroup=Terminator&show=1.html.csv
+BBa_I51003, -- No description --,110,,,Not Released,,Not in stock,,Not Used,,Drew Endy,2005-12-01,,pgroup=Terminator&show=1.html.csv
+BBa_I714500,T1T2 terminator,203,,,Not Released,,Not in stock,,Not Used,iGEM07_Peking,CHEN Daizhuo,2007-08-22,,pgroup=Terminator&show=1.html.csv
+BBa_I766201,Adaptor/Adh Terminator,3388,,,Not Released,,Not in stock,None,4 Uses,iGEM07_UCSF,Nili Sommovilla,2007-10-22,,pgroup=Terminator&show=1.html.csv
+BBa_I766217,Stop-D-BamHI-Adh Terminator Adaptor,193,,,Not Released,,Not in stock,None,13 Uses,iGEM07_UCSF,Nili Sommovilla,2007-10-22,,pgroup=Terminator&show=1.html.csv
+BBa_I766340,stop-bamHI,9,,,Not Released,,Not in stock,None,4 Uses,iGEM07_UCSF,Nili Sommovilla,2007-10-23,,pgroup=Terminator&show=1.html.csv
+BBa_I766600,Combinatorial Terminator,218,,,,,,,,,,,,
+BBa_J107113,L3S3P22 terminator,49,,,Not Released,,Not in stock,None,-1 Uses,Magni_UNIPV_Lab,Lorenzo Pasotti,2016-01-02,,pgroup=Terminator&show=1.html.csv
+BBa_J107114,L3S2P42 terminator (reverse),57,,,Not Released,,Not in stock,,-1 Uses,Magni_UNIPV_Lab,Lorenzo Pasotti,2016-01-02,,pgroup=Terminator&show=1.html.csv
+BBa_J107115,L3S2P42 terminator,57,,,Not Released,,Not in stock,,-1 Uses,Magni_UNIPV_Lab,Lorenzo Pasotti,2016-01-02,,pgroup=Terminator&show=1.html.csv
+BBa_J133421,Translational Stop Sequence 1:001,12,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-03-30,,pgroup=Terminator&show=1.html.csv
+BBa_J133422,Translational Stop Sequence 2:010,12,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-03-30,,pgroup=Terminator&show=1.html.csv
+BBa_J133423,Translational Stop Sequence 3:011,12,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-03-30,,pgroup=Terminator&show=1.html.csv
+BBa_J133424,Translational Stop Sequence 4:100,12,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-03-30,,pgroup=Terminator&show=1.html.csv
+BBa_J133425,Translational Stop Sequence 5:101,12,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-03-30,,pgroup=Terminator&show=1.html.csv
+BBa_J133426,Translational Stop Sequence 6:110,12,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-03-30,,pgroup=Terminator&show=1.html.csv
+BBa_J133427,Translational Stop Sequence 7:111,12,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-03-30,,pgroup=Terminator&show=1.html.csv
+BBa_J133450,stem loop rss2,33,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-01-20,,pgroup=Terminator&show=1.html.csv
+BBa_J133451,stem loop s2s3,28,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-01-20,,pgroup=Terminator&show=1.html.csv
+BBa_J133452,stem loop 4b1c,39,,,Not Released,,Not in stock,,Not Used,Presting,Norman Wang,2011-01-20,,pgroup=Terminator&show=1.html.csv
+BBa_J14018,Terminator that terminates well,1089,,,Not Released,,Not in stock,,Not Used,iGEM_Registry,Meagan Lizarazo,2006-07-07,,pgroup=Terminator&show=1.html.csv
+BBa_J176016,STOP,13,,,Not Released,,Not in stock,Works,17 Uses,Haynes_Lab,Karmella Haynes,2011-09-29,,pgroup=Terminator&show=1.html.csv
+BBa_J18913,T7 terminator (incl. STOP),135,,,Not Released,,It's complicated,Works,26 Uses,Affiliates,Raik Gruenberg,2010-01-26,,pgroup=Terminator&show=1.html.csv
+BBa_J18961,bla terminator,301,,,Not Released,,Not in stock,,Not Used,Affiliates,Sean Sleight,2013-06-18,,pgroup=Terminator&show=1.html.csv
+BBa_J18962,rrnB1 terminator,175,,,Not Released,,Not in stock,,Not Used,Affiliates,Sean Sleight,2013-06-18,,pgroup=Terminator&show=1.html.csv
+BBa_J18963,rpn terminator,114,,,Not Released,,Not in stock,,Not Used,Affiliates,Sean Sleight,2013-06-18,,pgroup=Terminator&show=1.html.csv
+BBa_J23097,T1 Termnator of rnpB, ,,,Not Released,,No part sequence,,No Sequence,iGEM2006_Berkeley,John Anderson,2006-11-16,,pgroup=Terminator&show=1.html.csv
+BBa_J34813,terminator,80,,,Not Released,,Not in stock,,2 Uses,iGEM2006_ETHZ,Alexandra Choutko,2006-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_J52016,eukaryotic -- derived from SV40 early poly A signal sequence,238,,,Not Released,,It's complicated,Works,4 Uses,iGEM2006_Slovenia,Monika Ciglic,2006-10-14,,pgroup=Terminator&show=1.html.csv
+BBa_J56014,T015 - terminator sequence,135,,,Not Released,,Not in stock,,1 Uses,iGEM2006_UCSF,Matt Eames,2006-10-31,,pgroup=Terminator&show=1.html.csv
+BBa_J61053,FMN-T1 Terminator,52,,,Not Released,,Not in stock,,Not Used,Arkin Lab,John Anderson,2007-02-20,,pgroup=Terminator&show=1.html.csv
+BBa_J63002,ADH1 terminator from S. cerevisiae,225,,,Not Released,BBa_K165010;BBa_K105025,It's complicated,Works,61 Uses,Silver Lab,Caroline Ajo-Franklin,2006-10-11,,pgroup=Terminator&show=1.html.csv
+BBa_J64043,T1 terminator,105,,,Not Released,,Not in stock,Works,3 Uses,Voigt Lab,Dan Widmaier,2008-01-21,,pgroup=Terminator&show=1.html.csv
+BBa_J64970,CreABCD phophate sensor operon terminator,55,,,Not Released,,Not in stock,None,3 Uses,Voigt Lab,reid williams,2007-03-19,,pgroup=Terminator&show=1.html.csv
+BBa_J72077,{TrnpB} in BglBrick format,426,,,Not Released,,Not in stock,,Not Used,Anderson Lab,Josh Kittleson,2011-11-09,,pgroup=Terminator&show=1.html.csv
+BBa_J72166,tR2 terminator,38,,,Not Released,,Not in stock,,Not Used,Anderson Lab,Josh Kittleson,2012-09-17,,pgroup=Terminator&show=1.html.csv
+BBa_J85602,scar 2,45,,,Not Released,,Not in stock,None,1 Uses,Weiss Lab,Ron Weiss,2011-09-06,,pgroup=Terminator&show=1.html.csv
+BBa_J85603,scar 3,45,,,Not Released,,Not in stock,None,1 Uses,Weiss Lab,Ron Weiss,2011-09-06,,pgroup=Terminator&show=1.html.csv
+BBa_J95029,omega terminator,139,,,Not Released,BBa_K208112,Not in stock,,13 Uses,Hinton Lab,Junling Huo,2010-08-03,,pgroup=Terminator&show=1.html.csv
+BBa_K080009,SV40 polyadenylation  ,161,,,Not Released,,Not in stock,,Not Used,iGEM08_Bay_Area_RSI,Jennifer Lei,2008-10-20,,pgroup=Terminator&show=1.html.csv
+BBa_K088008,GlnRS terminator,55,,,Not Released,,It's complicated,,Not Used,iGEM08_CPU-NanJing,Yaguang Liu,2008-10-24,,pgroup=Terminator&show=1.html.csv
+BBa_K094013,terminator,94,,,Not Released,,Not in stock,Works,9 Uses,iGEM08_iHKU,Shi Lei,2008-08-21,,pgroup=Terminator&show=1.html.csv
+BBa_K094014,terminator,154,,,Not Released,,Not in stock,Works,1 Uses,iGEM08_iHKU,Shi Lei,2008-08-21,,pgroup=Terminator&show=1.html.csv
+BBa_K102095,TA7 gate from synthetic algorithm v1.1 ,80,,,Not Released,,Not in stock,,Not Used,iGEM08_Alberta_NINT,Wayne Materi,2008-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K102900,TA0 null terminator,66,,,Not Released,,Not in stock,,1 Uses,iGEM08_Alberta_NINT,Wayne Materi,2008-10-24,,pgroup=Terminator&show=1.html.csv
+BBa_K102901,TA1 (THRU gate),65,,,Not Released,,Not in stock,Works,1 Uses,iGEM08_Alberta_NINT,Wayne Materi,2008-10-24,,pgroup=Terminator&show=1.html.csv
+BBa_K102902,TA2 gate from synthetic algorithm v1.1,82,,,Not Released,,Not in stock,,1 Uses,iGEM08_Alberta_NINT,Wayne Materi,2008-10-24,,pgroup=Terminator&show=1.html.csv
+BBa_K102903,TA3 gate from synthetic algorithm v1.1 ,82,,,Not Released,,Not in stock,,1 Uses,iGEM08_Alberta_NINT,Wayne Materi,2008-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K102904,TA6 gate from synthetic algorithm v1.1 ,82,,,Not Released,,Not in stock,,1 Uses,iGEM08_Alberta_NINT,Wayne Materi,2008-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K102905,TA7 gate from synthetic algorithm v1.1 ,81,,,Not Released,,Not in stock,,1 Uses,iGEM08_Alberta_NINT,Wayne Materi,2008-10-27,,pgroup=Terminator&show=1.html.csv
+BBa_K102906,TA8 gate from synthetic algorithm v1.1,81,,,Not Released,,Not in stock,,1 Uses,iGEM08_Alberta_NINT,Wayne Materi,2008-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K102907,TA9 gate from synthetic algorithm v1.1 ,83,,,Not Released,,Not in stock,,1 Uses,iGEM08_Alberta_NINT,Wayne Materi,2008-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K102908,TA10 gate from synthetic algorithm v1.1 ,96,,,Not Released,,Not in stock,,1 Uses,iGEM08_Alberta_NINT,Wayne Materi,2008-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K104007,Term_rrnO,39,,,Not Released,,Not in stock,,Not Used,iGEM08_Newcastle_University,Anil Wipat,2009-10-14,,pgroup=Terminator&show=1.html.csv
+BBa_K105025,Adh1 terminator,225,,,Not Released,BBa_J63002;BBa_K165010,It's complicated,None,1 Uses,iGEM08_ESBS-Strasbourg,Katja Karstens,2008-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K1051006,Saccharomycescerevisiae TBY-1 terminator with stopcodon,31,,,Not Released,,It's complicated,Works,43 Uses,iGEM13_Shenzhen_BGIC_ATCG,Xiang LI,2013-07-08,,pgroup=Terminator&show=1.html.csv
+BBa_K1051007,S. cerevisiae SSV7 terminator with stopcodon,39,,,Not Released,,It's complicated,Works,5 Uses,iGEM13_Shenzhen_BGIC_ATCG,Xiang LI,2013-07-08,,pgroup=Terminator&show=1.html.csv
+BBa_K1051009,e.coli terminator ilvGEDA_T with stop codon,92,,,Not Released,,Not in stock,None,13 Uses,iGEM13_Shenzhen_BGIC_ATCG,Xiang LI,2013-07-08,,pgroup=Terminator&show=1.html.csv
+BBa_K106018,Adh1 terminator,180,,,Not Released,,Not in stock,,16 Uses,iGEM08_UCSF,Andrew Horwitz,2008-10-24,,pgroup=Terminator&show=1.html.csv
+BBa_K1071006,T NR,273,,,Not Released,,It's complicated,None,Not Used,iGEM13_Marburg,Team Marburg 2013,2013-09-19,,pgroup=Terminator&show=1.html.csv
+BBa_K110001,Between-bud 27-W FRS2-C,524,,,Not Released,,Not in stock,,1 Uses,iGEM08_Johns_Hopkins,James DiCarlo,2008-05-30,,pgroup=Terminator&show=1.html.csv
+BBa_K110002,Between STE2-W and BST1-C,671,,,Not Released,,Not in stock,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-05-30,,pgroup=Terminator&show=1.html.csv
+BBa_K110003,Between-SWP82-W and EMP47-C,570,,,Not Released,,It's complicated,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-05-30,,pgroup=Terminator&show=1.html.csv
+BBa_K110011,Shortened RegionBetween-bud 27-W FRS2-C LtR,124,,,Not Released,,Not in stock,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-06-13,,pgroup=Terminator&show=1.html.csv
+BBa_K110012,STE2 terminator,123,,,Not Released,,Not in stock,Issues,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-08-27,,pgroup=Terminator&show=1.html.csv
+BBa_K110013,Shortened Region Between-SWP82-W and EMP47-C LtR,170,,,Not Released,,Not in stock,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-08-27,,pgroup=Terminator&show=1.html.csv
+BBa_K1114705,BioBrick adaptation of MoClo Level 1 RFP Reporter ,985,,,Not Released,,It's complicated,,Not Used,iGEM13_BostonU,Jake Awtry,2013-09-17,,pgroup=Terminator&show=1.html.csv
+BBa_K112709,b1006,40,,,Not Released,BBa_J72059,Not in stock,,12 Uses,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,pgroup=Terminator&show=1.html.csv
+BBa_K112710,bca1041,115,,,Not Released,BBa_J72051,Not in stock,,6 Uses,iGEM08_UC_Berkeley,Bing Xia,2008-10-21,,pgroup=Terminator&show=1.html.csv
+BBa_K112903,b0015 terminator,135,,,Not Released,,Not in stock,,18 Uses,iGEM08_UC_Berkeley,Bing Xia,2008-10-24,,pgroup=Terminator&show=1.html.csv
+BBa_K1212018,B0015 terminator,133,,,Not Released,,It's complicated,,1 Uses,iGEM13_UC_Davis,Amy Soon,2013-09-16,,pgroup=Terminator&show=1.html.csv
+BBa_K122003,tCYC1,301,,,Not Released,,It's complicated,,2 Uses,iGEM08_Rice_University,David Ouyang,2008-10-25,,pgroup=Terminator&show=1.html.csv
+BBa_K122004,tADH1,301,,,Not Released,,It's complicated,,Not Used,iGEM08_Rice_University,David Ouyang,2008-10-25,,pgroup=Terminator&show=1.html.csv
+BBa_K1313006,BHGPA,228,,,Not Released,,It's complicated,None,Not Used,iGEM14_ITESM-CEM,Oliva Sánchez,2014-10-12,,pgroup=Terminator&show=1.html.csv
+BBa_K1339025,T0 terminator,104,,,Not Released,,Not in stock,None,2 Uses,iGEM14_Tokyo-NoKoGen,Maui NISHIO,2014-10-15,,pgroup=Terminator&show=1.html.csv
+BBa_K1401005,MoClo Level 0 part of ECK120015170 terminator,55,,,Not Released,,Not in stock,,Not Used,iGEM14_BostonU,Kathleen Lewis,2014-07-21,,pgroup=Terminator&show=1.html.csv
+BBa_K1401006,MoClo Level 0 part of L3S2P21 terminator,69,,,Not Released,,Not in stock,,Not Used,iGEM14_BostonU,Kathleen Lewis,2014-07-21,,pgroup=Terminator&show=1.html.csv
+BBa_K1442301,T7 terminator Soler Bistue,46,,,Not Released,,Not in stock,None,6 Uses,iGEM14_Warwick,Caroline de Cock,2014-10-13,,pgroup=Terminator&show=1.html.csv
+BBa_K1462070,cyc1,250,,,Not Released,,Not in stock,,8 Uses,iGEM14_SCUT,Chuyao Fan,2014-10-14,,pgroup=Terminator&show=1.html.csv
+BBa_K1484215,nopaline synthase terminator,293,,,Not Released,,It's complicated,,Not Used,iGEM14_Cambridge-JIC,Salil Bhate,2014-10-08,,pgroup=Terminator&show=1.html.csv
+BBa_K1486025,ADH1 Terminator,188,,,Not Released,,Not in stock,None,5 Uses,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-26,,pgroup=Terminator&show=1.html.csv
+BBa_K1510104,terminator in S.mutans,22,,,Not Released,,Not in stock,,1 Uses,iGEM14_NYMU-Taipei,Wei-Tai Chen,2014-10-06,,pgroup=Terminator&show=1.html.csv
+BBa_K1529923,lksj,18,,,Not Released,,Not in stock,None,Not Used,iGEM14_Tokyo_Tech,Kohdai Hibi,2014-08-30,,pgroup=Terminator&show=1.html.csv
+BBa_K1529950,1, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_Tokyo_Tech,Xinan Wang,2014-08-30,,pgroup=Terminator&show=1.html.csv
+BBa_K1529998,1,20,,,Not Released,,Not in stock,,Not Used,iGEM14_Tokyo_Tech,Ayaka Murase,2014-08-30,,pgroup=Terminator&show=1.html.csv
+BBa_K1537029,HSP terminator,250,,,Not Released,,Not in stock,,4 Uses,iGEM14_UESTC-GreenLife, Jie Li,2014-09-18,,pgroup=Terminator&show=1.html.csv
+BBa_K1537030,CaMV35S polyA,216,,,Not Released,,Not in stock,,4 Uses,iGEM14_UESTC-GreenLife, Jie Li,2014-09-18,,pgroup=Terminator&show=1.html.csv
+BBa_K1537031,NOS ( nopaline synthase ) terminator,253,,,Not Released,,Not in stock,,4 Uses,iGEM14_UESTC-GreenLife, Jie Li,2014-09-18,,pgroup=Terminator&show=1.html.csv
+BBa_K1547010,PSAD terminator,627,,,Not Released,,It's complicated,,Not Used,iGEM14_Concordia,victor yuan,2014-10-08,,pgroup=Terminator&show=1.html.csv
+BBa_K156027,Genetic attenuator (synthetic transcription terminator) ~68% efficient,45,,,Not Released,,Not in stock,None,Not Used,iGEM08_Virginia,George McArthur IV,2008-10-28,,pgroup=Terminator&show=1.html.csv
+BBa_K156028,Genetic attenuator (synthetic transciption terminator) ~45% efficient,40,,,Not Released,,Not in stock,None,Not Used,iGEM08_Virginia,George McArthur IV,2008-10-28,,pgroup=Terminator&show=1.html.csv
+BBa_K156029,Genetic attenuator (synthetic transcription terminator) ~17% efficient,39,,,Not Released,,Not in stock,None,Not Used,iGEM08_Virginia,George McArthur IV,2008-10-28,,pgroup=Terminator&show=1.html.csv
+BBa_K1585995,Trp terminator,45,,,Not Released,,Not in stock,,1 Uses,iGEM15_Aachen,Michael Osthege,2015-08-28,,pgroup=Terminator&show=1.html.csv
+BBa_K1616027,T7 terminator,129,,,Not Released,,Not in stock,,1 Uses,iGEM15_IONIS,Marwa Zerhouni,2015-09-19,,pgroup=Terminator&show=1.html.csv
+BBa_K1618037,35s Terminator,212,,,Not Released,,Not in stock,,8 Uses,iGEM15_NRP-UEA-Norwich,Leda Coelewij,2015-09-09,,pgroup=Terminator&show=1.html.csv
+BBa_K1650057,kdgm terminator,65,,,Not Released,,Not in stock,,Not Used,iGEM15_MARBURG,Matthias Franz,2015-09-18,,pgroup=Terminator&show=1.html.csv
+BBa_K165010,ADH1 yeast transcription terminator,225,,,Not Released,BBa_J63002;BBa_K105025,It's complicated,,28 Uses,iGEM08_BrownTwo,John Szymanski,2008-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K165018,SV40 nuclear localization sequence + ADH1 transcription terminator,253,1,,Not Released,,It's complicated,None,10 Uses,iGEM08_BrownTwo,John Szymanski,2008-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K1725081,T1 terminator from E. coli rrnB,101,,,Not Released,,Not in stock,Works,2 Uses,iGEM15_Glasgow,Mhairi Davidson,2015-08-11,,pgroup=Terminator&show=1.html.csv
+BBa_K1799025,Trp attenuator + stop codon,90,,,Not Released,,Not in stock,,2 Uses,iGEM15_Genspace,Ellen Jorgensen,2015-09-18,,pgroup=Terminator&show=1.html.csv
+BBa_K1829003,tEno2: Yeast terminator,400,,,Not Released,,Not in stock,None,Not Used,iGEM15_UCSF,Nicholas Suen,2015-09-10,Spring 2017 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_K1829004,tFba1: yeast terminator,400,,,Not Released,,Not in stock,None,Not Used,iGEM15_UCSF,"Nicholas Suen, Hunter Collins",2015-09-10,Spring 2017 Distribution,pgroup=Terminator&show=1.html.csv
+BBa_K187025,"terminator in pAB, BioBytes plasmid",60,,,Not Released,BBa_K187026,It's complicated,None,Not Used,iGEM09_Alberta,Julia Pon,2009-10-18,,pgroup=Terminator&show=1.html.csv
+BBa_K187026,"terminator in pBA, Biobytes plasmid",60,,,Not Released,BBa_K187025,It's complicated,None,Not Used,iGEM09_Alberta,Julia Pon,2009-10-18,,pgroup=Terminator&show=1.html.csv
+BBa_K1875002,This part contains an RBG polyA terminator,536,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_BostonU,Jeffrey Marano,2016-10-11,,pgroup=Terminator&show=1.html.csv
+BBa_K1893031,STAR target (pAD1.S5),93,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Imperial_College,Akash Bhattacharjee,2016-10-22,,pgroup=Terminator&show=1.html.csv
+BBa_K1893035,rrnB terminator (TrrnB),368,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Imperial_College,Akash Bhattacharjee,2016-10-23,,pgroup=Terminator&show=1.html.csv
+BBa_K1897030,Lambda t0 terminator,105,,,Not Released,,Not in stock,,-1 Uses,iGEM16_NUS_Singapore,Keshiniy Madivannan,2016-10-13,,pgroup=Terminator&show=1.html.csv
+BBa_K1955002,Leishmania- 3 prime UTR,774,,,Not Released,,Not in stock,,-1 Uses,iGEM16_CGU_Taiwan,Justine Hsu,2016-10-14,,pgroup=Terminator&show=1.html.csv
+BBa_K1968014,Tcyc Phytobrick: cytochrome C gene transcriptional terminator from Saccharomyces cerevisiae,235,,,Not Released,BBa_K1968011,Not in stock,None,-1 Uses,iGEM16_Edinburgh_OG,Alejandra Adriana Schiavon Osorio,2016-10-12,,pgroup=Terminator&show=1.html.csv
+BBa_K1973001,nasF,104,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UPO-Sevilla,Laura Claret Fernández,2016-10-09,,pgroup=Terminator&show=1.html.csv
+BBa_K1994018,E. coli PheA terminator,52,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Warwick,Liam Carroll,2016-09-26,,pgroup=Terminator&show=1.html.csv
+BBa_K1994043,Truncated B0010 terminator ,33,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Warwick,Egheosa Ogbomo,2016-10-14,,pgroup=Terminator&show=1.html.csv
+BBa_K1994045,T7 terminator SBa_000587,57,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Warwick,Egheosa Ogbomo,2016-10-14,,pgroup=Terminator&show=1.html.csv
+BBa_K203102,Poly A tail, ,,,Not Released,,No part sequence,None,No Sequence,iGEM09_Heidelberg,Lars Velten,2009-10-15,,pgroup=Terminator&show=1.html.csv
+BBa_K2040102,Fungal terminator TtrpC,769,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_NYMU-Taipei,Chilam Poon,2016-10-11,,pgroup=Terminator&show=1.html.csv
+BBa_K2040400,TtrpC,231,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_NYMU-Taipei,"PAN, ZHILIN",2016-10-15,,pgroup=Terminator&show=1.html.csv
+BBa_K2042007,P.putida Terminator,103,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Evry,Maria Bargués i Ribera,2016-09-02,,pgroup=Terminator&show=1.html.csv
+BBa_K2050413,Synthetic bGh poly a tail with rabbit beta globin modification,225,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UI-Indonesia,Putra Mahanaim Tampubolon,2016-09-16,,pgroup=Terminator&show=1.html.csv
+BBa_K2074019,Terminator of Chlamydomonas reinhardtii,234,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_FAFU-CHINA,Hao Feng,2016-10-12,,pgroup=Terminator&show=1.html.csv
+BBa_K208112,Bi-directional terminator for Rhodobacter sphaeroides,139,,,Not Released,BBa_J95029,Not in stock,None,Not Used,iGEM09_Utah_State,Junling Huo,2009-10-15,,pgroup=Terminator&show=1.html.csv
+BBa_K2095002,RBCS2 3,247,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Linkoping_Sweden,Liu iGEM 2016,2016-10-10,,pgroup=Terminator&show=1.html.csv
+BBa_K2110000,CYC1 Terminator,248,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Tianjin,Haoran Ding,2016-10-04,,pgroup=Terminator&show=1.html.csv
+BBa_K2127007,MT - TERMINATOR,123,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Alberta,Mirat Sojitra,2016-10-14,,pgroup=Terminator&show=1.html.csv
+BBa_K2128009,H. Dujardini ACTN Termanator w/ 3' UTR,300,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Genspace,David Sanderson,2016-10-18,,pgroup=Terminator&show=1.html.csv
+BBa_K2172003,Terminator from pGEX-KG vector,160,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_CIEI-BJ,Bowen Xiao,2016-10-14,,pgroup=Terminator&show=1.html.csv
+BBa_K2180008,Terminator,107,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_IMPACT,Sofiane Safi-Stibler,2016-08-05,,pgroup=Terminator&show=1.html.csv
+BBa_K234092,Stop codon + CYC1 Terminator,221,,,Not Released,,It's complicated,,1 Uses,iGEM09_uOttawa,Daniel Jedrysiak,2009-07-22,,pgroup=Terminator&show=1.html.csv
+BBa_K282001,Double Terminator ,129,,,Not Released,,It's complicated,,Not Used,iGEM09_Duke,Kevin Chien,2009-10-20,,pgroup=Terminator&show=1.html.csv
+BBa_K309012,Unc-54 3' UTR (for use in C. elegans chassis),892,,,Not Released,,It's complicated,,20 Uses,iGEM10_Queens-Canada,Chris Palmer,2010-10-22,,pgroup=Terminator&show=1.html.csv
+BBa_K319004,stop+ADH1 terminator,312,,,Not Released,,It's complicated,,3 Uses,iGEM10_uOttawa,Afnan Azizi,2010-10-20,,pgroup=Terminator&show=1.html.csv
+BBa_K319044,TEF1 terminator,235,,,Not Released,,It's complicated,,1 Uses,iGEM10_uOttawa,Afnan Azizi,2010-10-20,,pgroup=Terminator&show=1.html.csv
+BBa_K323083,His stop T7 terminator,69,,,Not Released,,It's complicated,None,6 Uses,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=Terminator&show=1.html.csv
+BBa_K323130,stop T7 terminator,51,,,Not Released,,It's complicated,None,5 Uses,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=Terminator&show=1.html.csv
+BBa_K337001,BGH PolyA (BB-2),249,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-21,,pgroup=Terminator&show=1.html.csv
+BBa_K337002,"BGH PolyA (BB-2), reverse complementary",255,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-21,,pgroup=Terminator&show=1.html.csv
+BBa_K364302,PolyA,191,,,Not Released,,It's complicated,Works,5 Uses,iGEM10_Debrecen-Hungary,Endre Károly Kristóf,2010-08-11,,pgroup=Terminator&show=1.html.csv
+BBa_K382023,NosT plant specific terminator,253,,,Not Released,BBa_K788001,It's complicated,,Not Used,iGEM10_Harvard,Patrick Boyle,2010-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K382024,NosT plant specific terminator w/ Stop codon,256,,,Not Released,,It's complicated,,Not Used,iGEM10_Harvard,Patrick Boyle,2010-10-26,,pgroup=Terminator&show=1.html.csv
+BBa_K392003,yeast ADH1 terminator,129,,,Not Released,,It's complicated,Works,20 Uses,iGEM10_Osaka,"Tadashi Nakamura, Shuhei Yasumoto, Takahiro Saka, Saya Kakuda ",2010-10-10,,pgroup=Terminator&show=1.html.csv
+BBa_K404108,hGH terminator,481,,,Not Released,,It's complicated,None,2 Uses,iGEM10_Freiburg_Bioware,Freiburg Bioware 2010,2010-08-28,,pgroup=Terminator&show=1.html.csv
+BBa_K509001,NOS 3' Terminator,288,,,Not Released,,Not in stock,,Not Used,iGEM11_UEA-JIC_Norwich,Alistair Walsham,2011-09-16,,pgroup=Terminator&show=1.html.csv
+BBa_K509003,PSAD Terminator,533,,,Not Released,,Not in stock,None,Not Used,iGEM11_UEA-JIC_Norwich,Ben Jevans,2011-09-19,,pgroup=Terminator&show=1.html.csv
+BBa_K530006,BAP2 Yeast UTR,500,,,Not Released,,It's complicated,,Not Used,iGEM11_Johns_Hopkins,Putarut Suntharanund,2011-08-15,,pgroup=Terminator&show=1.html.csv
+BBa_K530011,RPL8A Yeast UTR,500,,,Not Released,,Not in stock,,Not Used,iGEM11_Johns_Hopkins,Daniel Wolozny,2011-09-03,,pgroup=Terminator&show=1.html.csv
+BBa_K530013,PRY1 Yeast UTR,165,,,Not Released,,Not in stock,,Not Used,iGEM11_Johns_Hopkins,Daniel Wolozny,2011-09-03,,pgroup=Terminator&show=1.html.csv
+BBa_K530017,FCY2 Yeast UTR,100,,,Not Released,,It's complicated,,Not Used,iGEM11_Johns_Hopkins,Daniel Wolozny,2011-09-03,,pgroup=Terminator&show=1.html.csv
+BBa_K530020,ARD1 Yeast UTR,83,,,Not Released,,It's complicated,None,Not Used,iGEM11_Johns_Hopkins,Daniel Wolozny,2011-09-03,,pgroup=Terminator&show=1.html.csv
+BBa_K530021,RPL24A Yeast UTR,109,,,Not Released,,It's complicated,,Not Used,iGEM11_Johns_Hopkins,Daniel Wolozny,2011-09-03,,pgroup=Terminator&show=1.html.csv
+BBa_K530022,RPS8B Yeast UTR,100,,,Not Released,,Not in stock,,Not Used,iGEM11_Johns_Hopkins,Daniel Wolozny,2011-09-03,,pgroup=Terminator&show=1.html.csv
+BBa_K530023,TDH3 Yeast UTR,100,,,Not Released,,Not in stock,,Not Used,iGEM11_Johns_Hopkins,Daniel Wolozny,2011-09-03,,pgroup=Terminator&show=1.html.csv
+BBa_K530024,RPS2 Yeast UTR,100,,,Not Released,,Not in stock,,Not Used,iGEM11_Johns_Hopkins,Daniel Wolozny,2011-09-03,,pgroup=Terminator&show=1.html.csv
+BBa_K606028,T7 polymerase terminator,153,,,Not Released,,Not in stock,None,2 Uses,iGEM11_Paris_Bettencourt,Cyrille Pauthenier,2011-09-18,,pgroup=Terminator&show=1.html.csv
+BBa_K612007,TrpC terminator ,514,,,Not Released,,It's complicated,None,1 Uses,iGEM11_Alberta,Michael Simpson,2011-09-28,,pgroup=Terminator&show=1.html.csv
+BBa_K678012,"SV40 poly A, terminator for mammalian cells",139,,,Not Released,,It's complicated,Works,3 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-04,,pgroup=Terminator&show=1.html.csv
+BBa_K678018,"hGH poly A, terminator for mammalian cells",635,,,Not Released,,It's complicated,None,2 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-04,,pgroup=Terminator&show=1.html.csv
+BBa_K678019,"BGH poly A, mammalian terminator",233,,,Not Released,,It's complicated,Works,7 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-04,,pgroup=Terminator&show=1.html.csv
+BBa_K678036,trpC terminator for Aspergillus nidulans,759,,,Not Released,,It's complicated,Works,7 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-04,,pgroup=Terminator&show=1.html.csv
+BBa_K678037,"T1-motni, terminator for Aspergillus niger",1006,,,Not Released,,It's complicated,None,2 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-04,,pgroup=Terminator&show=1.html.csv
+BBa_K678038,"T2-motni, terminator for Aspergillus niger",990,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-04,,pgroup=Terminator&show=1.html.csv
+BBa_K678039,"T3-motni, terminator for Aspergillus niger",889,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-04,,pgroup=Terminator&show=1.html.csv
+BBa_K780000,Terminator for Bacillus subtilis,54,,,Not Released,,It's complicated,None,Not Used,iGEM12_Warsaw,Nikodem Latocha,2012-09-26,,pgroup=Terminator&show=1.html.csv
+BBa_K784002,T7 Terminator,47,,,Not Released,BBa_K1442043,Not in stock,None,11 Uses,iGEM12_Technion,Lior Levy,2012-09-13,,pgroup=Terminator&show=1.html.csv
+BBa_K788001,NOS terminator for plant,253,,,Not Released,BBa_K382023,It's complicated,None,Not Used,iGEM12_Nanjing_China,Jia-Bao Chen,2012-09-25,,pgroup=Terminator&show=1.html.csv
+BBa_K799029,MFA2 Terminator,222,,,Not Released,,It's complicated,,Not Used,iGEM12_Johns_Hopkins_Wetware,Daniel Wolozny,2012-09-25,,pgroup=Terminator&show=1.html.csv
+BBa_K809004,Terminator of Yeast mitochondrial gene COB,50,,,Not Released,,Not in stock,None,2 Uses,iGEM12_Shenzhen,Xiaopeng Xu,2012-09-23,,pgroup=Terminator&show=1.html.csv
+BBa_K809005,Terminator of Yeast mitochondrial gene COX3,49,,,Not Released,,Not in stock,None,5 Uses,iGEM12_Shenzhen,Xiaopeng Xu,2012-09-23,,pgroup=Terminator&show=1.html.csv
+BBa_K809006,Terminator of Yeast mitochondrial gene Q0255,65,,,Not Released,,Not in stock,None,1 Uses,iGEM12_Shenzhen,Xiaopeng Xu,2012-09-23,,pgroup=Terminator&show=1.html.csv
+BBa_K812055,Terminator B0015 with GoldenBrick extension,169,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Evry,Cyrille Pauthenier,2012-09-20,,pgroup=Terminator&show=1.html.csv
+BBa_K827000,artificial designed terminator,48,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827001,artificial designed terminator,48,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827002,artificial designed terminator,48,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827003,artificial designed terminator,48,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827004,artificial designed terminator,48,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827005,artificial designed terminator,48,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827006,artificial designed terminator,48,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827007,artificial designed terminator,46,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827008,artificial designed terminator,46,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827009,artificial designed terminator,50,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827010,artificial designed terminator,50,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827011,artificial designed terminator,51,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827012,artificial designed terminator,51,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827013,artificial designed terminator,51,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827014,artificial designed terminator,48,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827015,artificial designed terminator, ,,,Not Released,,No part sequence,,No Sequence,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827016,artificial designed terminator,54,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827017,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827018,artificial designed terminator,58,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827019,artificial designed terminator,58,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827020,artificial designed terminator,58,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827021,artificial designed terminator,58,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827022,artificial designed terminator,58,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827023,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827024,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827025,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827026,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827027,artificial designed terminator,58,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827028,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827029,artificial designed terminator,57,,,Not Released,BBa_K827034,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827030,artificial designed terminator,57,,,Not Released,BBa_K827031,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827031,artificial designed terminator,57,,,Not Released,BBa_K827030,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827032,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827033,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827034,artificial designed terminator,57,,,Not Released,BBa_K827029,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827035,artificial designed terminator,54,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827036,artificial designed terminator,58,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827037,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827038,artificial designed terminator,58,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827039,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827040,artificial designed terminator,65,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827041,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827042,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827043,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827044,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827045,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827046,artificial designed terminator,57,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827047,artificial designed terminator,57,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827048,artificial designed terminator,61,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827049,artificial designed terminator,61,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827050,artificial designed terminator,63,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827051,artificial designed terminator,63,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827052,artificial designed terminator,61,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827053,artificial designed terminator,63,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827054,artificial designed terminator,57,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827055,artificial designed terminator,55,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827056,artificial designed terminator,59,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827057,artificial designed terminator,56,,,Not Released,BBa_K827075;BBa_K827084,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827058,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827059,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827060,artificial designed terminator,54,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827061,artificial designed terminator,54,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827062,artificial designed terminator,54,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827063,artificial designed terminator,53,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827064,artificial designed terminator,55,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827065,artificial designed terminator,53,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827066,artificial designed terminator,58,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827067,artificial designed terminator,54,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827068,artificial designed terminator,55,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827069,artificial designed terminator,53,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827070,artificial designed terminator,52,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827071,artificial designed terminator,53,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827072,artificial designed terminator,53,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827073,artificial designed terminator,53,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827074,artificial designed terminator,57,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827075,artificial designed terminator,56,,,Not Released,BBa_K827057;BBa_K827084,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827076,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827077,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827078,artificial designed terminator,55,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827079,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827080,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827081,artificial designed terminator,52,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827082,artificial designed terminator,58,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827083,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827084,artificial designed terminator,56,,,Not Released,BBa_K827057;BBa_K827075,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827085,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827086,artificial designed terminator,55,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827087,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827088,artificial designed terminator,55,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827089,artificial designed terminator,57,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827090,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827091,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827092,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827093,artificial designed terminator,57,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K827094,artificial designed terminator,56,,,Not Released,,Not in stock,,Not Used,iGEM12_SUSTC-Shenzhen,Liuxing Shen,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K844011,tRNA Terminator for ''E. coli'',15,,,Not Released,,Not in stock,,Not Used,iGEM12_Utah_State,Kathleen Miller,2012-10-03,,pgroup=Terminator&show=1.html.csv
+BBa_K849007,tHXT7,300,,,Not Released,,It's complicated,,Not Used,iGEM12_Frankfurt,Martin Schneider,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K849008,tPFK2,300,,,Not Released,,It's complicated,,Not Used,iGEM12_Frankfurt,Martin Schneider,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K849009,tCYC1,248,,,Not Released,,It's complicated,,Not Used,iGEM12_Frankfurt,Martin Schneider,2012-09-24,,pgroup=Terminator&show=1.html.csv
+BBa_K863203,AOX1 Terminator from Pichia pastoris,282,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Bielefeld-Germany,Julia Schirmacher,2012-09-23,,pgroup=Terminator&show=1.html.csv
+BBa_K864501,"T22, P22 late terminator",42,,,Not Released,,Not in stock,None,Not Used,iGEM12_Uppsala,Erik Gullberg,2012-09-25,,pgroup=Terminator&show=1.html.csv
+BBa_K906005,rrnB T1 and T2,260,,,Not Released,,Not in stock,,1 Uses,iGEM12_WashU,Lucas B. Harrington,2012-08-03,,pgroup=Terminator&show=1.html.csv
+BBa_M1700,L. Johnsonii transcription terminator,30,,,Not Released,,Not in stock,,3 Uses,UtahState_BE5930_-_S11,S. Ivan Bartlett,2013-04-15,,pgroup=Terminator&show=1.html.csv
+BBa_M31113,"Part of Gene III, M13 phage, and terminator of gVIII.",721,,,Not Released,BBa_M31333;BBa_M31116,Not in stock,,Not Used,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,Jerzy Szablowski,2007-02-28,,pgroup=Terminator&show=1.html.csv
+BBa_M31116,M13 Gene VIII terminator and promoter of Gene X,721,,,Not Released,BBa_M31333;BBa_M31113,Not in stock,,Not Used,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,Jerzy Szablowski,2007-02-28,,pgroup=Terminator&show=1.html.csv
+BBa_M31977,transcription terminator,34,,,Not Released,,Not in stock,,1 Uses,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,Tiffany Guo,2007-02-28,,pgroup=Terminator&show=1.html.csv
+BBa_M36010,Transcription Terminator (Strong),82,,,Not Released,BBa_M36281;BBa_M36292;BBa_M36291;BBa_M36232;BBa_M36248;BBa_M36662,Not in stock,,32 Uses,Stanford BIOE44 - S11,Drew Endy,2011-04-26,,pgroup=Terminator&show=1.html.csv
+BBa_M36033,M13_central_T_linker_rrnD_T1 Terminator,195,,,Not Released,,Not in stock,,2 Uses,Stanford BIOE44 - S11,Jacob Waggoenr,2013-10-24,,pgroup=Terminator&show=1.html.csv
+BBa_M36117,Stop Codon ,3,,,Not Released,,Not in stock,None,4 Uses,Stanford BIOE44 - S11,"Samson Phan, Noriko Ishisoko",2012-05-29,,pgroup=Terminator&show=1.html.csv
+BBa_M36201,Rhamnex 67K Terminator and pUC ori,1178,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,"Simon Zheng, Kevin Aliado, Steven Lee",2011-12-04,,pgroup=Terminator&show=1.html.csv
+BBa_M36232,Terminator rnpB_T1 (E. coli),82,,,Not Released,BBa_M36010;BBa_M36281;BBa_M36292;BBa_M36291;BBa_M36248;BBa_M36662,Not in stock,,1 Uses,Stanford BIOE44 - S11,Lawrence Xing,2011-12-10,,pgroup=Terminator&show=1.html.csv
+BBa_M36235,Terminator ilvGEDA_T (E. coli),89,,,Not Released,BBa_M36927;BBa_M36545,Not in stock,,2 Uses,Stanford BIOE44 - S11,Lawrence Xing,2011-12-10,,pgroup=Terminator&show=1.html.csv
+BBa_M36248,Strong Terminator,82,,,Not Released,BBa_M36010;BBa_M36281;BBa_M36292;BBa_M36291;BBa_M36232;BBa_M36662,Not in stock,,1 Uses,Stanford BIOE44 - S11,Bianca Kapoor,2011-12-10,,pgroup=Terminator&show=1.html.csv
+BBa_M36281,High Efficiency Terminator,82,,,Not Released,BBa_M36010;BBa_M36292;BBa_M36291;BBa_M36232;BBa_M36248;BBa_M36662,Not in stock,None,2 Uses,Stanford BIOE44 - S11,"Sunil Bodapati, Julia Joung, Daniel  Esquivel-Reynoso",2011-11-29,,pgroup=Terminator&show=1.html.csv
+BBa_M36291,Transcription terminator (apFAB391) (99% efficient),82,,,Not Released,BBa_M36010;BBa_M36281;BBa_M36292;BBa_M36232;BBa_M36248;BBa_M36662,Not in stock,None,2 Uses,Stanford BIOE44 - S11,"Victoria Robles, Kyung Ri Park, Ken Xiong",2011-12-09,,pgroup=Terminator&show=1.html.csv
+BBa_M36292,Transcription Terminator (99% efficient),82,,,Not Released,BBa_M36010;BBa_M36281;BBa_M36291;BBa_M36232;BBa_M36248;BBa_M36662,Not in stock,None,5 Uses,Stanford BIOE44 - S11,"Dominique Dabija, Christopher Jackson, Debha Amatya",2011-12-06,,pgroup=Terminator&show=1.html.csv
+BBa_M36456,BBa_B1006 U10 Terminator - 99%,41,,,Not Released,,Not in stock,None,3 Uses,Stanford BIOE44 - S11,"Max Whitmeyer, Ian Lewis",2013-12-17,,pgroup=Terminator&show=1.html.csv
+BBa_M36545,apFAB390 Terminator,89,,,Not Released,BBa_M36235;BBa_M36927,Not in stock,,1 Uses,Stanford BIOE44 - S11,Danielle Fraga,2013-10-25,,pgroup=Terminator&show=1.html.csv
+BBa_M36586,T1 Transcription Terminator,79,,,Not Released,BBa_K731722,In stock,,-1 Uses,Stanford BIOE44 - S11,Aris Kare,2015-10-24,,pgroup=Terminator&show=1.html.csv
+BBa_M36662,Terminator,82,,,Not Released,BBa_M36010;BBa_M36281;BBa_M36292;BBa_M36291;BBa_M36232;BBa_M36248,Not in stock,,Not Used,Stanford BIOE44 - S11,Frankie Willcox,2013-10-25,,pgroup=Terminator&show=1.html.csv
+BBa_M36927,strong transcription terminator apFAB7390,89,,,Not Released,BBa_M36235;BBa_M36545,Not in stock,,Not Used,Stanford BIOE44 - S11,Alexandra Ritchie,2013-06-09,,pgroup=Terminator&show=1.html.csv
+BBa_M36935,Term_PhageT7,91,,,Not Released,BBa_M50060,Not in stock,,3 Uses,Stanford BIOE44 - S11,Emily Kelly,2014-10-23,,pgroup=Terminator&show=1.html.csv
+BBa_M45194,Terminator,91,,,Not Released,,Not in stock,None,-1 Uses,UtahState_BE5930_-_S14,Alexis Houghton,2016-04-18,,pgroup=Terminator&show=1.html.csv
+BBa_M50032,pT-T7 terminator,48,,,Not Released,BBa_B0016;BBa_K395601;BBa_M36305;BBa_K731721;BBa_K785002;BBa_K923004;BBa_K1823000;BBa_M50049,In stock,None,-1 Uses,Stanford BIOE44 - S11,"Cale Lester, Raquel Freeman, Tristan Yeung",2016-11-01,,pgroup=Terminator&show=1.html.csv
+BBa_M50046,SV40 polyA Terminator,267,,,Not Released,,Not in stock,,-1 Uses,Stanford BIOE44 - S11,Mark Buckup,2016-12-08,,pgroup=Terminator&show=1.html.csv
+BBa_M50049,Transcription terminator,48,,,Not Released,BBa_B0016;BBa_K395601;BBa_M36305;BBa_K731721;BBa_K785002;BBa_K923004;BBa_K1823000;BBa_M50032,In stock,,-1 Uses,Stanford BIOE44 - S11,Taylor Merkel,2016-12-10,,pgroup=Terminator&show=1.html.csv
+BBa_M50060,T7 Phage Terminator,91,,,Not Released,BBa_M36935,Not in stock,,-1 Uses,Stanford BIOE44 - S11,Kara Helmke Rogers,2017-04-26,,pgroup=Terminator&show=1.html.csv
+BBa_T1020,kill me,12,,,Not Released,,Not in stock,,Not Used,iGEM2006_Edinburgh,Kim de Mora,2013-01-17,,pgroup=Terminator&show=1.html.csv
+BBa_Y1015,CycE1,252,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Yeast-1,Samantha Sutton,2005-06-23,,pgroup=Terminator&show=1.html.csv
+BBa_Z0271,T7.2 TE transcriptional terminator,37,,,Not Released,,Not in stock,,6 Uses,T7.2,Sriram Kosuri,2006-05-16,,pgroup=Terminator&show=1.html.csv

@@ -1,0 +1,817 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_I714891,SDY_EGFP,736,1,,Not Released,,In stock,Works,2 Uses,iGEM07_Peking,Chunbo Lou,2007-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_I715019,Amino Half of GFP (aka GFP1),471,1,NUDT_CHINA 2016:4;NUDT_CHINA 2015:4,Released HQ 2013,,In stock,Works,1 Registry Star,iGEM07_Davidson_Missouri_W,Will DeLoache,2007-06-22,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_I715020,Carboxyl Half of GFP (aka GFP2),250,1,NUDT_CHINA:4,Released HQ 2013,,In stock,Works,1 Registry Star,iGEM07_Davidson_Missouri_W,Will DeLoache,2007-06-22,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J33202,lacZ,243,,,Released HQ 2013,,In stock,Works,8 Uses,iGEM2006_Edinburgh,Chris French,2006-10-13,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J33204,xylE reporter gene with rbs,958,1,Imperial College iGEM 2010:5;UCalgary2012:5;NAU-CHINA iGEM 2016:5,Released HQ 2013,,In stock,Works,6 Uses,iGEM2006_Edinburgh,Chris French,2006-10-17,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J52008, luciferase: luciferin 2-monooxygenase from Renilla reniformis (EC 1.13.12.5; SwissProt:: P27652),936,1,iGEM TUDelft 2008 Ostassen:5;Catramp:5;UT-Tokyo:5,Released HQ 2013,BBa_J95001;BBa_K337025,In stock,Works,1 Registry Star,iGEM2006_Slovenia,Monika Ciglic,2006-10-14,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J63001,"enhanced version of EYFP, yeast-optimized  YFP",744,,,Not Released,BBa_Y00009;BBa_K105008;BBa_K165005,In stock,Works,1 Uses,Silver Lab,Caroline Ajo-Franklin,2006-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1033901,"meffBlue, blue chromoprotein (incl RBS)",708,,,Not Released,,In stock,Works,1 Uses,iGEM13_Uppsala,Erik Gullberg,2013-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1033905,"tsPurple, purple chromoprotein (incl RBS)",708,,,Not Released,,In stock,Works,2 Uses,iGEM13_Uppsala,Erik Gullberg,2013-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1033909,"fwYellow, yellow chromoprotein (incl RBS)",732,,,Not Released,,In stock,Works,2 Uses,iGEM13_Uppsala,Erik Gullberg,2013-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1033913,"scOrange, orange chromoprotein (incl. RBS)",717,,,Not Released,,In stock,Works,Not Used,iGEM13_Uppsala,Erik Gullberg,2013-08-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1033922,"meffRed, red chromoprotein (incl RBS)",726,,,Not Released,,In stock,Works,2 Uses,iGEM13_Uppsala,Erik Gullberg,2013-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1033925,"spisPink, pink chromoprotein (incl RBS)",697,,,Not Released,,In stock,Works,3 Uses,iGEM13_Uppsala,Erik Lundin,2013-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1041000,RFP Coding Device,1069,,,Not Released,,In stock,Works,1 Uses,iGEM13_NRP-UEA-Norwich,NRP UEA ,2013-08-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1051003,Stop codon free GFP in RFC[23] standard,714,,,Not Released,BBa_K1319040;BBa_K1655001;BBa_K1582032,In stock,Works,Experience: Works,iGEM13_Shenzhen_BGIC_ATCG,Xiang LI,2013-07-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1051004,Stop codon free mOrange in RFC[23] standard,738,,,Not Released,,In stock,Works,Experience: Works,iGEM13_Shenzhen_BGIC_ATCG,Xiang LI,2013-07-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1094400,Enhanced green fluorescent protein (eGFP) ,723,,,Not Released,,In stock,Works,1 Uses,iGEM13_UNIK_Copenhagen,Emil Christian Fischer,2013-09-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1185002,HBsu-RFP,1012,,,Not Released,,In stock,Works,Not Used,iGEM13_Newcastle,Vincent Leonardo ,2013-08-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1323015,DsRed Expression Cassette under a Constitutive Promoter,866,,,Not Released,,In stock,Works,Not Used,iGEM14_Waterloo,Julia Manalil,2014-10-04,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1368011,Spinach Aptamer 13-2 RNA with Stabilizing tRNA Scaffold,150,,,Not Released,,In stock,Works,1 Uses,iGEM14_HZAU-China,Yajing Zhang,2014-09-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1399010,Plac-RFP(AAV),1102,,,Not Released,,In stock,Works,Not Used,iGEM14_Edinburgh,Anna Stikane,2014-09-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1399011,Plac-RFP(LVA),1102,,,Not Released,,In stock,Works,Not Used,iGEM14_Edinburgh,Anna Stikane,2014-09-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1399012,Plac-RFP(LAA),1102,,,Not Released,,In stock,Works,Not Used,iGEM14_Edinburgh,Anna Stikane,2014-09-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1399013,Plac-RFP(DAS),1102,,,Not Released,,In stock,Works,Not Used,iGEM14_Edinburgh,Anna Stikane,2014-09-19,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1467100,RFP coding device - Golden Gate Module Flipper,1092,,,Not Released,,In stock,Works,Not Used,iGEM14_NRP-UEA-Norwich,"Cara Deal, Jessica Gray",2014-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1467200,RFP coding device - Golden Gate Module Flipper,1097,,,Not Released,,In stock,Works,Not Used,iGEM14_NRP-UEA-Norwich,"Jessica Gray, Cara Deal",2014-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1467204,GoldenGate compatible Green Flourescent Protein (GFP),730,,,Not Released,,In stock,Works,4 Uses,iGEM14_NRP-UEA-Norwich,Cara Deal,2014-09-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1555000,The copa promoter wth a gfp reporter,1127,,HSiTAIWAN:5,Not Released,,In stock,Works,Not Used,iGEM14_NJAU_China,Xu Xuan,2014-09-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1555001,The marO with a gfp reporter,966,,,Not Released,,In stock,Works,Not Used,iGEM14_NJAU_China,Xu Xuan,2014-09-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1641024,"Reporter of Invertase activity of Cre, pInv-rep-100LoxM",35,,,Not Released,BBa_J23101;BBa_J24822;BBa_J24823;BBa_K823005;BBa_K783039;BBa_K1059016;BBa_K1523007,In stock,Works,Not Used,iGEM15_SYSU_CHINA,Pai Li,2015-09-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K274003,Vio operon ABDE,6032,,,Not Released,,In stock,Works,1 Uses,iGEM09_Cambridge,Shuna Gould,2009-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K274004,Vio operon ABCE,6200,,,Not Released,,In stock,Works,Not Used,iGEM09_Cambridge,Shuna Gould,2009-10-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K325100,,2626,,,Released HQ 2013,,In stock,Works,2 Uses,iGEM10_Cambridge,Ben Reeve and Paul Masset,2010-09-15,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K325210,,2623,,,Released HQ 2013,,In stock,Works,6 Uses,iGEM10_Cambridge,Hannah Copley and Theo Sanderson,2010-09-15,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K523000,Plac + lacZ; with BglII site,556,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_Edinburgh,"Chris French, Allan Crossman, Sylvia Ispasanie",2011-06-28,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K525999,Firefly -Luciferase,1665,,,Not Released,,In stock,Works,Experience: Works,iGEM11_Bielefeld-Germany,Anna Drong,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K537005,mCherry (mRFP1) C-Fusion ,679,,,Not Released,,In stock,Works,2 Uses,iGEM11_WITS_CSIR_SA,Gloria Hlongwane,2011-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K537006,Venus C-Fusion,721,,,Not Released,,In stock,Works,3 Uses,iGEM11_WITS_CSIR_SA,Gloria Hlongwane,2011-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567008,PT7-Luc-2AGG,1756,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Yunfeng Ruan and Chunying Li,2011-09-29,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K598000,TPP Down-regulated Hammerhead Ribozyme 2.5 with Native RBS+E0040+B0015,1007,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_pku_riboclamp,"Yangyang ZHAO, Yan GONG, Zhenrun ZHANG, Qingyang XIAO",2011-09-18,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K598001,Theophylline Responsive Riboswitch 1G1 with Engineered RBS+GFP generator,943,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_pku_riboclamp,"Siyang HAO, Tong MU, Zheng LUO, Mengqi ZHANG",2011-09-27,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K598007,Theophylline Responsive Riboswitch P1G1 with Native RBS+E0040+B0015,944,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_pku_riboclamp,Siyang HAO,2011-09-27,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K598008,TPP Up-regulated Hammerhead Ribozyme 1.20 with Native RBS+E0040+B0015,1007,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_pku_riboclamp,"Yangyang ZHAO, Yan GONG",2011-09-28,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K763001,pGroE + Gene encoding AsRed2,797,,,Released HQ 2013,,In stock,Works,Not Used,iGEM12_Valencia_Biocampus,Pedro Luis Dorado Morales,2012-09-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K763002,pNirB  + Gene encoding ZsGreen1,730,,iGEM TU-Eindhoven 2013:3,Released HQ 2013,,In stock,Works,Not Used,iGEM12_Valencia_Biocampus,Pedro Luis Dorado Morales,2012-09-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K812030,mCitrine reporter with a Kozak sequence for eukaryotic expression,726,,,Not Released,,In stock,Works,Not Used,iGEM12_Evry,Hafez El Sayyed,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K812031,sfGFP with kozak sequence for eukaryotic expression,726,,,Not Released,,In stock,Works,Not Used,iGEM12_Evry,Chauris Karine,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K812032,mCFP with kozak sequence for eukaryotic expression,728,,,Released HQ 2013,,In stock,Works,Not Used,iGEM12_Evry,Chauris Karine,2012-09-20,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K900000,PAmCherry (photoactivatable red fluorescent protein) ,708,,,Not Released,,In stock,Works,Not Used,iGEM12_Berkeley,Austin Jones,2012-09-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K900001,PAGFP,717,,,Not Released,,In stock,Works,Not Used,iGEM12_Berkeley,Austin Jones,2012-09-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_E0022, enhanced cyan fluorescent protein derived from A. victoria GFP,762,1,,Released HQ 2013,,In stock,,52 Uses,Antiquity,"June Rhee, Connie Tao, Ty Thomson, Louis Waldman",2003-01-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_E0024, enhanced cyan fluorescent protein derived from A. victoria GFP,762,1,Antiquity:0,Released HQ 2013,,In stock,None,4 Uses,Antiquity,jcbraff,2004-06-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_E0026,enhanced cyan fluorescent protein derived from A. victoria GFP,762,1,Antiquity:0,Released HQ 2013,,In stock,None,2 Uses,Antiquity,jcbraff,2004-06-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_E0032,enhanced yellow fluorescent protein derived from A. victoria GFP,762,1,,Released HQ 2013,,In stock,,119 Uses,Antiquity,"June Rhee, Connie Tao, Ty Thomson, Louis Waldman",2003-01-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_E0033,LacZ alpha fragment; complements matching N-terminal deletion mutant (lacZ-omega),353,1,RS:1,Not Released,,In stock,,11 Uses,Antiquity,Yong-Su Jin (Fighting Darwins),2004-01-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_E0034,enhanced yellow fluorescent protein derived from A. victoria GFP,762,1,Antiquity:0,Released HQ 2013,,In stock,None,28 Uses,Antiquity,jcbraff,2004-06-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_E0036,enhanced yellow fluorescent protein derived from A. victoria GFP,762,1,Antiquity:0,Released HQ 2013,,In stock,None,2 Uses,Antiquity,jcbraff,2004-06-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_E0044,green fluorescent protein derived from jellyfish Aequeora victoria wild-type GFP (SwissProt: P42212),759,1,Antiquity:0,Released HQ 2013,,In stock,None,24 Uses,Antiquity,jcbraff,2004-09-30,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_E2020,"enhanced version of ECFP, yeast-optimized",778,1,Antiquity:0,Released HQ 2013,,In stock,None,1 Uses,Antiquity,ryu,2005-01-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_E2030,"enhanced version of EYFP, yeast-optimized",778,1,Antiquity:0,Released HQ 2013,,In stock,None,7 Uses,Antiquity,ryu,2005-01-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_E2060,"derivative of mRFP1, yeast-optimized",769,1,Antiquity:0,Released HQ 2013,,In stock,None,2 Uses,Antiquity,ryu,2005-01-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_E3030,FRET acceptor YPet (optimized to work with CyPet (Cyan FP) as donor,778,,Antiquity:0,Released HQ 2013,,In stock,None,Not Used,Antiquity,ryu,2005-03-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_J06504,monomeric RFP optimized for bacteria,714,1,Antiquity:0;jmeyerow:0,Released HQ 2013,BBa_K1447003;BBa_K1447005,In stock,None,51 Uses,iGEM2005,ytwang,2005-07-18,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J06505,monomeric RFP optimized for bacteria,723,,Antiquity:0,Released HQ 2013,,In stock,None,15 Uses,iGEM2005,ytwang,2005-07-18,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J23025,OnRFP,923,,,Released HQ 2013,BBa_I13521;BBa_J01120;BBa_J01121;BBa_J14462;BBa_J14463;BBa_I763033;BBa_K577001;BBa_K783081;BBa_K1455003;BBa_K1605001,In stock,None,Not Used,iGEM2006_Berkeley,John Anderson,2006-08-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_J24817,dLaRAP firefly luciferase reporter device for promoters,13,,,Released HQ 2013,BBa_B0032;BBa_J34803;BBa_K783049;BBa_K1059011;BBa_K1725317,In stock,,Not Used,iGEM2006_Brown,John Cumbers,2008-11-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_J24822,Same as J24819 but with the error at the luc-terminator junction fixed ,35,,,Released HQ 2013,BBa_J23101;BBa_J24823;BBa_K823005;BBa_K783039;BBa_K1059016;BBa_K1523007;BBa_K1641024,In stock,,Not Used,iGEM2006_Brown,John Cumbers,2009-04-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_J24823,same as J24819 but with ACCACC Euk RBS removed and problem solved via J24822 removed,35,,,Released HQ 2013,BBa_J23101;BBa_J24822;BBa_K823005;BBa_K783039;BBa_K1059016;BBa_K1523007;BBa_K1641024,In stock,None,Not Used,iGEM2006_Brown,John Cumbers,2009-04-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_J52012,Rluc-linker-PEST191,1437,1,,Released HQ 2013,,In stock,,1 Registry Star,iGEM2006_Slovenia,Monika Ciglic,2006-10-14,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J52028,green fluorescent protein derived from A. victoria GFP (SwissProt: P42212) with PEST191 tag,1221,1,,Released HQ 2013,,In stock,,1 Registry Star,iGEM2006_Slovenia,Jelka Pohar,2006-10-15,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J54103,Promoterless-GFP(A),927,1,,Released HQ 2013,BBa_K121017;BBa_K1341009,In stock,None,16 Uses,iGEM2006_Tokyo_Alliance,Yusaku Nakashima,2006-10-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_J69509,free part,55,,,Released HQ 2013,BBa_R0062,In stock,None,Not Used,Haseloff Lab,James Brown,2007-08-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_J72046,{rbs.GFP(E0040).double terminator} in BglBrick Format,876,,,Released HQ 2013,BBa_E0240;BBa_K299012,In stock,None,Not Used,Anderson Lab,Jin Huh,2011-11-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_J95000,Firefly (photinus pyralis) luciferase ,1653,,,Not Released,BBa_I712019;BBa_K322237;BBa_K1824897,In stock,None,28 Uses,Hinton Lab,Junling Huo,2010-02-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_J95001,Renilla Reniformis luciferase reporter,936,,,Released HQ 2013,BBa_J52008;BBa_K337025,In stock,,No Results,Hinton Lab,Junling Huo,2010-02-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031221,Po-B0031-sfGFP-Terminator (DmpR),1059,,,Not Released,,In stock,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031222,Po-B0032-sfGFP-Terminator (DmpR),1058,,,Not Released,,In stock,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1033250,mCherry fusion protein codon optimised for Lactobacillus reuteri,711,,,Not Released,BBa_K1820005,In stock,,No Results,iGEM13_Uppsala,Anders Edlund,2013-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1041001,Neomycin Resistance Coding Device + AntG promoter,926,,,Not Released,,In stock,None,Not Used,iGEM13_NRP-UEA-Norwich,NRP UEA ,2013-08-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1041002,AntG Promoter + RFP Coding Device ,971,,,Not Released,,In stock,None,Not Used,iGEM13_NRP-UEA-Norwich,NRP UEA ,2013-08-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1067000,Periplasmic directed GFP SF with signal peptide TAT and RFP as background color,720,,,Not Released,BBa_E0040;BBa_K294055;BBa_T1005;BBa_K895006;BBa_K783053;BBa_K1030008;BBa_M45809;BBa_K1780000;BBa_M45190,In stock,None,Not Used,iGEM13_DTU-Denmark,Kristian Davidsen,2013-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1088001,Dxs reporter system with constitutive promoter,35,,,Not Released,BBa_J23100;BBa_K654030;BBa_K823004;BBa_J72177;BBa_K783038;BBa_K1510008;BBa_K1523102;BBa_K1796201;BBa_K1893024;BBa_K1893025;BBa_K1893026,In stock,None,Not Used,iGEM13_SDU-Denmark,Andreas Kjær,2013-07-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1094000,Enhanced flavin-binding fluorescent protein (eFbFP),450,,,Not Released,,In stock,Issues,Not Used,iGEM13_UNIK_Copenhagen,Emil Christian Fischer,2013-09-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1114208,"E0030_CD, YFP Reporter",731,,,Not Released,,In stock,,8 Uses,iGEM13_BostonU,Shawn Jin,2013-09-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1114210,E1010_CD ,689,,,Not Released,,In stock,,1 Uses,iGEM13_BostonU,Shawn Jin,2013-09-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1114211,E1010m_CD,689,,,Not Released,,In stock,,13 Uses,iGEM13_BostonU,Shawn Jin,2013-09-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1343014,Plux-green renilla luciferase,1271,,,Not Released,,In stock,None,Not Used,iGEM14_Technion-Israel,"Tal Naor, Ricarina Rabinovitz, Ittai Rubinstein, Yair Maimon",2014-09-27,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1344009,RFP-Amphi,1069,,,Not Released,BBa_J04450;BBa_T9900;BBa_K1069001,In stock,None,Not Used,iGEM14_UI-Indonesia,UI Indonesia 2014,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1365020,sfGFP(Bs),717,,,Not Released,BBa_K1820004,In stock,,2 Uses,iGEM14_Groningen,Sandra Mous,2014-09-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1381025,B0034-BFP (RFC25),729,,,Not Released,,In stock,None,Not Used,iGEM14_Uppsala,"Viktor Blomkvist, Tim Hagelby Edstrom, Laura Pacoste and Tersea Reinli",2014-10-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1388001,aeBlue-aacC1 gene cassette for integron testing,1298,,,Not Released,,In stock,None,Not Used,iGEM14_USyd-Australia,Tom Geddes,2014-10-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1467201,"GoldenGate compatible AmilCP, Blue chromoprotein",676,,,Not Released,,In stock,,Not Used,iGEM14_NRP-UEA-Norwich,Cara Deal,2014-09-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1467300,Golden Gate Module Flipper for 3'UTR+Terminator parts,1092,,,Not Released,,In stock,None,Not Used,iGEM14_NRP-UEA-Norwich,"Cara Deal, Jessica Gray",2014-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1467400,RFP coding device - Golden Gate Module Flipper,1092,,,Not Released,,In stock,None,Not Used,iGEM14_NRP-UEA-Norwich,"Cara Deal, Jessica Gray",2014-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1470004,Secreted Alkaline Phosphatase (SEAP),1521,,,Not Released,,In stock,,Not Used,iGEM14_Freiburg,Dennis Zimmer,2014-10-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1541010,test,5,,,Not Released,,In stock,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1541014,test,9,,,Not Released,,In stock,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1541015,test,7,,,Not Released,,In stock,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1541016, -- No description -- ,5,,,Not Released,,In stock,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K337025,hRluc (Renilla Luciferase),936,,,Released HQ 2013,BBa_J52008;BBa_J95001,In stock,None,Experience: None,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K524001,pLac + RBS + split sfGFP 1-10,873,,,Released HQ 2013,,In stock,None,Not Used,iGEM11_HKUST,HO Yuan Heng Trevor,2011-09-28,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K524006,RBS + split sfGFP1-10,666,,,Not Released,,In stock,None,Not Used,iGEM11_HKUST,HO Yuan Heng Trevor,2011-10-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K524007,RBS+ split sfGFP 11 + double terminator,236,,,Not Released,,In stock,None,Not Used,iGEM11_HKUST,HO Yuan Heng Trevor ,2011-10-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567018,PT7-GFP-TAG-RFP,1768,,kosyumote:2,Released HQ 2013,,In stock,None,Not Used,iGEM11_SJTU-BioX-Shanghai,Xiaopan Ma and Xiwen Zhao,2011-09-30,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K579000,no ATG GFP,717,,,Not Released,BBa_K737066,In stock,None,Not Used,iGEM11_KIT-Kyoto,"Reo Yoshimura,Toshihiro Matsunami,Takahiro Nakagawa,Jyunpei Yokoigawa",2011-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K660004,iLOV,336,,Exeter University 2014:3,Released HQ 2013,,In stock,None,5 Uses,iGEM11_GlasgowUni,Glasgow Uni 2011,2011-09-16,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K762000,Translational Coupling Cassette,718,,,Not Released,,In stock,None,1 Uses,iGEM12_Wisconsin-Madison,Menuka Samaranayake,2012-09-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K823029,"mKate2, a red monomeric fluorescent protein, B. subtilis optimized",702,,,Not Released,,In stock,,1 Uses,iGEM12_LMU-Munich,Jara Radeck,2012-08-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K838001,LovTAP readout,1213,,,Released HQ 2013,,In stock,Issues,Not Used,iGEM12_EPF-Lausanne,Nicolas Gobet,2012-09-22,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K895006,GFP open reading frame,720,,,Released HQ 2013,BBa_E0040;BBa_K294055;BBa_T1005;BBa_K783053;BBa_K1030008;BBa_K1067000;BBa_M45809;BBa_K1780000;BBa_M45190,In stock,,1 Uses,iGEM12_Dundee,Frank Sargent,2012-09-23,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K929301,Potsdam Standard Backbone,828,,,Released HQ 2013,,In stock,None,Not Used,iGEM12_Potsdam_Bioware,Potsdam Bioware 2012 iGEM,2012-09-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_M45809,GFPLlac,720,,,Not Released,BBa_E0040;BBa_K294055;BBa_T1005;BBa_K895006;BBa_K783053;BBa_K1030008;BBa_K1067000;BBa_K1780000;BBa_M45190,In stock,,Not Used,UtahState_BE5930_-_S14,Austin Heywood,2015-04-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_E0010,dsRed (LVA-),681,,Antiquity:0,Not Released,,Not in stock,None,3 Uses,Antiquity,cconboy,2004-07-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_E0035,LacZ alpha fragment; complements matching N-terminal deletion mutant (lacZ-omega),379,,,Not Released,,Not in stock,,2 Uses,iGEM07_Example,Reshma Shetty,2007-12-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_E0041,SapI + GFP,728,,,Not Released,,Not in stock,,1 Uses,T7.2,Heather Keller,2007-03-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_E0042,SapI + mCherry,722,,,Not Released,,Not in stock,,1 Uses,T7.2,Heather Keller,2007-03-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_E0043,green fluorescent protein (GFP) variant,720,,,Not Released,,Not in stock,Works,1 Uses,iGEM2006_MIT,Austin Che,2008-02-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_E0050,GFP.lacZalpha fusion,900,,austin:1,Not Released,,Not in stock,Issues,Not Used,iGEM07_Example,Austin Che and Reshma Shetty,2007-07-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_E0051,lacZa.GFP fusion,954,,austin:5,Not Released,,Not in stock,Works,18 Uses,iGEM2006_MIT,Austin Che,2009-03-01,,pgroup=Reporter_Coding&show=1.csv
+BBa_E1000,cohmGFP (July 2004),30,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Drew Endy,2004-07-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_E1011,mRFP-1 (codon optimized for yeast),713,,Antiquity:5,Not Released,,Not in stock,Works,Not Used,Antiquity,drew (c/o Gustavo Pesce),2004-09-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_E1020,cohmCFP (July 2004),30,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Drew Endy,2004-07-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_E1030,cohmYFP (July 2004),30,,Antiquity:0,Not Released,,Not in stock,None,8 Uses,Antiquity,Drew Endy,2004-07-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_E2021,Cerulean (no linkers),723,,,Not Released,,Not in stock,,1 Uses,Haseloff Lab,James Brown,2010-12-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_G10001,Lux operon downstream of Plac,8690,,,Not Released,,Not in stock,,Not Used,iGEM2006_MIT,Jason Kelly,2008-07-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_I13411,I15016 with extra REN sites,758,,Antiquity:0,Not Released,,Not in stock,None,3 Uses,MIT,jkm,2005-05-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_I2054,lacZ beta-D-galactosidase [ Escherichia coli K12 ],3075,,,Not Released,,Not in stock,,Not Used,iGEM2006_MIT,Jason Kelly,2007-06-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714895,SDY_mRFP,699,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714896,SDY_mcherry,727,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714898,SDY_ECFP,759,,,Not Released,,It's complicated,None,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714899,SDY_mRFP,697,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714900,SDY_EGFP,736,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714901,SDA_LacZa,294,1,,Not Released,,It's complicated,Works,2 Uses,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714902,SDB_lacZa,292,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714903,SDC_LacZa,294,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714904,SDE_LacZa,294,,,Not Released,,It's complicated,None,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714905,SDD_lacZa,296,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714906,SDF_LacZa,293,,,Not Released,,It's complicated,None,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714907,SDG_LacZa,295,,,Not Released,,It's complicated,None,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714908,SDH_LacZa,293,,,Not Released,,It's complicated,None,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714909,SDcro_LacZa,292,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714910,SDY_lacZa,296,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714912,SDB_EGFP,730,,,Not Released,,It's complicated,None,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714913,SDC_EGFP,732,,,Not Released,,It's complicated,,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714914,SDD_EGFP,734,,,Not Released,,It's complicated,,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714915,SDE_EGFP,732,,,Not Released,,It's complicated,,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714916,SDF_EGFP,731,,,Not Released,,It's complicated,,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714917,SDG_EGFP,733,,,Not Released,,It's complicated,,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714918,SDH_EGFP,731,,,Not Released,,It's complicated,,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714920,SDD'_EGFP,733,,,Not Released,,It's complicated,,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714921,SDE'_EGFP,731,,,Not Released,,It's complicated,,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714943,mRFP_switch_GFP,2925,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714944,mcherry_switch_GFP,2953,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_I714947,SDcro_EGFP,730,,,Not Released,,Not in stock,Works,Not Used,iGEM07_Peking,Chunbo Lou,2007-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_I715004,Amino Half of of Kanamycin (Kan1),375,,,Not Released,,Not in stock,Fails,2 Uses,iGEM07_Davidson_Missouri_W,Michael Waters,2007-07-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_I715005,Carboxyl Half of Kanamycin (Kan2),441,,,Not Released,,Not in stock,Fails,2 Uses,iGEM07_Davidson_Missouri_W,Michael Waters,2007-07-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_I717001,reversed dsRED,721,,,Not Released,,Not in stock,,Not Used,iGEM07_Virginia_Tech,Blair Lyons,2007-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_I756026,LexAopMLP-GFP-SV40PA, ,,,Not Released,,No part sequence,,No Sequence,iGEM07_Bay_Area_RSI,Jennifer Lei,2007-10-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_I756027,LexAopMLP-GFP-SV40PA,1136,,,Not Released,,Not in stock,,Not Used,iGEM07_Bay_Area_RSI,Jennifer Lei,2007-10-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_J04031,GFP w/LVA tag,759,,Antiquity:0,Not Released,BBa_K145015,It's complicated,None,18 Uses,iGEM2005,Kristen DeCelle,2005-06-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_J04051,RFP with tag,720,,Antiquity:0,Not Released,,It's complicated,None,7 Uses,iGEM2005,tammy674,2005-06-08,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J06506,"mCherry, bacterial (LVA+)",880,,,Not Released,,Not in stock,,Not Used,iGEM2005,Yves Wang,2005-08-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100051,RFP (E1010) with start codon deleted,678,,,Not Released,BBa_I716015;BBa_K257008;BBa_K199197,It's complicated,,1 Uses,Campbell_M_Lab,Malcolm Campbell,2012-01-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100069,Superfolder GFP ,770,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Rebecca Evans,2012-06-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100081,J100071+E0240,1210,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Ben Clarkson,2012-07-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100102,high production blue chromoprotein,800,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Malcolm Campbell,2012-11-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100103,medium production blue chromoprotein,800,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Malcolm Campbell,2012-11-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100104,For Testing New Promoters via Golden Gate Assembly v2,1631,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Malcolm Campbell,2012-12-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100165,High promoter+High C dog+dnaG gene,1916,,,Not Released,,Not in stock,None,Not Used,Campbell_M_Lab,Dustin Atchley,2014-07-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100198,J100198 contains the fitness gene tester construct (J100199) with thymidylate synthase as the fitnes,1000,,,Not Released,,Not in stock,Works,Not Used,Campbell_M_Lab,Telavive Taye,2014-12-01,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100203,p14 + BD18 + tetA ,1315,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Kathryn Smith ,2014-11-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100261,rClone Red with Riboswitch C,784,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Zachary Shaver,2016-06-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100262,rClone Red with Riboswitch E,781,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Zachary Shaver,2016-06-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100263,RS10 (Wachsmuth et al. 2013) in J119361,878,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Owen Koucky,2016-06-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100282,rClone Red Version 2 with RBS: Device for GGA Cloning and Testing RBS elements and Riboswitches,738,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Rachel Neal,2016-06-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100283,rClone Red with RBS: Device for GGA Cloning and Testing RBS elements and Riboswitches,738,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Rachel Neal,2016-06-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100309,actClone Red with wt full OmpR promoter,1683,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Monica Prudencio,2016-10-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100312,repClone Red (J100205) with scrambled TetR promoter (J100311),2338,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Monica Prudencio,2016-12-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100314,actClone Red (J100204) with scrambled OmpR promoter (J100313),1683,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Monica Prudencio,2017-01-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100319,rClone Red with strong basic RBS (B24) from Anthony Eckdahl,735,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Malcolm Campbell,2017-07-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100320,rClone Red with mild basic RBS (RC) from Anthony Eckdahl,735,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Malcolm Campbell,2017-07-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100321,rClone Red with strongest basic RBS (RR4) from Anthony Eckdahl,735,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Malcolm Campbell,2017-07-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100322,rClone Red with very strong basic RBS (RM) from Anthony Eckdahl,735,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Malcolm Campbell,2017-07-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100323,rClone Red with very weak simple RBS (BI) from Anthony Eckdahl,735,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Malcolm Campbell,2017-07-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_J100324,repClone Red minus TT,2345,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Deborah Thurtle-Schmidt,2017-08-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_J10063,Green Firefly Luciferase and LRE L. Cruciata (E. coli optimised) ,2623,,,Not Released,,Not in stock,,2 Uses,iGEM2005,Malcolm Campbell,2012-01-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_J10068,luciferase + LRE + BD18 original RBS removed,2641,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_J10069,EPIC Firefly Luciferase and LRE  P. pyralis + BD18,2644,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_J119018,RFPrev-RBSrev-pT7rev,755,,,Not Released,,Not in stock,None,3 Uses,Eckdahl_Lab,Michel Conn,2011-10-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_J119020,GFP-RBS-pT7,772,,,Not Released,,Not in stock,,Not Used,Eckdahl_Lab,Michel Conn,2011-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_J119021,GFP-RBS-RFP-RBS-pT7,1504,,,Not Released,,Not in stock,,Not Used,Eckdahl_Lab,Michel Conn,2011-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_J119135,Backwards RBS (B0030)-GFP (E0040),741,,,Not Released,,Not in stock,None,1 Uses,Eckdahl_Lab,"Claire Shinneman, Paul Frederick",2013-01-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_J119137,pClone Red - Device for Testing New Promoters via Golden Gate Assembly ,1625,,,Not Released,,Not in stock,Works,Not Used,Eckdahl_Lab,"Claire Shinneman, Paul Frederick, A. Malcolm Campbell, Todd Eckdahl",2013-01-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_J119140,Theophylline Riboswitch - tetracycline resistance protein ,1357,,,Not Released,,Not in stock,None,2 Uses,Eckdahl_Lab,Sachith Dharmasena and Todd Eckdahl,2013-02-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_J119306,RFP expression cassette for J-GGA,864,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Sachii Polpitiya Arachchige,2013-07-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_J14017,sandbox part,5,,,Not Released,,Not in stock,,Not Used,iGEM_Registry,Jonas Nart,2006-06-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_J29043,a,1353,,,Not Released,,Not in stock,,Not Used,iGEM2006_Chiba,Yuki Asari,2006-08-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_J31008,RFP reverse,678,,,Not Released,,It's complicated,Works,4 Uses,iGEM2006_Davidson,Karmella Haynes,2007-02-15,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J31016,part produces the RNA construct crRNA-RBS-GFPLVA-tt that can only be translated in the presence of t, ,,,Not Released,,No part sequence,,No Sequence,iGEM2006_Davidson,Erin Zwack,2008-05-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_J33206,Bacillus subtilis ars promoter and arsR gene plus E. coli lacZ,956,1,,Not Released,,It's complicated,Issues,Not Used,iGEM2006_Edinburgh,Chris French,2006-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_J33207,lac promoter and lacZ,600,,,Not Released,,It's complicated,Works,35 Uses,iGEM2006_Edinburgh,Chris French,2006-10-27,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J52642,Green Flourescence Protein,720,,,Not Released,,It's complicated,,12 Uses,iGEM2006_Slovenia,Jernej Kova&#269;,2006-10-15,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J61032,Alkaline phosphatase [phoA],1475,,,Not Released,,It's complicated,Works,1 Uses,Arkin Lab,John Anderson,2006-11-10,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J63000,yeast codon-optimized mCherry,735,,,Not Released,BBa_K105010;BBa_K165004,It's complicated,Works,Not Used,Silver Lab,Caroline Ajo-Franklin,2006-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70008,Photorhabdus luminescens luciferase operon,5805,,,Not Released,,Not in stock,,Not Used,Knight Lab,Spenser Skates,2008-04-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70029,"RBS + mCherry gene, optimized for expression in Me. florum and E. coli",699,,,Not Released,BBa_J70655,Not in stock,,2 Uses,Knight Lab,Tom Knight,2009-03-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70305,GFP coding device switched on by IPTG (PsrI site removed) ,1028,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-05-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70306,"Similar to S03621, except PsrI sites (some portions of B0010, B0012) removed",937,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-01,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70307,J70306 with PsrI ends ,953,,,Not Released,,Not in stock,,2 Uses,Knight Lab,Julie Norville,2009-06-01,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70561,J04430 without the terminator ,946,,,Not Released,BBa_J70480;BBa_J70546;BBa_K1189034;BBa_K1500002;BBa_K1955010,It's complicated,,1 Uses,Knight Lab,Julie Norville,2010-02-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70563,J04430 with C-terminal 6 his tag and no terminator,970,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2010-02-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70570,J04430 without the terminator BBa_J70570(AK),912,,,Not Released,BBa_J70661,Not in stock,None,2 Uses,Knight Lab,Julie Norville,2010-04-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70651, J70590 cut with BsaXI and with (6hisintermediatelinker) added ,1101,,,Not Released,,Not in stock,None,Not Used,Knight Lab,Julie Norville,2010-11-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70652,This tests adding an internal strep tag linker to a protein using J70590 as a te, ,,,Not Released,,No part sequence,,No Sequence,Knight Lab,Julie Norville,2010-11-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70653,This tests adding an internal strep tag linker to a protein using J70590 as a te,1101,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2010-11-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70655,RFP optimized for expression in E. coli and M. florum,699,,,Not Released,BBa_J70029,Not in stock,,3 Uses,Knight Lab,Tom Knight,2010-12-01,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70660,J70577 cut with BsaXI and with 6his inserts (J70564-fi) added, ,,,Not Released,,No part sequence,,No Sequence,Knight Lab,Julie Norville,2010-12-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_J70662,"Short fusion insert test, designed from J70590 to recreate J04430", ,,,Not Released,,No part sequence,,No Sequence,Knight Lab,Julie Norville,2010-12-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_J72084,{rbs.mRFP-3*} in BglBrick Format,697,,,Not Released,,Not in stock,,Not Used,Anderson Lab,Josh Kittleson,2011-11-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_J72087,{rbs.lacZ} in BglBrick Format,3095,,,Not Released,,Not in stock,,Not Used,Anderson Lab,Josh Kittleson,2011-11-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_J72090,{vioABCDE} in BglBrick Format,7345,,,Not Released,,Not in stock,,Not Used,Anderson Lab,Josh Kittleson,2011-11-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_J72091,{luxCDABE} in BglBrick Format,5838,,,Not Released,,Not in stock,,Not Used,Anderson Lab,Josh Kittleson,2011-11-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_J97000,IP-Free EiraCFP (Cyan Fluorescent Protein),699,,,Not Released,,It's complicated,None,Not Used,BioFAB,Drew Endy,2014-02-04,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_J97001,P-Free JuniperGFP (Green Fluorescent Protein),702,,,Not Released,,Not in stock,None,Not Used,BioFAB,Drew Endy,2014-02-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_J97002,IP-Free BlazeYFP  (Yellow Fluorescent Protein),708,,,Not Released,,Not in stock,None,Not Used,BioFAB,Drew Endy,2014-02-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_J97003,IP-Free TannenRFP (Red Fluorescent Protein),678,,,Not Released,,It's complicated,None,Not Used,BioFAB,Drew Endy,2014-02-18,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K076004,EYFP,717,,,Not Released,,Not in stock,Works,2 Uses,iGEM08_Princeton,Available commercially,2008-10-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K076006,mKate,714,,,Not Released,,Not in stock,Works,2 Uses,iGEM08_Princeton,Available commercially,2008-10-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K080004,Alpha Cardiac Myosin Heavy Chain minPro  Neomycin Resistance  fmdv2a-GFP ,2054,,,,,,,,,,,,
+BBa_K080010,puc18-LexAop-eGFP-SV40PA ,3765,,Pokie:5,Not Released,,Not in stock,,Not Used,iGEM08_Bay_Area_RSI,Jennifer Lei,2008-10-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K084002,Venus YFP with RBS (yeast-optimized),767,,,Not Released,,Not in stock,,1 Uses,iGEM08_Chiba,Hiroki Fukutomi,2008-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K085001,pGLO GFP,718,,,Not Released,,Not in stock,,3 Uses,iGEM08_Melbourne,Jiaxing Qin,2008-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1018001,she ble gene conferring Zeocin resistance,1830,,,Not Released,,It's complicated,Works,Not Used,iGEM13_UCL,KhaiCheng Kiew,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1020001,PalkM promoter with reporter gene,1013,,,Not Released,,It's complicated,Works,2 Uses,iGEM13_Tianjin,Yue Liu,2013-08-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1023017,eForRed Chromoprotein,732,,,Not Released,,It's complicated,,Not Used,iGEM13_Wageningen_UR,Michiel Karrenbelt,2013-12-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1024001,Lux Promoter in Yeast (pLux+Cyc Promoter+mCherry),875,,,Not Released,,It's complicated,None,Not Used,iGEM13_Tsinghua,Sun Xiaochen,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1025001,araBAD promoter,289,,,Not Released,,Not in stock,None,Not Used,iGEM13_Tsinghua-E,Weifan Liang,2013-09-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031113,Po-B0031-sfGFP-Terminator  (CapR),1054,,,Not Released,,It's complicated,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031114,Po-B0032-sfGFP (CapR),1053,,,Not Released,,It's complicated,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031223,Po-B0033-sfGFP-Terminator (DmpR),1056,,,Not Released,,It's complicated,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031224,Po-B0034-sfGFP-Terminator (DmpR),1057,,,Not Released,,It's complicated,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031301,Pc-B0031-sfGFP-Terminator (HbpR),1112,,,Not Released,,It's complicated,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031302,Pc-B0032-sfGFP-Terminator (HbpR),1111,,,Not Released,,In stock,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031420,Ph-B0031-sfGFP-Terminator (HcaR),958,,,Not Released,,It's complicated,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031421,Ph-B0032-sfGFP-Terminator (HcaR),957,,,Not Released,,It's complicated,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031422,Ph(HcaR)-B0034-sfGFP,958,,,Not Released,,It's complicated,,Not Used,iGEM13_Peking,He Shuaixin,2013-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031520,Pg-B0031-sfGFP-Terminator (HpaR),1111,,,Not Released,,It's complicated,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031521,Pg-B0032-sfGFP-Terminator (HpaR),1110,,,Not Released,,It's complicated,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031803,Pu-B0031-sfGFP-Terminator (XylR),1064,,,Not Released,,It's complicated,None,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031804,Pu-B0032-sfGFP-Terminator (XylR),1063,,,Not Released,,It's complicated,,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1031941,Pm-B0034-eGFP (XylS),1112,,,Not Released,,It's complicated,,Not Used,iGEM13_Peking,He Shuaixin,2013-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1033209,amilCP blue chromoprotein with promotor in pSBLbC shuttle vector, ,,,Not Released,,No part sequence,None,No Sequence,iGEM13_Uppsala,Mikael Strandgren,2013-09-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1033911,"scOrange, orange  chromoprotein (incl RBS, J23110)",760,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Uppsala,Sabri Jamal,2013-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1033912,"scOrange, orange  chromoprotein (incl RBS, J23106)",760,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Uppsala,Sabri Jamal,2013-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1036004,sfgfp with LVA-tag,753,,,Not Released,,Not in stock,Works,1 Uses,iGEM13_XMU-China,"Zhaopeng Cheng, Xiyu Wu",2013-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1041003,Neomycin Resistance Reporter Gene,1024,,,Not Released,,Not in stock,,Not Used,iGEM13_NRP-UEA-Norwich,Lucy Clark,2013-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1041004,AntG Promoter + Gus gene,1940,,,Not Released,,Not in stock,,Not Used,iGEM13_NRP-UEA-Norwich,Lucy Clark,2013-10-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_K105009,"ECFP, yeast optimized for fusion proteins",744,,,Not Released,,It's complicated,None,1 Uses,iGEM08_ESBS-Strasbourg,Katja Karstens,2008-10-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K105010,"mCherry, Yeast optimized for fusion proteins",735,,,Not Released,BBa_J63000;BBa_K165004,It's complicated,None,Not Used,iGEM08_ESBS-Strasbourg,"Marius Müller, Paul Bourgine",2008-10-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K105011,"mOrange, Yeast optimized for fusion proteins",735,,,Not Released,,It's complicated,None,Not Used,iGEM08_ESBS-Strasbourg,"Marius Müller, Paul Bourgine",2008-10-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1051000,Stop codon free RFP in RFC[23] standard,675,,,Not Released,BBa_K1582031,It's complicated,Works,30 Uses,iGEM13_Shenzhen_BGIC_ATCG,Xiang LI,2013-07-02,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1051001,Stop codon free ECFP in RFC[23] standard,716,,,Not Released,,It's complicated,Works,6 Uses,iGEM13_Shenzhen_BGIC_ATCG,Xiang LI,2013-07-04,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1051002,Stop codon free EYFP in RFC[23] standard,717,,,Not Released,BBa_K411202,It's complicated,Works,9 Uses,iGEM13_Shenzhen_BGIC_ATCG,Xiang LI,2013-07-04,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1053130,Split EYFP N-terminal domain,522,,,Not Released,,Not in stock,None,Not Used,iGEM13_Tokyo-NoKoGen,shiota masaki,2013-09-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1053131,Split EYFP C-terminal domain,201,,,Not Released,,Not in stock,None,Not Used,iGEM13_Tokyo-NoKoGen,shiota masaki,2013-09-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1067001,Twin-arginine translocation reporter,1584,,,Not Released,,It's complicated,None,Not Used,iGEM13_DTU-Denmark,Kristian Davidsen,2013-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1071009,eGFP,720,,,Not Released,BBa_S03452;BBa_K1778005;BBa_K1993017;BBa_K1875003,It's complicated,None,Not Used,iGEM13_Marburg,Team Marburg 2013,2013-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1071014,RFP-MTS,759,,,Not Released,,It's complicated,None,Not Used,iGEM13_Marburg,Team Marburg 2013,2013-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1088002,Reporter system to quantify protein expression of B. sub 1-deoxyxylulose-5-phosphate synthase (Dxs),1901,,,Not Released,,Not in stock,None,Not Used,iGEM13_SDU-Denmark,Andreas Kjær,2013-07-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1088053,GFP reporter with flexible linker at N-terminus for creation of GFP fusions, ,,,Not Released,,No part sequence,,No Sequence,iGEM13_SDU-Denmark,Patrick Rosendahl Andreassen,2015-03-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1093020,HBA+NsfGFP (+B0034),1281,,,Not Released,,Not in stock,,Not Used,iGEM13_Warsaw,Jakub Pi&#261;tkowski,2013-09-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1093021,HBB+CsfGFP m6 (+B0034),704,,,Not Released,,Not in stock,None,Not Used,iGEM13_Warsaw,Jakub Pi&#261;tkowski,2013-09-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1093031,HBB+CsfGFP m12 (+B0034),704,,,Not Released,,Not in stock,,Not Used,iGEM13_Warsaw,Jakub Pi&#261;tkowski,2013-09-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1100006,optimized sfGFP with Csy4 insulator loci,733,,,,,,,,,,,,
+BBa_K110010,yESapphire Optimized Yeast FP,717,,,Not Released,,Not in stock,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-05-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K110017,yESapphire Optimized Yeast FP (backwards),717,,,Not Released,,Not in stock,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-08-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K110018,mCherry FP ,708,,,Not Released,BBa_K110019;BBa_K106004;BBa_K180008,It's complicated,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-08-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K110019,mCherry FP (Backwards),708,,,Not Released,BBa_K110018;BBa_K106004;BBa_K180008,It's complicated,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-08-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K110020,Venus YFP Yeast Optimized,714,,,Not Released,,Not in stock,,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-08-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K110021,Venus YFP Yeast Optimized (backwards),714,,,Not Released,,Not in stock,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-08-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K110022,YemCitrine Yeast Optimized ,714,,,Not Released,BBa_K110023,Not in stock,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-08-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K110023,YemCitrine Yeast Optimized (backwards),714,,,Not Released,BBa_K110022,Not in stock,None,Not Used,iGEM08_Johns_Hopkins,James DiCarlo,2008-08-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1103002,IκB, ,,,Not Released,,No part sequence,Works,No Sequence,iGEM13_LZU-China,Jinbo Yang,2013-08-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1103003,GFP, ,,,Not Released,,No part sequence,Works,No Sequence,iGEM13_LZU-China,Jinbo Yang,2013-08-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1113600,GFP with a targeting sequence for delivery into the Carboxysome and a ssrA degradation tag., ,,,Not Released,,No part sequence,,No Sequence,iGEM13_UC_Chile,Sebastián Alvarez,2013-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1114207,CyPet_CD,743,,,Not Released,,It's complicated,,Not Used,iGEM13_BostonU,Shawn Jin,2013-09-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1114214,mCitrine_CD,725,,,Not Released,,It's complicated,,1 Uses,iGEM13_BostonU,Shawn Jin,2013-09-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1114215,mOrange_CD,713,,,Not Released,,It's complicated,,Not Used,iGEM13_BostonU,Shawn Jin,2013-09-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1114502,MoClo Level 1 RFP reporter with AE fusion sites,949,,,Not Released,,It's complicated,,Not Used,iGEM13_BostonU,Jake Awtry,2013-09-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1122010,Genabler acceptor RFP cassette,1034,,,Not Released,,Not in stock,Works,Not Used,iGEM13_Edinburgh,Lina Gasi&#363;nait&#279;,2013-08-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1122011,Genabler acceptor lacZα cassette,376,,,Not Released,,Not in stock,Works,Not Used,iGEM13_Edinburgh,Lina Gasi&#363;nait&#279;,2013-08-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1122677,pSpac - LacZ,390,,,Not Released,BBa_K1122222,Not in stock,None,3 Uses,iGEM13_Edinburgh,Aleksandra Lewicka,2013-08-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1124000,"amilGFP (+LVA),  yellow reporter protein with degradation tag",738,,,Not Released,,It's complicated,None,1 Uses,iGEM13_UT-Tokyo,Yuta Otsuka,2013-09-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K112413,ptet promoter GFP reporter construct,846,,,Not Released,,It's complicated,,Not Used,iGEM08_UC_Berkeley,Christina Brown,2008-10-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K112414,spv promoter and GFP reporter construct,2748,,,Not Released,,It's complicated,,Not Used,iGEM08_UC_Berkeley,Christina Brown,2008-10-31,,pgroup=Reporter_Coding&show=1.csv
+BBa_K112416,GFP reporter,786,,,Not Released,,Not in stock,,4 Uses,iGEM08_UC_Berkeley,Christina Brown,2008-10-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1128003,pagn reporter plasmid,1739,,,Not Released,,It's complicated,,Not Used,iGEM13_Penn,Daniel Cabrera,2013-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1128004,plci reporter plasmid, ,,,Not Released,,No part sequence,,No Sequence,iGEM13_Penn,Daniel Cabrera,2013-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1128005,pbad reporter plasmid, ,,,Not Released,,No part sequence,,No Sequence,iGEM13_Penn,Daniel Cabrera,2013-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K113001,pT7->cI434 operator ->GFP,955,,,Not Released,,It's complicated,None,1 Uses,iGEM08_HKUSTers,"WU Jingjing, WANG Jinyu",2008-10-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_K113004,pT7->tetR operator->GFP,956,,,Not Released,,It's complicated,None,1 Uses,iGEM08_HKUSTers,"WU Jingjing, Wang Jinyu",2008-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K113013,pT7->GFP,906,,,Not Released,BBa_I719015;BBa_K299024;BBa_K1886008,It's complicated,None,Not Used,iGEM08_HKUSTers,"Wu Jingjing, Wang Jinyu",2008-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K113014,truncated T7 promoter->GFP,904,,,Not Released,,It's complicated,None,Not Used,iGEM08_HKUSTers,"Wu jingjing, Wang Jinyu",2008-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K113020,GFP, ,,,Not Released,,No part sequence,None,No Sequence,iGEM08_HKUSTers,WU Jingjing,2008-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1141003,green sensor-RBS-GFP, ,,,Not Released,,No part sequence,None,No Sequence,iGEM13_Grenoble-EMSE-LSU,Nicolas Roehri,2013-10-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1141004,Red sensor-RBS-RFP, ,,,Not Released,,No part sequence,None,No Sequence,iGEM13_Grenoble-EMSE-LSU,Nicolas Roehri,2013-10-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1163001,sfGFP,720,,,Not Released,BBa_K892004,Not in stock,None,1 Uses,iGEM13_Evry,Emiel van der Kouwe,2013-09-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1163402,superfolder GFP,450,,,Not Released,,Not in stock,None,1 Uses,iGEM13_Evry,Emiel van der Kouwe,2013-09-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1170001,"Synthetic construct superfolder green fluorescent protein (sfgfp) gene, complete cds",720,,,Not Released,,Not in stock,,Not Used,iGEM13_IIT_Delhi,Rohit Satija,2013-09-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1170002,"lacZ (gi: J01636.1, Encoding Beta-Galactosidase Enzyme), complete cds",3018,,,Not Released,,It's complicated,,Not Used,iGEM13_IIT_Delhi,Rohit Satija,2013-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1179001,(Acyl-TyA-eGFP) A membrane targeting eGFP construct,2142,,,Not Released,,It's complicated,None,1 Uses,iGEM13_MIT,Nelson Hall,2013-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1179003,(Acyl-TyA-mkate-His) A membrane targeting mkate construct with an appended His tag,2064,,,Not Released,,It's complicated,None,2 Uses,iGEM13_MIT,Nelson Hall,2013-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1179010,eBFP2 (Blue) fluorescent protein ,1803,,,Not Released,,It's complicated,None,Not Used,iGEM13_MIT,Nelson Hall,2013-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1179018,Fluorescent mKate protein with a fused PEST site for rapid degradation,884,,,Not Released,,It's complicated,None,1 Uses,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1179019,Fluorescent mKate protein with appended 6xHis tag,728,,,Not Released,,It's complicated,,Not Used,iGEM13_MIT,Lauren St. Hilaire,2013-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1179037,L7Ae-2a-eYFP,884,,,Not Released,,It's complicated,,Not Used,iGEM13_MIT,Lauren St. Hilaire,2013-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1179065,mKate-1xmiR451-mKate,1203,,,Not Released,,Not in stock,None,Not Used,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1179066,mKate-1xmiR503-mKate,1202,,,Not Released,,Not in stock,None,Not Used,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1179068,TagBFP,881,,,Not Released,,It's complicated,,1 Uses,iGEM13_MIT,Brandon Nadres,2013-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1182000,Split β-galactosidase - ω fragment,864,,mhanifi/thidayat:4,Not Released,,It's complicated,Works,Not Used,iGEM13_UI-Indonesia,Muhammad Hanifi,2013-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1182425,Split β-galactosidase - α fragment,234,,,Not Released,,It's complicated,Works,Not Used,iGEM13_UI-Indonesia,Muhammad Hanifi,2013-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1185001,HBsu-sfGFP,1054,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Newcastle,Vincent Leonardo ,2013-08-29,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1204013,TEF1pr-BS1x-16A,558,,,Not Released,,It's complicated,,Not Used,iGEM13_Duke,Matthew Baron,2013-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1204014,TEF1pr-BS1x-16B,599,,,Not Released,,It's complicated,,Not Used,iGEM13_Duke,Matthew Baron,2013-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1204015,TEF1pr-BS1x-16C,563,,,Not Released,,It's complicated,,Not Used,iGEM13_Duke,Matthew Baron,2013-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1204016,TEF1pr-BS1x-20A,579,,,Not Released,,It's complicated,,Not Used,iGEM13_Duke,Matthew Baron,2013-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1204017,TEF1pr-BS1x-20B,587,,,Not Released,,It's complicated,,Not Used,iGEM13_Duke,Matthew Baron,2013-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1204018,TEF1pr-BS1x-20C,581,,,Not Released,,It's complicated,,Not Used,iGEM13_Duke,Matthew Baron,2013-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K121013,Promoterless GFP on pSB6,931,,,Not Released,,It's complicated,Works,21 Uses,iGEM08_Tokyo_Tech,Masashi Kajita,2008-10-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1212008,Golden Gate compatible GFP,759,,,Not Released,,Not in stock,,3 Uses,iGEM13_UC_Davis,Aura Ferreiro,2013-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1232001,OmpR induced POmpC promoter and sfGFP = POmpC-RBS-sfGFP,1929,,,Not Released,,It's complicated,None,Not Used,iGEM13_Washington,"Martin Kinisu, Austin Moon",2013-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1253100,A fusion protein of TetR and mRFP, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_TAS_Taipei,Phillip Teng,2014-06-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1311007,A reporter for the TALE protein binding ability,2412,,,Not Released,,It's complicated,None,Not Used,iGEM14_Tsinghua-A,Luning Yang,2014-10-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1316000,mKate2 protein,717,,,Not Released,,Not in stock,,1 Uses,iGEM14_TU_Delft-Leiden,Joan Cortada Garcia,2014-08-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1316016,constitutively expressed eGFP under the control of J23110 Anderson promoter,739,,,Not Released,,It's complicated,,Not Used,iGEM14_TU_Delft-Leiden,Joan Cortada Garcia,2014-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1319000,RFC[25] version of E0030,711,,,Not Released,,It's complicated,None,2 Uses,iGEM14_Aachen,"Michael Osthege, Florian Gohr",2014-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K133026,GFP with CCACC, ,,,Not Released,,No part sequence,None,No Sequence,iGEM08_Slovenia,Ana Lasic,2008-10-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K133055,mCherry,708,,,Not Released,,It's complicated,None,4 Uses,iGEM08_Slovenia,Ana Lasic,2008-10-29,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K133066,GFP,717,,,Not Released,,It's complicated,Works,2 Uses,iGEM08_Slovenia,Katja Kolar,2008-10-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1343012,Plux-amilCP,1023,,,Not Released,,It's complicated,None,Not Used,iGEM14_Technion-Israel,"Tal Naor, Ricarina Rabinovitz, Ittai Rubinstein, Yair Maimon",2014-09-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1343013,PT7-amilCP,969,,,Not Released,,It's complicated,None,Not Used,iGEM14_Technion-Israel,"Tal Naor, Ricarina Rabinovitz, Ittai Rubinstein, Yair Maimon",2014-09-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K134900,GFP, ,,,Not Released,,No part sequence,None,No Sequence,iGEM08_Mexico-UNAM-IPN,Ileana de la Fuente Colmenares,2009-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1362505,BBa_J04450 with a mutation,1069,,,Not Released,,Not in stock,None,2 Uses,iGEM14_Heidelberg,Max Waldhauer,2014-10-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1362615, -- No description -- , ,,,Not Released,,No part sequence,None,No Sequence,iGEM14_Heidelberg,Jan Gleixner,2014-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1365557,superfolded GFP optimised for lactis under J23101 promoter,915,,,Not Released,,It's complicated,,Not Used,iGEM14_Groningen,AAKANKSHA SARAF,2014-10-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1367008,amilCP-tale, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_UB_Indonesia,Herlinda Mawardika,2014-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K137020,GFP with (AC)21 repeat after start codon ,760,,,Not Released,BBa_K137021,Not in stock,Issues,1 Uses,iGEM08_Caltech,Allen Lin,2008-07-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K137021,GFP with (AC)20 repeat after start codon,760,,,Not Released,BBa_K137020,Not in stock,Issues,1 Uses,iGEM08_Caltech,Allen Lin,2008-07-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K137022,GFP with (AC)22 repeat after start codon,764,,,Not Released,,Not in stock,Issues,1 Uses,iGEM08_Caltech,Allen Lin,2008-07-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K137023,GFP with (A)23 repeat after start codon,743,,,Not Released,,Not in stock,Issues,1 Uses,iGEM08_Caltech,Allen Lin,2008-07-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K137024,GFP with (A)24 repeat after start codon,744,,,Not Released,,Not in stock,Issues,1 Uses,iGEM08_Caltech,Allen Lin,2008-07-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K137025,GFP with (CTTCT)9 repeat after start codon,765,,,Not Released,,Not in stock,Issues,1 Uses,iGEM08_Caltech,Allen Lin,2008-07-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K137026,GFP with (CTTCT)8 repeat after start codon,760,,,Not Released,,Not in stock,Issues,1 Uses,iGEM08_Caltech,Allen Lin,2008-07-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K137027,GFP with (AGTC)10 repeat after start codon,760,,,Not Released,,Not in stock,Works,1 Uses,iGEM08_Caltech,Allen Lin,2008-07-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K137028,GFP with (AGTC)9 repeat after start codon,756,,,Not Released,,Not in stock,Works,1 Uses,iGEM08_Caltech,Allen Lin,2008-07-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K137080,Inverted RBS-RFP-TT,861,,Michigan iGEM 2012:5,Not Released,,It's complicated,None,1 Uses,iGEM08_Caltech,Allen Lin,2008-08-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1401602,E0040m_ID,730,,,Not Released,,It's complicated,None,1 Uses,iGEM14_BostonU,Yash Agarwal,2014-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1401603,E0030_ID,733,,,Not Released,,It's complicated,None,Not Used,iGEM14_BostonU,Yash Agarwal,2014-10-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1401609,pLac - BCD2 - GFP, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_BostonU,Yash Agarwal,2014-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1401614,pLac - BCD2 - araC - GFP, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_BostonU,Yash Agarwal,2014-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1444017,Full length beta-galactosidase (LacZ),3075,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Calgary,Dan Ziemianowicz,2014-10-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1448011, tac promoter with GST-tag , ,,,Not Released,,No part sequence,,No Sequence,iGEM14_KIT-Kyoto,yuma kobayashi,2014-10-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K145015,GFP with LVA tag,759,1,Michael Pettigrew:5;BNathalie:5,Not Released,BBa_J04031,It's complicated,Works,23 Uses,iGEM08_KULeuven,Benjamien Moeyaert,2008-08-01,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1463520,E1010 RFP in reverse,705,,,Not Released,,Not in stock,None,1 Uses,iGEM14_Glasgow,Beth Greig,2014-08-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1467202,"GoldenGate compatible AmilGFP, Yellow Chromoprotein",706,,,Not Released,,It's complicated,,Not Used,iGEM14_NRP-UEA-Norwich,Cara Deal,2014-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1467203,GoldenGate compatible Bax - cell death inducer,589,,,Not Released,,It's complicated,Works,Not Used,iGEM14_NRP-UEA-Norwich,Cara Deal,2014-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1468000,pJ23104 + gene encoding ZsGreen ,725,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Valencia_Biocampus,Pedro Luis Dorado Morales,2014-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1468001,pJ23104 + gene encoding AsRed2 ,734,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Valencia_Biocampus,Pedro Luis Dorado Morales,2014-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1468002,pJ23110 + gene encoding ZsGreen,725,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Valencia_Biocampus,Pedro Luis Dorado Morales,2014-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1468003,pGroE + gene encoding LacZ,3173,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Valencia_Biocampus,Pedro Luis Dorado Morales,2014-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1468004,pTet + gene encoding LacZ,3129,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Valencia_Biocampus,Pedro Luis Dorado Morales,2014-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1468005,pTrc + gene encoding LacZ,3149,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Valencia_Biocampus,Pedro Luis Dorado Morales,2014-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1468006,pTrc + gene encoding Luciferase,1727,,,Not Released,,It's complicated,Issues,Not Used,iGEM14_Valencia_Biocampus,Pedro Luis Dorado Morales,2014-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1468007,pT7 + gene encoding blue chromoprotein (BBa_K864401),722,,,Not Released,BBa_K1468008,It's complicated,Issues,Not Used,iGEM14_Valencia_Biocampus,Pedro Luis Dorado Morales,2014-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1468008,pT7 + gene encoding blue chromoprotein* (BBa_K864401). Codon usage optimized for Pseudomonas,722,,,Not Released,BBa_K1468007,It's complicated,Issues,Not Used,iGEM14_Valencia_Biocampus,Pedro Luis Dorado Morales,2014-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1468009,pT7 + gene encoding yellowchromoprotein (BBa_K592010). ,722,,,Not Released,,It's complicated,Issues,Not Used,iGEM14_Valencia_Biocampus,Pedro Luis Dorado Morales,2014-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1486023,Yeast optimized superfolder GFP,717,,,Not Released,,Not in stock,None,Not Used,iGEM14_EPF_Lausanne,EPFL iGem team 2014,2014-09-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487042,Target sequence for acfA upstream from eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487043,Target sequence for acfB + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487044,Target sequence for acfC + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487045,Target sequence for acfD + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487046,Target sequence for ctxA + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487047,Target sequence for ctxB + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487048,Target sequence for tcpA + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487049,Target sequence for tcpB + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487050,Target sequence for tcpC + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487051,Target sequence for tcpD + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487052,Target sequence for tcpE + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487053,Target sequence for tcpF + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487054,Target sequence for tcpH + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487055,Target sequence for tcpI + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487056,Target sequence for tcpJ + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487057,Target sequence for tcpP + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487058,Target sequence for tcpQ + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487059,Target sequence for tcpR + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487060,Target sequence for tcpS + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487061,Target sequence for tcpT + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1487062,Target sequence for toxT + RBS + eYFP,764,,,Not Released,,Not in stock,,1 Uses,iGEM14_UT-Dallas,Samantha Bermudez,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1506000,Superfolder GFP with only rare codons,780,,,Not Released,,Not in stock,None,Not Used,iGEM14_Penn_State,"Clay Swackhamer, Sam Krug, Ashlee Smith, Emily Sileo",2014-08-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1506001,Superfolder GFP with only common codons,780,,,Not Released,,Not in stock,None,Not Used,iGEM14_Penn_State,"Clay Swackhamer, Sam Krug, Ashlee Smith, Emily Sileo",2014-08-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1524101,Ptet-B0034-GFP-dT,939,,,Not Released,,It's complicated,None,Not Used,iGEM14_HokkaidoU_Japan,Hana SHIMOYAMA,2014-10-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1524102,Ptet-B0032-mRFP-dT,927,,,Not Released,,It's complicated,None,Not Used,iGEM14_HokkaidoU_Japan,Hana SHIMOYAMA,2014-10-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1529000,YdeD,4,,,Not Released,,Not in stock,None,1 Uses,iGEM14_Tokyo_Tech,Riku Shinohara,2014-09-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1529010,yfiK,10,,,Not Released,,Not in stock,None,1 Uses,iGEM14_Tokyo_Tech,Riku Shinohara,2014-09-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1529787,abe, ,,,Not Released,,No part sequence,,No Sequence,iGEM14_Tokyo_Tech,Gyomon Ryu,2014-08-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1541009,sfGFP under promoter P(Rhl) with riboregulator RR12,1070,,,Not Released,,It's complicated,None,Not Used,iGEM14_ETH_Zurich,Daniel Gerngross,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1541011,sfGFP under promoter P(Rhl) with riboregulator RR12,1070,,,Not Released,,It's complicated,None,Not Used,iGEM14_ETH_Zurich,Daniel Gerngross,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1541012,test,9,,,Not Released,,It's complicated,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1541013,test,9,,,Not Released,,It's complicated,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-06,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1541021,test,1071,,,Not Released,,It's complicated,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1541022,test,1070,,,Not Released,,It's complicated,None,Not Used,iGEM14_ETH_Zurich,ETH Zurich 2014,2014-10-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1555002,The cueo promoter with a gfp reporter,989,,,Not Released,,It's complicated,Works,Not Used,iGEM14_NJAU_China,Xu Xuan,2014-09-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1555009,GFP+copa+T7polymerase,3790,,,Not Released,,Not in stock,,Not Used,iGEM14_NJAU_China,Xu Xuan,2014-10-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1606029,Gluten Updated m-cherry reporter gene,718,,,Not Released,,Not in stock,None,3 Uses,iGEM15_METU_Turkey,Dorukcan Özköse,2015-08-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1624004,sfGFP,744,,,Not Released,,Not in stock,,Not Used,iGEM15_LASATX,Andrew Ellington,2015-09-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1634001,Pmyo2-dsRed (C.elegans),1378,,,Not Released,,Not in stock,,Not Used,iGEM15_China_Tongji,Xinhong Chen,2015-09-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1634006,dsRed ( a reporter which is a red fluorescent protein),678,,,Not Released,,Not in stock,,1 Uses,iGEM15_China_Tongji,Xinhong Chen,2015-09-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1638008,linker-GFP without BamHI restriction site,881,,,Not Released,,Not in stock,None,2 Uses,iGEM15_SDU-Denmark,Jens Sivkær Pettersen,2015-05-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1639009,LacI regulated DsRed with miR 26a and miR 375 binding sites,882,,,Not Released,,Not in stock,,Not Used,iGEM15_ATOMS-Turkiye,Nurgeldi Bazarov,2015-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1639021,PsicA-mRFP Reporter system,965,,,Not Released,,Not in stock,,Not Used,iGEM15_ATOMS-Turkiye,Berke Kahraman,2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1639023,GFP with an ASV degradation tag with a half-life of ~110 min,859,,,Not Released,,Not in stock,Works,1 Uses,iGEM15_ATOMS-Turkiye,Nurgeldi Bazarov,2015-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1641030,"Reporter of Invertase activity of Vika, pInv-rep-101VoxM", ,,,Not Released,,No part sequence,,No Sequence,iGEM15_SYSU_CHINA,Pai Li,2015-09-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1641034,"Reporter of Invertase activity of Cre, pInv-rep-101LoxPS", ,,,Not Released,,No part sequence,,No Sequence,iGEM15_SYSU_CHINA,Pai Li,2015-09-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K165055,LexA activable reporter ,2153,,,Not Released,,It's complicated,,Not Used,iGEM08_BrownTwo,John Szymanski,2008-10-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K165056,Zif268-HIV repressor reporter ,2459,,,Not Released,BBa_K165073,It's complicated,,Not Used,iGEM08_BrownTwo,John Szymanski,2008-10-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1655001,This GFP can be fused into any protein's aminoterminal end with the BioBrick enzyme assembly method.,714,,,Not Released,BBa_K1051003;BBa_K1319040;BBa_K1582032,In stock,,No Results,iGEM15_Aalto-Helsinki,Annakarin Korppoo,2015-09-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1670001,3OC6-HSL receiver device ,843,,,Not Released,,It's complicated,,Not Used,iGEM15_Manchester-Graz,Christoph Schilling,2015-08-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1670003,aidA-Promoter + mRFP,909,,,Not Released,,It's complicated,,Not Used,iGEM15_Manchester-Graz,Christoph Schilling,2015-08-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1684000,spisPinkK12 ,678,,,Not Released,,Not in stock,,2 Uses,iGEM15_BIOSINT_Mexico,Juan José Quispe Haro ,2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1684001,amilGFPK12,699,,,Not Released,,Not in stock,,2 Uses,iGEM15_BIOSINT_Mexico,Juan José Quispe Haro ,2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1690006,pADH1_GFP (Yeast reporter),1474,,,Not Released,,Not in stock,None,Not Used,iGEM15_Czech_Republic,"Hynek Kasl, Tereza Puchrova",2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1690007,pasCYC1v3_GFP (Yeast reporter),1366,,,Not Released,,Not in stock,None,Not Used,iGEM15_Czech_Republic,"Hynek Kasl, Tereza Puchrova",2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1690008,pTv3_GFP (Yeast reporter),1255,,,Not Released,,Not in stock,None,Not Used,iGEM15_Czech_Republic,"Hynek Kasl, Tereza Puchrova",2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1696005,P170 Promoter,418,,,Not Released,,Not in stock,,Not Used,iGEM15_TJU,Yue Liu,2015-09-11,Spring 2017 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1700000,Use toehold to regulate GFP ,820,,,,,,,,,,,,
+BBa_K1713020,dBroccoli,92,,,Not Released,,Not in stock,Works,1 Uses,iGEM15_HZAU-China,Zhu qi,2015-09-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1734006,6xHis-T2A-Nanoluc,599,,,Not Released,,Not in stock,None,Not Used,iGEM15_Tec-Monterrey,Eduardo Ramírez Montiel,2015-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1742006,BxBI Reporter (attB:T35S:attP:OmegaUTR),397,,,Not Released,,Not in stock,None,Not Used,iGEM15_Valencia_UPV,Iván Casas Rodrigo,2015-09-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1742008,PhiC31 Reporter attP:T35S:attB:omegaUTR,412,,,Not Released,,Not in stock,None,Not Used,iGEM15_Valencia_UPV,Ruben Escriba Piera,2015-09-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1750000,loxP-flanked RFP upstream from NPTII,1767,,,Not Released,,Not in stock,,Not Used,iGEM15_ANU-Canberra,Janelle San Juan,2015-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1750001,YFP fused to CIB1 N-terminal domain,1254,,,Not Released,,Not in stock,,Not Used,iGEM15_ANU-Canberra,Janelle San Juan,2015-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1758101,Translation enhancing 5-UTR + sfGFP,904,,,Not Released,,Not in stock,Works,1 Uses,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1758300,sfGFP controlled by T7 promoter and arsenic operator,1006,,,Not Released,,Not in stock,None,Not Used,iGEM15_Bielefeld-CeBiTec,Team Bielefeld-CeBiTec 2015,2015-08-22,Spring 2017 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K1768000,GFP with RBS Reverse Compliment ,746,,,Not Released,,Not in stock,,Not Used,iGEM15_Pretoria_UP,Gert Pietersen,2015-09-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1797010,Kana cassette flanked by loxP site,1245,,,Not Released,,Not in stock,None,Not Used,iGEM15_Tsinghua,iGEM15_Tsinghua,2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1820004,sfGFP(Bs),717,,,Not Released,BBa_K1365020,In stock,None,1 Uses,iGEM15_Utah_State,Alex Torgesen,2015-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1820005,mCherry(Lr),711,,,Not Released,BBa_K1033250,In stock,None,Experience: None,iGEM15_Utah_State,Alex Torgesen,2015-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1833003,pProt-GFP,889,,,Not Released,,Not in stock,,Not Used,iGEM15_Pitt,Konstantin Borisov,2015-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1833007,p3H-mRFP1,936,,,Not Released,,Not in stock,,Not Used,iGEM15_Pitt,Konstantin Borisov,2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1840004,mCherry for Pseudomonas,714,,,Not Released,,Not in stock,,4 Uses,iGEM15_NTNU_Trondheim,Julia Anna Adrian,2015-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1856000,bacA-citrine-T7 terminator,1126,,,Not Released,,Not in stock,None,Not Used,iGEM15_Yale,"Erin Wang, Jessica Tantivit, Holly Zhou, Lionel Jin",2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1856001,melA-citrine,1143,,,Not Released,,Not in stock,,Not Used,iGEM15_Yale,Erin Wang,2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1856002,Anderson Weak-citrine,919,,,Not Released,,Not in stock,,Not Used,iGEM15_Yale,Erin Wang,2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1856003,Anderson Medium-citrine,1013,,,Not Released,,Not in stock,,Not Used,iGEM15_Yale,Erin Wang,2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1856004,Anderson Strong-citrine,1018,,,Not Released,,Not in stock,,Not Used,iGEM15_Yale,Erin Wang,2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1856005,lac-citrine,2162,,,Not Released,,Not in stock,None,Not Used,iGEM15_Yale,"Lionel Jin, Jessica Tantivit, Holly Zhou, Erin Wang",2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1856006,tac-citrine,797,,,Not Released,,Not in stock,,Not Used,iGEM15_Yale,Erin Wang,2015-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1861302,eYFP,765,,,Not Released,,Not in stock,None,1 Uses,iGEM15_FAU_Erlangen,Vladyslav Vyshnevskyi,2015-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K187018,"GFP in pAB, BioBytes plasmid",743,,,Not Released,BBa_K187023,It's complicated,None,Not Used,iGEM09_Alberta,Team BioBytes,2009-10-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K187019,"RFP in pAB, Biobytes plasmid",704,,,Not Released,BBa_K187024,It's complicated,None,Not Used,iGEM09_Alberta,Team Biobytes,2009-10-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K187023," GFP in pBA, BioBytes plasmid ",743,,,Not Released,BBa_K187018,It's complicated,None,Not Used,iGEM09_Alberta,Team Biobytes,2009-10-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K187024," RFP in pBA, Biobytes plasmid ",704,,,Not Released,BBa_K187019,It's complicated,None,Not Used,iGEM09_Alberta,Team BioBytes,2009-10-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1875003,This part contains a GFP reporter,720,,,Not Released,BBa_S03452;BBa_K1071009;BBa_K1778005;BBa_K1993017,It's complicated,None,-1 Uses,iGEM16_BostonU,Jeffrey Marano,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1878000,iRFP670,936,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Rice,Margaret Lie,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1878001,"iRFP713 (the fluorescent protein formerly known as ""iRFP"")",951,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Rice,John Luke Garcia,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1891006,C-Luciferase+alpha-tubulin,1857,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BNU-China,Zhao Jingyu,2016-10-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1891007,alpha-tubulin+YNE,1866,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BNU-China,Zhao Jingyu,2016-10-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1891008,alpha-tubulin+YCE,1650,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BNU-China,Zhao Jingyu,2016-10-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1891009,YNE+alpha-tubulin,1866,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BNU-China,Zhao Jingyu,2016-10-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1891010,YCE+alpha-tubulin,1650,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BNU-China,Zhao Jingyu,2016-10-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1891011,beta-tubulin+YCE,1629,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BNU-China,Zhao Jingyu,2016-10-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1891012,YCE+beta-tubulin,1629,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BNU-China,Zhao Jingyu,2016-10-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1891013,beta-tubulin-C- Luciferase,1919,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BNU-China,Zhao Jingyu,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1899003,Superfolder GFP ,854,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Hong_Kong_HKUST,iGEM2016_HKUST,2016-08-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1913020,mRFP with degradation tag,756,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Wageningen_UR,Tianhe Wang,2016-10-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1913021,sfGFP with degradation tag,774,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Wageningen_UR,Tianhe Wang,2016-10-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1922008,Green fluorescent protein,717,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Tongji_Shanghai,WANG HONGNING,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1922010,luciferase,993,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Tongji_Shanghai,WANG HONGNING,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1929202,6His tag,18,,,Not Released,BBa_M0021;BBa_K1362457;BBa_K1904006,Not in stock,None,-1 Uses,iGEM16_McMasterU,Maxwell Ng,2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1930006,sfGFP(Sp) ,723,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Groningen,Barbora Waclawikova,2016-10-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943013,Puro,597,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943014,Bleo,369,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943015,Bla,402,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943016,Bla+T2A,456,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943017,Puro+T2A,651,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943018,T2A+Bleo,429,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943019,TetOn,1774,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943020,R-GECO,1257,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943021,TRPC5,2928,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943022,TRPC5-7,2929,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943023,TRPC5-12,2929,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943024,TRPC5-15,2929,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1943025,TRPC5-18,2929,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SUSTech_Shenzhen,"Shixin Lu, Shiqiang Tang",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1965031,cycLuc_SbMVs,2329,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Slovenia,Nina Jerala,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1966004,lacPromoter-xylR-PuPromoter-RFP,2936,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UT-Knoxville,Brandon Wilbanks,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1968016,iLOV fluorescent Protein Phytobrick,341,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Edinburgh_OG,Alejandra Adriana Schiavon Osorio,2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1968022,weLOV1 fluorescent protein Phytobrick,341,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Edinburgh_OG,Ricardo Camilo Chávez Martínez,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1968023,weLOV2 Fluorescent protein Phytobrick,341,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Edinburgh_OG,Ricardo Camilo Chávez Martínez,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1969000,Nano-lantern(cAMP-1.6),2103,,,Not Released,,Not in stock,,-1 Uses,iGEM16_SJTU-BioX-Shanghai,Yijie Lai,2016-10-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1975008,Beta-Lactamase,683,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UNIK_Copenhagen,Joachim Steen Larsen,2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1976002,mVenus with a LVA degradation tag,759,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_TU_Darmstadt,"Katharina Geissler, Thomas Wagner, Jannik Schwitte, Marietheres Kleuter, Simon F&uumlrbacher, Patrick M&uumlller",2016-10-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1980005,pCopA sfGFP,810,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Oxford,Sam Garforth,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1980007,pCusC mKate2,824,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Oxford,Sam Garforth,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1980008,pCopA CueR sfGFP/ feedback pCopA sfGFP,1252,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Oxford,Sam Garforth,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1980009,pCusC CusR RFP,1554,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Oxford,Sam Garforth,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199003,RFP with CUAGU Addition,711,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_MoWestern_Davidson,Romina Clemente,2009-06-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199004,Tet Resistance with CUAGU Addition ,1196,,,Not Released,,It's complicated,Works,Not Used,iGEM09_MoWestern_Davidson,Romina Clemente,2009-06-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199005,RFP with CCACU Addition,711,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_MoWestern_Davidson,Shamita Punjabi,2009-06-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199006,Tet Resistance with CCACU Addition,1196,,,Not Released,,It's complicated,Works,Not Used,iGEM09_MoWestern_Davidson,Shamita Punjabi,2009-06-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199009,RFP with CCAUC Addition,711,,,Not Released,,It's complicated,Works,3 Uses,iGEM09_MoWestern_Davidson,Olivia Ho-Shing,2009-06-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199010,Tet Resistance with CCAUC Addition,1196,,,Not Released,,It's complicated,Works,Not Used,iGEM09_MoWestern_Davidson,Olivia Ho-Shing,2009-06-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199011,RFP with CCCUC Addition,711,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_MoWestern_Davidson,Leland Taylor,2009-06-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199012,Tet Resistance with CCCUC Addition ,1196,,,Not Released,,It's complicated,Works,1 Uses,iGEM09_MoWestern_Davidson,Leland Taylor,2009-06-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199015,CAT with CUAGC Addition,665,,,Not Released,,It's complicated,None,Not Used,iGEM09_MoWestern_Davidson,Clifton Davis,2009-07-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199033,CAT with CUAGC Addition,665,,,Not Released,,It's complicated,None,Not Used,iGEM09_MoWestern_Davidson,Clifton Davis,2009-07-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199034,RFP with CGGUC Addition,711,,,Not Released,,It's complicated,Works,2 Uses,iGEM09_MoWestern_Davidson,Alyndria Thompson,2009-07-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199035,Tet Resistance with CGGUC Addition,1196,,,Not Released,,It's complicated,Works,Not Used,iGEM09_MoWestern_Davidson,Alyndria Thompson,2009-07-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199074,RBS RFP with AGGAC Addition ,729,,,Not Released,,It's complicated,,Not Used,iGEM09_MoWestern_Davidson,Clifton Davis,2009-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199075,RBS RFP with CUACC Addition ,729,,,Not Released,,It's complicated,,1 Uses,iGEM09_MoWestern_Davidson,Clifton Davis,2009-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199076,RBS RFP with CUACU Addition,729,,,Not Released,,It's complicated,,1 Uses,iGEM09_MoWestern_Davidson,Clifton Davis,2009-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199077,RBS RFP with CUAGC Addition,729,,,Not Released,,It's complicated,,1 Uses,iGEM09_MoWestern_Davidson,Clifton Davis,2009-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199078,RBS RFP with CCAAU Addition,729,,,Not Released,,It's complicated,,1 Uses,iGEM09_MoWestern_Davidson,Clifton Davis,2009-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199079,RBS RFP with CCACC Addition,729,,,Not Released,,It's complicated,,2 Uses,iGEM09_MoWestern_Davidson,Clifton Davis,2009-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K199197,RFP - ATG,678,,,Not Released,BBa_I716015;BBa_K257008;BBa_J100051,It's complicated,,1 Uses,iGEM09_MoWestern_Davidson,Mary Gearing,2010-12-12,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1993015,Luciferase (Renilla reniformis),936,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SYSU-MEDICINE,Su Xiaojun,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1993017,eGFP,720,,,Not Released,BBa_S03452;BBa_K1071009;BBa_K1778005;BBa_K1875003,It's complicated,None,-1 Uses,iGEM16_SYSU-MEDICINE,Su Xiaojun,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1993018,Luciferase(Firefly Luciferase),1650,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SYSU-MEDICINE,Su Xiaojun,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1993020,dTomato,702,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SYSU-MEDICINE,Su Xiaojun,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1993021,hFTH,552,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_SYSU-MEDICINE,Su Xiaojun,2016-10-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1994003,Superfolder GFP,723,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Warwick,Liam Carroll,2016-09-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1997004,sGFP-N->Zif268->sGFP-C,1062,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_NUDT_CHINA,Xinyuan Qiu,2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1997005,sHRP-N->FRB->RBS->FKBP-> sHRP-C,1653,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_NUDT_CHINA,Xinyuan Qiu,2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K1997014,GFP10->Zif268->GFP11->RBS->GFP1-9,1122,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_NUDT_CHINA,Xinyuan Qiu,2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2004004,spisPink: Pink chromoprotein optimized for E.coli  ,672,,,Not Released,,Not in stock,,-1 Uses,iGEM16_BIOSINT_Mexico,Marco V. Lincango Y.,2016-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2005001,"LacZ-alpha, UV-resistant",233,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Vanderbilt,Jarrod Shilts,2016-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2005002,"LacZ-alpha, UV-maximized",234,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Vanderbilt,Jarrod Shilts,2016-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2005003,"LacZ-alpha, oxidation-resistant",234,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Vanderbilt,Jarrod Shilts,2016-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2005004,"LacZ-alpha, oxidation-maximized",234,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Vanderbilt,Jarrod Shilts,2016-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2005050,mCherry (oxidation-resistant),714,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Vanderbilt,Jarrod Shilts,2016-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2005060,GFP (UV-resistant),720,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Vanderbilt,Jarrod Shilts,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2009363,PGAL+GFP,1189,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_USTC,Chengle Zhang,2016-09-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2017003,SAGTI linker + Luciferase,1667,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Valencia_UPV,Monica Victoria Gutierrez Salazar,2016-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2017004,RSIAT linker + Luciferase,1667,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Valencia_UPV,Monica Victoria Gutierrez Salazar,2016-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2017005,AEK linker + Luciferase,1703,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Valencia_UPV,Monica Victoria Gutierrez Salazar,2016-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2017006,RSIAT-TEV linker + Luciferase,1700,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Valencia_UPV,Monica Victoria Gutierrez Salazar,2016-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2020040,Fluorescent reporter for measurement of incorporation of ncAA,1437,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Aachen,"Andrea Hoeltken, Carolina Bonerath, Vroni Czotscher",2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K203103,GFP; Green Fluorescent protein,703,,,Not Released,,It's complicated,None,Not Used,iGEM09_Heidelberg,Michael Bartoschek,2009-10-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2060001,Fluorescent protein mKeima expressed by Arabinose promotor,824,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Cardiff_Wales,"Cardiff_Wales Team, Geraint Parry",2016-09-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2066509,sfGFP ,720,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,Likhitha Kolla,2016-08-31,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2066511,cI-GFP,1440,,,Not Released,,Not in stock,,-1 Uses,iGEM16_William_and_Mary,Likhitha Kolla,2016-09-01,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2066518,mCherry (with start codon),714,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2070007,Toehold Trigger Inducible GFP generator ,821,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_UT-Tokyo,iGEM UT-Tokyo 2016,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2083009,ATG GFP Reporter,781,,,Not Released,,Not in stock,,-1 Uses,iGEM16_WPI_Worcester,Virginia Massa,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2083010,Mutated Start Codon GFP Reporter,781,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_WPI_Worcester,Virginia Massa,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2083012,Wild Type Human Beta Globin Fused to GFP Reporter,1014,,,Not Released,,Not in stock,,-1 Uses,iGEM16_WPI_Worcester,Virginia Massa,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2088008,"catechol 2,3-dioxygenase gene with native rbs",1021,,,Not Released,,Not in stock,,-1 Uses,iGEM16_NAU-CHINA,Xia Chen,2016-10-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2116036,Pconst_esa(1),98,,,Not Released,BBa_K2116066,Not in stock,None,-1 Uses,iGEM16_ETH_Zurich,Lukas Schmidheini,2016-10-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2116998,Anderson promoter J23118 REV,138,,,Not Released,,Not in stock,,-1 Uses,iGEM16_ETH_Zurich,Lukas Schmidheini,2016-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2121013,AStr_Citrine_T1 ,2126,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Yale,Leslie Wang,2016-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2121014, AMed_Citrine_T1,1716,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Yale,Leslie Wang,2016-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2130003,ZsGreen(GFP) reporter with 2X dCas9-inducible promoter,1406,,,Not Released,,Not in stock,,-1 Uses,iGEM16_NTU-Singapore,Ooi Kean Hean,2016-10-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2130004,Report plasmid with toxin ccdB gene and inducible BAD promoter ,1997,,,Not Released,,Not in stock,,-1 Uses,iGEM16_NTU-Singapore,Ooi Kean Hean,2016-10-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2133000,DC CFP RFP 80,1822,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_BioBricks,Alex Codik,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2136016,Codon optimized mCherry  for Chlamydomonas reinhardtii,711,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_USP_UNIFESP-Brazil,Livia Seno Ferreira Camargo,2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145000,GFP/RFP reporter (Forward/Forward) with random 500bp spacer,2514,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Laura Xinyu Chen, Melody Wu, Katie Maruna",2016-10-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145001,GFP/RFP reporter (Reverse/Forward) with random 500bp spacer,2562,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Melody Wu, Laura Xinyu Chen, Katie Maruna",2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145100,GFP/RFP reporter (Forward/Forward) separated by three dCas clamp sites,2352,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Samuel Clamons, Katie Maruna, Laura Chen, Melody Wu",2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145101,GFP/RFP reporter (Reverse/Forward) separated by three dCas clamp sites,2352,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Samuel Clamons, Katie Maruna, Laura Chen, Melody Wu",2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145102,GFP/RFP reporter (Forward/Reverse) separated by three dCas clamp sites,2352,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Samuel Clamons, Katie Maruna, Laura Chen, Melody Wu",2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145103,GFP/RFP reporter (Reverse/Reverse) separated by three dCas clamp sites,2352,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Samuel Clamons, Katie Maruna, Laura Chen, Melody Wu",2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145104,	GFP/RFP reporter (Forward/Reverse) with random 500bp spacer,2602,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Laura Xinyu Chen, Melody Wu, Katie Maruna",2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145105,GFP/RFP reporter (Reverse/Reverse) with random 500bp spacer,2602,,,Not Released,BBa_K2145123,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Laura Xinyu Chen, Katie Maruna, Melody Wu",2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145107,GFP/RFP reporter (Reverse/Forward) with random 500bp spacer,2602,,,Not Released,BBa_K2145125,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Laura Xinyu Chen, Melody Wu",2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145124, GFP/RFP reporter (Forward/Reverse) with random 500bp spacer,2602,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Katie Maruna, Laura Chen, Melody Wu",2016-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145126,GFP/RFP reporter (Forward/Reverse) with random 500bp spacer,2602,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Katie Maruna, Laura Chen, Melody Wu",2016-10-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2145127,GFP/RFP reporter (Reverse/Reverse) with random 500bp spacer,2602,,,Not Released,,Not in stock,Issues,-1 Uses,iGEM16_Alverno_CA,"Katie Maruna, Laura Chen, Melody Wu",2016-10-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K217000,cmv_tat_GFP,857,,,Not Released,,It's complicated,None,Not Used,iGEM09_Purdue,Jessamine Osborne,2009-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2176000,yeGFP Reporter for LexA,1895,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UChicago,Miranda Halle,2016-07-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2176003,yeGFP Reporter for LexA,1872,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UChicago,Miranda Halle,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2180019,Blue Pigment for B. subtilis, ,,,Not Released,,No part sequence,None,-1 Uses,iGEM16_IMPACT,Wilhelm Vaysse-Zinkhöfer,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K2180020,Blue pigment adaptated with B. subtilis code codon with LVA tail, ,,,Not Released,,No part sequence,None,-1 Uses,iGEM16_IMPACT,Wilhelm Vaysse-Zinkhöfer,2016-10-14,,pgroup=Reporter_Coding&show=1.csv
+BBa_K222000,Aequorin,591,,,Not Released,,It's complicated,Works,Not Used,iGEM09_Valencia,Cristina Vilanova,2009-10-20,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K226801,An example reporter, ,,,Not Released,,No part sequence,,No Sequence,iGEM09_CityColSanFrancisco,Dirk VandePol,2009-05-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K234091,"GFP, Silver standard",709,,,Not Released,,Not in stock,,1 Uses,iGEM09_uOttawa,Daniel Jedrysiak,2009-07-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K247000,monomeric RFP: Red Fluorescent Protein.,681,,,Not Released,,Not in stock,None,1 Uses,iGEM09_Chiba,Kaoru Yamamoto,2009-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K249006,Fusion EYFP with C-terminal Arginine Tag,756,,,Not Released,,In stock,,6 Uses,iGEM09_Lethbridge,Roxanne Shank,2009-08-26,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K249007,CFP with C-terminal Arganine Fusion Tag,756,,,Not Released,BBa_K331002,In stock,,4 Uses,iGEM09_Lethbridge,Roxanne Shank,2009-08-26,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K249008,YFP with N-terminal Arganine Tag,762,,,Not Released,,It's complicated,,6 Uses,iGEM09_Lethbridge,Roxanne Shank,2009-08-26,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K249009,CFP with N-terminal Arganine Fusion Tag,762,,,Not Released,BBa_K331001,It's complicated,,4 Uses,iGEM09_Lethbridge,Roxanne Shank,2009-08-26,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K257008,RFP_Fusion_NTerm,678,,,Not Released,BBa_I716015;BBa_K199197;BBa_J100051,It's complicated,Works,Not Used,iGEM09_Paris,Soufiane Boumahdi,2009-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K257009,RFP_fusion_CTerm,688,,,Not Released,,It's complicated,None,Not Used,iGEM09_Paris,Vicard DU,2009-09-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K257023,fec promoter + RFP,3044,,,Not Released,,It's complicated,Works,Not Used,iGEM09_Paris,Romain Bodinier,2009-10-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K260017,P_F3_ZeoR_F3_RFP.   [FLP]->RFP,1309,,,Not Released,,It's complicated,None,Not Used,iGEM09_BIOTEC_Dresden,Kaj Bernhardt,2009-10-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K266013,luxA,1068,,,Not Released,,Not in stock,,Not Used,iGEM09_IPN-UNAM-Mexico,Daniel Isui Aguilar Salvador,2010-03-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K268016,YGR035C->GFP,2509,,,Not Released,,Not in stock,None,Not Used,iGEM09_UChicago,Nora Yucel,2009-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K271000,Aryl acylamidase,1798,,,Not Released,,It's complicated,Works,Not Used,iGEM09_KU_Seoul,Hanseong Roh,2009-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K274001,melanin pigment,1844,,,Not Released,,Not in stock,None,Not Used,iGEM09_Cambridge,Shuna Gould,2009-08-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K274002,Vio operon,7345,,,Not Released,,It's complicated,Works,1 Uses,iGEM09_Cambridge,Shuna Gould,2009-10-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_K294902,test,846,,,Not Released,BBa_K294125,Not in stock,Works,1 Uses,iGEM09_Example,Kazuaki Amikura,2010-10-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_K309005,mCherry (for use in C. elegans chassis),720,,,Not Released,,It's complicated,None,1 Uses,iGEM10_Queens-Canada,Thai Phi,2010-10-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K309016,eGFP (for use in C. elegans chassis),879,,,Not Released,,It's complicated,,1 Uses,iGEM10_Queens-Canada,Thai Phi,2010-10-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K309018,eYFP (for use in C. elegans chassis),730,,,Not Released,,It's complicated,,2 Uses,iGEM10_Queens-Canada,Thai Phi,2010-10-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K309020,eCFP (for use in C. elegans chassis),729,,,Not Released,,It's complicated,,13 Uses,iGEM10_Queens-Canada,Thai Phi,2010-10-22,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K313003,terminator(reverse direction) and gfp (reverse direction) ,857,,,Not Released,,It's complicated,Works,3 Uses,iGEM10_UT-Tokyo,"Ryosuke Kamei, Asahito Kaneko, Kosuke Uekusa, Ryo Kariyazono",2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K316011,Reverse strand coding XylE,924,,,Not Released,,Not in stock,None,1 Uses,iGEM10_Imperial_College_London,IC 2010 Team,2010-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K319045,linker+yeGFP,744,,,Not Released,,Not in stock,,3 Uses,iGEM10_uOttawa,Afnan Azizi,2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K319047,yDsRed FP,675,,,Not Released,,Not in stock,None,1 Uses,iGEM10_uOttawa,Afnan Azizi,2010-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K320005,Constitutive expression of CFP,168,,,Not Released,,It's complicated,Works,Not Used,iGEM10_EPF_Lausanne,Perrudet Christian,2010-10-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K323000,CMV ATG mCitrine stop,1391,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K323035,pT7 mCerulean T7 terminator, ,,,Not Released,,No part sequence,Works,No Sequence,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K323036,pT7 mCerulean T7T pT7 mCitrine T7T , ,,,Not Released,,No part sequence,None,No Sequence,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K323046,pT7 mCitrine T7 terminator, ,,,Not Released,,No part sequence,Works,No Sequence,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K323059,CFP link YFP under T7 promotor - exhibits FRET, ,,,Not Released,,No part sequence,Works,No Sequence,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K323133,pBAD_lacZ_DTER,4447,,,Not Released,,It's complicated,None,Not Used,iGEM10_Slovenia,Tina Lebar,2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K323145,CMV ATG mCitrine stop term,1635,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Slovenia,Jernej Turnek,2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K330002,gusA reporter gene,1812,,,Not Released,,It's complicated,Works,Not Used,iGEM10_HKUST,"LI Zhuo, JIANG Hanlun and LU Wei",2010-10-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K331001,ECFP with N-terminal Arginine Tag,762,,,Not Released,BBa_K249009,It's complicated,None,3 Uses,iGEM10_Lethbridge,Lisza Bruder,2010-06-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K331002,ECFP with C-terminal Arginine Tag,756,,,Not Released,BBa_K249007,In stock,None,3 Uses,iGEM10_Lethbridge,Lisza Bruder,2010-06-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K334001,ADH Promoter with GFP Reporter,1770,,,Not Released,,It's complicated,,Not Used,iGEM10_Purdue,Sean Kearney,2010-10-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K334002,ODD with Luciferase,1827,,,Not Released,,It's complicated,,Not Used,iGEM10_Purdue,Sean Kearney,2010-10-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K337015,Luc2_SV40terminator,1949,,,Not Released,BBa_K337030,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K337030,Luc2_SV40 (microRNA binding site compatible),1949,,,Not Released,BBa_K337015,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K339015,RFP folds in both periplasm and cytoplasm,804,,,Not Released,,Not in stock,,Not Used,iGEM10_Calgary,Jeremy Choo,2010-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K341002,promoter+tet-SDS,1373,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Tsinghua,Sheng WANG,2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K354002,Venus - Fluorescent Reporter Protein,742,,,Not Released,,It's complicated,,Not Used,iGEM10_WITS-South_Africa,Gregory Meyer,2010-10-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K374012,FACS optimized GFP,714,,,Not Released,,Not in stock,None,1 Uses,iGEM10_DTU-Denmark,"Patrick Fortuna, Thomas Trolle, Anastasiya S. Haugaard, Martin Malthe Borch, Juliet Frederiksen",2010-10-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K389004,Luciferase from pGL4.10[luc2],1656,,,Not Released,,It's complicated,Works,8 Uses,iGEM10_Bielefeld-Germany,Jonas Aretz,2010-08-10,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K395109,GFP reporter activated by LasR and 3OC12HSL (K395020:K121013), ,,,Not Released,,No part sequence,,No Sequence,iGEM10_Tokyo_Tech,Shohei Kitano,2010-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K400628,mAAA (EcoRI site mutated Aryl Acyl-Amidase),1494,,,Not Released,,It's complicated,,Not Used,iGEM10_Korea_U_Seoul,Seobeom Heo,2010-10-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K414001,Strong Plant RBS (Kozak sequence) + GFP from E0040,738,,,Not Released,,It's complicated,,1 Uses,iGEM10_Nevada,Elaine Bersaba,2010-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K414003,Strong Plant RBS (Kozak sequence) + mCherry from J06504,732,,,Not Released,,It's complicated,,Not Used,iGEM10_Nevada,Matthew Polasko,2010-09-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K414004,Strong Plant RBS (Kozak sequence) + EYFP from E0030,741,,,Not Released,,It's complicated,,Not Used,iGEM10_Nevada,Matthew Polasko,2010-09-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K422014,mCyPet (AarI A-part),754,,,Not Released,,It's complicated,None,Not Used,iGEM10_ETHZ_Basel,Katharina Zwicky,2010-10-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K494000,Malachite Green Binding Aptamer,38,,,Not Released,,It's complicated,None,Not Used,iGEM10_TU_Munich,"Haissi Cui, Tilman Flock, Sebastian Gude, Christoph Hartlmüller, Florian Praetorius, Jan Schüürmann, Tobi Wauer, Philipp Wortmann",2010-10-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K496004,"Reporter of Salmonella secretion signal with NLS, GFP, etc",2730,,,Not Released,,It's complicated,None,Not Used,iGEM10_HokkaidoU_Japan,Shunichi MAKINO,2010-10-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K509005,GLuc,570,,,Not Released,,Not in stock,None,Not Used,iGEM11_UEA-JIC_Norwich,Ben Jevans,2011-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K511100,EBFP2 MammoBlock,720,,,Not Released,,It's complicated,Works,4 Uses,iGEM11_MIT,Grant Robinson,2011-09-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K511101,EYFP-FF4x4 MammoBlock ,819,,,Not Released,,It's complicated,Works,4 Uses,iGEM11_MIT,Grant Robinson,2011-09-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K511102,mKate MammoBlock,714,,,Not Released,,It's complicated,Works,6 Uses,iGEM11_MIT,Grant Robinson,2011-09-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K511103,amCyan-miRFF4 MammoBlock			,1066,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_MIT,Grant Robinson,2011-09-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K524002,pLac + RBS+ split sfGFP11 + double terminator,443,,,Not Released,,It's complicated,None,Not Used,iGEM11_HKUST,Trevor Y. H. Ho,2011-09-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K544021,dKeima-Red,669,,,Not Released,,It's complicated,,Not Used,iGEM11_HKU,Leung Man Hong,2011-09-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K549011,LuxCDE,3083,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K555000,AcGFP-LVA,756,,,Not Released,,It's complicated,,Not Used,iGEM11_Virginia_Tech,Meghan Savage,2011-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K555001,GFPmut3b E0040-PEST,1249,,,Not Released,,It's complicated,,Not Used,iGEM11_Virginia_Tech,Meghan Savage,2011-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K555002,AcGFP-PEST,1252,,,Not Released,,It's complicated,,Not Used,iGEM11_Virginia_Tech,Meghan Savage,2011-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K555003,ECFP E0020-PEST.,1252,,,Not Released,,It's complicated,,Not Used,iGEM11_Virginia_Tech,Meghan Savage,2011-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K555004,mCherry(E2060)-PEST,1273,,,Not Released,,It's complicated,,Not Used,iGEM11_Virginia_Tech,Meghan Savage,2011-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K555005,mCherry(Tsien)-PEST,1243,,,Not Released,,It's complicated,None,Not Used,iGEM11_Virginia_Tech,Meghan Savage,2011-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K555006,mCitrine-PEST,1252,,,Not Released,,It's complicated,,Not Used,iGEM11_Virginia_Tech,Meghan Savage,2011-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K555007,mCitrine ,720,,,Not Released,BBa_K2121016,It's complicated,,Not Used,iGEM11_Virginia_Tech,Meghan Savage,2011-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K555008,AcGFP,720,,,Not Released,,It's complicated,,Not Used,iGEM11_Virginia_Tech,Meghan Savage,2011-08-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K563040,MCS+EGFP+CYC1 TT,1000,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tianjin,Bin Jia,2011-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K563041,MCS+ERFP+CYC1 TT,1006,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tianjin,Bin Jia,2011-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K563043,MCS+EYFP+CYC1 TT,1015,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tianjin,Bin Jia,2011-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K563045,"pYE MSC+Orange Firefly Luciferase+CYC1 TT , derived from  BBa_K325211 ",1912,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tianjin,Bin Jia,2011-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K563046,"pYE MCS+EPCI Firefly Luciferase+CYC1 TT, derived from  BBa_K325101",1917,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tianjin,Bin Jia,2011-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K563047,MCS+EOFP+CYC1 TT,1006,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tianjin,Bin Jia,2011-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K563048,MCS+LacZ+CYC1 TT,3337,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Tianjin,Bin Jia,2011-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K566003,CFP optimized for E. coli,762,,,Not Released,,Not in stock,None,1 Uses,iGEM11_UANL_Mty-Mexico,Daniel Rodriguez,2011-09-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K566013,RFP optimized for E. coli (+LVA),723,,,Not Released,,Not in stock,None,1 Uses,iGEM11_UANL_Mty-Mexico,Daniel Rodriguez,2011-09-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567003,Pbla-Luc-TAG,1942,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Yunfeng Ruan and Chunying Li,2011-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567004,Pbla-Luc-2AGG,1945,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Chunying Li and Yunfeng Ruan,2011-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567005,Pbla-Luc-4AGG,1958,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Chunying Li and Yunfeng Ruan,2011-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567006,Pbla-Luc-6AGG,1963,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Chunying Li and Yunfeng Ruan,2011-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567007,Pbla-Luc-8AGG,1970,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Chunying Li and Yunfeng Ruan,2011-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567009,PT7-Luc-4AGG,1762,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Yunfeng Ruan and Chunying Li,2011-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567010,PT7-Luc-8AGG,1774,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Yunfeng Ruan and Chunying Li,2011-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567017,PT7-RFP-6AGG,991,,,Not Released,,It's complicated,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Bin Zhao,2011-09-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567019,PT7-Luc-6AGG,1768,,,Not Released,,Not in stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Yunfeng Ruan and Chunying Li,2011-09-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567020,KanR,816,,,Not Released,,Not in stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,Zhang Kaisi,2011-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567021,PT7-Luc-2x4AGG(111bp),1885,,,Not Released,,Not in stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,You Wang,2011-10-05,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567026,PT7-Luc-2x4AGG(30bp),1798,,,Not Released,,Not in stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,You Wang,2011-10-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K567027,PT7-Luc-3x4AGG(30bp+111bp),1936,,,Not Released,,Not in stock,Works,Not Used,iGEM11_SJTU-BioX-Shanghai,You Wang,2011-10-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K576013,J23101-RBS-GFP-Transcription Terminator,921,,,Not Released,,Not in stock,None,Not Used,iGEM11_Waterloo,Joon Hyuk Hong,2011-06-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K581019,rhl repressible promoter-gfp-ssrA degradation tag,815,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Peking_Signaling,Dingqiao Wen,2011-09-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K612003,Hygromycin B ,2200,,,Not Released,,Not in stock,,Not Used,iGEM11_Alberta,Michael Simpson,2011-09-28,,pgroup=Reporter_Coding&show=1.csv
+BBa_K619896,Pcon lox gent double terminator lox,1308,,,Not Released,,It's complicated,None,Not Used,iGEM11_BYU_Provo,Julianne Grose,2011-09-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K634005,TagRFP,750,,,Not Released,,It's complicated,,5 Uses,iGEM11_Wisconsin-Madison,Kenneth O. Xu,2011-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K660000,LOV2 Domain,359,,,Not Released,,It's complicated,None,Not Used,iGEM11_GlasgowUni,Glasgow Uni 2011,2011-09-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678006,eGFP for mammalian cells,735,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-04,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678007,eGFP+K GOI,732,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678008,eGFP-TS,736,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678009,eYFP-module,813,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678010,eYFP-GOI,810,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678011,eYFP-TS,814,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678013,mCherry-GOI,723,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678014,mCherry-TS,727,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678015,eCFP-module,813,,,Not Released,,It's complicated,Works,Not Used,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678016,eCFP-TS,814,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678017,eGFP-PTS-module,744,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678020,mCherry-module,726,,,Not Released,,It's complicated,Works,2 Uses,iGEM11_DTU-Denmark-2,DTU-Danmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678026,LacZ for Plug,3083,,,Not Released,,It's complicated,Works,2 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-07,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678027,GFP for Aspergillus nidulans,728,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678028,GFP-GOI,725,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678029,GFP-TS for Aspergillus nidulans,729,,,Not Released,,It's complicated,None,2 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678030,mRFP1-module,686,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678031,mRFP1-GOI,683,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678032,mRFP1-TS,687,,,Not Released,,It's complicated,None,3 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-09,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678033,GFP-PTS1,737,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-11,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678034,"mRFP1-NLS, targeted to the nucleus",707,,,Not Released,,It's complicated,Works,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-10,,pgroup=Reporter_Coding&show=1.csv
+BBa_K678048,eCFP-GOI,810,,,Not Released,,It's complicated,None,1 Uses,iGEM11_DTU-Denmark-2,DTU-Denmark-2,2011-09-13,,pgroup=Reporter_Coding&show=1.csv
+BBa_K734002,Spinach Aptamer with Stabilizing tRNA Scaffold,145,,,Not Released,,Not in stock,Works,2 Uses,iGEM12_Austin_Texas,Logan Bachman,2012-08-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K736001,TAT signal sequence fused to red fluorescent protein (E1010),720,,,Not Released,,It's complicated,None,1 Uses,iGEM12_Lethbridge_Canada,Lethbridge iGEM High School Team,2012-06-16,,pgroup=Reporter_Coding&show=1.csv
+BBa_K740002,ecfp in a reverse direction,878,,,Not Released,,Not in stock,,1 Uses,iGEM12_Tsinghua-A,Lei Wei,2012-09-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_K758005,"UAS LacZ, this part expresses LacZ in the presence of GAL4",3742,,,Not Released,,It's complicated,Works,Not Used,iGEM12_KIT-Kyoto,Takaaki Takeda,2012-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K758006,"UAS EGFP, this part expresses EGFP in the presence of GAL4 protein.",1372,,,Not Released,,It's complicated,Works,Not Used,iGEM12_KIT-Kyoto,Takaaki Takeda,2012-09-18,,pgroup=Reporter_Coding&show=1.csv
+BBa_K763000,pLac + Gene encoding AmCyan,841,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Valencia_Biocampus,Pedro Luis Dorado Morales,2012-09-03,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K763003,pGlnA + Gene encoding ZsYellow1,855,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Valencia_Biocampus,Pedro Luis Dorado Morales,2012-09-07,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K763004,pLexA + Gene encoding ZsGreen1,735,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Valencia_Biocampus,Pedro Luis Dorado Morales,2012-09-07,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K763006,pTRR + Gene encoding ZsGreen1,1242,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Valencia_Biocampus,Luisa María Martínez Sánchez,2012-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K766002,RFP with RBS and T1 terminator,824,,,Not Released,,Not in stock,Works,Not Used,iGEM12_Tsinghua,Yu Zhao,2012-09-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K766003,C6HSL sensor and reporter,1896,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Tsinghua,Yu Zhao,2012-09-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K770001,LuxCDABE,5799,,,Not Released,,It's complicated,,Not Used,iGEM12_Copenhagen,Michel Saremi,2012-09-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K775004,GPCR reporter FUS1-EGFP,1166,,,Not Released,,It's complicated,Works,8 Uses,iGEM12_TU-Delft,Sietske Grijseels,2012-09-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K775014,GPDpr-EGFP reporter,1096,,,Not Released,,Not in stock,,Not Used,iGEM12_TU-Delft,Sietske Grijseels,2012-09-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779300,eBFP2 MammoBlock,726,,,Not Released,,It's complicated,,Not Used,iGEM12_MIT,Giulio Alighieri,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779301,eYFP MammoBlock,726,,,Not Released,,Not in stock,Works,3 Uses,iGEM12_MIT,Giulio Alighieri,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779302,eYFP-4xFF1 MammoBlock,859,,,Not Released,,It's complicated,Works,Not Used,iGEM12_MIT,Giulio Alighieri,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779303,eYFP-4xFF4 MammoBlock,835,,,Not Released,,Not in stock,,Not Used,iGEM12_MIT,Giulio Alighieri,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779304,mKate MammoBlock,721,,,Not Released,,It's complicated,Works,2 Uses,iGEM12_MIT,Giulio Alighieri,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779306,TagBFP MammoBlock,699,,,Not Released,,Not in stock,,Not Used,iGEM12_MIT,Katie Bodner,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779307,TagBFP-FF5 MammoBlock,801,,,Not Released,,It's complicated,Works,1 Uses,iGEM12_MIT,Katie Bodner,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779309,eBFP2-1x MammoBlock,754,,,Not Released,,Not in stock,,Not Used,iGEM12_MIT,Katie Bodner,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779310,eBFP2-2x MammoBlock,778,,,Not Released,,Not in stock,,Not Used,iGEM12_MIT,Katie Bodner,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779311,HH-mKate - Hammerhead attached to front of mKate MammoBlock,802,,,Not Released,,In stock,Works,1 Uses,iGEM12_MIT,Katie Bodner,2012-09-29,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K779312,mKate-HH - Hammerhead attached behind mKate MammoBlock,804,,,Not Released,,In stock,Works,1 Uses,iGEM12_MIT,Katie Bodner,2012-09-29,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Reporter_Coding&show=1.csv
+BBa_K779313,HHm-mKate - Repressible hammerhead attached to front of mKate MammoBlock,838,,,Not Released,,Not in stock,None,Not Used,iGEM12_MIT,Felix Sun,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K779314,mKate-HHm - Repressible hammerhead behind mKate MammoBlock,844,,,Not Released,,Not in stock,,Not Used,iGEM12_MIT,Felix Sun,2012-09-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782000,7x[NicTAL]+7x[TALD] operator_CMV promoter_mCitrine,1845,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Bostjan Pirs,2012-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782001,2x[NicTAL]+2x[TALD] operator_CMV promoter_mCitrine,1507,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782002,4x[NicTAL]+4x[TALD] operator_CMV promoter_mCitrine,1636,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782003,1x[NicTAL]+1x[TALD] operator_CMV promoter_mCitrine,1437,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782014,12x[TALD] operator_CMV promoter_mCitrine,1832,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782015,12x[NicTAL] operator_CMV promoter_mCitrine,1831,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782016,10x[TALA+TALB] operator_CMV promoter_mCitrine,2097,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782017,10x[TALA] operator_CMV promoter_mCitrine,2087,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782018,10x[TALB] operator_CMV promoter_mCitrine,2087,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782019,10x[TALA+TALB] operator_CMV promoter_fLuciferase,3414,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782020,10x[TALA] operator_CMV promoter_fLuciferase,3404,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782021,10x[TALB] operator_CMV promoter_fLuciferase,3404,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782022,12x[TALD] operator_CMV promoter_fLuciferase,3149,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782023,12x[NicTAL] operator_CMV promoter_fLuciferase,3148,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782024,2x[NicTAL]+2x[TALD] operator_minimal promoter_mCitrine,1175,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782025,4x[NicTAL]+4x[TALD] operator_minimal promoter_mCitrine,1305,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782026,7x[TALA+TALB] operator_minimal promoter_mCitrine,1485,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782027,7x[TALA] operator_minimal promoter_mCitrine	,1478,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782028,10x[TALA+TALB] operator_minimal promoter_mCitrine	,1765,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782029,10x[TALA] operator_minimal promoter_mCitrine		,1755,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782030,10x[TALB] operator_minimal promoter_mCitrine		,1755,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782031,12x[TALD] operator_minimal promoter_mCitrine		,1500,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782032,10x[TALA+TALB] operator_minimal promoter_fLuciferase,3151,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782033,10x[TALA] operator_minimal promoter_fLuciferase,3141,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782034,10x[TALB] operator_minimal promoter_fLuciferase,3141,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782035,12x[TALD] operator_minimal promoter_fLuciferase,2886,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782073,10x[TALA+TALB] operator_CMV promoter_BFP,2148,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782074,10x[TALA] operator_CMV promoter_BFP,2138,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782075,10x[TALB] operator_CMV promoter_BFP,2138,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782076,12x[TALD] operator_CMV promoter_BFP,1883,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782077,12x[NicTAL] operator_CMV promoter_BFP,1882,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782078,10x[TALA+TALB] operator_CMV promoter_2xBFP:NLS,2877,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782079,10x[TALA] operator_CMV promoter_2xBFP:NLS,2867,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782080,10x[TALB] operator_CMV promoter_2xBFP:NLS,2867,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K782081,12x[TALD] operator_CMV promoter_2xBFP:NLS,2612,,,Not Released,,It's complicated,None,Not Used,iGEM12_Slovenia,Fedja Pavlovec,2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K784027,XhoI+RBS+Alkaline Phosphatase (phoA) +XmaI,1499,,,Not Released,,Not in stock,Works,4 Uses,iGEM12_Technion,Lior Levy,2012-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K784041,pTetO+ mCherry (FP),845,,,Not Released,,It's complicated,None,Not Used,iGEM12_Technion,Inbal Vaknin,2012-09-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_K786005,Light triggering gene expression with sensory rhodopsin I & II (SRI & SRII),3009,,,Not Released,,Not in stock,,Not Used,iGEM12_Hong_Kong-CUHK,Leung Wai Tak,2012-09-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K786030,T7-repeat-spacer-repeat-T7terminator,264,,,Not Released,,Not in stock,None,Not Used,iGEM12_Hong_Kong-CUHK,"ChunHungKong, KenHo, LeonardoKan, Kaiyin Feng",2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K786031,T7promoter-RSR-T7teminator,956,,,Not Released,,It's complicated,Issues,Not Used,iGEM12_Hong_Kong-CUHK,Kaiyin Feng,2012-09-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_K809001,Mitochondrial GFP,717,,,Not Released,,It's complicated,Works,10 Uses,iGEM12_Shenzhen,Qiwu XU,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K819006,Testing device for Luminesensor,846,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Peking,YU Zhou,2012-09-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_K819007,Measurement device for Luminesensor,857,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Peking,YU Zhou,2012-09-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K821001,RFP Reporter with o-RBS,1059,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Tianjin,"Qinfeng Wu, Bin Jia",2012-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K821005,CmR label from pKD3,1014,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Tianjin,"Qinfeng Wu, Bin Jia",2012-09-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_K823019,LacZ (RBS+Freiburg standard),3056,,,Not Released,,It's complicated,Works,1 Uses,iGEM12_LMU-Munich,Simon Kelterborn,2012-08-15,,pgroup=Reporter_Coding&show=1.csv
+BBa_K823028,"luc luciferase + RBS, codon optimized for Bacillus subtilis",1653,,,Not Released,,It's complicated,,1 Uses,iGEM12_LMU-Munich,Jara Radeck,2012-08-30,,pgroup=Reporter_Coding&show=1.csv
+BBa_K823039,gfpmut1 (B. subtilis optimized + Freiburg standard),845,,,Not Released,,It's complicated,Works,1 Uses,iGEM12_LMU-Munich,Tamara Cikovic,2012-09-08,,pgroup=Reporter_Coding&show=1.csv
+BBa_K845002,Strong RBS GFPmut2,743,,,Not Released,,Not in stock,None,1 Uses,iGEM12_Grenoble,Grégory Hansen,2012-09-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K863103,Cellulose binding Domain from Cellulomonas Fimi with Reporter GFP,1111,,,Not Released,,Not in stock,None,Not Used,iGEM12_Bielefeld-Germany,Moritz Müller,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K863104,Cellulose binding Domain from C. Fimi with const. Promotor and GFP,1144,,,Not Released,,Not in stock,None,Not Used,iGEM12_Bielefeld-Germany,Moritz Müller,2012-09-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K863113,Cellulose binding Domain of C. cellulovorans cellulose binding protein with Reporter GFP,1075,,,Not Released,,Not in stock,None,Not Used,iGEM12_Bielefeld-Germany,Moritz Müller,2012-09-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_K863114,CBD of C. cellulovorans cellulose binding protein gene with const. Promoter (J23100+J61101) and GFP,1117,,,Not Released,,Not in stock,None,Not Used,iGEM12_Bielefeld-Germany,Moritz Müller,2012-09-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_K873012,heat shock GFP,931,,,Not Released,BBa_S05062,It's complicated,,1 Uses,iGEM12_SEU_A,yue hu,2012-09-19,,pgroup=Reporter_Coding&show=1.csv
+BBa_K874060,Methylation Site (M.ScaI & dual E2C targeted),92,,,Not Released,,Not in stock,Works,1 Uses,iGEM12_Amsterdam,Ernst Bank,2012-09-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_K883704,IPTG induced promoter + GFP fused to a coiled coil ,1151,,,Not Released,,It's complicated,,Not Used,iGEM12_Wageningen_UR,Lisa Sonnenberg,2012-10-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_K883705,IPTG induced promoter + GFP with a His-tag fused to a coiled coil,1127,,,Not Released,,It's complicated,,Not Used,iGEM12_Wageningen_UR,Lisa Sonnenberg,2012-10-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K895007,Tetrathionate-sensing two-component system linked to GFP production.,3275,,iGEM Dundee 2012:5,Not Released,,It's complicated,Works,Not Used,iGEM12_Dundee,Frank Sargent,2012-09-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_K911004,Synthesised Ratiometric Luciferase construct in non-standard plasmid,8715,,,Not Released,,It's complicated,Issues,Not Used,iGEM12_Cambridge,Thomas Whittaker,2012-09-21,,pgroup=Reporter_Coding&show=1.csv
+BBa_K933000,two start codons coding for RFP and sfGFP reporters,1656,,,Not Released,,It's complicated,None,Not Used,iGEM12_Penn_State,Hannah Jepsen-Burger,2012-10-01,,pgroup=Reporter_Coding&show=1.csv
+BBa_K942006,scFvIgE+GFP,1447,,,Not Released,,It's complicated,None,Not Used,iGEM12_Tec-Monterrey,Luis Mario Leal Garza,2012-09-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K945004,Pichia pastoris optimized His-GFP,1321,,,Not Released,,It's complicated,,Not Used,iGEM12_Tec-Monterrey_EKAM,Daniel Villalobos Ramírez,2012-09-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_K945005,Pichia pastoris optimized His-GFP-PTS1,1150,,,Not Released,,It's complicated,,Not Used,iGEM12_Tec-Monterrey_EKAM,Daniel Villalobos Ramírez,2012-09-27,,pgroup=Reporter_Coding&show=1.csv
+BBa_K948000,MLC2V and eCFP,964,,,Not Released,,Not in stock,,Not Used,iGEM12_WLC,Nicholas K. Goldner,2012-10-03,,pgroup=Reporter_Coding&show=1.csv
+BBa_K950004,firefly luciferase,1650,,,Not Released,,Not in stock,,Not Used,iGEM12_Tuebingen,Jakob Matthes,2012-07-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_K950005,lacZ,2514,,,Not Released,,Not in stock,,Not Used,iGEM12_Tuebingen,Jan Rudolph,2012-07-29,,pgroup=Reporter_Coding&show=1.csv
+BBa_M12100,"PLambda : B0034 : RFP in BioScaffold Form, a (0,5;7,2] BioScaffold part ",896,,,Not Released,,Not in stock,None,1 Uses,MIT BE 20.20 - S09 MIT BE 20.20 - S10,Grant Robinson,2010-11-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_M12101,"PTet : B0034 : GFP in BioScaffold Form, a [0,5;7,2) BioScaffold ",876,,,Not Released,,Not in stock,None,Not Used,MIT BE 20.20 - S09 MIT BE 20.20 - S10,Grant Robinson,2010-11-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_M1635,Pyrearinus termitilluminans prothoracic luciferase,2016,,,Not Released,,Not in stock,,3 Uses,UtahState_BE5930_-_S11,Chauncey Tucker,2013-04-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_M36039,Bilirubin Sensor/Actuator Hybrid,420,,,Not Released,,Not in stock,Issues,-1 Uses,Stanford BIOE44 - S11,"Sayuri Sekimitsu, Nate Hansen, Zoe Pacalin",2015-10-22,,pgroup=Reporter_Coding&show=1.csv
+BBa_M36157,"MeffBlue, Blue Chromoprotein",669,,,Not Released,,Not in stock,,1 Uses,Stanford BIOE44 - S11,Sohaib Shaikh,2014-10-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_M36627,GFP (modified from BBa_K648013),735,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,"Benjamin Yeh, Jodie Sheffels, Ali Hoffer",2015-10-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_M36629,FLAG Epitope,24,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,"Benjamin Yeh, Jodie Sheffels, Ali Hoffer",2015-10-24,,pgroup=Reporter_Coding&show=1.csv
+BBa_M36640,ribD/metE riboswitch ,246,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,"Micah Patterson, Haque Ishfaq",2014-05-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_M36641,theo/lysC riboswitch ,171,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,"Micah Patterson, Haque Ishfaq",2014-05-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_M36642,theo/metE riboswitch,146,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,"Micah Patterson, Haque Ishfaq",2014-05-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_M36643,xpt(C74U)/metE,176,,,Not Released,,Not in stock,None,1 Uses,Stanford BIOE44 - S11,"Micah Patterson, Haque Ishfaq",2014-05-02,,pgroup=Reporter_Coding&show=1.csv
+BBa_M36936,CometGFP,273,,,Not Released,,Not in stock,,1 Uses,Stanford BIOE44 - S11,Emily Kelly,2014-10-23,,pgroup=Reporter_Coding&show=1.csv
+BBa_M45040,Indigoindine synthasis,663,,,Not Released,,Not in stock,None,-1 Uses,UtahState_BE5930_-_S14,Jinge Huang,2017-04-17,,pgroup=Reporter_Coding&show=1.csv
+BBa_M45190,GFP Reporter ,720,,,Not Released,BBa_E0040;BBa_K294055;BBa_T1005;BBa_K895006;BBa_K783053;BBa_K1030008;BBa_K1067000;BBa_M45809;BBa_K1780000,In stock,None,-1 Uses,UtahState_BE5930_-_S14,Thomas Harris,2016-03-25,,pgroup=Reporter_Coding&show=1.csv
+BBa_M45806,RFPLlac, ,,,Not Released,,No part sequence,,No Sequence,UtahState_BE5930_-_S14,Austin Heywood,2015-04-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_M45807,RFPLlac, ,,,Not Released,,No part sequence,,No Sequence,UtahState_BE5930_-_S14,Austin Heywood,2015-04-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_M45808,RFPLlac,706,,,Not Released,,Not in stock,,Not Used,UtahState_BE5930_-_S14,Austin Heywood,2015-04-20,,pgroup=Reporter_Coding&show=1.csv
+BBa_M50029,mTurquoise2 FP,720,,,Not Released,BBa_K1761004,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,"Cale Lester, Raquel Freeman, Tristan Yeung",2016-11-01,,pgroup=Reporter_Coding&show=1.csv
+BBa_M50030,mKO2,657,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,"Cale Lester, Raquel Freeman, Tristan Yeung",2016-11-01,,pgroup=Reporter_Coding&show=1.csv
+BBa_M50057,Melanin Pigment with 6xHist Tag,1848,,,Not Released,,Not in stock,None,-1 Uses,Stanford BIOE44 - S11,Jack Akerman and Jon Bartlett,2017-04-26,,pgroup=Reporter_Coding&show=1.csv
+BBa_Z0301,Venus YFP - E. coli codon optimized,720,,,Not Released,,It's complicated,,8 Uses,T7.2,Sriram Kosuri,2006-06-21,,pgroup=Reporter_Coding&show=1.csv

@@ -1,0 +1,978 @@
+Name,Description,Length,part_rating,scores,release_status,twins,sample_status,part_results,use,group,author,date,distrbution,filename
+BBa_I13513,Screening Plasmid 2,2885,,Antiquity:5,Released HQ 2013,,In stock,Works,Not Used,MIT,jkm,2005-05-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I13515,Screening Plasmid 4,2825,,Antiquity:5,Released HQ 2013,,In stock,Works,Not Used,MIT,jkm,2005-05-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I732902,R0010 I732020,597,,,Released HQ 2013,,In stock,Works,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I732903,R0011 I732020,452,,,Released HQ 2013,,In stock,Works,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I732913,[aTC] -> RFP,1757,,,Released HQ 2013,,In stock,Works,Not Used,iGEM07_USTC,Ma Rui,2007-10-17,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I732916,P_NOR_U037O11D002O22 + RFP,954,,,Not Released,,In stock,Works,1 Uses,iGEM07_USTC,Ma Rui,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_J107011,PlacIQ measurement system,921,,,Released HQ 2013,BBa_J09250,In stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-06-01,,pgroup=Measurement&show=1.csv
+BBa_J107028,J23100 measurement system (with RFP),904,,,Not Released,BBa_K206093;BBa_K1375003,In stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2012-10-13,,pgroup=Measurement&show=1.csv
+BBa_K1104241,TrxC promoter +E0840,986,,,Not Released,,In stock,Works,Not Used,iGEM13_NYMU-Taipei,Ting-Yun Chiang,2013-09-11,,pgroup=Measurement&show=1.csv
+BBa_K1104245,AhpC2-E0840,1112,,,Not Released,,In stock,Works,Not Used,iGEM13_NYMU-Taipei,Ting-Yun Chiang,2013-09-17,,pgroup=Measurement&show=1.csv
+BBa_K1104246,AhpCD1-E0840,1055,,,Not Released,,In stock,Works,Not Used,iGEM13_NYMU-Taipei,Ting-Yun Chiang,2013-09-17,,pgroup=Measurement&show=1.csv
+BBa_K1104247,AhpC1-E0840,994,,,Not Released,,In stock,Works,Not Used,iGEM13_NYMU-Taipei,Ting-Yun Chiang,2013-09-17,,pgroup=Measurement&show=1.csv
+BBa_K118021,PcstA+rbs+xylE,1097,1,,Released HQ 2013,,In stock,Works,Not Used,iGEM08_Edinburgh,Andrew Hall,2008-10-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_K131026,AHL inducible GFP,1807,1,,Released HQ 2013,,In stock,Works,Not Used,iGEM08_Calgary_Wetware,Thane Kubik,2008-10-27,,pgroup=Measurement&show=1.csv
+BBa_K173001,J23101 measurement system,919,,,Released HQ 2013,BBa_I20260;BBa_K101015;BBa_K358001;BBa_K1412716;BBa_K1412924;BBa_K1403000,In stock,Works,Not Used,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Letizia Diamante, Paolo Magni",2009-10-15,,pgroup=Measurement&show=1.csv
+BBa_K173025,Plac measurement system,939,,,Released HQ 2013,BBa_I7107;BBa_K358000,In stock,Works,Not Used,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Giulio Chiesa, Manuel Lupotto, Paolo Magni",2009-10-16,,pgroup=Measurement&show=1.csv
+BBa_K358000,Lac promoter with GFP,939,,,Released HQ 2013,BBa_I7107;BBa_K173025,In stock,Works,Not Used,iGEM10_Kyoto,Ken Kajita,2010-09-12,,pgroup=Measurement&show=1.csv
+BBa_K358001,Measurement Standard,919,,,Released HQ 2013,BBa_I20260;BBa_K101015;BBa_K173001;BBa_K1412716;BBa_K1412924;BBa_K1403000,In stock,Works,Not Used,iGEM10_Kyoto,Ken Kajita,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K398331,pCaiF-B0032 measurement device,935,,,Released HQ 2013,,In stock,Works,Not Used,iGEM10_TU_Delft,Kira Schipper,2010-10-07,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_K516130,"Constitutive promoter [J23101] with mRFP, RBS B0030",907,,,Not Released,,In stock,Works,Not Used,iGEM11_UNIPV-Pavia,"Susanna Zucca, Federica Sampietro, Giuseppe Bertoni, Paolo Magni",2011-09-08,,pgroup=Measurement&show=1.csv
+BBa_K516132,"Constitutive promoter [J23101] with mRFP, RBS B0032",905,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_UNIPV-Pavia,"Susanna Zucca, Federica Sampietro, Giuseppe Bertoni",2011-09-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_K564012,promoter and RBS of E. coli chitoporin translationally fused with lacZ.,3817,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_DTU_Denmark,Anna Lewinska,2011-09-20,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_K592026,J23101-B0032-BFP,767,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_Uppsala-Sweden,Lei Sun,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_K592027,T5-lac promoter-B0032-BFP,858,,,Released HQ 2013,,In stock,Works,Not Used,iGEM11_Uppsala-Sweden,Lei Sun,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_K911003,Fluoride Sensitive Riboswitch,159,,,Released HQ 2013,,In stock,Works,1 Uses,iGEM12_Cambridge,Oliver Meacock,2012-09-12,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_M30011,OmpR controlled mRFP,977,,,Released HQ 2013,BBa_M30012;BBa_K212002,In stock,Works,2 Uses,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,natalie kuldell,2005-12-14,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I0411,RBS Test R0040.B0033.E0030.B0015,939,,Antiquity:0,Released HQ 2013,BBa_I13014,In stock,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I0412,RBS Test R0040.B0034.E0030.B0015,940,,Antiquity:0,Released HQ 2013,BBa_I6032;BBa_J69524;BBa_K249000;BBa_K239013;BBa_K204020,In stock,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I0414,RBS Test R0040.B0032.E0030.B0015 RBS Test,941,,Antiquity:0,Released HQ 2013,BBa_I13013,In stock,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I0417,RBS Test R0011.B0034.E0030.B0015,941,,Antiquity:0,Released HQ 2013,BBa_I6031;BBa_I12026;BBa_J22203;BBa_I726006;BBa_K086000;BBa_J69514,In stock,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I13013,RBS Test R0040.B0032.E0130,941,,Antiquity:0,Released HQ 2013,BBa_I0414,In stock,None,Not Used,Antiquity,jasonk,2004-07-01,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I13014,RBS Test R0040.B0033.E0130,939,,Antiquity:0,Released HQ 2013,BBa_I0411,In stock,None,Not Used,Antiquity,jasonk,2004-07-01,,pgroup=Measurement&show=1.csv
+BBa_I13512,Screening plasmid 1,2887,,Antiquity:0,Released HQ 2013,,In stock,None,Not Used,MIT,jkm,2005-05-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I13514,Screening Plasmid 3,2825,,Antiquity:0,Released HQ 2013,,In stock,None,Not Used,MIT,jkm,2005-05-31,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I13529,Screening Plasmid 2.1,2911,,,Released HQ 2013,,In stock,,Not Used,MIT,Josh Michener,2005-07-29,,pgroup=Measurement&show=1.csv
+BBa_I13533,Screening Plasmid 2.5,2944,,,Released HQ 2013,,In stock,,Not Used,MIT,Josh Michener,2005-07-29,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I13606,Reporter Construct (Ty+Lc+),1967,,Antiquity:0,Released HQ 2013,,In stock,None,Not Used,Antiquity,"Chris Batton, Victoria Chou, Kenneth Nesmith",2004-07-16,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I20260,Measurement Kit Test of J23101,919,1,iGEM12_OUC-China:5;:5;iGEM14_Paris_Bettencourt:5;:5;iGEM2014 XMU-China:5;:5,Released HQ 2013,BBa_K101015;BBa_K173001;BBa_K358001;BBa_K1412716;BBa_K1412924;BBa_K1403000,In stock,,3 Uses,Endy Lab,Jason Kelly,2008-01-08,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I20269,Promoter MeasKit (J23150),919,1,,Released HQ 2013,,In stock,None,Not Used,Endy Lab,Jason Kelly,2008-02-06,,pgroup=Measurement&show=1.csv
+BBa_I20270,Promoter MeasKit (J23151),919,1,,Released HQ 2013,,In stock,None,Not Used,Endy Lab,Jason Kelly,2008-02-06,Spring 2017 Distribution;Spring 2017 Distribution;Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I2057,Promoter Tester with RFP,862,,,Released HQ 2013,BBa_J133000;BBa_K516032,In stock,,Not Used,iGEM2006_MIT,Jason Kelly,2007-07-02,,pgroup=Measurement&show=1.csv
+BBa_I6116,R0077.E0030.B0015,1097,,Antiquity:0,Released HQ 2013,,In stock,None,1 Uses,Antiquity,jcbraff,2004-06-09,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I7107,R0011.E0240,939,,,Released HQ 2013,BBa_K173025;BBa_K358000,In stock,,Not Used,Registry,Jennifer Braff,2005-07-28,,pgroup=Measurement&show=1.csv
+BBa_I7108,R0053.E0840,940,,,Released HQ 2013,,In stock,,Not Used,Registry,Jennifer Braff,2005-07-28,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_I7121,R0040.B0032.E0040.M0100.B0015,1031,,Antiquity:0,Released HQ 2013,,In stock,None,Not Used,Registry,jcbraff,2005-05-17,,pgroup=Measurement&show=1.csv
+BBa_I732702,P_NOT_D001O22 + Double Reporters,1267,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732709,P_NOT_D001O16 + Double Reporters,1267,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732720,P_NAND_U073O22D001O46 + Double Reporters,1263,,,Not Released,,In stock,None,1 Uses,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732725,P_U097NUL+D062NUL + Double Reporters,1308,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732727,P_U085O11+D062NUL + Double Reporters,1316,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732730,P_U049O11+D062NUL + Double Reporters,1280,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732733,P_U097NUL+D014O22 + Double Reporters,1280,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732738,P_D01O1wt1 + Double Reporters (lacZ+RFP),1254,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732739,P_D01O11 + Double Reporters (lacZ+RFP),1253,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732744,P_D01O61 + Double Reporters (lacZ+RFP),1253,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732745,P_U097NUL+D062NUL + Double Reporters (lacZ+RFP),1294,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732749,P_D01O55 + Double Reporters (lacZ+RFP),1253,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732750,P_U073O26+D062NUL + Double Reporters,1304,,,Not Released,,In stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732915,P_NAND_U073O27D001O17 + RFP,989,,,Not Released,,In stock,Issues,Not Used,iGEM07_USTC,Ma Rui,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_K1051289,J63006+K1051200+k1051060,549,,,Not Released,BBa_J63006;BBa_K105026;BBa_K165046,In stock,None,Experience: None,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-01,,pgroup=Measurement&show=1.csv
+BBa_K1104242,HemH promoter +E0840,984,,,Not Released,,In stock,,Not Used,iGEM13_NYMU-Taipei,Ting-Yun Chiang,2013-09-11,,pgroup=Measurement&show=1.csv
+BBa_K1104248,pSufA-E0840,1886,,,Not Released,,In stock,,Not Used,iGEM13_NYMU-Taipei,Wan-Hsin Liu,2013-09-17,,pgroup=Measurement&show=1.csv
+BBa_K1330000,Spinach2.1 flanked by tRNALys3,168,,,Not Released,,In stock,None,Not Used,iGEM14_DTU-Denmark,Rasmus Bech,2014-09-24,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Measurement&show=1.csv
+BBa_K1330001,Spinach2.1 flanked by tRNALys3 with terminator BBa_B0052,203,,,Not Released,,In stock,None,Not Used,iGEM14_DTU-Denmark,Kristian Jensen,2014-09-30,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution,pgroup=Measurement&show=1.csv
+BBa_K1379002,,984,,,Not Released,,In stock,None,Not Used,iGEM14_Hong_Kong_HKUST,"Jordy Evan, Nadia Benedicta, Angeline Widjaja",2014-09-22,,pgroup=Measurement&show=1.csv
+BBa_K1379048,J23102-Lock 1-GFP-B0015-pBad/araC-Key 1-B0015,2403,,,Not Released,,In stock,None,Not Used,iGEM14_Hong_Kong_HKUST,Medina Cuellar Raul Guillermo,2014-10-07,,pgroup=Measurement&show=1.csv
+BBa_K1381009,yenbox_J23113-B0032-GFP,964,,,Not Released,,In stock,None,Not Used,iGEM14_Uppsala,"Stephanie Herman, Gunta Celma, Megha Biradar, Christoffer Andersson and Martin Friberg",2014-10-02,,pgroup=Measurement&show=1.csv
+BBa_K1403000,GFP generator in pSB1C3,919,,,Not Released,BBa_I20260;BBa_K101015;BBa_K173001;BBa_K358001;BBa_K1412716;BBa_K1412924,In stock,None,Not Used,iGEM14_aris_Bettencourt,Urszula Czerwinska,2014-10-03,,pgroup=Measurement&show=1.csv
+BBa_K1403001,GFP generator in pSB1C3 under a  weak promoter,919,,,Not Released,BBa_K1412999,In stock,None,Not Used,iGEM14_aris_Bettencourt,Urszula Czerwinska,2014-10-03,,pgroup=Measurement&show=1.csv
+BBa_K1412716,GFP generator with J23101,919,,iGEM2014 XMU-China:5;:5,Not Released,BBa_I20260;BBa_K101015;BBa_K173001;BBa_K358001;BBa_K1412924;BBa_K1403000,In stock,None,Not Used,iGEM14_XMU-China,"Jielin Chen, An Chen",2014-09-02,,pgroup=Measurement&show=1.csv
+BBa_K1412924,GFP generator with J23101,919,,iGEM2014 XMU-China:5;:5,Not Released,BBa_I20260;BBa_K101015;BBa_K173001;BBa_K358001;BBa_K1412716;BBa_K1403000,In stock,None,Not Used,iGEM14_XMU-China,"Jielin Chen,  An Chen",2014-09-02,,pgroup=Measurement&show=1.csv
+BBa_K1412999,GFP generator with J23115,919,,iGEM2014 XMU-China:5;:5,Not Released,BBa_K1403001,In stock,None,Not Used,iGEM14_XMU-China,"Jielin Chen ,An Chen",2014-09-02,,pgroup=Measurement&show=1.csv
+BBa_K1461225,ecf20 promoter measurement system,1846,,,Not Released,,In stock,,1 Uses,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-29,,pgroup=Measurement&show=1.csv
+BBa_K1461226,ecf11 promoter measurement system,1873,,,Not Released,,In stock,,1 Uses,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-29,,pgroup=Measurement&show=1.csv
+BBa_K1461231,arabinose-induced GFP and taRNA generator,1407,,,Not Released,,In stock,,Not Used,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-29,,pgroup=Measurement&show=1.csv
+BBa_K1461232,single counter,1312,,,Not Released,,In stock,,Not Used,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-29,,pgroup=Measurement&show=1.csv
+BBa_K1461237,sigma factors cross-talk assay 1,1873,,,Not Released,,In stock,,Not Used,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-29,,pgroup=Measurement&show=1.csv
+BBa_K1461238,sigma factors cross-talk assay 2,1846,,,Not Released,,In stock,,Not Used,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-29,,pgroup=Measurement&show=1.csv
+BBa_K545001,pConst+GFP,919,,,Released HQ 2013,BBa_S04567;BBa_K584001,In stock,None,Not Used,iGEM11_Grenoble,Grenoble 2011,2011-09-20,,pgroup=Measurement&show=1.csv
+BBa_K564013,Upstream mutated chitoporin part fused with lacZ ,3817,,,Released HQ 2013,,In stock,None,Not Used,iGEM11_DTU_Denmark,Anna Lewinska,2011-09-20,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_K592029,PcpcG2-B0034-BFP green light sensor output,969,,,Released HQ 2013,,In stock,,Not Used,iGEM11_Uppsala-Sweden,Lei Sun,2011-09-21,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_K880002,GFP fluorescence reporter to assay the activity of FimE K137007 and HbiF K880000 recombinases. ,1219,,Michigan iGEM 2013:0,Released HQ 2013,,In stock,Fails,Not Used,iGEM12_Michigan,"Josh Atkinson, Mike Ferguson, and Ben Parker",2012-09-29,Spring 2017 Distribution;Spring 2016 Distribution;Spring 2015 Distribution;Spring 2014 Distribution,pgroup=Measurement&show=1.csv
+BBa_K902015,MgtA riboswitch with GFP-LVA,1024,,,Not Released,,In stock,,Not Used,iGEM12_Calgary,Himika Dastidar,2012-09-28,,pgroup=Measurement&show=1.csv
+BBa_K950006,membrane progesterone receptor (Danio rerio),1065,,,Not Released,,In stock,None,Experience: None,iGEM12_Tuebingen,Jan Rudolph,2012-07-29,,pgroup=Measurement&show=1.csv
+BBa_M30012,OmpR controlled mRFP,977,,,Released HQ 2013,BBa_M30011;BBa_K212002,In stock,None,Not Used,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,natalie kuldell,2005-12-14,,pgroup=Measurement&show=1.csv
+BBa_E7103,Reporter Device Powered by the Virtual Machine (VM1.0),818,,Antiquity:0,Not Released,,Not in stock,None,Not Used,MIT,Barry Canton,2005-06-06,,pgroup=Measurement&show=1.csv
+BBa_I0410,RBS Test R0040.B0031.E0030.B0015,942,,Antiquity:0,Not Released,BBa_I13012,It's complicated,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I0413,RBS Test R0040.B0030.E0030.B0015,943,,Antiquity:0,Not Released,BBa_I13011,It's complicated,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I0415,RBS Test R0011.B0031.E0030.B0015,943,,Antiquity:0,Not Released,BBa_I13008,It's complicated,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I0416,RBS Test R0011.B0033.E0030.B0015,940,,Antiquity:0,Not Released,BBa_I13010,Not in stock,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I0418,RBS Test R0011.B0030.E0030.B0015,944,,Antiquity:0,Not Released,BBa_I13007,Not in stock,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I0419,RBS Test R0011.B0032.E0030.B0015,942,,Antiquity:0,Not Released,BBa_I13009,Not in stock,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I0420,RBS Test R0040.E0030.B0015,920,,Antiquity:0,Not Released,BBa_I13006,It's complicated,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I0421,R0011.E0030.B0015,921,,Antiquity:0,Not Released,BBa_I13005,It's complicated,None,Not Used,Antiquity,jcbraff,2004-06-14,,pgroup=Measurement&show=1.csv
+BBa_I12240,Test of LacI protein generator,2317,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,rwald,2004-09-01,,pgroup=Measurement&show=1.csv
+BBa_I12241,Test of TetR protein generator,1857,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,rwald,2004-09-01,,pgroup=Measurement&show=1.csv
+BBa_I12242,Test of AraC promoter region,1074,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,rwald,2004-09-01,,pgroup=Measurement&show=1.csv
+BBa_I12243,Test of AraC protein generator,2207,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,rwald,2004-09-01,,pgroup=Measurement&show=1.csv
+BBa_I12244,Test of AraC protein generator 2,3268,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,rwald,2004-09-01,,pgroup=Measurement&show=1.csv
+BBa_I13007,RBS Test R0011.B0030.E0130,944,,Antiquity:0,Not Released,BBa_I0418,Not in stock,None,Not Used,Antiquity,jasonk,2004-07-01,,pgroup=Measurement&show=1.csv
+BBa_I13008,RBS Test R0011.B0031.E0130,943,,Antiquity:0;Tsegall-shapiro:0;From User:SBurke 31 July 2007:0,Not Released,BBa_I0415,It's complicated,None,Not Used,Antiquity,jasonk,2004-07-01,,pgroup=Measurement&show=1.csv
+BBa_I13009,RBS Test R0011.B0032.E0130,942,,Antiquity:0,Not Released,BBa_I0419,Not in stock,None,Not Used,Antiquity,jasonk,2004-07-01,,pgroup=Measurement&show=1.csv
+BBa_I13010,RBS Test R0011.B0033. E0130,940,,Antiquity:0,Not Released,BBa_I0416,Not in stock,None,Not Used,Antiquity,jasonk,2004-07-01,,pgroup=Measurement&show=1.csv
+BBa_I13011,RBS Test R0040.B0030.E0130,943,,Antiquity:0,Not Released,BBa_I0413,It's complicated,None,Not Used,Antiquity,jasonk,2004-07-01,,pgroup=Measurement&show=1.csv
+BBa_I13012,RBS Test R0040.B0031.E0130,942,,Antiquity:0,Not Released,BBa_I0410,It's complicated,None,Not Used,Antiquity,jasonk,2004-07-01,,pgroup=Measurement&show=1.csv
+BBa_I13100,c1 Self-coupled Inverter,1930,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13101,cII Self-coupled Inverter,1877,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13102,Lac Self-coupled Inverter,2320,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13103,Low output control (c1 QPI),1936,,Antiquity:0,Not Released,BBa_J06916,It's complicated,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13104,Low output control (c2 QPI),1878,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13105,Low output control (tet QPI),1853,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13106,"Low output control (tet QPI, Elowitz RBS)",1851,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13107,"Low output control (lac QPI, Elowitz RBS)",2319,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13108,"Low output control (c1 QPI, Elowitz RBS)",1935,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13109,"Low output control (c2 QPI, Elowitz RBS)",1877,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13110,Tet Self-coupled Inverter,1850,,Antiquity:0,Not Released,BBa_I744104,It's complicated,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13111,"Low output control (lac QPI, B0031 RBS)",2321,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13112,High Output control (c1 QPI),2010,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13113,High Output control (c2 QPI),1952,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13114,High Output control (lac QPI),2394,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13115,High output control (tet QPI),1925,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Barry Canton,2004-07-21,,pgroup=Measurement&show=1.csv
+BBa_I13434,Empty screening plasmid without insert region,2944,,,Not Released,BBa_I13534,It's complicated,,Not Used,iGEM2006_MIT,Jason Kelly,2007-05-10,,pgroup=Measurement&show=1.csv
+BBa_I13530,Screening Plasmid 2.2,2911,,,Not Released,,It's complicated,,Not Used,MIT,Josh Michener,2005-07-29,,pgroup=Measurement&show=1.csv
+BBa_I13534,Screening Plasmid 2.6,2944,,,Not Released,BBa_I13434,It's complicated,,1 Uses,MIT,Josh Michener,2005-07-29,,pgroup=Measurement&show=1.csv
+BBa_I13545,GFP and RFP polycistronic,1726,,,Not Released,,Not in stock,None,5 Uses,iGEM2006_MIT,Jason Kelly,2006-09-01,,pgroup=Measurement&show=1.csv
+BBa_I13546,AHL-induced GFP and RFP polycistronic reporter,2795,,,Not Released,BBa_I13590,Not in stock,None,Not Used,iGEM2006_MIT,Jason Kelly,2006-09-06,,pgroup=Measurement&show=1.csv
+BBa_I13547,AHL-induced GFP and RFP polycistronic reporter,2892,,,Not Released,,Not in stock,None,Not Used,iGEM2006_MIT,Jason Kelly,2006-09-06,,pgroup=Measurement&show=1.csv
+BBa_I13548,AHL-induced GFP and RFP polycistronic reporter,2796,,,Not Released,,Not in stock,,Not Used,iGEM2006_MIT,Jason Kelly,2006-09-06,,pgroup=Measurement&show=1.csv
+BBa_I13549,AHL-induced RFP reporter,1930,,,Not Released,BBa_I731012;BBa_J107032,It's complicated,None,Not Used,iGEM2006_MIT,Jason Kelly,2006-09-09,,pgroup=Measurement&show=1.csv
+BBa_I13550,AHL-induced RFP reporter,2027,,,Not Released,,Not in stock,None,Not Used,iGEM2006_MIT,Jason Kelly,2006-09-09,,pgroup=Measurement&show=1.csv
+BBa_I13551,Screening Plamid test component,2049,,,Not Released,,Not in stock,None,Not Used,iGEM2006_MIT,Jason Kelly,2006-09-09,,pgroup=Measurement&show=1.csv
+BBa_I13552,Screening Plamid test component,2146,,,Not Released,,Not in stock,None,Not Used,iGEM2006_MIT,Jason Kelly,2006-09-09,,pgroup=Measurement&show=1.csv
+BBa_I13553,RFP/GFP reporter,1811,,,Not Released,,Not in stock,None,Not Used,iGEM2006_MIT,Jason Kelly,2006-09-09,,pgroup=Measurement&show=1.csv
+BBa_I13564,Screening Plasmid 1.1,2838,,,Not Released,,Not in stock,,Not Used,iGEM2006_MIT,Jason Kelly,2006-11-19,,pgroup=Measurement&show=1.csv
+BBa_I13590,Screening Plasmid 1.5,2795,,,Not Released,BBa_I13546,Not in stock,,Not Used,iGEM2006_MIT,Jason Kelly,2007-06-14,,pgroup=Measurement&show=1.csv
+BBa_I13611,Cascaded Tet (weak) and Lac (medium) QPIs,2282,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13613,Cascaded Tet (medium) and Lac (weak) QPIs,2282,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13614,Cascaded Tet (medium) and Lac (medium) QPIs,2285,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13617,Cascaded Tet (elowitz) and Lac (medium) QPIs,2283,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13621,Cascaded Lac (weak) and Tet (medium) QPIs,2282,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13623,Cascaded Lac (medium) and Tet (weak) QPIs,2282,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13624,Cascaded Lac (medium) and Tet (medium) QPIs,2285,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13625,Cascaded Lac (medium) and Tet (elowitz) QPIs,2283,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13626,Cascaded Lac (elowitz) and Tet (weak) QPIs,2280,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13627,Cascaded Lac (elowitz) and Tet (medium) QPIs,2283,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13631,Cascaded Tet (weak) and Lac (medium) QPIs with double terminator as input,2419,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13633,Cascaded Tet (medium) and Lac (weak) QPIs with double terminator as input,2419,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13634,Cascaded Tet (medium) and Lac (medium) QPIs with double terminator as input,2422,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13637,Cascaded Tet (elowitz) and Lac (medium) QPIs with double terminator as input,2420,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13644,Cascaded Lac (medium) and Tet (medium) QPIs with double terminator as input,2422,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13645,Cascaded Lac (medium) and Tet (elowitz) QPIs with double terminator as input,2420,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13647,Cascaded Lac (elowitz) and Tet (medium) QPIs with double terminator as input,2420,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13651,Cascaded Tet (weak) and Lac (medium) QPIs with constitutive promoter as input,2339,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13653,Cascaded Tet (medium) and Lac (weak) QPIs with constitutive promoter as input,2339,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13654,Cascaded Tet (medium) and Lac (medium) QPIs with constitutive promoter as input,2342,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13657,Cascaded Tet (elowitz) and Lac (medium) QPIs with constitutive promoter as input,2340,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13664,Cascaded Lac (medium) and Tet (medium) QPIs with constitutive promoter as input,2342,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13665,Cascaded Lac (medium) and Tet (elowitz) QPIs with constitutive promoter as input,2340,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I13667,Cascaded Lac (elowitz) and Tet (medium) QPIs with constitutive promoter as input,2340,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,mit,2004-07-20,,pgroup=Measurement&show=1.csv
+BBa_I20244,A device used to characterize promoters throught measurement of GFP expression,903,,,Not Released,,Not in stock,None,Not Used,Endy Lab,"Jason Kelly, Karen Wong, Nishant Bhat",2007-08-15,,pgroup=Measurement&show=1.csv
+BBa_I20245, A device used to characterize promoters throught measurement of GFP expression,903,,,Not Released,,Not in stock,None,Not Used,Endy Lab,"Jason Kelly, Karen Wong, Nishant Bhat",2007-08-15,,pgroup=Measurement&show=1.csv
+BBa_I20246,A device used to characterize promoters throught measurement of RFP expression,889,,,Not Released,,Not in stock,None,Not Used,Endy Lab,"Jason Kelly, Karen Wong, Nishant Bhat",2007-08-15,,pgroup=Measurement&show=1.csv
+BBa_I20247, A device used to characterize promoters throught measurement of RFP expression,889,,,Not Released,,Not in stock,None,Not Used,Endy Lab,"Jason Kelly, Karen Wong, Nishant Bhat",2007-08-15,,pgroup=Measurement&show=1.csv
+BBa_I20248,Device used to characterize Ribosome Binding Sites through measurement of GFP expression,942,,,Not Released,,Not in stock,None,Not Used,Endy Lab,"Jason Kelly, Karen Wong, Nishant Bhat",2007-08-15,,pgroup=Measurement&show=1.csv
+BBa_I20249,Device used to characterize Ribosome Binding Sites through measurement of GFP expression,943,,,Not Released,,Not in stock,None,Not Used,Endy Lab,"Jason Kelly, Karen  Wong, Nishant Bhat",2007-08-15,,pgroup=Measurement&show=1.csv
+BBa_I20250,Device used to characterize Ribosome Binding Sites through measurement of RFP expression,928,,,Not Released,,Not in stock,None,Not Used,Endy Lab,"Jason Kelly, Karen Wong, Nishant Bhat",2007-08-15,,pgroup=Measurement&show=1.csv
+BBa_I20251,Device used to characterize Ribosome Binding Sites through measurement of RFP expression,929,,,Not Released,,Not in stock,None,Not Used,Endy Lab,"Jason Kelly, Karen Wong, Nishant Bhat",2007-08-15,,pgroup=Measurement&show=1.csv
+BBa_I20259,Measurement Kit Test of J23113,919,,,Not Released,,It's complicated,None,Not Used,Endy Lab,Jason Kelly,2008-01-08,,pgroup=Measurement&show=1.csv
+BBa_I20261,Measurement Kit Test of J23116,919,1,,Not Released,,It's complicated,,Not Used,Endy Lab,Jason Kelly,2008-01-08,,pgroup=Measurement&show=1.csv
+BBa_I20262,RBS Measkit testing B0030,920,,,Not Released,,It's complicated,,Not Used,Endy Lab,Jason Kelly,2008-01-21,,pgroup=Measurement&show=1.csv
+BBa_I20263,RBS Measkit testing B0029,921,,,Not Released,,It's complicated,None,Not Used,Endy Lab,Jason Kelly,2008-01-21,,pgroup=Measurement&show=1.csv
+BBa_I20264,RBS Measkit testing B0033,917,,,Not Released,,It's complicated,,Not Used,Endy Lab,Jason Kelly,2008-01-21,,pgroup=Measurement&show=1.csv
+BBa_I20265,RBS Measkit testing B0034,918,,,Not Released,BBa_J69591;BBa_K176012;BBa_K256002;BBa_K783073;BBa_K1679001;BBa_K1628301;BBa_K1650012;BBa_I20500;BBa_J364000;BBa_J364006,It's complicated,,Not Used,Endy Lab,Jason Kelly,2008-01-21,,pgroup=Measurement&show=1.csv
+BBa_I20266,RBS Measkit testing J61100,918,,,Not Released,,It's complicated,,Not Used,Endy Lab,Jason Kelly,2008-01-21,,pgroup=Measurement&show=1.csv
+BBa_I20267,Promoter MeasKit (J23105),919,,,Not Released,,It's complicated,,Not Used,Endy Lab,Jason Kelly,2008-02-06,,pgroup=Measurement&show=1.csv
+BBa_I20268,Promoter MeasKit (J23102),919,,,Not Released,BBa_K1379052,It's complicated,None,Not Used,Endy Lab,Jason Kelly,2008-02-06,,pgroup=Measurement&show=1.csv
+BBa_I2045,mCherry & GFP expression device for testing a biological virtual machine,1943,,,Not Released,,Not in stock,,Not Used,iGEM2006_MIT,Bartholomew Canton,2007-06-08,,pgroup=Measurement&show=1.csv
+BBa_I2046,mCherry & GFP expression device for testing a biological virtual machine,1943,,,Not Released,,Not in stock,,Not Used,iGEM2006_MIT,Bartholomew Canton,2007-06-08,,pgroup=Measurement&show=1.csv
+BBa_I2047,mCherry & GFP expression device for testing a biological virtual machine,1943,,,Not Released,,Not in stock,,Not Used,iGEM2006_MIT,Bartholomew Canton,2007-06-08,,pgroup=Measurement&show=1.csv
+BBa_I2055,RBS tester with GFP,917,,,Not Released,,Not in stock,,Not Used,iGEM2006_MIT,Jason Kelly,2007-06-21,,pgroup=Measurement&show=1.csv
+BBa_I2056,RFP-based RBS tester,903,,,Not Released,BBa_K1605000,Not in stock,,Not Used,iGEM2006_MIT,Jason Kelly,2007-07-02,,pgroup=Measurement&show=1.csv
+BBa_I5131,R0053.B0034.E0030.B0014,906,,Antiquity:5,Not Released,,It's complicated,Works,Not Used,MIT,Reshma Shetty,2005-05-13,,pgroup=Measurement&show=1.csv
+BBa_I6000,QPI Curve Test I0500.E0422.I0500.E0432,4278,,,Not Released,,It's complicated,,Not Used,Antiquity,"Caitlin Conboy, Jennifer Braff",2003-12-05,,pgroup=Measurement&show=1.csv
+BBa_I6001,QPI Curve Test I0500.E0422.I0500.Q04121.E0432,5657,1,,Not Released,,It's complicated,,Not Used,Antiquity,"Caitlin Conboy, Jennifer Braff",2003-12-05,,pgroup=Measurement&show=1.csv
+BBa_I6004,QPI Curve Test I0500.E0422.I0500.Q04122.E0432,5802,,,Not Released,,Not in stock,,Not Used,Antiquity,"Caitlin Conboy, Jennifer Braff",2003-12-05,,pgroup=Measurement&show=1.csv
+BBa_I6007,QPI Curve Test I0500.E0422.I0500.Q04400.E0432,5188,1,,Not Released,,It's complicated,,Not Used,Antiquity,"Caitlin Conboy, Jennifer Braff",2003-12-05,,pgroup=Measurement&show=1.csv
+BBa_I6010,QPI Curve Test I0500.E0422.I0500.Q04500.E0432,5273,,,Not Released,,Not in stock,,Not Used,Antiquity,"Caitlin Conboy, Jennifer Braff",2003-12-05,,pgroup=Measurement&show=1.csv
+BBa_I6013,QPI Curve Test I0500.E0422.I0500.Q04510.E0432,5273,1,,Not Released,,It's complicated,,Not Used,Antiquity,"Caitlin Conboy, Jennifer Braff",2003-12-05,,pgroup=Measurement&show=1.csv
+BBa_I6016,QPI Curve Test I0500.E0422.I0500.Q04511.E0432,5321,1,,Not Released,,It's complicated,,Not Used,Antiquity,"Caitlin Conboy, Jennifer Braff",2003-12-05,,pgroup=Measurement&show=1.csv
+BBa_I6019,QPI Curve Test I0500.E0422.I0500.Q04520.E0432,5189,1,,Not Released,,It's complicated,,Not Used,Antiquity,"Caitlin Conboy, Jennifer Braff",2003-12-05,,pgroup=Measurement&show=1.csv
+BBa_I6022,QPI Curve Test I0500.E0422.I0500.Q04530.E0432,5215,,,Not Released,,It's complicated,,Not Used,Antiquity,"Caitlin Conboy, Jennifer Braff",2003-12-05,,pgroup=Measurement&show=1.csv
+BBa_I6300,QPI Curve Test I0500.E0420.I0500.E0430,4200,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,cconboy,2004-05-10,,pgroup=Measurement&show=1.csv
+BBa_I6301,QPI Curve Test I0500.E0420.I0500.Q04121.E0430,5579,1,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,cconboy,2004-05-10,,pgroup=Measurement&show=1.csv
+BBa_I6307,QPI Curve Test I0500.E0420.I0500.Q04400.E0430,5110,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,cconboy,2004-05-10,,pgroup=Measurement&show=1.csv
+BBa_I6313,QPI Curve Test I0500.E0420.I0500.Q04510.E0430,5195,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,cconboy,2004-05-10,,pgroup=Measurement&show=1.csv
+BBa_I6316,QPI Curve Test I0500.E0420.I0500.Q04511.E0430,5243,1,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,cconboy,2004-05-10,,pgroup=Measurement&show=1.csv
+BBa_I6319,QPI Curve Test I0500.E0420.I0500.Q04520.E0430,5111,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,cconboy,2004-05-10,,pgroup=Measurement&show=1.csv
+BBa_I6322,QPI Curve Test I0500.E0420.I0500.Q04530.E0430,5137,1,Antiquity:0,Not Released,,It's complicated,None,Not Used,Antiquity,cconboy,2004-05-10,,pgroup=Measurement&show=1.csv
+BBa_I6401,YFP(AAV tagged) Reporter Device,979,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Alex Mallet,2004-10-15,,pgroup=Measurement&show=1.csv
+BBa_I6402,YFP(AAV tagged) Reporter Device,1076,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,Alex Mallet,2004-10-15,,pgroup=Measurement&show=1.csv
+BBa_I6413,Promoter high output protein generator,587,,,Not Released,,It's complicated,,4 Uses,iGEM07_Example,Reshma Shetty,2008-01-09,,pgroup=Measurement&show=1.csv
+BBa_I7011,R0010.E0021.B0011.E0031,1750,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-04-23,,pgroup=Measurement&show=1.csv
+BBa_I7012,R0010.E0021.B0012.E0031,1745,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-04-23,,pgroup=Measurement&show=1.csv
+BBa_I7013,R0010.E0021.B0013.E0031,1751,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-04-23,,pgroup=Measurement&show=1.csv
+BBa_I7014,R0010.E0021.B0014.E0031,1799,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-04-23,,pgroup=Measurement&show=1.csv
+BBa_I7015,R0010.E0021.B0015.E0031,1833,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-04-23,,pgroup=Measurement&show=1.csv
+BBa_I7021,R0010.E0021.B0021.E0031,1750,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-04-23,,pgroup=Measurement&show=1.csv
+BBa_I7022,R0010.E0021.B0022.E0031,1745,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-04-23,,pgroup=Measurement&show=1.csv
+BBa_I7023,R0010.E0021.B0023.E0031,1751,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-04-23,,pgroup=Measurement&show=1.csv
+BBa_I7025,R0010.E0021.B0025.E0031,1833,,,Not Released,,Not in stock,,Not Used,Antiquity,Caitlin Conboy,2004-04-23,,pgroup=Measurement&show=1.csv
+BBa_I7100,TetR repressible GFP generator,940,,Antiquity:0;Kahaynes:0;Reshma Shetty:5,Not Released,BBa_J01076;BBa_K136030;BBa_K082019,It's complicated,Works,1 Uses,Antiquity,Jennifer Braff,2004-10-26,,pgroup=Measurement&show=1.csv
+BBa_I7101,R0040.B0032.E0040.B0015,938,,Antiquity:0,Not Released,BBa_K145252;BBa_K204011;BBa_J107040,It's complicated,None,8 Uses,Antiquity,jcbraff,2004-10-26,,pgroup=Measurement&show=1.csv
+BBa_I7106,R0011.E0840,941,,,Not Released,,It's complicated,,Not Used,Registry,Jennifer Braff,2005-07-28,,pgroup=Measurement&show=1.csv
+BBa_I7109,R0053.E0240,938,,,Not Released,,It's complicated,,Not Used,Registry,Jennifer Braff,2005-07-28,,pgroup=Measurement&show=1.csv
+BBa_I7120,R0040.B0030.E0040.M0100.B0015,1033,,Antiquity:0,Not Released,,It's complicated,None,Not Used,Registry,jcbraff,2005-05-17,,pgroup=Measurement&show=1.csv
+BBa_I7150,R0040.B0030.E0044.B0015,979,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,jcbraff,2004-10-26,,pgroup=Measurement&show=1.csv
+BBa_I7151,R0040.B0032.E0044.B0015,977,,Antiquity:0,Not Released,,Not in stock,None,Not Used,Antiquity,jcbraff,2004-10-26,,pgroup=Measurement&show=1.csv
+BBa_I718021,lox66-SpeI-mRFP ,2982,,,Not Released,,It's complicated,,Not Used,iGEM07_Paris,Eimad Shotar,2007-10-26,,pgroup=Measurement&show=1.csv
+BBa_I721008,Dual Luciferase Assay for Promoters (dlap),3012,,,Not Released,,Not in stock,,Not Used,iGEM07_Brown,John Cumbers,2008-02-27,,pgroup=Measurement&show=1.csv
+BBa_I732700,P_NOT_D001O1wt1 + Double Reporters,1268,,,Not Released,,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732701,P_NOT_D001O11 + Double Reporters,1267,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732703,P_NOT_D001O33 + Double Reporters,1267,,,Not Released,,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732704,P_NOT_D001O44 + Double Reporters,1267,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732705,P_NOT_D001O55 + Double Reporters,1267,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732706,P_NOT_D001O66 + Double Reporters,1267,,,Not Released,,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732707,P_NOT_D001O77 + Double Reporters,1267,,,Not Released,,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732708,P_NOT_D001O12 + Double Reporters,1267,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732710,P_NOT_D001O17 + Double Reporters,1267,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732711,P_NOT_D001O21 + Double Reporters,1267,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732712,P_NOT_D001O24 + Double Reporters,1267,,,Not Released,,It's complicated,None,1 Uses,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732713,P_NOT_D001O26 + Double Reporters,1267,,,Not Released,,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732714,P_NOT_D001O27 + Double Reporters,1267,,,Not Released,,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732715,P_NOT_D001O46 + Double Reporters,1267,,,Not Released,,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732716,P_NOT_D001O47 + Double Reporters,1267,,,Not Released,,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732717,P_NOT_D001O61 + Double Reporters,1267,,,Not Released,,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732718,P_NAND_U073O26D001O16 + Double Reporters,1263,,,Not Released,,It's complicated,None,1 Uses,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732719,P_NAND_U073O27D001O17 + Double Reporters,1263,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732721,P_NAND_U073O22D001O47 + Double Reporters,1263,,,Not Released,BBa_I732753,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732722,P_NAND_U073O22D059O46 + Double Reporters,1321,,,Not Released,,It's complicated,None,1 Uses,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732723,P_NOR_U037O11D002O22 + Double Reporters,1228,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732724,P_NOR_U035O44D001O22 + Double Reporters,1225,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-14,,pgroup=Measurement&show=1.csv
+BBa_I732726,P_U097O11+D062NUL + Double Reporters,1328,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732728,P_U073O11+D062NUL + Double Reporters,1304,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732729,P_U061O11+D062NUL + Double Reporters,1292,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732731,P_U037O11+D062NUL + Double Reporters,1268,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732732,P_U097NUL+D002O22 + Double Reporters,1268,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732734,P_U097NUL+D026O22 + Double Reporters,1292,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732735,P_U097NUL+D038O22 + Double Reporters,1304,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732736,P_U097NUL+D050O22 + Double Reporters,1316,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732737,P_U097NUL+D062O22 + Double Reporters,1328,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732740,P_D01O12 + Double Reporters (lacZ+RFP),1253,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732741,P_D01O16 + Double Reporters (lacZ+RFP),1253,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732742,P_D01O17 + Double Reporters (lacZ+RFP),1253,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732743,P_D01O21 + Double Reporters (lacZ+RFP),1253,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732746,P_U073O26+D062NUL + Double Reporters (lacZa+RFP),1290,,,Not Released,,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732747,P_U073O27+D062NUL + Double Reporters (lacZa+RFP),1290,,,Not Released,BBa_I732748,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732748,P_U073O26+D062O61 + Double Reporters (lacZa+RFP),1290,,,Not Released,BBa_I732747,Not in stock,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732751,P_U073O27+D062NUL + Double Reporters,1304,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732752,P_U073O26+D062O61 + Double Reporters,1324,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732753,P_U073O22+D001O47 + Double Reporters,1263,,,Not Released,BBa_I732721,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Measurement&show=1.csv
+BBa_I732754,P_U073O11+D002O22 + Double Reporters,1264,,,Not Released,,It's complicated,None,Not Used,iGEM07_USTC,Zhan Jian,2007-10-26,,pgroup=Measurement&show=1.csv
+BBa_I732901,R0010 I732019,3438,,Calgary 2011:4;Lri:5,Not Released,,It's complicated,Works,Not Used,iGEM07_USTC,Zhan Jian,2007-10-03,,pgroup=Measurement&show=1.csv
+BBa_I732914,P_NAND_U073O26D001O16 + RFP,989,,,Not Released,,It's complicated,Works,Not Used,iGEM07_USTC,Ma Rui,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I732917,P_NOR_U035O44D001O22 + RFP,951,,,Not Released,,It's complicated,Works,3 Uses,iGEM07_USTC,Ma Rui,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I744101,Tetracycline sensor with weak promoter,1831,,,Not Released,,It's complicated,None,Not Used,iGEM07_Rice,Thomas Segall-Shapiro,2007-07-18,,pgroup=Measurement&show=1.csv
+BBa_I744102,Tetracycline sensor with medium-strength promoter,1831,,,Not Released,,It's complicated,None,Not Used,iGEM07_Rice,Thomas Segall-Shapiro,2007-07-18,,pgroup=Measurement&show=1.csv
+BBa_I744103,Tetracycline sensor with strong promoter ,1831,,,Not Released,,Not in stock,None,Not Used,iGEM07_Rice,Thomas Segall-Shapiro,2007-07-18,,pgroup=Measurement&show=1.csv
+BBa_I744104,tetracycline sensor with ptet promoter ,1850,,,Not Released,BBa_I13110,It's complicated,Works,Not Used,iGEM07_Rice,Thomas Segall-Shapiro,2007-07-18,,pgroup=Measurement&show=1.csv
+BBa_I758600,Screen for binding affinity of mutant cI lambda to promotor sites,959,,,Not Released,BBa_I5010;BBa_I758601;BBa_K1960005,It's complicated,,Not Used,iGEM07_Duke,Eric Josephs,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I758601,Screen for binding affinity of mutant cI lambda to promotor sites,959,,,Not Released,BBa_I5010;BBa_I758600;BBa_K1960005,It's complicated,,Not Used,iGEM07_Duke,Eric Josephs,2007-10-17,,pgroup=Measurement&show=1.csv
+BBa_I763019,CI and LacY coding device switched on by IPTG with GFP as a reporter,3237,,,Not Released,,It's complicated,Issues,1 Uses,iGEM07_Bologna,Alice Pasini,2007-08-21,,pgroup=Measurement&show=1.csv
+BBa_I763021,LacI coding device with ECFP as a reporter regulated by pCMV,2699,,,Not Released,,Not in stock,Fails,Not Used,iGEM07_Bologna,Alice Pasini,2007-09-06,,pgroup=Measurement&show=1.csv
+BBa_I763031,cI coding device switched on by IPTG with GFP as a reporter,1923,,,Not Released,,It's complicated,Issues,Not Used,iGEM07_Bologna,Alice Pasini,2007-10-04,,pgroup=Measurement&show=1.csv
+BBa_I763032,LacY coding device switched on by IPTG with GFP as a reporter,2436,,,Not Released,,It's complicated,Issues,Not Used,iGEM07_Bologna,Alice Pasini,2007-10-04,,pgroup=Measurement&show=1.csv
+BBa_I763034,PTetR and PLac activities tester,2053,,,Not Released,,Not in stock,Fails,Not Used,iGEM07_Bologna,Alice Pasini,2007-10-04,,pgroup=Measurement&show=1.csv
+BBa_I763035,LacI coding device regulated by pTetR with GFP as a reporter,2155,,,Not Released,,It's complicated,Works,Not Used,iGEM07_Bologna,Alice Pasini,2007-10-04,,pgroup=Measurement&show=1.csv
+BBa_I765008,TonB Iron channel -  EYFP reporter,1621,,,Not Released,,It's complicated,None,Not Used,iGEM07_Colombia_Israel,Juan David Lobaton and Alex Quintero,2007-10-26,,pgroup=Measurement&show=1.csv
+BBa_I765009,ExbB iron channel - EYFP reporter,1621,,,Not Released,,It's complicated,None,Not Used,iGEM07_Colombia_Israel,Sandra Garcia and Alex Quintero,2007-10-26,,pgroup=Measurement&show=1.csv
+BBa_I8500,3OC6HSL->Inverter->lacZalpha,3250,,,Not Released,,It's complicated,,1 Uses,iGEM07_Example,Reshma Shetty,2008-01-09,,pgroup=Measurement&show=1.csv
+BBa_I8501,3OC6HSL->Inverter->lacZ,5946,,,Not Released,,It's complicated,,Not Used,iGEM07_Example,Reshma Shetty,2008-05-06,,pgroup=Measurement&show=1.csv
+BBa_I8510,3OC6HSL->Inverter->lacZalpha with orthogonal GFP protein generator,4198,,,Not Released,,It's complicated,,Not Used,iGEM07_Example,Reshma Shetty,2008-01-09,,pgroup=Measurement&show=1.csv
+BBa_I8521,3OC6HSL->Inverter->GFP,3594,,,Not Released,,It's complicated,,Not Used,iGEM07_Example,Reshma Shetty,2008-05-06,,pgroup=Measurement&show=1.csv
+BBa_I8525,3OC6HSL->Inverter->lacZalpha,2433,,,Not Released,,Not in stock,,Not Used,iGEM07_Example,Reshma Shetty,2008-05-06,,pgroup=Measurement&show=1.csv
+BBa_I8540,PoPS->Inverter->GFP,2525,,,Not Released,,It's complicated,,Not Used,iGEM07_Example,Reshma Shetty,2008-05-06,,pgroup=Measurement&show=1.csv
+BBa_J05000,Zinc Finger Protein Tester,2376,,,Not Released,,Not in stock,,1 Uses,iGEM2005,NOR-Group,2005-08-29,,pgroup=Measurement&show=1.csv
+BBa_J05503,Sensing Device A (cI) TESTER (Pr+GFP+Prm+RFP),4270,,Antiquity:0,Not Released,,It's complicated,None,Not Used,iGEM2005,ETH Zurich iGEM Team 2005,2005-09-22,,pgroup=Measurement&show=1.csv
+BBa_J05504,Sensing Device B (cI+LVA) TESTER (Pr+GFP+Prm+RFP),4236,,Antiquity:0,Not Released,,It's complicated,None,Not Used,iGEM2005,ETH Zurich iGEM Team 2005,2005-09-22,,pgroup=Measurement&show=1.csv
+BBa_J05505,Lambda-lacI input system TESTER (IPTG controlled lacI+pL efficiency),2316,,Antiquity:0,Not Released,BBa_J69705,Not in stock,None,Not Used,iGEM2005,ETH Zurich iGEM Team 2005,2005-09-22,,pgroup=Measurement&show=1.csv
+BBa_J07005,PhoA (E.coli JM83 alkaline phosphatase gene),1416,,Antiquity:0,Not Released,,It's complicated,None,1 Uses,iGEM2005,igem_mit_2005,2005-07-05,,pgroup=Measurement&show=1.csv
+BBa_J07027,ToxR'::PhoA (with promoter and RBS and terminator),2274,,Antiquity:0,Not Released,,Not in stock,None,Not Used,iGEM2005,jenmitch,2005-07-14,,pgroup=Measurement&show=1.csv
+BBa_J07028,ToxR'::MalE(with promoter and RBS and terminator),2047,,Antiquity:0,Not Released,,Not in stock,None,Not Used,iGEM2005,jenmitch,2005-07-14,,pgroup=Measurement&show=1.csv
+BBa_J100049,reference lacZa.GFP fusion,1017,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Malcolm Campbell,2012-01-04,,pgroup=Measurement&show=1.csv
+BBa_J100062,pLac+BD18+RFP_withoutATG no scars,822,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Malcolm Campbell,2012-01-10,,pgroup=Measurement&show=1.csv
+BBa_J100091,For Testing New Promoters via Golden Gate Assembly,926,,,Not Released,,Not in stock,Works,Not Used,Campbell_M_Lab,Malcolm Campbell and Todd Eckdahl,2012-08-20,,pgroup=Measurement&show=1.csv
+BBa_J100161,weak promoter+theophylline riboswitch+thyA,937,,,Not Released,,Not in stock,,Not Used,Campbell_M_Lab,Telavive Taye,2014-06-19,,pgroup=Measurement&show=1.csv
+BBa_J100199,Fitness Gene Tester + LVA degradation tag,245,,,Not Released,BBa_J100173,Not in stock,Works,Not Used,Campbell_M_Lab,Telavive Taye,2014-09-15,,pgroup=Measurement&show=1.csv
+BBa_J100237,Original Nitrate Biosensor (O),1799,,,Not Released,,Not in stock,None,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2015-10-08,,pgroup=Measurement&show=1.csv
+BBa_J100251,pClone Cherry,1718,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Malcolm Campbell,2016-03-16,,pgroup=Measurement&show=1.csv
+BBa_J100256,L Nitrate Biosensor (left),1799,,,Not Released,,Not in stock,None,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-05-16,,pgroup=Measurement&show=1.csv
+BBa_J100257,R Nitrate Biosensor (right) ,1800,,,Not Released,,Not in stock,None,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-05-16,,pgroup=Measurement&show=1.csv
+BBa_J100258,B Nitrate Biosensor (both),1800,,,Not Released,,Not in stock,None,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-05-16,,pgroup=Measurement&show=1.csv
+BBa_J100259,DL Nitrate Biosensor ,1641,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-06-08,,pgroup=Measurement&show=1.csv
+BBa_J100260,DB Nitrate Biosensor ,1642,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-06-08,,pgroup=Measurement&show=1.csv
+BBa_J100273,tCloneTet+PDB riboswitch with P2,1408,,,Not Released,,Not in stock,None,-1 Uses,Campbell_M_Lab,Anna Buser,2016-06-24,,pgroup=Measurement&show=1.csv
+BBa_J100274,tCloneTet+PDB riboswitch with P14 ,1398,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Anna Buser,2016-06-24,,pgroup=Measurement&show=1.csv
+BBa_J100275,tCloneTet+PDB riboswitch with P9,1397,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Anna Buser,2016-06-24,,pgroup=Measurement&show=1.csv
+BBa_J100276,tCLoneTet+PDB riboswitch with P4 ,1398,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Anna Buser,2016-06-24,,pgroup=Measurement&show=1.csv
+BBa_J100277,tCloneTet+PDB riboswitch with P14 and BD10,1398,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Anna Buser,2016-06-24,,pgroup=Measurement&show=1.csv
+BBa_J100278,tCLone Tet+PDB riboswitch with P14 and BD2,1398,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Anna Buser,2016-06-24,,pgroup=Measurement&show=1.csv
+BBa_J100279,tClone Tet+PDB riboswitch with P9 and BD10,1397,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Anna Buser,2016-06-24,,pgroup=Measurement&show=1.csv
+BBa_J100280,tClone Tet+PDB riboswitch with P9 and BD2,1397,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Anna Buser,2016-06-24,,pgroup=Measurement&show=1.csv
+BBa_J100289,Pnar7 Nitrate Biosensor ,1803,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-07-12,,pgroup=Measurement&show=1.csv
+BBa_J100290,O Biosensor + NarX ,3194,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-07-13,,pgroup=Measurement&show=1.csv
+BBa_J100291,L Biosensor + NarX,3194,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-07-13,,pgroup=Measurement&show=1.csv
+BBa_J100292,R Biosensor + NarX,3195,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-07-13,,pgroup=Measurement&show=1.csv
+BBa_J100293,B Biosensor + NarX,3195,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-07-13,,pgroup=Measurement&show=1.csv
+BBa_J100294,DL Biosensor + NarX,3036,,,Not Released,,Not in stock,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-07-13,,pgroup=Measurement&show=1.csv
+BBa_J100295,DB Biosensor + NarX,,,,Not Released,,No part sequence,,-1 Uses,Campbell_M_Lab,Shuk Hang Li,2016-07-13,,pgroup=Measurement&show=1.csv
+BBa_J10050,weak promoter + weak RBS + lacZa.GFP fusion,1017,,,Not Released,BBa_I20293,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-04,,pgroup=Measurement&show=1.csv
+BBa_J10051,weak promoter + strong RBS + lacZa.GFP fusion,1015,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-04,,pgroup=Measurement&show=1.csv
+BBa_J10052,weak promoter + med RBS + lacZa.GFP fusion,1016,,,Not Released,,Not in stock,None,Not Used,iGEM2005,Malcolm Campbell,2012-01-04,,pgroup=Measurement&show=1.csv
+BBa_J10053,med promoter + weak RBS + lacZa.GFP fusion,1017,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-04,,pgroup=Measurement&show=1.csv
+BBa_J10054,med promoter + med RBS + lacZa.GFP fusion,1016,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-04,,pgroup=Measurement&show=1.csv
+BBa_J10055,med promoter + strong RBS + lacZa.GFP fusion,1015,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-04,,pgroup=Measurement&show=1.csv
+BBa_J10056,strong promoter + weak RBS + lacZa.GFP fusion,1017,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-04,,pgroup=Measurement&show=1.csv
+BBa_J10057,strong promoter + med RBS + lacZa.GFP fusion,1016,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-04,,pgroup=Measurement&show=1.csv
+BBa_J10058,strong promoter + strong RBS + lacZa.GFP fusion,1015,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-04,,pgroup=Measurement&show=1.csv
+BBa_J10059,pBad+BD18+RFP_withoutATG,912,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-10,,pgroup=Measurement&show=1.csv
+BBa_J10060,pBad+BD18+RFP_withoutATG no scars,896,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-10,,pgroup=Measurement&show=1.csv
+BBa_J10061,pTet+BD18+RFP_withoutATG no scars,820,,,Not Released,,Not in stock,,Not Used,iGEM2005,Malcolm Campbell,2012-01-10,,pgroup=Measurement&show=1.csv
+BBa_J10064,Lux Operon Vibrio fischeri from part K325909,6427,,,Not Released,BBa_K785003,It's complicated,,Not Used,iGEM2005,Malcolm Campbell,2012-01-10,,pgroup=Measurement&show=1.csv
+BBa_J107010,R0011 measurement system (with RFP),924,,,Not Released,BBa_J01106;BBa_J5526,It's complicated,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-06-01,,pgroup=Measurement&show=1.csv
+BBa_J107012,PlacIQ measurement system (with RFP),906,,,Not Released,,Not in stock,Works,2 Uses,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-06-01,,pgroup=Measurement&show=1.csv
+BBa_J107014,Heat-inducible lysis device,2722,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,"Lorenzo Pasotti, Manuel Lupotto",2010-06-20,,pgroup=Measurement&show=1.csv
+BBa_J107015,Constitutive generator of GFP (J23118) and RFP (R0051),1845,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-08-31,,pgroup=Measurement&show=1.csv
+BBa_J107016,Constitutive generator of RFP (R0051) and GFP (J23118),1845,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-08-31,,pgroup=Measurement&show=1.csv
+BBa_J107017,Constitutive generator of GFP (J23118) and RFP (I14032),1833,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-08-31,,pgroup=Measurement&show=1.csv
+BBa_J107018,Constitutive generator of RFP (I14032) and GFP (J23118),1833,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-08-31,,pgroup=Measurement&show=1.csv
+BBa_J107019,tetR QPI measurement system (input=R0011) (output=GFP),1849,,Lorenzo Pasotti:0,Not Released,,Not in stock,None,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-08-31,,pgroup=Measurement&show=1.csv
+BBa_J107020,aTc sensor (J23101 promoter) with GFP,1829,,,Not Released,,Not in stock,,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-12-17,,pgroup=Measurement&show=1.csv
+BBa_J107021,aTc sensor (J23106 promoter) with GFP,1829,,,Not Released,BBa_K737052,It's complicated,,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-12-17,,pgroup=Measurement&show=1.csv
+BBa_J107022,R0061 measurement system,914,,,Not Released,BBa_K396012,Not in stock,Works,1 Uses,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-12-17,,pgroup=Measurement&show=1.csv
+BBa_J107023,R0061 measurement system (with RFP),899,,,Not Released,,Not in stock,Works,2 Uses,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-12-17,,pgroup=Measurement&show=1.csv
+BBa_J107024,3OC6HSL-repressible device with GFP,1920,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-12-31,,pgroup=Measurement&show=1.csv
+BBa_J107025,3OC6HSL-repressible device with RFP,1905,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-12-31,,pgroup=Measurement&show=1.csv
+BBa_J107026,3OC6HSL-dependent positive/negative switch,2852,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2010-12-31,,pgroup=Measurement&show=1.csv
+BBa_J107029,J23101 measurement system (with RFP),904,,,Not Released,BBa_K783068;BBa_K1650000;BBa_K1650003,It's complicated,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2012-10-13,,pgroup=Measurement&show=1.csv
+BBa_J107031,J23118 measurement system (with RFP),904,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2012-10-13,,pgroup=Measurement&show=1.csv
+BBa_J107032,F2620 measurement system (with RFP),1930,,,Not Released,BBa_I13549;BBa_I731012,It's complicated,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2012-10-13,,pgroup=Measurement&show=1.csv
+BBa_J107035,heat-inducible RFP,1798,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2013-07-15,,pgroup=Measurement&show=1.csv
+BBa_J107037,promoter-less NOT gate expressing RFP,1773,,,Not Released,BBa_K1913010,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2013-07-15,,pgroup=Measurement&show=1.csv
+BBa_J107038,HSL-inducible device + NOT gate + RFP,2843,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2013-07-15,,pgroup=Measurement&show=1.csv
+BBa_J107039,heat-inducible device + NOT gate + RFP,2710,,,Not Released,,Not in stock,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2013-07-15,,pgroup=Measurement&show=1.csv
+BBa_J107040,PtetR expressing GFP,938,,,Not Released,BBa_I7101;BBa_K145252;BBa_K204011,It's complicated,Works,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2013-07-15,,pgroup=Measurement&show=1.csv
+BBa_J107042,RFP-GFP operon under Plux,2677,,,Not Released,,Not in stock,,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2013-12-02,,pgroup=Measurement&show=1.csv
+BBa_J107043,GFP-RFP operon under Plux,2677,,,Not Released,,Not in stock,,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2013-12-02,,pgroup=Measurement&show=1.csv
+BBa_J107044,RFP-GFP operon under Plux,2679,,,Not Released,,Not in stock,,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2015-01-18,,pgroup=Measurement&show=1.csv
+BBa_J107045,GFP-RFP operon under Plux,2679,,,Not Released,,Not in stock,,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2015-01-18,,pgroup=Measurement&show=1.csv
+BBa_J107053,IPTG and 3OC6HSL inducible mRFP generator,1931,,,Not Released,,Not in stock,None,Not Used,Magni_UNIPV_Lab,Giacomo Zambianchi,2010-10-30,,pgroup=Measurement&show=1.csv
+BBa_J107054,adhB inducible system (aTc),1375,,,Not Released,,Not in stock,,Not Used,Magni_UNIPV_Lab,Lorenzo Pasotti,2011-01-02,,pgroup=Measurement&show=1.csv
+BBa_J119023,RFP GGA BD18 destination vector - BbsI and BsaI,944,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Samantha Huckuntod,2011-12-14,,pgroup=Measurement&show=1.csv
+BBa_J119044,RFP GGA destination vector BsaI,926,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Todd Eckdahl and A. Malcolm Campbell,2012-01-06,,pgroup=Measurement&show=1.csv
+BBa_J119054,pLacI-RBS-T7 RNAP + RFPrev-RBSrev-pT7rev,3590,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Cody Barta,2012-01-26,,pgroup=Measurement&show=1.csv
+BBa_J119093,pT7-RBS-RFP-pLac+tRNA CCAAU+pLac+tRNA CUAGC+pLac+tRNA CUACC,1832,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Catherine Doyle,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119094,pT7-RBS-RFP-pLac+tRNA CCAAU+pLac+tRNA CUAGC+pLac+tRNA CUACU ,1832,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Michel Conn,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119095,pT7-RBS-RFP-pLac+tRNA CUAAU+pLac+tRNA AGGAC+pLac+tRNA CUACU ,1832,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Michel Conn,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119096,pT7-RBS-RFP-pLac+tRNA CCACC+pLac+tRNA AGGAC+pLac+tRNA CUACU ,1832,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Jerrad Morton,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119097,pT7-RBS-RFP-pLac+tRNA CCACC+pLac+tRNA CUAGC+pLac+tRNA CUACC ,1832,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Jerrad Morton,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119098,pT7-RBS-RFP-pLac+tRNA CCACC+pLac+tRNA CUAGC+pLac+tRNA CUACU,1832,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Catherine Doyle,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119099,pT7-RBS-RFP-pLac+tRNA CCACC+pLac+tRNA AGGAC+pLac+tRNA CUACC ,1832,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Catherine Doyle,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119100,pT7-RBS-RFP-pLac+tRNA CCAAU+pLac+tRNA AGGAC+pLac+tRNA CUACC ,1832,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Catherine Doyle,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119101,pT7-RBS-GFP-pLac+tRNA CCAAU+pLac+tRNA CUAGC+pLac+tRNA CUACC ,1849,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Cody Barta,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119102,pT7-RBS-GFP-pLac+tRNA CCAAU+pLac+tRNA CUAGC+pLac+tRNA CUACU ,1849,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Cody Barta,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119103,pT7-RBS-GFP-pLac+tRNA CUAAU+pLac+tRNA AGGAC+pLac+tRNA CUACU ,1849,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Cody Barta,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119104,pT7-RBS-GFP-pLac+tRNA CCACC+pLac+tRNA AGGAC+pLac+tRNA CUACU ,1849,,,Not Released,BBa_J119088,Not in stock,None,Not Used,Eckdahl_Lab,Cody Barta,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119105,pT7-RBS-GFP-pLac+tRNA CCACC+pLac+tRNA CUAGC+pLac+tRNA CUACC ,1849,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Jerrad Morton,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119106,pT7-RBS-GFP-pLac+tRNA CCACC+pLac+tRNA CUAGC+pLac+tRNA CUACU ,1849,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Jerrad Morton,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119107,pT7-RBS-GFP-pLac+tRNA CCACC+pLac+tRNA AGGAC+pLac+tRNA CUACC ,1849,,,Not Released,BBa_J119087,Not in stock,None,Not Used,Eckdahl_Lab,Michel Conn,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119108,pT7-RBS-GFP-pLac+tRNA CCAAU+pLac+tRNA AGGAC+pLac+tRNA CUACC ,1849,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Michel Conn,2012-04-24,,pgroup=Measurement&show=1.csv
+BBa_J119109,pT7-RBS-RFP-pLac+tRNA CCAAU,1114,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Jerrad Morton,2012-04-28,,pgroup=Measurement&show=1.csv
+BBa_J119110,pT7-RBS-RFP-pLac+tRNA CCACC,1114,,,Not Released,BBa_K199170,It's complicated,None,Not Used,Eckdahl_Lab,Jerrad Morton,2012-05-01,,pgroup=Measurement&show=1.csv
+BBa_J119111,pT7-RBS-RFP-pLac+tRNA AGGAC,1114,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Cody Barta,2012-05-01,,pgroup=Measurement&show=1.csv
+BBa_J119112,pT7-RBS-RFP-pLac+tRNA CUAGC,1114,,,Not Released,BBa_K199169,It's complicated,None,Not Used,Eckdahl_Lab,Cody Barta,2012-05-01,,pgroup=Measurement&show=1.csv
+BBa_J119113,pT7-RBS-RFP-pLac+tRNA CUACC,1114,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Michel Conn,2012-05-01,,pgroup=Measurement&show=1.csv
+BBa_J119114,pT7-RBS-RFP-pLac+tRNA CUACU,1114,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Michel Conn,2012-05-01,,pgroup=Measurement&show=1.csv
+BBa_J119127,For Testing New Promoters via Golden Gate Assembly with BsmBI,883,,,Not Released,,Not in stock,,1 Uses,Eckdahl_Lab,Todd Eckdahl,2012-10-29,,pgroup=Measurement&show=1.csv
+BBa_J119138,Device for Testing New Promoters via Golden Gate Assembly ,1634,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,"Claire Shinneman, Paul Frederick",2013-01-13,,pgroup=Measurement&show=1.csv
+BBa_J119139,Device for Testing New Promoters via Golden Gate Assembly ,2359,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,Claire Shinneman,2013-01-22,,pgroup=Measurement&show=1.csv
+BBa_J119328,Ammeline Fitness Module with Riboswitch + TetA,1383,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,"Jesse Campbell, Brandon Grieshaber, Sara Pearson, Sachii Polpitya Arachchige ",2013-12-26,,pgroup=Measurement&show=1.csv
+BBa_J119362,pClone Red pTac,1563,,,Not Released,,Not in stock,,Not Used,Eckdahl_Lab,Todd Eckdahl,2014-07-11,,pgroup=Measurement&show=1.csv
+BBa_J119363,"Ammeline Fitness Module with Riboswitch N2 + TetA (T85A, T89A, G93C, T94C, G95T, T96G)",1385,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,"Kelly Cochran, Mike Quaney",2014-07-22,,pgroup=Measurement&show=1.csv
+BBa_J119364,Ammeline Fitness Module with Riboswitch N2 + TetA (T138C),1385,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,"Kelly Cochran, Mike Quaney",2014-07-22,,pgroup=Measurement&show=1.csv
+BBa_J119365,"Ammeline Fitness Module with Riboswitch N2 + TetA (T138C, C160A)",1385,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,"Kelly Cochran, Mike Quaney",2014-07-22,,pgroup=Measurement&show=1.csv
+BBa_J119374,tClone TetA: Device for Testing Transciptional Terminators and Riboswitches via Golden Gate Assembly,2142,,,Not Released,,Not in stock,None,Not Used,Eckdahl_Lab,"Camille Johnson, Helen Webster, Sean Holloran",2014-11-13,,pgroup=Measurement&show=1.csv
+BBa_J119400,tCloneTet+PDB riboswitch with P5 and BD10,726,,,Not Released,,Not in stock,None,-1 Uses,Eckdahl_Lab,Avery Umphreys,2016-07-18,,pgroup=Measurement&show=1.csv
+BBa_J119401, tCloneTet+PDB riboswitch with P5 and BD2,1243,,,Not Released,,Not in stock,None,-1 Uses,Eckdahl_Lab,Avery Umphreys ,2016-07-18,,pgroup=Measurement&show=1.csv
+BBa_J162002,cI RFP,1662,,,Not Released,,Not in stock,,Not Used,Facciotti_Lab,Andrew Yao,2012-08-16,,pgroup=Measurement&show=1.csv
+BBa_J162003,J23101_J61002,2991,,,Not Released,,Not in stock,,Not Used,Facciotti_Lab,Andrew Yao,2012-09-25,,pgroup=Measurement&show=1.csv
+BBa_J24819,dLaRAP firefly luciferase reporter device for promoters with J23101,1818,,,Not Released,,Not in stock,,Not Used,iGEM2006_Brown,John Cumbers,2008-11-11,,pgroup=Measurement&show=1.csv
+BBa_J364000,Test Device 1 for the iGEM InterLab Study,918,,,Not Released,BBa_I20265;BBa_J69591;BBa_K176012;BBa_K256002;BBa_K783073;BBa_K1679001;BBa_K1628301;BBa_K1650012;BBa_I20500;BBa_J364006,It's complicated,None,-1 Uses,Measurement_Lab,Traci Haddock-Angelli,2017-04-19,Spring 2017 Distribution;Spring 2017 Distribution,pgroup=Measurement&show=1.csv
+BBa_J364001,Test Device 2 for the iGEM InterLab Study,918,,,Not Released,BBa_K1679002;BBa_K1628302;BBa_K1650001,Not in stock,None,-1 Uses,Measurement_Lab,Traci Haddock-Angelli,2017-04-19,Spring 2017 Distribution;Spring 2017 Distribution,pgroup=Measurement&show=1.csv
+BBa_J364002,Test Device 3 for the iGEM InterLab Study,918,,,Not Released,BBa_K783078;BBa_K1628303;BBa_K1679003;BBa_K1650002,It's complicated,,-1 Uses,Measurement_Lab,Traci Haddock-Angelli,2017-04-19,Spring 2017 Distribution;Spring 2017 Distribution,pgroup=Measurement&show=1.csv
+BBa_J364003,Test Device 4 for the iGEM InterLab Study,990,,,Not Released,,Not in stock,,-1 Uses,Measurement_Lab,Traci Haddock-Angelli,2017-04-19,Spring 2017 Distribution;Spring 2017 Distribution,pgroup=Measurement&show=1.csv
+BBa_J364004,Test Device 5 for the iGEM InterLab Study,990,,,Not Released,,Not in stock,,-1 Uses,Measurement_Lab,Traci Haddock-Angelli,2017-04-19,Spring 2017 Distribution;Spring 2017 Distribution,pgroup=Measurement&show=1.csv
+BBa_J364005,Test Device 6 for the iGEM InterLab Study,990,,,Not Released,,Not in stock,,-1 Uses,Measurement_Lab,Traci Haddock-Angelli,2017-04-19,Spring 2017 Distribution;Spring 2017 Distribution,pgroup=Measurement&show=1.csv
+BBa_J37016,Predator Molecule Generator Sensing Test (GFP output),1745,1,iGEM@Imperial 2006:5,Not Released,,It's complicated,None,Not Used,iGEM2006_Imperial,Tom Hinson,2006-07-17,,pgroup=Measurement&show=1.csv
+BBa_J48108,pUC57-Sulfur-m3,10106,,,Not Released,,Not in stock,None,Not Used,iGEM2006_PrairieView,Laina Magaya,2006-10-30,,pgroup=Measurement&show=1.csv
+BBa_J5517,Arabinose -> LacI ts -| GFP,3473,,,Not Released,,It's complicated,Works,Not Used,iGEM2006_Toronto,Charles Yoon,2006-10-29,,pgroup=Measurement&show=1.csv
+BBa_J5518,Arabinose -> LacI ts -| mRFP,3458,,,Not Released,,It's complicated,Works,Not Used,iGEM2006_Toronto,Charles Yoon,2006-10-29,,pgroup=Measurement&show=1.csv
+BBa_J692101,CviR-vioA Receiver v2.00 Characterisation Device (GFP),1123,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2010-02-18,,pgroup=Measurement&show=1.csv
+BBa_J695910,Ratiometric Test  9102,1852,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2010-02-18,,pgroup=Measurement&show=1.csv
+BBa_J69604,lacI Inverter Test Construct A,1881,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2009-06-04,,pgroup=Measurement&show=1.csv
+BBa_J69611,CI Inverter Test Device,1993,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2007-04-24,,pgroup=Measurement&show=1.csv
+BBa_J69612,CI Inverter2 Test Device,1898,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2007-04-24,,pgroup=Measurement&show=1.csv
+BBa_J69616,tetR Inverter Test Construct B,1848,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2009-06-04,,pgroup=Measurement&show=1.csv
+BBa_J69711,lacI Inverter Test Device,2408,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2007-04-24,,pgroup=Measurement&show=1.csv
+BBa_J69712,lacI Inverter2 Test Device,1858,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2007-04-24,,pgroup=Measurement&show=1.csv
+BBa_J70121,R0040 regulated expression of a lacZa.GFP fusion protein,1034,,,Not Released,,Not in stock,Works,Not Used,Knight Lab,Austin Che,2009-03-02,,pgroup=Measurement&show=1.csv
+BBa_J70316,Calibration of YFP input to RFP (mcherry) output,1612,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-17,,pgroup=Measurement&show=1.csv
+BBa_J70317,Calibration of RFP (mcherry) input to YFP output,1612,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-17,,pgroup=Measurement&show=1.csv
+BBa_J70344,Calibration of GFP input to RFP (mcherry) output,1610,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-19,,pgroup=Measurement&show=1.csv
+BBa_J70345,Calibration of RFP (mcherry) input to GFP output,1610,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-19,,pgroup=Measurement&show=1.csv
+BBa_J70351," tetT promoter, GFP, B1001, mcherry",1652,,,Not Released,,Not in stock,None,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70352,"tetR promoter, mcherry, B1001, GFP",1652,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70353,"TetR promoter, GFP, B1002, mcherry",1652,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70354," TetR promoter, mcherry, B1002, GFP",1652,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70355,"TetR promoter, GFP, B1003, mcherry",1652,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70356,"TetR promoter, mcherry, B1003, GFP",1652,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70357,"TetR promoter, GFP, B1004, mcherry",1652,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70358,"TetR promoter, mcherry, B1004, GFP",1652,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70359,"TetR promoter, GFP, B1005, mcherry",1652,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70360,"tetR promoter, mcherry, B1005, GFP",1652,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70361,"TetR promoter, GFP, B1006, mcherry",1657,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70362,"TetR promoter, mcherry, B1006, GFP",1657,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70363,"TetR promoter, GFP, B1007, mcherry",1658,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70364,"TetR promoter, mcherry, B1007, GFP",1658,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70365,"TetR promoter, GFP, B1010, mcherry",1658,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70366,"TetR promoter, mcherry, B1010, GFP",1658,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-06-22,,pgroup=Measurement&show=1.csv
+BBa_J70408,"R0010.E0021.B1002.E0031, Terminator test part for B1002",1738,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-06,,pgroup=Measurement&show=1.csv
+BBa_J70409,"R0010.E0021.B1003.E0031, Terminator test part for B1003",1738,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-06,,pgroup=Measurement&show=1.csv
+BBa_J70410,"R0010.E0021.B1004.E0031, Terminator test part for B1004",1738,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-06,,pgroup=Measurement&show=1.csv
+BBa_J70411,"R0010.E0021.B1005.E0031, Terminator test part for B1005",1738,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-06,,pgroup=Measurement&show=1.csv
+BBa_J70412,"R0010.E0021.B1006.E0031, Terminator test part for B1006",1743,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-06,,pgroup=Measurement&show=1.csv
+BBa_J70413,"R0010.E0021.B1007.E0031, Terminator test part for B1007",1744,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-06,,pgroup=Measurement&show=1.csv
+BBa_J70414,"R0010.E0021.B1010.E0031, Terminator test part for B1010",1744,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-06,,pgroup=Measurement&show=1.csv
+BBa_J70415,"R0010.E0031.B1001.E0021, Terminator test part for B1001",1738,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-09,,pgroup=Measurement&show=1.csv
+BBa_J70416,R0010.E0031.B1002.E0021,1738,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-09,,pgroup=Measurement&show=1.csv
+BBa_J70417,"R0010.E0031.B1003.E0021, Terminator test for B1003",1738,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-09,,pgroup=Measurement&show=1.csv
+BBa_J70418,"R0010.E0031.B1004.E0021, Terminator test for B1004",1738,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-09,,pgroup=Measurement&show=1.csv
+BBa_J70419,"R0010.E0031.B1005.E0021, Terminator test for B1005",1738,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-09,,pgroup=Measurement&show=1.csv
+BBa_J70420,"R0010.E0031.B1006.E0021, Terminator test for B1006",1743,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-09,,pgroup=Measurement&show=1.csv
+BBa_J70421,"R0010.E0031.B1007.E0021, Terminator test for B1007",1744,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-09,,pgroup=Measurement&show=1.csv
+BBa_J70422,"R0010.E0031.B1010.E0021, Terminator test for B1010",1744,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-09,,pgroup=Measurement&show=1.csv
+BBa_J70468,R0010.B0029.E0030,952,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70469,R0010.B0030.E0030,952,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70470,R0010.B0031.E0030,951,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70471,R0010.B0032.E0030,950,,,Not Released,BBa_S03498,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70472,R0010.B0033.E0030,948,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70473,R0010.B0034.E0030,949,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70474,R0010.B0035.E0030,951,,,Not Released,,Not in stock,None,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70475,R0010.B0029.E0040 ,949,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70476,R0010.B0030.E0040,949,,,Not Released,BBa_J70542,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70477,R0010.B0031.E0040,948,,,Not Released,BBa_J70543,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70478,R0010.B0032.E0040,947,,,Not Released,BBa_J70544,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70479,R0010.B0033.E0040,945,,,Not Released,BBa_J70545,Not in stock,None,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70480,R0010.B0034.E0040,946,,,Not Released,BBa_J70546;BBa_J70561;BBa_K1189034;BBa_K1500002;BBa_K1955010,It's complicated,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70481,R0010.B0035.E0040 ,948,,,Not Released,BBa_J70547,Not in stock,,Not Used,Knight Lab,Julie Norville,2009-08-26,,pgroup=Measurement&show=1.csv
+BBa_J70589,N-terminal protein tag addition test part J70576:S04431(J70575:E0040),1949,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2010-06-16,,pgroup=Measurement&show=1.csv
+BBa_J70590,Protein fusion test part S04432(J70569:J70575):J70554,2119,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2010-06-16,,pgroup=Measurement&show=1.csv
+BBa_J70604," J70589 cut with BsaXI and with rbs, 6his inserts (J70559-f1i,f2i,r2i,r2i) added ",939,,,Not Released,BBa_J70657,Not in stock,,Not Used,Knight Lab,Julie Norville,2010-06-28,,pgroup=Measurement&show=1.csv
+BBa_J70605,"J70590 cut with BsaXI and with GSGSGS inserts (J70556-fi,ri) added",1065,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2010-06-28,,pgroup=Measurement&show=1.csv
+BBa_J70606,"J70590 cut with BsaXI and with dead fusion inserts (J70556d-fi,ri) added",1061,,,Not Released,,Not in stock,,Not Used,Knight Lab,Julie Norville,2010-06-28,,pgroup=Measurement&show=1.csv
+BBa_J95014,Bioluminescence based terminator measurement kit,2781,,,Not Released,BBa_J95020,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-04-14,,pgroup=Measurement&show=1.csv
+BBa_J95020,Terminator measurement kit designed for E coli,2781,,,Not Released,BBa_J95014,Not in stock,None,Not Used,Hinton Lab,Junling Huo,2010-05-17,,pgroup=Measurement&show=1.csv
+BBa_J95030,BioBrick terminator measurement standard for Rhodobacter sphaeroides ,2945,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-08-19,,pgroup=Measurement&show=1.csv
+BBa_J95031,BioBrick promoter and RBS measurement reference standard for R. sphaeroides,3257,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-08-19,,pgroup=Measurement&show=1.csv
+BBa_J95032,Terminator measurement part 1 for R. sphaeroides,1836,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-08-24,,pgroup=Measurement&show=1.csv
+BBa_J95034,Part2 for terminator measurement in R. sphaeroides,1101,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-08-24,,pgroup=Measurement&show=1.csv
+BBa_J95035,Promoter measurement kit for R. sphaeroides,3092,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-08-24,,pgroup=Measurement&show=1.csv
+BBa_J95036,RBS measurement kit for R. sphaeroides,3074,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-08-24,,pgroup=Measurement&show=1.csv
+BBa_J95037,Promoter measurement kit for R. sphaeroides (2),3092,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-08-25,,pgroup=Measurement&show=1.csv
+BBa_J95038,RBS measurement kit for R. sphaeroides (2),3074,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-08-25,,pgroup=Measurement&show=1.csv
+BBa_J95040,B0015 characterization construct,2918,,,Not Released,BBa_J95041,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-10-03,,pgroup=Measurement&show=1.csv
+BBa_J95041,B0015 characterization construct,2918,,,Not Released,BBa_J95040,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-10-03,,pgroup=Measurement&show=1.csv
+BBa_J95042,Promoter measurement standard (B1009) for E coli,2829,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-10-06,,pgroup=Measurement&show=1.csv
+BBa_J95043,Promoter measurement kit A (B0015) for E coli,2952,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-11-10,,pgroup=Measurement&show=1.csv
+BBa_J95044,Promoter measurement kit B (B0015) for E coli,2952,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-11-10,,pgroup=Measurement&show=1.csv
+BBa_J95045,reference standard for Promoter measurement (B0015) for E coli,2995,,,Not Released,,Not in stock,None,Not Used,Hinton Lab,Junling Huo,2010-11-10,,pgroup=Measurement&show=1.csv
+BBa_J95046,One of two RBS measurement kits A(B0015),2933,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-11-10,,pgroup=Measurement&show=1.csv
+BBa_J95047,One of two RBS measurement kits B(B0015),2933,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-11-10,,pgroup=Measurement&show=1.csv
+BBa_J95048,part 2 terminator measurement for E coli (B0015),1092,,,Not Released,BBa_S04140,Not in stock,,1 Uses,Hinton Lab,Junling Huo,2010-11-10,,pgroup=Measurement&show=1.csv
+BBa_J95049,Terminator measurement reference standard (B0015),2815,,,Not Released,,Not in stock,,Not Used,Hinton Lab,Junling Huo,2010-11-10,,pgroup=Measurement&show=1.csv
+BBa_K079026,GFP reporter protein and LacI gene sequence under the  control of J23118 constitutive promoter,2116,,,Not Released,,It's complicated,Works,Not Used,iGEM08_Bologna,Maria Vittoria Amaduzzi,2008-10-24,,pgroup=Measurement&show=1.csv
+BBa_K094017,pluxcIlacZ,2282,,,Not Released,,Not in stock,None,Not Used,iGEM08_iHKU,Liu Chenli,2008-08-21,,pgroup=Measurement&show=1.csv
+BBa_K094104,pLacI/ara-1-rbs-mRFP1-terminator,972,,,Not Released,,It's complicated,Works,Not Used,iGEM08_iHKU,Shi Lei,2008-10-14,,pgroup=Measurement&show=1.csv
+BBa_K094105,plambda P(O-R12)-rbs-cheZ-rbs-mRFP1-terminator,1690,,,Not Released,,It's complicated,Works,Not Used,iGEM08_iHKU,Shi Lei,2008-10-14,,pgroup=Measurement&show=1.csv
+BBa_K100004,Natural Xylose Regulated Bi-Directional Operator + GFP,1187,,,Not Released,,It's complicated,Works,Not Used,iGEM08_PennState,Garrett Tobin,2008-08-18,,pgroup=Measurement&show=1.csv
+BBa_K100005,Edited Xylose Regulated Bi-Directional Operator 1 + GFP ,1187,,,Not Released,,It's complicated,Works,Not Used,iGEM08_PennState,Garrett Tobin,2008-08-18,,pgroup=Measurement&show=1.csv
+BBa_K100006, Edited Xylose Regulated Bi-Directional Operator 2 + GFP,1187,,,Not Released,BBa_K100007,It's complicated,Works,Not Used,iGEM08_PennState,Garrett Tobin,2008-08-18,,pgroup=Measurement&show=1.csv
+BBa_K100007,Edited Xylose Regulated Bi-Directional Operator 3 + GFP ,1187,,,Not Released,BBa_K100006,It's complicated,Works,Not Used,iGEM08_PennState,Garrett Tobin,2008-08-18,,pgroup=Measurement&show=1.csv
+BBa_K1010003,no,921,,,Not Released,,Not in stock,None,Not Used,iGEM13_SCAU-China,Gousi Li,2013-09-02,,pgroup=Measurement&show=1.csv
+BBa_K1010004,no,1051,,,Not Released,,Not in stock,None,Not Used,iGEM13_SCAU-China,Gousi Li,2013-09-02,,pgroup=Measurement&show=1.csv
+BBa_K1010005,no,1209,,,Not Released,,Not in stock,None,Not Used,iGEM13_SCAU-China,Gousi Li,2013-09-02,,pgroup=Measurement&show=1.csv
+BBa_K1031610,NahR-pSal-sfGFP-Terminator,2132,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Peking,He Shuaixin,2013-09-09,,pgroup=Measurement&show=1.csv
+BBa_K1051150,GalI+GFP+VDAC1+TYB,1407,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051151,GalI+ZRC1+GFP+TYB,1710,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051152,GalI+H2A2+GFP+TYB,1722,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051153,GalI+ScSac3+GFP+TYB,1371,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051246,gyrB + GFP + ilvGEDA,1008,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-27,,pgroup=Measurement&show=1.csv
+BBa_K1051257,Construct the measurement pathway of K1051206. ,948,,,Not Released,BBa_K1051260,It's complicated,Works,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-02,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Measurement&show=1.csv
+BBa_K1051258,Construct the measurement pathway of K1051207. ,954,,,Not Released,BBa_K1051261,It's complicated,Works,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-02,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Measurement&show=1.csv
+BBa_K1051259,Construct the measurement pathway of K1051208. ,948,,,Not Released,BBa_K1051262,It's complicated,Works,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-02,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Measurement&show=1.csv
+BBa_K1051260,The measurement pathway of degradation tag K1051206.,948,,,Not Released,BBa_K1051257,It's complicated,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051261,The measurement pathway of degradation tag K1051207.,954,,,Not Released,BBa_K1051258,It's complicated,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051262,The measurement pathway of degradation tag K1051208.,948,,,Not Released,BBa_K1051259,It's complicated,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051278,The measurement of PEST of cln1.,1805,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-18,,pgroup=Measurement&show=1.csv
+BBa_K1051279,The measurement of D-box.,1355,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-18,,pgroup=Measurement&show=1.csv
+BBa_K1051280,Measurement parts of PEST of cln3.,1904,,,Not Released,,It's complicated,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-11,,pgroup=Measurement&show=1.csv
+BBa_K1051281,Measurement parts of PEST of cln2.,1853,,,Not Released,,It's complicated,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-11,,pgroup=Measurement&show=1.csv
+BBa_K1051288,The measurement pathway of ubiquitin fusion protein.,2468,,,Not Released,,It's complicated,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-09-01,,pgroup=Measurement&show=1.csv
+BBa_K1051296,J63006+K1051000+K1051006,1269,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-07-10,,pgroup=Measurement&show=1.csv
+BBa_K1051297,J04500+K1051000+M0050+K1051009,1042,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-07-10,,pgroup=Measurement&show=1.csv
+BBa_K1051298,J04500+K1051000+M0051+K1051009,1048,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-07-10,,pgroup=Measurement&show=1.csv
+BBa_K1051299,J04500+K1051000+M0052+K1051009,1042,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Rui Guan,2013-07-10,,pgroup=Measurement&show=1.csv
+BBa_K1051307,k1051304(cln3 promoter)+k1051062(K1051004 (non stop codon morange) + K1051006 (Stop codon +TBY-1term,,,,Not Released,,No part sequence,Works,No Sequence,iGEM13_Shenzhen_BGIC_ATCG,Zhu Shuang,2013-09-11,,pgroup=Measurement&show=1.csv
+BBa_K1051368,K1051303 (clb6 promoter) + K1051003 (non stop codon GFP) + K1051006 (Stop codon + TBY-1  terminator),1458,,,Not Released,,Not in stock,Works,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Kequan Lin,2013-07-19,,pgroup=Measurement&show=1.csv
+BBa_K1051369,K1051304 (cln3 promoter) + K1051003 (non stop codon GFP) + K1051006 (Stop codon + TBY-1 terminator),1834,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Kequan Lin,2013-07-19,,pgroup=Measurement&show=1.csv
+BBa_K1051380,k1051305(met16 promoter (M phase to G1 phase))+K1051003+ K1051006 ,1310,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Shihong Chen,2013-09-27,,pgroup=Measurement&show=1.csv
+BBa_K1051381,k1051306(met28 promoter (M phase to G1 phase))+K1051003+ K1051006,1259,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Shihong Chen,2013-09-27,,pgroup=Measurement&show=1.csv
+BBa_K1051420,LacI+GFP+ilvGEDA,1040,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051421,LacI+RFP+ilvGEDA,1001,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051422,LacI+mOrangeFP+ilvGEDA,1064,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051423,LacI+ECFP+ilvGEDA,1042,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051424,LacI+EYFP+ilvGEDA,1043,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1051425,dnaAp1 + GFP + ilvGEDA,1179,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-09-27,,pgroup=Measurement&show=1.csv
+BBa_K1051706,P+GFP+I700+mOrangeFP+T,3072,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-07-08,,pgroup=Measurement&show=1.csv
+BBa_K1051707,P+GFP+I701+mOrangeFP+T,3075,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-07-10,,pgroup=Measurement&show=1.csv
+BBa_K1051708,P+GFP+I702+mOrangeFP+T,3076,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-07-10,,pgroup=Measurement&show=1.csv
+BBa_K1051709,P+RFP+I703+mOrangeFP+T,3083,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-07-10,,pgroup=Measurement&show=1.csv
+BBa_K1051711,P+RFP+MER2_Intron+GFP+T,2984,,,Not Released,,Not in stock,None,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Yang Zhou,2013-07-10,,pgroup=Measurement&show=1.csv
+BBa_K1051852,k1051850+k1051802,5141,,,Not Released,,Not in stock,,Not Used,iGEM13_Shenzhen_BGIC_ATCG,Shihong Chen,2013-09-27,,pgroup=Measurement&show=1.csv
+BBa_K1055000,mKate is a fluorophor derived from dsRed,717,,,Not Released,,It's complicated,,1 Uses,iGEM13_TU_Darmstadt,Kai Fenzl,2013-09-18,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Measurement&show=1.csv
+BBa_K1055001,LssmOrange is a fluorophor derived from dsRed,714,,,Not Released,,It's complicated,None,Not Used,iGEM13_TU_Darmstadt,Kai Fenzl,2013-09-18,,pgroup=Measurement&show=1.csv
+BBa_K1061014,eGFP->miRNA-122 target,853,,,Not Released,,Not in stock,Works,Not Used,iGEM13_SYSU-China,mengyi sun,2013-09-16,,pgroup=Measurement&show=1.csv
+BBa_K1067008,mCherry downstream tight pBAD,1947,,,Not Released,,Not in stock,None,Not Used,iGEM13_DTU-Denmark,Kristian Davidsen,2013-09-28,,pgroup=Measurement&show=1.csv
+BBa_K1087021,RiboKey+Lock+mRFP1,1360,,,Not Released,,Not in stock,,Not Used,iGEM13_SCU_China,Tong Xu,2013-09-27,,pgroup=Measurement&show=1.csv
+BBa_K1093026,bFos-RPACKIPNDLKQKVMNH (Freiburg) ,319,,,Not Released,,Not in stock,,Not Used,iGEM13_Warsaw,Jakub Pi&#261;tkowski,2013-09-23,,pgroup=Measurement&show=1.csv
+BBa_K1093027,bJun-RSIAT (Freiburg),285,,,Not Released,,Not in stock,,Not Used,iGEM13_Warsaw,Jakub Pi&#261;tkowski,2013-09-23,,pgroup=Measurement&show=1.csv
+BBa_K1093028,bFos(Delta-zip)-RPACKIPNDLKQKVMNH (Freiburg) ,279,,,Not Released,,Not in stock,,Not Used,iGEM13_Warsaw,Jakub Pi&#261;tkowski,2013-09-23,,pgroup=Measurement&show=1.csv
+BBa_K1100011,B0015 terminator efficiency estimation device (with Csy4 system),1537,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,YingQi Lou,2013-09-13,,pgroup=Measurement&show=1.csv
+BBa_K1100152,Csy4-16nt interaction estimation device ,1887,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Fudan,YingQi Lou,2013-09-16,,pgroup=Measurement&show=1.csv
+BBa_K1104243,AhpCp1000 +E0840,1886,,,Not Released,,Not in stock,Works,Not Used,iGEM13_NYMU-Taipei,Ting-Yun Chiang,2013-10-04,,pgroup=Measurement&show=1.csv
+BBa_K1104244,AhpCp2D1 +E0840,1339,,,Not Released,,Not in stock,Works,Not Used,iGEM13_NYMU-Taipei,Ting-Yun Chiang,2013-10-04,,pgroup=Measurement&show=1.csv
+BBa_K1104249,SoxS-E0840,948,,,Not Released,,It's complicated,,Not Used,iGEM13_NYMU-Taipei,Wan-Hsin Liu,2013-09-17,,pgroup=Measurement&show=1.csv
+BBa_K1104965,lambda cI and luxR regulated GFP generator,983,,,Not Released,,Not in stock,,Not Used,iGEM13_NYMU-Taipei,Jou-Chien Liao,2013-09-10,,pgroup=Measurement&show=1.csv
+BBa_K1139150,Prm/lac-GFP-TT,982,,,Not Released,,It's complicated,Works,Not Used,iGEM13_Tokyo_Tech,Naoki Watarai,2013-09-09,,pgroup=Measurement&show=1.csv
+BBa_K1139152,Prm/lac V1-GFP-PlacIq-c1,1966,,,Not Released,,Not in stock,None,Not Used,iGEM13_Tokyo_Tech,Shinya Suzuki,2013-10-21,,pgroup=Measurement&show=1.csv
+BBa_K1139154,Prm/lac V2-GFP-PlacIq-c1,1967,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo_Tech,Shinya Suzuki,2013-10-21,,pgroup=Measurement&show=1.csv
+BBa_K1139156,Prm/lac V3-GFP-PlacIq-c1 ,1968,,,Not Released,,Not in stock,,Not Used,iGEM13_Tokyo_Tech,Shinya Suzuki,2013-10-21,,pgroup=Measurement&show=1.csv
+BBa_K1139201,,967,,,Not Released,BBa_K1529951;BBa_K1529953;BBa_K1529958;BBa_K1529955;BBa_K1529568;BBa_K1529952;BBa_K1529972,It's complicated,Works,Not Used,iGEM13_Tokyo_Tech,Sara Ogino,2013-09-09,,pgroup=Measurement&show=1.csv
+BBa_K115029,Expression of luciferase with RNA-thermometer K115001,1332,1,,Not Released,,It's complicated,None,Not Used,iGEM08_TUDelft,O.M.J.A. Stassen,2008-09-04,,pgroup=Measurement&show=1.csv
+BBa_K115030,Expression of luciferase with RNA-thermometer K115002,1288,1,,Not Released,,It's complicated,None,Not Used,iGEM08_TUDelft,O.M.J.A. Stassen,2008-09-04,,pgroup=Measurement&show=1.csv
+BBa_K115031,Expression of luciferase with RNA-thermometer K115003,1345,1,,Not Released,,It's complicated,None,Not Used,iGEM08_TUDelft,O.M.J.A. Stassen,2008-09-04,,pgroup=Measurement&show=1.csv
+BBa_K115032,Expression of luciferase with RNA-thermometer K115008,1332,1,,Not Released,,It's complicated,None,Not Used,iGEM08_TUDelft,O.M.J.A. Stassen,2008-09-04,,pgroup=Measurement&show=1.csv
+BBa_K115033,Expression of luciferase with RNA-thermometer K115009,1288,,,Not Released,,Not in stock,None,Not Used,iGEM08_TUDelft,O.M.J.A. Stassen,2008-09-04,,pgroup=Measurement&show=1.csv
+BBa_K115034,Expression of luciferase with RNA-thermometer K115016,1319,1,,Not Released,,It's complicated,None,Not Used,iGEM08_TUDelft,O.M.J.A. Stassen,2008-09-04,,pgroup=Measurement&show=1.csv
+BBa_K115035,Expression of luciferase with RNA-thermometer K115017,1319,1,,Not Released,,It's complicated,Works,Not Used,iGEM08_TUDelft,O.M.J.A. Stassen,2008-09-04,,pgroup=Measurement&show=1.csv
+BBa_K115036,Expression of luciferase with RNA-thermometer K115020,1266,1,,Not Released,,It's complicated,None,Not Used,iGEM08_TUDelft,O.M.J.A. Stassen,2008-09-04,,pgroup=Measurement&show=1.csv
+BBa_K116002,measurement of NhaA promoter activity,1158,,,Not Released,,It's complicated,,Not Used,iGEM08_NYMU-Taipei,Chih-Hsien Yang,2008-10-29,,pgroup=Measurement&show=1.csv
+BBa_K116404,external phosphate sensing reporter,1376,,,Not Released,,Not in stock,,Not Used,iGEM08_NYMU-Taipei,Chih-Hsien Yang,2008-10-29,,pgroup=Measurement&show=1.csv
+BBa_K1314011,"random sequence+T7 promoter+strong rbs+ amilCP, blue chromoprotein+B0015+part of mRFP",1397,,,Not Released,,It's complicated,None,Not Used,iGEM14_Hong_Kong-CUHK,"Seak Chi U, Chan Wai Lun, CHIU, Yee Ting",2014-10-07,,pgroup=Measurement&show=1.csv
+BBa_K1316003,yqjF promoter coupled to mKate2 reporter gene ,1099,,,Not Released,,It's complicated,,2 Uses,iGEM14_TU_Delft-Leiden,Joan Cortada Garcia,2014-08-24,,pgroup=Measurement&show=1.csv
+BBa_K1316005,ybiJ promoter coupled to mKate2 reporter gene,1252,,,Not Released,,It's complicated,,2 Uses,iGEM14_TU_Delft-Leiden,Joan Cortada Garcia,2014-08-24,,pgroup=Measurement&show=1.csv
+BBa_K1316007,yqjF promoter coupled to mKate2 reporter gene and Rhamnose promoter coupled to N-genes,3902,,,Not Released,,It's complicated,None,Not Used,iGEM14_TU_Delft-Leiden,Joan Cortada Garcia,2014-09-13,,pgroup=Measurement&show=1.csv
+BBa_K1316008,ybiJ promoter coupled to mKate2 reporter gene and Rhamnose promoter coupled to N-genes,4055,,,Not Released,,It's complicated,None,Not Used,iGEM14_TU_Delft-Leiden,Joan Cortada Garcia,2014-09-13,,pgroup=Measurement&show=1.csv
+BBa_K1316009,yqjF promoter coupled to mKate2 reporter gene and ybiJ promoter coupled to mKate2 reporter gene,2359,,,Not Released,,It's complicated,,Not Used,iGEM14_TU_Delft-Leiden,Joan Cortada Garcia,2014-09-13,,pgroup=Measurement&show=1.csv
+BBa_K1319010,Constitutive expression of K1319000,928,,,Not Released,,Not in stock,None,Not Used,iGEM14_Aachen,"Arne Zimmermann, Michael Osthege",2014-10-05,,pgroup=Measurement&show=1.csv
+BBa_K1319011,Constitutive expression of K1319001,928,,,Not Released,,It's complicated,None,Not Used,iGEM14_Aachen,"Arne Zimmermann, Michael Osthege",2014-10-02,,pgroup=Measurement&show=1.csv
+BBa_K1319012,Constitutive expression of K1319002,928,,,Not Released,,Not in stock,None,Not Used,iGEM14_Aachen,"Arne Zimmermann, Michael Osthege",2014-10-05,,pgroup=Measurement&show=1.csv
+BBa_K1341001,PATH WAY TEST SYS IN BIO-COMPASS,1171,,,Not Released,,It's complicated,Works,Not Used,iGEM14_AHUT_China,Run-ze Zhang,2014-09-27,,pgroup=Measurement&show=1.csv
+BBa_K1365999,Green Fluorescent protein including the RBS and Double Terminator,873,,,Not Released,,It's complicated,None,Not Used,iGEM14_Groningen,chandhuru Jagadeesan,2014-10-08,,pgroup=Measurement&show=1.csv
+BBa_K1369013,lamBD_3xFLAG_N,858,,,Not Released,,Not in stock,,Not Used,iGEM14_Caltech,Galen Gao,2014-10-17,,pgroup=Measurement&show=1.csv
+BBa_K1369015,fsrB_3xFLAG_N,795,,,Not Released,,Not in stock,,Not Used,iGEM14_Caltech,Galen Gao,2014-10-17,,pgroup=Measurement&show=1.csv
+BBa_K1379003,,1044,,,Not Released,,It's complicated,None,Not Used,iGEM14_Hong_Kong_HKUST,"Ng Siu Wang Edward, Jason Jang, Joo Min Jung",2014-09-22,,pgroup=Measurement&show=1.csv
+BBa_K1379005,,1703,,,Not Released,,It's complicated,None,Not Used,iGEM14_Hong_Kong_HKUST,"Jordy Evan, Nadia Benedicta, Angeline Widjaja",2014-09-23,,pgroup=Measurement&show=1.csv
+BBa_K1379007,,1763,,,Not Released,,It's complicated,None,Not Used,iGEM14_Hong_Kong_HKUST,"Ng Siu Wang Edward, Jason Jang, Joo Min Jung",2014-09-23,,pgroup=Measurement&show=1.csv
+BBa_K1379030,J23102-Lock 1-GFP-B0015,946,,,Not Released,,Not in stock,None,Not Used,iGEM14_Hong_Kong_HKUST,Medina Cuellar Raul Guillermo,2014-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1379032,J23102-Lock 3-GFP-B0015,946,,,Not Released,,Not in stock,None,Not Used,iGEM14_Hong_Kong_HKUST,Medina Cuellar Raul Guillermo,2014-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1379034,J23102-Lock 3c-GFP-B0015,948,,,Not Released,,Not in stock,None,Not Used,iGEM14_Hong_Kong_HKUST,Medina Cuellar Raul Guillermo,2014-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1379036,J23102-K175031-GFP-B0015,953,,,Not Released,,Not in stock,None,Not Used,iGEM14_Hong_Kong_HKUST,Medina Cuellar Raul Guillermo,2014-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1379038,J23102-HKUST Lock 1-GFP-B0015,951,,,Not Released,,Not in stock,None,Not Used,iGEM14_Hong_Kong_HKUST,Medina Cuellar Raul Guillermo,2014-09-25,,pgroup=Measurement&show=1.csv
+BBa_K1379049,J23102-Lock 1-GFP-B0015-pBad/araC-Key 1-B0015,,,,Not Released,,No part sequence,None,No Sequence,iGEM14_Hong_Kong_HKUST,Medina Cuellar Raul Guillermo,2014-10-13,,pgroup=Measurement&show=1.csv
+BBa_K1381008,yenbox_WT-B0032-GFP,966,,,Not Released,,It's complicated,None,Not Used,iGEM14_Uppsala,"Stephanie Herman, Gunta Celma, Megha Biradar, Christoffer Andersson and Martin Friberg",2014-10-02,,pgroup=Measurement&show=1.csv
+BBa_K1381010,yenbox_J23101-B0032-GFP,964,,,Not Released,,It's complicated,None,Not Used,iGEM14_Uppsala,"Stephanie Herman, Gunta Celma, Megha Biradar, Christoffer Andersson and Martin Friberg",2014-10-02,,pgroup=Measurement&show=1.csv
+BBa_K1413001,P0 promoter-RBS B0032-sfGFP- Terminator B0015 - Pr promoter-DmpR,2847,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Evry,Nandjafot  MENDY,2014-09-30,,pgroup=Measurement&show=1.csv
+BBa_K1413002,P0 promoter-RBS SD001-sfGFP- Terminator B0015 - Pr promoter-DmpR,2847,,,Not Released,,It's complicated,Works,Not Used,iGEM14_Evry,Nandjafot  MENDY,2014-10-15,,pgroup=Measurement&show=1.csv
+BBa_K1417000,Red Fluorescent Protein - Spacer - Spinach Aptamer,859,,,Not Released,,Not in stock,,Not Used,iGEM14_Northwestern,Adam Baker,2014-10-09,,pgroup=Measurement&show=1.csv
+BBa_K1417002,RFP-Spinach-Aptamer,,,,Not Released,,No part sequence,None,No Sequence,iGEM14_Northwestern,Adam Baker,2014-10-09,,pgroup=Measurement&show=1.csv
+BBa_K1417003,Red Fluorescent Protein - Spacer - Spinach Aptamer,900,,,Not Released,,It's complicated,,Not Used,iGEM14_Northwestern,Adam Baker,2014-10-09,,pgroup=Measurement&show=1.csv
+BBa_K1442005,Test Upload ,55,,,Not Released,,Not in stock,None,Not Used,iGEM14_Warwick,Caroline de Cock,2014-06-24,,pgroup=Measurement&show=1.csv
+BBa_K145264,test FILTER (new),4276,,,Not Released,,Not in stock,,Not Used,iGEM08_KULeuven,Nathalie Busschaert,2008-09-07,,pgroup=Measurement&show=1.csv
+BBa_K145265,test FILTER (old),4258,,,Not Released,,Not in stock,,Not Used,iGEM08_KULeuven,Nathalie Busschaert,2008-09-07,,pgroup=Measurement&show=1.csv
+BBa_K145266,test hybrid promoter,3764,,,Not Released,,Not in stock,,Not Used,iGEM08_KULeuven,Nathalie Busschaert,2008-09-07,,pgroup=Measurement&show=1.csv
+BBa_K1461233,ecf20 promoter mesurement system (positive feedback),2679,,,Not Released,,It's complicated,,1 Uses,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-29,,pgroup=Measurement&show=1.csv
+BBa_K1461234,"""ecf11 promoter mesurement system (positive feedback)	""",2733,,,Not Released,,It's complicated,,1 Uses,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-29,,pgroup=Measurement&show=1.csv
+BBa_K1461235,"resettable counter device using ecf20 (w/o crRBS, taRNA)",3482,,,Not Released,,It's complicated,,Not Used,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-29,,pgroup=Measurement&show=1.csv
+BBa_K1461236,"resettable counter device using ecf11 (w/o crRBS, taRNA) ",3767,,,Not Released,,It's complicated,,Not Used,iGEM14_UT-Tokyo,Takefumi Yoshikawa,2014-09-29,,pgroup=Measurement&show=1.csv
+BBa_K1510004, Pcon(S.mutans)+GFP+terminator (S.mutans),862,,,Not Released,,Not in stock,,Not Used,iGEM14_NYMU-Taipei,Yen-An Chang,2014-10-06,,pgroup=Measurement&show=1.csv
+BBa_K1510106,Pcon(S.mutans)+GFP+terminator (S.mutans),805,,,Not Released,,It's complicated,,Not Used,iGEM14_NYMU-Taipei,Yen-An Chang,2014-10-06,,pgroup=Measurement&show=1.csv
+BBa_K1510820,RFP indicated INPNC performance evaluation,2500,,,Not Released,,It's complicated,,Not Used,iGEM14_NYMU-Taipei,Kao Jung Chang,2014-10-07,,pgroup=Measurement&show=1.csv
+BBa_K154000,recA promoter (J22106) + LacZ gene (I732017): DNA damage sensor,3293,,,Not Released,,It's complicated,Issues,Not Used,iGEM08_Purdue,Mary Jane Stine,2008-10-21,,pgroup=Measurement&show=1.csv
+BBa_K1555003,GFP induced by micro-aerobic promoter vgb,1021,,,Not Released,,It's complicated,Works,Not Used,iGEM14_NJAU_China,"Li Huiyu, Jiang Zhenxiong, Wang Kun",2014-10-06,,pgroup=Measurement&show=1.csv
+BBa_K1678007,"Vitamin B12 biosensor, composed by a cobalamin riboswitch in front of an mRFP1",1252,,,Not Released,,Not in stock,,Not Used,iGEM15_Paris_Bettencourt,Arthur Molcard,2015-09-17,,pgroup=Measurement&show=1.csv
+BBa_K1682007,,962,,,Not Released,,It's complicated,Works,Not Used,iGEM15_HKUST-Rice,iGEM15_HKUST-Rice,2015-08-11,,pgroup=Measurement&show=1.csv
+BBa_K1682008,,962,,,Not Released,,It's complicated,Works,Not Used,iGEM15_HKUST-Rice,iGEM15_HKUST-Rice,2015-08-11,,pgroup=Measurement&show=1.csv
+BBa_K1682009,,962,,,Not Released,,It's complicated,Works,Not Used,iGEM15_HKUST-Rice,iGEM15_HKUST-Rice,2015-08-11,,pgroup=Measurement&show=1.csv
+BBa_K1682013,PphoA - I13504,968,,,Not Released,,Not in stock,None,Not Used,iGEM15_HKUST-Rice,iGEM15_HKUST-Rice,2015-09-02,,pgroup=Measurement&show=1.csv
+BBa_K1682015,PphoBR-I13504,968,,,Not Released,,Not in stock,None,Not Used,iGEM15_HKUST-Rice,iGEM15_HKUST-Rice,2015-09-10,,pgroup=Measurement&show=1.csv
+BBa_K173000,J23100 measurement system,919,,,Not Released,BBa_K299007,It's complicated,Works,1 Uses,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Valerio Vitelli, Paolo Magni",2009-10-15,,pgroup=Measurement&show=1.csv
+BBa_K173002,J23118 measurement system,919,,,Not Released,,It's complicated,Works,4 Uses,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Letiza Diamante , Valerio Vitelli, Paolo Magni",2009-10-15,,pgroup=Measurement&show=1.csv
+BBa_K173008,tetR inverter - GFP,1786,,,Not Released,,It's complicated,Works,3 Uses,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Paolo Magni",2009-10-15,,pgroup=Measurement&show=1.csv
+BBa_K173009,aTc sensor (J23100 promoter) with GFP,1829,,,Not Released,,It's complicated,Works,Not Used,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Manuel Lupotto, Paolo Magni",2009-10-15,,pgroup=Measurement&show=1.csv
+BBa_K173012,Lactose/IPTG inducible system with GFP,2298,,,Not Released,,It's complicated,Issues,Not Used,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Schiavi, Paolo Magni",2009-10-15,,pgroup=Measurement&show=1.csv
+BBa_K173015,HSL inducible lysis device,2854,,,Not Released,,It's complicated,Works,Not Used,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Manuel Lupotto, Paolo Magni",2009-10-15,,pgroup=Measurement&show=1.csv
+BBa_K173026,aTc sensor (J23118 promoter) with GFP,1829,,,Not Released,,It's complicated,Works,Not Used,iGEM09_UNIPV-Pavia,"Lorenzo Pasotti, Manuel Lupotto, Valerio Vitelli, Paolo Magni",2009-10-16,,pgroup=Measurement&show=1.csv
+BBa_K1747016,pLR + hpd + gfp,2238,,,Not Released,,Not in stock,,Not Used,iGEM15_LaVerne-Leos,Harry Bennett,2015-08-27,,pgroup=Measurement&show=1.csv
+BBa_K1755024,The K911003+K1755002,922,,,Not Released,,Not in stock,,Not Used,iGEM15_LZU-China,Haotian Wang,2015-09-11,,pgroup=Measurement&show=1.csv
+BBa_K1755301,copper promoter + RBS + ribB + terminator,840,,,Not Released,,Not in stock,,Not Used,iGEM15_LZU-China,Haotian Wang,2015-04-20,,pgroup=Measurement&show=1.csv
+BBa_K1755302,copper promoter + RBS + ribB + terminator,888,,,Not Released,,Not in stock,,Not Used,iGEM15_LZU-China,Haotian Wang,2015-04-20,,pgroup=Measurement&show=1.csv
+BBa_K1755303,cobalt sensor,1243,,,Not Released,,Not in stock,,Not Used,iGEM15_LZU-China,Haotian Wang,2015-04-20,,pgroup=Measurement&show=1.csv
+BBa_K1755304,nitrite sensor,884,,,Not Released,,Not in stock,,Not Used,iGEM15_LZU-China,Haotian Wang,2015-04-20,,pgroup=Measurement&show=1.csv
+BBa_K1755305,Hg Sensor,841,,,Not Released,,Not in stock,,Not Used,iGEM15_LZU-China,Haotian Wang,2015-06-01,,pgroup=Measurement&show=1.csv
+BBa_K1755306,BPA Sensor,1084,,,Not Released,,Not in stock,None,Not Used,iGEM15_LZU-China,Haotian Wang,2015-06-01,,pgroup=Measurement&show=1.csv
+BBa_K1755307,MarO+ribB,864,,,Not Released,,Not in stock,,Not Used,iGEM15_LZU-China,Haotian Wang,2015-06-01,,pgroup=Measurement&show=1.csv
+BBa_K177031,mgtc testing device with phoQP from salmonella,3707,,,Not Released,,Not in stock,,Not Used,iGEM09_Warsaw,Michael Lower,2009-07-22,,pgroup=Measurement&show=1.csv
+BBa_K1783003,Unstable RFP under Hok/Sok Regulation,1358,,jueykang:5,Not Released,,Not in stock,None,Not Used,iGEM15_UMaryland,Iowis Zhu,2015-08-14,,pgroup=Measurement&show=1.csv
+BBa_K1796002,Pnif+amilCP reporter,932,,,Not Released,,Not in stock,,Not Used,iGEM15_SCU_China,Nannan Xie,2015-09-17,,pgroup=Measurement&show=1.csv
+BBa_K188905,test,1915,,,Not Released,,Not in stock,,Not Used,iGEM09_NCTU_Formosa,Shang-Wei Lin,2010-06-02,,pgroup=Measurement&show=1.csv
+BBa_K1913035,Constitutive promoter with Guanine riboswitch BS-yxjA with mRFP,1102,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Wageningen_UR,Tianhe Wang,2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K1919500,K1321200+J04450 (Vitreoscilla hemoglobin + mRFP),1581,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_SCU-China,Hongbin Yu,2016-09-12,,pgroup=Measurement&show=1.csv
+BBa_K1940001,microRNA-34c detector 1.0,1077,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_JNFLS_China,Yujia Liu,2016-10-11,,pgroup=Measurement&show=1.csv
+BBa_K1940004,microRNA-34c detector 2.0-1-1,1987,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_JNFLS_China,Yujia Liu,2016-10-13,,pgroup=Measurement&show=1.csv
+BBa_K1940005,microRNA-34c detector 2.0-1-2,1987,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_JNFLS_China,Yujia Liu,2016-10-13,,pgroup=Measurement&show=1.csv
+BBa_K1940006,microRNA-34c detector 2.0-1-3 ,1987,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_JNFLS_China,Yujia Liu,2016-10-13,,pgroup=Measurement&show=1.csv
+BBa_K1940007, microRNA-34c detector 2.0-1-4,1987,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_JNFLS_China,Yujia Liu,2016-10-13,,pgroup=Measurement&show=1.csv
+BBa_K1940008,microRNA-34c detector 2.0-2-1,2601,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_JNFLS_China,Yujia Liu,2016-10-13,,pgroup=Measurement&show=1.csv
+BBa_K1940009,microRNA-34c detector 2.0-2-2 ,2601,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_JNFLS_China,Yujia Liu,2016-10-13,,pgroup=Measurement&show=1.csv
+BBa_K1940010,microRNA-34c detector 2.0-2-3,2601,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_JNFLS_China,Yujia Liu,2016-10-13,,pgroup=Measurement&show=1.csv
+BBa_K1940011,microRNA-34c detector 2.0-2-4 ,2601,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_JNFLS_China,Yujia Liu,2016-10-13,,pgroup=Measurement&show=1.csv
+BBa_K1945003,PT7 + Luciferase in Homologous Recombination Plasmid,1726,,,Not Released,,Not in stock,,-1 Uses,iGEM16_CSU_Fort_Collins,Sharon Lian,2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K1949001,Pcold-gfp,1033,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Tokyo_Tech,Yoshio Takata,2016-10-06,,pgroup=Measurement&show=1.csv
+BBa_K1987000,GFP with BsaI sites for promoter insertion,1417,,,Not Released,,Not in stock,,-1 Uses,iGEM16_UIUC_Illinois,Caroline Blassick,2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K199129,pLac-RBS-optimized LuxI,687,,,Not Released,,Not in stock,Works,Not Used,iGEM09_MoWestern_Davidson,Romina Clemente,2010-03-27,,pgroup=Measurement&show=1.csv
+BBa_K199158,pLpp-RBS-RFP,781,,,Not Released,,Not in stock,Works,Not Used,iGEM09_MoWestern_Davidson,Mary Gearing,2010-05-11,,pgroup=Measurement&show=1.csv
+BBa_K2023001,Biosensor device for BTEX detection,3261,,,Not Released,,Not in stock,Works,-1 Uses,iGEM16_Ionis_Paris,"Celia Chenebault, Camille Soucies, Benjamin Piot",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2023015,XylR coding device-GFP coding device with Pu ,3454,,,Not Released,,Not in stock,,-1 Uses,iGEM16_Ionis_Paris,Célia Chenebault,2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066028,pBAD - LacI/Mcherry fusion,3235,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-06,,pgroup=Measurement&show=1.csv
+BBa_K2066035,B0034 IPTG-inducible RBS Measurement Part,1106,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066036,B0031 IPTG-inducible RBS Measurement Part,1108,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-08,,pgroup=Measurement&show=1.csv
+BBa_K2066037,pACT-Tet on UNS Standard,3034,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-08,,pgroup=Measurement&show=1.csv
+BBa_K2066044,B0029 IPTG-inducible RBS Measurement Part,1103,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-08,,pgroup=Measurement&show=1.csv
+BBa_K2066045,B0064 IPTG-inducible RBS Measurement Part,1100,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-08,,pgroup=Measurement&show=1.csv
+BBa_K2066046,B0030 IPTG-inducible RBS Measurement Part,1103,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-08,,pgroup=Measurement&show=1.csv
+BBa_K2066047,B0035 IPTG-Inducible RBS Measurement Part,1102,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-08,,pgroup=Measurement&show=1.csv
+BBa_K2066048,B0032 IPTG-Inducible RBS Measurement Part,1101,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-08,,pgroup=Measurement&show=1.csv
+BBa_K2066049,B0033 IPTG-inducible RBS Measurement Part,1099,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-08,,pgroup=Measurement&show=1.csv
+BBa_K2066057,J23100+RiboJ+sfGFP,1057,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066058,J23115+RiboJ+sfGFP,1057,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066059,"Promoter Characterization: J23100, without RiboJ",982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-12,,pgroup=Measurement&show=1.csv
+BBa_K2066060,Promoter characterization part - J23115 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066061,Promoter characterization part: J23101 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066062,Promoter characterization part: J23102 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066063,Promoter characterization part: J23103 with RiboJ,1063,,,Not Released,BBa_K2066071,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066064,Promoter characterization part: J23104 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066065,Promoter characterization part: J23105 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066066,"Promoter Characterization: J23106, with RiboJ",1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066067,"Promoter Characterization: J23108, with RiboJ",1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066068,"Promoter Characterization: J23109, with RiboJ",1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066069,Promoter characterization part: J23110 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066070,Promoter characterization part: J23111 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066071,Promoter characterization part : J23112 with RiboJ,1063,,,Not Released,BBa_K2066063,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066072,Promoter characterization part: J23113 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066073,Promoter characterization part:  J23114 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066074,Promoter characterization part: J23116 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066075,Promoter characterization part: J23117 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066076,Promoter characterization part - J23118 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066077,Promoter characterization part - J23119 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066078,Promoter characterization part -  R0040 with RiboJ,1082,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066079,Promoter characterization part - R0010 with RiboJ,1228,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066080,Promoter characterization part - J23150 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066081,Promoter characterization part - J23151 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066082,Promoter characterization part - J23101 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066083,Promoter characterization part - J23102 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066084,Promoter characterization part - J23103 without RiboJ,982,,,Not Released,BBa_K2066092,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066085,Promoter characterization part - J23104 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066086,Promoter characterization part -  J23105 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066087,Promoter characterization part -  J23106 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066088,Promoter characterization part -  J23108 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066089,Promoter characterization part -  J23109 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066090,Promoter characterization part - J23110 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066091,Promoter characterization part - J23111 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066092,Promoter characterization part - J23112 without RiboJ,982,,,Not Released,BBa_K2066084,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066093,Promoter characterization part - J23113 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066094,Promoter characterization part - J23114 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066095,Promoter characterization part - J23116 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066096,Promoter characterization part - J23117 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066097,Promoter characterization part - J23118 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066098,Promoter characterization part: J23119 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066099,Promoter characterization part - R0040 without RiboJ,1001,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066100,Promoter characterization part - R0011 with RiboJ,1083,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066101,Promoter characterization part - R0010 without RiboJ,1147,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066102,Promoter characterization part - R0011 without RiboJ,1002,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066103,Promoter characterization part - J23150 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066104,Promoter characterization part - J23151 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066105,Promoter characterization part - J23107 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066106,Promoter characterization part - J23107 without RiboJ,982,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066107,Promoter characterization part - J23100 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066108,Promoter characterization part - J23115 with RiboJ,1063,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss ",2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2066536,Spinach Aptamer w/ tRNA Scaffold,171,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_William_and_Mary,John Marken,2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2115000,It detects carbon monoxide,1035,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Saint_Rose_School,Antonella Elizabeth Osses Toledo; Javier David Villacreses Lucero,2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K2137001,CUP1-GFP Transcriptional Fusion,1278,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Waterloo,Patrick Diep,2016-10-13,,pgroup=Measurement&show=1.csv
+BBa_K2137002,Gal1-GFP Transcriptional Fusion,1434,,,Not Released,,Not in stock,None,-1 Uses,iGEM16_Waterloo,Patrick Diep,2016-10-13,,pgroup=Measurement&show=1.csv
+BBa_K2163000,Measurement of Protease Activity using FRET,1499,,,Not Released,,Not in stock,,-1 Uses,iGEM16_IIT_Kharagpur,Rhushikesh Phadke,2016-10-14,,pgroup=Measurement&show=1.csv
+BBa_K233317,rfp measurement device,912,,,Not Released,BBa_K264028,It's complicated,,Not Used,iGEM09_IBB_Pune,swetha srinivasan,2009-10-16,,pgroup=Measurement&show=1.csv
+BBa_K233318,A tester for Snowdrift 1.,1231,,,Not Released,,Not in stock,None,Not Used,iGEM09_IBB_Pune,"Swetha Srinivasan, Samit Watve, Mandar Phatak, Chinar Patil",2009-10-18,,pgroup=Measurement&show=1.csv
+BBa_K233319,A tester for Snowdrift 2.,1215,,,Not Released,,Not in stock,None,Not Used,iGEM09_IBB_Pune,"Swetha Srinivasan, Samit Watve, Mandar Phatak, Chinar Patil",2009-10-18,,pgroup=Measurement&show=1.csv
+BBa_K264017,Up Element BBa_K264000/Constitutive promoter BBa_J23101/RFP reporter BBa_J06702,936,,,Not Released,,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264018,Up Element BBa_K264001/Constitutive promoter BBa_J23119/RFP reporter BBa_J06702,936,,,Not Released,,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264019,Up Element BBa_K264001/Constitutive promoter BBa_J23101/RFP reporter BBa_J06702,936,,,Not Released,,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264020,Up Element BBa_K264001/Constitutive promoter BBa_J23112/RFP reporter BBa_J06702,936,,,Not Released,,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264021,Up Element BBa_K264002/Constitutive promoter BBa_J23101/RFP reporter BBa_J06702,936,,,Not Released,,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264022,Up Element BBa_K264003/Constitutive promoter BBa_J23101/RFP reporter BBa_J06702,936,,,Not Released,,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264023,Up Element BBa_K264004/Constitutive promoter BBa_J23101/RFP reporter BBa_J06702,936,,,Not Released,,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264024,Up Element BBa_K264005/Constitutive promoter BBa_J23101/RFP reporter BBa_J06702,936,,,Not Released,,Not in stock,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264025,Up Element BBa_K264006/Constitutive promoter BBa_J23101/RFP reporter BBa_J06702,936,,,Not Released,,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264026,Constitutive promoter BBa_J23101/RFP reporter BBa_J06702,912,,,Not Released,BBa_J69592,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264027,Constitutive promoter BBa_J23100/RFP reporter BBa_J06702,912,,,Not Released,,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264028,Constitutive promoter BBa_J23102/RFP reporter BBa_J06702,912,,,Not Released,BBa_K233317,It's complicated,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264029,Constitutive promoter BBa_J23106/RFP reporter BBa_J06702,912,,,Not Released,,Not in stock,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264030,Constitutive promoter BBa_J23107/RFP reporter BBa_J06702,912,,,Not Released,,Not in stock,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264031,Constitutive promoter BBa_J23110/RFP reporter BBa_J06702,912,,,Not Released,,Not in stock,None,Not Used,iGEM09_Virginia_Commonwealth,Kevin Bussing,2009-10-20,,pgroup=Measurement&show=1.csv
+BBa_K264051,K264001.scar.J23101.scar.J06702 (UP/promoter/reporter),944,,,Not Released,,Not in stock,,Not Used,iGEM09_Virginia_Commonwealth,George McArthur IV,2009-11-20,,pgroup=Measurement&show=1.csv
+BBa_K264052,K264003.J23119.scar.J06702 (UP/promoter/reporter),936,,,Not Released,,Not in stock,None,Not Used,iGEM09_Virginia_Commonwealth,George McArthur IV,2009-11-20,,pgroup=Measurement&show=1.csv
+BBa_K264053,K264003.J23112.scar.J06702 (UP/promoter/reporter),936,,,Not Released,,Not in stock,,Not Used,iGEM09_Virginia_Commonwealth,George McArthur IV,2009-11-20,,pgroup=Measurement&show=1.csv
+BBa_K264054,J23119.scar.J06702 (promoter/reporter),912,,,Not Released,,Not in stock,,Not Used,iGEM09_Virginia_Commonwealth,George McArthur IV,2009-11-20,,pgroup=Measurement&show=1.csv
+BBa_K264055,J23112.scar.J06702 (promoter/reporter),912,,,Not Released,,Not in stock,,Not Used,iGEM09_Virginia_Commonwealth,George McArthur IV,2009-11-20,,pgroup=Measurement&show=1.csv
+BBa_K294061,test2,68,,,Not Released,,Not in stock,,Not Used,iGEM09_Example,Daisuke Kiga,2009-06-27,,pgroup=Measurement&show=1.csv
+BBa_K299000,RBS measurement device J23100 J61100 GFP,918,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Measurement&show=1.csv
+BBa_K299001,RBS measurement device J23100 J61101 GFP,918,,,Not Released,,Not in stock,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Measurement&show=1.csv
+BBa_K299002,RBS measurement device J23100 J61107 GFP,918,,,Not Released,,Not in stock,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Measurement&show=1.csv
+BBa_K299003,RBS measurement device J23100 J61117 GFP,918,,,Not Released,,Not in stock,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Measurement&show=1.csv
+BBa_K299004,RBS measurement device J23100 J61127 GFP,918,,,Not Released,,Not in stock,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Measurement&show=1.csv
+BBa_K299005,RBS measurement device J23100 B0030 GFP,921,,,Not Released,BBa_K136011;BBa_K136017,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Measurement&show=1.csv
+BBa_K299006,RBS measurement device J23100 B0031 GFP,920,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Measurement&show=1.csv
+BBa_K299007,RBS measurement device J23100 B0032 GFP,919,,,Not Released,BBa_K173000,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Measurement&show=1.csv
+BBa_K299008,RBS measurement device J23100 B0033 GFP,917,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Measurement&show=1.csv
+BBa_K299009,RBS measurement device J23100 B0034 GFP,918,,,Not Released,BBa_K137133;BBa_K176011,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-07-19,,pgroup=Measurement&show=1.csv
+BBa_K299020,RBS measurement device pT7 B0030 GFP,909,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K299021,RBS measurement device pT7 B0031 GFP,908,,,Not Released,,Not in stock,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K299022,RBS measurement device pT7 B0032 GFP,907,,,Not Released,BBa_K199150;BBa_K199165,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K299023,RBS measurement device pT7 B0033 GFP,905,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K299024,RBS measurement device pT7 B0034 GFP,906,,,Not Released,BBa_I719015;BBa_K113013;BBa_K1886008,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K299025,RBS measurement device pT7 J61100 GFP,906,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K299026,RBS measurement device pT7 J61101 GFP,906,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K299027,RBS measurement device pT7 J61107 GFP,906,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K299028,RBS measurement device pT7 J61117 GFP,906,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K299029,RBS measurement device pT7 J61127 GFP,906,,,Not Released,BBa_K299030,It's complicated,Works,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K299030,RBS measurement device pT7 J61127 GFP,906,,,Not Released,BBa_K299029,It's complicated,None,Not Used,iGEM10_Warsaw,Anna Olchowik,2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K300018,Measurement system for K300011 self-inducible device,2797,,,Not Released,,Not in stock,Issues,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi, Paolo Magni",2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K300019,Measurement system for K300012 self-inducible device,2797,,,Not Released,,It's complicated,Works,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi, Paolo Magni",2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K300020,Measurement system for K300013 self-inducible device,2797,,,Not Released,,Not in stock,Issues,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi, Paolo Magni",2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K300021,Measurement system for K300014 self-inducible device,2797,,,Not Released,,Not in stock,Issues,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi, Paolo Magni",2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K300022,Measurement system for K300015 self-inducible device,2797,,,Not Released,,Not in stock,Issues,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi, Paolo Magni",2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K300023,Measurement system for K300016 self-inducible device,2797,,,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi, Paolo Magni",2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K300024,Measurement system for K300017 self-inducible device,2797,,,Not Released,,It's complicated,Works,Not Used,iGEM10_UNIPV-Pavia,"Lorenzo Pasotti, Susanna Zucca, Nicolo' Politi, Paolo Magni",2010-10-16,,pgroup=Measurement&show=1.csv
+BBa_K300086,Measurement system for BBa_K300002,1516,,,Not Released,,It's complicated,Works,Not Used,iGEM10_UNIPV-Pavia,"Giacomo Zambianchi, Alessandro Ranieri, Paolo Magni",2010-10-17,,pgroup=Measurement&show=1.csv
+BBa_K300088,Measurement system for BBa_K300093,2098,,,Not Released,,It's complicated,Works,Not Used,iGEM10_UNIPV-Pavia,"Giacomo Zambianchi, Sara Bisi, Paolo Magni",2010-10-17,,pgroup=Measurement&show=1.csv
+BBa_K300090,Measurement system for BBa_K300094,2134,,,Not Released,,It's complicated,Works,Not Used,iGEM10_UNIPV-Pavia,"Giacomo Zambianchi, Alessandro Ranieri, Paolo Magni",2010-10-17,,pgroup=Measurement&show=1.csv
+BBa_K300091,3OC6HSL inducible generator for BBa_K300095,3072,,,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Giacomo Zambianchi, Federica Sampietro, Paolo Magni",2010-10-19,,pgroup=Measurement&show=1.csv
+BBa_K300092,3OC6HSL inducible generator for BBa_K300084,3690,,,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Giacomo Zambianchi, Federica Sampietro, Paolo Magni",2010-10-19,,pgroup=Measurement&show=1.csv
+BBa_K300099,Measurement system for BBa_K300097,2752,,,Not Released,,Not in stock,Works,Not Used,iGEM10_UNIPV-Pavia,"Giacomo Zambianchi, Sara Bisi, Paolo Magni",2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K313009,cre recombinase assay device ,1153,,,Not Released,,It's complicated,Works,Not Used,iGEM10_UT-Tokyo,"Ryosuke Kamei, Ryo Karyazono, Kosuke Uekusa",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K313016,cre recombinase assay device,1457,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Ryosuke Kamei, Mami Nakatake, Kosuke Uekusa, Syota Suenami, Ryo Kariyazono",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K313017,terminator leakiness assay device,1262,,,Not Released,,It's complicated,Works,Not Used,iGEM10_UT-Tokyo,"Ryosuke Kamei, Ryo Kariyazono",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K313018,terminator leakiness assay device,1309,,,Not Released,,It's complicated,Works,Not Used,iGEM10_UT-Tokyo,"Ryosuke Kamei, Kosuke Uekusa, Ryo Kariyazono",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K313019,terminator leakiness assay device,1318,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Ryosuke Kamei, Mami Nakatake, Ryo Kariyazono",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K313020,terminator leakiness assay device,1421,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Ryosuke Kamei, Ryo Kariyazono",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K313021,terminator leakiness assay device,1263,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Ryosuke Kamei, Ryo Kariyazono, Kosuke Uekusa",2010-10-23,,pgroup=Measurement&show=1.csv
+BBa_K313022,terminator leakiness assay device,1311,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Ryosuke Kamei, Ryo Kariyazono",2010-10-23,,pgroup=Measurement&show=1.csv
+BBa_K313027,terminator leakiness assay device,1403,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Ryosuke Kamei, Ryo Kariyazono",2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K313028,signal transmission assay  device,959,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Tomoka Ao, Ryosuke Kamei, Ryo Kariyazono, Kosuke Uekusa",2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K313029,signal transmission assay device,1242,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Tomoka Ao, Ryosuke Kamei, Ryo Kariyazono, Kosuke Uekusa",2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K313030,signal transmission assay device,778,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Tomoka Ao, Ryosuke Kamei, Ryo Kariyazono, Kosuke Uekusa",2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K313031,asRNA measurement device 1,1093,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Mingshuo Zeng, Ryo Kariyazono, Kosuke Uekusa, Ryosuke Kamei",2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K313032,asRNA measurement device 2,1093,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Mingshuo Zeng, Ryo Kariyazono, Kosuke Uekusa, Ryosuke Kamei, Richi Fujita, Takehisa Handa, Ikuko Sumikawa, Mingshuo Zeng",2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K313035,Hin invertase assay device,1086,,,Not Released,,It's complicated,None,Not Used,iGEM10_UT-Tokyo,"Masaya Fukushima, Ryosuke Kamei, Tomoka Ao, Ryo Kariyazono",2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K315032,pBad + RBS + cre + pTet + loxP forward + RBS + RFP + lox5171 forward,3154,,,Not Released,,Not in stock,,Not Used,iGEM10_Davidson-MissouriW,Nitya Rao,2010-07-21,,pgroup=Measurement&show=1.csv
+BBa_K315033,pBad + RBS + cre + pTet + lox5171 forward + RBS + RFP + lox5171 forward,3154,,,Not Released,,Not in stock,,Not Used,iGEM10_Davidson-MissouriW,Nitya Rao,2010-07-21,,pgroup=Measurement&show=1.csv
+BBa_K315034,pBad + RBS + cre + pTet + lox5171 forward + RBS + RFP + lox5171 reverse,3154,,,Not Released,,Not in stock,,Not Used,iGEM10_Davidson-MissouriW,Nitya Rao,2010-07-21,,pgroup=Measurement&show=1.csv
+BBa_K315036,pBad + RBS + cre + pTet + lox5171 forward + RBS + RFP + loxm2 forward,3154,,,Not Released,,Not in stock,,Not Used,iGEM10_Davidson-MissouriW,Nitya Rao,2010-07-21,,pgroup=Measurement&show=1.csv
+BBa_K315037,pBad + RBS + cre + pTet + lox5171 forward + RBS + RFP + loxN forward,3154,,,Not Released,,Not in stock,,Not Used,iGEM10_Davidson-MissouriW,Nitya Rao,2010-07-21,,pgroup=Measurement&show=1.csv
+BBa_K315038,pBad + RBS + cre + pTet + lox5171 forward + RBS + RFP + lox2272 forward,3154,,,Not Released,,Not in stock,,Not Used,iGEM10_Davidson-MissouriW,Nitya Rao,2010-07-21,,pgroup=Measurement&show=1.csv
+BBa_K315039,pBad + RBS + cre + pTet + lox5171 forward + RBS + RFP + loxBri forward,3154,,,Not Released,,Not in stock,,Not Used,iGEM10_Davidson-MissouriW,Nitya Rao,2010-07-21,,pgroup=Measurement&show=1.csv
+BBa_K315042,pLac-RBS-RFP-RBS-TetA (Deoptimized from bp 1-290),2149,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Davidson-MissouriW,Curtiss Lane,2010-07-22,,pgroup=Measurement&show=1.csv
+BBa_K315043,pLacI-RBS-RFP-RBS-TetA (Optimized from bp 1-290),2004,,,Not Released,,It's complicated,None,Not Used,iGEM10_Davidson-MissouriW,Curtiss Lane,2010-07-22,,pgroup=Measurement&show=1.csv
+BBa_K315044,pLacI-RBS-RFP-RBS-TetA (Deoptimized from bp 1-290),2005,,,Not Released,,It's complicated,None,Not Used,iGEM10_Davidson-MissouriW,Curtiss Lane,2010-07-22,,pgroup=Measurement&show=1.csv
+BBa_K337032,pSMB_miTuner Plasmid HD1 (BGH(rc)/shRNA10(rc)/sv40(rc)/RSV/Luc2_sv40/CMV/Kozag_hRluc_BGH ),5244,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K337035,pSMB_miTuner Plasmid HD2 (BGH(rc)/shRNA10(rc)/sv40(rc)/CMV/Luc2_sv40/CMV/Kozag_hRluc_BGH),5234,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K337036,pSMB_miTuner Plasmid HD3 (BGH(rc)/shRNA10(rc)/RSV(rc)/CMV/Luc2_sv40/CMV/Kozag_hRluc_BGH ),5436,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K337038,pSMB_miTuner Plasmid HD4 (BGH(rc)/shRNA10(rc)/RSV(rc)/CMV_TetO2/Luc2_sv40/CMV/Kozag_hRluc_BGH),5557,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K337040,pSMB_miTuner Plasmid HD5 (BGH(rc)/shRNA10(rc)/sv40(rc)/RSV/Luc2_sv40/RSV/Kozag_hRluc_BGH),5254,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K337042,pSMB_miTuner Plasmid HD6 (BGH(rc)/shRNA10(rc)/sv40(rc)/CMV/RSV/Luc2_sv40/RSV/Kozag_hRluc_BGH),5244,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K337044,pSMB_miTuner Plasmid HD7 (BGH(rc)/shRNA10(rc)/RSV(rc)/CMV/Luc2_sv40/RSV/Kozag_hRluc_BGH ),5446,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K337046,pSMB_miTuner Plasmid HD8 (BGH(rc)/shRNA10(rc)/RSV(rc)/CMV_TetO2/Luc2_sv40/RSV/Kozag_hRluc_BGH ),5567,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K337049,pSMB_miMeasure,2924,,,Not Released,,It's complicated,None,Not Used,iGEM10_Heidelberg,"Adlung L,Al Sabah J,Bayer P,Berrens R,Cristiano E,Flocke L,Kleinsorg S,Kolodziejczyk A,Macias Torre A,Mathur A,Mayilo D,Neumann S,Niopek D,Pisa R,Schad J,Schuhmacher L,Uhlig T,Wu X,Grimm D,Eils R",2010-10-22,,pgroup=Measurement&show=1.csv
+BBa_K346020,PmerT promoter mutant1+RBS(B0030)+GFP(E0040)Terminator(B0010)+Terminator(B0012),943,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Peking,Ao liu,2010-10-18,,pgroup=Measurement&show=1.csv
+BBa_K346021,PmerT promoter mutant 3+RBS(B0030)+GFP(E0040)Terminator(B0010)+Terminator(B0012),943,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Peking,Ao Liu,2010-10-18,,pgroup=Measurement&show=1.csv
+BBa_K346022,PmerT promoter mutant 25+RBS(B0030)+GFP(E0040)Terminator(B0010)+Terminator(B0012),943,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Peking,Ao Liu,2010-10-18,,pgroup=Measurement&show=1.csv
+BBa_K346023,PmerT promoter mutant 44+RBS(B0030)+GFP(E0040)Terminator(B0010)+Terminator(B0012),943,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Peking,Ao Liu,2010-10-18,,pgroup=Measurement&show=1.csv
+BBa_K346024,PmerT promoter mutant 85+RBS(B0030)+GFP(E0040)Terminator(B0010)+Terminator(B0012),943,,,Not Released,BBa_K346025,It's complicated,Works,Not Used,iGEM10_Peking,Ao Liu,2010-10-18,,pgroup=Measurement&show=1.csv
+BBa_K346025,PmerT promoter mutant 88+RBS(B0030)+GFP(E0040)Terminator(B0010)+Terminator(B0012),943,,,Not Released,BBa_K346024,It's complicated,Works,Not Used,iGEM10_Peking,Ao Liu,2010-10-18,,pgroup=Measurement&show=1.csv
+BBa_K346055,PpbrA promoter-GFP(E0840),942,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Peking,Ying Sheng,2010-10-18,,pgroup=Measurement&show=1.csv
+BBa_K346096,PmerT promoter-GFP(E0840),943,,,Not Released,,It's complicated,Works,Not Used,iGEM10_Peking,Ying Sheng,2010-10-18,,pgroup=Measurement&show=1.csv
+BBa_K356101,PAnderRBSGFP,922,,,Not Released,,It's complicated,Works,Not Used,iGEM10_St_Andrews,Fatemeh Salimi,2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K356102,PFS77RBSGFP,918,,,Not Released,,It's complicated,Works,Not Used,iGEM10_St_Andrews,Fatemeh Salimi,2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K356103,PFS78RBSGFP,920,,,Not Released,,It's complicated,Works,Not Used,iGEM10_St_Andrews,Rachael Blackburn,2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K376014,Lux Promoter Tester,1639,,,Not Released,,It's complicated,None,Not Used,iGEM10_Penn_State,"Anisha Katyal, Andrew Kirk, Erik McCann, Lauren Rossi, Becky Hennessey",2010-10-27,,pgroup=Measurement&show=1.csv
+BBa_K376015,Lux Promoter Tester,1639,,,Not Released,,It's complicated,None,Not Used,iGEM10_Penn_State,"Anisha Katyal, Andrew Kirk, Erik McCann, Lauren Rossi, Becky Hennessey",2010-10-27,,pgroup=Measurement&show=1.csv
+BBa_K376016,Lux Promoter Tester,1708,,,Not Released,,It's complicated,None,Not Used,iGEM10_Penn_State,"Anisha Katyal, Andrew Kirk, Erik McCann, Lauren Rossi, Becky Hennessey",2010-10-27,,pgroup=Measurement&show=1.csv
+BBa_K376017,Lux Promoter Tester,1708,,,Not Released,,It's complicated,None,Not Used,iGEM10_Penn_State,"Anisha Katyal, Andrew Kirk, Erik McCann, Lauren Rossi, Becky Hennessey",2010-10-27,,pgroup=Measurement&show=1.csv
+BBa_K391000,Construct for characterization of P2 activity in the presence of AIP.,979,,,Not Released,,It's complicated,None,Not Used,iGEM10_British_Columbia,Phillip Chu,2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K391001,Construct for characterization of P2 activity in the presence of AIP.,1018,,,Not Released,,It's complicated,None,Not Used,iGEM10_British_Columbia,Phillip Chu,2010-10-24,,pgroup=Measurement&show=1.csv
+BBa_K398306,PalkB_K093005,815,,,Not Released,,It's complicated,,Not Used,iGEM10_TU_Delft,Eva Brinkman,2010-10-10,,pgroup=Measurement&show=1.csv
+BBa_K398500,J23100 J61100 E0040 B0015,918,,,Not Released,,It's complicated,Works,Not Used,iGEM10_TU_Delft,Mathias Voges,2010-07-12,,pgroup=Measurement&show=1.csv
+BBa_K398501,J23100 J61101 E0040 B0015,918,,,Not Released,,It's complicated,Works,Not Used,iGEM10_TU_Delft,Mathias Voges,2010-07-12,,pgroup=Measurement&show=1.csv
+BBa_K398502,J23100 J61107 E0040 B0015,918,,,Not Released,,It's complicated,Works,Not Used,iGEM10_TU_Delft,Mathias Voges,2010-07-12,,pgroup=Measurement&show=1.csv
+BBa_K398503,J23100 J61117 E0040 B0015,918,,,Not Released,,It's complicated,Works,Not Used,iGEM10_TU_Delft,Mathias Voges,2010-07-12,,pgroup=Measurement&show=1.csv
+BBa_K398504,J23100 J61127 E0040 B0015,918,,,Not Released,,It's complicated,Works,Not Used,iGEM10_TU_Delft,Mathias Voges,2010-07-12,,pgroup=Measurement&show=1.csv
+BBa_K516131,"Constitutive promoter [J23101] with mRFP, RBS B0031",906,,,Not Released,,It's complicated,Works,Not Used,iGEM11_UNIPV-Pavia,"Susanna Zucca, Federica Sampietro, Giuseppe Bertoni",2011-09-08,,pgroup=Measurement&show=1.csv
+BBa_K516230,PTet mRFP with RBS B0030,926,,UNIPV-Pavia iGEM 2011:5,Not Released,,Not in stock,Works,Not Used,iGEM11_UNIPV-Pavia,"Susanna Zucca, Nicolo' Politi, Davide Bianchini, Paolo Magni",2011-09-08,,pgroup=Measurement&show=1.csv
+BBa_K516231,PTet mRFP with RBS B0031,925,,UNIPV-Pavia iGEM 2011:5,Not Released,,Not in stock,Works,Not Used,iGEM11_UNIPV-Pavia,"Susanna Zucca, Nicolo' Politi, Davide Bianchini, Paolo Magni",2011-09-08,,pgroup=Measurement&show=1.csv
+BBa_K516232,PTet mRFP with RBS B0032,924,,UNIPV-Pavia iGEM 2011:5,Not Released,BBa_I20252,Not in stock,Works,Not Used,iGEM11_UNIPV-Pavia,"Nicolo' Politi, Susanna Zucca, Tommaso Goggia, Paolo Magni",2011-09-08,,pgroup=Measurement&show=1.csv
+BBa_K516330,mRFP producer controlled by 3OC6-HSL with RBS B0030,1841,,UNIPV-Pavia iGEM 2011:5,Not Released,,Not in stock,Works,Not Used,iGEM11_UNIPV-Pavia,"Susanna Zucca, Nicolo' Politi, Davide Bianchini, Paolo Magni",2011-09-08,,pgroup=Measurement&show=1.csv
+BBa_K516331,mRFP producer controlled by 3OC6-HSL with RBS B0031,1840,,UNIPV-Pavia iGEM 2011:5,Not Released,,Not in stock,Works,Not Used,iGEM11_UNIPV-Pavia,"Susanna Zucca, Nicolo' Politi, Davide Bianchini, Paolo Magni",2011-09-08,,pgroup=Measurement&show=1.csv
+BBa_K516332,mRFP producer controlled by 3OC6-HSL with RBS B0032,1839,,UNIPV-Pavia iGEM 2011:5,Not Released,,Not in stock,Works,Not Used,iGEM11_UNIPV-Pavia,"Federica Sampietro, Susanna Zucca, Tommaso Goggia, Paolo Magni",2011-09-08,,pgroup=Measurement&show=1.csv
+BBa_K516334,mRFP producer controlled by 3OC6-HSL with RBS B0034,1838,,,Not Released,,Not in stock,Works,Not Used,iGEM11_UNIPV-Pavia,"Federica Sampietro, Susanna Zucca, Tommaso Goggia, Paolo Magni",2011-09-08,,pgroup=Measurement&show=1.csv
+BBa_K518002,Firefly-renilla dual luciferase assay kit,2884,,,Not Released,,Not in stock,Works,1 Uses,iGEM11_UT-Tokyo,Masato Ohgishi,2011-09-15,,pgroup=Measurement&show=1.csv
+BBa_K518013,sulA promoter evaluation device,2944,,,Not Released,,Not in stock,Works,Not Used,iGEM11_UT-Tokyo,Masato Ohgishi,2011-10-03,,pgroup=Measurement&show=1.csv
+BBa_K525720,"""	DNA ligase from Escherichia coli (LigA)""",2028,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Bielefeld-Germany,Anna Drong,2011-09-10,,pgroup=Measurement&show=1.csv
+BBa_K528000,RBS measurement device J23100 B0031 mORANGE,832,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Warsaw,Pawel Urbanski,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528001,RBS measurement device J23100 B0032 mORANGE,831,,,Not Released,BBa_K299124,Not in stock,Works,Not Used,iGEM11_Warsaw,Pawel Urbanski,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528002,RBS measurement device J23100 B0034 mORANGE,830,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Warsaw,Pawel Urbanski,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528003,RBS measurement device J23100 B0031 RFP,769,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Warsaw,Dorota Kaja Sabat,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528004,RBS measurement device J23100 B0032 RFP,768,,,Not Released,BBa_K299122,Not in stock,Works,Not Used,iGEM11_Warsaw,Krzysztof Szczepaniak,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528005,RBS measurement device J23100 B0033 RFP,766,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Warsaw,Krzysztof Szczepaniak,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528006,RBS measurement device J23100 B0034 RFP,767,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Warsaw,Krzysztof Szczepaniak,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528007,RBS measurement device J23100 B0031 YFP,786,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Warsaw,Dorota Kaja Sabat,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528008,RBS measurement device J23100 B0032 YFP,785,,,Not Released,BBa_K299120,Not in stock,Works,Not Used,iGEM11_Warsaw,Dorota Kaja Sabat,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528009,RBS measurement device J23100 B0033 YFP,783,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Warsaw,Dorota Kaja Sabat,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528010,RBS measurement device J23100 B0034 YFP,784,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Warsaw,Dorota Kaja Sabat,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528012,RBS measurement device J23100 B0032 Super Folder GFP,782,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Warsaw,El&#380;bieta Jankowska,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528013,RBS measurement device J23100 B0033 Super Folder GFP,780,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Warsaw,El&#380;bieta Jankowska,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528014,RBS measurement device J23100 B0034 Super Folder GFP,781,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Warsaw,El&#380;bieta Jankowska,2011-09-18,,pgroup=Measurement&show=1.csv
+BBa_K528021,Expression Adapter fuse with E0030 YFP protein,811,,,Not Released,,It's complicated,None,Not Used,iGEM11_Warsaw,Pawel Urbanski,2011-09-19,,pgroup=Measurement&show=1.csv
+BBa_K545000,pCin + CrtEBI (lycopene enzymes),3624,,,Not Released,,It's complicated,None,Not Used,iGEM11_Grenoble,Grenoble 2011,2011-09-20,,pgroup=Measurement&show=1.csv
+BBa_K545002,pMerT + GFP,941,,,Not Released,,It's complicated,None,Not Used,iGEM11_Grenoble,Grenoble 2011,2011-09-20,,pgroup=Measurement&show=1.csv
+BBa_K545010,pConst + fha RBS + GFP,938,,,Not Released,,It's complicated,None,Not Used,iGEM11_Grenoble,Grenoble 2011,2011-09-21,,pgroup=Measurement&show=1.csv
+BBa_K546002,Lux pL controlled luxR with lux pR controlled GFP(lva tag).,2080,,,Not Released,,It's complicated,Works,Not Used,iGEM11_Wageningen_UR,M. Hesselman,2011-09-14,,pgroup=Measurement&show=1.csv
+BBa_K549001,Ni(II) dependent rcnA-promoter and GFP,939,,,Not Released,,It's complicated,Works,Not Used,iGEM11_LMU_Munich,Jara Radeck,2011-08-26,,pgroup=Measurement&show=1.csv
+BBa_K549006,PnorB + RBS + GFP-reporter gene,843,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549007,PnorB + RBS + lacZ-reporter gene,366,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549008,PnorB + RBS + luxAB-reporter genes,2229,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549013,PnikA + GFP reporter gene,968,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549014,PnikA + lacZ reporter gene,491,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549015,PnikA + luxAB reporter gene,2358,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549016,E. coli ars promoter with arsR and ABS + GFP reporter gene,1296,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549017,E. coli ars promoter with arsR and ABS + lacZ' reporter gene,819,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549022,pabA with fused His-tag  ,651,,,Not Released,,Not in stock,,Not Used,iGEM11_LMU_Munich,Franziska Haefele,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549023,10x His-tag fused to pabA,651,,,Not Released,,Not in stock,,Not Used,iGEM11_LMU_Munich,Franziska Haefele,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549026,petE2 with the fused 10x His-tag,573,,,Not Released,,Not in stock,,Not Used,iGEM11_LMU_Munich,Franziska Haefele,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549027,10x His-tag fused to petE2,573,,,Not Released,,Not in stock,,Not Used,iGEM11_LMU_Munich,Franziska Haefele,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549028,E. coli ars promoter with arsR and ABS + luxAB reporter gene,2686,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549032,B. subtilis ase promoter with aseR + GFP reporter gene,880,,,Not Released,,Not in stock,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549033,B. subtilis ase promoter with aseR + lacZ' reporter gene,403,,,Not Released,,Not in stock,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549035,B. subtilis cue promoter with cueR + GFP reporter gene,1045,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549036,B. subtilis cue promoter with cueR + lacZ' reporter gene,568,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K549037,B. subtilis ase promoter with aseR + GFP reporter gene,2435,,,Not Released,,It's complicated,,Not Used,iGEM11_LMU_Munich,Tobias Bauer,2011-09-16,,pgroup=Measurement&show=1.csv
+BBa_K564003,Prha-lacZ,5363,,,Not Released,,Not in stock,,Not Used,iGEM11_DTU_Denmark,Sébastien Lemire,2011-09-19,,pgroup=Measurement&show=1.csv
+BBa_K564008,Ptet fused with LacZ,3842,,,Not Released,,Not in stock,None,Not Used,iGEM11_DTU_Denmark,Damian Rafal Plichta,2011-09-20,,pgroup=Measurement&show=1.csv
+BBa_K564009,Arabinose promoter fused with lacZ,4428,,,Not Released,,Not in stock,None,Not Used,iGEM11_DTU_Denmark,Damian Rafal Plichta,2011-09-20,,pgroup=Measurement&show=1.csv
+BBa_K592028,T5-lac promoter-B0032-YFP,915,,iGEM2011_Uppsala-Sweden:1,Not Released,,It's complicated,Works,Not Used,iGEM11_Uppsala-Sweden,Lei Sun,2011-09-21,,pgroup=Measurement&show=1.csv
+BBa_K592030,PcpcG2-B0034-YFP green light sensor output,1026,,,Not Released,,It's complicated,,Not Used,iGEM11_Uppsala-Sweden,Lei Sun,2011-09-21,,pgroup=Measurement&show=1.csv
+BBa_K592032,J23101-B0032-YFP,824,,iGEM2011_Uppsala-Sweden:1,Not Released,,It's complicated,Works,Not Used,iGEM11_Uppsala-Sweden,Lei Sun,2011-09-21,,pgroup=Measurement&show=1.csv
+BBa_K602013,,3585,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Osaka,"Toshiyuki Otake, Youfeng Lin, Shuhei Yasumoto, Takahiro Saka, Rie Takino, Shaothing Teoh",2011-10-05,,pgroup=Measurement&show=1.csv
+BBa_K602014,LacI promoter with CrtEBI reporter,3593,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Osaka,"Toshiyuki Otake, Youfeng Lin, Shuhei Yasumoto, Takahiro Saka, Rie Takino, Shaothing Teoh",2011-10-05,,pgroup=Measurement&show=1.csv
+BBa_K608014,strong promoter and medium RBS with RFP,768,,,Not Released,,In stock,None,Not Used,iGEM11_Freiburg,Julia Müller,2011-09-15,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Measurement&show=1.csv
+BBa_K608015,strong promoter and weak RBS with RFP,769,,,Not Released,,It's complicated,None,Not Used,iGEM11_Freiburg,Julia Müller,2011-09-15,,pgroup=Measurement&show=1.csv
+BBa_K608016,medium promoter and strong RBS with RFP,767,,,Not Released,,It's complicated,None,Not Used,iGEM11_Freiburg,Julia Müller,2011-09-15,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Measurement&show=1.csv
+BBa_K608017,medium promoter and medium RBS with RFP,768,,,Not Released,,In stock,None,Not Used,iGEM11_Freiburg,Julia Müller,2011-09-15,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Measurement&show=1.csv
+BBa_K608018,medium promoter and weak RBS with RFP,769,,,Not Released,,It's complicated,None,Not Used,iGEM11_Freiburg,Julia Müller,2011-09-15,Spring 2017 Distribution;Spring 2016 Distribution,pgroup=Measurement&show=1.csv
+BBa_K611061,BBa_C0051 test construct,3729,,,Not Released,,Not in stock,None,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-15,,pgroup=Measurement&show=1.csv
+BBa_K611062,BBa_B0034-BBa_E1010 Test Construct in BBa_J61002,3680,,,Not Released,,Not in stock,None,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-15,,pgroup=Measurement&show=1.csv
+BBa_K611064,cI Lambda with TGATAA Mutated Stop Codon test construct,3729,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-15,,pgroup=Measurement&show=1.csv
+BBa_K611065,Truncation E test construct,3728,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-15,,pgroup=Measurement&show=1.csv
+BBa_K611066,cI Lambda Coding region without Barcode testing construct,3704,,,Not Released,,Not in stock,None,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-15,,pgroup=Measurement&show=1.csv
+BBa_K611067,Truncation D test construct,3621,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-16,,pgroup=Measurement&show=1.csv
+BBa_K611068,Truncation C test construct,3471,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-16,,pgroup=Measurement&show=1.csv
+BBa_K611069,Truncation B test construct,3300,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-16,,pgroup=Measurement&show=1.csv
+BBa_K611070,Truncation A test construct,3171,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-17,,pgroup=Measurement&show=1.csv
+BBa_K611071,Barcode Only test construct,2981,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-17,,pgroup=Measurement&show=1.csv
+BBa_K611072,LVA 5' -11bp Truncation (BBa_K611095) test construct,3009,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-17,,pgroup=Measurement&show=1.csv
+BBa_K611073,LVA 5' -22bp Truncation (BBa_K611096) test construct,2998,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-17,,pgroup=Measurement&show=1.csv
+BBa_K611074,Barcode 3' -8bp Truncation (BBa_K611097) test construct,3012,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-17,,pgroup=Measurement&show=1.csv
+BBa_K611075,Barcode 3' -16bp Truncation (BBa_K611098) test construct,3004,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-17,,pgroup=Measurement&show=1.csv
+BBa_K611076,"LVA 5' -11bp, Barcode 3' -8bp Truncation (BBa_K611099) test construct",3001,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-17,,pgroup=Measurement&show=1.csv
+BBa_K611077,"LVA 5' -22bp, Barcode 3' -8bp Truncation (BBa_K611100) test construct",2990,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-17,,pgroup=Measurement&show=1.csv
+BBa_K611078,"LVA 5' -11bp,"" Barcode 3' -16bp Truncation (BBa_K611101) test construct	""",2993,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-17,,pgroup=Measurement&show=1.csv
+BBa_K611079,"LVA 5' -22bp, Barcode 3' -16bp Truncation (BBa_K611102) test construct",2982,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-17,,pgroup=Measurement&show=1.csv
+BBa_K611080,"LVA tag, Double Stop Codon, Barcode test construct",3020,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-05-31,,pgroup=Measurement&show=1.csv
+BBa_K611081,BBa_C0051 GFP Test Construct,3743,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-08-16,,pgroup=Measurement&show=1.csv
+BBa_K611082,GFP (BBa_E0040) Screening Plasmid,2968,,,Not Released,,Not in stock,,1 Uses,iGEM11_UC_Davis,Timothy Fenton,2012-08-17,,pgroup=Measurement&show=1.csv
+BBa_K611083,BBa_C0051 Test Construct +1(TSS) delete ,3727,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-08-21,,pgroup=Measurement&show=1.csv
+BBa_K611084,LVA?'11 (BBa_K611072) with a +1 deletion (TSS deletion),3008,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-08-21,,pgroup=Measurement&show=1.csv
+BBa_K611085,BBa_C0051 test construct in GFP screening plasmid (BBa_K611082),3749,,,Not Released,,Not in stock,,Not Used,iGEM11_UC_Davis,Timothy Fenton,2012-08-22,,pgroup=Measurement&show=1.csv
+BBa_K648034,Or tester,968,,,Not Released,,Not in stock,Works,Not Used,iGEM11_Penn_State,"Lauren Rossi, Jamie Coletta, Anisha Katyal, Kristen Salava",2011-09-27,,pgroup=Measurement&show=1.csv
+BBa_K654045,Promoter Tester Anderson E.coli 1.0 Reference Dual Luciferase Assay,2950,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Eric B Anderson,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K654046,Promoter/RBS Tester Anderson 1.0 Reference Dual Luciferase Assay,2932,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Eric B Anderson,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K654047,Promoter Control Anderson E.coli 1.0 Reference Dual Luciferase Assay,2993,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Eric B Anderson,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K654048,Promoter Tester Native 6803 RBS psbA2 Reference Dual Luciferase Assay,3019,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Victor Carlson,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K654049,Promoter/RBS Tester psbA2 Reference Dual Luciferase Assay,2964,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Victor Carlson,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K654050,Promoter Control psbA2 Reference Dual Luciferase Assay,3057,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Victor Carlson,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K654051,Promoter Tester 6803 Native RBS sigA Reference Dual Luciferase Assay,2993,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Sarah Allred,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K654052,Promoter/RBS Tester sigA Reference Dual Luciferase Assay,2938,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Sarah Allred,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K654053,Promoter Control sigA Reference Dual Luciferase Assay,3005,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Sarah Allred,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K654054,Promoter Tester 6803 Consensus RBS psbA2 Reference Dual Luciferase Assay,3019,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Victor Carlson,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K654055,Promoter Tester 6803 Consensus RBS sigA Reference Dual Luciferase Assay,2993,,,Not Released,,It's complicated,None,Not Used,iGEM11_Utah_State,Sarah Allred,2011-09-26,,pgroup=Measurement&show=1.csv
+BBa_K669006,Allows the measurement of the CBP promoter activity,2906,,,Not Released,,It's complicated,None,Not Used,iGEM11_BACATA-COLOMBIA,Silvia J Cañas,2011-10-28,,pgroup=Measurement&show=1.csv
+BBa_K669007,Allows the measurement of the ChiP promoter activity,3744,,,Not Released,,It's complicated,None,Not Used,iGEM11_BACATA-COLOMBIA,Silvia J Cañas,2011-10-28,,pgroup=Measurement&show=1.csv
+BBa_K731701,BBa_K731700 with T7terminator (BBa_K731721),6927,,,Not Released,,It's complicated,Works,Not Used,iGEM12_TRENTO,"Giacomo Giacomelli, Anna Depetris",2012-08-24,,pgroup=Measurement&show=1.csv
+BBa_K731702,BBa_K731700 backbone with BBa_K731722 E. coli terminator,6958,,,Not Released,,It's complicated,Works,Not Used,iGEM12_TRENTO,"Giacomo Giacomelli, Anna Depetris",2012-08-24,,pgroup=Measurement&show=1.csv
+BBa_K731711,BBa_K731710 backbone with T7terminator (BBa_K731721),6942,,,Not Released,,It's complicated,Works,Not Used,iGEM12_TRENTO,"Giacomo Giacomelli, Anna Depetris",2012-08-24,,pgroup=Measurement&show=1.csv
+BBa_K731712,BBa_K731710 with BBa_K731722 E. coli terminator ,6965,,,Not Released,,It's complicated,Works,Not Used,iGEM12_TRENTO,"Giacomo Giacomelli, Anna Depetris",2012-08-24,,pgroup=Measurement&show=1.csv
+BBa_K741004,plac-RBS-cI-T-pRM-RBS-GFP-T,2111,,,Not Released,,It's complicated,Works,Not Used,iGEM12_USTC-China,Wuyang Chen,2012-07-24,,pgroup=Measurement&show=1.csv
+BBa_K772008,GFP - LacZ protein complex with flag tags,1232,,,Not Released,,Not in stock,,Not Used,iGEM12_Fatih,Mustafa Elitok,2012-09-26,,pgroup=Measurement&show=1.csv
+BBa_K772009,GFP - LasR protein complex with flag tags,1745,,,Not Released,,Not in stock,,Not Used,iGEM12_Fatih,Mustafa Elitok,2012-09-26,,pgroup=Measurement&show=1.csv
+BBa_K862000,precA-LacZ-doubleTerminator,3430,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Heidelberg_LSL,"Charlotte Bunne, Mariam Harmouche, Stefan Holderbach, Anna Huhn and Jakob Kreft (in alphabetical order)",2012-06-08,,pgroup=Measurement&show=1.csv
+BBa_K862001,psulA-LacZ-doubleTerminator,3290,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Heidelberg_LSL,"Charlotte Bunne, Mariam Harmouche, Stefan Holderbach, Anna Huhn and Jakob Kreft (in alphabetical order)",2012-06-08,,pgroup=Measurement&show=1.csv
+BBa_K862002,precB-LacZ-doubleTerminator,3308,,,Not Released,,It's complicated,Works,Not Used,iGEM12_Heidelberg_LSL,"Charlotte Bunne, Mariam Harmouche, Stefan Holderbach, Anna Huhn and Jakob Kreft (in alphabetical order)",2012-06-08,,pgroup=Measurement&show=1.csv
+BBa_K874120,Methylation Measurement Module (M.ScaI & dual PZF3838 targeted),364,,,Not Released,,Not in stock,Issues,1 Uses,iGEM12_Amsterdam,Ernst Bank,2012-09-22,,pgroup=Measurement&show=1.csv
+BBa_K880001,Asymmetrically digestible reporter to assay the activity of DNA recombinases FimE K137007 and HbiF K,338,,Michigan iGEM 2013:0,Not Released,,It's complicated,Issues,Not Used,iGEM12_Michigan,"Josh Atkinson, Mike Ferguson, and Ben Parker ",2012-09-29,,pgroup=Measurement&show=1.csv
+BBa_K880003,"Asymmetrically digestible reporter, same orientation of inverted repeats as K137058 (external sites ",338,,Michigan iGEM 2013:0,Not Released,,It's complicated,Fails,Not Used,iGEM12_Michigan,"Josh Atkinson, Mike Ferguson, and Ben Parker",2012-09-29,,pgroup=Measurement&show=1.csv
+BBa_K902016,RBS-GFP-LVA,774,,,Not Released,,It's complicated,,Not Used,iGEM12_Calgary,Himika Dastidar,2012-10-02,,pgroup=Measurement&show=1.csv
+BBa_K902025,Moco Riboswitch- GFP(LVA),891,,,Not Released,,It's complicated,None,Not Used,iGEM12_Calgary,Somshukla Chaudhuri,2012-10-02,,pgroup=Measurement&show=1.csv
+BBa_K902075,mntP riboswitch + GFP(+LVA),991,,,Not Released,,It's complicated,None,Not Used,iGEM12_Calgary,Kevin Huie,2012-10-02,,pgroup=Measurement&show=1.csv
+BBa_K911001,Magnesium sensitive riboswitch,486,,,Not Released,,It's complicated,Issues,Not Used,iGEM12_Cambridge,Oliver Meacock,2012-09-07,,pgroup=Measurement&show=1.csv
+BBa_K911002,Magnesium sensitive riboswitch (8 codon substitution),510,,,Not Released,,It's complicated,None,Not Used,iGEM12_Cambridge,Oliver Meacock,2012-09-12,,pgroup=Measurement&show=1.csv
+BBa_K950007,membrane progesterone receptor (Xenopus laevis),1062,,,Not Released,,It's complicated,None,Not Used,iGEM12_Tuebingen,Jan Rudolph,2012-07-29,,pgroup=Measurement&show=1.csv
+BBa_M12072,CueR internal copper sensor,420,,,Not Released,,Not in stock,,Not Used,MIT BE 20.20 - S09 MIT BE 20.20 - S10,Will Whitney,2010-05-12,,pgroup=Measurement&show=1.csv
+BBa_M30005, -- No description -- ,1914,,,Not Released,BBa_M30006;BBa_M30007;BBa_M30008,Not in stock,,Not Used,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,natalie kuldell,2005-12-04,,pgroup=Measurement&show=1.csv
+BBa_M30006, -- No description -- ,1914,,,Not Released,BBa_M30005;BBa_M30007;BBa_M30008,Not in stock,,Not Used,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,natalie kuldell,2005-12-04,,pgroup=Measurement&show=1.csv
+BBa_M30007, -- No description -- ,1914,,,Not Released,BBa_M30005;BBa_M30006;BBa_M30008,Not in stock,,Not Used,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,natalie kuldell,2005-12-04,,pgroup=Measurement&show=1.csv
+BBa_M30008, -- No description -- ,1914,,,Not Released,BBa_M30005;BBa_M30006;BBa_M30007,Not in stock,,Not Used,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,natalie kuldell,2005-12-04,,pgroup=Measurement&show=1.csv
+BBa_M30009, -- No description -- ,1972,,,Not Released,BBa_M30010,Not in stock,,Not Used,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,natalie kuldell,2005-12-04,,pgroup=Measurement&show=1.csv
+BBa_M30010, -- No description -- ,1972,,,Not Released,BBa_M30009,Not in stock,,Not Used,BE.109 Instructors BE.109 2006 MIT 20.109 Spring07 MIT 20.109 Fall07,natalie kuldell,2005-12-04,,pgroup=Measurement&show=1.csv
+BBa_M36664,Hypoxia Sensor,,,,Not Released,,No part sequence,,No Sequence,Stanford BIOE44 - S11,Gordon Sun,2014-05-06,,pgroup=Measurement&show=1.csv
+BBa_M36665,Hypoxia Sensor,,,,Not Released,,No part sequence,,No Sequence,Stanford BIOE44 - S11,Gordon Sun,2014-05-06,,pgroup=Measurement&show=1.csv
+BBa_S03367,"Input to switch (-LacI, +GFP)",1928,,,Not Released,,Not in stock,,Not Used,iGEM_Penn_State,Lane Weaver,2005-10-31,,pgroup=Measurement&show=1.csv
+BBa_S03372,CI-LacI switch 1 (+GFP),,,,Not Released,,No part sequence,,No Sequence,iGEM_Penn_State,Lane Weaver,2005-10-31,,pgroup=Measurement&show=1.csv
+BBa_S03469,Lambda-lacI input system TESTER (IPTG controlled lacI+pL efficiency),2358,,,Not Released,,It's complicated,,Not Used,iGEM_ETHZ,ETH Zurich iGEM Team 2005,2006-05-02,,pgroup=Measurement&show=1.csv
+BBa_S03470,Sensing Device with Pr and GFP,2373,,,Not Released,,Not in stock,,Not Used,iGEM_ETHZ,ETH Zurich iGEM Team 2005,2006-05-02,,pgroup=Measurement&show=1.csv
+BBa_S03471,Sensing Device with Pr and CFP,2415,,,Not Released,,It's complicated,,Not Used,iGEM_ETHZ,ETH Zurich iGEM Team 2005,2006-05-02,,pgroup=Measurement&show=1.csv
+BBa_S03472,Sensing Device with Prm and RFP,2392,,,Not Released,,It's complicated,,Not Used,iGEM_ETHZ,ETH Zurich iGEM Team 2005,2006-05-02,,pgroup=Measurement&show=1.csv
+BBa_T3333,Kill this part,103,,,Not Released,,Not in stock,,Not Used,iGEM09_Example,Randy Rettberg,2012-03-04,,pgroup=Measurement&show=1.csv
+BBa_T5000,lacI inhibited lux receiver test,4456,,,Not Released,,Not in stock,,Not Used,Haseloff Lab,James Brown,2011-08-08,,pgroup=Measurement&show=1.csv
+BBa_T9200,C12 Receiver Test Device,1881,,,Not Released,,Not in stock,,Not Used,,James Brown,2011-10-31,,pgroup=Measurement&show=1.csv
+BBa_T9201,C12 Receiver Test Device: YFP ,1884,,,Not Released,BBa_J69122,Not in stock,,Not Used,,James Brown,2011-10-31,,pgroup=Measurement&show=1.csv
+BBa_T9300,C6 Receiver YFP Test Construct,1947,,,Not Released,BBa_I13273,It's complicated,,Not Used,,James Brown,2011-10-31,,pgroup=Measurement&show=1.csv
