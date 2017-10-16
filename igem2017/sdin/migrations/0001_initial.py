@@ -73,13 +73,9 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('Name', models.CharField(db_index=True, max_length=50, unique=True)),
-<<<<<<< HEAD
-                ('Description', models.CharField(max_length=100)),
-=======
                 ('Description', models.TextField()),
                 ('Length', models.IntegerField(default=0)),
                 ('Part_rating', models.IntegerField(default=0)),
->>>>>>> backend
                 ('Type', models.CharField(max_length=20)),
                 ('Safety', models.IntegerField(default=0)),
                 ('Scores', models.FloatField(default=0.0)),
@@ -134,10 +130,7 @@ class Migration(migrations.Migration):
                 ('Keywords', models.CharField(default='', max_length=200)),
                 ('Chassis', models.CharField(default='None', max_length=100)),
                 ('IEF', models.FloatField(default=0.0)),
-<<<<<<< HEAD
-=======
                 ('ReadCount', models.IntegerField(default=0)),
->>>>>>> backend
                 ('Circuit', models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, to='sdin.Circuit')),
             ],
         ),
