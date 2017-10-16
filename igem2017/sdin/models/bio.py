@@ -19,7 +19,7 @@ class Parts(models.Model):
     Group = models.CharField(max_length = 100, default = "To be add")
     Author = models.CharField(max_length = 256, default = "To be add")
     DATE = models.CharField(max_length = 10, default = "To be add")
-    Distribution = models.CharField(max_length = 500, default = "To be add")
+    Distribution = models.TextField(default = "To be add")
     Sequence = models.TextField()
 
     def __str__(self):

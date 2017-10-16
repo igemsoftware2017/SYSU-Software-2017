@@ -305,7 +305,7 @@ def save_circuit(request):
             for x in data['devices']:
                 cd = CircuitDevices.objects.create(Circuit = circuit)
                 for i in x:
-                    cd.Subparts.add(cids[i]) 
+                    cd.Subparts.add(cids[i])
             return JsonResponse({
                     'status': 1,
                     'circuit_id': circuit.id})
