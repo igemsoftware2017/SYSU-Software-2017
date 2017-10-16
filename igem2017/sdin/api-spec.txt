@@ -41,6 +41,7 @@ POST: /api/part
         id: integer
     }
 
+# NOTE api changed, add related parts and keywords
 GET: /search
     parameters: {
         q: string
@@ -49,21 +50,29 @@ GET: /search
     render: {
         resultsCount: integer
         works: array of {
-            id: integer
+            id: integer (-1 for not in database)
             image: string (url)
             year: integer or string
+            teamName: string
             projectName: string
-            school: string
-            risk: integer or string
+            school: string # NOTE no field in database
+            risk: integer or string # NOTE no field in database
             medal: string
             description: string
             chassis: string
             rewards: array of string
             isFavourite: boolean
         }
-        recommends: array of string
+        parts: array of {
+            name: string
+            type: string
+            id: integer (-1 for not in database)
+            isFavourite: boolean
+        }
+        keywords: array of string
     }
 
+# NOTE work.html template not exist
 GET: /work
     parameters: {
         id: integer
