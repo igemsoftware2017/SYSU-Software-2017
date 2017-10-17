@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-color: transparent;
 }
 #result-segment {
   background: rgba(255, 255, 255, 0);
@@ -28,6 +29,12 @@
 #search-type-menu {
   border-width: 0;
   margin-bottom: 0;
+}
+#search-type-menu .item {
+  transition: all 0.1s ease;
+}
+#search-type-menu > .active.item {
+  border-color: #ffd405;
 }
 #result-container {
   margin-left: 2em;

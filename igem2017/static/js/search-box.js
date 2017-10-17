@@ -17,7 +17,7 @@ $('#search-edit')
     .on('focus', function() {
         $('#search-page-dimmer').css({
             background: 'rgba(0, 0, 0, 0.5)',
-            zIndex: 500
+            zIndex: 1
         });
     });
 $('#search-edit')

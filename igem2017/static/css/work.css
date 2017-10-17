@@ -83,16 +83,10 @@ body {
   max-height: 194px;
   margin-left: 38px;
   margin-bottom: 20px;
-}
-#detail-container>.description>.title {
   line-height: 1em;
   font-size: 25px;
-  margin-bottom: 10px;
   color: #333333;
-}
-#detail-container>.description>.content {
   overflow-y: auto;
-  max-height: 159px;
 }
 #detail-container>.images {
   height: 80px;

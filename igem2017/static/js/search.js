@@ -33,7 +33,7 @@ $('.labels>.label')
             $(this).removeClass('label').addClass('basic label');
     });
 
-$('.column>.ui.menu')
+$('#search-type-menu')
     .on('click', '.item', function() {
         if(!$(this).hasClass('dropdown')) {
             $(this)
@@ -63,3 +63,10 @@ $('.ui.calendar')
     .calendar({
         type: 'date'
     });
+
+$(window).scroll(() => {
+    if ($(window).scrollTop() > 150)
+        $('.ui.inverted.fixed.menu').css('background-image', 'url(/static/img/search-back.jpg)');
+    else
+        $('.ui.inverted.fixed.menu').css('background-image', 'none');
+});
