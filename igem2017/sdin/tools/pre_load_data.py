@@ -172,15 +172,16 @@ def load_works(works_floder_path):
                             Region = row[2],
                             Country = row[3],
                             Track = row[4],
-                            Section = row[5],
-                            Size = int(row[6]),
-                            Status = row[7],
-                            Year = int(row[8]),
-                            Wiki = row[9],
+                            Size = int(row[5]),
+                            Status = row[6],
+                            Year = int(row[7]),
+                            Wiki = row[8],
+                            Section = row[9],
                             Medal = row[10],
                             Award = row[11],
-                            Name = row[12],
-                            Use_parts = row[13],
+                            Use_parts = row[12],
+                            Title = row[13],
+                            Description = row[14],
                         ))
                     except Exception as err1:
                         errors += 1
@@ -210,7 +211,9 @@ def load_works(works_floder_path):
             works.append(work)
         except Exception as err3:
             errors += 1
-            print(err3)
+            print(row[0], row[1])
+            break
+            #print(err3)
             pass
     print('Saving...')
     atomic_save(works)
@@ -229,6 +232,7 @@ def load_works(works_floder_path):
             works.append(work)
         except Exception as err4:
             errors += 1
+            print(row[0]," ",row[1]," ", row[2])
             print(err4)
             pass
     print('Saving...')
