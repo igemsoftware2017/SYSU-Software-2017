@@ -24,11 +24,6 @@ def atomic_save(items):
     for i in items:
         i.save()
 
-@atomic
-def atomic_add(part_subparts):
-    for p, sp in part_subparts:
-        p.Subparts.add(*sp)
-
 def load_parts(parts_floder_path):
     errors = 0
     print('Deleting all previous parts...')
@@ -152,49 +147,46 @@ def load_works(works_floder_path):
     Works.objects.all().delete()
 
     works = []
-    for root, dirs, files in os.walk(works_floder_path):
-        if "circuits" in root:
-            continue
-        for name in files:
-            if name == "Team_description.csv" or "score" in name:
-                continue
-            filepath = os.path.join(root, name)
-            csv_reader = csv.reader(open(filepath, encoding='utf-8'))
-            print('  Loading %s...' % filepath)
-            
+    filepath = os.path.join(works_floder_path, "team_list.csv")
+    csv_reader = csv.reader(open(filepath, encoding='utf-8'))
+    print('  Loading %s...' % filepath)          
+    try:
+        next(csv_reader)
+        for row in csv_reader:
             try:
-                next(csv_reader)
-                for row in csv_reader:
-                    try:
-                        works.append(Works(
-                            TeamID = int(row[0]),
-                            Teamname = row[1],
-                            Region = row[2],
-                            Country = row[3],
-                            Track = row[4],
-                            Size = int(row[5]),
-                            Status = row[6],
-                            Year = int(row[7]),
-                            Wiki = row[8],
-                            Section = row[9],
-                            Medal = row[10],
-                            Award = row[11],
-                            Use_parts = row[12],
-                            Title = row[13],
-                            Description = row[14],
-                        ))
-                    except Exception as err1:
-                        errors += 1
-                        print(err1)
-                        pass
-            except Exception as err2:
-                errors += 1
-                print(err2)
-                pass
+                works.append(Works(
+                    TeamID = int(row[0]),
+                    Teamname = row[1],
+                    Region = row[2],
+                    Country = row[3],
+                    Track = row[4],
+                    Size = int(row[5]),
+                    Status = row[6],
+                    Year = int(row[7]),
+                    Wiki = row[8],
+                    Section = row[9],
+                    Medal = row[10],
+                    Award = row[11],
+                    Use_parts = row[12],
+                    Title = row[13],
+                    Description = row[14],
+                ))
+            except Exception as err1:
+                    errors += 1
+                    print(err1)
+                    pass
+    except Exception as err2:
+        errors += 1
+        print(err2)
+        pass
     print('Saving...')
     atomic_save(works)
     print('Error: {0:6d}'.format(errors))
+    #load_Team_description(works_floder_path)
+    #load_Team_IEF(works_floder_path)
+    load_TeamImg(works_floder_path)
 
+def load_Team_description(works_floder_path):
     print('Loading Team_description...')
     works = []
     filepath = os.path.join(works_floder_path, "Team_description.csv")
@@ -219,6 +211,7 @@ def load_works(works_floder_path):
     atomic_save(works)
     print('Error: {0:6d}'.format(errors))
 
+def load_Team_IEF(works_floder_path):
     print('Loading Team_IEF value...')
     works = []
     filepath = os.path.join(works_floder_path, "project_score.csv")
@@ -234,6 +227,52 @@ def load_works(works_floder_path):
             errors += 1
             print(row[0]," ",row[1]," ", row[2])
             print(err4)
+            pass
+    print('Saving...')
+    atomic_save(works)
+    print('Error: {0:6d}'.format(errors))
+
+def load_TeamImg(folderpath):
+    print('Deleting all previous TeamImg...')
+    TeamImg.objects.all().delete()
+    all_works = {str(p.Year)+"_"+p.Teamname: p for p in Works.objects.all()}
+    works, Imgs, d, errors = [], [], [], 0
+    header = join("static", "img", "Team_img")
+    filepath = os.path.join(folderpath, "TeamImg.csv")
+    csv_reader = csv.reader(open(filepath, encoding='utf-8'))
+    print('Loading %s...' % filepath)
+    for row in csv_reader:
+        try:
+            Team = row[0].split(" ")[0]
+            year = Team[0:Team.index("_")]
+            Imgs.append(TeamImg(
+                    Name = row[0],
+                    URL =  join(header, year, row[0])
+            ))
+        except Exception as err:
+            errors += 1
+            print(Team)
+            print(err)
+            pass
+    print('Saving...')
+    atomic_save(Imgs)
+    print('Error: {0:6d}'.format(errors))
+    print('Making releationship before works and Teamimg ...')
+    errors = 0
+    Imgs = {p.Name: p for p in TeamImg.objects.all()}
+    for row in csv_reader:
+        try:
+            Team = row[0].split(" ")[0]
+            year = Team[0:Team.index("_")]
+            if Team not in d:
+                d.append(Team)
+                works.append(all_works[Team])
+            index = d.index(Team)
+            works[index].Img.add(Imgs[row[0]])
+        except Exception as err:
+            errors += 1
+            print(Team)
+            print(err)
             pass
     print('Saving...')
     atomic_save(works)
@@ -396,7 +435,7 @@ def load_circuits(circuits_floder_path):
                 print(name)
 
 
-def pre_load_data(currentpath):
+def pre_load_data(currentpath, Imgpath):
     load_parts(os.path.join(currentpath, 'parts'))
     load_works(os.path.join(currentpath, 'works'))
     load_circuits(os.path.join(currentpath, 'works/circuits'))
