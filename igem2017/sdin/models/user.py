@@ -81,6 +81,21 @@ class TeamImg(models.Model):
     Name = models.CharField(max_length = 200, unique=True)
     URL = models.URLField(null = False)
 
+class Papers(models.Model):
+    DOI = models.CharField(max_length = 200, unique = True, default = "")
+    Title = models.CharField(max_length = 200, default = "")
+    Journal = models.CharField(max_length = 200, default = "")
+    JIF = models.FloatField(default=0)
+    ArticleURL = models.URLField(max_length = 500, null = False)
+    LogoURL = models.URLField(max_length = 600, null = True)
+    Abstract = models.TextField(default = "To be add")
+    Keywords = models.TextField(default = "To be add")
+    Authors = models.TextField(default = "To be add")
+    ReadCount = models.IntegerField(default = 0)
+
+    def __str__(self):
+        return "%s : %s" % str(self.DOI), self.Title
+
 class UserFavorite(models.Model):
     user = models.ForeignKey('User', on_delete = models.CASCADE)
     circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE)

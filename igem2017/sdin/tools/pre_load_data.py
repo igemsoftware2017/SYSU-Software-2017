@@ -278,6 +278,42 @@ def load_TeamImg(folderpath):
     atomic_save(works)
     print('Error: {0:6d}'.format(errors))
 
+#load papers data
+def load_papers(folderpath):
+    errors = 0
+    print('Deleting all previous papers...')
+    Papers.objects.all().delete()
+    papers = []
+    filepath = os.path.join(folderpath, "paper.csv")
+    csv_reader = csv.reader(open(filepath, encoding='utf-8'))
+    print('  Loading %s...' % filepath)          
+    try:
+        next(csv_reader)
+        for row in csv_reader:
+            try:
+                papers.append(Papers(
+                    DOI = row[0],
+                    Title = row[1],
+                    Journal = row[2],
+                    JIF = float(row[3]),
+                    ArticleURL = row[4],
+                    LogoURL = row[5],
+                    Abstract = row[6],
+                    Keywords = row[7],
+                    Authors = row[8]
+                ))
+            except Exception as err1:
+                    errors += 1
+                    print(err1)
+                    pass
+    except Exception as err2:
+        errors += 1
+        print(err2)
+        pass
+    print('Saving...')
+    atomic_save(papers)
+    print('Error: {0:6d}'.format(errors))
+
 def load_circuits(circuits_floder_path):
     Circuit.objects.all().delete()
     print("Delete all circuits")
@@ -436,6 +472,7 @@ def load_circuits(circuits_floder_path):
 
 
 def pre_load_data(currentpath, Imgpath):
-    load_parts(os.path.join(currentpath, 'parts'))
-    load_works(os.path.join(currentpath, 'works'))
-    load_circuits(os.path.join(currentpath, 'works/circuits'))
+   load_parts(os.path.join(currentpath, 'parts'))
+   load_works(os.path.join(currentpath, 'works'))
+   load_papers(os.path.join(currentpath, 'papers'))
+   load_circuits(os.path.join(currentpath, 'works/circuits'))
