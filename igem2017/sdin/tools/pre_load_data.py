@@ -182,8 +182,8 @@ def load_works(works_floder_path):
     print('Saving...')
     atomic_save(works)
     print('Error: {0:6d}'.format(errors))
-    #load_Team_description(works_floder_path)
-    #load_Team_IEF(works_floder_path)
+    load_Team_description(works_floder_path)
+    load_Team_IEF(works_floder_path)
     load_TeamImg(works_floder_path)
 
 def load_Team_description(works_floder_path):
