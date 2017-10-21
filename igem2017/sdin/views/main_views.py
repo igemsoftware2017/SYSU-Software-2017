@@ -103,7 +103,11 @@ def work(request):
                 favorite = False
         else:
             favorite = False
-
+        
+        if wk.Img.all().count() == 0:
+            Img = [wk.DefaultImg]
+        else:
+            Img = [i.URL for i in wk.Img.all()]
         context = {
             'projectName': wk.Title,
             'year': wk.Year,
@@ -112,7 +116,7 @@ def work(request):
             'rewards': wk.Award,
             'description': wk.SimpleDescription,
             'isFavourite': favorite,
-            'images': wk.Img if wk.Img != None else wk.DefaultImg,
+            'images': Img,
             'designId': wk.Circuit.id,
             'part': part}
 
@@ -167,9 +171,15 @@ def search(request):
                     favourite = False
             else:
                 favourite = False
+
+            if w.Img.all().count() == 0:
+                Img = [w.DefaultImg]
+            else:
+                Img = [i.URL for i in w.Img.all()]
+
             works.append({
                 'id': w.TeamID,
-                'image': w.Img if w.Img != None else w.DefaultImg,
+                'image': Img,
                 'year': w.Year,
                 'teamName': w.Teamname,
                 'projectName': w.Title,
