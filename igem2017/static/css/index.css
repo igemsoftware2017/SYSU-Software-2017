@@ -2,7 +2,7 @@
   background: transparent;
 }
 #search-box-container {
-  margin-top: 50px;
+  margin-top: 250px !important;
 }
 body {
   background-image: url("/static/img/index-back.jpg");
