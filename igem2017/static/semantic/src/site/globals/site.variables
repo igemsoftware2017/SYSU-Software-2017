@@ -8,3 +8,10 @@
 
 @fontName          : 'Source Sans Pro';
 @importGoogleFonts : false;
+
+/*-------------------
+    Base Sizes
+--------------------*/
+
+@emSize: 20px;
+@fontSize: 20px;

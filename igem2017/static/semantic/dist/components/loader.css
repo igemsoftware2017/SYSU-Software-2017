@@ -84,51 +84,51 @@
 /* Sizes */
 .ui.mini.loader:before,
 .ui.mini.loader:after {
-  width: 1rem;
-  height: 1rem;
-  margin: 0em 0em 0em -0.5rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin: 0em 0em 0em -0.35rem;
 }
 .ui.tiny.loader:before,
 .ui.tiny.loader:after {
-  width: 1.14285714rem;
-  height: 1.14285714rem;
-  margin: 0em 0em 0em -0.57142857rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0em 0em 0em -0.4rem;
 }
 .ui.small.loader:before,
 .ui.small.loader:after {
-  width: 1.71428571rem;
-  height: 1.71428571rem;
-  margin: 0em 0em 0em -0.85714286rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0em 0em 0em -0.6rem;
 }
 .ui.loader:before,
 .ui.loader:after {
-  width: 2.28571429rem;
-  height: 2.28571429rem;
-  margin: 0em 0em 0em -1.14285714rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0em 0em 0em -0.8rem;
 }
 .ui.large.loader:before,
 .ui.large.loader:after {
-  width: 3.42857143rem;
-  height: 3.42857143rem;
-  margin: 0em 0em 0em -1.71428571rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 0em 0em 0em -1.2rem;
 }
 .ui.big.loader:before,
 .ui.big.loader:after {
-  width: 3.71428571rem;
-  height: 3.71428571rem;
-  margin: 0em 0em 0em -1.85714286rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  margin: 0em 0em 0em -1.3rem;
 }
 .ui.huge.loader:before,
 .ui.huge.loader:after {
-  width: 4.14285714rem;
-  height: 4.14285714rem;
-  margin: 0em 0em 0em -2.07142857rem;
+  width: 2.9rem;
+  height: 2.9rem;
+  margin: 0em 0em 0em -1.45rem;
 }
 .ui.massive.loader:before,
 .ui.massive.loader:after {
-  width: 4.57142857rem;
-  height: 4.57142857rem;
-  margin: 0em 0em 0em -2.28571429rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: 0em 0em 0em -1.6rem;
 }
 
 /*-------------------
@@ -214,85 +214,85 @@
 /* Loader */
 .ui.inverted.dimmer .ui.mini.loader,
 .ui.mini.loader {
-  width: 1rem;
-  height: 1rem;
-  font-size: 0.78571429em;
+  width: 0.7rem;
+  height: 0.7rem;
+  font-size: 0.8em;
 }
 .ui.inverted.dimmer .ui.tiny.loader,
 .ui.tiny.loader {
-  width: 1.14285714rem;
-  height: 1.14285714rem;
-  font-size: 0.85714286em;
+  width: 0.8rem;
+  height: 0.8rem;
+  font-size: 0.85em;
 }
 .ui.inverted.dimmer .ui.small.loader,
 .ui.small.loader {
-  width: 1.71428571rem;
-  height: 1.71428571rem;
-  font-size: 0.92857143em;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 0.95em;
 }
 .ui.inverted.dimmer .ui.loader,
 .ui.loader {
-  width: 2.28571429rem;
-  height: 2.28571429rem;
+  width: 1.6rem;
+  height: 1.6rem;
   font-size: 1em;
 }
 .ui.inverted.dimmer .ui.large.loader,
 .ui.large.loader {
-  width: 3.42857143rem;
-  height: 3.42857143rem;
-  font-size: 1.14285714em;
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.15em;
 }
 .ui.inverted.dimmer .ui.big.loader,
 .ui.big.loader {
-  width: 3.71428571rem;
-  height: 3.71428571rem;
-  font-size: 1.28571429em;
+  width: 2.6rem;
+  height: 2.6rem;
+  font-size: 1.3em;
 }
 .ui.inverted.dimmer .ui.huge.loader,
 .ui.huge.loader {
-  width: 4.14285714rem;
-  height: 4.14285714rem;
-  font-size: 1.42857143em;
+  width: 2.9rem;
+  height: 2.9rem;
+  font-size: 1.45em;
 }
 .ui.inverted.dimmer .ui.massive.loader,
 .ui.massive.loader {
-  width: 4.57142857rem;
-  height: 4.57142857rem;
-  font-size: 1.71428571em;
+  width: 3.2rem;
+  height: 3.2rem;
+  font-size: 1.7em;
 }
 
 /* Text Loader */
 .ui.mini.text.loader {
-  min-width: 1rem;
-  padding-top: 1.78571429rem;
+  min-width: 0.7rem;
+  padding-top: 1.5rem;
 }
 .ui.tiny.text.loader {
-  min-width: 1.14285714rem;
-  padding-top: 1.92857143rem;
+  min-width: 0.8rem;
+  padding-top: 1.6rem;
 }
 .ui.small.text.loader {
-  min-width: 1.71428571rem;
-  padding-top: 2.5rem;
+  min-width: 1.2rem;
+  padding-top: 2rem;
 }
 .ui.text.loader {
-  min-width: 2.28571429rem;
-  padding-top: 3.07142857rem;
+  min-width: 1.6rem;
+  padding-top: 2.4rem;
 }
 .ui.large.text.loader {
-  min-width: 3.42857143rem;
-  padding-top: 4.21428571rem;
+  min-width: 2.4rem;
+  padding-top: 3.2rem;
 }
 .ui.big.text.loader {
-  min-width: 3.71428571rem;
-  padding-top: 4.5rem;
+  min-width: 2.6rem;
+  padding-top: 3.4rem;
 }
 .ui.huge.text.loader {
-  min-width: 4.14285714rem;
-  padding-top: 4.92857143rem;
+  min-width: 2.9rem;
+  padding-top: 3.7rem;
 }
 .ui.massive.text.loader {
-  min-width: 4.57142857rem;
-  padding-top: 5.35714286rem;
+  min-width: 3.2rem;
+  padding-top: 4rem;
 }
 
 /*-------------------

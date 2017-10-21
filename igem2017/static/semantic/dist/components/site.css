@@ -18,7 +18,7 @@ body {
   height: 100%;
 }
 html {
-  font-size: 14px;
+  font-size: 20px;
 }
 body {
   margin: 0px;
@@ -27,7 +27,7 @@ body {
   min-width: 320px;
   background: #FFFFFF;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
   font-smoothing: antialiased;

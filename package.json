@@ -1,0 +1,23 @@
+{
+  "name": "sdin",
+  "version": "1.0.0",
+  "description": "iGEM 2017, SYSU-Software",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StrickerLee/IGEM2017-SYSU.Software.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StrickerLee/IGEM2017-SYSU.Software/issues"
+  },
+  "homepage": "https://github.com/StrickerLee/IGEM2017-SYSU.Software#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "semantic-ui": "^2.2.13"
+  }
+}
