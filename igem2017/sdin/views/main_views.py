@@ -112,9 +112,8 @@ def work(request):
             'rewards': wk.Award,
             'description': wk.Description,
             'isFavourite': favorite,
-            # TODO
-            'images': '???',
-            'designId': '???',
+            'images': wk.Img if wk.Img != None else wk.DefaultImg,
+            'designId': wk.Circuit.id,
             'part': part}
 
         return render(request, 'work.html', context)
@@ -170,8 +169,7 @@ def search(request):
                 favourite = False
             works.append({
                 'id': w.TeamID,
-                # TODO
-                'image': '???',
+                'image': w.Img if w.Img != None else w.DefaultImg,
                 'year': w.Year,
                 'teamName': w.Teamname,
                 'projectName': w.Name,
