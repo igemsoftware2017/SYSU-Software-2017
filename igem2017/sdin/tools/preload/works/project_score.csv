@@ -27,7 +27,7 @@ Team ID , Team  , Year,score
 1795,William_and_Mary,2015,66.069925
 1493,Wageningen_UR,2014,65.288
 1699,BGU_Israel,2015,65.14
-200,Imperial College London,2009,63.80248968
+200,Imperial_College_London,2009,63.80248968
 902,Calgary,2012,63.4
 1149,Imperial_College,2013,63.209925
 346,Peking,2010,63.149852
@@ -1489,7 +1489,6 @@ Team ID , Team  , Year,score
 420,ArtScienceBangalore,2010,0
 375,Baltimore_US,2010,0
 308,Gaston_Day_School,2010,0
-495,Georgia_State,2010,0
 388,Weimar-Heidelberg_Arts,2010,0
 665,Baltimore,2011,0
 595,Bard-Annandale,2011,0
@@ -1557,28 +1556,5 @@ Team ID , Team  , Year,score
 1644,UMass-Dartmouth,2015,0
 1786,Uniandes_Colombia,2015,0
 1803,WLSA_Shanghai,2015,0
-2058,ATOMS_Turkiye,2016,0
-2059,AUC_TURKEY,2016,0
-2098,Austin_UTexas_LASA,2016,0
-2096,Central-Calgary,2016,0
-2166,CoLite-West-Point,2016,0
-2161,CPU_CHINA,2016,0
-2131,Ethiopia1,2016,0
-1944,India-Thapar-CSED,2016,0
-2035,Judd_UK,2016,0
-2067,Liceo_Eugenio_Hostos,2016,0
-2164,McGill-McMaster,2016,0
-2046,NCL_India,2016,0
-2031,Richard_Montgomery,2016,0
-2126,Rock_Ridge_Virginia,2016,0
 1948,SRM_Chennai,2016,0
-2102,StuyGem,2016,0
-1924,Tonbridge,2016,0
-1984,TrinityCollegeDublin,2016,0
-2085,UC_San_Diego,2016,0
-2159,UCSD_Auditory,2016,0
-2106,UPIBI-IPN,2016,0
 2147,USNA-Annapolis,2016,0
-2006,Vanderbilt_Software,2016,0
-2177,Westlake,2016,0
-2167,Wound-Aid-West-Point,2016,0
