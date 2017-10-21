@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Papers',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('DOI', models.CharField(default='', max_length=200, unique=True)),
+                ('DOI', models.CharField(default='', max_length=180, unique=True)),
                 ('Title', models.CharField(default='', max_length=100)),
                 ('Journal', models.CharField(default='', max_length=150)),
                 ('JIF', models.FloatField(default=0)),

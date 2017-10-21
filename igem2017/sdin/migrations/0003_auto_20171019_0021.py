@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='TeamImg',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=200, unique=True)),
+                ('name', models.CharField(max_length=180, unique=True)),
                 ('URL', models.URLField()),
             ],
         ),
