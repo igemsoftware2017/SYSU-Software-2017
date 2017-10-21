@@ -105,12 +105,12 @@ def work(request):
             favorite = False
 
         context = {
-            'projectName': wk.Name,
+            'projectName': wk.Title,
             'year': wk.Year,
             'readCount': wk.ReadCount,
             'medal': wk.Medal,
             'rewards': wk.Award,
-            'description': wk.Description,
+            'description': wk.SimpleDescription,
             'isFavourite': favorite,
             'images': wk.Img if wk.Img != None else wk.DefaultImg,
             'designId': wk.Circuit.id,
@@ -172,12 +172,12 @@ def search(request):
                 'image': w.Img if w.Img != None else w.DefaultImg,
                 'year': w.Year,
                 'teamName': w.Teamname,
-                'projectName': w.Name,
+                'projectName': w.Title,
                 # TODO
                 'school': '???',
                 'risk': '???',
                 'modal': w.Medal,
-                'description': w.Description,
+                'description': w.SimpleDescription,
                 'chassis': w.Chassis,
                 'rewards': [w.Award],
                 'isFavourite': favourite})
