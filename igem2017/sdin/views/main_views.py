@@ -186,7 +186,7 @@ def search(request):
                 # TODO
                 'school': '???',
                 'risk': '???',
-                'modal': w.Medal,
+                'medal': w.Medal,
                 'description': w.SimpleDescription,
                 'chassis': w.Chassis,
                 'rewards': [w.Award],
