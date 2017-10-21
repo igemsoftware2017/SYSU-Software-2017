@@ -291,6 +291,9 @@ def load_papers(folderpath):
         next(csv_reader)
         for row in csv_reader:
             try:
+                row[0] = row[0].strip()
+                if "10.1016/j.jconrel.2010.11.016" in row[0]:
+                    continue;
                 papers.append(Papers(
                     DOI = row[0],
                     Title = row[1],
