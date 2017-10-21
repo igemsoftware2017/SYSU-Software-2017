@@ -78,11 +78,11 @@ class Works(models.Model):
         return "%s : %s" % str(self.TeamID), self.Teamname
 
 class TeamImg(models.Model):
-    Name = models.CharField(max_length = 200, unique=True)
+    Name = models.CharField(max_length = 180, unique=True)
     URL = models.URLField(null = False)
 
 class Papers(models.Model):
-    DOI = models.CharField(max_length = 200, unique = True, default = "")
+    DOI = models.CharField(max_length = 180, unique = True, default = "")
     Title = models.CharField(max_length = 200, default = "")
     Journal = models.CharField(max_length = 200, default = "")
     JIF = models.FloatField(default=0)
