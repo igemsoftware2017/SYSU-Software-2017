@@ -31,11 +31,18 @@ def login_view(request):
             if user is not None:
                 login(request, user)
                 messages.success(request, "Login successfully!")
+                next_url = request.POST.get('next')
+                if next_url:
+                    return redirect(next_url)
+                else:
+                    return redirect('/')
             else:
                 messages.error(request, "Invalid Login!")
         else:
             messages.error(request, Inv)
-    return render(request, 'login.html')
+        return render(request, 'login.html')
+    elif request.method == 'GET':
+        return render(request, 'login.html')
 
 @login_required
 def logout_view(request):
