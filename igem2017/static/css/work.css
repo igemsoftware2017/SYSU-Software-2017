@@ -114,12 +114,14 @@ body {
   height: 348px;
   background-color: #f8f8f8;
 }
-#part-container>.part {
+#part-container>.part-canvas {
   width: 273px;
   height: 280px;
   background-color: blue;
   display: inline-block;
   margin: 10px;
+  overflow: hidden;
+  position: relative;
 }
 #part-container>.part-table {
   width: 362px;

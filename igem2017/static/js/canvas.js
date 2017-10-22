@@ -120,7 +120,7 @@ class SDinDesign {
     }
     set design(design) {
         this._jsPlumb.deleteEveryConnection();
-        $('.part, .device').remove();
+        $('.SDinDesign-part, .SDinDesign-device').remove();
         $.each(design.devices, (_, device) => { this.addDevice(device); });
         $.each(design.parts, (_, part) => { this.addPart(part, 1, undefined); });
         $.each(design.lines, (_, link) => { this.addLink(link, false); });

@@ -40,3 +40,9 @@ $(window).scroll( function() {
 });
 
 $('.back').on('click', () => { history.back(); });
+
+let design;
+$.get('/get_circuit_test', (value) => {
+    let data = JSON.parse(value);
+    design = new SDinDesign('#part', data, {});
+});
