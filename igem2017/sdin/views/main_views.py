@@ -117,7 +117,7 @@ def work(request):
             'description': wk.SimpleDescription,
             'isFavourite': favorite,
             'images': Img,
-            'designId': wk.Circuit.id,
+            'designId': -1 if wk.Circuit is None else wk.Circuit.id,
             'part': part}
 
         return render(request, 'work.html', context)
