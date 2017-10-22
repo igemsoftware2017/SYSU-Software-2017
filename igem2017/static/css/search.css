@@ -87,6 +87,13 @@ body {
 .ui.items>.item>.content>.ui.header {
   color: #333333;
   font-size: calc(7px * 300 / 72);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 627px;
+}
+.ui.items>.item>.content>.ui.header:hover {
+  white-space: normal;
 }
 .ui.items>.item>.content>.ui.header>span.smaller {
   font-size: calc(6px * 300 / 72);
