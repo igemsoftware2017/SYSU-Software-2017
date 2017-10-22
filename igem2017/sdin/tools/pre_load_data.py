@@ -170,6 +170,7 @@ def load_works(works_floder_path):
                     Use_parts = row[12],
                     Title = row[13],
                     Description = row[14],
+                    SimpleDescription = row[14]
                 ))
             except Exception as err1:
                     errors += 1
