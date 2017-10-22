@@ -114,25 +114,6 @@ div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
   position: relative;
 }
 
-.device {
-  position: absolute;
-  transition: box-shadow 0.2s ease;
-  background-color: white;
-  cursor: pointer;
-}
-.device>.bone {
-  position: absolute;
-  height: 3px;
-  background-color: #efefef;
-  bottom: 1em;
-}
-.part {
-  position: absolute;
-  transition: box-shadow 0.2s ease;
-  text-align: center;
-  cursor: pointer;
-}
-
 #part-src-seg {
   padding-bottom: calc(14px + 1em + 4px);
 }
@@ -182,17 +163,4 @@ div.part-helper>div.ui.image>img {
 
 div.subpart-dropper {
   position: absolute;
-}
-
-/* SVG Path Stroke */
-.promotion-connection>path {
-  stroke: blue;
-  fill: blue;
-}
-.inhibition-connection>path {
-  stroke: red;
-  fill: red;
-}
-.preview-connection>path {
-  stroke-dasharray: 5, 5;
 }
