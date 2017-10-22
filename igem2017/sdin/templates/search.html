@@ -82,7 +82,7 @@
         <div class="ui items">
           {% for work in works %}
           <div class="link item">
-            <div class="fluid image"><img src="{{ work.image }}" alt=""></div>
+            <div class="fluid image"><img src="{{ work.image[0] }}" alt=""></div>
             <div class="content">
               <a class="ui header" href="/work?id={{ work.id }}">{{ work.year }}-{{ work.projectName }}| <span class="smaller">{{ work.school }}</span></a>
               <div class="right floated">
