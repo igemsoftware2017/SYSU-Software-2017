@@ -54,7 +54,17 @@ $('.ui.text.menu')
 
 $('#tool')
     .popup({
-        popup: $('.popup'),
+        popup: $('#tool-popup'),
         on: 'click',
         position: 'bottom left'
     });
+
+$('.rewards').each((_, v) => {
+    let popup = $(`[workid=${$(v).attr('workid')}].popup`);
+    if (popup.children('ul').children('li').length === 0)
+        popup.html('<p>No awards.</p>');
+    $(v).popup({
+        popup: popup,
+        position: 'right center'
+    });
+});

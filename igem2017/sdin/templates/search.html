@@ -29,7 +29,7 @@
       <div class="line">
         <code>{{ resultsCount }}</code><span id="result-span">RESULTS</span>
         <a id="tool">Search Tools<i class="filter icon"></i></a>
-        <div class="ui flowing popup bottom left transition hidden">
+        <div id="tool-popup" class="ui flowing popup transition hidden">
           <p>Chasis</p>
           <div class="ui labels">
             <a class="ui basic label">E.coli</a>
@@ -61,16 +61,18 @@
             <div class="fluid image"><img src="{{ work.image }}" alt=""></div>
             <div class="content">
               <a class="ui header" href="/work?id={{ work.id }}">{{ work.year }}-{{ work.projectName }}| <span class="smaller">{{ work.school }}</span></a>
-              <div class="right floated">
-                <i class="empty star icon" v-on:click="fav"></i>
-                <img src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
-              </div>
-              <div class="meta">{{ work.chassis }}</div>
+              <img class="medal" src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
               <div class="description">
                 <p>{{ work.description }}</p>
               </div>
-              <div class="middle aligned extra">
-                <a class="right floated" href="#">Rewards</a>
+              <p class="chassis">{{ work.chassis }}</p>
+              <a class="rewards" workid="{{ work.id }}" href="#">Rewards</a>
+              <div workid="{{ work.id }}" class="ui flowing popup transition hidden">
+                <ul class="ui list">
+                {% for reward in work.rewards %}
+                  <li>{{ reward }}</li>
+                {% endfor %}
+                </ul>
               </div>
             </div>
           </div>
