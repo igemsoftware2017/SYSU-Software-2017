@@ -76,6 +76,32 @@ def tag_favorite(request):
             return HttpResponse(json.dumps({
                 'status': 0}))
 
+@login_required
+def part_favorite(request):
+    '''
+    POST method with json:
+        'part_id': xxx, # id of part
+        'tag': 0 for cancel favorite, 1 for tag favorite
+    return json:
+        status: 0 or 1
+    '''
+    if request.method == 'POST':
+        data = json.loads(request.POST['data'])
+        try:
+            part = Parts.objects.get(pk = data['part_id'])
+            if data['tag'] == 1:
+                if not FavoriteParts.objects.filter(user = request.user, part = part).exists():
+                    FavoriteParts.objects.create(part = part, user = request.user)
+            else:
+                FavoriteParts.objects.get(user = request.user, part = part)
+                FavoriteParts.delete()
+            return HttpResponse(json.dumps({
+                'status': 1}))
+        except:
+            return HttpResponse(json.dumps({
+                'status': 0}))
+
+
 # Part related views
 
 def search_parts(request):
@@ -191,7 +217,10 @@ def get_circuit(request):
         ],
         devices: [
             [xx, xx, xx], # cid
-        ]
+        ],
+        combines: {
+            x: [x, x, x], # combines dict, x is cid
+        }
     '''
     try:
         query_id = request.GET.get('id')
@@ -204,13 +233,17 @@ def get_circuit(request):
         lines = [{'Start': x.Start.id, 'End': x.End.id, 'Type': x.Type} \
                 for x in line_query]
         devices_query = CircuitDevices.objects.filter(Circuit = query_id)
-        devices = [[i.id for i in x] for x in devices_query]
+        devices = [[i.id for i in x.Subparts.all()] for x in devices_query]
+        combines_query = CircuitCombines.objects.filter(Circuit = query_id)
+        combines = {x.Father.id: [i.id for i in x.Sons.all()] for x in combines_query}
         return JsonResponse({
             'status': 1,
             'parts': parts,
             'lines': lines,
-            'devices': devices})
+            'devices': devices,
+            'combines': combines})
     except:
+        traceback.print_exc()
         return JsonResponse({
             'status': 0})
 
@@ -256,7 +289,10 @@ def save_circuit(request):
         }],
         devices: [
             [xx, xx, xx], # cids of parts
-        ]
+        ],
+        combines: {
+            x: [x, x, x] # see above api
+        }
         circuit: {
             'id': xxx, # circuit id if it's already existing, -1 else
             'Name': xxx,
@@ -306,6 +342,12 @@ def save_circuit(request):
                 cd = CircuitDevices.objects.create(Circuit = circuit)
                 for i in x:
                     cd.Subparts.add(cids[i])
+                cd.save()
+            for x in data['combines']:
+                cd = CircuitCombines.objects.create(Circuit = circuit, Father = x)
+                for i in data['combines'][x]:
+                    cd.Sons.add(cids[i])
+                cd.save()
             return JsonResponse({
                     'status': 1,
                     'circuit_id': circuit.id})

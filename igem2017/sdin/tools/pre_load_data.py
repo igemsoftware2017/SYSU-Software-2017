@@ -431,9 +431,7 @@ def load_circuits(circuits_floder_path):
                                                 Type = "promotion")
 
                                 except:
-                                    traceback.print_exc()
-                                    print(name)
-                                    print(sheet.name)
+                                    pass
                                 row += 1
                         if sheet.cell(i, 0).value == "inhibition":
                             row = i + 1
@@ -455,9 +453,7 @@ def load_circuits(circuits_floder_path):
                                                 Type = "inhibition")
 
                                 except:
-                                    traceback.print_exc()
-                                    print(name)
-                                    print(sheet.name)
+                                    pass
                                 row += 1
 
 
@@ -474,9 +470,149 @@ def load_circuits(circuits_floder_path):
                 traceback.print_exc()
                 print(name)
 
+def get_value(sheet):
+    def inner(i, j):
+        k = sheet.cell(i, j).value
+        if k == 'None' or k == '':
+            return None
+        return k
+    return inner
+
+def load_additional(path):
+    Keyword.objects.all().delete()
+    medalXls = xlrd.open_workbook(join(path, 'medal.xlsx')).sheets()
+    explain = medalXls[0]
+    val = get_value(explain)
+
+    gm = Keyword.objects.create(name = val(1, 0),
+            description = val(1,1),
+            link = json.dumps(['http://' + val(1,2)]),
+            picture = val(1,3),
+            _type = "medal")
+
+    sm = Keyword.objects.create(name = val(2, 0),
+            description = val(2,1),
+            link = json.dumps(['http://' + val(2,2)]),
+            picture = val(2,3),
+            _type = "medal")
+
+    bm = Keyword.objects.create(name = val(3, 0),
+            description = val(3,1),
+            link = json.dumps(['http://' + val(3,2)]),
+            picture = val(3,3),
+            _type = "medal")
+
+    net = medalXls[1]
+    val = get_value(net)
+
+    def f(i):
+        return json.dumps([val(j, i) for j in range(1, 14)])
+
+    gm.related = f(1)
+    sm.related = f(2)
+    bm.related = f(3)
+
+    an = medalXls[2]
+    val = get_value(an)
+
+    def f(i):
+        return json.dumps({int(val(0, j)): val(i, j) for j in range(1, 8)})
+
+    gm.yearRelation = f(1)
+    sm.yearRelation = f(2)
+    bm.yearRelation = f(3)
+
+    def f(i):
+        return json.dumps({val(j, 0): val(j, i) for j in range(9, 25)})
+
+    gm.trackRelation = f(3)
+    sm.trackRelation = f(4)
+    bm.trackRelation = f(5)
+
+    gm.save()
+    sm.save()
+    bm.save()
+
+    # keyword
+    kw = xlrd.open_workbook(join(path, 'keywords.xlsx')).sheets()
+    val = get_value(kw[0])
+    val2 = get_value(kw[2])
+
+    for i in range(1, 1027):
+        Keyword.objects.create(name = val(i, 0),
+                description = val(i, 1),
+                link = json.dumps(['http://' + val(i, 2)]) if val(i, 2) is not None else None,
+                picture = 'http:' + val(i, 3) if val(i, 3) is not None else None,
+                yearRelation = json.dumps([{int(val2(0, j)): val2(i, j) for j in range(1, 9)}]),
+                trackRelation = json.dumps([{val2(0, j): val2(i, j) for j in range(12, 28)}]),
+                _type = "keyword")
+
+    sp = xlrd.open_workbook(join(path, 'special prizes.xlsx')).sheets()
+    v = get_value(sp[0])
+    v2 = get_value(sp[1])
+    v3 = get_value(sp[2])
+
+    for i in range(1, 8):
+        Keyword.objects.create(name = v(i, 0),
+                description = v(i, 1),
+                link = json.dumps(['http://' + v(i, 2)]),
+                picture = v(i, 3),
+                weightedRelated = v2(i, 1),
+                suggestedProject = v3(i, 1),
+                suggestedPart = v3(i, 2),
+                _type = "special prizes")
+
+    tn = xlrd.open_workbook(join(path, 'team name.xlsx')).sheets()
+    v = get_value(tn[0])
+    v2 = get_value(tn[1])
+    v3 = get_value(tn[2])
+
+    for i in range(1, 612):
+        Keyword.objects.create(name = v(i, 0),
+                description = v(i, 1),
+                link = v(i, 2),
+                picture = v(i, 3),
+                weightedRelated = v2(i, 1),
+                suggestedProject = v3(i, 1),
+                suggestedPart = v3(i, 2),
+                _type = "team name")
+
+    t = xlrd.open_workbook(join(path, 'track.xlsx')).sheets()
+    v = get_value(t[0])
+    v2 = get_value(t[1])
+    v3 = get_value(t[2])
+    
+    for i in range(1, 17):
+        Keyword.objects.create(name = v(i, 0),
+                description = v(i, 1),
+                link = json.dumps(['http://' + v(i, 2)]),
+                picture = v(i, 3),
+                related = json.dumps([v2(j, i) for j in range(1, 30)]),
+                yearRelation = json.dumps([{int(v3(0, j)): v3(i, j) for j in range(1, 9)}]),
+                medalRelation = json.dumps([{v3(19, j): v3(i + 19, j) for j in range(3, 7)}]),
+                _type = "track")
+
+    t = xlrd.open_workbook(join(path, 'year.xlsx')).sheets()
+    v = get_value(t[0])
+    v2 = get_value(t[1])
+    v3 = get_value(t[2])
+    
+    for i in range(1, 9):
+        Keyword.objects.create(name = str(int(v(i, 0))),
+                description = v(i, 1),
+                link = json.dumps(['http://' + v(i, 2)]),
+                picture = v(i, 3),
+                related = json.dumps([v2(j, i) for j in range(1, 31)]),
+                trackRelation = json.dumps([{v3(j, 0): v3(j, i) for j in range(13, 29)}]),
+                medalRelation = json.dumps([{v3(j, 0): v3(j, i) for j in range(1, 5)}]),
+                _type = "year")
+
+
+
 
 def pre_load_data(currentpath, Imgpath):
    load_parts(os.path.join(currentpath, 'parts'))
    load_works(os.path.join(currentpath, 'works'))
    load_papers(os.path.join(currentpath, 'papers'))
    load_circuits(os.path.join(currentpath, 'works/circuits'))
+   load_additional(os.path.join(currentpath, 'additional'))
