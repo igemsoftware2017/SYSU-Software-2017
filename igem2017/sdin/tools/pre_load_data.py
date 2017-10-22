@@ -11,6 +11,8 @@ import csv
 import json
 import traceback
 import xlrd
+import sys
+import time
 from os.path import join
 
 # load parts data
@@ -23,6 +25,11 @@ def get_parts_type(filename):
 def atomic_save(items):
     for i in items:
         i.save()
+
+@atomic
+def atomic_add(items):
+    for a, b in items:
+        a.add(b)
 
 def load_parts(parts_floder_path):
     errors = 0
@@ -70,7 +77,7 @@ def load_parts(parts_floder_path):
     print('Error: {0:6d}'.format(errors))
     all_parts = {p.Name: p for p in Parts.objects.all()}
     load_part_score_and_Safety(parts_floder_path, all_parts)
-    load_part_info(parts_floder_path, all_parts)
+    #load_part_info(parts_floder_path, all_parts)
 
 def load_part_score_and_Safety(parts_floder_path, all_parts):
     files = ["part_score.csv", "part_safety.csv"]
@@ -138,6 +145,36 @@ def load_part_info(parts_floder_path, all_parts):
     print('Saving Subparts...')
     atomic_save(part_subparts)
     print('Error: {0:6d}'.format(err2))
+
+def load_partsInteration(folderpath):
+    all_parts = {p.Name: p for p in Parts.objects.all()}
+    errors = 0
+    parts_interact = []
+    for root, dirs, files in os.walk(folderpath):
+        for name in files:
+            filepath = os.path.join(root, name)
+            print('  Loading %s...' % filepath)
+            csv_reader = csv.reader(open(filepath, "r", encoding='utf-8'))
+            for row in csv_reader:
+                try:
+                    parent_part = all_parts[row[0].strip()]
+                    child_part = all_parts[row[1].strip()]
+                    interactType = row[2].strip()
+                    score = -1.0
+                    if "Final-1.csv" in name:
+                        score = float(row[3])
+                    parts_interact.append(PartsInteract(
+                        parent = parent_part,
+                        child = child_part,
+                        InteractType = interactType,
+                        Score = score
+                    ))
+                except Exception as err:
+                    errors += 1
+                    print(err)
+    print('Saving parts interaction...')
+    atomic_save(parts_interact)
+    print('Error: {0:6d}'.format(errors))
 
 #load works data
 def load_works(works_floder_path):
@@ -236,8 +273,7 @@ def load_Team_IEF(works_floder_path):
 def load_TeamImg(folderpath):
     print('Deleting all previous TeamImg...')
     TeamImg.objects.all().delete()
-    all_works = {str(p.Year)+"_"+p.Teamname: p for p in Works.objects.all()}
-    works, Imgs, d, errors = [], [], [], 0
+    Imgs, errors = [], 0
     header = join("static", "img", "Team_img")
     filepath = os.path.join(folderpath, "TeamImg.csv")
     csv_reader = csv.reader(open(filepath, encoding='utf-8'))
@@ -258,25 +294,24 @@ def load_TeamImg(folderpath):
     print('Saving...')
     atomic_save(Imgs)
     print('Error: {0:6d}'.format(errors))
-    print('Making releationship before works and Teamimg ...')
+    print('Making releationship between works and Teamimg ...')
     errors = 0
+    csv_reader2 = csv.reader(open(filepath, encoding='utf-8'))
     Imgs = {p.Name: p for p in TeamImg.objects.all()}
-    for row in csv_reader:
+    all_works = {str(p.Year)+"_"+p.Teamname: p for p in Works.objects.all()}
+    cache = []
+    for row in csv_reader2:
         try:
             Team = row[0].split(" ")[0]
             year = Team[0:Team.index("_")]
-            if Team not in d:
-                d.append(Team)
-                works.append(all_works[Team])
-            index = d.index(Team)
-            works[index].Img.add(Imgs[row[0]])
+            cache.append([all_works[Team].Img, Imgs[row[0]]])
         except Exception as err:
             errors += 1
             print(Team)
             print(err)
             pass
     print('Saving...')
-    atomic_save(works)
+    atomic_add(cache)
     print('Error: {0:6d}'.format(errors))
 
 #load papers data
@@ -477,6 +512,7 @@ def load_circuits(circuits_floder_path):
 
 def pre_load_data(currentpath, Imgpath):
    load_parts(os.path.join(currentpath, 'parts'))
+   load_partsInteration(os.path.join(currentpath, 'partsinteract'))
    load_works(os.path.join(currentpath, 'works'))
    load_papers(os.path.join(currentpath, 'papers'))
    load_circuits(os.path.join(currentpath, 'works/circuits'))
