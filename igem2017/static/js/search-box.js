@@ -13,3 +13,8 @@ function search(q) {
 }
 $('#search-icon')
     .on('click', () => { search($('#search-edit').val()); });
+$(window)
+    .on('keydown', (event) => {
+        if (event.key === 'Enter')
+            search($('#search-edit').val());
+    });
