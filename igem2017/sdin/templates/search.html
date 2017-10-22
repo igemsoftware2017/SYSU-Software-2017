@@ -82,12 +82,12 @@
         <div class="ui items">
           {% for work in works %}
           <div class="link item">
-            <div class="fluid image"><img src="/static/img/test.png" alt=""></div>
+            <div class="fluid image"><img src="{{ work.image }}" alt=""></div>
             <div class="content">
               <a class="ui header" href="/work?id={{ work.id }}">{{ work.year }}-{{ work.projectName }}| <span class="smaller">{{ work.school }}</span></a>
               <div class="right floated">
                 <i class="empty star icon" v-on:click="fav"></i>
-                <i class="diamond icon"></i>
+                <img src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
               </div>
               <div class="meta">{{ work.chassis }}</div>
               <div class="description">

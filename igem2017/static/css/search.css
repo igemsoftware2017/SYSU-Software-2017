@@ -61,7 +61,7 @@ div.line {
   margin-top: 10;
 }
 body {
-  background-image: url("/static/img/search-back.jpg");
+  background-image: url("/static/img/search/back.jpg");
   background-size: cover;
   background-attachment: fixed;
 }

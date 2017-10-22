@@ -165,7 +165,7 @@ def load_works(works_floder_path):
                     Year = int(row[7]),
                     Wiki = row[8],
                     Section = row[9],
-                    Medal = row[10],
+                    Medal = row[10].replace(' medal', ''),
                     Award = row[11],
                     Use_parts = row[12],
                     Title = row[13],
