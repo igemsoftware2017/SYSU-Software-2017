@@ -9,7 +9,8 @@ $('#search-box').css({
 });
 
 function search(q) {
-    window.location.href = `/search?q=${q}`;
+    if (q !== '')
+        window.location.href = `/search?q=${q}`;
 }
 $('#search-icon')
     .on('click', () => { search($('#search-edit').val()); });
