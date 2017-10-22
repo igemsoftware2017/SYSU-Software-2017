@@ -479,7 +479,7 @@ def load_circuits(circuits_floder_path):
 
 
 def pre_load_data(currentpath, Imgpath):
-   #load_parts(os.path.join(currentpath, 'parts'))
-   #load_works(os.path.join(currentpath, 'works'))
-   #load_papers(os.path.join(currentpath, 'papers'))
-   #load_circuits(os.path.join(currentpath, 'works/circuits'))
+   load_parts(os.path.join(currentpath, 'parts'))
+   load_works(os.path.join(currentpath, 'works'))
+   load_papers(os.path.join(currentpath, 'papers'))
+   load_circuits(os.path.join(currentpath, 'works/circuits'))
