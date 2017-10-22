@@ -41,9 +41,6 @@ Object.freeze(partTypes);
 let canvasPositionX = 200;
 let canvasPositionY = 200;
 
-let positionToAddPart;
-let deviceToAddPart;
-
 const standardSize = {
     deviceHeight: 100,
     partSize: 60,

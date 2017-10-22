@@ -58,15 +58,3 @@ $('#tool')
         on: 'click',
         position: 'bottom left'
     });
-
-$('.ui.calendar')
-    .calendar({
-        type: 'date'
-    });
-
-$(window).scroll(() => {
-    if ($(window).scrollTop() > 150)
-        $('.ui.inverted.fixed.menu').css('background-image', 'url(/static/img/search-back.jpg)');
-    else
-        $('.ui.inverted.fixed.menu').css('background-image', 'none');
-});

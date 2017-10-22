@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/menu.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/popup.min.css">
-    <link rel="stylesheet" href="/static/semantic/dist/components/calendar.min.css">
     <link rel="stylesheet" href="/static/css/search.css">
   </head>
   <body>
@@ -52,29 +51,6 @@
             <a class="ui basic label">Food & Nutrition</a>
           </div>
           <div class="ui divider"></div>
-          <p>Time</p>
-          <div class="ui form">
-            <div class="inline fields">
-              <div class="field">
-                <label>From</label>
-                <div id="from" class="ui calendar">
-                  <div class="ui input left icon">
-                    <i class="calendar icon"></i>
-                    <input type="text">
-                  </div>
-                </div>
-              </div>
-              <div class="field">
-                <label>To</label>
-                <div id="to" class="ui calendar">
-                  <div class="ui input left icon">
-                    <i class="calendar icon"></i>
-                    <input type="text">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <div class="ui submit button">Apply</div>
         </div>
       </div>
@@ -82,12 +58,12 @@
         <div class="ui items">
           {% for work in works %}
           <div class="link item">
-            <div class="fluid image"><img src="/static/img/test.png" alt=""></div>
+            <div class="fluid image"><img src="{{ work.image }}" alt=""></div>
             <div class="content">
               <a class="ui header" href="/work?id={{ work.id }}">{{ work.year }}-{{ work.projectName }}| <span class="smaller">{{ work.school }}</span></a>
               <div class="right floated">
                 <i class="empty star icon" v-on:click="fav"></i>
-                <i class="diamond icon"></i>
+                <img src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
               </div>
               <div class="meta">{{ work.chassis }}</div>
               <div class="description">
@@ -111,7 +87,6 @@
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/semantic/dist/semantic.js"></script>
   <script src="/static/semantic/dist/components/popup.min.js"></script>
-  <script src="/static/semantic/dist/components/calendar.min.js"></script>
   <script src="/static/js/search-box.js"></script>
   <script src="/static/js/search.js"></script>
   <script src="/static/js/login.js"></script>
