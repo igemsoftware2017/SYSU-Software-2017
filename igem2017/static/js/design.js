@@ -272,4 +272,9 @@ initPositionSize();
 
 // TODO: DIRTY OPERATIONS ONLY FOR DEBUGGING
 // REMEMBER TO REMOVE!!!
+let design;
 $('#open-fav-win')[0].click();
+$.get('/get_circuit_test', (value) => {
+    let data = JSON.parse(value);
+    design = new SDinDesign('#canvas', data, {});
+});
