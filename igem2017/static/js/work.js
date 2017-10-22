@@ -1,5 +1,7 @@
 'use strict';
 
+/* global SDinDesign */
+
 // initializing position
 let leftBlank = `2em + ${$('#logo').width()}px`;
 $('#detail-container').css({
@@ -46,3 +48,12 @@ $.get('/get_circuit_test', (value) => {
     let data = JSON.parse(value);
     design = new SDinDesign('#part', data, {});
 });
+$(window)
+    .on('keydown', (event) => {
+        if (event.ctrlKey === true)
+            design.enableDrag();
+    })
+    .on('keyup', () => {
+        design.disableDrag();
+    });
+
