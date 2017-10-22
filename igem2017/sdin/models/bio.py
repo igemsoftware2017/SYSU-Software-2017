@@ -6,11 +6,11 @@ from django.db import models
 class Parts(models.Model):
     Name = models.CharField(max_length = 50, unique = True, db_index = True)
     Description = models.TextField()
-    Length = models.IntegerField(default = 0) # 0表示Unknow
-    Part_rating = models.IntegerField(default = 0)#0表示Unknow
+    Length = models.IntegerField(default = 0) # 0输出Unknow
+    Part_rating = models.IntegerField(default = 0)#0输出Unknow
     Type = models.CharField(max_length = 20)
-    Safety = models.IntegerField(default = 0) #0表示Unknow
-    Scores = models.FloatField(default=0.0) # 0.0分表示Unknow
+    Safety = models.IntegerField(default = -1) #负数的时候需要输出Unknow
+    Scores = models.FloatField(default=-1.0) # 负数的时候需要输出Unknow
     Release_status = models.CharField(max_length = 100, default = "To be add")
     Twins = models.CharField(max_length = 500, default = "To be add")
     Sample_status = models.CharField(max_length = 50, default = "To be add")
@@ -29,6 +29,14 @@ class SubParts(models.Model):
     parent = models.ForeignKey('Parts', related_name = 'parent_name', on_delete = models.CASCADE)
     child = models.ForeignKey('Parts', related_name = 'child_name', on_delete = models.CASCADE)
 
+    def __str__(self):
+        return "%s contains %s" % (self.parent.Name, self.child.Name)
+
+class PartsInteract(models.Model):
+    parent = models.ForeignKey('Parts', related_name = 'parent_part', on_delete = models.CASCADE)
+    child = models.ForeignKey('Parts', related_name = 'child_part', on_delete = models.CASCADE)
+    InteractType = models.CharField(max_length=10, default="normal")
+    Score = models.FloatField(default=-1.0) #负数的时候需要输出Unknow
     def __str__(self):
         return "%s contains %s" % (self.parent.Name, self.child.Name)
 
