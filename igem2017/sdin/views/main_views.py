@@ -173,9 +173,9 @@ def search(request):
                 favourite = False
 
             if w.Img.all().count() == 0:
-                Img = [w.DefaultImg]
+                Img = w.DefaultImg
             else:
-                Img = [i.URL for i in w.Img.all()]
+                Img = w.Img.all()[0].URL
 
             works.append({
                 'id': w.TeamID,
