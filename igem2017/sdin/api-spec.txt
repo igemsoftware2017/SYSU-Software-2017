@@ -42,7 +42,7 @@ POST: /api/part
     }
 
 # NOTE api changed, add related parts and keywords
-GET: /search
+GET: /search/work
     parameters: {
         q: string
     }
@@ -63,19 +63,53 @@ GET: /search
             rewards: array of string
             isFavourite: boolean
         }
-        parts: array of {
-            name: string
-            type: string
-            id: integer (-1 for not in database)
-            isFavourite: boolean
-        }
         keywords: array of string
     }
 
-# NOTE work.html template not exist
+GET: /search/part
+    parameters: {
+        q: string
+    }
+
+    render: {
+        resultsCount: integer
+        parts: array of {
+            id: integer (-1 for not in database)
+            name: string
+            group: string
+            date: string
+            description: string
+            type: string
+            releaseStatus: string
+            sampleStatus: string
+            rating: integer
+            use: integer
+            partResult: string
+            parameters: string (url?) # WTF?
+        }
+    }
+
+GET: /search/paper
+    parameters: {
+        q: string
+    }
+
+    render: {
+        resultsCount: integer
+        papers: array of {
+            id: integer (-1 for not in database)
+            title: string
+            author: string
+            DOI: string
+            abstract: string
+            JIF: float
+            logo: string (url)
+        }
+    }
+
 GET: /work
     parameters: {
-        id: integer
+        id: integer,
     }
 
     render: {
@@ -93,4 +127,23 @@ GET: /work
             name: string
             isFavourite: boolean
         }
+    }
+
+GET: /paper
+    parameters: {
+        id: integer,
+    }
+
+    render: {
+        title: string
+        DOI: string
+        abstract: string
+        JIF: string
+        keywords: string
+        designId: array of integer (to be discussed)
+        part: array of {
+            name: string
+            isFavourite: boolean
+        }
+        authors: array of string
     }
