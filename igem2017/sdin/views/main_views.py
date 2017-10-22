@@ -183,7 +183,9 @@ def search(request):
                 Img = w.DefaultImg
             else:
                 Img = w.Img.all()[0].URL
-
+            Awards = w.Award.split(';')
+            while len(Awards) > 0 and Awards[-1] == '':
+                Awards = Awards[:-1]
             works.append({
                 'id': w.TeamID,
                 'image': Img,
@@ -196,7 +198,7 @@ def search(request):
                 'medal': w.Medal,
                 'description': w.SimpleDescription,
                 'chassis': w.Chassis,
-                'rewards': [w.Award],
+                'rewards': Awards,
                 'isFavourite': favourite})
         except Works.DoesNotExist:
             works.append({
