@@ -60,5 +60,11 @@ $(window)
 $('div#detail-container > div.images > div.image > img')
     .on('click', function() {
         $('div.ui.page.dimmer').children().children().html($(this).parent().html());
+        $('div.ui.page.dimmer').dimmer({
+            duration: {
+                show: 200,
+                hide: 200
+            }
+        });
         $('div.ui.page.dimmer').dimmer('show');
     });
