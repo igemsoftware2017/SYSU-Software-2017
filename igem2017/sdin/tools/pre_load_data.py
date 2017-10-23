@@ -77,7 +77,7 @@ def load_parts(parts_floder_path):
     print('Error: {0:6d}'.format(errors))
     all_parts = {p.Name: p for p in Parts.objects.all()}
     load_part_score_and_Safety(parts_floder_path, all_parts)
-    #load_part_info(parts_floder_path, all_parts)
+    load_part_info(parts_floder_path, all_parts)
 
 def load_part_score_and_Safety(parts_floder_path, all_parts):
     files = ["part_score.csv", "part_safety.csv"]
@@ -179,7 +179,6 @@ def load_partsInteration(folderpath):
 #load works data
 def load_works(works_floder_path):
     errors = 0
-
     print('Deleting all previous works...')
     Works.objects.all().delete()
 
@@ -223,6 +222,7 @@ def load_works(works_floder_path):
     load_Team_description(works_floder_path)
     load_Team_IEF(works_floder_path)
     load_TeamImg(works_floder_path)
+    load_Team_logo(works_floder_path)
 
 def load_Team_description(works_floder_path):
     print('Loading Team_description...')
@@ -266,6 +266,34 @@ def load_Team_IEF(works_floder_path):
             print(row[0]," ",row[1]," ", row[2])
             print(err4)
             pass
+    print('Saving...')
+    atomic_save(works)
+    print('Error: {0:6d}'.format(errors))
+
+def load_Team_logo(folderpath):
+    print('Loading Team_logo url...')
+    filepath = join(folderpath,"team_logo.jl")
+    file = open(filepath,"r",encoding="utf-8")
+    lines = file.readlines()
+    file.close()
+    errors = 0
+    works = []
+    for x in lines:
+        x = json.loads(x)
+        if x["image"] is None or x["image"]=="" or x["image"] == "link" or x["Wiki"] == "http://2015.igem.org/Team:Beijing_HDFL":
+            continue
+        url = x["image"]
+        if "http" not in x["image"]:
+            header = x["Wiki"][0:x["Wiki"].rindex("/")]
+            tail = x["image"][1:]
+            url = join(header, tail)
+        try:
+            work = Works.objects.get(Wiki = x["Wiki"])
+            work.logo = url
+            works.append(work)
+        except Exception as err:
+            errors += 1
+            print(err)
     print('Saving...')
     atomic_save(works)
     print('Error: {0:6d}'.format(errors))

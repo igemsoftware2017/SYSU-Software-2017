@@ -73,6 +73,7 @@ class Works(models.Model):
     """
     DefaultImg = models.URLField(default = join("static", "img", "Team_img", "none.jpg"))
     Img = models.ManyToManyField('TeamImg')
+    logo = models.URLField(default=join("static", "img", "Team_img", "none.jpg"))
 
     def __str__(self):
         return "%s : %s" % str(self.TeamID), self.Teamname
