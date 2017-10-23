@@ -57,3 +57,8 @@ $(window)
         design.disableDrag();
     });
 
+$('div#detail-container > div.images > div.image > img')
+    .on('click', function() {
+        $('div.ui.page.dimmer').children().children().html($(this).parent().html());
+        $('div.ui.page.dimmer').dimmer('show');
+    });

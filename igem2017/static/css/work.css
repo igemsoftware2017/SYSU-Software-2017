@@ -27,7 +27,6 @@ body {
   background-image: url("/static/img/detail-back.jpg");
   background-size: contain;
   background-attachment: fixed;
-  overflow-y: hidden;
 }
 #detail-container {
   position: absolute;
@@ -97,7 +96,7 @@ body {
   overflow-y: hidden;
 }
 #detail-container>.images>.image {
-  width: 122px;
+  max-width: 122px;
   height: 82px;
   margin-right: 29px;
   display: inline-block;
@@ -106,7 +105,7 @@ body {
   margin-right: 0;
 }
 #detail-container>.images>.image>img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 #part-container {
@@ -115,7 +114,7 @@ body {
   background-color: #f8f8f8;
 }
 #part-container>.part-canvas {
-  width: 273px;
+  width: 563px;
   height: 280px;
   border: blue solid 1px;
   background-color: white;
@@ -129,6 +128,7 @@ body {
   height: 273px;
   display: inline-block;
   margin: 10px;
+  overflow-y: auto;
 }
 #part-container>.part-table>table th,tr {
   text-align: center;
@@ -151,4 +151,7 @@ body {
   position: absolute;
   background-color: white;
 }
-
+div.ui.page.dimmer img {
+  max-width: 90vw;
+  max-height: 90vh;
+}
