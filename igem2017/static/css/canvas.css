@@ -17,6 +17,10 @@
   cursor: pointer;
 }
 
+div.SDinDesign-subpartDropper {
+  position: absolute;
+}
+
 /* SVG Path Stroke */
 .promotion-connection>path {
   stroke: blue;

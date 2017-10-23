@@ -271,8 +271,8 @@ $('#part-info-img')
         revert: 'invalid',
         revertDuration: 200,
         helper: () => selectedPartHelper,
-        start: () => { $('.subpart-dropper').css({ backgroundColor: 'rgba(255, 0, 0, 0.1)' }); },
-        stop: () => { $('.subpart-dropper').css({ backgroundColor: '' }); }
+        start: () => { $('.SDinDesign-subpartDropper').css({ backgroundColor: 'rgba(255, 0, 0, 0.1)' }); },
+        stop: () => { $('.SDinDesign-subpartDropper').css({ backgroundColor: '' }); }
     })
     .draggable('disable');
 $('#part-panel-dropper')
@@ -308,33 +308,7 @@ $('#part-panel')
             });
         }
     });
-$(this._canvas)
-    .droppable({
-        accept: '#part-info-img',
-        greedy: true,
-        over: function() {
-            $(this).css({
-                backgroundColor: 'rgba(0, 0, 255, 0.1)'
-            });
-        },
-        out: function() {
-            $(this).css({ backgroundColor: '' });
-        },
-        drop: function(event) {
-            $(this).css({ backgroundColor: '' });
-            let newDevice = {
-                X: event.offsetX / design.ratio - design.canvasPositionX,
-                Y: event.offsetY / design.ratio - design.canvasPositionY,
-                parts: []
-            };
-            let partData = $.extend(true, {}, selectedPart);
-            partData.ID = design.nextPartId;
-            newDevice.parts.push(partData);
-            design.devices[Object.keys(design.devices).length] = newDevice;
-            design.addDevice(newDevice);
-            design.redrawDesign();
-        }
-    });
+
 
 // Favourite window
 $('#fav-win')
@@ -430,8 +404,6 @@ $('#export-button')
         createDownload('design.json', design.design);
     });
 
-let canvasDragging = false;
-let canvasDragOrigin;
 let currentMode = 'modifyItem';
 const modes = {
     modifyItem: $('#drag-item'),

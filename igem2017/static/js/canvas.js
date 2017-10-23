@@ -97,6 +97,8 @@ class SDinDesign {
                 this._option[key] = option[key];
         if (this._option.zoomable)
             this.enableZoom();
+        if (this._option.addable)
+            this.enableAdd();
     }
 
     constructor(canvas, design, option) {
@@ -185,6 +187,7 @@ class SDinDesign {
             .appendTo(device)
             .addClass('bone');
 
+        let that = this;
         if (this._option.addable) {
         // Creating dropper for adding subparts
             for (let i = 0; i <= data.parts.length; ++i) {
@@ -204,7 +207,7 @@ class SDinDesign {
                         },
                         drop: function() {
                             // TODO: fix selectedPart from other file
-                            this.insertPart(data, selectedPart, $(this).attr('dropper-id'));
+                            that.insertPart(data, selectedPart, $(this).attr('dropper-id'));
                         }
                     });
             }
@@ -417,6 +420,37 @@ class SDinDesign {
             .off('mouseup')
             .off('mouseleave')
             .off('mousemove');
+    }
+
+    enableAdd() {
+        let that = this;
+        $(this._canvas)
+            .droppable({
+                accept: '#part-info-img',
+                greedy: true,
+                over: function() {
+                    $(this).css({
+                        backgroundColor: 'rgba(0, 0, 255, 0.1)'
+                    });
+                },
+                out: function() {
+                    $(this).css({ backgroundColor: '' });
+                },
+                drop: function(event) {
+                    $(this).css({ backgroundColor: '' });
+                    let newDevice = {
+                        X: event.offsetX / that._size.unit - that._canvasPositionX,
+                        Y: event.offsetY / that._size.unit - that._canvasPositionY,
+                        parts: []
+                    };
+                    let partData = $.extend(true, {}, selectedPart);
+                    partData.ID = that._nextPartId;
+                    newDevice.parts.push(partData);
+                    that._design.devices[Object.keys(that._design.devices).length] = newDevice;
+                    that.addDevice(newDevice);
+                    that.redrawDesign();
+                }
+            });
     }
 
     highlightDevice(device, transparency) {
