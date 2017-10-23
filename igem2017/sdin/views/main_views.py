@@ -226,6 +226,10 @@ def search(request):
                 if track is not None and track != 'any' and w.Track != uglyTable[track]:
                     continue
 
+                awards = w.Award.split(';')
+                while len(awards) > 0 and awards[-1] == '':
+                    awards = awards[:-1]
+
                 works.append({
                     'id': w.TeamID,
                     'image': Img,
@@ -238,7 +242,7 @@ def search(request):
                     'medal': w.Medal,
                     'description': w.SimpleDescription[:200],
                     'chassis': w.Chassis,
-                    'rewards': w.Awards.split(';'),
+                    'rewards': awards,
                     'isFavourite': favourite})
             except Works.DoesNotExist:
                 works.append({
