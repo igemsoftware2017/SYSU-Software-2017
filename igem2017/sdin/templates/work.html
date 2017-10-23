@@ -14,11 +14,9 @@
     {% include "nav.html" %}
     <div class="ui fixed inverted menu" id="info-bar">
       <div class="ui container">
-        <span class="item"><h4 class="ui inverted header">Project name:</h4>S-Din</span>
-        <span class="item"><h4 class="ui inverted header">Team:</h4>SYSU-Software</span>
-        <span class="item"><h4 class="ui inverted header">Year:</h4>2017</span>
-        <span class="item"><h4 class="ui inverted header">Track:</h4>Software</span>
-        <span class="item"><h4 class="ui inverted header">Result:</h4>Pending</span>
+        <span class="item"><h4 class="ui inverted header">Project name:</h4>{{ projectName }}</span>
+        <span class="item"><h4 class="ui inverted header">Team:</h4>{{ teamName }}</span>
+        <span class="item"><h4 class="ui inverted header">Year:</h4>{{ year }}</span>
       </div>
     </div>
 
@@ -52,7 +50,7 @@
       <div id="part-container">
         <div class="part-canvas" id="part"></div>
         <div class="part-table">
-          <table class="ui striped table">
+          <table class="ui fixed striped table">
             <thead>
               <tr>
                 <th>BBa</th>
