@@ -108,6 +108,9 @@ def work(request):
             Img = [wk.DefaultImg]
         else:
             Img = [i.URL for i in wk.Img.all()]
+
+        wk.ReadCount += 1
+        wk.save()
         context = {
             'projectName': wk.Title,
             'year': wk.Year,
@@ -226,9 +229,9 @@ def search(request):
                     'school': w.Teamname,
                     'risk': '???',
                     'medal': w.Medal,
-                    'description': w.SimpleDescription,
+                    'description': w.SimpleDescription[:200],
                     'chassis': w.Chassis,
-                    'rewards': [w.Award],
+                    'rewards': w.Awards.split(';'),
                     'isFavourite': favourite})
             except Works.DoesNotExist:
                 works.append({
