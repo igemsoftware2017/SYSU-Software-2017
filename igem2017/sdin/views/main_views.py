@@ -12,7 +12,7 @@ from django.contrib.auth import authenticate, login, logout
 
 from django.contrib.auth.decorators import login_required
 
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 
 Err = "Something wrong!"
 Inv = "Invalid form!"
@@ -137,79 +137,156 @@ search_url = 'http://e8749c0f.ap.ngrok.io'
 import requests
 import json
 
+uglyTable = {
+    'artDesign': 'Art & Design',
+    'diagnostics': 'Diagnostics',
+    'energy': 'Energy',
+    'environment': 'Environment',
+    'foodEnergy': 'Food & Energy',
+    'foodAndNutrition': 'Food and Nutrition',
+    'foundationalAdvance': 'Foundational Advance',
+    'hardware': 'Hardware',
+    'healthMedicine': 'Health & Medicine',
+    'highSchool': 'High School',
+    'informationProcessing': 'Information Processing',
+    'manufacturing': 'Manufacturing',
+    'measurement': 'Measurement',
+    'newApplication': 'New Application',
+    'software': 'Software',
+    'therapeutics': 'Therapeutics'}
+
 def search(request):
     key = request.GET.get('q')
+    year = request.GET.get('year')
+    medal = request.GET.get('medal')
+    track = request.GET.get('track')
+
+    # TODO For test, ugly, will be changed later
+    keyword_query = Keyword.objects.filter(name__contains = key)
+    if keyword_query.count() > 0:
+        x = keyword_query[0]
+        key_dict = x.__dict__
+    else:
+        key_dict = {}
+
     res = requests.get(search_url + "?key=" + key)
     result = json.loads(res.text)
     parts = []
-    for item in result['parts']:
-        try:
-            p = Parts.objects.get(Name = item)
-            if request.user.is_authenticated:
-                try:
-                    FavoriteParts.objects.get(user = request.user, part = p)
-                    favourite = True
-                except FavoriteParts.DoesNotExist:
-                    favourite = False
-            else:
-                favourite = False
-            parts.append({
-                'name': p.Name,
-                'type': p.Type,
-                'id': p.id,
-                'isFavourite': favourite})
-        except Parts.DoesNotExist:
-            parts.append({
-                'name': item,
-                'type': 'unkown',
-                'id': -1,
-                'isFavourite': False})
-
     works = []
-    for item in result['teams']:
-        try:
-            s = item.split(' ')
-            w = Works.objects.get(Teamname = s[0], Year = s[1])
-            if request.user.is_authenticated:
-                try:
-                    UserFavorite.objects.get(user = request.user, circuit = w.Circuit)
-                    favourite = True
-                except UserFavorite.DoesNotExist:
+    keywords = []
+    if result != 'Invalid Input!':
+        for item in result['parts']:
+            try:
+                p = Parts.objects.get(Name = item)
+                if request.user.is_authenticated:
+                    try:
+                        FavoriteParts.objects.get(user = request.user, part = p)
+                        favourite = True
+                    except FavoriteParts.DoesNotExist:
+                        favourite = False
+                else:
                     favourite = False
-            else:
-                favourite = False
+                parts.append({
+                    'name': p.Name,
+                    'type': p.Type,
+                    'id': p.id,
+                    'isFavourite': favourite})
+            except Parts.DoesNotExist:
+                parts.append({
+                    'name': item,
+                    'type': 'unkown',
+                    'id': -1,
+                    'isFavourite': False})
 
-            if w.Img.all().count() == 0:
-                Img = w.DefaultImg
-            else:
-                Img = w.Img.all()[0].URL
-            Awards = w.Award.split(';')
-            while len(Awards) > 0 and Awards[-1] == '':
-                Awards = Awards[:-1]
-            works.append({
-                'id': w.TeamID,
-                'image': Img,
-                'year': w.Year,
-                'teamName': w.Teamname,
-                'projectName': w.Title,
-                # TODO
-                'school': '???',
-                'risk': '???',
-                'medal': w.Medal,
-                'description': w.SimpleDescription,
-                'chassis': w.Chassis,
-                'rewards': Awards,
-                'isFavourite': favourite})
-        except Works.DoesNotExist:
-            works.append({
-                'id': -1,
-                'teamName': s[0],
-                'Year': s[1],
-                isFavourite: False})
+        for item in result['teams']:
+            try:
+                s = item.split(' ')
+                w = Works.objects.get(Teamname = s[0], Year = s[1])
+                if request.user.is_authenticated:
+                    try:
+                        UserFavorite.objects.get(user = request.user, circuit = w.Circuit)
+                        favourite = True
+                    except UserFavorite.DoesNotExist:
+                        favourite = False
+                else:
+                    favourite = False
+
+                if w.Img.all().count() == 0:
+                    Img = w.DefaultImg
+                else:
+                    Img = w.Img.all()[0].URL
+
+                if year is not None and year != 'any' and w.Year != int(year):
+                    continue
+                if medal is not None and medal != 'any' and medal not in w.Medal:
+                    continue
+                if track is not None and track != 'any' and w.Track != uglyTable[track]:
+                    continue
+
+                works.append({
+                    'id': w.TeamID,
+                    'image': Img,
+                    'year': w.Year,
+                    'teamName': w.Teamname,
+                    'projectName': w.Title,
+                    # TODO
+                    'school': w.Teamname,
+                    'risk': '???',
+                    'medal': w.Medal,
+                    'description': w.SimpleDescription,
+                    'chassis': w.Chassis,
+                    'rewards': [w.Award],
+                    'isFavourite': favourite})
+            except Works.DoesNotExist:
+                works.append({
+                    'id': -1,
+                    'teamName': s[0],
+                    'Year': s[1],
+                    isFavourite: False})
+
+            keywords = result['keyWords']
+    else:
+        return HttpResponse(result)
 
     context = {
         'works': works,
         'parts': parts,
-        'keywords': result['keyWords'],
-        'resultsCount': len(works)}
+        'keywords': keywords,
+        'resultsCount': len(works),
+        'additional': key_dict}
     return render(request, 'search.html', context)
+
+def search_paper(request):
+    key = request.GET.get('q')
+    query = Papers.objects.filter(Title__contains = key)
+    papers = [{
+        'id': x.id,
+        'title': x.Title,
+        'author': x.Authors,
+        'DOI': x.DOI,
+        'abstract': x.Abstract,
+        'JIF': x.JIF,
+        'logo': x.LogoURL} for x in query]
+    context = {
+            'resultsCount': len(papers),
+            'papers': papers}
+    print(context)
+    return render(request, 'search_paper.html', context)
+
+def paper(request):
+    key = request.GET.get('id')
+    try:
+        paper = Papers.objects.get(pk = key)
+
+        context = {
+                'title': paper.Title,
+                'DOI': paper.DOI,
+                'abstract': paper.Abstract,
+                'JIF': paper.JIF,
+                'keywords': paper.Keywords,
+                # TO ADD
+                'designId': None,
+                'part': {}}
+        return render(request, 'paper.html', context)
+    except Papers.DoesNotExist:
+        return HttpResponse('Does not exist.')
