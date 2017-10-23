@@ -5,6 +5,11 @@ let leftBlank = `2em + ${$('#logo').width()}px`;
 $('#result-container').css({
     left: `calc(${leftBlank})`
 });
+$.each($('.item>.image>img'), function() {
+    $(this).css({
+        marginLeft: ($(this).parent().width() - $(this).width()) / 2
+    });
+});
 $('#right-panel').css({
     left: `calc(2em + ${leftBlank} + 876px + 20px)`,
     top: $('#result-list').offset().top,
@@ -37,11 +42,12 @@ $('.ui.text.menu')
             i.removeClass('down icon').addClass('up icon');
     });
 
-$('#tool').popup({
-    popup: $('#tool-popup'),
-    on: 'click',
-    position: 'bottom left'
-});
+$('#tool')
+    .popup({
+        popup: $('#tool-popup'),
+        on: 'click',
+        position: 'bottom left'
+    });
 
 $('.rewards').each((_, v) => {
     let popup = $(`[workid=${$(v).attr('workid')}].popup`);

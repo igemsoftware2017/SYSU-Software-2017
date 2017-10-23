@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/menu.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/popup.min.css">
-    <link rel="stylesheet" href="/static/css/search.css">
+    <link rel="stylesheet" href="/static/css/search/part.css">
   </head>
   <body>
     {% include '../nav.html' %}
@@ -19,9 +19,9 @@
 
     <div id="result-container">
       <div id="search-type-menu" class="ui secondary pointing inverted menu">
-        <a class="active item">Project</a>
-        <a class="item">Parts</a>
-        <a class="item">Paper</a>
+        <a class="item" href="/search/work?q={{ request.GET.q }}">Project</a>
+        <a class="active item">Parts</a>
+        <a class="item" href="/search/paper?q={{ request.GET.q }}">Paper</a>
       </div>
       <div class="line" id="also-try">
         Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
@@ -90,6 +90,6 @@
   <script src="/static/semantic/dist/semantic.js"></script>
   <script src="/static/semantic/dist/components/popup.min.js"></script>
   <script src="/static/js/search-box.js"></script>
-  <script src="/static/js/search.js"></script>
+  <script src="/static/js/search/part.js"></script>
   <script src="/static/js/login.js"></script>
 </html>

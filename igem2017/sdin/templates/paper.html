@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Team detail - S-Din</title>
+    <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
+    <link rel="stylesheet" href="/static/css/custom.css">
+    <link rel="stylesheet" href="/static/css/paper.css">
+    <link rel="stylesheet" href="/static/css/canvas.css">
+  </head>
+  <body>
+    {% include "nav.html" %}
+
+    {% include 'search-box.html' %}
+    <link rel="stylesheet" href="/static/css/search-box.css">
+
+    <div id="detail-container">
+      <div class="back-icon">
+      </div>
+      <div class="back">
+        back
+      </div>
+      <div class="title">{{ title }}</div>
+      <div class="doi">DOI: {{ DOI }}</div>
+      <div class="jif">JIF: {{ JIF }}</div>
+      <div class="abstract">
+        <p>{{ abstract }}</p>
+      </div>
+      <div class="keywords">
+        <b>Keywords:</b> {{ keywords }}
+      </div>
+      <div id="part-container">
+        <div class="part-canvas" id="part"></div>
+        <div class="part-table">
+          <table class="ui fixed striped table">
+            <thead>
+              <tr>
+                <th>BBa</th>
+                <th>Name</th>
+                <th>Collect</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for p in part %}
+              <tr>
+                <td>{{ p.BBa }}</td>
+                <td>{{ p.name }}</td>
+                <td><i class="{% if not p.isFavourite %}empty {% endif %}star icon"></i></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div id="right-panel"></div>
+
+    <div class="ui page dimmer">
+      <div class="content">
+         <div class="center">test</div>
+      </div>
+    </div>
+
+    {% include "login-modal.html" %}
+
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/jquery-ui/jquery-ui.min.js"></script>
+  <script src="/static/js/jquery.mousewheel.min.js"></script>
+  <script src="/static/semantic/dist/semantic.js"></script>
+  <script src="/static/js/search-box.js"></script>
+  <script src="/static/js/jsplumb.js"></script>
+  <script src="/static/js/canvas.js"></script>
+  <script src="/static/js/paper.js"></script>
+  <script src="/static/js/login.js"></script>
+</html>

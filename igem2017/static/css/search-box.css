@@ -2,7 +2,7 @@
   margin-left: 2em;
   margin-top: 5em;
   position: relative;
-  z-index: 501;
+  z-index: 1;
 }
 #logo {
   width: 130px;
