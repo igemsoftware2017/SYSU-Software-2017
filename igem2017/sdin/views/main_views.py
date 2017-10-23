@@ -297,3 +297,25 @@ def paper(request):
         return render(request, 'paper.html', context)
     except Papers.DoesNotExist:
         return HttpResponse('Does not exist.')
+
+def search_part(request):
+    key = request.GET.get('q')
+    query = Parts.objects.filter(Name__contains = key)
+    parts = [{
+        'id': x.id,
+        'name': x.Name,
+        'group': x.Group,
+        'date': x.DATE,
+        'description': x.Description,
+        'type': x.Type,
+        'releaseStatus': x.Release_status,
+        'sampleStatus': x.Sample_status,
+        'rating': x.Part_rating,
+        'use': x.Use,
+        'partResult': x.Part_results,
+        'parameters': '???'
+    } for x in query]
+    context = {
+            'resultsCount': len(parts),
+            'parts': parts}
+    render(request, 'search_part.html', context)

@@ -400,14 +400,13 @@ def load_circuits(circuits_floder_path):
                     try:
                         team = Works.objects.get(TeamID = teamID)
                     except Works.DoesNotExist:
-                        team = Works.objects.create(
-                                TeamID = teamID,
-                                Teamname = teamName)
+                        print(teamName + ' ID:' + str(teamID) + ' Not found!')
+                        continue
 
                     try:
                         circuit = Circuit.objects.create(Name = teamName + str(teamID), Description = "")
                     except:
-                        continue
+                        circuit = Circuit.objects.get(Name = teamName + str(teamID))
                     team.Circuit = circuit
                     team.save()
 
@@ -428,7 +427,7 @@ def load_circuits(circuits_floder_path):
                                                 Part = p,
                                                 Circuit = circuit,
                                                 X = sheet.cell(row, 4).value,
-                                                Y = sheet.cell(row, 5).value)
+                                                Y = sheet.cell(row, 5).value if sheet.cell(row, 5).value != "" else 0)
                                     except:
                                         traceback.print_exc()
                                         print(name)
@@ -468,10 +467,12 @@ def load_circuits(circuits_floder_path):
                                 cd = CircuitDevices.objects.create(
                                         Circuit = circuit)
                                 s = sheet.cell(row, 1).value.split(',')
-                                try:
-                                    map(lambda x: cd.Subparts.add(cids[int(x)]), s)
-                                except:
-                                    pass
+                                for x in s:
+                                    if x != '':
+                                        try:
+                                            cd.Subparts.add(cids[int(x)])
+                                        except KeyError:
+                                            pass
                                 cd.save()
                                 row += 1
                         if sheet.cell(i, 0).value == "promotion":
@@ -527,7 +528,7 @@ def load_circuits(circuits_floder_path):
             except ValueError:
                 traceback.print_exc()
                 print(name)
-                print(data)
+                print(sheet.name)
                 print(parts)
             except:
                 traceback.print_exc()
