@@ -61,7 +61,7 @@ div.line {
   margin-top: 10;
 }
 body {
-  background-image: url("/static/img/search-back.jpg");
+  background-image: url("/static/img/search/back.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -84,12 +84,48 @@ body {
   width: auto;
   height: 100%;
 }
+.ui.items>.item>.content {
+  position: relative;
+}
 .ui.items>.item>.content>.ui.header {
   color: #333333;
   font-size: calc(7px * 300 / 72);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 593px;
+  margin-top: 0;
+}
+.ui.items>.item>.content>.ui.header:hover {
+  white-space: normal;
 }
 .ui.items>.item>.content>.ui.header>span.smaller {
   font-size: calc(6px * 300 / 72);
+}
+.ui.items>.item>.content>.medal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 34px;
+  height: 34px;
+}
+.ui.items>.item>.content>.chassis {
+  position: absolute;
+  left: 30px;
+  bottom: 0;
+  margin-bottom: 0;
+  color: #333333;
+}
+.ui.items>.item>.content>.rewards {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.ui.items>.item>.content>.description {
+  margin-top: 0;
+}
+.ui.items>.item>.content>.ui.flowing.popup p, li {
+  white-space: nowrap;
 }
 #also-try {
   padding-top: 0;

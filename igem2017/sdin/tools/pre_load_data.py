@@ -26,6 +26,11 @@ def atomic_save(items):
     for i in items:
         i.save()
 
+@atomic
+def atomic_add(items):
+    for a, b in items:
+        a.add(b)
+
 def load_parts(parts_floder_path):
     errors = 0
     print('Deleting all previous parts...')
@@ -72,7 +77,7 @@ def load_parts(parts_floder_path):
     print('Error: {0:6d}'.format(errors))
     all_parts = {p.Name: p for p in Parts.objects.all()}
     load_part_score_and_Safety(parts_floder_path, all_parts)
-    #load_part_info(parts_floder_path, all_parts)
+    load_part_info(parts_floder_path, all_parts)
 
 def load_part_score_and_Safety(parts_floder_path, all_parts):
     files = ["part_score.csv", "part_safety.csv"]
@@ -174,7 +179,6 @@ def load_partsInteration(folderpath):
 #load works data
 def load_works(works_floder_path):
     errors = 0
-
     print('Deleting all previous works...')
     Works.objects.all().delete()
 
@@ -197,7 +201,7 @@ def load_works(works_floder_path):
                     Year = int(row[7]),
                     Wiki = row[8],
                     Section = row[9],
-                    Medal = row[10],
+                    Medal = row[10].replace(' medal', ''),
                     Award = row[11],
                     Use_parts = row[12],
                     Title = row[13],
@@ -218,6 +222,7 @@ def load_works(works_floder_path):
     load_Team_description(works_floder_path)
     load_Team_IEF(works_floder_path)
     load_TeamImg(works_floder_path)
+    load_Team_logo(works_floder_path)
 
 def load_Team_description(works_floder_path):
     print('Loading Team_description...')
@@ -265,6 +270,34 @@ def load_Team_IEF(works_floder_path):
     atomic_save(works)
     print('Error: {0:6d}'.format(errors))
 
+def load_Team_logo(folderpath):
+    print('Loading Team_logo url...')
+    filepath = join(folderpath,"team_logo.jl")
+    file = open(filepath,"r",encoding="utf-8")
+    lines = file.readlines()
+    file.close()
+    errors = 0
+    works = []
+    for x in lines:
+        x = json.loads(x)
+        if x["image"] is None or x["image"]=="" or x["image"] == "link" or x["Wiki"] == "http://2015.igem.org/Team:Beijing_HDFL":
+            continue
+        url = x["image"]
+        if "http" not in x["image"]:
+            header = x["Wiki"][0:x["Wiki"].rindex("/")]
+            tail = x["image"][1:]
+            url = join(header, tail)
+        try:
+            work = Works.objects.get(Wiki = x["Wiki"])
+            work.logo = url
+            works.append(work)
+        except Exception as err:
+            errors += 1
+            print(err)
+    print('Saving...')
+    atomic_save(works)
+    print('Error: {0:6d}'.format(errors))
+
 def load_TeamImg(folderpath):
     print('Deleting all previous TeamImg...')
     TeamImg.objects.all().delete()
@@ -289,27 +322,24 @@ def load_TeamImg(folderpath):
     print('Saving...')
     atomic_save(Imgs)
     print('Error: {0:6d}'.format(errors))
-    print('Making releationship before works and Teamimg ...')
+    print('Making releationship between works and Teamimg ...')
     errors = 0
     csv_reader2 = csv.reader(open(filepath, encoding='utf-8'))
     Imgs = {p.Name: p for p in TeamImg.objects.all()}
     all_works = {str(p.Year)+"_"+p.Teamname: p for p in Works.objects.all()}
-    cnt, tot = 0, len(Imgs)
+    cache = []
     for row in csv_reader2:
         try:
             Team = row[0].split(" ")[0]
             year = Team[0:Team.index("_")]
-            all_works[Team].Img.add(Imgs[row[0]])
-            cnt += 1
-            sys.stdout.write("\rPercnet: %d/%d" % (cnt, tot))
+            cache.append([all_works[Team].Img, Imgs[row[0]]])
         except Exception as err:
             errors += 1
             print(Team)
             print(err)
             pass
-    works = all_works.values()
     print('Saving...')
-    atomic_save(works)
+    atomic_add(cache)
     print('Error: {0:6d}'.format(errors))
 
 #load papers data

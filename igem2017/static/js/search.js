@@ -54,19 +54,17 @@ $('.ui.text.menu')
 
 $('#tool')
     .popup({
-        popup: $('.popup'),
+        popup: $('#tool-popup'),
         on: 'click',
         position: 'bottom left'
     });
 
-$('.ui.calendar')
-    .calendar({
-        type: 'date'
+$('.rewards').each((_, v) => {
+    let popup = $(`[workid=${$(v).attr('workid')}].popup`);
+    if (popup.children('ul').children('li').length === 0)
+        popup.html('<p>No awards.</p>');
+    $(v).popup({
+        popup: popup,
+        position: 'right center'
     });
-
-$(window).scroll(() => {
-    if ($(window).scrollTop() > 150)
-        $('.ui.inverted.fixed.menu').css('background-image', 'url(/static/img/search-back.jpg)');
-    else
-        $('.ui.inverted.fixed.menu').css('background-image', 'none');
 });

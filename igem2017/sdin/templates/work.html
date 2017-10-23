@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/css/custom.css">
     <link rel="stylesheet" href="/static/css/work.css">
+    <link rel="stylesheet" href="/static/css/canvas.css">
   </head>
   <body>
     {% include "nav.html" %}
@@ -49,8 +50,7 @@
         {% endfor %}
       </div>
       <div id="part-container">
-        <div class="part"></div>
-        <div class="part"></div>
+        <div class="part-canvas" id="part"></div>
         <div class="part-table">
           <table class="ui striped table">
             <thead>
@@ -78,8 +78,12 @@
   {% include "login-modal.html" %}
 
   <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/jquery-ui/jquery-ui.min.js"></script>
+  <script src="/static/js/jquery.mousewheel.min.js"></script>
   <script src="/static/semantic/dist/semantic.js"></script>
   <script src="/static/js/search-box.js"></script>
+  <script src="/static/js/jsplumb.js"></script>
+  <script src="/static/js/canvas.js"></script>
   <script src="/static/js/work.js"></script>
   <script src="/static/js/login.js"></script>
 </html>

@@ -31,11 +31,18 @@ def login_view(request):
             if user is not None:
                 login(request, user)
                 messages.success(request, "Login successfully!")
+                next_url = request.POST.get('next')
+                if next_url:
+                    return redirect(next_url)
+                else:
+                    return redirect('/')
             else:
                 messages.error(request, "Invalid Login!")
         else:
             messages.error(request, Inv)
-    return render(request, 'login.html')
+        return render(request, 'login.html')
+    elif request.method == 'GET':
+        return render(request, 'login.html')
 
 @login_required
 def logout_view(request):
@@ -120,7 +127,7 @@ def work(request):
             'description': wk.SimpleDescription,
             'isFavourite': favorite,
             'images': Img,
-            'designId': None if wk.Circuit is None else wk.Circuit.id,
+            'designId': -1 if wk.Circuit is None else wk.Circuit.id,
             'part': part}
 
         return render(request, 'work.html', context)
@@ -219,6 +226,10 @@ def search(request):
                 if track is not None and track != 'any' and w.Track != uglyTable[track]:
                     continue
 
+                awards = w.Award.split(';')
+                while len(awards) > 0 and awards[-1] == '':
+                    awards = awards[:-1]
+
                 works.append({
                     'id': w.TeamID,
                     'image': Img,
@@ -231,7 +242,7 @@ def search(request):
                     'medal': w.Medal,
                     'description': w.SimpleDescription[:200],
                     'chassis': w.Chassis,
-                    'rewards': w.Awards.split(';'),
+                    'rewards': awards,
                     'isFavourite': favourite})
             except Works.DoesNotExist:
                 works.append({

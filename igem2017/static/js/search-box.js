@@ -9,21 +9,13 @@ $('#search-box').css({
 });
 
 function search(q) {
-    window.location.href = `/search?q=${q}`;
+    if (q !== '')
+        window.location.href = `/search?q=${q}`;
 }
 $('#search-icon')
     .on('click', () => { search($('#search-edit').val()); });
-$('#search-edit')
-    .on('focus', function() {
-        $('#search-page-dimmer').css({
-            background: 'rgba(0, 0, 0, 0.5)',
-            zIndex: 1
-        });
-    });
-$('#search-edit')
-    .blur(function() {
-        $('#search-page-dimmer').css({
-            background: 'rgba(0, 0, 0, 0)',
-            zIndex: -500
-        });
+$(window)
+    .on('keydown', (event) => {
+        if (event.key === 'Enter')
+            search($('#search-edit').val());
     });

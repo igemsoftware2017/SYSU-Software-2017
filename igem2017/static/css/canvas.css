@@ -1,0 +1,31 @@
+.SDinDesign-device {
+  position: absolute;
+  transition: box-shadow 0.2s ease;
+  background-color: white;
+  cursor: pointer;
+}
+.SDinDesign-device>.bone {
+  position: absolute;
+  height: 3px;
+  background-color: #efefef;
+  bottom: 1em;
+}
+.SDinDesign-part {
+  position: absolute;
+  transition: box-shadow 0.2s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* SVG Path Stroke */
+.promotion-connection>path {
+  stroke: blue;
+  fill: blue;
+}
+.inhibition-connection>path {
+  stroke: red;
+  fill: red;
+}
+.preview-connection>path {
+  stroke-dasharray: 5, 5;
+}
