@@ -49,10 +49,7 @@ def logout_view(request):
     logout(request)
     return redirect('/index')
 
-def search(request):
-    return render(request, 'search.html')
-
-#@login_required
+@login_required
 def interest(request):
     return render(request, 'interest.html')
 
@@ -158,7 +155,7 @@ uglyTable = {
     'software': 'Software',
     'therapeutics': 'Therapeutics'}
 
-def search(request):
+def search_work(request):
     key = request.GET.get('q')
     year = request.GET.get('year')
     medal = request.GET.get('medal')
@@ -261,7 +258,7 @@ def search(request):
         'keywords': keywords,
         'resultsCount': len(works),
         'additional': key_dict}
-    return render(request, 'search.html', context)
+    return render(request, 'search/work.html', context)
 
 def search_paper(request):
     key = request.GET.get('q')
@@ -278,7 +275,10 @@ def search_paper(request):
             'resultsCount': len(papers),
             'papers': papers}
     print(context)
-    return render(request, 'search_paper.html', context)
+    return render(request, 'search/paper.html', context)
+
+def search_part(request):
+    return render(request, 'search/part.html')
 
 def paper(request):
     key = request.GET.get('id')

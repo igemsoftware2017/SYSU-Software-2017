@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="/static/css/search.css">
   </head>
   <body>
-    {% include "nav.html" %}
+    {% include '../nav.html' %}
 
-    {% include 'search-box.html' %}
+    {% include '../search-box.html' %}
     <link rel="stylesheet" href="/static/css/search-box.css">
 
     <div id="result-container">
@@ -58,7 +58,7 @@
         <div class="ui items">
           {% for work in works %}
           <div class="link item">
-            <div class="fluid image"><img src="{{ work.image }}" alt=""></div>
+            <div class="image" style="background-image: url('/{{ work.image }}')"></div>
             <div class="content">
               <a class="ui header" href="/work?id={{ work.id }}">{{ work.year }}-{{ work.projectName }}| <span class="smaller">{{ work.school }}</span></a>
               <img class="medal" src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
@@ -84,7 +84,7 @@
     </div>
   </body>
 
-  {% include "login-modal.html" %}
+  {% include "../login-modal.html" %}
 
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/semantic/dist/semantic.js"></script>

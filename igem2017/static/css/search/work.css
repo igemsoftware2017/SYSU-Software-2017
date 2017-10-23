@@ -78,11 +78,9 @@ body {
   position: relative;
 }
 .ui.items>.item>.image {
-  overflow: hidden;
-}
-.ui.items>.item>.image>img {
-  width: auto;
-  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .ui.items>.item>.content {
   position: relative;

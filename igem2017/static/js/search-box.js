@@ -10,7 +10,7 @@ $('#search-box').css({
 
 function search(q) {
     if (q !== '')
-        window.location.href = `/search?q=${q}`;
+        window.location.href = `/search/work?q=${q}`;
 }
 $('#search-icon')
     .on('click', () => { search($('#search-edit').val()); });

@@ -24,8 +24,9 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', main_views.index),
     url(r'^index$', main_views.index),
-    url(r'^search/work$', main_views.search),
+    url(r'^search/work$', main_views.search_work),
     url(r'^search/paper$', main_views.search_paper),
+    url(r'^search/part$', main_views.search_part),
     url(r'^interest$', main_views.interest),
     url(r'^register$', main_views.register),
     url(r'^login', main_views.login_view),
@@ -33,7 +34,6 @@ urlpatterns = [
     url(r'^design$', design_views.design),
     url(r'^work$', main_views.work),
     url(r'^paper$', main_views.paper),
-    url(r'^search$', main_views.search),
 ] + \
 [
     # API urls
