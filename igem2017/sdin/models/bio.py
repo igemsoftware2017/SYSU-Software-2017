@@ -68,3 +68,8 @@ class CircuitLines(models.Model):
 class CircuitDevices(models.Model):
     Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE)
     Subparts = models.ManyToManyField(CircuitParts)
+
+class CircuitCombines(models.Model):
+    Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE, related_name = "Father")
+    Father = models.ForeignKey('CircuitParts', on_delete = models.CASCADE, related_name = "Sons")
+    Sons = models.ManyToManyField(CircuitParts)

@@ -45,6 +45,9 @@ POST: /api/part
 GET: /search/work
     parameters: {
         q: string
+        medal: gold, sliver, bronze or any
+        track: #NOTE Hungarian notation and ignore & for multi-word, eg. artDesign, any if not specific
+        year: 2016 or any
     }
 
     render: {
@@ -64,8 +67,33 @@ GET: /search/work
             isFavourite: boolean
         }
         keywords: array of string
+        # when encounter specific keywork
+        additional: {
+            'description': xxx,
+            'link': [xxx, xxx] array,
+            'picture': xxx,
+            'related': [xxx, xxx] word array,
+            'yearRelation': {
+                '2012': xxx, # float, display as a chart
+                '2013': xxx
+                ...
+            },
+            'trackRelation': {
+                'Software': xxx # float
+                ...
+            },
+            'medalRelation': {
+                'gold medal': xxx # float
+                ...
+            },
+            'weightedRelated': [[float(weight), keyword], [,]],
+            'suggestedProject': [[float, projectname]],
+            'suggestedPart': [[float, partname]]
+        }
+
     }
 
+# part searching is in /api/parts above
 GET: /search/part
     parameters: {
         q: string
@@ -89,6 +117,7 @@ GET: /search/part
         }
     }
 
+# assume search_paper.html
 GET: /search/paper
     parameters: {
         q: string
@@ -129,6 +158,7 @@ GET: /work
         }
     }
 
+# assume paper.html
 GET: /paper
     parameters: {
         id: integer,
