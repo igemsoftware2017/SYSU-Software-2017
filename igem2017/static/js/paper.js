@@ -7,8 +7,8 @@ let leftBlank = `2em + ${$('#logo').width()}px`;
 $('#detail-container').css({
     left: `calc(${leftBlank})`
 });
-$('.collection').css({
-    top: $('.reads').position().top + $('.reads').outerHeight() - $('.collection').outerHeight()
+$('.jif').css({
+    top: $('.doi').position().top
 });
 
 $('#right-panel').css({
@@ -16,24 +16,6 @@ $('#right-panel').css({
     top: $('#detail-container').offset().top,
     width: 342,
     height: 406
-});
-
-$(window).scroll( function() {
-    if ($(window).scrollTop() > 100) {
-        $('#nav').css({
-            top: '-100px'
-        });
-        $('#info-bar').css({
-            top: '0px'
-        });
-    } else {
-        $('#nav').css({
-            top: '0px'
-        });
-        $('#info-bar').css({
-            top: '-100px'
-        });
-    }
 });
 
 $('.back').on('click', () => { history.back(); });
