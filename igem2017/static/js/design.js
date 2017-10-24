@@ -4,9 +4,8 @@
 /* global SDinDesign */
 
 let design;
-$.get('/get_circuit_test', (value) => {
-    let data = JSON.parse(value);
-    design = new SDinDesign('#canvas', data, {});
+$.get('/api/get_circuit?id=483', (value) => {
+    design = new SDinDesign('#canvas', value, {});
 });
 
 let fileReader = new FileReader();
