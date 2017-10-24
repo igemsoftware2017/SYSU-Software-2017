@@ -104,7 +104,6 @@ class SDinDesign {
     constructor(canvas, design, option) {
         this._canvas = canvas;
         this.parseOption(option);
-        this._design = design;
         this._canvasPositionX = 0;
         this._canvasPositionY = 0;
         this._size = SDinDesign.zoom(SDinDesign.standardSize, 1);
@@ -114,7 +113,7 @@ class SDinDesign {
         this._jsPlumb = jsPlumb.getInstance();
         this._jsPlumb.ready(() => {
             this._jsPlumb.setContainer($(this._canvas));
-            this.design = this._design;
+            this.design = design;
             this._ready();
             this.readyFired = true;
         });
@@ -136,22 +135,35 @@ class SDinDesign {
 
     get canvas() { return $(this._canvas); }
     get design() {
-        let data = $.extend(true, {}, this._design);
-        delete data.status;
-        $.each(data.parts, (index, part) => { delete part.DOM; });
-        $.each(data.devices, (index, device) => {
-            delete device.DOM;
-            $.each(device.parts, (index, part) => { delete part.DOM; });
-        });
-        $.each(data.lines, (index, line) => { delete line.DOM; });
-        return data;
+        return {
+            lines: this._design.lines,
+            devices: this._design.devices.map((v) => v.parts.map((p) => p.cid)),
+            parts: this._design.devices.reduce((t, v) => t.concat(v.parts), this._design.parts)
+        };
     }
     set design(design) {
         this._jsPlumb.deleteEveryConnection();
         $('.SDinDesign-part, .SDinDesign-device').remove();
-        $.each(design.devices, (_, device) => { this.addDevice(device); });
-        $.each(design.parts, (_, part) => { this.addPart(part, 1, undefined); });
-        $.each(design.lines, (_, link) => { this.addLink(link, false); });
+
+        let tmp = design.parts.reduce((t, p) => { t[p.cid] = p; return t; }, {});
+        $.each(tmp, (_, v) => { v.X = 0; v.Y = 0; });
+        this._design = {
+            lines: design.lines,
+            devices: design.devices.map((v) => ({
+                parts: v.map((i) => {
+                    let t = tmp[i];
+                    delete tmp[i];
+                    return t;
+                }),
+                X: 0,
+                Y: 0
+            })),
+            parts: Object.keys(tmp).map((k) => tmp[k])
+        };
+
+        $.each(this._design.devices, (_, device) => { this.addDevice(device); });
+        $.each(this._design.parts, (_, part) => { this.addPart(part, 1, undefined); });
+        $.each(this._design.lines, (_, link) => { this.addLink(link, false); });
         this.redrawDesign();
     }
 
@@ -165,16 +177,14 @@ class SDinDesign {
         if (this._option.draggable) {
             device.on('click', SDinDesign.preventClickOnDrag(this, device));
             this._jsPlumb.draggable(device, {
-                drag: function() {
-                    device.addClass('dragging');
-                },
-                start: function(event) {
+                drag: () => { device.addClass('dragging'); },
+                start: (event) => {
                     device.data('drag-origin', {
                         x: event.e.pageX,
                         y: event.e.pageY
                     });
                 },
-                stop: function(event) {
+                stop: (event) => {
                     let origin = device.data('drag-origin');
                     data.X += (event.e.pageX - origin.x) / this._size.unit;
                     data.Y += (event.e.pageY - origin.y) / this._size.unit;
@@ -235,7 +245,7 @@ class SDinDesign {
         let part = $('<div></div>')
             .appendTo(device)
             .addClass('SDinDesign-part')
-            .attr('part-id', data.ID)
+            .attr('part-id', data.cid)
             .append(`
                 <div class="ui centered fluid image">
                     <img src="/static/img/design/${data.type}.png"></img>
@@ -276,8 +286,8 @@ class SDinDesign {
     }
 
     addLink(data, isPreview) {
-        let source = $('[part-id=' + data.source + ']');
-        let target = $('[part-id=' + data.target + ']');
+        let source = $('[part-id=' + data.start + ']');
+        let target = $('[part-id=' + data.end + ']');
 
         // Anchors
         let anchors = [
