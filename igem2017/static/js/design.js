@@ -255,6 +255,9 @@ function setPartPanel(id) {
         $('#part-info-name')
             .add(selectedPartHelper.children('b'))
             .text(data.name);
+        selectedPartHelper
+            .children('div')
+            .children('img').attr('src', `/static/img/design/${data.type}.png`);
         $('#part-info-des>p')
             .text(data.description);
     });
@@ -265,7 +268,7 @@ selectedPartHelper
     .prepend('<div></div>').children('div')
     .addClass('ui tiny image')
     .append('<img></img>').children('img')
-    .attr('src', '/static/img/design/RBS.png');
+    .attr('src', '/static/img/design/unknown.png');
 $('#part-info-img')
     .draggable({
         revert: 'invalid',
