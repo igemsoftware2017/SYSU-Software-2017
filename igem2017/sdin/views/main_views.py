@@ -270,7 +270,8 @@ def search_paper(request):
         'DOI': x.DOI,
         'abstract': x.Abstract,
         'JIF': x.JIF,
-        'logo': x.LogoURL} for x in query]
+        'logo': x.LogoURL,
+        'circuitId': x.Circuit.id} for x in query]
     context = {
             'resultsCount': len(papers),
             'papers': papers}

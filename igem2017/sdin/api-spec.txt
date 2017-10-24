@@ -133,6 +133,7 @@ GET: /search/paper
             abstract: string
             JIF: float
             logo: string (url)
+            circuitId: xxx (id)
         }
     }
 
