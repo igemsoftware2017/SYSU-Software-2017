@@ -23,50 +23,34 @@
         <a class="active item">Parts</a>
         <a class="item" href="/search/paper?q={{ request.GET.q }}">Paper</a>
       </div>
-      <div class="line" id="also-try">
-        Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
-      </div>
       <div class="line">
         <code>{{ resultsCount }}</code><span id="result-span">RESULTS</span>
-        <a id="tool">Search Tools<i class="filter icon"></i></a>
-        <div id="tool-popup" class="ui flowing popup transition hidden">
-          <p>Chasis</p>
-          <div class="ui labels">
-            <a class="ui basic label">E.coli</a>
-          </div>
-          <div class="ui divider"></div>
-          <p>Medal</p>
-          <div class="ui labels">
-            <a class="ui basic label">Gold</a>
-            <a class="ui basic label">Silver</a>
-            <a class="ui basic label">Bronze</a>
-            <a class="ui basic label">Best Rewards</a>
-          </div>
-          <div class="ui divider"></div>
-          <p>Track</p>
-          <div class="ui labels">
-            <a class="ui basic label">Health & Medicine</a>
-            <a class="ui basic label">Energy</a>
-            <a class="ui basic label">Environment</a>
-            <a class="ui basic label">Food & Nutrition</a>
-          </div>
-          <div class="ui divider"></div>
-          <div class="ui submit button">Apply</div>
-        </div>
       </div>
       <div id="result-list">
         <div class="ui items">
-          {% for work in works %}
+          {% for part in parts %}
           <div class="link item">
-            <div class="image" style="background-image: url('/{{ work.image }}')"></div>
+            <div class="image">
+              <img src="/static/img/design/{{ part.type }}.png" alt="">
+              <div class="ui divider"></div>
+              <p>{{ part.releaseStatus }}</p>
+              <div class="ui divider"></div>
+              <p>{{ part.sampleStatus }}</p>
+              <div class="ui divider"></div>
+              <p>{{ part.partResult }}</p>
+              <div class="ui divider"></div>
+            </div>
             <div class="content">
-              <a class="ui header" href="/work?id={{ work.id }}">{{ work.year }}-{{ work.projectName }}| <span class="smaller">{{ work.school }}</span></a>
-              <img class="medal" src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
-              <div class="description">
-                <p>{{ work.description }}</p>
+              <a class="ui header" href="/part?id={{ part.id }}">Part: {{ part.name }} | <span class="smaller">{{ part.group }}</span></a>
+              <div class="meta">{{ part.type }}</div>
+              <div class="medal">
+                {{ part.rating }} Registry Star
               </div>
-              <p class="chassis">{{ work.chassis }}</p>
-              <a class="rewards" workid="{{ work.id }}" href="#">Rewards</a>
+              <div class="description">
+                <p>{{ part.description }}</p>
+              </div>
+              <p class="chassis">{{ part.use }}</p>
+              <a class="rewards" workid="{{ work.id }}" href="#">Parameters</a>
               <div workid="{{ work.id }}" class="ui flowing popup transition hidden">
                 <ul class="ui list">
                 {% for reward in work.rewards %}

@@ -78,9 +78,16 @@ body {
   position: relative;
 }
 .ui.items>.item>.image {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  text-align: center;
+}
+.ui.items>.item>.image>img {
+  width: 60px;
+}
+.ui.items>.item>.image>p {
+  margin-bottom: 0;
+}
+.ui.items>.item>.image>divider {
+  margin: 0;
 }
 .ui.items>.item>.content {
   position: relative;
@@ -91,7 +98,7 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  max-width: 593px;
+  max-width: 480px;
   margin-top: 0;
 }
 .ui.items>.item>.content>.ui.header:hover {
@@ -104,7 +111,6 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  width: 34px;
   height: 34px;
 }
 .ui.items>.item>.content>.chassis {
