@@ -30,6 +30,10 @@ div.SDinDesign-subpartDropper {
   stroke: red;
   fill: red;
 }
+.combine-connection>path {
+  stroke: green;
+  fill: green;
+}
 .preview-connection>path {
   stroke-dasharray: 5, 5;
 }

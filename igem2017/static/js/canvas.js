@@ -101,7 +101,7 @@ class SDinDesign {
             this.enableAdd();
     }
 
-    constructor(canvas, design, option) {
+    constructor(canvas, design, option = {}) {
         this._canvas = canvas;
         this.parseOption(option);
         this._canvasPositionX = 0;
@@ -160,6 +160,13 @@ class SDinDesign {
             })),
             parts: Object.keys(tmp).map((k) => tmp[k])
         };
+        $.each(design.combines, (k, v) => {
+            this._design.lines = this._design.lines.concat(v.map((s) => ({
+                start: s,
+                end: k,
+                type: 'combine'
+            })));
+        });
 
         $.each(this._design.devices, (_, device) => { this.addDevice(device); });
         $.each(this._design.parts, (_, part) => { this.addPart(part, 1, undefined); });
@@ -268,7 +275,7 @@ class SDinDesign {
                     drag: function() {
                         part.addClass('dragging');
                     },
-                    stop: function(event) {
+                    stop: (event) => {
                         let origin = part.data('drag-origin');
                         data.X += (event.e.pageX - origin.x) / this._size.unit;
                         data.Y += (event.e.pageY - origin.y) / this._size.unit;
@@ -301,11 +308,11 @@ class SDinDesign {
 
         // Arrow
         let arrowSetting;
-        if (data.type === 'promotion')
+        if (data.type === 'promotion' || data.type === 'combine')
             arrowSetting = ['Arrow', { foldback: 0.01, width: 15, location: 1 }];
         else
             arrowSetting = ['Diamond', { foldback: 1, width: 30, length: 1, location: 1 }];
-        arrowSetting[1].id = `SDinDesign-arrow-${data.source}-${data.target}`;
+        arrowSetting[1].id = `SDinDesign-arrow-${data.type}-${data.start}-${data.end}`;
 
         data.DOM = this._jsPlumb.connect({
             source: source,
