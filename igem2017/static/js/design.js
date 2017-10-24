@@ -4,12 +4,12 @@
 /* global SDinDesign */
 
 let design;
-$.get('/api/get_circuit?id=483', (value) => {
+$.get('/api/get_circuit?id=610', (value) => {
     design = new SDinDesign('#canvas', value, {});
 });
 
 let fileReader = new FileReader();
-fileReader.onload = () => { design.design = fileReader.result; };
+fileReader.onload = () => { design.design = JSON.parse(fileReader.result); };
 
 $('#upload-button')
     .on('click', function() {
@@ -406,6 +406,11 @@ $('#export-button')
         createDownload('design.json', design.design);
     });
 
+$('#save-button')
+    .on('click', function() {
+        
+    });
+
 let currentMode = 'modifyItem';
 const modes = {
     modifyItem: $('#drag-item'),
@@ -461,7 +466,7 @@ $('#connection-dropdown-button')
                     if (newConnectionStep === 'chooseTarget' && newConnectionType !== 'delete') {
                         previewConnection = {
                             source: newConnectionSource,
-                            target: $(this).attr('partID'),
+                            target: $(this).attr('part-id'),
                             type: newConnectionType
                         };
                         design.addLink(previewConnection, true);
@@ -485,11 +490,11 @@ $('#connection-dropdown-button')
                     design.highlightDevice($(this), 0.8);
                     $(this).data('connectionSelected', true);
                     if (newConnectionStep === 'chooseSource') {
-                        newConnectionSource = $(this).attr('partID');
+                        newConnectionSource = $(this).attr('part-id');
                         console.log(`Choose source: ${newConnectionSource}`);
                         newConnectionStep = 'chooseTarget';
                     } else if (newConnectionStep === 'chooseTarget'){
-                        newConnectionTarget = $(this).attr('partID');
+                        newConnectionTarget = $(this).attr('part-id');
                         console.log(`Choose target: ${newConnectionTarget}`);
                         newConnectionStep = 'finished';
                         finishNewConnection();
@@ -507,31 +512,31 @@ $('#connection-dropdown-button')
     .on('deselect', () => {
         $('.SDinDesign-device, #canvas>.SDinDesign-part')
             .off('click')
-            .on('click', SDinDesign.preventClickOnDrag(design, this));
+            .on('click', SDinDesign.preventClickOnDrag(design, $(this)));
         $('.SDinDesign-part')
             .off('mouseenter')
             .off('mouseleave')
             .off('click')
-            .on('click', SDinDesign.preventClickOnDrag(design, this));
+            .on('click', SDinDesign.preventClickOnDrag(design, $(this)));
         design.unHighlightDevice($('.SDinDesign-part, .SDinDesign-device'));
         $('.SDinDesign-part, .SDinDesign-device').data('connectionSelected', false);
     });
 function finishNewConnection() {
     let data = {
-        source: newConnectionSource,
-        target: newConnectionTarget,
+        start: newConnectionSource,
+        end: newConnectionTarget,
         type: newConnectionType
     };
     if (newConnectionType === 'delete') {
         let removingIndex;
-        $.each(design.lines, (index, value) => {
+        $.each(design._design.lines, (index, value) => {
             if (value.source === data.source && value.target === data.target)
                 removingIndex = index;
         });
         design.removeLink(design.lines[removingIndex]);
-        design.lines.splice(removingIndex, 1);
+        design._design.lines.splice(removingIndex, 1);
     } else {
-        design.lines.push(data);
+        design._design.lines.push(data);
         design.addLink(data, false);
     }
     if (previewConnection !== undefined) {

@@ -135,30 +135,41 @@ class SDinDesign {
 
     get canvas() { return $(this._canvas); }
     get design() {
-        return {
+        let data = {
             lines: this._design.lines,
             devices: this._design.devices.map((v) => v.parts.map((p) => p.cid)),
             parts: this._design.devices.reduce((t, v) => t.concat(v.parts), this._design.parts)
         };
+        $.each(data.lines, (_, l) => { delete l.DOM; });
+        $.each(data.parts, (_, p) => { delete p.DOM; });
+        return data;
     }
     set design(design) {
         this._jsPlumb.deleteEveryConnection();
         $('.SDinDesign-part, .SDinDesign-device').remove();
 
+        console.log(design);
         let tmp = design.parts.reduce((t, p) => { t[p.cid] = p; return t; }, {});
-        $.each(tmp, (_, v) => { v.X = 0; v.Y = 0; });
+        $.each(tmp, (_, v) => {
+            if (v.X === undefined)
+                v.X = 0;
+            if (v.Y === undefined)
+                v.Y = 0;
+        });
         this._design = {
             lines: design.lines,
             devices: design.devices.map((v) => ({
                 parts: v.map((i) => {
-                    let t = tmp[i];
-                    delete tmp[i];
+                    let t = $.extend(true, {}, tmp[i]);
+                    tmp[i].wa = true;
                     return t;
                 }),
                 X: 0,
                 Y: 0
             })),
-            parts: Object.keys(tmp).map((k) => tmp[k])
+            parts: Object.keys(tmp).map((k) => 
+                tmp[k].wa ? undefined : tmp[k]
+            ).filter((k) => k !== undefined)
         };
         $.each(design.combines, (k, v) => {
             this._design.lines = this._design.lines.concat(v.map((s) => ({
@@ -167,6 +178,7 @@ class SDinDesign {
                 type: 'combine'
             })));
         });
+        console.log(this._design);
 
         $.each(this._design.devices, (_, device) => { this.addDevice(device); });
         $.each(this._design.parts, (_, part) => { this.addPart(part, 1, undefined); });
@@ -314,15 +326,17 @@ class SDinDesign {
             arrowSetting = ['Diamond', { foldback: 1, width: 30, length: 1, location: 1 }];
         arrowSetting[1].id = `SDinDesign-arrow-${data.type}-${data.start}-${data.end}`;
 
-        data.DOM = this._jsPlumb.connect({
-            source: source,
-            target: target,
-            anchors: anchors,
-            endpoint: 'Blank',
-            cssClass: `SDinDesign-connection ${data.type}-connection ${isPreview ? 'preview-connection' : ''}`,
-            overlays: [arrowSetting],
-            connector: 'Flowchart'
-        });
+        for (let s of source)
+            for (let t of target)
+                data.DOM = this._jsPlumb.connect({
+                    source: s,
+                    target: t,
+                    anchors: anchors,
+                    endpoint: 'Blank',
+                    cssClass: `SDinDesign-connection ${data.type}-connection ${isPreview ? 'preview-connection' : ''}`,
+                    overlays: [arrowSetting],
+                    connector: 'Flowchart'
+                });
     }
     removeLink(data) {
         if (data.DOM !== undefined) {
