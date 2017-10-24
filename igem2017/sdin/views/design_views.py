@@ -183,10 +183,10 @@ def part(request):
                 'type': part.Type}
             sub_query = SubParts.objects.filter(parent = part)
             part_dict['subparts'] = [{
-                'id': x.id,
-                'name': x.Name,
-                'description': x.Description,
-                'type': x.Type} for x in sub_query]
+                'id': x.child.id,
+                'name': x.child.Name,
+                'description': x.child.Description,
+                'type': x.child.Type} for x in sub_query]
 
             part_dict['success'] = True
             return JsonResponse(part_dict)

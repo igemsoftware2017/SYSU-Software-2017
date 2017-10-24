@@ -93,6 +93,7 @@ class Papers(models.Model):
     Keywords = models.TextField(default = "To be add")
     Authors = models.TextField(default = "To be add")
     ReadCount = models.IntegerField(default = 0)
+    Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE, null = True)
 
     def __str__(self):
         return "%s : %s" % str(self.DOI), self.Title
