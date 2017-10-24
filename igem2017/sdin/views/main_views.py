@@ -318,4 +318,4 @@ def search_part(request):
     context = {
             'resultsCount': len(parts),
             'parts': parts}
-    render(request, 'search_part.html', context)
+    return render(request, 'search/part.html', context)
