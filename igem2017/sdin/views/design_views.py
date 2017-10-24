@@ -225,12 +225,12 @@ def get_circuit(request):
     try:
         query_id = request.GET.get('id')
         parts_query = CircuitParts.objects.filter(Circuit = query_id)
-        parts = [{'id': x.Part.id, 'cid': x.id, 'Name': x.Part.Name,
-            'Description': x.Part.Description, 'Type': x.Part.Type,
+        parts = [{'id': x.Part.id, 'cid': x.id, 'name': x.Part.Name,
+            'description': x.Part.Description, 'type': x.Part.Type,
             'X': x.X, 'Y': x.Y} for x in parts_query]
         line_query = CircuitLines.objects.filter(Start__Circuit = query_id, \
                 End__Circuit = query_id)
-        lines = [{'Start': x.Start.id, 'End': x.End.id, 'Type': x.Type} \
+        lines = [{'start': x.Start.id, 'end': x.End.id, 'type': x.Type} \
                 for x in line_query]
         devices_query = CircuitDevices.objects.filter(Circuit = query_id)
         devices = [[i.id for i in x.Subparts.all()] for x in devices_query]
