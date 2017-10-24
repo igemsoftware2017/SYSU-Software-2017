@@ -381,38 +381,75 @@ def load_papers(folderpath):
     atomic_save(papers)
     print('Error: {0:6d}'.format(errors))
 
-def load_circuits(circuits_floder_path):
-    Circuit.objects.all().delete()
-    print("Delete all circuits")
+def load_circuits(circuits_floder_path, is_work = True):
+    if is_work:
+        Circuit.objects.all().delete()
+        print("Delete all circuits")
 
     for root, dirs, files in os.walk(circuits_floder_path):
         for name in files:
             try:
                 f = xlrd.open_workbook(os.path.join(root, name))
                 for sheet in f.sheets():
+                    if is_work:
+                        try:
+                            teamID = int(sheet.cell(1, 0).value)
+                        except:
+                            print(sheet.name)
+                        teamName = sheet.cell(1, 1).value
 
-                    try:
-                        teamID = int(sheet.cell(1, 0).value)
-                    except:
-                        print(sheet.name)
-                    teamName = sheet.cell(1, 1).value
+                        try:
+                            team = Works.objects.get(TeamID = teamID)
+                        except Works.DoesNotExist:
+                            print(teamName + ' ID:' + str(teamID) + ' Not found!')
+                            continue
+                        try:
+                            circuit = Circuit.objects.create(Name = teamName + str(teamID), Description = "")
+                        except:
+                            circuit = Circuit.objects.get(Name = teamName + str(teamID))
+                    else:
+                        DOI = sheet.cell(1, 0).value
+                        try:
+                            team = Papers.objects.get(DOI = DOI)
+                        except Papers.DoesNotExist:
+                            print(DOI + ' Not found!')
+                        try:
+                            circuit = Circuit.objects.create(Name = DOI, Description = "")
+                        except:
+                            circuit = Circuit.objects.get(Name = DOI)
 
-                    try:
-                        team = Works.objects.get(TeamID = teamID)
-                    except Works.DoesNotExist:
-                        print(teamName + ' ID:' + str(teamID) + ' Not found!')
-                        continue
 
-                    try:
-                        circuit = Circuit.objects.create(Name = teamName + str(teamID), Description = "")
-                    except:
-                        circuit = Circuit.objects.get(Name = teamName + str(teamID))
+                    
                     team.Circuit = circuit
                     team.save()
 
-                    cids = {}                    
+                    cids = {}
                     for i in range(0, sheet.nrows):
-                        if 'b' in name:
+                        if not is_work:
+                            if sheet.cell(i, 0).value == 'parts and others':
+                                row = i + 2
+                                while isinstance(sheet.cell(row, 0).value, float):
+                                    try:
+                                        p = Parts.objects.get(Name = sheet.cell(row, 1).value)
+                                    except:
+                                        p = Parts.objects.create(
+                                                Name = sheet.cell(row, 1).value,
+                                                Type = sheet.cell(row, 2).value)
+                                    try:
+                                        cp = CircuitParts.objects.create(
+                                                Part = p,
+                                                Circuit = circuit,
+                                                X = sheet.cell(row, 3).value,
+                                                Y = sheet.cell(row, 4).value if sheet.cell(row, 5).value != "" else 0)
+                                    except:
+                                        traceback.print_exc()
+                                        print(name)
+                                        print(sheet.name)
+                                    cids[int(sheet.cell(row, 0).value)] = cp
+                                    
+                                    row += 1
+
+                        elif 'b' in name:
                             if sheet.cell(i, 0).value == 'parts and others':
                                 row = i + 2
                                 while isinstance(sheet.cell(row, 0).value, float):
@@ -437,9 +474,7 @@ def load_circuits(circuits_floder_path):
                                     row += 1
                         else:
                             if sheet.cell(i, 0).value == 'parts and other':
-                                
                                 row = i + 2
-
                                 while isinstance(sheet.cell(row, 0).value, float):
                                     try:
                                         p = Parts.objects.get(Name = sheet.cell(row, 1).value)
@@ -458,7 +493,6 @@ def load_circuits(circuits_floder_path):
                                         print(name)
                                         print(sheet.name)
                                     cids[int(sheet.cell(row, 0).value)] = cp
-
                                     row += 1
 
                         if sheet.cell(i, 0).value == 'devices':
@@ -466,7 +500,10 @@ def load_circuits(circuits_floder_path):
                             while isinstance(sheet.cell(row, 0).value, float):
                                 cd = CircuitDevices.objects.create(
                                         Circuit = circuit)
-                                s = sheet.cell(row, 1).value.split(',')
+                                try:
+                                    s = sheet.cell(row, 1).value.split(',')
+                                except:
+                                    s = [sheet.cell(row, 1).value]
                                 for x in s:
                                     if x != '':
                                         try:
@@ -477,7 +514,7 @@ def load_circuits(circuits_floder_path):
                                 row += 1
                         if sheet.cell(i, 0).value == "promotion":
                             row = i + 1
-                            while isinstance(sheet.cell(row, 0).value, float):
+                            while row < sheet.nrows and isinstance(sheet.cell(row, 0).value, float):
                                 try:
                                     s = int(sheet.cell(row, 0).value)
                                     e = sheet.cell(row, 1).value
@@ -499,7 +536,7 @@ def load_circuits(circuits_floder_path):
                                 row += 1
                         if sheet.cell(i, 0).value == "inhibition":
                             row = i + 1
-                            while isinstance(sheet.cell(row, 0).value, float):
+                            while row < sheet.nrows and isinstance(sheet.cell(row, 0).value, float):
                                 try:
                                     s = int(sheet.cell(row, 0).value)
                                     e = sheet.cell(row, 1).value
@@ -520,11 +557,36 @@ def load_circuits(circuits_floder_path):
                                     pass
                                 row += 1
 
+                        if sheet.cell(i, 0).value == "combine":
+                            row = i + 1
+                            while row < sheet.nrows and isinstance(sheet.cell(row, 0).value, float):
+                                try:
+                                    comb = []
+                                    j = 0
+                                    while j < sheet.ncols and isinstance(sheet.cell(row, j).value, float):
+                                        comb.append(int(sheet.cell(row, j).value))
+                                        j += 1
+                                    if len(comb) >= 2:
+                                        cc = CircuitCombines.objects.create(
+                                                Circuit = circuit,
+                                                Father = cids[comb[-1]])
+                                        for k in comb[0: -1]:
+                                            cc.Sons.add(cids[k])
+                                        cc.save()
+                                    row += 1
+                                except KeyError:
+                                    pass
+                                except:
+                                    traceback.print_exc()
+                                    print(name)
+                                    print(sheet.name)
+                                row += 1
+
 
             except UnicodeDecodeError:
-                pass
+                traceback.print_exc()
             except IndexError:
-                pass
+                traceback.print_exc()
             except ValueError:
                 traceback.print_exc()
                 print(name)
@@ -675,9 +737,10 @@ def load_additional(path):
 
 
 def pre_load_data(currentpath, Imgpath):
-   load_parts(os.path.join(currentpath, 'parts'))
-   load_partsInteration(os.path.join(currentpath, 'partsinteract'))
-   load_works(os.path.join(currentpath, 'works'))
-   load_papers(os.path.join(currentpath, 'papers'))
-   load_circuits(os.path.join(currentpath, 'works/circuits'))
-   load_additional(os.path.join(currentpath, 'additional'))
+    load_parts(os.path.join(currentpath, 'parts'))
+    load_partsInteration(os.path.join(currentpath, 'partsinteract'))
+    load_works(os.path.join(currentpath, 'works'))
+    load_papers(os.path.join(currentpath, 'papers'))
+    load_circuits(os.path.join(currentpath, 'works/circuits'))
+    load_circuits(os.path.join(currentpath, 'papers/circuits'), is_work = False)
+    load_additional(os.path.join(currentpath, 'additional'))
