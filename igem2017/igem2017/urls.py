@@ -46,6 +46,9 @@ urlpatterns = [
     url(r'api/get_circuit$', design_views.get_circuit),
     url(r'api/get_saves$', design_views.get_saves),
     url(r'api/save_circuit$', design_views.save_circuit),
+    url(r'api/interact$', design_views.interact),
+    url(r'api/simulation$', design_views.simulation),
+
 ] + \
 [
     # Test urls
