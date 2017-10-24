@@ -125,7 +125,8 @@ def work(request):
             'isFavourite': favorite,
             'images': Img,
             'designId': -1 if wk.Circuit is None else wk.Circuit.id,
-            'part': part}
+            'part': part,
+            'logo': wk.logo}
 
         return render(request, 'work.html', context)
 
@@ -133,7 +134,7 @@ def work(request):
         return HttpResponse("Work Does Not Exist!")
 
 # TODO
-search_url = 'http://sdin.sysusoftware.info:10086'
+search_url = 'http://6f24fb18.ngrok.io'
 import requests
 import json
 
@@ -162,19 +163,21 @@ def search_work(request):
     track = request.GET.get('track')
 
     # TODO For test, ugly, will be changed later
-    keyword_query = Keyword.objects.filter(name__contains = key)
-    if keyword_query.count() > 0:
-        x = keyword_query[0]
-        key_dict = x.__dict__
-    else:
-        key_dict = {}
-
+    keys = key.split()
+    key_dict = {}
+    for i in keys:
+        keyword_query = Keyword.objects.filter(name__contains = i)
+        if keyword_query.count() > 0:
+            x = keyword_query[0]
+            key_dict = x.__dict__
+            break
+    
     res = requests.get(search_url + "?key=" + key)
     result = json.loads(res.text)
     parts = []
     works = []
     keywords = []
-    if result != 'Invalid Input!':
+    if type(result) is dict:
         for item in result['parts']:
             try:
                 p = Parts.objects.get(Name = item)
@@ -240,7 +243,8 @@ def search_work(request):
                     'description': w.SimpleDescription[:200],
                     'chassis': w.Chassis,
                     'rewards': awards,
-                    'isFavourite': favourite})
+                    'isFavourite': favourite,
+                    'logo': w.logo})
             except Works.DoesNotExist:
                 works.append({
                     'id': -1,
@@ -249,9 +253,7 @@ def search_work(request):
                     isFavourite: False})
 
             keywords = result['keyWords']
-    else:
-        return HttpResponse(result)
-
+    
     context = {
         'works': works,
         'parts': parts,

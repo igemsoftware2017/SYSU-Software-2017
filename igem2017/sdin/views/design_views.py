@@ -6,6 +6,8 @@ import json
 from django.http import HttpResponse, JsonResponse
 from sdin.models import *
 
+from sdin.tools.biode import CIR2ODE as cir2
+
 from django.contrib.auth.decorators import login_required
 
 from django.core.exceptions import ObjectDoesNotExist
@@ -147,7 +149,6 @@ def part(request):
                     'type': xxx
                 }
             ]
-
         }
     '''
     if request.method == 'POST':
@@ -194,6 +195,41 @@ def part(request):
             raise
             return JsonResponse({ 'success': False })
 
+def interact(request):
+    '''
+    GET /api/interact?id=xxx:
+    return json:
+        parts:[{
+            'id': xxx,
+            'name': xxx,
+            'type': xxx,
+            'description': xxx,
+            'interactType': xxx,
+            'score': xxx
+        },...]
+    '''
+    try:
+        query_id = request.GET.get('id')
+        part = Parts.objects.get(pk = query_id)
+        query = PartsInteract.objects.filter(parent = part)
+        parts = [
+            {
+                'id': x.child.id,
+                'name': x.child.Name,
+                'type': x.child.Type,
+                'description': x.child.Description,
+                'interactType': x.InteractType,
+                'score': x.Score
+            } for x in query]
+        
+        return JsonResponse({
+                'parts': parts
+            })
+    except:
+        raise
+        return JsonResponse({ 'success': False })
+
+
 # Circuit related views
 
 def get_circuit(request):
@@ -216,7 +252,11 @@ def get_circuit(request):
             'Type': xxx, # connection type}
         ],
         devices: [
-            [xx, xx, xx], # cid
+            {
+                'subparts': [xx, xx, xx], # cid
+                'x': xxx,
+                'y': xxx
+            }
         ],
         combines: {
             x: [x, x, x], # combines dict, x is cid
@@ -233,7 +273,10 @@ def get_circuit(request):
         lines = [{'start': x.Start.id, 'end': x.End.id, 'type': x.Type} \
                 for x in line_query]
         devices_query = CircuitDevices.objects.filter(Circuit = query_id)
-        devices = [[i.id for i in x.Subparts.all()] for x in devices_query]
+        devices = [{
+            'subparts': [i.id for i in x.Subparts.all()],
+            'x':x.X,
+            'y':x.Y} for x in devices_query]
         combines_query = CircuitCombines.objects.filter(Circuit = query_id)
         combines = {x.Father.id: [i.id for i in x.Sons.all()] for x in combines_query}
         return JsonResponse({
@@ -288,7 +331,11 @@ def save_circuit(request):
             'Type': xxx
         }],
         devices: [
-            [xx, xx, xx], # cids of parts
+            {
+                'subparts': [xx, xx, xx], # cid
+                'x': xxx,
+                'y': xxx
+            }
         ],
         combines: {
             x: [x, x, x] # see above api
@@ -340,8 +387,10 @@ def save_circuit(request):
                         Type = x['Type'])
             for x in data['devices']:
                 cd = CircuitDevices.objects.create(Circuit = circuit)
-                for i in x:
+                for i in x['subparts']:
                     cd.Subparts.add(cids[i])
+                cd.X = x['x']
+                cd.Y = x['y']
                 cd.save()
             for x in data['combines']:
                 cd = CircuitCombines.objects.create(Circuit = circuit, Father = x)
@@ -357,3 +406,26 @@ def save_circuit(request):
     else:
         return JsonResponse({
             'status': 0})
+
+
+import numpy as np
+
+def simulation(request):
+    '''
+    POST /api/simulation
+    param:
+        n * n list
+    return:
+        time: [] a list of time stamp of length m
+        result: m * n list, result[m][n] means at time m, the concentration of
+            n th material
+    '''
+    if request.method == 'POST':
+        data = json.loads(request.POST['data'])
+        time, result = cir2(data, np.ones(len(data), len(data)))
+        return JsonResponse({
+            'status': 1,
+            'time': time,
+            'result': result
+        })
+    return 0
