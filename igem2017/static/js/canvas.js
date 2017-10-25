@@ -404,6 +404,14 @@ class SDinDesign {
         this.redrawDesign();
     }
 
+    clearAll() {
+        this.design = {
+            lines: [],
+            parts: [],
+            devices: []
+        };
+    }
+
     enableZoom() {
         // Alt + wheel zomming
         let that = this;

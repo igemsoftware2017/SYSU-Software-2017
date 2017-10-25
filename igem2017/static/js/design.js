@@ -631,6 +631,11 @@ $('#interactive-button')
         design.unHighlightDevice($('.SDinDesign-part, .SDinDesign-device'));
     });
 
+$('#clear-all-button')
+    .on('click', () => { $('.ui.basic.modal').modal('show'); });
+$('#real-clear-all-button')
+    .on('click', () => { design.clearAll(); });
+
 $(window)
     .on('keydown', (event) => { if (event.ctrlKey === true) selectMode('dragCanvas'); })
     .on('keyup', () => { selectMode('modifyItem'); });

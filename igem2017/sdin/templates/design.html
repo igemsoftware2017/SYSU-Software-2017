@@ -263,6 +263,27 @@
       </div>
     </div>
 
+    <!-- Clear all modal -->
+    <div class="ui basic modal">
+      <div class="ui icon header">
+        <i class="trash icon"></i>
+        Clear canvas
+      </div>
+      <div class="content">
+        <p>This will <b>REMOVE ALL ITEMS</b> in the canvas, click Yes below to confirm.</p>
+      </div>
+      <div class="actions">
+        <div class="ui red basic cancel inverted button">
+          <i class="remove icon"></i>
+          No
+        </div>
+        <div class="ui green ok inverted button" id="real-clear-all-button">
+          <i class="checkmark icon"></i>
+          Yes
+        </div>
+      </div>
+    </div>
+
     {% include "login-modal.html" %}
   </body>
   <script src="/static/js/jquery.min.js"></script>
