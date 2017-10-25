@@ -40,8 +40,8 @@ class SDinDesign {
             'RBS',
             'promoter',
             'terminator',
-            'chemical substance',
             'material',
+            'light',
             'protein',
             'process',
             'RNA',
@@ -57,6 +57,35 @@ class SDinDesign {
             'measurement',
             'unknown'
         ];
+    }
+    static isGene(part) {
+        return $.inArray(part, [
+            'CDS',
+            'RBS',
+            'promoter',
+            'terminator',
+            'other_DNA',
+            'composite',
+            'generator',
+            'reporter',
+            'inverter',
+            'signalling',
+            'measurement'
+        ]) !== -1;
+    }
+    static isMaterial(part) {
+        return $.inArray(part, [
+            'material',
+            'light',
+            'protein',
+            'RNA',
+            'protein-m',
+            'protein-l',
+            'complex',
+            'unknown',
+
+            'CDS' // kind of workaround
+        ]) !== -1;
     }
     static get standardSize() {
         return {
@@ -172,12 +201,11 @@ class SDinDesign {
         };
         $.each(design.combines, (k, v) => {
             this._design.lines = this._design.lines.concat(v.map((s) => ({
-                start: s,
-                end: k,
+                start: parseInt(s, 10),
+                end: parseInt(k, 10),
                 type: 'combine'
             })));
         });
-        console.log(this._design);
 
         $.each(this._design.devices, (_, device) => { this.addDevice(device); });
         $.each(this._design.parts, (_, part) => { this.addPart(part, 1, undefined); });
@@ -397,6 +425,8 @@ class SDinDesign {
     insertPart(device, data, position) {
         device.parts.splice(position, 0, data);
         this.addPart(data, position, device.DOM);
+        // TODO:
+        //   Subpart dropper unfixed!!!!!
         // Re-index all parts in device
         $.each(device.parts, (index, part) => {
             part.DOM.data('index', index);
@@ -404,12 +434,59 @@ class SDinDesign {
         this.redrawDesign();
     }
 
+
     clearAll() {
         this.design = {
             lines: [],
             parts: [],
             devices: []
         };
+    }
+
+    generate(p1, p2) {
+        // return if p1(promoter) generates p2(material)
+        if (p1.type !== 'promoter' || SDinDesign.isMaterial(p2) !== true)
+            return false;
+        this._design.device.forEach((dev) => {
+            let pro = dev.parts.findIndex((v) => v.cid === p1);
+            if (pro === -1)
+                return;
+            let pro2 = dev.parts.findIndex((v, i) => v.type === 'promoter' && i > pro);
+            if (pro2 === -1)
+                pro2 = dev.parts.length;
+        });
+    }
+
+    get matrix() {
+        let parts = this._design.devices.reduce((t, v) => t.concat(v.parts), this._design.parts);
+        parts = parts.filter((p) => SDinDesign.isMaterial(p.type));
+        let partDic = parts.reduce((t, v) => { t[v.cid] = v; return t; }, {});
+        parts.forEach((v, i) => { partDic[v.cid].index = i; });
+        let n = parts.length;
+        let res = Array(n).fill(0).map(() => Array(n).fill(0));
+        this._design.lines.forEach((v, i) => {
+            // Direct communication
+            if (partDic[v.start] !== undefined && partDic[v.end] !== undefined) {
+                if (v.type === 'promotion')
+                    res[partDic[v.start].index][partDic[v.end].index] = 1;
+                else if (v.type === 'inhibition')
+                    res[partDic[v.start].index][partDic[v.end].index] = -1;
+                return;
+            }
+
+            // promote/inhibit promoter
+
+            // CDS
+
+        });
+        let postData = {
+            data: JSON.stringify(res),
+            csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+        };
+        $.post('/api/simulation', postData, (v) => {
+            console.log(v);
+        });
+        return res;
     }
 
     enableZoom() {
