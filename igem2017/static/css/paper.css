@@ -39,16 +39,19 @@ body {
 }
 #detail-container>.back-icon {
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 36px;
+  color: #6b6969;
+  line-height: 60px;
+  vertical-align: middle;
 }
 #detail-container>.back {
   margin-left: 38px;
   font-size: 25px;
   color: #6b6969;
-  margin-top: 17.5px;
-  margin-bottom: 17.5px;
   cursor: pointer;
+  line-height: 60px;
+  vertical-align: middle;
 }
 #detail-container>.title {
   margin-left: 38px;

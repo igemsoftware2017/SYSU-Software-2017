@@ -12,19 +12,13 @@
   </head>
   <body>
     {% include "nav.html" %}
-    <div class="ui fixed inverted menu" id="info-bar">
-      <div class="ui container">
-        <span class="item"><h4 class="ui inverted header">Project name:</h4>{{ projectName }}</span>
-        <span class="item"><h4 class="ui inverted header">Team:</h4>{{ teamName }}</span>
-        <span class="item"><h4 class="ui inverted header">Year:</h4>{{ year }}</span>
-      </div>
-    </div>
 
     {% include 'search-box.html' %}
     <link rel="stylesheet" href="/static/css/search-box.css">
 
     <div id="detail-container">
       <div class="back-icon">
+        <i class="chevron left icon"></i>
       </div>
       <div class="back">
         back
