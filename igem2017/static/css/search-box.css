@@ -1,15 +1,15 @@
 #search-box-container {
-  margin-left: 2em;
-  margin-top: 5em;
+  margin-left: 2rem;
+  margin-top: 5rem;
   position: relative;
   z-index: 1;
 }
 #logo {
-  width: 130px;
+  width: 6.5rem;
   position: absolute;
 }
 #search-box {
-  width: 876px;
+  width: 44rem;
   position: absolute;
 }
 #search-edit  {
