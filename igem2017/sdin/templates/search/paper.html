@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Search result - S-Din</title>
+
+    <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
+    <link rel="stylesheet" href="/static/semantic/dist/components/menu.min.css">
+    <link rel="stylesheet" href="/static/semantic/dist/components/popup.min.css">
+    <link rel="stylesheet" href="/static/css/search/paper.css">
+  </head>
+  <body>
+    {% include '../nav.html' %}
+
+    {% include '../search-box.html' %}
+    <link rel="stylesheet" href="/static/css/search-box.css">
+
+    <div id="result-container">
+      <div id="search-type-menu" class="ui secondary pointing inverted menu">
+        <a class="item" href="/search/work?q={{ request.GET.q }}">Project</a>
+        <a class="item" href="/search/part?q={{ request.GET.q }}">Parts</a>
+        <a class="active item">Paper</a>
+      </div>
+      <div class="line" id="also-try">
+        Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
+      </div>
+      <div class="line">
+        <code>{{ resultsCount }}</code><span id="result-span">RESULTS</span>
+      </div>
+      <div id="result-list">
+        <div class="ui link items">
+          {% for paper in papers %}
+          <div class="item">
+            <div class="image" style="background-image: url('{{ paper.logo }}')"></div>
+            <div class="content">
+              <a class="ui header" href="/paper?id={{ paper.id }}">{{ paper.title }}</a>
+              <div class="meta">{{ paper.author }}</div>
+              <div class="description">
+                <p>{{ paper.abstract }}</p>
+              </div>
+              <p class="chassis">JIF: {{ paper.JIF }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div id="right-panel">
+    </div>
+  </body>
+
+  {% include "../login-modal.html" %}
+
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/semantic/dist/semantic.js"></script>
+  <script src="/static/semantic/dist/components/popup.min.js"></script>
+  <script src="/static/js/search-box.js"></script>
+  <script src="/static/js/search/paper.js"></script>
+  <script src="/static/js/login.js"></script>
+</html>

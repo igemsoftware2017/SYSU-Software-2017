@@ -3,7 +3,12 @@ igem2017/static/semantic/* linguist-vendored
 igem2017/static/js/jquery.min.js linguist-vendored
 igem2017/static/js/jquery.mousewheel.min.js linguist-vendored
 igem2017/static/js/jsplumb.js linguist-vendored
+igem2017/static/js/Chart.min.js linguist-vendored
+igem2017/static/js/html2canvas.js linguist-vendored
 igem2017/static/js/jquery-ui/* linguist-vendored
+
+# Treat import data as vendored
+igem2017/sdin/tools/preload/* linguist-vendored
 
 # Don't diff csv file
 *.csv -diff

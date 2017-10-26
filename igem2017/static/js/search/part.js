@@ -33,16 +33,6 @@ $('.labels>.label')
             $(this).removeClass('label').addClass('basic label');
     });
 
-$('#search-type-menu')
-    .on('click', '.item', function() {
-        if(!$(this).hasClass('dropdown')) {
-            $(this)
-                .addClass('active')
-                .siblings('.item')
-                .removeClass('active');
-        }
-    });
-
 $('.ui.text.menu')
     .on('click', '.item', function() {
         let i = $(this).children('i');

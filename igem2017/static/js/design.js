@@ -4,13 +4,12 @@
 /* global SDinDesign */
 
 let design;
-$.get('/get_circuit_test', (value) => {
-    let data = JSON.parse(value);
-    design = new SDinDesign('#canvas', data, {});
+$.get('/api/get_circuit?id=777', (value) => {
+    design = new SDinDesign('#canvas', value, {});
 });
 
 let fileReader = new FileReader();
-fileReader.onload = () => { design.design = fileReader.result; };
+fileReader.onload = () => { design.design = JSON.parse(fileReader.result); };
 
 $('#upload-button')
     .on('click', function() {
@@ -255,6 +254,9 @@ function setPartPanel(id) {
         $('#part-info-name')
             .add(selectedPartHelper.children('b'))
             .text(data.name);
+        selectedPartHelper
+            .children('div')
+            .children('img').attr('src', `/static/img/design/${data.type}.png`);
         $('#part-info-des>p')
             .text(data.description);
     });
@@ -265,14 +267,14 @@ selectedPartHelper
     .prepend('<div></div>').children('div')
     .addClass('ui tiny image')
     .append('<img></img>').children('img')
-    .attr('src', '/static/img/design/RBS.png');
+    .attr('src', '/static/img/design/unknown.png');
 $('#part-info-img')
     .draggable({
         revert: 'invalid',
         revertDuration: 200,
         helper: () => selectedPartHelper,
-        start: () => { $('.subpart-dropper').css({ backgroundColor: 'rgba(255, 0, 0, 0.1)' }); },
-        stop: () => { $('.subpart-dropper').css({ backgroundColor: '' }); }
+        start: () => { $('.SDinDesign-subpartDropper').css({ backgroundColor: 'rgba(255, 0, 0, 0.1)' }); },
+        stop: () => { $('.SDinDesign-subpartDropper').css({ backgroundColor: '' }); }
     })
     .draggable('disable');
 $('#part-panel-dropper')
@@ -308,33 +310,7 @@ $('#part-panel')
             });
         }
     });
-$(this._canvas)
-    .droppable({
-        accept: '#part-info-img',
-        greedy: true,
-        over: function() {
-            $(this).css({
-                backgroundColor: 'rgba(0, 0, 255, 0.1)'
-            });
-        },
-        out: function() {
-            $(this).css({ backgroundColor: '' });
-        },
-        drop: function(event) {
-            $(this).css({ backgroundColor: '' });
-            let newDevice = {
-                X: event.offsetX / design.ratio - design.canvasPositionX,
-                Y: event.offsetY / design.ratio - design.canvasPositionY,
-                parts: []
-            };
-            let partData = $.extend(true, {}, selectedPart);
-            partData.ID = design.nextPartId;
-            newDevice.parts.push(partData);
-            design.devices[Object.keys(design.devices).length] = newDevice;
-            design.addDevice(newDevice);
-            design.redrawDesign();
-        }
-    });
+
 
 // Favourite window
 $('#fav-win')
@@ -430,13 +406,16 @@ $('#export-button')
         createDownload('design.json', design.design);
     });
 
-let canvasDragging = false;
-let canvasDragOrigin;
+$('#save-button')
+    .on('click', function() {
+    });
+
 let currentMode = 'modifyItem';
 const modes = {
     modifyItem: $('#drag-item'),
     dragCanvas: $('#drag-canvas'),
-    addConnection: $('#connection-dropdown-button')
+    addConnection: $('#connection-dropdown-button'),
+    chooseInteractive: $('#interactive-button')
 };
 let newConnectionType, newConnectionStep;
 let newConnectionSource, newConnectionTarget;
@@ -486,8 +465,8 @@ $('#connection-dropdown-button')
                     design.highlightDevice($(this), 0.4);
                     if (newConnectionStep === 'chooseTarget' && newConnectionType !== 'delete') {
                         previewConnection = {
-                            source: newConnectionSource,
-                            target: $(this).attr('partID'),
+                            start: newConnectionSource,
+                            end: $(this).attr('part-cid'),
                             type: newConnectionType
                         };
                         design.addLink(previewConnection, true);
@@ -511,12 +490,12 @@ $('#connection-dropdown-button')
                     design.highlightDevice($(this), 0.8);
                     $(this).data('connectionSelected', true);
                     if (newConnectionStep === 'chooseSource') {
-                        newConnectionSource = $(this).attr('partID');
-                        console.log(`Choose source: ${newConnectionSource}`);
+                        newConnectionSource = $(this).attr('part-cid');
+                        console.log(`Choose start: ${newConnectionSource}`);
                         newConnectionStep = 'chooseTarget';
                     } else if (newConnectionStep === 'chooseTarget'){
-                        newConnectionTarget = $(this).attr('partID');
-                        console.log(`Choose target: ${newConnectionTarget}`);
+                        newConnectionTarget = $(this).attr('part-cid');
+                        console.log(`Choose end: ${newConnectionTarget}`);
                         newConnectionStep = 'finished';
                         finishNewConnection();
                     }
@@ -533,31 +512,32 @@ $('#connection-dropdown-button')
     .on('deselect', () => {
         $('.SDinDesign-device, #canvas>.SDinDesign-part')
             .off('click')
-            .on('click', SDinDesign.preventClickOnDrag(design, this));
-        $('.SDinDesign-part')
+            .on('click', function() {
+                SDinDesign.preventClickOnDrag(design, $(this));
+            });
+        $('.SDinDesign-device>.SDinDesign-part')
             .off('mouseenter')
             .off('mouseleave')
-            .off('click')
-            .on('click', SDinDesign.preventClickOnDrag(design, this));
+            .off('click');
         design.unHighlightDevice($('.SDinDesign-part, .SDinDesign-device'));
         $('.SDinDesign-part, .SDinDesign-device').data('connectionSelected', false);
     });
 function finishNewConnection() {
     let data = {
-        source: newConnectionSource,
-        target: newConnectionTarget,
+        start: parseInt(newConnectionSource, 10),
+        end: parseInt(newConnectionTarget),
         type: newConnectionType
     };
     if (newConnectionType === 'delete') {
         let removingIndex;
-        $.each(design.lines, (index, value) => {
-            if (value.source === data.source && value.target === data.target)
+        $.each(design._design.lines, (index, value) => {
+            if (value.start === data.start && value.end === data.end)
                 removingIndex = index;
         });
-        design.removeLink(design.lines[removingIndex]);
-        design.lines.splice(removingIndex, 1);
+        design.removeLink(design._design.lines[removingIndex]);
+        design._design.lines.splice(removingIndex, 1);
     } else {
-        design.lines.push(data);
+        design._design.lines.push(data);
         design.addLink(data, false);
     }
     if (previewConnection !== undefined) {
@@ -567,6 +547,94 @@ function finishNewConnection() {
     design.redrawDesign();
     selectMode('modifyItem');
 }
+let currentPopupId;
+$('#interactive-button')
+    .on('click', () => { selectMode('chooseInteractive'); })
+    .on('select', () => {
+        design.unHighlightDevice($('.SDinDesign-device, .SDinDesign-part'));
+        $('.SDinDesign-device').off('click');
+        $('.SDinDesign-part')
+            .off('mouseenter')
+            .on('mouseenter', function() {
+                design.highlightDevice($(this), 0.4);
+            })
+            .off('mouseleave')
+            .on('mouseleave', function() {
+                design.unHighlightDevice($(this));
+            })
+            .off('click')
+            .on('click', function() {
+                let id = $(this).attr('part-id');
+                if (currentPopupId === id)
+                    return;
+                currentPopupId = id;
+                $('.SDinDesign-part').popup('destroy');
+                $('.ui.dimmer:first .loader')
+                    .text('Loading interact data...');
+                $('.ui.dimmer:first').dimmer('show');
+                //$.get(`/api/interact?id=${id}`, (value) => {
+                $.get('/api/interact?id=257917', (value) => {
+                    let table = $('<div></div>')
+                        .append('<h5 class="ui header">Predicted interaction</h5>')
+                        .append('<table></table>')
+                        .css({
+                            maxHeight: 600,
+                            overflowY: 'auto'
+                        });
+                    table.children('table')
+                        .addClass('ui basic compact striped table')
+                        .append('<tr><th>BBa</th><th>Name</th><th>Score</th><th>Type</th></tr>');
+                    
+                    // convert parts to table
+                    let rows = [];
+                    $.each(value.parts, (i ,v) => {
+                        if (i > 10)
+                            return;
+                        let row = $(`<tr><td>${v.name}</td><td>${v.name}</td><td>${v.score}</td><td>${v.type}</td></tr>`);
+                        row.attr('part-id', v.id);
+                        row.appendTo(table.children('table'));
+                        rows.push(row);
+                    });
+
+                    console.log(table.html());
+                    $('.ui.dimmer:first').dimmer('hide');
+                    $(this).popup({
+                        variation: 'flowing',
+                        on: 'click',
+                        html: table.html()
+                    });
+                    $(this).popup('show');
+                        
+                    $('.popup tr').each((i, row) => {
+                        if (i == 0)
+                            return;
+                        $(row).on('mouseenter', function() {
+                            setPartPanel($(this).attr('part-id'));
+                        }).css({
+                            cursor: 'pointer'
+                        });
+                    });
+                });
+            });
+    })
+    .on('deselect', () => {
+        $(`[part-id=${currentPopupId}]`).popup('destroy');
+        $('.SDinDesign-device, #canvas>.SDinDesign-part')
+            .off('click')
+            .on('click', function() {
+                SDinDesign.preventClickOnDrag(design, $(this));
+            });
+        $('.SDinDesign-device>.SDinDesign-part')
+            .off('mouseenter')
+            .off('mouseleave')
+            .off('click');
+        design.unHighlightDevice($('.SDinDesign-part, .SDinDesign-device'));
+    });
+
+$('#clear-all-button')
+    .on('click', () => { $('.ui.basic.modal').modal('show'); });
+$('#real-clear-all-button')
+    .on('click', () => { design.clearAll(); });
 
 $(window)
     .on('keydown', (event) => { if (event.ctrlKey === true) selectMode('dragCanvas'); })

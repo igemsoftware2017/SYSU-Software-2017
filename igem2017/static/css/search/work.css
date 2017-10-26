@@ -1,0 +1,171 @@
+.ui.inverted.fixed.menu {
+  background-image: url(/static/img/search/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: transparent;
+}
+#result-segment {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 0;
+}
+#search-box-container {
+  margin-left: 2em;
+  margin-top: 5em;
+  position: relative;
+}
+#logo {
+  width: 50px;
+  position: absolute;
+}
+#search-box {
+  width: 876px;
+  position: absolute;
+}
+#search-box input {
+  border-radius: 0;
+  border: 0;
+}
+#search-type-menu {
+  border-width: 0;
+  margin-bottom: 0;
+}
+#search-type-menu .item {
+  transition: all 0.1s ease;
+}
+#search-type-menu > .active.item {
+  border-color: #ffd405;
+}
+#result-container {
+  margin-left: 2em;
+  margin-top: 20px;
+  width: 876px;
+  position: absolute;
+}
+div.line {
+  margin-top: 20;
+  margin-bottom: 0;
+  color: white;
+}
+.ui.text.menu {
+  margin: 0;
+}
+.ui.label {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+}
+#result-span {
+  margin-left: 1ex;
+  margin-right: 50px;
+}
+#result-list {
+  margin-top: 10;
+}
+body {
+  background-image: url("/static/img/search/back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+#result-box {
+  background: white;
+}
+.ui.items:last-child {
+  margin-bottom: 20px !important;
+}
+.ui.items>.item {
+  padding: 22px;
+  height: 196px;
+  background: white;
+  position: relative;
+}
+.ui.items>.item>.image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.ui.items>.item>.content {
+  position: relative;
+}
+.ui.items>.item>.content>.ui.header {
+  color: #333333;
+  font-size: calc(7px * 300 / 72);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 593px;
+  margin-top: 0;
+}
+.ui.items>.item>.content>.ui.header:hover {
+  white-space: normal;
+}
+.ui.items>.item>.content>.ui.header>span.smaller {
+  font-size: calc(6px * 300 / 72);
+}
+.ui.items>.item>.content>.medal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 34px;
+  height: 34px;
+}
+.ui.items>.item>.content>.chassis {
+  position: absolute;
+  left: 30px;
+  bottom: 0;
+  margin-bottom: 0;
+  color: #333333;
+}
+.ui.items>.item>.content>.rewards {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.ui.items>.item>.content>.description {
+  margin-top: 0;
+}
+.ui.items>.item>.content>.ui.flowing.popup p, li {
+  white-space: nowrap;
+}
+#also-try {
+  padding-top: 0;
+}
+a {
+  cursor: pointer;
+}
+#also-try>a {
+  color: #ffd800;
+}
+#tool {
+  color: white;
+}
+div#tool-popup {
+  padding: 0;
+}
+#tool-popup p {
+  background-color: #eeeeee;
+  padding-left: 1em;
+  margin-bottom: 0;
+}
+#tool-popup .ui.labels {
+  margin: 0.5em 1em;
+}
+#tool-popup a.ui.label {
+  border: 0;
+  background-color: #438ac9;
+  color: white;
+}
+#tool-popup a.ui.basic.label {
+  background-color: #ffffff;
+  color: black;
+}
+#tool-popup .ui.submit.button {
+  margin-left: 1em;
+  background-color: #438ac9;
+  color: white;
+  border-radius: 0;
+  margin-bottom: 1em;
+}
+#right-panel {
+  position: absolute;
+  background-color: white;
+  padding: 1em;
+}

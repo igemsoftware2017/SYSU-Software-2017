@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/css/custom.css">
-    <link rel="stylesheet" href="/static/css/work.css">
+    <link rel="stylesheet" href="/static/css/paper.css">
     <link rel="stylesheet" href="/static/css/canvas.css">
   </head>
   <body>
@@ -18,28 +18,19 @@
 
     <div id="detail-container">
       <div class="back-icon">
-        <i class="chevron left icon"></i>
+        <i class="chevron left link icon"></i>
       </div>
       <div class="back">
         back
       </div>
-      <div class="title">
-        {{ projectName }}<span class="year">{{ year }}</span>
+      <div class="title">{{ title }}</div>
+      <div class="doi">DOI: {{ DOI }}</div>
+      <div class="jif">JIF: {{ JIF }}</div>
+      <div class="abstract">
+        <p>{{ abstract }}</p>
       </div>
-      <div class="reads">
-        {{ readCount }} reading
-      </div>
-      <div class="collection">
-        <i class="{% if not isFavourite %}empty {% endif %}star icon"></i>
-        collection
-      </div>
-      <div class="description">
-        <p>{{ description }}</p>
-      </div>
-      <div class="images">
-        {% for image in images %}
-        <div class="image"><img src="{{ image }}" alt=""></div>
-        {% endfor %}
+      <div class="keywords">
+        <b>Keywords:</b> {{ keywords }}
       </div>
       <div id="part-container">
         <div class="part-canvas" id="part"></div>
@@ -82,6 +73,6 @@
   <script src="/static/js/search-box.js"></script>
   <script src="/static/js/jsplumb.js"></script>
   <script src="/static/js/canvas.js"></script>
-  <script src="/static/js/work.js"></script>
+  <script src="/static/js/paper.js"></script>
   <script src="/static/js/login.js"></script>
 </html>

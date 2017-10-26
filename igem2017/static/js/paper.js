@@ -7,8 +7,8 @@ let leftBlank = `2em + ${$('#logo').width()}px`;
 $('#detail-container').css({
     left: `calc(${leftBlank})`
 });
-$('.collection').css({
-    top: $('.reads').position().top + $('.reads').outerHeight() - $('.collection').outerHeight()
+$('.jif').css({
+    top: $('.doi').position().top
 });
 
 $('#right-panel').css({

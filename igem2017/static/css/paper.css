@@ -1,11 +1,10 @@
 .ui.inverted.menu {
-  transition: all 0.25s ease-out;
-}
-#nav {
+  background-image: url(/static/img/detail-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   background-color: transparent;
-}
-#info-bar {
-  top: -100px;
+  z-index: 10;
 }
 #info-bar>.ui.container>.item {
   border-left: none;
@@ -62,24 +61,20 @@ body {
   line-height: 1em;
   margin-bottom: 20px;
 }
-#detail-container>.title>.year {
-  margin-left: 1ex;
-  font-weight: 300;
-}
-#detail-container>.reads {
+#detail-container>.doi {
   margin-left: 38px;
   line-height: 1em;
-  font-size: 20px;
+  font-size: 25px;
   color: #6b6969;
   margin-bottom: 20px;
 }
-#detail-container>.collection {
+#detail-container>.jif {
   position: absolute;
   right: 74px;
   font-size: 25px;
   color: #333333;
 }
-#detail-container>.description {
+#detail-container>.abstract {
   width: 930px;
   margin-left: 38px;
   margin-bottom: 20px;
@@ -87,26 +82,12 @@ body {
   font-size: 25px;
   color: #333333;
 }
-#detail-container>.images {
-  height: 80px;
-  margin-left: 60px;
-  margin-right: 60px;
+#detail-container>.keywords {
+  margin-left: 38px;
+  margin-right: 38px;
   margin-bottom: 20px;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-#detail-container>.images>.image {
-  max-width: 122px;
-  height: 82px;
-  margin-right: 29px;
-  display: inline-block;
-}
-#detail-container>.images>.image:last-child {
-  margin-right: 0;
-}
-#detail-container>.images>.image>img {
-  max-width: 100%;
-  height: 100%;
+  line-height: 1em;
+  font-size: 20px;
 }
 #part-container {
   width: 1004px;

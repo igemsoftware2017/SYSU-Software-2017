@@ -40,8 +40,8 @@ class SDinDesign {
             'RBS',
             'promoter',
             'terminator',
-            'chemical substance',
             'material',
+            'light',
             'protein',
             'process',
             'RNA',
@@ -57,6 +57,35 @@ class SDinDesign {
             'measurement',
             'unknown'
         ];
+    }
+    static isGene(part) {
+        return $.inArray(part, [
+            'CDS',
+            'RBS',
+            'promoter',
+            'terminator',
+            'other_DNA',
+            'composite',
+            'generator',
+            'reporter',
+            'inverter',
+            'signalling',
+            'measurement'
+        ]) !== -1;
+    }
+    static isMaterial(part) {
+        return $.inArray(part, [
+            'material',
+            'light',
+            'protein',
+            'RNA',
+            'protein-m',
+            'protein-l',
+            'complex',
+            'unknown',
+
+            'CDS' // kind of workaround
+        ]) !== -1;
     }
     static get standardSize() {
         return {
@@ -97,12 +126,13 @@ class SDinDesign {
                 this._option[key] = option[key];
         if (this._option.zoomable)
             this.enableZoom();
+        if (this._option.addable)
+            this.enableAdd();
     }
 
-    constructor(canvas, design, option) {
+    constructor(canvas, design, option = {}) {
         this._canvas = canvas;
         this.parseOption(option);
-        this._design = design;
         this._canvasPositionX = 0;
         this._canvasPositionY = 0;
         this._size = SDinDesign.zoom(SDinDesign.standardSize, 1);
@@ -112,7 +142,7 @@ class SDinDesign {
         this._jsPlumb = jsPlumb.getInstance();
         this._jsPlumb.ready(() => {
             this._jsPlumb.setContainer($(this._canvas));
-            this.design = this._design;
+            this.design = design;
             this._ready();
             this.readyFired = true;
         });
@@ -134,22 +164,52 @@ class SDinDesign {
 
     get canvas() { return $(this._canvas); }
     get design() {
-        let data = $.extend(true, {}, this._design);
-        delete data.status;
-        $.each(data.parts, (index, part) => { delete part.DOM; });
-        $.each(data.devices, (index, device) => {
-            delete device.DOM;
-            $.each(device.parts, (index, part) => { delete part.DOM; });
-        });
-        $.each(data.lines, (index, line) => { delete line.DOM; });
+        let data = {
+            lines: this._design.lines,
+            devices: this._design.devices.map((v) => v.parts.map((p) => p.cid)),
+            parts: this._design.devices.reduce((t, v) => t.concat(v.parts), this._design.parts)
+        };
+        $.each(data.lines, (_, l) => { delete l.DOM; });
+        $.each(data.parts, (_, p) => { delete p.DOM; });
         return data;
     }
     set design(design) {
         this._jsPlumb.deleteEveryConnection();
         $('.SDinDesign-part, .SDinDesign-device').remove();
-        $.each(design.devices, (_, device) => { this.addDevice(device); });
-        $.each(design.parts, (_, part) => { this.addPart(part, 1, undefined); });
-        $.each(design.lines, (_, link) => { this.addLink(link, false); });
+
+        let tmp = design.parts.reduce((t, p) => { t[p.cid] = p; return t; }, {});
+        $.each(tmp, (_, v) => {
+            if (v.X === undefined)
+                v.X = 0;
+            if (v.Y === undefined)
+                v.Y = 0;
+        });
+        this._design = {
+            lines: design.lines,
+            devices: design.devices.map((v) => ({
+                parts: v.subparts.map((i) => {
+                    let t = $.extend(true, {}, tmp[i]);
+                    tmp[i].wa = true;
+                    return t;
+                }),
+                X: v.X,
+                Y: v.Y
+            })),
+            parts: Object.keys(tmp).map((k) =>
+                tmp[k].wa ? undefined : tmp[k]
+            ).filter((k) => k !== undefined)
+        };
+        $.each(design.combines, (k, v) => {
+            this._design.lines = this._design.lines.concat(v.map((s) => ({
+                start: parseInt(s, 10),
+                end: parseInt(k, 10),
+                type: 'combine'
+            })));
+        });
+
+        $.each(this._design.devices, (_, device) => { this.addDevice(device); });
+        $.each(this._design.parts, (_, part) => { this.addPart(part, 1, undefined); });
+        $.each(this._design.lines, (_, link) => { this.addLink(link, false); });
         this.redrawDesign();
     }
 
@@ -161,18 +221,16 @@ class SDinDesign {
             .attr('device-id', data.deviceID)
             .data('selected', false);
         if (this._option.draggable) {
-            device.on('click', SDinDesign.preventClickOnDrag(this, device));
+            device.on('click', () => SDinDesign.preventClickOnDrag(this, device));
             this._jsPlumb.draggable(device, {
-                drag: function() {
-                    device.addClass('dragging');
-                },
-                start: function(event) {
+                drag: () => { device.addClass('dragging'); },
+                start: (event) => {
                     device.data('drag-origin', {
                         x: event.e.pageX,
                         y: event.e.pageY
                     });
                 },
-                stop: function(event) {
+                stop: (event) => {
                     let origin = device.data('drag-origin');
                     data.X += (event.e.pageX - origin.x) / this._size.unit;
                     data.Y += (event.e.pageY - origin.y) / this._size.unit;
@@ -185,6 +243,7 @@ class SDinDesign {
             .appendTo(device)
             .addClass('bone');
 
+        let that = this;
         if (this._option.addable) {
         // Creating dropper for adding subparts
             for (let i = 0; i <= data.parts.length; ++i) {
@@ -204,7 +263,7 @@ class SDinDesign {
                         },
                         drop: function() {
                             // TODO: fix selectedPart from other file
-                            this.insertPart(data, selectedPart, $(this).attr('dropper-id'));
+                            that.insertPart(data, selectedPart, $(this).attr('dropper-id'));
                         }
                     });
             }
@@ -232,7 +291,8 @@ class SDinDesign {
         let part = $('<div></div>')
             .appendTo(device)
             .addClass('SDinDesign-part')
-            .attr('part-id', data.ID)
+            .attr('part-cid', data.cid)
+            .attr('part-id', data.id)
             .append(`
                 <div class="ui centered fluid image">
                     <img src="/static/img/design/${data.type}.png"></img>
@@ -244,7 +304,7 @@ class SDinDesign {
         this._nextPartId = Math.max(this._nextPartId, parseInt(data.ID)) + 1;
         if (isSubpart === false) {
             if (this._option.draggable) {
-                part.on('click', SDinDesign.preventClickOnDrag(this, part));
+                part.on('click', () => SDinDesign.preventClickOnDrag(this, part));
                 this._jsPlumb.draggable(part, {
                     start: function(event) {
                         part.data('drag-origin', {
@@ -255,7 +315,7 @@ class SDinDesign {
                     drag: function() {
                         part.addClass('dragging');
                     },
-                    stop: function(event) {
+                    stop: (event) => {
                         let origin = part.data('drag-origin');
                         data.X += (event.e.pageX - origin.x) / this._size.unit;
                         data.Y += (event.e.pageY - origin.y) / this._size.unit;
@@ -273,8 +333,8 @@ class SDinDesign {
     }
 
     addLink(data, isPreview) {
-        let source = $('[part-id=' + data.source + ']');
-        let target = $('[part-id=' + data.target + ']');
+        let source = $('[part-cid=' + data.start + ']');
+        let target = $('[part-cid=' + data.end + ']');
 
         // Anchors
         let anchors = [
@@ -288,21 +348,23 @@ class SDinDesign {
 
         // Arrow
         let arrowSetting;
-        if (data.type === 'promotion')
+        if (data.type === 'promotion' || data.type === 'combine')
             arrowSetting = ['Arrow', { foldback: 0.01, width: 15, location: 1 }];
         else
             arrowSetting = ['Diamond', { foldback: 1, width: 30, length: 1, location: 1 }];
-        arrowSetting[1].id = `SDinDesign-arrow-${data.source}-${data.target}`;
+        arrowSetting[1].id = `SDinDesign-arrow-${data.type}-${data.start}-${data.end}`;
 
-        data.DOM = this._jsPlumb.connect({
-            source: source,
-            target: target,
-            anchors: anchors,
-            endpoint: 'Blank',
-            cssClass: `SDinDesign-connection ${data.type}-connection ${isPreview ? 'preview-connection' : ''}`,
-            overlays: [arrowSetting],
-            connector: 'Flowchart'
-        });
+        for (let s of source)
+            for (let t of target)
+                data.DOM = this._jsPlumb.connect({
+                    source: s,
+                    target: t,
+                    anchors: anchors,
+                    endpoint: 'Blank',
+                    cssClass: `SDinDesign-connection ${data.type}-connection ${isPreview ? 'preview-connection' : ''}`,
+                    overlays: [arrowSetting],
+                    connector: 'Flowchart'
+                });
     }
     removeLink(data) {
         if (data.DOM !== undefined) {
@@ -356,17 +418,75 @@ class SDinDesign {
         else
             $('.SDinDesign-part>p').show();
         this._jsPlumb.repaintEverything();
-        this._jsPlumb.revalidate($('.SDinDesign-device'));
+        if ($('.SDinDesign-device').length > 0)
+            this._jsPlumb.revalidate($('.SDinDesign-device'));
     }
 
     insertPart(device, data, position) {
         device.parts.splice(position, 0, data);
         this.addPart(data, position, device.DOM);
+        // TODO:
+        //   Subpart dropper unfixed!!!!!
         // Re-index all parts in device
         $.each(device.parts, (index, part) => {
             part.DOM.data('index', index);
         });
         this.redrawDesign();
+    }
+
+
+    clearAll() {
+        this.design = {
+            lines: [],
+            parts: [],
+            devices: []
+        };
+    }
+
+    generate(p1, p2) {
+        // return if p1(promoter) generates p2(material)
+        if (p1.type !== 'promoter' || SDinDesign.isMaterial(p2) !== true)
+            return false;
+        this._design.device.forEach((dev) => {
+            let pro = dev.parts.findIndex((v) => v.cid === p1);
+            if (pro === -1)
+                return;
+            let pro2 = dev.parts.findIndex((v, i) => v.type === 'promoter' && i > pro);
+            if (pro2 === -1)
+                pro2 = dev.parts.length;
+        });
+    }
+
+    get matrix() {
+        let parts = this._design.devices.reduce((t, v) => t.concat(v.parts), this._design.parts);
+        parts = parts.filter((p) => SDinDesign.isMaterial(p.type));
+        let partDic = parts.reduce((t, v) => { t[v.cid] = v; return t; }, {});
+        parts.forEach((v, i) => { partDic[v.cid].index = i; });
+        let n = parts.length;
+        let res = Array(n).fill(0).map(() => Array(n).fill(0));
+        this._design.lines.forEach((v, i) => {
+            // Direct communication
+            if (partDic[v.start] !== undefined && partDic[v.end] !== undefined) {
+                if (v.type === 'promotion')
+                    res[partDic[v.start].index][partDic[v.end].index] = 1;
+                else if (v.type === 'inhibition')
+                    res[partDic[v.start].index][partDic[v.end].index] = -1;
+                return;
+            }
+
+            // promote/inhibit promoter
+
+            // CDS
+
+        });
+        let postData = {
+            data: JSON.stringify(res),
+            csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+        };
+        $.post('/api/simulation', postData, (v) => {
+            console.log(v);
+        });
+        return res;
     }
 
     enableZoom() {
@@ -419,6 +539,37 @@ class SDinDesign {
             .off('mousemove');
     }
 
+    enableAdd() {
+        let that = this;
+        $(this._canvas)
+            .droppable({
+                accept: '#part-info-img',
+                greedy: true,
+                over: function() {
+                    $(this).css({
+                        backgroundColor: 'rgba(0, 0, 255, 0.1)'
+                    });
+                },
+                out: function() {
+                    $(this).css({ backgroundColor: '' });
+                },
+                drop: function(event) {
+                    $(this).css({ backgroundColor: '' });
+                    let newDevice = {
+                        X: event.offsetX / that._size.unit - that._canvasPositionX,
+                        Y: event.offsetY / that._size.unit - that._canvasPositionY,
+                        parts: []
+                    };
+                    let partData = $.extend(true, {}, selectedPart);
+                    partData.ID = that._nextPartId;
+                    newDevice.parts.push(partData);
+                    that._design.devices[Object.keys(that._design.devices).length] = newDevice;
+                    that.addDevice(newDevice);
+                    that.redrawDesign();
+                }
+            });
+    }
+
     highlightDevice(device, transparency) {
         device
             .data('selected', true)
@@ -437,17 +588,15 @@ class SDinDesign {
 
     // ultity function
     static preventClickOnDrag(design, item) {
-        return () => {
-            if (item.hasClass('dragging')) {
-                item.removeClass('dragging');
-                return;
-            }
-            if (item.data('selected')) {
-                design.unHighlightDevice(item);
-            } else {
-                design.unHighlightDevice($('.SDinDesign-device, .SDinDesign-part'));
-                design.highlightDevice(item, 0.7);
-            }
-        };
+        if (item.hasClass('dragging')) {
+            item.removeClass('dragging');
+            return;
+        }
+        if (item.data('selected')) {
+            design.unHighlightDevice(item);
+        } else {
+            design.unHighlightDevice($('.SDinDesign-device, .SDinDesign-part'));
+            design.highlightDevice(item, 0.7);
+        }
     }
 }

@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/menu.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/popup.min.css">
-    <link rel="stylesheet" href="/static/css/search.css">
+    <link rel="stylesheet" href="/static/css/search/work.css">
   </head>
   <body>
-    {% include "nav.html" %}
+    {% include '../nav.html' %}
 
-    {% include 'search-box.html' %}
+    {% include '../search-box.html' %}
     <link rel="stylesheet" href="/static/css/search-box.css">
 
     <div id="result-container">
       <div id="search-type-menu" class="ui secondary pointing inverted menu">
         <a class="active item">Project</a>
-        <a class="item">Parts</a>
-        <a class="item">Paper</a>
+        <a class="item" href="/search/part?q={{ request.GET.q }}">Parts</a>
+        <a class="item" href="/search/paper?q={{ request.GET.q }}">Paper</a>
       </div>
       <div class="line" id="also-try">
         Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
@@ -34,7 +34,6 @@
           <div class="ui labels">
             <a class="ui basic label">E.coli</a>
           </div>
-          <div class="ui divider"></div>
           <p>Medal</p>
           <div class="ui labels">
             <a class="ui basic label">Gold</a>
@@ -42,7 +41,6 @@
             <a class="ui basic label">Bronze</a>
             <a class="ui basic label">Best Rewards</a>
           </div>
-          <div class="ui divider"></div>
           <p>Track</p>
           <div class="ui labels">
             <a class="ui basic label">Health & Medicine</a>
@@ -50,7 +48,6 @@
             <a class="ui basic label">Environment</a>
             <a class="ui basic label">Food & Nutrition</a>
           </div>
-          <div class="ui divider"></div>
           <div class="ui submit button">Apply</div>
         </div>
       </div>
@@ -58,7 +55,7 @@
         <div class="ui items">
           {% for work in works %}
           <div class="link item">
-            <div class="fluid image"><img src="{{ work.image }}" alt=""></div>
+            <div class="image" style="background-image: url('/{{ work.image }}')"></div>
             <div class="content">
               <a class="ui header" href="/work?id={{ work.id }}">{{ work.year }}-{{ work.projectName }}| <span class="smaller">{{ work.school }}</span></a>
               <img class="medal" src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
@@ -81,15 +78,21 @@
       </div>
     </div>
     <div id="right-panel">
+      <h3 class="ui header">Year relations</h4>
+      <div class="chart-box">
+        <canvas id="chart" width="300" height="300"></canvas>
+      </div>
+      <input type="text" id="chart-data" value="{{ additional.yearRelation }}" hidden>
     </div>
   </body>
 
-  {% include "login-modal.html" %}
+  {% include "../login-modal.html" %}
 
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/semantic/dist/semantic.js"></script>
   <script src="/static/semantic/dist/components/popup.min.js"></script>
+  <script src="/static/js/Chart.min.js"></script>
   <script src="/static/js/search-box.js"></script>
-  <script src="/static/js/search.js"></script>
+  <script src="/static/js/search/work.js"></script>
   <script src="/static/js/login.js"></script>
 </html>

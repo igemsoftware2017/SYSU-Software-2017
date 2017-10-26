@@ -16,7 +16,7 @@
           <i class="large repeat link icon"></i>
           <i id="open-fav-win" class="large star link icon"></i>
           <i id="upload-button" class="large folder open outline link icon"></i>
-          <i class="large save link icon"></i>
+          <i id="save-button" class="large save link icon"></i>
           <i id="export-button" class="large external share link icon"></i>
           <i class="large share alternate link icon"></i>
         </span>
@@ -31,7 +31,6 @@
           </div>
         </span>
         <span class="item">
-          <i id="add-part-button" class="large plus link icon"></i>
           <i class="large bullseye link icon"></i>
           <div id="connection-dropdown" class="ui dropdown">
             <i id="connection-dropdown-button" class="large long right arrow link icon"></i>
@@ -202,10 +201,10 @@
 
     <!-- Toolbox -->
     <div id="toolbox">
-      <i class="inverted plus link icon"></i>
-      <i class="inverted trash link icon"></i>
-      <i class="inverted external link icon"></i>
-      <i class="inverted superpowers link icon"></i>
+      <i id="add-part-button" class="inverted plus link icon"></i>
+      <i id="clear-all-button" class="inverted trash link icon"></i>
+      <i id="interactive-button" class="inverted external link icon"></i>
+      <i id="simulation-button" class="inverted superpowers link icon"></i>
     </div>
 
     <!-- Add part modal -->
@@ -264,6 +263,27 @@
       </div>
     </div>
 
+    <!-- Clear all modal -->
+    <div class="ui basic modal">
+      <div class="ui icon header">
+        <i class="trash icon"></i>
+        Clear canvas
+      </div>
+      <div class="content">
+        <p>This will <b>REMOVE ALL ITEMS</b> in the canvas, click Yes below to confirm.</p>
+      </div>
+      <div class="actions">
+        <div class="ui red basic cancel inverted button">
+          <i class="remove icon"></i>
+          No
+        </div>
+        <div class="ui green ok inverted button" id="real-clear-all-button">
+          <i class="checkmark icon"></i>
+          Yes
+        </div>
+      </div>
+    </div>
+
     {% include "login-modal.html" %}
   </body>
   <script src="/static/js/jquery.min.js"></script>
@@ -272,6 +292,7 @@
   <script src="/static/semantic/dist/semantic.js"></script>
   <script src="/static/semantic/dist/components/tab.min.js"></script>
   <script src="/static/js/jsplumb.js"></script>
+  <script src="/static/js/html2canvas.js"></script>
   <script src="/static/js/canvas.js"></script>
   <script src="/static/js/design.js"></script>
   <script src="/static/js/login.js"></script>
