@@ -18,7 +18,8 @@ $('#right-panel').css({
     height: 406
 });
 
-$('.back').on('click', () => { history.back(); });
+$('.back').add('i.chevron.left.icon')
+    .on('click', () => { history.back(); });
 
 let design;
 $.get('/get_circuit_test', (value) => {
