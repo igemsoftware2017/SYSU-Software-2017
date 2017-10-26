@@ -1,5 +1,7 @@
 'use strict';
 
+/* global Chart */
+
 // initializing position
 let leftBlank = `2em + ${$('#logo').width()}px`;
 $('#result-container').css({
@@ -51,4 +53,30 @@ $('.rewards').each((_, v) => {
         popup: popup,
         position: 'right center'
     });
+});
+
+let data = JSON.parse($('#chart-data').val());
+let labels = Object.keys(data[0]);
+let nums = labels.map((k) => data[0][k]);
+new Chart($('#chart'), {
+    type: 'bar',
+    data: {
+        labels: labels,
+        datasets: [{
+            label: 'Score',
+            data: nums,
+            backgroundColor: [
+                'red', 'orange', 'yellow', 'green' ,'cyan', 'blue', 'purple', 'grey'
+            ]
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
 });

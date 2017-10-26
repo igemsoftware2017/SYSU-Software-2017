@@ -34,7 +34,6 @@
           <div class="ui labels">
             <a class="ui basic label">E.coli</a>
           </div>
-          <div class="ui divider"></div>
           <p>Medal</p>
           <div class="ui labels">
             <a class="ui basic label">Gold</a>
@@ -42,7 +41,6 @@
             <a class="ui basic label">Bronze</a>
             <a class="ui basic label">Best Rewards</a>
           </div>
-          <div class="ui divider"></div>
           <p>Track</p>
           <div class="ui labels">
             <a class="ui basic label">Health & Medicine</a>
@@ -50,7 +48,6 @@
             <a class="ui basic label">Environment</a>
             <a class="ui basic label">Food & Nutrition</a>
           </div>
-          <div class="ui divider"></div>
           <div class="ui submit button">Apply</div>
         </div>
       </div>
@@ -81,6 +78,11 @@
       </div>
     </div>
     <div id="right-panel">
+      <h3 class="ui header">Year relations</h4>
+      <div class="chart-box">
+        <canvas id="chart" width="300" height="300"></canvas>
+      </div>
+      <input type="text" id="chart-data" value="{{ additional.yearRelation }}" hidden>
     </div>
   </body>
 
@@ -89,6 +91,7 @@
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/semantic/dist/semantic.js"></script>
   <script src="/static/semantic/dist/components/popup.min.js"></script>
+  <script src="/static/js/Chart.min.js"></script>
   <script src="/static/js/search-box.js"></script>
   <script src="/static/js/search/work.js"></script>
   <script src="/static/js/login.js"></script>

@@ -137,7 +137,35 @@ a {
 #tool {
   color: white;
 }
+div#tool-popup {
+  padding: 0;
+}
+#tool-popup p {
+  background-color: #eeeeee;
+  padding-left: 1em;
+  margin-bottom: 0;
+}
+#tool-popup .ui.labels {
+  margin: 0.5em 1em;
+}
+#tool-popup a.ui.label {
+  border: 0;
+  background-color: #438ac9;
+  color: white;
+}
+#tool-popup a.ui.basic.label {
+  background-color: #ffffff;
+  color: black;
+}
+#tool-popup .ui.submit.button {
+  margin-left: 1em;
+  background-color: #438ac9;
+  color: white;
+  border-radius: 0;
+  margin-bottom: 1em;
+}
 #right-panel {
   position: absolute;
   background-color: white;
+  padding: 1em;
 }
