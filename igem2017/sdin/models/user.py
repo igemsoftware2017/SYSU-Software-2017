@@ -92,6 +92,7 @@ class Papers(models.Model):
     Abstract = models.TextField(default = "To be add")
     Keywords = models.TextField(default = "To be add")
     Authors = models.TextField(default = "To be add")
+    Copyright = models.TextField(default ="To be add")
     ReadCount = models.IntegerField(default = 0)
     Circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE, null = True)
 

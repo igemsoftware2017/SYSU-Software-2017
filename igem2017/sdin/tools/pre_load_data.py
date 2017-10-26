@@ -358,10 +358,18 @@ def load_papers(folderpath):
                 row[0] = row[0].strip()
                 if "10.1016/j.jconrel.2010.11.016" in row[0]:
                     continue;
+                if "10.1126/science.1216753" in row[0]:
+                    continue;
+                if "10.1126/science.1203535" in row[0]:
+                    continue;
+                if "10.1126/science.1192128" in row[0]:
+                    continue;
+                if "10.1126/science.1205527" in row[0]:
+                    continue;
                 papers.append(Papers(
-                    DOI = row[0],
-                    Title = row[1],
-                    Journal = row[2],
+                    DOI = row[0].strip(),
+                    Title = row[1].strip(),
+                    Journal = row[2].strip(),
                     JIF = float(row[3]),
                     ArticleURL = row[4],
                     LogoURL = row[5],
@@ -377,6 +385,27 @@ def load_papers(folderpath):
         errors += 1
         print(err2)
         pass
+    print('Saving...')
+    atomic_save(papers)
+    print('Error: {0:6d}'.format(errors))
+    load_paper_Copyright(folderpath)
+
+def load_paper_Copyright(folderpath):
+    errors = 0
+    filepath = os.path.join(folderpath, "papercopyright.csv")
+    reader = csv.reader(open(filepath))
+    print('  Loading %s...' % filepath)          
+    next(reader)
+    papers = []
+    for row in reader:
+        try:
+            paper = Papers.objects.get(DOI = row[0].strip())
+            paper.Copyright = row[1].strip()
+            papers.append(paper)
+        except Exception as err:
+            errors += 1
+            print(err)
+            pass
     print('Saving...')
     atomic_save(papers)
     print('Error: {0:6d}'.format(errors))
