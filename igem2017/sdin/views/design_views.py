@@ -282,8 +282,8 @@ def get_circuit(request):
         devices_query = CircuitDevices.objects.filter(Circuit = query_id)
         devices = [{
             'subparts': [i.id for i in x.Subparts.all()],
-            'x':x.X,
-            'y':x.Y} for x in devices_query]
+            'X':x.X,
+            'Y':x.Y} for x in devices_query]
         combines_query = CircuitCombines.objects.filter(Circuit = query_id)
         combines = {x.Father.id: [i.id for i in x.Sons.all()] for x in combines_query}
         return JsonResponse({
