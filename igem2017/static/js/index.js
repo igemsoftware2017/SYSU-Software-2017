@@ -12,12 +12,4 @@ $('#search-edit')
             zIndex: -500
         });
     });
-function bindHref(id, url) {
-    $(`#${id}`).on('click', () => { window.location.href = url; });
-}
-
-bindHref('facebook', 'https://www.facebook.com/sysusoftware');
-bindHref('googleplus', 'https://plus.google.com/u/0/108675007137699538539');
-bindHref('twitter', 'https://twitter.com/SYSU_Software');
-bindHref('in', 'https://www.instagram.com/sysusf');
 

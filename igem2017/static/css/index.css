@@ -2,7 +2,7 @@
   background: transparent;
 }
 #search-box-container {
-  margin-top: 250px !important;
+  margin-top: 12em !important;
 }
 body {
   background-image: url("/static/img/index/back.jpg");
@@ -15,17 +15,17 @@ div.footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 4em;
   background-color: black;
   z-index: 2;
 }
 div.footer > div.left.menu {
-  line-height: 80px;
+  line-height: 4em;
   height: 100%;
 }
 div.footer > div.left.menu > a {
-  margin-left: 98px;
-  font-size: 25px;
+  margin-left: 5em;
+  font-size: 1.25em;
   color: white;
 }
 div.footer > div.right.menu {
@@ -33,12 +33,15 @@ div.footer > div.right.menu {
   right: 0;
   top: 0;
   height: 100%;
-  line-height: 80px;
+  line-height: 4em;
 }
-div.footer > div.right.menu > img {
+div.footer > div.right.menu a {
+  /* line-height: 100%; */
   vertical-align: middle;
-  height: 44px;
-  width: 44px;
-  margin-right: 20px;
-  cursor: pointer;
+  margin-right: 1em;
+}
+div.footer > div.right.menu img {
+  vertical-align: middle;
+  height: 2em;
+  width: 2em;
 }
