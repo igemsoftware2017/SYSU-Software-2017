@@ -4,7 +4,7 @@
 /* global SDinDesign */
 
 let design;
-$.get('/api/get_circuit?id=155', (value) => {
+$.get(`/api/get_circuit?id=${$('#canvas-box').attr('design-id')}`, (value) => {
     design = new SDinDesign('#canvas', value, {});
 });
 
@@ -584,7 +584,7 @@ $('#interactive-button')
                     table.children('table')
                         .addClass('ui basic compact striped table')
                         .append('<tr><th>BBa</th><th>Name</th><th>Score</th><th>Type</th></tr>');
-                    
+
                     // convert parts to table
                     let rows = [];
                     $.each(value.parts, (i ,v) => {
@@ -604,7 +604,7 @@ $('#interactive-button')
                         html: table.html()
                     });
                     $(this).popup('show');
-                        
+
                     $('.popup tr').each((i, row) => {
                         if (i == 0)
                             return;

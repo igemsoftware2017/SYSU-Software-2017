@@ -31,7 +31,7 @@
           {% for part in parts %}
           <div class="link item">
             <div class="image">
-              <img src="/static/img/design/{{ part.type }}.png" alt="">
+              <img src="/static/img/design/{{ part.type | lower }}.png" alt="">
               <div class="ui divider"></div>
               <p>{{ part.releaseStatus }}</p>
               <div class="ui divider"></div>

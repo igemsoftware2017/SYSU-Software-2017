@@ -63,7 +63,7 @@
     </div>
 
     <!-- Main canvas -->
-    <div id="canvas-box">
+    <div id="canvas-box" design-id="{{ request.GET.id }}">
       <div id="canvas"></div>
     </div>
 
@@ -71,37 +71,36 @@
     <div id="part-panel-dropper"></div>
     <div id="part-panel" class="window">
       <div class="nav">
-        <h5 class="ui header">元件</h5>
+        <h5 class="ui header">Parts</h5>
         <i id="part-panel-button" class="link icon angle double right"></i>
       </div>
       <div class="content">
         <div id="search-parts-dropdown" class="ui fluid search selection dropdown">
           <i class="dropdown icon"></i>
-          <div class="default text">请输入元件编号</div>
+          <div class="default text">Search BBa...</div>
         </div>
         <div class="tab-context">
           <div class="ui top attached tabular menu">
-            <div class="active item" data-tab="src-tab">元件来源通路</div>
+            <div class="active item" data-tab="src-tab">Source circuit</div>
           </div>
           <div id="part-src-seg" class="ui bottom attached active tab segment" data-tab="src-tab">
             <div class="ui centered fluid image">
               <img src="/static/img/design/circuit.png" alt="">
             </div>
             <div id="part-src-divider" class="ui divider"></div>
-            <a id="part-src-more" href="/detail">查看详细信息</a>
+            <a id="part-src-more" href="/detail">Check details</a>
           </div>
         </div>
         <div class="tab-context">
           <div class="ui top attached tabular menu">
-            <div class="active item" data-tab="info-tab">元件信息</div>
-            <div class="item" data-tab="func-tab">功能</div>
+            <div class="active item" data-tab="info-tab">Part information</div>
           </div>
           <div class="ui bottom attached active tab segment" data-tab="info-tab">
-            <img id="part-info-img" class="ui centered tiny image" src="/static/img/design/RBS.png" alt="">
-            <h5 id="part-info-name" class="ui center aligned header">元件名称</h5>
+            <img id="part-info-img" class="ui centered tiny image" src="/static/img/design/unknown.png" alt="">
+            <h5 id="part-info-name" class="ui center aligned header"></h5>
             <div class="ui divider"></div>
             <div id="part-info-des">
-              <h5 class="ui header">描述：</h5>
+              <h5 class="ui header">Description:</h5>
               <p>Adipisicing soluta laboriosam consequatur lorem exercitationem Sequi labore explicabo eius nisi possimus Aperiam quisquam tenetur quos sit ex? Eum quibusdam magnam quam iure ipsa unde sit? Earum error tempora amet assumenda eum perspiciatis. Earum porro maxime ad nostrum doloribus Eius.</p>
             </div>
           </div>
