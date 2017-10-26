@@ -56,11 +56,11 @@ body {
 }
 #detail-container>.title {
   margin-left: 38px;
-  font-size: 40px;
+  font-size: 1.75em;
   color: #333333;
   font-weight: 500;
   line-height: 1em;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 #detail-container>.title>.year {
   margin-left: 1ex;
@@ -69,22 +69,22 @@ body {
 #detail-container>.reads {
   margin-left: 38px;
   line-height: 1em;
-  font-size: 20px;
+  font-size: 1em;
   color: #6b6969;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 #detail-container>.collection {
   position: absolute;
   right: 74px;
-  font-size: 25px;
+  font-size: 1.25em;
   color: #333333;
 }
 #detail-container>.description {
   width: 930px;
   margin-left: 38px;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
   line-height: 1em;
-  font-size: 25px;
+  font-size: 1em;
   color: #333333;
 }
 #detail-container>.images {
@@ -150,6 +150,21 @@ body {
 #right-panel {
   position: absolute;
   background-color: white;
+  padding: 1em;
+}
+#right-panel .ui.header {
+  font-size: 1.25em;
+}
+#right-panel img {
+  display: inline-block;
+  height: 1.5em;
+  width: auto;
+  margin-right: 1em;
+}
+#right-panel p {
+  display: inline-block;
+  line-height: 1.5em;
+  vertical-align: top;
 }
 div.ui.page.dimmer img {
   max-width: 90vw;
