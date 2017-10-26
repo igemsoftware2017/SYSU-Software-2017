@@ -113,6 +113,10 @@ def work(request):
         else:
             Img = [i.URL for i in wk.Img.all()]
 
+        Awards = wk.Award.split(';')
+        while len(Awards) > 0 and Awards[-1] == '':
+            Awards = Awards[: -1]
+
         wk.ReadCount += 1
         wk.save()
         context = {
@@ -120,7 +124,7 @@ def work(request):
             'year': wk.Year,
             'readCount': wk.ReadCount,
             'medal': wk.Medal,
-            'rewards': wk.Award,
+            'rewards': Awards,
             'description': wk.SimpleDescription,
             'isFavourite': favorite,
             'images': Img,
@@ -204,7 +208,6 @@ def search_work(request):
         for item in result['teams']:
             try:
                 s = item.split(' ')
-                print(s)
                 w = Works.objects.get(Teamname = s[0], Year = s[1])
                 if request.user.is_authenticated:
                     try:
@@ -214,11 +217,6 @@ def search_work(request):
                         favourite = False
                 else:
                     favourite = False
-
-                if w.Img.all().count() == 0:
-                    Img = w.DefaultImg
-                else:
-                    Img = w.Img.all()[0].URL
 
                 if year is not None and year != 'any' and w.Year != int(year):
                     continue
@@ -233,13 +231,10 @@ def search_work(request):
 
                 works.append({
                     'id': w.TeamID,
-                    'image': Img,
                     'year': w.Year,
                     'teamName': w.Teamname,
                     'projectName': w.Title,
-                    # TODO
                     'school': w.Teamname,
-                    'risk': '???',
                     'medal': w.Medal,
                     'description': w.SimpleDescription[:200],
                     'chassis': w.Chassis,

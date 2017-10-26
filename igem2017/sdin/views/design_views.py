@@ -288,6 +288,7 @@ def get_circuit(request):
         combines = {x.Father.id: [i.id for i in x.Sons.all()] for x in combines_query}
         return JsonResponse({
             'status': 1,
+            'id': query_id,
             'parts': parts,
             'lines': lines,
             'devices': devices,
