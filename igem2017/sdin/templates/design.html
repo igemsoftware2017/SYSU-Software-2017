@@ -53,6 +53,9 @@
         </span>
         <div class="right menu">
           <span class="item">
+            <h4 id="safety" class="ui red header">High risk</h4>
+          </span>
+          <span class="item">
             <i class="large user outline link icon" id="signin-button"></i>
           </span>
           <span class="item">
@@ -263,7 +266,7 @@
     </div>
 
     <!-- Clear all modal -->
-    <div class="ui basic modal">
+    <div id="clear-all-modal" class="ui basic modal">
       <div class="ui icon header">
         <i class="trash icon"></i>
         Clear canvas
@@ -283,15 +286,46 @@
       </div>
     </div>
 
+    <!-- Simulation result modal -->
+    <div id="simulation-modal" class="ui modal">
+      <div class="header">Simulation results</div>
+      <div class="content">
+        <canvas id="simulation-result" width="800px" height="400px"></canvas>
+      </div>
+    </div>
+
+    <!-- High risk modal -->
+    <div id="safety-modal" class="ui basic modal">
+      <div class="ui icon header">
+        <i class="warning icon"></i>
+        Warning!
+      </div>
+      <div class="content">
+        <p>Please check your design again in case of using any potential risky part! We don't recommend you to use parts with <b>high risk</b> ground. Change them into safe parts?</p>
+      </div>
+      <div class="actions">
+        <div class="ui red basic cancel inverted button">
+          <i class="left chevron icon"></i>
+          Back to edit
+        </div>
+        <div class="ui green ok inverted button" id="continue-save">
+          No, continue to save
+          <i class="right chevron icon"></i>
+        </div>
+      </div>
+    </div>
+
     {% include "login-modal.html" %}
   </body>
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/js/jquery-ui/jquery-ui.min.js"></script>
   <script src="/static/js/jquery.mousewheel.min.js"></script>
   <script src="/static/semantic/dist/semantic.js"></script>
+  <script src="/static/semantic/dist/components/popup.min.js"></script>
   <script src="/static/semantic/dist/components/tab.min.js"></script>
   <script src="/static/js/jsplumb.js"></script>
   <script src="/static/js/html2canvas.js"></script>
+  <script src="/static/js/Chart.min.js"></script>
   <script src="/static/js/canvas.js"></script>
   <script src="/static/js/design.js"></script>
   <script src="/static/js/login.js"></script>

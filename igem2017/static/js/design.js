@@ -636,6 +636,64 @@ $('#clear-all-button')
 $('#real-clear-all-button')
     .on('click', () => { design.clearAll(); });
 
+$('#simulation-button')
+    .on('click', () => {
+        let data = design.matrix;
+        let postData = {
+            data: JSON.stringify(data.matrix),
+            csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+        };
+        $('.ui.dimmer:first .loader')
+            .text('Running on server, please wait...');
+        $('.ui.dimmer:first').dimmer('show');
+        $.post('/api/simulation', postData, (v) => {
+            $('.ui.dimmer:first').dimmer('hide');
+            $('#simulation-modal').modal('show');
+            let labels = v.time;
+            let datasets = [];
+            for (let i = 0; i < v.result[0].length; ++i)
+                datasets.push({
+                    label: data.partName[i],
+                    data: [],
+                    fill: false,
+                    borderColor: `hsl(${i * 360 / v.result[0].length}, 100%, 80%)`,
+                    backgroundColor: 'rgba(0, 0, 0, 0)'
+                });
+            v.result.forEach((d) => {
+                d.forEach((x, i) => {
+                    datasets[i].data.push(x);
+                });
+            });
+            new Chart($('#simulation-result'), {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: datasets
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero:true
+                            }
+                        }]
+                    }
+                }
+            });
+        });
+    });
+
+$('#safety').popup({
+    title: 'Warning!',
+    content: 'Please check your design again in case of using any potential risky part! We don\'t recommend you to use parts with high risk ground. Change them into safe parts?',
+    position: 'bottom right',
+    variation: 'wide popup'
+});
+
+function warning() {
+    $('#safety').popup('show');
+}
+
 $(window)
     .on('keydown', (event) => { if (event.ctrlKey === true) selectMode('dragCanvas'); })
     .on('keyup', () => { selectMode('modifyItem'); });
