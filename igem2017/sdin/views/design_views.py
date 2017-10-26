@@ -426,7 +426,7 @@ def simulation(request):
     '''
     if request.method == 'POST':
         data = json.loads(request.POST['data'])
-        time, result = cir2(data, np.ones(len(data)))
+        time, result = cir2(data, np.zeros(len(data)))
         return JsonResponse({
             'status': 1,
             'time': time.tolist(),
