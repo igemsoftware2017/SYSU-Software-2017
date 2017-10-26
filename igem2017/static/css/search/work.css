@@ -80,7 +80,7 @@ body {
 .ui.items>.item>.image {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 .ui.items>.item>.content {
   position: relative;
