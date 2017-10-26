@@ -204,6 +204,7 @@ def search_work(request):
         for item in result['teams']:
             try:
                 s = item.split(' ')
+                print(s)
                 w = Works.objects.get(Teamname = s[0], Year = s[1])
                 if request.user.is_authenticated:
                     try:
@@ -250,7 +251,7 @@ def search_work(request):
                     'id': -1,
                     'teamName': s[0],
                     'Year': s[1],
-                    isFavourite: False})
+                    'isFavourite': False})
 
             keywords = result['keyWords']
     
