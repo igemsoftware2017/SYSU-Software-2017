@@ -148,7 +148,8 @@ def part(request):
                     'description': xxx,
                     'type': xxx
                 }
-            ]
+            ],
+            'parents': []
         }
     '''
     if request.method == 'POST':
@@ -188,6 +189,12 @@ def part(request):
                 'name': x.child.Name,
                 'description': x.child.Description,
                 'type': x.child.Type} for x in sub_query]
+            par_query = SubParts.objects.filter(child = part)
+            part_dict['parents'] = [{
+                'id': x.parent.id,
+                'name': x.parent.Name,
+                'description': x.parent.Description,
+                'type': x.parent.Type} for x in par_query]
 
             part_dict['success'] = True
             return JsonResponse(part_dict)
@@ -422,10 +429,10 @@ def simulation(request):
     '''
     if request.method == 'POST':
         data = json.loads(request.POST['data'])
-        time, result = cir2(data, np.ones(len(data), len(data)))
+        time, result = cir2(data, np.ones(len(data)))
         return JsonResponse({
             'status': 1,
-            'time': time,
-            'result': result
+            'time': time.tolist(),
+            'result': result.tolist()
         })
     return 0
