@@ -299,7 +299,7 @@ class SDinDesign {
             .attr('part-id', data.id)
             .append(`
                 <div class="ui centered fluid image">
-                    <img src="/static/img/design/${data.type}.png"></img>
+                    <img src="/static/img/design/${data.type.toLowerCase()}.png"></img>
                 </div>
             `)
             .append(`<p>${data.name}</p>`)
@@ -519,7 +519,7 @@ class SDinDesign {
             // Backtrace CDS
             let start = this.traceCDS(partDic[v.start], design.lines, partDic);
             let end = this.traceCDS(partDic[v.end], design.lines, partDic);
-            
+
             for (let s of start)
                 for (let e of end) {
                     if (s.cid === e.cid)
