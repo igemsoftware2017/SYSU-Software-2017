@@ -40,4 +40,5 @@ div.footer > div.right.menu > img {
   height: 44px;
   width: 44px;
   margin-right: 20px;
+  cursor: pointer;
 }
