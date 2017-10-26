@@ -40,11 +40,10 @@ urlpatterns = [
     url(r'api/get_favorite$', design_views.get_favorite),
     url(r'api/tag_favorite$', design_views.tag_favorite),
     url(r'api/part_favorite$', design_views.part_favorite),
-    url(r'api/parts$', design_views.search_parts),
+    url(r'api/parts$', design_views.parts),
     url(r'api/part$', design_views.part),
-    url(r'api/get_circuit$', design_views.get_circuit),
+    url(r'api/circuit$', design_views.circuit),
     url(r'api/get_saves$', design_views.get_saves),
-    url(r'api/save_circuit$', design_views.save_circuit),
     url(r'api/interact$', design_views.interact),
     url(r'api/simulation$', design_views.simulation),
 
