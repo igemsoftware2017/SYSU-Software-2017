@@ -23,7 +23,7 @@ $('.back').add('i.chevron.left.icon')
 let designId = $('#part').attr('circuit-id');
 let design;
 if (designId != -1) {
-    $.get(`/api/get_circuit?id=${designId}`, (value) => {
+    $.get(`/api/circuit?id=${designId}`, (value) => {
         design = new SDinDesign('#part', value, {});
     });
 }

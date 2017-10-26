@@ -4,7 +4,7 @@
 /* global SDinDesign */
 
 let design;
-$.get(`/api/get_circuit?id=${$('#canvas-box').attr('design-id')}`, (value) => {
+$.get(`/api/circuit?id=${$('#canvas-box').attr('design-id')}`, (value) => {
     design = new SDinDesign('#canvas', value, {});
 });
 
