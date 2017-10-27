@@ -458,12 +458,16 @@ def load_circuits(circuits_floder_path, is_work = True):
                             if sheet.cell(i, 0).value == 'parts and others':
                                 row = i + 2
                                 while isinstance(sheet.cell(row, 0).value, float):
+                                    name = sheet.cell(row, 1).value
+                                    if name.find('BBa') != 0:
+                                        name = 'BBa_' + name
                                     try:
-                                        p = Parts.objects.get(Name = sheet.cell(row, 1).value)
+                                        p = Parts.objects.get(Name = name)
                                     except:
+                                        print(name + ' not found.')
                                         p = Parts.objects.create(
-                                                Name = sheet.cell(row, 1).value,
-                                                Type = sheet.cell(row, 2).value)
+                                                Name = name,
+                                                Type = sheet.cell(row, 2).value.lower())
                                     try:
                                         cp = CircuitParts.objects.create(
                                                 Part = p,
