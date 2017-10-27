@@ -14,18 +14,19 @@ $('.collection').css({
 $('#right-panel').css({
     left: `calc(2em + ${leftBlank} + ${$('#detail-container').outerWidth()}px + 20px)`,
     top: $('#detail-container').offset().top,
-    width: 342,
-    height: 406
+    width: 342
 });
 
 $('.back').add('i.chevron.left.icon')
     .on('click', () => { history.back(); });
 
+let designId = $('#part').attr('circuit-id');
 let design;
-$.get('/get_circuit_test', (value) => {
-    let data = JSON.parse(value);
-    design = new SDinDesign('#part', data, {});
-});
+if (designId != -1) {
+    $.get(`/api/circuit?id=${designId}`, (value) => {
+        design = new SDinDesign('#part', value, {});
+    });
+}
 $(window)
     .on('keydown', (event) => {
         if (event.ctrlKey === true)

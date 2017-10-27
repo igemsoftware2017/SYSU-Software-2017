@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Search result - S-Din</title>
 
+    <link rel="stylesheet" href="/static/css/fontsize.css">
     <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/menu.min.css">
@@ -24,7 +25,7 @@
         <a class="item" href="/search/paper?q={{ request.GET.q }}">Paper</a>
       </div>
       <div class="line" id="also-try">
-        Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
+        Also try: {% for k in keywords %}<a href="/search/work?q={{ k }}">{{ k }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}
       </div>
       <div class="line">
         <code>{{ resultsCount }}</code><span id="result-span">RESULTS</span>
@@ -55,9 +56,9 @@
         <div class="ui items">
           {% for work in works %}
           <div class="link item">
-            <div class="image" style="background-image: url('/{{ work.image }}')"></div>
+            <div class="image" style="background-image: url('{{ work.logo }}')"></div>
             <div class="content">
-              <a class="ui header" href="/work?id={{ work.id }}">{{ work.year }}-{{ work.projectName }}| <span class="smaller">{{ work.school }}</span></a>
+              <a class="ui header" href="/work?id={{ work.id }}">{{ work.projectName }}| <span class="smaller">{{ work.year }}-{{ work.school }}</span></a>
               <img class="medal" src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
               <div class="description">
                 <p>{{ work.description }}</p>

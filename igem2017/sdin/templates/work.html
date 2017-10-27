@@ -42,7 +42,7 @@
         {% endfor %}
       </div>
       <div id="part-container">
-        <div class="part-canvas" id="part"></div>
+        <div class="part-canvas" id="part" circuit-id="{{ designId }}"></div>
         <div class="part-table">
           <table class="ui fixed striped table">
             <thead>
@@ -65,23 +65,28 @@
         </div>
       </div>
     </div>
-    <div id="right-panel"></div>
+    <div id="right-panel">
+      <h4 class="ui header">Rewards</h4>
+        {% for reward in rewards %}
+        <img src="/static/img/medal.png" alt=""><p>{{ reward }}</p>
+        {% endfor %}
+    </div>
 
     <div class="ui page dimmer">
       <div class="content">
-         <div class="center">test</div>
+        <div class="center">test</div>
       </div>
     </div>
 
     {% include "login-modal.html" %}
 
-  <script src="/static/js/jquery.min.js"></script>
-  <script src="/static/js/jquery-ui/jquery-ui.min.js"></script>
-  <script src="/static/js/jquery.mousewheel.min.js"></script>
-  <script src="/static/semantic/dist/semantic.js"></script>
-  <script src="/static/js/search-box.js"></script>
-  <script src="/static/js/jsplumb.js"></script>
-  <script src="/static/js/canvas.js"></script>
-  <script src="/static/js/work.js"></script>
-  <script src="/static/js/login.js"></script>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/static/js/jquery.mousewheel.min.js"></script>
+    <script src="/static/semantic/dist/semantic.js"></script>
+    <script src="/static/js/search-box.js"></script>
+    <script src="/static/js/jsplumb.js"></script>
+    <script src="/static/js/canvas.js"></script>
+    <script src="/static/js/work.js"></script>
+    <script src="/static/js/login.js"></script>
 </html>

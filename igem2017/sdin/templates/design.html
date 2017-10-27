@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Design - S-Din</title>
+    <link rel="stylesheet" href="/static/css/fontsize.css">
     <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="/static/css/design.css">
     <link rel="stylesheet" href="/static/css/canvas.css">
@@ -53,6 +54,9 @@
         </span>
         <div class="right menu">
           <span class="item">
+            <h4 id="safety" class="ui red header">High risk</h4>
+          </span>
+          <span class="item">
             <i class="large user outline link icon" id="signin-button"></i>
           </span>
           <span class="item">
@@ -63,7 +67,7 @@
     </div>
 
     <!-- Main canvas -->
-    <div id="canvas-box">
+    <div id="canvas-box" design-id="{{ request.GET.id }}">
       <div id="canvas"></div>
     </div>
 
@@ -71,37 +75,36 @@
     <div id="part-panel-dropper"></div>
     <div id="part-panel" class="window">
       <div class="nav">
-        <h5 class="ui header">元件</h5>
+        <h5 class="ui header">Parts</h5>
         <i id="part-panel-button" class="link icon angle double right"></i>
       </div>
       <div class="content">
         <div id="search-parts-dropdown" class="ui fluid search selection dropdown">
           <i class="dropdown icon"></i>
-          <div class="default text">请输入元件编号</div>
+          <div class="default text">Search BBa...</div>
         </div>
         <div class="tab-context">
           <div class="ui top attached tabular menu">
-            <div class="active item" data-tab="src-tab">元件来源通路</div>
+            <div class="active item" data-tab="src-tab">Source circuit</div>
           </div>
           <div id="part-src-seg" class="ui bottom attached active tab segment" data-tab="src-tab">
             <div class="ui centered fluid image">
               <img src="/static/img/design/circuit.png" alt="">
             </div>
             <div id="part-src-divider" class="ui divider"></div>
-            <a id="part-src-more" href="/detail">查看详细信息</a>
+            <a id="part-src-more" href="/detail">Check details</a>
           </div>
         </div>
         <div class="tab-context">
           <div class="ui top attached tabular menu">
-            <div class="active item" data-tab="info-tab">元件信息</div>
-            <div class="item" data-tab="func-tab">功能</div>
+            <div class="active item" data-tab="info-tab">Part information</div>
           </div>
           <div class="ui bottom attached active tab segment" data-tab="info-tab">
-            <img id="part-info-img" class="ui centered tiny image" src="/static/img/design/RBS.png" alt="">
-            <h5 id="part-info-name" class="ui center aligned header">元件名称</h5>
+            <img id="part-info-img" class="ui centered tiny image" src="/static/img/design/unknown.png" alt="">
+            <h5 id="part-info-name" class="ui center aligned header"></h5>
             <div class="ui divider"></div>
             <div id="part-info-des">
-              <h5 class="ui header">描述：</h5>
+              <h5 class="ui header">Description:</h5>
               <p>Adipisicing soluta laboriosam consequatur lorem exercitationem Sequi labore explicabo eius nisi possimus Aperiam quisquam tenetur quos sit ex? Eum quibusdam magnam quam iure ipsa unde sit? Earum error tempora amet assumenda eum perspiciatis. Earum porro maxime ad nostrum doloribus Eius.</p>
             </div>
           </div>
@@ -113,7 +116,7 @@
     <!-- Favourite window (floating) -->
     <div id="fav-win" class="window">
       <div class="nav">
-        <h5 class="ui header">收藏夹</h5>
+        <h5 class="ui header">Favourite</h5>
         <i id="fav-win-button" class="link icon remove"></i>
       </div>
       <div class="content">
@@ -208,8 +211,9 @@
     </div>
 
     <!-- Add part modal -->
+    <!--
     <div id="add-part-modal" class="ui tiny modal">
-      <div class="header"><i class="setting icon"></i>添加元件</div>
+      <div class="header"><i class="setting icon"></i>Add a custom part</div>
       <div class="content">
         假装这里有张图
       </div>
@@ -218,10 +222,11 @@
         <div id="add-part-from-new" class="ui button">新建元件</div>
       </div>
     </div>
+    -->
 
     <!-- Creating new part modal -->
     <div id="new-part-modal" class="ui tiny modal">
-      <div class="header">新建元件</div>
+      <div class="header">Add a custom part</div>
       <div class="content">
         <form class="ui form">
           <div class="field">
@@ -253,7 +258,7 @@
         </form>
       </div>
       <div class="actions">
-        <div id="add-new-part" class="ui button">添加该元件</div>
+        <div id="add-new-part" class="ui button">Add this part to database!</div>
       </div>
     </div>
       
@@ -264,7 +269,7 @@
     </div>
 
     <!-- Clear all modal -->
-    <div class="ui basic modal">
+    <div id="clear-all-modal" class="ui basic modal">
       <div class="ui icon header">
         <i class="trash icon"></i>
         Clear canvas
@@ -284,15 +289,46 @@
       </div>
     </div>
 
+    <!-- Simulation result modal -->
+    <div id="simulation-modal" class="ui modal">
+      <div class="header">Simulation results</div>
+      <div class="content">
+        <canvas id="simulation-result" width="800px" height="400px"></canvas>
+      </div>
+    </div>
+
+    <!-- High risk modal -->
+    <div id="safety-modal" class="ui basic modal">
+      <div class="ui icon header">
+        <i class="warning icon"></i>
+        Warning!
+      </div>
+      <div class="content">
+        <p>Please check your design again in case of using any potential risky part! We don't recommend you to use parts with <b>high risk</b> ground. Change them into safe parts?</p>
+      </div>
+      <div class="actions">
+        <div class="ui red basic cancel inverted button">
+          <i class="left chevron icon"></i>
+          Back to edit
+        </div>
+        <div class="ui green ok inverted button" id="continue-save">
+          No, continue to save
+          <i class="right chevron icon"></i>
+        </div>
+      </div>
+    </div>
+
     {% include "login-modal.html" %}
   </body>
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/js/jquery-ui/jquery-ui.min.js"></script>
   <script src="/static/js/jquery.mousewheel.min.js"></script>
   <script src="/static/semantic/dist/semantic.js"></script>
+  <script src="/static/semantic/dist/components/popup.min.js"></script>
   <script src="/static/semantic/dist/components/tab.min.js"></script>
   <script src="/static/js/jsplumb.js"></script>
   <script src="/static/js/html2canvas.js"></script>
+  <script src="/static/js/Chart.min.js"></script>
   <script src="/static/js/canvas.js"></script>
   <script src="/static/js/design.js"></script>
   <script src="/static/js/login.js"></script>

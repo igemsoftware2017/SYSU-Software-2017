@@ -86,7 +86,7 @@ body {
 .ui.items>.item>.image>p {
   margin-bottom: 0;
 }
-.ui.items>.item>.image>divider {
+.ui.items>.item>.image>.ui.divider {
   margin: 0;
 }
 .ui.items>.item>.content {
