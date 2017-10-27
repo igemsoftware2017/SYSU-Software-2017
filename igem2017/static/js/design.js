@@ -576,8 +576,7 @@ $('#interactive-button')
                 $('.ui.dimmer:first .loader')
                     .text('Loading interact data...');
                 $('.ui.dimmer:first').dimmer('show');
-                //$.get(`/api/interact?id=${id}`, (value) => {
-                $.get('/api/interact?id=257917', (value) => {
+                $.get(`/api/interact?id=${id}`, (value) => {
                     let table = $('<div></div>')
                         .append('<h5 class="ui header">Predicted interaction</h5>')
                         .append('<table></table>')
@@ -600,7 +599,6 @@ $('#interactive-button')
                         rows.push(row);
                     });
 
-                    console.log(table.html());
                     $('.ui.dimmer:first').dimmer('hide');
                     $(this).popup({
                         variation: 'flowing',
@@ -660,12 +658,13 @@ $('#simulation-button')
                     label: data.partName[i],
                     data: [],
                     fill: false,
+                    pointRadius: 0,
                     borderColor: `hsl(${i * 360 / v.result[0].length}, 100%, 80%)`,
                     backgroundColor: 'rgba(0, 0, 0, 0)'
                 });
             v.result.forEach((d) => {
                 d.forEach((x, i) => {
-                    datasets[i].data.push(x);
+                    datasets[i].data.push(x * 38);
                 });
             });
             new Chart($('#simulation-result'), {
