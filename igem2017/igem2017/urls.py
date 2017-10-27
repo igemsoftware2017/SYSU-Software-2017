@@ -34,6 +34,8 @@ urlpatterns = [
     url(r'^design$', design_views.design),
     url(r'^work$', main_views.work),
     url(r'^paper$', main_views.paper),
+    url(r'^keywords$', main_views.keywords),
+
 ] + \
 [
     # API urls

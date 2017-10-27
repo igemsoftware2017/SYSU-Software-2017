@@ -358,3 +358,13 @@ def interest(request):
         traceback.print_exc()
         return JsonResponse({
             'success': False})
+
+import json
+with open('sdin/tools/preload/others/daotu.json') as f:
+    daotu = json.load(f)
+
+def keywords(request):
+    '''
+    GET /keywords
+    '''
+    return JsonResponse(daotu)

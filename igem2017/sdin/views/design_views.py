@@ -149,7 +149,10 @@ def part(request):
                     'type': xxx
                 }
             ],
-            'parents': []
+            'works': [{
+                'year': xxx,
+                'teamname': xxx,
+                'id': xxx}]
         }
     '''
     if request.method == 'POST':
@@ -189,12 +192,16 @@ def part(request):
                 'name': x.child.Name,
                 'description': x.child.Description,
                 'type': x.child.Type} for x in sub_query]
-            par_query = SubParts.objects.filter(child = part)
-            part_dict['parents'] = [{
-                'id': x.parent.id,
-                'name': x.parent.Name,
-                'description': x.parent.Description,
-                'type': x.parent.Type} for x in par_query]
+            circuit_query = CircuitParts.objects.filter(Part = part).values('Circuit').distinct()
+            def _work (x):
+                circuit = Circuit.objects.get(pk = x['Circuit'])
+                w = circuit.works_set.all()[0]
+                return {
+                        'year' : w.Year,
+                        'teamname': w.Teamname,
+                        'id': w.id
+                    }
+            part_dict['works'] = [_work(x) for x in circuit_query]
 
             part_dict['success'] = True
             return JsonResponse(part_dict)
