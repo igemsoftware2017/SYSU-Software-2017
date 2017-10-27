@@ -9,12 +9,20 @@
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/css/custom.css">
     <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/keyword.css">
   </head>
   <body>
     {% include "nav.html" %}
 
     {% include 'search-box.html' %}
     <link rel="stylesheet" href="/static/css/search-box.css">
+
+    <div class="ui small modal" id="keyword-modal">
+      <div class="header">Keywords</div>
+      <div class="content">
+        <svg width="700" height="700"></svg>
+      </div>
+    </div>
 
     <div class="footer">
       <div class="left menu">
@@ -50,7 +58,9 @@
 
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/semantic/dist/semantic.js"></script>
+  <script src="/static/js/d3.min.js"></script>
   <script src="/static/js/login.js"></script>
   <script src="/static/js/search-box.js"></script>
   <script src="/static/js/index.js"></script>
+  <script src="/static/js/keyword.js"></script>
 </html>
