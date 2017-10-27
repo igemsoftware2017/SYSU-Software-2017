@@ -118,6 +118,9 @@ div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
 
 #part-src-seg {
   padding-bottom: calc(14px + 1rem + 4px);
+  max-height: 240px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 #part-src-divider {
   margin-bottom: 4px;
