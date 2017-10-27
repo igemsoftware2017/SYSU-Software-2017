@@ -600,7 +600,6 @@ $('#interactive-button')
                         rows.push(row);
                     });
 
-                    console.log(table.html());
                     $('.ui.dimmer:first').dimmer('hide');
                     $(this).popup({
                         variation: 'flowing',
@@ -660,12 +659,13 @@ $('#simulation-button')
                     label: data.partName[i],
                     data: [],
                     fill: false,
+                    pointRadius: 0,
                     borderColor: `hsl(${i * 360 / v.result[0].length}, 100%, 80%)`,
                     backgroundColor: 'rgba(0, 0, 0, 0)'
                 });
             v.result.forEach((d) => {
                 d.forEach((x, i) => {
-                    datasets[i].data.push(x);
+                    datasets[i].data.push(x * 38);
                 });
             });
             new Chart($('#simulation-result'), {
