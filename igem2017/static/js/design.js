@@ -3,10 +3,14 @@
 /* eslint-disable no-console */
 /* global SDinDesign */
 
+let designId = $('#canvas-box').attr('design-id');
 let design;
-$.get(`/api/circuit?id=${$('#canvas-box').attr('design-id')}`, (value) => {
-    design = new SDinDesign('#canvas', value, {});
-});
+if (designId !== '') {
+    $.get(`/api/circuit?id=${designId}`, (value) => {
+        design = new SDinDesign('#canvas', value);
+    });
+} else
+    design = new SDinDesign('#canvas');
 
 let fileReader = new FileReader();
 fileReader.onload = () => { design.design = JSON.parse(fileReader.result); };

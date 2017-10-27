@@ -137,7 +137,16 @@ class SDinDesign {
             this.enableAdd();
     }
 
-    constructor(canvas, design, option = {}) {
+    constructor(
+        canvas,
+        design = {
+            devices: [],
+            lines: [],
+            parts: [],
+            id: -1
+        },
+        option = {}
+    ) {
         this._canvas = canvas;
         this.parseOption(option);
         this._canvasPositionX = 0;
