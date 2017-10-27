@@ -263,6 +263,15 @@ function setPartPanel(id) {
             .children('img').attr('src', `/static/img/design/${data.type}.png`);
         $('#part-info-des>p')
             .text(data.description);
+        $('#source-list').html('');
+        data.works.forEach((w) => {
+            $('#source-list')
+                .append(`<li><a href="/work?id=${w.id}">${w.year}-${w.teamname}</li></a>`);
+        });
+        data.papers.forEach((p) => {
+            $('#source-list')
+                .append(`<li><a href="/paper?id=${p.id}">${p.title}</li></a>`);
+        });
     });
 }
 selectedPartHelper
