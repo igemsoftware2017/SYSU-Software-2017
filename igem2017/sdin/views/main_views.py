@@ -14,6 +14,8 @@ from django.contrib.auth.decorators import login_required
 
 from django.http import JsonResponse, HttpResponse
 
+import traceback
+
 Err = "Something wrong!"
 Inv = "Invalid form!"
 
@@ -160,6 +162,7 @@ uglyTable = {
     'software': 'Software',
     'therapeutics': 'Therapeutics'}
 
+
 def search_work(request):
     key = request.GET.get('q')
     year = request.GET.get('year')
@@ -176,7 +179,11 @@ def search_work(request):
             key_dict = x.__dict__
             break
     
-    res = requests.get(search_url + "?key=" + key)
+    if request.user.is_authenticated and request.user.interest != 'None':
+        interest = json.dumps(json.loads(request.user.interest)['interest'])
+    else:
+        interest = '[]'
+    res = requests.get(search_url + "?key=" + key + "&interest=" + interest)
     result = json.loads(res.text)
     parts = []
     works = []
@@ -318,3 +325,36 @@ def search_part(request):
             'resultsCount': len(parts),
             'parts': parts}
     return render(request, 'search/part.html', context)
+
+@login_required
+def interest(request):
+    '''
+    GET /api/interest (get user interests)
+    return: 
+        interest: ['xxx', 'xxx']
+
+
+    POST /api/interest (set user interests)
+        interest: ['xxx', 'xxx']
+    return:
+        success: true of false
+    '''
+    try:
+        if request.method == 'POST':
+            request.user.interest = request.POST['data']
+            request.user.save()
+            return JsonResponse({
+                'success': True})
+        else:
+            interests = request.user.interest
+            if interests == 'None':
+                interests = []
+            else:
+                interests = json.loads(interests)['interest']
+            return JsonResponse({
+                'success': True,
+                'interest': interests})
+    except:
+        traceback.print_exc()
+        return JsonResponse({
+            'success': False})

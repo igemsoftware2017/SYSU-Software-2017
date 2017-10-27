@@ -46,6 +46,8 @@ urlpatterns = [
     url(r'api/get_saves$', design_views.get_saves),
     url(r'api/interact$', design_views.interact),
     url(r'api/simulation$', design_views.simulation),
+    url(r'api/interest$', main_views.interest),
+
 
 ] + \
 [
