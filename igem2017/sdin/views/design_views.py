@@ -152,7 +152,13 @@ def part(request):
             'works': [{
                 'year': xxx,
                 'teamname': xxx,
-                'id': xxx}]
+                'id': xxx}],
+            'papers': [
+                'Titla': xxx,
+                'DOI': xxx,
+                'id': xxx,
+                'Authors' : xxx
+            ]
         }
     '''
     if request.method == 'POST':
@@ -193,20 +199,30 @@ def part(request):
                 'description': x.child.Description,
                 'type': x.child.Type} for x in sub_query]
             circuit_query = CircuitParts.objects.filter(Part = part).values('Circuit').distinct()
-            def _work (x):
+            part_dict['works'] = []
+            part_dict['papers'] = []
+            for x in circuit_query:
                 circuit = Circuit.objects.get(pk = x['Circuit'])
-                w = circuit.works_set.all()[0]
-                return {
-                        'year' : w.Year,
-                        'teamname': w.Teamname,
-                        'id': w.id
-                    }
-            part_dict['works'] = [_work(x) for x in circuit_query]
+                if circuit.works_set.count() > 0:
+                    w = circuit.works_set.all()[0]
+                    part_dict['works'].append({
+                            'year' : w.Year,
+                            'teamname': w.Teamname,
+                            'id': w.id
+                        })
+                elif circuit.papers_set.count() > 0:
+                    w = circuit.papers_set.all()[0]
+                    part_dict['papers'].append({
+                            'title': w.Title,
+                            'DOI': w.DOI,
+                            'authors': w.Authors,
+                            'id': w.id
+                        })
 
             part_dict['success'] = True
             return JsonResponse(part_dict)
         except:
-            raise
+            traceback.print_exc()
             return JsonResponse({ 'success': False })
 
 def interact(request):
