@@ -27,7 +27,7 @@ urlpatterns = [
     url(r'^search/work$', main_views.search_work),
     url(r'^search/paper$', main_views.search_paper),
     url(r'^search/part$', main_views.search_part),
-    url(r'^interest$', main_views.interest),
+    url(r'^interest$', main_views.interest_view),
     url(r'^register$', main_views.register),
     url(r'^login', main_views.login_view),
     url(r'^logout$', main_views.logout_view),

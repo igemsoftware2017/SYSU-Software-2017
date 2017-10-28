@@ -52,7 +52,7 @@ def logout_view(request):
     return redirect('/index')
 
 @login_required
-def interest(request):
+def interest_view(request):
     return render(request, 'interest.html')
 
 def register(request):
@@ -66,6 +66,7 @@ def register(request):
                         igem = form.cleaned_data["igem"]
                         )
                 messages.success(request, "Register successfully!")
+                return redirect('/interest')
             except IntegrityError:
                 messages.error(request, "Email already exists!")
             except:
