@@ -61,7 +61,7 @@ $('#ratio-dropdown')
                 $(this).data('initialized', true);
                 return;
             }
-            design.resizeDesign(value);
+            design.ratio = value;
         }
     });
 
@@ -253,14 +253,14 @@ function setPartPanel(id) {
         }
         selectedPart = data;
         $('#part-info-img')
-            .attr('src', `/static/img/design/${data.type}.png`)
+            .attr('src', `/static/img/design/${data.type.toLowerCase()}.png`)
             .draggable('enable');
         $('#part-info-name')
             .add(selectedPartHelper.children('b'))
             .text(data.name);
         selectedPartHelper
             .children('div')
-            .children('img').attr('src', `/static/img/design/${data.type}.png`);
+            .children('img').attr('src', `/static/img/design/${data.type.toLowerCase()}.png`);
         $('#part-info-des>p')
             .text(data.description);
         $('#source-list').html('');
