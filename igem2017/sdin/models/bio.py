@@ -5,6 +5,7 @@ from django.db import models
 
 class Parts(models.Model):
     Name = models.CharField(max_length = 50, unique = True, db_index = True)
+    secondName = models.TextField(default="Unknow")
     Description = models.TextField()
     Length = models.IntegerField(default = 0) # 0输出Unknow
     Part_rating = models.IntegerField(default = 0)#0输出Unknow

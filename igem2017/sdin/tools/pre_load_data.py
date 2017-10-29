@@ -41,7 +41,7 @@ def load_parts(parts_floder_path):
     Nameset = set()
     for root, dirs, files in os.walk(parts_floder_path):
         for name in files:
-            if "info" in name or "safety" in name or "score" in name:
+            if "info" in name or "safety" in name or "score" in name or "partsDescName" in name:
                 continue
             filepath = os.path.join(root, name)
             csv_reader = csv.reader(open(filepath, "r", encoding='utf-8'))
@@ -76,8 +76,29 @@ def load_parts(parts_floder_path):
     atomic_save(parts)
     print('Error: {0:6d}'.format(errors))
     all_parts = {p.Name: p for p in Parts.objects.all()}
+    load_part_secondName(parts_floder_path, all_parts)
     load_part_score_and_Safety(parts_floder_path, all_parts)
     load_part_info(parts_floder_path, all_parts)
+
+def load_part_secondName(parts_floder_path, all_parts):
+    filepath = join(parts_floder_path, 'partsDescName.csv')
+    reader = csv.reader(open(filepath, encoding='utf-8'))
+    print('  Loading %s...' % filepath)
+    errors = 0
+    parts = []
+    next(reader)
+    for row in reader:
+        part = all_parts[row[0].strip()]
+        try:
+            part.secondName = row[1].strip()
+            part.Description = row[2].strip()
+            parts.append(part)
+        except:
+            errors += 1
+            pass
+    print('Saving ...')
+    atomic_save(parts)
+    print('Error: {0:6d}'.format(errors))
 
 def load_part_score_and_Safety(parts_floder_path, all_parts):
     files = ["part_score.csv", "part_safety.csv"]
