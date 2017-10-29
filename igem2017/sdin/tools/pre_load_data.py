@@ -211,9 +211,10 @@ def load_works(works_floder_path):
         next(csv_reader)
         for row in csv_reader:
             try:
+                row[1] = row[1].strip()
                 works.append(Works(
                     TeamID = int(row[0]),
-                    Teamname = row[1],
+                    Teamname = row[1].strip(),
                     Region = row[2],
                     Country = row[3],
                     Track = row[4],
@@ -254,7 +255,8 @@ def load_Team_description(works_floder_path):
     next(csv_reader)
     for row in csv_reader:
         try:
-            work = Works.objects.get(Teamname = row[0].strip(), Year = int(row[1]))
+            row[0] = row[0].strip()
+            work = Works.objects.get(Teamname = row[0], Year = int(row[1]))
             work.SimpleDescription = row[2]
             work.Description = row[3]
             work.Keywords = row[4]
@@ -263,7 +265,27 @@ def load_Team_description(works_floder_path):
         except Exception as err3:
             errors += 1
             print(row[0], row[1])
-            break
+            #print(err3)
+            pass
+    print('Saving...')
+    atomic_save(works)
+    print('Error: {0:6d}'.format(errors))
+    print('Loading Team_description2...')
+    works = []
+    filepath = os.path.join(works_floder_path, "Team_description2.csv")
+    csv_reader = csv.reader(open(filepath, encoding='utf-8'))
+    errors = 0
+    next(csv_reader)
+    for row in csv_reader:
+        try:
+            cnt += 1
+            row[1] = row[1].strip()
+            work = Works.objects.get(Teamname=row[1], Year = int(row[0]))
+            work.SimpleDescription = row[2]
+            works.append(work)
+        except Exception as err3:
+            errors += 1
+            print(row[0], row[1])
             #print(err3)
             pass
     print('Saving...')
