@@ -419,7 +419,6 @@ function loadFavWin() {
                 </div>`;
             $('#fav-win>.content').append(data);
         });
-        console.log(data.parts);
         data.parts.forEach((v) => {
             let safety = SDinDesign.partSafetyLevels[v.safety];
             if (safety === undefined)
@@ -820,15 +819,40 @@ $('#simulation-button')
         });
     });
 
+let safetyPopupContent;
 $('#safety').popup({
-    title: 'Warning!',
-    content: 'Please check your design again in case of using any potential risky part! We don\'t recommend you to use parts with high risk ground. Change them into safe parts?',
     position: 'bottom right',
-    variation: 'wide popup'
+    variation: 'wide popup',
+    content: 'safety',
+    onShow: function() { console.log(safetyPopupContent); this.html(safetyPopupContent); }
 });
 
 function warning() {
     $('#safety').popup('show');
+}
+
+function updateSafety(safety) {
+    if (safety <= 1) {
+        $('#safety').removeClass('red yellow').addClass('green').text('Low risk');
+    } else if (safety === 2) {
+        $('#safety').removeClass('red green').addClass('yellow').text('Moderate risk');
+    } else if (safety === 3) {
+        $('#safety').removeClass('yellow green').addClass('red').text('High risk');
+    }
+
+    if (safety === 3) {
+        safetyPopupContent = `
+            <div class="header">Warning!</div>
+            <div class="content">Please check your design again in case of
+                using any potential risky part! We don\'t recommend you to
+                use parts with high risk ground. Change them into safe parts?</div>`;
+        $('#safety').popup('show');
+    } else {
+        $('#safety').popup('hide');
+        safetyPopupContent = `
+            <div class="header">Safe!</div>
+            <div class="content">Your design is now under an acceptable safety level.</div>`;
+    }
 }
 
 $(window)

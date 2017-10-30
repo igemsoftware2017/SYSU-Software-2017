@@ -212,7 +212,11 @@ class SDinDesign {
         $.each(this._design.devices, (_, device) => { this.addDevice(device); });
         $.each(this._design.parts, (_, part) => { this.addPart(part, 1, undefined); });
         $.each(this._design.lines, (_, link) => { this.addLink(link, false); });
+
         this.redrawDesign();
+
+        // TODO: fix updateSafety from other file
+        this.maxSafety(updateSafety);
     }
     combine(design) {
         this.recordHistory(`Combined design ID=${design.id}.`);
@@ -222,14 +226,15 @@ class SDinDesign {
         $.each(design2.parts, (_, part) => { this.addPart(part, 1, undefined); });
         $.each(design2.lines, (_, link) => { this.addLink(link, false); });
 
-        console.log(design2);
-
         this._design = {
             devices: this._design.devices.concat(design2.devices),
             lines: this._design.lines.concat(design2.lines),
             parts: this._design.parts.concat(design2.parts)
         };
         this.redrawDesign();
+
+        // TODO: fix updateSafety from other file
+        this.maxSafety(updateSafety);
     }
     convertFormat(design) {
         let tmp = design.parts.reduce((t, p) => { t[p.cid] = p; return t; }, {});
@@ -369,8 +374,9 @@ class SDinDesign {
                     $(this).css({ backgroundColor: 'rgba(255, 0, 0, 0.1)' });
                 },
                 drop: function() {
-                    // TODO: fix selectedPart from other file
+                    // TODO: fix selectedPart, updateSafety from other file
                     that.insertPart(data, selectedPart, $(this).attr('dropper-id'));
+                    that.maxSafety(updateSafety);
                 }
             });
     }
@@ -713,9 +719,11 @@ class SDinDesign {
                 $(this).css({ backgroundColor: '' });
             },
             drop: function(event) {
+                // TODO: fix selectedPart, updateSafety from other file
                 $(this).css({ backgroundColor: '' });
                 let partData = $.extend(true, {}, selectedPart);
-                partData.id = that._nextPartId;
+                if (partData.id === undefined)
+                    partData.id = that._nextPartId;
                 partData.cid = that._nextPartCid;
                 let x = event.offsetX / that._size.unit - that._canvasPositionX;
                 let y = event.offsetY / that._size.unit - that._canvasPositionY;
@@ -733,6 +741,7 @@ class SDinDesign {
                     that.addPart(partData, 1, this._canvas);
                 }
                 that.redrawDesign();
+                that.maxSafety(updateSafety);
             }
         });
     }
@@ -765,5 +774,15 @@ class SDinDesign {
             design.unHighlightDevice($('.SDinDesign-device, .SDinDesign-part'));
             design.highlightDevice(item, 0.7);
         }
+    }
+
+    // get maximum safety
+    //   quite a workaround
+    //   need restruct
+    maxSafety(callback) {
+        let getData = {
+            ids: JSON.stringify(this.design.parts.map((v) => v.id))
+        };
+        $.get('/api/max_safety', getData ,(v) => callback(v.max_safety));
     }
 }

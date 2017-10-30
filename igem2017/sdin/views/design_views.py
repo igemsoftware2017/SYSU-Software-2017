@@ -469,3 +469,32 @@ def simulation(request):
             'result': result.tolist()
         })
     return 0
+
+def max_safety(request):
+    '''
+    GET /api/max_safety
+    param:
+        ids: array of int (as part id)
+    return:
+        maximum safety in these parts
+    '''
+    if request.method == 'GET':
+        try:
+            data = json.loads(request.GET['ids'])
+            parts = list(map(lambda i: Parts.objects.get(id = i), data))
+            for p in parts:
+                print(p.id, p.Safety)
+            max_safety_part = max(parts, key = lambda p: p.Safety)
+            return JsonResponse({
+                'status': 1,
+                'max_safety': max_safety_part.Safety
+            })
+        except:
+            traceback.print_exc()
+            return JsonResponse({
+                'status': 0
+            })
+    else:
+        return JsonResponse({
+            'status': 0
+        })
