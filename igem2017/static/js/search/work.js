@@ -3,15 +3,8 @@
 /* global Chart */
 
 // initializing position
-let leftBlank = `2rem + ${$('#logo').width()}px`;
-$('#result-container').css({
-    left: `calc(${leftBlank})`
-});
 $('#right-panel').css({
-    left: `calc(47rem + ${leftBlank})`,
     top: $('#result-list').offset().top,
-    width: '17rem',
-    height: '20rem'
 });
 
 $('.star.icon')

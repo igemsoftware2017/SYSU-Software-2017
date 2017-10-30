@@ -24,7 +24,7 @@
   border-color: #ffd405;
 }
 #result-container {
-  margin-left: 2rem;
+  margin-left: 10.5rem;
   margin-top: 1rem;
   width: 44rem;
   position: absolute;
@@ -157,4 +157,7 @@ div#tool-popup {
   position: absolute;
   background-color: white;
   padding: 1rem;
+  width: 17rem;
+  height: 20rem;
+  margin-left: 55.5rem;
 }

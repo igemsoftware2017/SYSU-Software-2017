@@ -6,15 +6,20 @@
 }
 #logo {
   width: 6.5rem;
-  position: absolute;
+  display: inline-block;
+  vertical-align: bottom;
 }
 #search-box {
   width: 44rem;
-  position: absolute;
+  margin-left: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 100%;
 }
 #search-edit  {
   border-radius: 0;
   border: 0;
+  /* height: 100%; */
 }
 #search-icon {
   pointer-events: auto;

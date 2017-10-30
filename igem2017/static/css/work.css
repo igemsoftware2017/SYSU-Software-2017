@@ -4,24 +4,8 @@
 #nav {
   background-color: transparent;
 }
-#info-bar {
-  top: -100px;
-}
-#info-bar>.ui.container>.item {
-  border-left: none;
-}
-#info-bar>.ui.container>.item:before {
-  width: 0;
-}
-#info-bar>.ui.container>.item>h4 {
-  padding-left: 1em;
-  padding-right: 1em;
-}
 #index-button {
   border: 0;
-}
-.ui.main.container {
-  margin-top: 6em;
 }
 body {
   background-image: url("/static/img/detail-back.jpg");
@@ -30,75 +14,77 @@ body {
 }
 #detail-container {
   position: absolute;
-  margin-left: 2em;
-  margin-top: 20;
-  padding-left: 36px;
-  padding-right: 36px;
-  padding-bottom: 20px;
+  left: 10.5rem;
+  margin-top: 1rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  padding-bottom: 1rem;
   background-color: white;
-  width: 1084px;
+  width: 50rem;
 }
 #detail-container>.back-icon {
   position: absolute;
-  top: 0px;
-  left: 36px;
+  top: 0;
+  left: 1.8rem;
   color: #6b6969;
-  line-height: 60px;
+  line-height: 3rem;
   vertical-align: middle;
 }
 #detail-container>.back {
-  margin-left: 38px;
-  font-size: 25px;
+  margin-left: 2rem;
+  font-size: 1.25rem;
   color: #6b6969;
   cursor: pointer;
-  line-height: 60px;
+  line-height: 3rem;
   vertical-align: middle;
 }
 #detail-container>.title {
-  margin-left: 38px;
-  font-size: 1.75em;
+  margin-left: 2rem;
+  font-size: 1.75rem;
   color: #333333;
   font-weight: 500;
   line-height: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 #detail-container>.title>.year {
-  margin-left: 1ex;
+  margin-left: 1rex;
   font-weight: 300;
 }
 #detail-container>.reads {
-  margin-left: 38px;
-  line-height: 1em;
-  font-size: 1em;
+  margin-left: 2rem;
+  line-height: 1rem;
+  font-size: 1rem;
   color: #6b6969;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 #detail-container>.collection {
   position: absolute;
-  right: 74px;
-  font-size: 1.25em;
+  right: 3.7rem;
+  font-size: 1rem;
   color: #333333;
+  top: 5.75rem;
+  line-height: 1rem;
 }
 #detail-container>.description {
-  width: 930px;
-  margin-left: 38px;
-  margin-bottom: 1em;
-  line-height: 1em;
-  font-size: 1em;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  line-height: 1rem;
+  font-size: 1rem;
   color: #333333;
 }
 #detail-container>.images {
-  height: 80px;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-bottom: 20px;
+  height: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
   overflow-x: auto;
   overflow-y: hidden;
 }
 #detail-container>.images>.image {
-  max-width: 122px;
-  height: 82px;
-  margin-right: 29px;
+  max-width: 5.3rem;
+  height: 4rem;
+  margin-right: 1.5rem;
   display: inline-block;
 }
 #detail-container>.images>.image:last-child {
@@ -109,40 +95,39 @@ body {
   height: 100%;
 }
 #part-container {
-  width: 1004px;
-  height: 348px;
+  height: 17rem;
   background-color: #f8f8f8;
 }
 #part-container>.part-canvas {
-  width: 563px;
-  height: 280px;
-  border: blue solid 1px;
+  width: 26rem;
+  height: 16rem;
+  border-radius: 0;
   background-color: white;
   display: inline-block;
-  margin: 10px;
+  margin: 0.5rem;
   overflow: hidden;
   position: relative;
 }
 #part-container>.part-table {
-  width: 362px;
-  height: 273px;
+  width: 18rem;
+  height: 16rem;
   display: inline-block;
-  margin: 10px;
+  margin: 0.5rem;
   overflow-y: auto;
 }
 #part-container>.part-table>table th,tr {
   text-align: center;
 }
 #part-container>.part-table>table th {
-  font-size: 20px;
+  font-size: 1rem;
   color: #807d7d;
   font-weight: 500;
   padding: 0;
 }
 #part-container>.part-table>table tr {
-  font-size: 18px;
+  font-size: 0.9rem;
   color: #333333;
-  height: 44px;
+  height: 2.2rem;
 }
 #part-container>.part-table>table td {
   padding: 0;
@@ -150,20 +135,23 @@ body {
 #right-panel {
   position: absolute;
   background-color: white;
-  padding: 1em;
+  padding: 1rem;
+  width: 17rem;
+  margin-left: 61.5rem;
+  font-size: 1rem;
 }
 #right-panel .ui.header {
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 #right-panel img {
   display: inline-block;
-  height: 1.5em;
+  height: 1.5rem;
   width: auto;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 #right-panel p {
   display: inline-block;
-  line-height: 1.5em;
+  line-height: 1.5rem;
   vertical-align: top;
 }
 div.ui.page.dimmer img {

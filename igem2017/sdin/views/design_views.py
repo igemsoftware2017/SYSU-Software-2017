@@ -70,13 +70,14 @@ def tag_favorite(request):
                 if not UserFavorite.objects.filter(user = request.user, circuit = circuit).exists():
                     UserFavorite.objects.create(circuit = circuit, user = request.user)
             else:
-                UserFavorite.objects.get(user = request.user, circuit = circuit)
-                UserFavorite.delete()
-            return HttpResponse(json.dumps({
-                'status': 1}))
+                UserFavorite.objects.get(user = request.user, circuit = circuit).delete()
+            return JsonResponse({
+                'status': True
+            })
         except:
-            return HttpResponse(json.dumps({
-                'status': 0}))
+            return JsonResponse({
+                'status': True
+            })
 
 @login_required
 def part_favorite(request):
@@ -95,8 +96,7 @@ def part_favorite(request):
                 if not FavoriteParts.objects.filter(user = request.user, part = part).exists():
                     FavoriteParts.objects.create(part = part, user = request.user)
             else:
-                FavoriteParts.objects.get(user = request.user, part = part)
-                FavoriteParts.delete()
+                FavoriteParts.objects.get(user = request.user, part = part).delete()
             return HttpResponse(json.dumps({
                 'status': 1}))
         except:

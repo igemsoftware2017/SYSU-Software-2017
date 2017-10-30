@@ -1,11 +1,7 @@
 'use strict';
 
-$('#search-box-container').css({
-    height: $('#logo').height()
-});
 $('#search-box').css({
-    left: `calc(2em + ${$('#logo').width()}px)`,
-    top: ($('#search-box-container').height() - $('#search-box').height()) / 2
+    height: $('#logo').height()
 });
 
 function search(q) {

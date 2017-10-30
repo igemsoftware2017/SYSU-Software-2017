@@ -2,19 +2,8 @@
 
 /* global SDinDesign */
 
-// initializing position
-let leftBlank = `2em + ${$('#logo').width()}px`;
-$('#detail-container').css({
-    left: `calc(${leftBlank})`
-});
-$('.collection').css({
-    top: $('.reads').position().top + $('.reads').outerHeight() - $('.collection').outerHeight()
-});
-
 $('#right-panel').css({
-    left: `calc(2em + ${leftBlank} + ${$('#detail-container').outerWidth()}px + 20px)`,
     top: $('#detail-container').offset().top,
-    width: 342
 });
 
 $('.back').add('i.chevron.left.icon')
@@ -47,3 +36,23 @@ $('div#detail-container > div.images > div.image > img')
         });
         $('div.ui.page.dimmer').dimmer('show');
     });
+
+$('#collect-circuit').on('click', function() {
+    let newVal = $(this).hasClass('empty') ? 1 : 0;
+    $(this).addClass('loading');
+    let postData = {
+        data: JSON.stringify({
+            circuit_id: $('#part').attr('circuit-id'),
+            tag: newVal
+        }),
+        csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+    };
+    $.post('/api/tag_favorite', postData, (data) => {
+        console.log(data, data.status);
+        $(this).removeClass('empty star icon loading');
+        let val = (data.status === true) ? newVal : 1 - newVal;
+        let cls = (val === 1) ? 'star icon' : 'empty star icon';
+        console.log(newVal, val, cls);
+        $(this).addClass(cls);
+    });
+});
