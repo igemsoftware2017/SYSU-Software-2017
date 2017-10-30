@@ -490,21 +490,34 @@ $('#add-new-part')
         });
     });
 
-function createDownload(fileName, content) {
+function createJsonDownload(fileName, content) {
     let aLink = $('<a></a>');
     aLink
         .attr('download', fileName)
         .attr('href', `data:application/json;base64,${btoa(JSON.stringify(content))}`);
     aLink[0].click();
 }
+function createPngDownload(fileName, canvas) {
+    let aLink = $('<a></a>');
+    aLink
+        .attr('download', fileName)
+        .attr('href', canvas.toDataURL('image/png'));
+    aLink[0].click();
+}
 $('#export-button')
     .on('click', function() {
-        createDownload('design.json', design.design);
+        createJsonDownload('design.json', design.design);
     });
 
 $('#save-button')
     .on('click', function() {
     });
+
+$('#image-button').on('click', function() {
+    html2canvas($('#canvas'), {
+        onrendered: (canvas) => createPngDownload('design.png', canvas)
+    });
+});
 
 let currentMode = 'modifyItem';
 const modes = {
