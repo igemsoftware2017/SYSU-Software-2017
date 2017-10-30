@@ -90,6 +90,39 @@ $('.window')
         handles: 's, w, sw'
     });
 
+$('#undo-button').on('click', function() {
+    design.undo();
+    let t = design.canUndo;
+    if (t === false)
+        t = 'Unable to undo.';
+    $(this).popup('get popup').html(t);
+}).popup({
+    variation: 'small popup',
+    content: 'undo',
+    onShow: function() {
+        let t = design.canUndo;
+        if (t === false)
+            t = 'Unable to undo.';
+        this.html(t);
+    }
+});
+$('#redo-button').on('click', function() {
+    design.redo();
+    let t = design.canRedo;
+    if (t === false)
+        t = 'Unable to redo.';
+    $(this).popup('get popup').html(t);
+}).popup({
+    variation: 'small popup',
+    content: 'redo',
+    onShow: function() {
+        let t = design.canRedo;
+        if (t === false)
+            t = 'Unable to redo.';
+        this.html(t);
+    }
+});
+
 // Part panel
 $('#part-panel')
     .resizable('option', 'minWidth', 200);
@@ -586,6 +619,10 @@ $('#connection-dropdown-button')
         $('.SDinDesign-part, .SDinDesign-device').data('connectionSelected', false);
     });
 function finishNewConnection() {
+    if (newConnectionType === 'delete')
+        design.recordHistory(`Delete connection [${newConnectionSource}, ${newConnectionTarget}].`);
+    else
+        design.recordHistory(`New ${newConnectionType} connection [${newConnectionSource}, ${newConnectionTarget}].`);
     let data = {
         start: parseInt(newConnectionSource, 10),
         end: parseInt(newConnectionTarget),
