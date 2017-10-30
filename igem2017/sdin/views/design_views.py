@@ -43,15 +43,25 @@ def get_favorite(request):
         }]
     '''
     query_set = UserFavorite.objects.filter(user = request.user)
-    favorites = [{
+    favorites_circuit = [{
         'id': x.circuit.id,
         'name': x.circuit.Name,
         'description': x.circuit.Description,
         'author': x.circuit.Author.id if x.circuit.Author != None else None
         } for x in query_set]
+    query_set = FavoriteParts.objects.filter(user = request.user)
+    favorites_part = [{
+        'id': x.part.id,
+        'name': x.part.secondName,
+        'BBa': x.part.Name,
+        'type': x.part.Type,
+        'safety': x.part.Safety
+        } for x in query_set]
     return JsonResponse({
-            'status': 1,
-            'circuits': favorites})
+        'status': 1,
+        'circuits': favorites_circuit,
+        'parts': favorites_part
+    })
 
 @login_required
 def tag_favorite(request):

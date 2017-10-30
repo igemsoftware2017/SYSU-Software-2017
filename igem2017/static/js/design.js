@@ -246,6 +246,13 @@ $('#search-parts-dropdown')
         onChange: (value) => { setPartPanel(value); }
     });
 function setPartPanel(id) {
+    if (selectedPart !== undefined && selectedPart.id === id) {
+        $('#part-info-tab').transition({
+            animation: 'flash',
+            duration: '0.5s'
+        });
+        return;
+    }
     $.get(`/api/part?id=${id}`, (data) => {
         if (data.success !== true) {
             console.error(`Get part info failed. ID: ${id}`);
@@ -347,12 +354,33 @@ function loadFavWin() {
             return;
         data.circuits.forEach((v) => {
             let data = `
-                <div class="ui segment">
+                <div class="ui segment fav-cir-seg">
                   <div class="combine-circuit-button" data-id=${v.id}><i class="plus icon"></i></div>
                   <p><b>${v.name}</b> by <b>${v.author}</b></p>
                   <p><b>Description:</b> ${v.description}</p>
                 </div>`;
             $('#fav-win>.content').append(data);
+        });
+        console.log(data.parts);
+        data.parts.forEach((v) => {
+            let safety = SDinDesign.partSafetyLevels[v.safety];
+            if (safety === undefined)
+                safety = 'Unknown risk';
+            let data = `
+                <div class="ui segment fav-part-seg" data-id=${v.id}>
+                  <img src="/static/img/design/${v.type.toLowerCase()}.png"></img>
+                  <p><b>BBa:</b> ${v.BBa}</p>
+                  <p><b>Name:</b> ${v.name}</p>
+                  <p><b>Safety level:</b> ${safety}</p>
+                </div>`;
+            $('#fav-win>.content').append(data);
+        });
+        $('.fav-part-seg').off('click').on('click', function() {
+            $(this).transition({
+                animation: 'pulse',
+                duration: '0.2s'
+            });
+            setPartPanel($(this).data('id'));
         });
         $('.combine-circuit-button').off('click').on('click', function() {
             $.get(`/api/circuit?id=${$(this).data('id')}`, (value) => {

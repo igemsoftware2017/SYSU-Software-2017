@@ -66,6 +66,9 @@
   right: 400px;
   max-height: 600px;
 }
+.fav-part-seg {
+  cursor: pointer;
+}
 #fav-win>.content>.ui.segment>.combine-circuit-button {
   background-color: #eee;
   width: 2rem;
@@ -77,13 +80,20 @@
   cursor: pointer;
   line-height: 2rem;
   text-align: center;
+  transition: opacity 0.2s ease;
 }
 #fav-win>.content>.ui.segment>.combine-circuit-button>i {
   margin-right: 0;
   pointer-event: none;
+  animation: 
 }
 #fav-win>.content>.ui.segment p {
   margin: 0;
+}
+#fav-win>.content>.ui.segment img {
+  width: 4rem;
+  height: auto;
+  float: right;
 }
 
 /* Toolbox */
