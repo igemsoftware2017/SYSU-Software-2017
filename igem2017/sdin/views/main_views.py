@@ -15,6 +15,7 @@ from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse, HttpResponse
 
 import traceback
+import json
 
 Err = "Something wrong!"
 Inv = "Invalid form!"
@@ -171,18 +172,48 @@ uglyTable = {
 def search_work(request):
     key = request.GET.get('q')
     year = request.GET.get('year')
+    if year == None:
+        year = 'any'
     medal = request.GET.get('medal')
+    if medal == None:
+        medal = 'any'
     track = request.GET.get('track')
+    if track == None:
+        track = 'any'
+    if track != 'any':
+        track = uglyTable[track]
 
     # TODO For test, ugly, will be changed later
     keys = key.split()
+    true_keys = []
+
     key_dict = {}
+    q = Keyword.objects.all()
+    d = list(filter(lambda x: x.name in key, q))
+    for i in d:
+        if 'name' not in key_dict or len(key_dict['name']) < len(i.name):
+            key_dict = i.__dict__
+
     for i in keys:
         keyword_query = Keyword.objects.filter(name__contains = i)
-        if keyword_query.count() > 0:
-            x = keyword_query[0]
-            key_dict = x.__dict__
-            break
+        filter_key = False
+        for j in keyword_query:
+            if j._type == 'year' and (year == 'any' or year == j.name):
+                year = j.name
+                filter_key = True
+            elif j._type == 'track' and (track == 'any' or track == j.name):
+                track = j.name
+                filter_key = True
+            elif j._type == 'medal' and (medal == 'any' or medal == j.name):
+                medal = j.name
+                filter_key = True
+
+        if not filter_key:
+            true_keys.append(i)
+
+    if 'link' in key_dict:
+        key_dict['link'] = json.loads(key_dict['link'])
+    key = ''.join(map(str, true_keys))
     
     if request.user.is_authenticated and request.user.interest != 'None':
         interest = json.dumps(json.loads(request.user.interest)['interest'])
@@ -190,6 +221,7 @@ def search_work(request):
         interest = '[]'
     res = requests.get(search_url + "?key=" + key + "&interest=" + interest)
     result = json.loads(res.text)
+
     parts = []
     works = []
     keywords = []
@@ -232,9 +264,9 @@ def search_work(request):
 
                 if year is not None and year != 'any' and w.Year != int(year):
                     continue
-                if medal is not None and medal != 'any' and medal not in w.Medal:
+                if medal is not None and medal != 'any' and w.Medal != medal:
                     continue
-                if track is not None and track != 'any' and w.Track != uglyTable[track]:
+                if track is not None and track != 'any' and w.Track != track:
                     continue
 
                 awards = w.Award.split(';')

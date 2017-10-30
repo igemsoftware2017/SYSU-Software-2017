@@ -694,19 +694,19 @@ def load_additional(path):
     explain = medalXls[0]
     val = get_value(explain)
 
-    gm = Keyword.objects.create(name = val(1, 0),
+    gm = Keyword.objects.create(name = 'gold',
             description = val(1,1),
             link = json.dumps(['http://' + val(1,2)]),
             picture = val(1,3),
             _type = "medal")
 
-    sm = Keyword.objects.create(name = val(2, 0),
+    sm = Keyword.objects.create(name = 'silver',
             description = val(2,1),
             link = json.dumps(['http://' + val(2,2)]),
             picture = val(2,3),
             _type = "medal")
 
-    bm = Keyword.objects.create(name = val(3, 0),
+    bm = Keyword.objects.create(name = 'bronze',
             description = val(3,1),
             link = json.dumps(['http://' + val(3,2)]),
             picture = val(3,3),
@@ -754,7 +754,7 @@ def load_additional(path):
                 link = json.dumps(['http://' + val(i, 2)]) if val(i, 2) is not None else None,
                 picture = 'http:' + val(i, 3) if val(i, 3) is not None else None,
                 yearRelation = json.dumps([{int(val2(0, j)): val2(i, j) for j in range(1, 9)}]),
-                trackRelation = json.dumps([{val2(0, j): val2(i, j) for j in range(12, 28)}]),
+                trackRelation = json.dumps([{val2(0, j): val2(i, j) for j in range(11, 27)}]),
                 _type = "keyword")
 
     sp = xlrd.open_workbook(join(path, 'special prizes.xlsx')).sheets()
