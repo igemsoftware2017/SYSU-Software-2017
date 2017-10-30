@@ -139,17 +139,22 @@ function d3KeywordChart() {
         .enter().append('line')
         .attr('stroke-width', function(d) { return Math.sqrt(d.value); });
 
-    let node = svg.append('g')
+    let nodes_g = svg.append('g')
         .attr('class', 'nodes')
         .selectAll('circle')
         .data(graph.nodes)
-        .enter().append('circle')
+        .enter().append('g');
+    let node = nodes_g.append('circle')
         .attr('r', 25)
         .attr('fill', function(d) { return color(d.group); })
         .call(d3.drag()
             .on('start', dragstarted)
             .on('drag', dragged)
             .on('end', dragended));
+    let text = nodes_g.append('text')
+        .attr('dx', 12)
+        .attr('dy', '.35em')
+        .text((d) => d.id);
 
     node.append('title')
         .text(function(d) { return d.id; });
@@ -171,6 +176,9 @@ function d3KeywordChart() {
         node
             .attr('cx', function(d) { return d.x; })
             .attr('cy', function(d) { return d.y; });
+        text
+            .attr('dx', function(d) { return d.x - 30; })
+            .attr('dy', function(d) { return d.y; });
     }
 
     function dragstarted(d) {
@@ -189,5 +197,9 @@ function d3KeywordChart() {
         d.fx = null;
         d.fy = null;
     }
+
+    $('circle').on('click', function() {
+        search($(this).children('title').text());
+    });
 }
 d3KeywordChart();
