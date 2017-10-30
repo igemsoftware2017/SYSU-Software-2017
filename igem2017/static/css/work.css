@@ -41,12 +41,14 @@ body {
 #detail-container>.title {
   margin-left: 2rem;
   font-size: 1.75rem;
-  color: #333333;
   font-weight: 500;
   line-height: 1em;
   margin-bottom: 1rem;
 }
-#detail-container>.title>.year {
+#detail-container>.title>a {
+  color: #333333;
+}
+#detail-container>.title>a>.year {
   margin-left: 1rex;
   font-weight: 300;
 }
@@ -97,6 +99,7 @@ body {
 #part-container {
   height: 17rem;
   background-color: #f8f8f8;
+  position: relative;
 }
 #part-container>.part-canvas {
   width: 26rem;
@@ -107,6 +110,22 @@ body {
   margin: 0.5rem;
   overflow: hidden;
   position: relative;
+}
+#part-container>.part-button {
+  position: absolute;
+  background-color: #eeeeee;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  top: 1rem;
+  left: 23rem;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.25rem;
+}
+#part-container>.part-button>a {
+  margin-right: -0.4rem;
+  color: black;
 }
 #part-container>.part-table {
   width: 18rem;
@@ -157,4 +176,7 @@ body {
 div.ui.page.dimmer img {
   max-width: 90vw;
   max-height: 90vh;
+}
+.star.icon {
+  cursor: pointer;
 }

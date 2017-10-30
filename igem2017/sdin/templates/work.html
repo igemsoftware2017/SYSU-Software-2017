@@ -26,7 +26,7 @@
         back
       </div>
       <div class="title">
-        {{ projectName }}<span class="year">{{ year }}</span>
+        <a href="http://{{ year }}.igem.org/Team:{{ teamName }}">{{ projectName }}<span class="year">{{ year }}-{{ teamName }}</span></a>
       </div>
       <div class="reads">
         {{ readCount }} reading
@@ -47,6 +47,7 @@
       </div>
       <div id="part-container">
         <div class="part-canvas" id="part" circuit-id="{{ designId }}"></div>
+        {% if designId != -1 %}<div class="part-button"><a href="/design?id={{ designId }}"><i class="edit icon"></i></a></div>{% endif %}
         <div class="part-table">
           <table class="ui fixed striped table">
             <thead>
@@ -61,7 +62,7 @@
               <tr>
                 <td>{{ p.BBa }}</td>
                 <td>{{ p.name }}</td>
-                <td><i class="{% if not p.isFavourite %}empty {% endif %}star icon"></i></td>
+                <td><i bba="{{ p.id }}" class="{% if not p.isFavourite %}empty {% endif %}star icon"></i></td>
               </tr>
               {% endfor %}
             </tbody>

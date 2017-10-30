@@ -88,17 +88,20 @@ def work(request):
                     try:
                         FavoriteParts.objects.get(user = request.user, part = pt)
                         part.append({
+                            'id': pt.id,
                             'BBa': item,
                             'name': item,
                             'isFavourite': True})
                     except FavoriteParts.DoesNotExist:
                         part.append({
+                            'id': pt.id,
                             'BBa': item,
                             'name': item,
                             'isFavourite': False})
 
             except Parts.DoesNotExist:
                 part.append({
+                    'id': pt.id,
                     'BBa': item,
                     'name': item,
                     'isFavourite': False})
@@ -124,6 +127,7 @@ def work(request):
         wk.save()
         context = {
             'projectName': wk.Title,
+            'teamName': wk.Teamname,
             'year': wk.Year,
             'readCount': wk.ReadCount,
             'medal': wk.Medal,

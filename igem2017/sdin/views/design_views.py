@@ -49,9 +49,9 @@ def get_favorite(request):
         'Description': x.circuit.Description,
         'Author': x.circuit.Author.id if x.circuit.Author != None else None
         } for x in query_set]
-    return HttpResponse(json.dumps({
+    return JsonResponse({
             'status': 1,
-            'circuits': favorites}))
+            'circuits': favorites})
 
 @login_required
 def tag_favorite(request):
@@ -72,11 +72,11 @@ def tag_favorite(request):
             else:
                 UserFavorite.objects.get(user = request.user, circuit = circuit).delete()
             return JsonResponse({
-                'status': True
+                'success': True
             })
         except:
             return JsonResponse({
-                'status': True
+                'success': False
             })
 
 @login_required
@@ -97,11 +97,13 @@ def part_favorite(request):
                     FavoriteParts.objects.create(part = part, user = request.user)
             else:
                 FavoriteParts.objects.get(user = request.user, part = part).delete()
-            return HttpResponse(json.dumps({
-                'status': 1}))
+            return JsonResponse({
+                'success': True
+            })
         except:
-            return HttpResponse(json.dumps({
-                'status': 0}))
+            return JsonResponse({
+                'success': False
+            })
 
 
 # Part related views

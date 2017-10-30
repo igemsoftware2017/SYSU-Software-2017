@@ -9,10 +9,6 @@
   background: rgba(255, 255, 255, 0);
   border-radius: 0;
 }
-#search-box input {
-  border-radius: 0;
-  border: 0;
-}
 #search-type-menu {
   border-width: 0;
   margin-bottom: 0;
@@ -33,6 +29,7 @@ div.line {
   margin-top: 1rem;
   margin-bottom: 0;
   color: white;
+  font-size: 1rem;
 }
 .ui.text.menu {
   margin: 0;
@@ -128,6 +125,9 @@ a {
 }
 div#tool-popup {
   padding: 0;
+}
+#tool-popup:before {
+  background-color: #eeeeee;
 }
 #tool-popup p {
   background-color: #eeeeee;

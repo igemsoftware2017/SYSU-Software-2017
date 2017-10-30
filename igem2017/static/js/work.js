@@ -48,11 +48,29 @@ $('#collect-circuit').on('click', function() {
         csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
     };
     $.post('/api/tag_favorite', postData, (data) => {
-        console.log(data, data.status);
-        $(this).removeClass('empty star icon loading');
-        let val = (data.status === true) ? newVal : 1 - newVal;
-        let cls = (val === 1) ? 'star icon' : 'empty star icon';
-        console.log(newVal, val, cls);
-        $(this).addClass(cls);
+        $(this).removeClass('loading');
+        if (data.success === false)
+            return;
+        $(this).removeClass('empty').addClass((newVal === 1) ? '' : 'empty');
+    });
+});
+
+$('td>i').on('click', function() {
+    let newVal = $(this).hasClass('empty') ? 1 : 0;
+    $(this).addClass('loading');
+    let postData = {
+        data: JSON.stringify({
+            part_id: $(this).attr('bba'),
+            tag: newVal
+        }),
+        csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+    };
+    console.log(postData);
+    $.post('/api/part_favorite', postData, (data) => {
+        console.log(data);
+        $(this).removeClass('loading');
+        if (data.success === false)
+            return;
+        $(this).removeClass('empty').addClass((newVal === 1) ? '' : 'empty');
     });
 });
