@@ -3,7 +3,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Team detail - S-Din</title>
+    <title>{{ title }} - Paper detail - S-Din</title>
+    <link rel="stylesheet" href="/static/css/fontsize.css">
     <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/css/custom.css">
@@ -33,7 +34,8 @@
         <b>Keywords:</b> {{ keywords }}
       </div>
       <div id="part-container">
-        <div class="part-canvas" id="part"></div>
+        <div class="part-canvas" id="part" circuit-id="{{ designId }}"></div>
+        {% if designId %}<div class="part-button"><a href="/design?id={{ designId }}"><i class="edit icon"></i></a></div>{% endif %}
         <div class="part-table">
           <table class="ui fixed striped table">
             <thead>
@@ -48,7 +50,7 @@
               <tr>
                 <td>{{ p.BBa }}</td>
                 <td>{{ p.name }}</td>
-                <td><i class="{% if not p.isFavourite %}empty {% endif %}star icon"></i></td>
+                <td><i bba="{{ p.id }}" class="{% if not p.isFavourite %}empty {% endif %}star icon"></i></td>
               </tr>
               {% endfor %}
             </tbody>

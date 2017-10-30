@@ -61,11 +61,12 @@ def register(request):
         form = RegisterForm(request.POST)
         if form.is_valid():
             try:
-                User.objects.create_user(email = form.cleaned_data["email"],
+                user = User.objects.create_user(email = form.cleaned_data["email"],
                         password = form.cleaned_data["password"],
                         org = form.cleaned_data["org"],
                         igem = form.cleaned_data["igem"]
                         )
+                login(request, user)
                 messages.success(request, "Register successfully!")
                 return redirect('/interest')
             except IntegrityError:
