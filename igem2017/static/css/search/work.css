@@ -140,6 +140,7 @@ div#tool-popup {
 }
 #tool-popup .ui.labels {
   margin: 0.5rem 1rem;
+  max-width: 35rem;
 }
 #tool-popup a.ui.label {
   border: 0;

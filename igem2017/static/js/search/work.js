@@ -15,12 +15,21 @@ $('.star.icon')
             $(this).removeClass('star icon').addClass('empty star icon');
     });
 
+let searchData = {
+    year: 'any',
+    track: 'any',
+    medal: 'any',
+    q: $('#tool-popup').data('keyword')
+};
 $('.labels>.label')
     .on('click', function() {
-        if ($(this).hasClass('basic'))
-            $(this).removeClass('basic');
-        else
-            $(this).removeClass('label').addClass('basic label');
+        $(this).toggleClass('basic').siblings().addClass('basic');
+        searchData[$(this).data('type')] = $(this).hasClass('basic') ? 'any' : $(this).data('value');
+    });
+$('#complex-search')
+    .on('click', () => {
+        let s = searchData;
+        window.location.href = `/search/work?q=${s.q}&year=${s.year}&medal=${s.medal}&track=${s.track}`;
     });
 
 $('.ui.text.menu')
