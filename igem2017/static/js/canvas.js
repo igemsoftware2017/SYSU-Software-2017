@@ -200,6 +200,28 @@ class SDinDesign {
         $('.SDinDesign-part, .SDinDesign-device').remove();
 
         this._id = parseInt(design.id, 10);
+        this._design = this.convertFormat(design);
+
+        $.each(this._design.devices, (_, device) => { this.addDevice(device); });
+        $.each(this._design.parts, (_, part) => { this.addPart(part, 1, undefined); });
+        $.each(this._design.lines, (_, link) => { this.addLink(link, false); });
+        this.redrawDesign();
+    }
+    combine(design) {
+        let design2 = this.convertFormat(design);
+        $.each(design2.devices, (_, device) => { this.addDevice(device); });
+        $.each(design2.parts, (_, part) => { this.addPart(part, 1, undefined); });
+        $.each(design2.lines, (_, link) => { this.addLink(link, false); });
+
+        this._design = {
+            devices: this._design.devices.concat(design2.devices),
+            lines: this._design.lines.concat(design2.lines),
+            parts: this._design.parts.concat(design2.parts)
+        };
+        console.log(this._design);
+        this.redrawDesign();
+    }
+    convertFormat(design) {
         let tmp = design.parts.reduce((t, p) => { t[p.cid] = p; return t; }, {});
         $.each(tmp, (_, v) => {
             if (v.X === undefined)
@@ -207,7 +229,7 @@ class SDinDesign {
             if (v.Y === undefined)
                 v.Y = 0;
         });
-        this._design = {
+        let newDesign = {
             lines: design.lines,
             devices: design.devices.map((v) => ({
                 parts: v.subparts.map((i) => {
@@ -223,17 +245,13 @@ class SDinDesign {
             ).filter((k) => k !== undefined)
         };
         $.each(design.combines, (k, v) => {
-            this._design.lines = this._design.lines.concat(v.map((s) => ({
+            newDesign.lines = newDesign.lines.concat(v.map((s) => ({
                 start: parseInt(s, 10),
                 end: parseInt(k, 10),
                 type: 'combine'
             })));
         });
-
-        $.each(this._design.devices, (_, device) => { this.addDevice(device); });
-        $.each(this._design.parts, (_, part) => { this.addPart(part, 1, undefined); });
-        $.each(this._design.lines, (_, link) => { this.addLink(link, false); });
-        this.redrawDesign();
+        return newDesign;
     }
 
     addDevice(data) {

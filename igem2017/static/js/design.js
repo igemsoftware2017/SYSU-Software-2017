@@ -340,6 +340,28 @@ $('#open-fav-win')
             duration: 200
         });
     });
+function loadFavWin() {
+    $('#fav-win>.content').html('');
+    $.get('/api/get_favorite', (data) => {
+        if (data.status !== 1)
+            return;
+        data.circuits.forEach((v) => {
+            let data = `
+                <div class="ui segment">
+                  <div class="combine-circuit-button" data-id=${v.id}><i class="plus icon"></i></div>
+                  <p><b>${v.name}</b> by <b>${v.author}</b></p>
+                  <p><b>Description:</b> ${v.description}</p>
+                </div>`;
+            $('#fav-win>.content').append(data);
+        });
+        $('.combine-circuit-button').off('click').on('click', function() {
+            $.get(`/api/circuit?id=${$(this).data('id')}`, (value) => {
+                design.combine(value);
+            });
+        });
+    });
+}
+loadFavWin();
 
 // Toolbox
 $('#toolbox')
@@ -709,8 +731,3 @@ function warning() {
 $(window)
     .on('keydown', (event) => { if (event.ctrlKey === true) selectMode('dragCanvas'); })
     .on('keyup', () => { selectMode('modifyItem'); });
-
-
-// TODO: DIRTY OPERATIONS ONLY FOR DEBUGGING
-// REMEMBER TO REMOVE!!!
-$('#open-fav-win')[0].click();

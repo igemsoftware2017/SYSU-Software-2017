@@ -45,9 +45,9 @@ def get_favorite(request):
     query_set = UserFavorite.objects.filter(user = request.user)
     favorites = [{
         'id': x.circuit.id,
-        'Name': x.circuit.Name,
-        'Description': x.circuit.Description,
-        'Author': x.circuit.Author.id if x.circuit.Author != None else None
+        'name': x.circuit.Name,
+        'description': x.circuit.Description,
+        'author': x.circuit.Author.id if x.circuit.Author != None else None
         } for x in query_set]
     return JsonResponse({
             'status': 1,
