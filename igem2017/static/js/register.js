@@ -13,3 +13,6 @@ $('#next-button')
     .on('click', function() {
         $('.ui.form').form('submit');
     });
+
+$('#policy').on('click', () => { $('#policy-modal').modal('show'); });
+$('#cancel').on('click', () => { $('#policy-modal').modal('hide'); });
