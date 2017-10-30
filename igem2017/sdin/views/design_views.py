@@ -313,9 +313,9 @@ def circuit(request):
             'Y': xxx
         }],
         lines: [{
-            'Start': xxx, # cid defined by yourself
-            'End': xxx,
-            'Type': xxx
+            'start': xxx, # cid defined by yourself
+            'end': xxx,
+            'type': xxx
         }],
         devices: [
             {
@@ -329,8 +329,8 @@ def circuit(request):
         }
         circuit: {
             'id': xxx, # circuit id if it's already existing, -1 else
-            'Name': xxx,
-            'Description': xxx
+            'name': xxx,
+            'description': xxx
         }
     }
     response with json:
@@ -374,14 +374,14 @@ def circuit(request):
             if data['circuit']['id'] == -1:
                 # new circuit
                 circuit = Circuit.objects.create(
-                        Name = data['circuit']['Name'],
-                        Description = data['circuit']['Description'],
+                        Name = data['circuit']['name'],
+                        Description = data['circuit']['description'],
                         Author = request.user)
             else:
                 # existing circuit
                 circuit = Circuit.objects.get(pk = data['circuit']['id'])
-                circuit.Name = data['circuit']['Name']
-                circuit.Description = data['circuit']['Description']
+                circuit.Name = data['circuit']['name']
+                circuit.Description = data['circuit']['description']
                 circuit.Author = request.user
                 circuit.save()
                 # delete existing circuit part
@@ -391,7 +391,7 @@ def circuit(request):
             cids = {}
             for x in data['parts']:
                 circuit_part = CircuitParts.objects.create(
-                        Part = x['id'],
+                        Part = Parts.objects.get(id = int(x['id'])),
                         Circuit = circuit,
                         X = x['X'],
                         Y = x['Y'])
@@ -417,6 +417,7 @@ def circuit(request):
                     'status': 1,
                     'circuit_id': circuit.id})
         except:
+            traceback.print_exc()
             return JsonResponse({
                 'status': 0})
     else:

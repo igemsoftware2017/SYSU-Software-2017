@@ -15,14 +15,39 @@ if (designId !== '') {
 let fileReader = new FileReader();
 fileReader.onload = () => { design.design = JSON.parse(fileReader.result); };
 
-$('#upload-button')
-    .on('click', function() {
-        $('#fileupload').trigger('click');
+$('#upload-button').on('click', function() {
+    $('#fileupload').trigger('click');
+});
+$('#fileupload').on('change', function() {
+    fileReader.readAsText($('#fileupload')[0].files[0]);
+});
+
+$('#save-button').on('click', () => {
+    $('#safety-modal').modal('show');
+});
+$('#continue-save').on('click', () => {
+    $('#save-modal').modal('show');
+});
+$('#save-circuit').on('click', () => {
+    $('#save-modal').modal('hide');
+    $('.ui.dimmer:first .loader')
+        .text('Saving your circuit to server, please wait...');
+    $('.ui.dimmer:first').dimmer('show');
+    let postData = design.design;
+    postData.circuit = {
+        id: design._id,
+        name: $('#circuit-name').val(),
+        description: $('#circuit-description').val()
+    }
+    postData = {
+        data: JSON.stringify(postData),
+        csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+    };
+    $.post('/api/circuit', postData, (v) => {
+        $('.ui.dimmer:first').dimmer('hide');
+        console.log(v);
     });
-$('#fileupload')
-    .on('change', function() {
-        fileReader.readAsText($('#fileupload')[0].files[0]);
-    });
+});
 
 $('#zoom-in')
     .on('click', function() {

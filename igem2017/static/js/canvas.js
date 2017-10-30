@@ -153,6 +153,8 @@ class SDinDesign {
         this._canvasPositionY = 0;
         this._size = SDinDesign.zoom(SDinDesign.standardSize, 1);
         this._nextPartId = 0;
+        this.name = '';
+        this.description = '';
         this._nextPartCid = 0;
         this._ready = () => {};
         this._readyFired = false;
@@ -203,6 +205,8 @@ class SDinDesign {
         $('.SDinDesign-part, .SDinDesign-device').remove();
 
         this._id = parseInt(design.id, 10);
+        this.name = design.name;
+        this.description = design.description;
         this._design = this.convertFormat(design);
 
         $.each(this._design.devices, (_, device) => { this.addDevice(device); });
