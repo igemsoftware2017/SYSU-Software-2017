@@ -65,9 +65,7 @@ $('td>i').on('click', function() {
         }),
         csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
     };
-    console.log(postData);
     $.post('/api/part_favorite', postData, (data) => {
-        console.log(data);
         $(this).removeClass('loading');
         if (data.success === false)
             return;

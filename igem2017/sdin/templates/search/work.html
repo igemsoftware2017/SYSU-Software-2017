@@ -99,6 +99,9 @@
       {% if keywords %}
       <div class="right-panel">
         <h3 class="ui header">Keyword relations</h3>
+        <div class="chart-box">
+          <svg width="400" height="200"></svg>
+        </div>
         <input type="text" id="keyword-data", value="{{ keywords }}" hidden>
       </div>
       {% endif %}
@@ -107,7 +110,7 @@
       <div class="right-panel">
         <h3 class="ui header">Year relations</h3>
         <div class="chart-box">
-          <canvas id="year-chart" width="300" height="300"></canvas>
+          <canvas id="year-chart"></canvas>
         </div>
         <input type="text" id="year-chart-data" value="{{ additional.yearRelation }}" hidden>
       </div>
@@ -124,7 +127,7 @@
       <div class="right-panel">
         <h3 class="ui header">Track relations</h3>
         <div class="chart-box">
-          <canvas id="track-chart" width="300" height="300"></canvas>
+          <canvas id="track-chart"></canvas>
         </div>
         <input type="text" id="track-chart-data" value="{{ additional.trackRelation }}" hidden>
       </div>
@@ -148,6 +151,7 @@
   <script src="/static/semantic/dist/semantic.js"></script>
   <script src="/static/semantic/dist/components/popup.min.js"></script>
   <script src="/static/js/Chart.min.js"></script>
+  <script src="/static/js/d3.min.js"></script>
   <script src="/static/js/search-box.js"></script>
   <script src="/static/js/search/work.js"></script>
   <script src="/static/js/login.js"></script>
