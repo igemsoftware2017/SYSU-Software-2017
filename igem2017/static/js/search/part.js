@@ -1,20 +1,9 @@
 'use strict';
 
 // initializing position
-let leftBlank = `2em + ${$('#logo').width()}px`;
-$('#result-container').css({
-    left: `calc(${leftBlank})`
-});
-$.each($('.item>.image>img'), function() {
-    $(this).css({
-        marginLeft: ($(this).parent().width() - $(this).width()) / 2
-    });
-});
 $('#right-panel').css({
-    left: `calc(2em + ${leftBlank} + 876px + 20px)`,
-    top: $('#result-list').offset().top,
-    width: 342,
-    height: 406
+    top: $('#result-list').offset().top
+
 });
 
 $('.star.icon')
@@ -49,12 +38,5 @@ $('#tool')
         position: 'bottom left'
     });
 
-$('.rewards').each((_, v) => {
-    let popup = $(`[workid=${$(v).attr('workid')}].popup`);
-    if (popup.children('ul').children('li').length === 0)
-        popup.html('<p>No awards.</p>');
-    $(v).popup({
-        popup: popup,
-        position: 'right center'
-    });
-});
+search = (q, type) => realSearch(q, 'part');
+$('#search-edit').attr('placeholder', 'Search for parts...');

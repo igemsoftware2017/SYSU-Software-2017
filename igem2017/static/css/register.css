@@ -13,7 +13,8 @@ body {
   background-image: url("/static/img/login-back.jpg");
   background-size: cover;
 }
-.ui.tiny.modal {
+#register-modal {
+  z-index: 0;
   top: auto !important;
 }
 #button-group {
@@ -21,4 +22,10 @@ body {
 }
 #next-button {
   text-align: right;
+}
+p.small {
+  font-size: 0.75rem;
+}
+#policy {
+  cursor: pointer;
 }

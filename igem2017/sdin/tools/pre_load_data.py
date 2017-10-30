@@ -458,6 +458,8 @@ def load_circuits(circuits_floder_path, is_work = True):
         Circuit.objects.all().delete()
         print("Delete all circuits")
 
+    new_part_count = 0
+
     for root, dirs, files in os.walk(circuits_floder_path):
         for name in files:
             try:
@@ -501,12 +503,20 @@ def load_circuits(circuits_floder_path, is_work = True):
                             if sheet.cell(i, 0).value == 'parts and others':
                                 row = i + 2
                                 while isinstance(sheet.cell(row, 0).value, float):
+                                    name = sheet.cell(row, 3).value
+                                    if isinstance(name, float):
+                                        name = sheet.cell(row, 1).value
+                                    if name != sheet.cell(row, 1).value and name.find('BBa') != 0:
+                                        name = 'BBa_' + name
                                     try:
-                                        p = Parts.objects.get(Name = sheet.cell(row, 1).value)
+                                        p = Parts.objects.get(Name = name)
                                     except:
+                                        print(name + ' not found.')
                                         p = Parts.objects.create(
-                                                Name = sheet.cell(row, 1).value,
-                                                Type = sheet.cell(row, 2).value)
+                                                Name = name,
+                                                Type = sheet.cell(row, 2),
+                                                Description = sheet.cell(row, 1))
+                                        new_part_count += 1
                                     try:
                                         cp = CircuitParts.objects.create(
                                                 Part = p,
@@ -667,6 +677,8 @@ def load_circuits(circuits_floder_path, is_work = True):
             except:
                 traceback.print_exc()
                 print(name)
+
+    print('Total new part: ' + str(new_part_count))
 
 def get_value(sheet):
     def inner(i, j):

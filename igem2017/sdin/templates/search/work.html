@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Search result - S-Din</title>
 
+    <link rel="stylesheet" href="/static/css/fontsize.css">
     <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/menu.min.css">
@@ -17,47 +18,64 @@
     {% include '../search-box.html' %}
     <link rel="stylesheet" href="/static/css/search-box.css">
 
-    <div id="result-container">
+    <div id="tool-container">
       <div id="search-type-menu" class="ui secondary pointing inverted menu">
         <a class="active item">Project</a>
         <a class="item" href="/search/part?q={{ request.GET.q }}">Parts</a>
         <a class="item" href="/search/paper?q={{ request.GET.q }}">Paper</a>
       </div>
-      <div class="line" id="also-try">
-        Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
-      </div>
       <div class="line">
         <code>{{ resultsCount }}</code><span id="result-span">RESULTS</span>
         <a id="tool">Search Tools<i class="filter icon"></i></a>
-        <div id="tool-popup" class="ui flowing popup transition hidden">
-          <p>Chasis</p>
+        <div id="tool-popup" data-keyword="{{ request.GET.q }}" class="ui flowing popup transition hidden">
+          <p>Year</p>
           <div class="ui labels">
-            <a class="ui basic label">E.coli</a>
+            <a class="ui basic label" data-type="year" data-value="2009">2009</a>
+            <a class="ui basic label" data-type="year" data-value="2010">2010</a>
+            <a class="ui basic label" data-type="year" data-value="2011">2011</a>
+            <a class="ui basic label" data-type="year" data-value="2012">2012</a>
+            <a class="ui basic label" data-type="year" data-value="2013">2013</a>
+            <a class="ui basic label" data-type="year" data-value="2014">2014</a>
+            <a class="ui basic label" data-type="year" data-value="2015">2015</a>
+            <a class="ui basic label" data-type="year" data-value="2016">2016</a>
           </div>
           <p>Medal</p>
           <div class="ui labels">
-            <a class="ui basic label">Gold</a>
-            <a class="ui basic label">Silver</a>
-            <a class="ui basic label">Bronze</a>
-            <a class="ui basic label">Best Rewards</a>
+            <a class="ui basic label" data-type="medal" data-value="gold">Gold</a>
+            <a class="ui basic label" data-type="medal" data-value="silver">Silver</a>
+            <a class="ui basic label" data-type="medal" data-value="bronze">Bronze</a>
           </div>
           <p>Track</p>
           <div class="ui labels">
-            <a class="ui basic label">Health & Medicine</a>
-            <a class="ui basic label">Energy</a>
-            <a class="ui basic label">Environment</a>
-            <a class="ui basic label">Food & Nutrition</a>
+            <a class="ui basic label" data-type="track" data-value="artDesign">Art & Design</a>
+            <a class="ui basic label" data-type="track" data-value="diagnostics">Diagnostics</a>
+            <a class="ui basic label" data-type="track" data-value="energy">Energy</a>
+            <a class="ui basic label" data-type="track" data-value="environment">Environment</a>
+            <a class="ui basic label" data-type="track" data-value="foodEnergy">Food & Energy</a>
+            <a class="ui basic label" data-type="track" data-value="foodAndNutrition">Food and Nutrition</a>
+            <a class="ui basic label" data-type="track" data-value="foundationalAdvance">Foundational Advance</a>
+            <a class="ui basic label" data-type="track" data-value="hardware">Hardware</a>
+            <a class="ui basic label" data-type="track" data-value="healthMedicine">Health & Medicine</a>
+            <a class="ui basic label" data-type="track" data-value="highSchool">High School</a>
+            <a class="ui basic label" data-type="track" data-value="informationProcessing">Information Processing</a>
+            <a class="ui basic label" data-type="track" data-value="manufacturing">Manufacturing</a>
+            <a class="ui basic label" data-type="track" data-value="measurement">Measurement</a>
+            <a class="ui basic label" data-type="track" data-value="newApplication">New Application</a>
+            <a class="ui basic label" data-type="track" data-value="software">Software</a>
+            <a class="ui basic label" data-type="track" data-value="therapeutics">Therapeutic</a>
           </div>
-          <div class="ui submit button">Apply</div>
+          <div id="complex-search" class="ui submit button">Apply</div>
         </div>
       </div>
+    </div>
+    <div id="result-container">
       <div id="result-list">
         <div class="ui items">
           {% for work in works %}
           <div class="link item">
-            <div class="image" style="background-image: url('/{{ work.image }}')"></div>
+            <div class="image" style="background-image: url('{{ work.logo }}')"></div>
             <div class="content">
-              <a class="ui header" href="/work?id={{ work.id }}">{{ work.year }}-{{ work.projectName }}| <span class="smaller">{{ work.school }}</span></a>
+              <a class="ui header" href="/work?id={{ work.id }}">{{ work.projectName }}| <span class="smaller">{{ work.year }}-{{ work.school }}</span></a>
               <img class="medal" src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
               <div class="description">
                 <p>{{ work.description }}</p>
@@ -77,12 +95,53 @@
         </div>
       </div>
     </div>
-    <div id="right-panel">
-      <h3 class="ui header">Year relations</h4>
-      <div class="chart-box">
-        <canvas id="chart" width="300" height="300"></canvas>
+    <div id="right-panel-container">
+      {% if keywords %}
+      <div class="right-panel">
+        <h3 class="ui header">Keyword relations</h3>
+        <div class="chart-box">
+          <svg width="400" height="200"></svg>
+        </div>
+        <input type="text" id="keyword-data", value="{{ keywords }}" hidden>
       </div>
-      <input type="text" id="chart-data" value="{{ additional.yearRelation }}" hidden>
+      {% endif %}
+
+      {% if additional.yearRelation != '' %}
+      <div class="right-panel">
+        <h3 class="ui header">Year relations</h3>
+        <div class="chart-box">
+          <canvas id="year-chart"></canvas>
+        </div>
+        <input type="text" id="year-chart-data" value="{{ additional.yearRelation }}" hidden>
+      </div>
+      {% endif %}
+
+      <div class="right-panel">
+        <h3 class="ui header"><img src="/static/img/search/book.png">{{ additional.name }}</h3>
+        <img class="wiki-pic" src="{{ additional.picture }}" alt="">
+        <p>{{ additional.description }}</p>
+        <a href="{{ additional.link }}">More...</a>
+      </div>
+
+      {% if additional.trackRelation != '' %}
+      <div class="right-panel">
+        <h3 class="ui header">Track relations</h3>
+        <div class="chart-box">
+          <canvas id="track-chart"></canvas>
+        </div>
+        <input type="text" id="track-chart-data" value="{{ additional.trackRelation }}" hidden>
+      </div>
+      {% endif %}
+
+      {% if additional.medalRelation != '' %}
+      <div class="right-panel">
+        <h3 class="ui header">Medal relations</h3>
+        <div class="chart-box">
+          <canvas id="medal-chart" width="300" height="300"></canvas>
+        </div>
+        <input type="text" id="medal-chart-data" value="{{ additional.medalRelation }}" hidden>
+      </div>
+      {% endif %}
     </div>
   </body>
 
@@ -92,6 +151,7 @@
   <script src="/static/semantic/dist/semantic.js"></script>
   <script src="/static/semantic/dist/components/popup.min.js"></script>
   <script src="/static/js/Chart.min.js"></script>
+  <script src="/static/js/d3.min.js"></script>
   <script src="/static/js/search-box.js"></script>
   <script src="/static/js/search/work.js"></script>
   <script src="/static/js/login.js"></script>

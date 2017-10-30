@@ -9,23 +9,6 @@
   background: rgba(255, 255, 255, 0);
   border-radius: 0;
 }
-#search-box-container {
-  margin-left: 2em;
-  margin-top: 5em;
-  position: relative;
-}
-#logo {
-  width: 50px;
-  position: absolute;
-}
-#search-box {
-  width: 876px;
-  position: absolute;
-}
-#search-box input {
-  border-radius: 0;
-  border: 0;
-}
 #search-type-menu {
   border-width: 0;
   margin-bottom: 0;
@@ -37,15 +20,16 @@
   border-color: #ffd405;
 }
 #result-container {
-  margin-left: 2em;
-  margin-top: 20px;
-  width: 876px;
+  margin-left: 10.5rem;
+  margin-top: 1rem;
+  width: 44rem;
   position: absolute;
 }
 div.line {
-  margin-top: 20;
+  margin-top: 1rem;
   margin-bottom: 0;
   color: white;
+  font-size: 1rem;
 }
 .ui.text.menu {
   margin: 0;
@@ -55,10 +39,10 @@ div.line {
 }
 #result-span {
   margin-left: 1ex;
-  margin-right: 50px;
+  margin-right: 2.5rem;
 }
 #result-list {
-  margin-top: 10;
+  margin-top: 0.5rem;
 }
 body {
   background-image: url("/static/img/search/back.jpg");
@@ -69,73 +53,47 @@ body {
   background: white;
 }
 .ui.items:last-child {
-  margin-bottom: 20px !important;
+  margin-bottom: 1rem !important;
 }
 .ui.items>.item {
-  padding: 22px;
-  height: 196px;
+  padding: 1rem;
+  height: 10rem;
   background: white;
   position: relative;
 }
 .ui.items>.item>.image {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  width: 10rem !important;
 }
 .ui.items>.item>.content {
   position: relative;
+  font-size: 1rem;
 }
 .ui.items>.item>.content>.ui.header {
   color: #333333;
-  font-size: calc(7px * 300 / 72);
+  font-size: 1.5rem;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  max-width: 593px;
+  max-width: 25rem;
   margin-top: 0;
 }
 .ui.items>.item>.content>.ui.header:hover {
   white-space: normal;
 }
 .ui.items>.item>.content>.ui.header>span.smaller {
-  font-size: calc(6px * 300 / 72);
-}
-.ui.items>.item>.content>.medal {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 34px;
-  height: 34px;
-}
-.ui.items>.item>.content>.chassis {
-  position: absolute;
-  left: 30px;
-  bottom: 0;
-  margin-bottom: 0;
-  color: #333333;
-}
-.ui.items>.item>.content>.rewards {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  font-size: 1.25rem;
 }
 .ui.items>.item>.content>.description {
   margin-top: 0;
-}
-.ui.items>.item>.content>.ui.flowing.popup p, li {
-  white-space: nowrap;
-}
-#also-try {
-  padding-top: 0;
 }
 a {
   cursor: pointer;
 }
 #also-try>a {
   color: #ffd800;
-}
-#tool {
-  color: white;
 }
 #right-panel {
   position: absolute;

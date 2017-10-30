@@ -2,30 +2,20 @@
 
 /* global SDinDesign */
 
-// initializing position
-let leftBlank = `2em + ${$('#logo').width()}px`;
-$('#detail-container').css({
-    left: `calc(${leftBlank})`
-});
-$('.collection').css({
-    top: $('.reads').position().top + $('.reads').outerHeight() - $('.collection').outerHeight()
-});
-
 $('#right-panel').css({
-    left: `calc(2em + ${leftBlank} + ${$('#detail-container').outerWidth()}px + 20px)`,
     top: $('#detail-container').offset().top,
-    width: 342,
-    height: 406
 });
 
 $('.back').add('i.chevron.left.icon')
     .on('click', () => { history.back(); });
 
+let designId = $('#part').attr('circuit-id');
 let design;
-$.get('/get_circuit_test', (value) => {
-    let data = JSON.parse(value);
-    design = new SDinDesign('#part', data, {});
-});
+if (designId != -1) {
+    $.get(`/api/circuit?id=${designId}`, (value) => {
+        design = new SDinDesign('#part', value, {});
+    });
+}
 $(window)
     .on('keydown', (event) => {
         if (event.ctrlKey === true)
@@ -46,3 +36,39 @@ $('div#detail-container > div.images > div.image > img')
         });
         $('div.ui.page.dimmer').dimmer('show');
     });
+
+$('#collect-circuit').on('click', function() {
+    let newVal = $(this).hasClass('empty') ? 1 : 0;
+    $(this).addClass('loading');
+    let postData = {
+        data: JSON.stringify({
+            circuit_id: $('#part').attr('circuit-id'),
+            tag: newVal
+        }),
+        csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+    };
+    $.post('/api/tag_favorite', postData, (data) => {
+        $(this).removeClass('loading');
+        if (data.success === false)
+            return;
+        $(this).removeClass('empty').addClass((newVal === 1) ? '' : 'empty');
+    });
+});
+
+$('td>i').on('click', function() {
+    let newVal = $(this).hasClass('empty') ? 1 : 0;
+    $(this).addClass('loading');
+    let postData = {
+        data: JSON.stringify({
+            part_id: $(this).attr('bba'),
+            tag: newVal
+        }),
+        csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+    };
+    $.post('/api/part_favorite', postData, (data) => {
+        $(this).removeClass('loading');
+        if (data.success === false)
+            return;
+        $(this).removeClass('empty').addClass((newVal === 1) ? '' : 'empty');
+    });
+});

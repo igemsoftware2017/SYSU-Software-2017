@@ -4,10 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Search - S-Din</title>
+    <link rel="stylesheet" href="/static/css/fontsize.css">
     <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/css/custom.css">
     <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/keyword.css">
   </head>
   <body>
     {% include "nav.html" %}
@@ -15,30 +17,50 @@
     {% include 'search-box.html' %}
     <link rel="stylesheet" href="/static/css/search-box.css">
 
-    <div class="footer">
-      <div class="left menu">
-        <a>Terms of use</a>
-        <a>Biosafety</a>
-        <a>Cookie & Privacy</a>
-        <a>About us</a>
-      </div>
-      <div class="right menu">
-        <img src="/static/img/index/facebook.png" alt="">
-        <img src="/static/img/index/twitter.png" alt="">
-        <img src="/static/img/index/googleplus.png" alt="">
-        <img src="/static/img/index/youtube.png" alt="">
-        <img src="/static/img/index/in.png" alt="">
-        <img src="/static/img/index/mail.png" alt="">
+    <div class="ui small modal" id="keyword-modal">
+      <div class="header">Keywords</div>
+      <div class="content">
+        <svg width="700" height="700"></svg>
       </div>
     </div>
 
-  </body>
+    <div class="footer">
+      <div class="left menu">
+        <a target="igem" href="http://2017.igem.org/Team:SYSU-Software/statements.html#term-of-use">Terms of use</a>
+        <a target="igem" href="http://2017.igem.org/Team:SYSU-Software/statements.html#bio-safety-alerts">Biosafety</a>
+        <a target="igem" href="http://2017.igem.org/Team:SYSU-Software/statements.html#cookie-policy">Cookie & Privacy</a>
+        <a target="igem" href="http://2017.igem.org/Team:SYSU-Software/Project">About us</a>
+      </div>
+      <div class="right menu">
+        <a target="facebook" href="https://www.facebook.com/sysusoftware">
+          <img id="facebook" src="/static/img/index/facebook.png" alt="">
+        </a>
+        <a target="twitter" href="https://twitter.com/SYSU_Software">
+          <img id="twitter" src="/static/img/index/twitter.png" alt="">
+        </a>
+        <a target="googleplus" href="https://plus.google.com/u/0/108675007137699538539">
+          <img id="googleplus" src="/static/img/index/googleplus.png" alt="">
+        </a>
+        <a target="youtube" href="#">
+          <img id="youtube" src="/static/img/index/youtube.png" alt="">
+        </a>
+        <a target="ins" href="https://www.instagram.com/sysusf">
+          <img id="ins" src="/static/img/index/in.png" alt="">
+        </a>
+        <a target="mail" href="#">
+          <img id="mail" src="/static/img/index/mail.png" alt="">
+        </a>
+      </div>
+    </div>
 
-  {% include "login-modal.html" %}
+    {% include "login-modal.html" %}
+  </body>
 
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/semantic/dist/semantic.js"></script>
+  <script src="/static/js/d3.min.js"></script>
   <script src="/static/js/login.js"></script>
   <script src="/static/js/search-box.js"></script>
   <script src="/static/js/index.js"></script>
+  <script src="/static/js/keyword.js"></script>
 </html>

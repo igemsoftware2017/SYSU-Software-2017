@@ -9,23 +9,6 @@
   background: rgba(255, 255, 255, 0);
   border-radius: 0;
 }
-#search-box-container {
-  margin-left: 2em;
-  margin-top: 5em;
-  position: relative;
-}
-#logo {
-  width: 50px;
-  position: absolute;
-}
-#search-box {
-  width: 876px;
-  position: absolute;
-}
-#search-box input {
-  border-radius: 0;
-  border: 0;
-}
 #search-type-menu {
   border-width: 0;
   margin-bottom: 0;
@@ -37,15 +20,16 @@
   border-color: #ffd405;
 }
 #result-container {
-  margin-left: 2em;
-  margin-top: 20px;
-  width: 876px;
+  margin-left: 10.5rem;
+  margin-top: 1rem;
+  width: 44rem;
   position: absolute;
 }
 div.line {
-  margin-top: 20;
+  margin-top: 1rem;
   margin-bottom: 0;
   color: white;
+  font-size: 1rem;
 }
 .ui.text.menu {
   margin: 0;
@@ -55,10 +39,10 @@ div.line {
 }
 #result-span {
   margin-left: 1ex;
-  margin-right: 50px;
+  margin-right: 2.5rem;
 }
 #result-list {
-  margin-top: 10;
+  margin-top: 0.5rem;
 }
 body {
   background-image: url("/static/img/search/back.jpg");
@@ -69,24 +53,27 @@ body {
   background: white;
 }
 .ui.items:last-child {
-  margin-bottom: 20px !important;
+  margin-bottom: 1rem !important;
 }
 .ui.items>.item {
-  padding: 22px;
-  height: 196px;
+  padding: 1rem;
+  height: 10rem;
   background: white;
   position: relative;
+  font-size: 1rem;
 }
 .ui.items>.item>.image {
   text-align: center;
+  width: 9rem !important;
 }
 .ui.items>.item>.image>img {
-  width: 60px;
+  width: 3rem;
+  margin: 0 auto;
 }
 .ui.items>.item>.image>p {
   margin-bottom: 0;
 }
-.ui.items>.item>.image>divider {
+.ui.items>.item>.image>.ui.divider {
   margin: 0;
 }
 .ui.items>.item>.content {
@@ -94,28 +81,28 @@ body {
 }
 .ui.items>.item>.content>.ui.header {
   color: #333333;
-  font-size: calc(7px * 300 / 72);
+  font-size: 1.5rem;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  max-width: 480px;
+  max-width: 25rem;
   margin-top: 0;
 }
 .ui.items>.item>.content>.ui.header:hover {
   white-space: normal;
 }
 .ui.items>.item>.content>.ui.header>span.smaller {
-  font-size: calc(6px * 300 / 72);
+  font-size: 1.25rem;
 }
 .ui.items>.item>.content>.medal {
   position: absolute;
   right: 0;
   top: 0;
-  height: 34px;
+  height: 1.5rem;
 }
 .ui.items>.item>.content>.chassis {
   position: absolute;
-  left: 30px;
+  left: 1.5rem;
   bottom: 0;
   margin-bottom: 0;
   color: #333333;

@@ -1,17 +1,14 @@
 'use strict';
 
-$('#search-box-container').css({
+$('#search-box').css({
     height: $('#logo').height()
 });
-$('#search-box').css({
-    left: `calc(2em + ${$('#logo').width()}px)`,
-    top: ($('#search-box-container').height() - $('#search-box').height()) / 2
-});
 
-function search(q) {
+function realSearch(q, type) {
     if (q !== '')
-        window.location.href = `/search/work?q=${q}`;
+        window.location.href = `/search/${type}?q=${q}`;
 }
+let search = (q) => realSearch(q, 'work');
 $('#search-icon')
     .on('click', () => { search($('#search-edit').val()); });
 $(window)

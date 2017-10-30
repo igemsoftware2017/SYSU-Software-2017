@@ -1,20 +1,25 @@
 #search-box-container {
-  margin-left: 2em;
-  margin-top: 5em;
+  margin-left: 2rem;
+  margin-top: 5rem;
   position: relative;
   z-index: 1;
 }
 #logo {
-  width: 130px;
-  position: absolute;
+  width: 6.5rem;
+  display: inline-block;
+  vertical-align: bottom;
 }
 #search-box {
-  width: 876px;
-  position: absolute;
+  width: 44rem;
+  margin-left: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 100%;
 }
 #search-edit  {
   border-radius: 0;
   border: 0;
+  /* height: 100%; */
 }
 #search-icon {
   pointer-events: auto;

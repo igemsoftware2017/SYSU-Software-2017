@@ -3,8 +3,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Search result - S-Din</title>
+    <title>Search parts - S-Din</title>
 
+    <link rel="stylesheet" href="/static/css/fontsize.css">
     <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/icon.min.css">
     <link rel="stylesheet" href="/static/semantic/dist/components/menu.min.css">
@@ -31,7 +32,7 @@
           {% for part in parts %}
           <div class="link item">
             <div class="image">
-              <img src="/static/img/design/{{ part.type }}.png" alt="">
+              <img src="/static/img/design/{{ part.type | lower }}.png" alt="">
               <div class="ui divider"></div>
               <p>{{ part.releaseStatus }}</p>
               <div class="ui divider"></div>
@@ -42,7 +43,7 @@
             </div>
             <div class="content">
               <a class="ui header" href="/part?id={{ part.id }}">Part: {{ part.name }} | <span class="smaller">{{ part.group }}</span></a>
-              <div class="meta">{{ part.type }}</div>
+              <div class="meta">{{ part.type }}, {{ part.safety }}</div>
               <div class="medal">
                 {{ part.rating }} Registry Star
               </div>

@@ -14,6 +14,8 @@ from django.contrib.auth.decorators import login_required
 
 from django.http import JsonResponse, HttpResponse
 
+import traceback
+
 Err = "Something wrong!"
 Inv = "Invalid form!"
 
@@ -50,7 +52,7 @@ def logout_view(request):
     return redirect('/index')
 
 @login_required
-def interest(request):
+def interest_view(request):
     return render(request, 'interest.html')
 
 def register(request):
@@ -64,6 +66,7 @@ def register(request):
                         igem = form.cleaned_data["igem"]
                         )
                 messages.success(request, "Register successfully!")
+                return redirect('/interest')
             except IntegrityError:
                 messages.error(request, "Email already exists!")
             except:
@@ -85,17 +88,20 @@ def work(request):
                     try:
                         FavoriteParts.objects.get(user = request.user, part = pt)
                         part.append({
+                            'id': pt.id,
                             'BBa': item,
                             'name': item,
                             'isFavourite': True})
                     except FavoriteParts.DoesNotExist:
                         part.append({
+                            'id': pt.id,
                             'BBa': item,
                             'name': item,
                             'isFavourite': False})
 
             except Parts.DoesNotExist:
                 part.append({
+                    'id': pt.id,
                     'BBa': item,
                     'name': item,
                     'isFavourite': False})
@@ -113,14 +119,19 @@ def work(request):
         else:
             Img = [i.URL for i in wk.Img.all()]
 
+        Awards = wk.Award.split(';')
+        while len(Awards) > 0 and Awards[-1] == '':
+            Awards = Awards[: -1]
+
         wk.ReadCount += 1
         wk.save()
         context = {
             'projectName': wk.Title,
+            'teamName': wk.Teamname,
             'year': wk.Year,
             'readCount': wk.ReadCount,
             'medal': wk.Medal,
-            'rewards': wk.Award,
+            'rewards': Awards,
             'description': wk.SimpleDescription,
             'isFavourite': favorite,
             'images': Img,
@@ -156,6 +167,7 @@ uglyTable = {
     'software': 'Software',
     'therapeutics': 'Therapeutics'}
 
+
 def search_work(request):
     key = request.GET.get('q')
     year = request.GET.get('year')
@@ -172,7 +184,11 @@ def search_work(request):
             key_dict = x.__dict__
             break
     
-    res = requests.get(search_url + "?key=" + key)
+    if request.user.is_authenticated and request.user.interest != 'None':
+        interest = json.dumps(json.loads(request.user.interest)['interest'])
+    else:
+        interest = '[]'
+    res = requests.get(search_url + "?key=" + key + "&interest=" + interest)
     result = json.loads(res.text)
     parts = []
     works = []
@@ -204,7 +220,6 @@ def search_work(request):
         for item in result['teams']:
             try:
                 s = item.split(' ')
-                print(s)
                 w = Works.objects.get(Teamname = s[0], Year = s[1])
                 if request.user.is_authenticated:
                     try:
@@ -214,11 +229,6 @@ def search_work(request):
                         favourite = False
                 else:
                     favourite = False
-
-                if w.Img.all().count() == 0:
-                    Img = w.DefaultImg
-                else:
-                    Img = w.Img.all()[0].URL
 
                 if year is not None and year != 'any' and w.Year != int(year):
                     continue
@@ -233,13 +243,10 @@ def search_work(request):
 
                 works.append({
                     'id': w.TeamID,
-                    'image': Img,
                     'year': w.Year,
                     'teamName': w.Teamname,
                     'projectName': w.Title,
-                    # TODO
                     'school': w.Teamname,
-                    'risk': '???',
                     'medal': w.Medal,
                     'description': w.SimpleDescription[:200],
                     'chassis': w.Chassis,
@@ -281,9 +288,6 @@ def search_paper(request):
     print(context)
     return render(request, 'search/paper.html', context)
 
-def search_part(request):
-    return render(request, 'search/part.html')
-
 def paper(request):
     key = request.GET.get('id')
     try:
@@ -305,6 +309,15 @@ def paper(request):
 def search_part(request):
     key = request.GET.get('q')
     query = Parts.objects.filter(Name__contains = key)
+    def safety_level(s):
+        try:
+            return {
+                1: 'Low risk',
+                2: 'Moderate risk',
+                3: 'High risk'
+            }[s]
+        except KeyError:
+            return 'Unknown risk'
     parts = [{
         'id': x.id,
         'name': x.Name,
@@ -317,9 +330,53 @@ def search_part(request):
         'rating': x.Part_rating,
         'use': x.Use,
         'partResult': x.Part_results,
+        'safety': safety_level(x.Safety),
         'parameters': '???'
     } for x in query]
     context = {
             'resultsCount': len(parts),
             'parts': parts}
     return render(request, 'search/part.html', context)
+
+@login_required
+def interest(request):
+    '''
+    GET /api/interest (get user interests)
+    return: 
+        interest: ['xxx', 'xxx']
+
+
+    POST /api/interest (set user interests)
+        interest: ['xxx', 'xxx']
+    return:
+        success: true of false
+    '''
+    try:
+        if request.method == 'POST':
+            request.user.interest = request.POST['data']
+            request.user.save()
+            return JsonResponse({
+                'success': True})
+        else:
+            interests = request.user.interest
+            if interests == 'None':
+                interests = []
+            else:
+                interests = json.loads(interests)['interest']
+            return JsonResponse({
+                'success': True,
+                'interest': interests})
+    except:
+        traceback.print_exc()
+        return JsonResponse({
+            'success': False})
+
+import json
+with open('sdin/tools/preload/others/daotu.json') as f:
+    daotu = json.load(f)
+
+def keywords(request):
+    '''
+    GET /keywords
+    '''
+    return JsonResponse(daotu)

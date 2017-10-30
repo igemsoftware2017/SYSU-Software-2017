@@ -49,9 +49,9 @@ def get_favorite(request):
         'Description': x.circuit.Description,
         'Author': x.circuit.Author.id if x.circuit.Author != None else None
         } for x in query_set]
-    return HttpResponse(json.dumps({
+    return JsonResponse({
             'status': 1,
-            'circuits': favorites}))
+            'circuits': favorites})
 
 @login_required
 def tag_favorite(request):
@@ -70,13 +70,14 @@ def tag_favorite(request):
                 if not UserFavorite.objects.filter(user = request.user, circuit = circuit).exists():
                     UserFavorite.objects.create(circuit = circuit, user = request.user)
             else:
-                UserFavorite.objects.get(user = request.user, circuit = circuit)
-                UserFavorite.delete()
-            return HttpResponse(json.dumps({
-                'status': 1}))
+                UserFavorite.objects.get(user = request.user, circuit = circuit).delete()
+            return JsonResponse({
+                'success': True
+            })
         except:
-            return HttpResponse(json.dumps({
-                'status': 0}))
+            return JsonResponse({
+                'success': False
+            })
 
 @login_required
 def part_favorite(request):
@@ -95,18 +96,19 @@ def part_favorite(request):
                 if not FavoriteParts.objects.filter(user = request.user, part = part).exists():
                     FavoriteParts.objects.create(part = part, user = request.user)
             else:
-                FavoriteParts.objects.get(user = request.user, part = part)
-                FavoriteParts.delete()
-            return HttpResponse(json.dumps({
-                'status': 1}))
+                FavoriteParts.objects.get(user = request.user, part = part).delete()
+            return JsonResponse({
+                'success': True
+            })
         except:
-            return HttpResponse(json.dumps({
-                'status': 0}))
+            return JsonResponse({
+                'success': False
+            })
 
 
 # Part related views
 
-def search_parts(request):
+def parts(request):
     '''
     GET method with param:
         name=xxx
@@ -149,7 +151,16 @@ def part(request):
                     'type': xxx
                 }
             ],
-            'parents': []
+            'works': [{
+                'year': xxx,
+                'teamname': xxx,
+                'id': xxx}],
+            'papers': [
+                'Titla': xxx,
+                'DOI': xxx,
+                'id': xxx,
+                'Authors' : xxx
+            ]
         }
     '''
     if request.method == 'POST':
@@ -189,17 +200,31 @@ def part(request):
                 'name': x.child.Name,
                 'description': x.child.Description,
                 'type': x.child.Type} for x in sub_query]
-            par_query = SubParts.objects.filter(child = part)
-            part_dict['parents'] = [{
-                'id': x.parent.id,
-                'name': x.parent.Name,
-                'description': x.parent.Description,
-                'type': x.parent.Type} for x in par_query]
+            circuit_query = CircuitParts.objects.filter(Part = part).values('Circuit').distinct()
+            part_dict['works'] = []
+            part_dict['papers'] = []
+            for x in circuit_query:
+                circuit = Circuit.objects.get(pk = x['Circuit'])
+                if circuit.works_set.count() > 0:
+                    w = circuit.works_set.all()[0]
+                    part_dict['works'].append({
+                            'year' : w.Year,
+                            'teamname': w.Teamname,
+                            'id': w.id
+                        })
+                elif circuit.papers_set.count() > 0:
+                    w = circuit.papers_set.all()[0]
+                    part_dict['papers'].append({
+                            'title': w.Title,
+                            'DOI': w.DOI,
+                            'authors': w.Authors,
+                            'id': w.id
+                        })
 
             part_dict['success'] = True
             return JsonResponse(part_dict)
         except:
-            raise
+            traceback.print_exc()
             return JsonResponse({ 'success': False })
 
 def interact(request):
@@ -228,7 +253,7 @@ def interact(request):
                 'interactType': x.InteractType,
                 'score': x.Score
             } for x in query]
-        
+
         return JsonResponse({
                 'parts': parts
             })
@@ -239,7 +264,7 @@ def interact(request):
 
 # Circuit related views
 
-def get_circuit(request):
+def circuit(request):
     '''
     GET method with param:
         id=xxx
@@ -268,62 +293,7 @@ def get_circuit(request):
         combines: {
             x: [x, x, x], # combines dict, x is cid
         }
-    '''
-    try:
-        query_id = request.GET.get('id')
-        parts_query = CircuitParts.objects.filter(Circuit = query_id)
-        parts = [{'id': x.Part.id, 'cid': x.id, 'name': x.Part.Name,
-            'description': x.Part.Description, 'type': x.Part.Type,
-            'X': x.X, 'Y': x.Y} for x in parts_query]
-        line_query = CircuitLines.objects.filter(Start__Circuit = query_id, \
-                End__Circuit = query_id)
-        lines = [{'start': x.Start.id, 'end': x.End.id, 'type': x.Type} \
-                for x in line_query]
-        devices_query = CircuitDevices.objects.filter(Circuit = query_id)
-        devices = [{
-            'subparts': [i.id for i in x.Subparts.all()],
-            'x':x.X,
-            'y':x.Y} for x in devices_query]
-        combines_query = CircuitCombines.objects.filter(Circuit = query_id)
-        combines = {x.Father.id: [i.id for i in x.Sons.all()] for x in combines_query}
-        return JsonResponse({
-            'status': 1,
-            'parts': parts,
-            'lines': lines,
-            'devices': devices,
-            'combines': combines})
-    except:
-        traceback.print_exc()
-        return JsonResponse({
-            'status': 0})
 
-@login_required
-def get_saves(request):
-    '''
-    GET method with no param
-    return json:
-        'circuits': [{
-            'id': xxx,
-            'Name': xxx,
-            'Description': xxx,
-            'Author': xxx(id)
-        }]
-    '''
-    query_set = Circuit.objects.filter(Author = request.user)
-    saves = [{
-        'id': x.id,
-        'Name': x.Name,
-        'Description': x.Description,
-        'Author': x.Author.id if x.Author != None else None
-        } for x in query_set]
-    return JsonResponse({
-            'status': 1,
-            'circuits': saves})
-
-
-@login_required
-def save_circuit(request):
-    '''
     POST method with json:
     {
         parts: [{
@@ -359,7 +329,36 @@ def save_circuit(request):
         circuit_id: xxx # id for saved circuit.
     }
     '''
-    if request.method == 'POST':
+    if request.method == 'GET':
+        try:
+            query_id = request.GET.get('id')
+            parts_query = CircuitParts.objects.filter(Circuit = query_id)
+            parts = [{'id': x.Part.id, 'cid': x.id, 'name': x.Part.Name,
+                'description': x.Part.Description, 'type': x.Part.Type,
+                'X': x.X, 'Y': x.Y} for x in parts_query]
+            line_query = CircuitLines.objects.filter(Start__Circuit = query_id, \
+                    End__Circuit = query_id)
+            lines = [{'start': x.Start.id, 'end': x.End.id, 'type': x.Type} \
+                    for x in line_query]
+            devices_query = CircuitDevices.objects.filter(Circuit = query_id)
+            devices = [{
+                'subparts': [i.id for i in x.Subparts.all()],
+                'X':x.X,
+                'Y': x.Y} for x in devices_query]
+            combines_query = CircuitCombines.objects.filter(Circuit = query_id)
+            combines = {x.Father.id: [i.id for i in x.Sons.all()] for x in combines_query}
+            return JsonResponse({
+                'status': 1,
+                'id': query_id,
+                'parts': parts,
+                'lines': lines,
+                'devices': devices,
+                'combines': combines})
+        except:
+            traceback.print_exc()
+            return JsonResponse({
+                'status': 0})
+    elif request.method == 'POST':
         try:
             data = json.loads(request.POST['data'])
             if data['circuit']['id'] == -1:
@@ -414,6 +413,29 @@ def save_circuit(request):
         return JsonResponse({
             'status': 0})
 
+@login_required
+def get_saves(request):
+    '''
+    GET method with no param
+    return json:
+        'circuits': [{
+            'id': xxx,
+            'Name': xxx,
+            'Description': xxx,
+            'Author': xxx(id)
+        }]
+    '''
+    query_set = Circuit.objects.filter(Author = request.user)
+    saves = [{
+        'id': x.id,
+        'Name': x.Name,
+        'Description': x.Description,
+        'Author': x.Author.id if x.Author != None else None
+        } for x in query_set]
+    return JsonResponse({
+            'status': 1,
+            'circuits': saves})
+
 
 import numpy as np
 
@@ -429,7 +451,7 @@ def simulation(request):
     '''
     if request.method == 'POST':
         data = json.loads(request.POST['data'])
-        time, result = cir2(data, np.ones(len(data)))
+        time, result = cir2(data, np.zeros(len(data)))
         return JsonResponse({
             'status': 1,
             'time': time.tolist(),

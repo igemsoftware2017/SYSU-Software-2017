@@ -9,17 +9,19 @@
   width: 100%;
 }
 .window>.nav {
-  padding: 0.5em;
-  height: 2em;
+  padding: 0.5rem;
+  height: 2rem;
   border-bottom: 1px solid;
 }
 .window>.nav>i {
   position: absolute;
-  top: 0.5em;
-  right: 0.5em;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 .window>.content {
-  padding: 1em;
+  padding: 1rem;
   height: 100%;
 }
 
@@ -41,7 +43,7 @@
   background-color: #b6cadc;
 }
 .tab-context {
-  margin-top: 1em;
+  margin-top: 1rem;
 }
 #part-panel-dropper {
   position: absolute;
@@ -54,7 +56,7 @@
 
 /* Favourite window */
 #fav-win>.content {
-  max-height: calc(100% - 3em);
+  max-height: calc(100% - 3rem);
   overflow-y: auto;
 }
 #fav-win {
@@ -73,13 +75,13 @@
   border-radius: 10px;
   background-color: #404040;
   z-index: 15;
-  padding: 1em 2em;
+  padding: 1rem 2rem;
   opacity: 0.3;
   transition: opacity 0.2s ease, left 0.2s ease;
 }
 #toolbox>i {
-  margin: 0 0.1em;
-  font-size: 3em;
+  margin: 0 0.1rem;
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -90,21 +92,21 @@ div.ui.fixed.menu {
   background-color: #e2e7ea;
 }
 div.ui.fixed.menu>div.ui.container {
-  margin-left: 3em !important;
-  margin-right: 3em !important;
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
   width: 100%;
 }
 .item>i.icon {
-  margin: 0 0.25em !important;
+  margin: 0 0.25rem !important;
 }
 div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
-  margin-left: 0.25em;
+  margin-left: 0.25rem;
 }
 
 #canvas-box {
   width: 100%;
   height: 100%;
-  padding-top: 4.5em;
+  padding-top: 4.5rem;
   transition: all 0.2s ease;
 }
 #canvas {
@@ -115,7 +117,10 @@ div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
 }
 
 #part-src-seg {
-  padding-bottom: calc(14px + 1em + 4px);
+  padding-bottom: calc(14px + 1rem + 4px);
+  max-height: 240px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 #part-src-divider {
   margin-bottom: 4px;
@@ -130,21 +135,21 @@ div.ui.fixed.menu>div.container>.item>div.ui.dropdown {
 .ui-resizable-w {
   cursor: w-resize;
   height: 100%;
-  width: 1em;
+  width: 1rem;
   top: 0;
   left: 0;
 }
 .ui-resizable-s {
   cursor: s-resize;
-  height: 1em;
+  height: 1rem;
   width: 100%;
   bottom: 0;
   left: 0;
 }
 .ui-resizable-sw {
   cursor: sw-resize;
-  height: 1em;
-  width: 1em;
+  height: 1rem;
+  width: 1rem;
   bottom: 0;
   left: 0;
 }

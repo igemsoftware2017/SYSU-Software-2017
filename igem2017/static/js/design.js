@@ -3,10 +3,14 @@
 /* eslint-disable no-console */
 /* global SDinDesign */
 
+let designId = $('#canvas-box').attr('design-id');
 let design;
-$.get('/api/get_circuit?id=155', (value) => {
-    design = new SDinDesign('#canvas', value, {});
-});
+if (designId !== '') {
+    $.get(`/api/circuit?id=${designId}`, (value) => {
+        design = new SDinDesign('#canvas', value);
+    });
+} else
+    design = new SDinDesign('#canvas');
 
 let fileReader = new FileReader();
 fileReader.onload = () => { design.design = JSON.parse(fileReader.result); };
@@ -57,7 +61,7 @@ $('#ratio-dropdown')
                 $(this).data('initialized', true);
                 return;
             }
-            design.resizeDesign(value);
+            design.ratio = value;
         }
     });
 
@@ -249,16 +253,25 @@ function setPartPanel(id) {
         }
         selectedPart = data;
         $('#part-info-img')
-            .attr('src', `/static/img/design/${data.type}.png`)
+            .attr('src', `/static/img/design/${data.type.toLowerCase()}.png`)
             .draggable('enable');
         $('#part-info-name')
             .add(selectedPartHelper.children('b'))
             .text(data.name);
         selectedPartHelper
             .children('div')
-            .children('img').attr('src', `/static/img/design/${data.type}.png`);
+            .children('img').attr('src', `/static/img/design/${data.type.toLowerCase()}.png`);
         $('#part-info-des>p')
             .text(data.description);
+        $('#source-list').html('');
+        data.works.forEach((w) => {
+            $('#source-list')
+                .append(`<li><a href="/work?id=${w.id}">${w.year}-${w.teamname}</li></a>`);
+        });
+        data.papers.forEach((p) => {
+            $('#source-list')
+                .append(`<li><a href="/paper?id=${p.id}">${p.title}</li></a>`);
+        });
     });
 }
 selectedPartHelper
@@ -572,8 +585,7 @@ $('#interactive-button')
                 $('.ui.dimmer:first .loader')
                     .text('Loading interact data...');
                 $('.ui.dimmer:first').dimmer('show');
-                //$.get(`/api/interact?id=${id}`, (value) => {
-                $.get('/api/interact?id=257917', (value) => {
+                $.get(`/api/interact?id=${id}`, (value) => {
                     let table = $('<div></div>')
                         .append('<h5 class="ui header">Predicted interaction</h5>')
                         .append('<table></table>')
@@ -584,7 +596,7 @@ $('#interactive-button')
                     table.children('table')
                         .addClass('ui basic compact striped table')
                         .append('<tr><th>BBa</th><th>Name</th><th>Score</th><th>Type</th></tr>');
-                    
+
                     // convert parts to table
                     let rows = [];
                     $.each(value.parts, (i ,v) => {
@@ -596,7 +608,6 @@ $('#interactive-button')
                         rows.push(row);
                     });
 
-                    console.log(table.html());
                     $('.ui.dimmer:first').dimmer('hide');
                     $(this).popup({
                         variation: 'flowing',
@@ -604,7 +615,7 @@ $('#interactive-button')
                         html: table.html()
                     });
                     $(this).popup('show');
-                        
+
                     $('.popup tr').each((i, row) => {
                         if (i == 0)
                             return;
@@ -635,6 +646,65 @@ $('#clear-all-button')
     .on('click', () => { $('.ui.basic.modal').modal('show'); });
 $('#real-clear-all-button')
     .on('click', () => { design.clearAll(); });
+
+$('#simulation-button')
+    .on('click', () => {
+        let data = design.matrix;
+        let postData = {
+            data: JSON.stringify(data.matrix),
+            csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+        };
+        $('.ui.dimmer:first .loader')
+            .text('Running on server, please wait...');
+        $('.ui.dimmer:first').dimmer('show');
+        $.post('/api/simulation', postData, (v) => {
+            $('.ui.dimmer:first').dimmer('hide');
+            $('#simulation-modal').modal('show');
+            let labels = v.time;
+            let datasets = [];
+            for (let i = 0; i < v.result[0].length; ++i)
+                datasets.push({
+                    label: data.partName[i],
+                    data: [],
+                    fill: false,
+                    pointRadius: 0,
+                    borderColor: `hsl(${i * 360 / v.result[0].length}, 100%, 80%)`,
+                    backgroundColor: 'rgba(0, 0, 0, 0)'
+                });
+            v.result.forEach((d) => {
+                d.forEach((x, i) => {
+                    datasets[i].data.push(x * 38);
+                });
+            });
+            new Chart($('#simulation-result'), {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: datasets
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero:true
+                            }
+                        }]
+                    }
+                }
+            });
+        });
+    });
+
+$('#safety').popup({
+    title: 'Warning!',
+    content: 'Please check your design again in case of using any potential risky part! We don\'t recommend you to use parts with high risk ground. Change them into safe parts?',
+    position: 'bottom right',
+    variation: 'wide popup'
+});
+
+function warning() {
+    $('#safety').popup('show');
+}
 
 $(window)
     .on('keydown', (event) => { if (event.ctrlKey === true) selectMode('dragCanvas'); })

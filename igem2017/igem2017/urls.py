@@ -27,26 +27,29 @@ urlpatterns = [
     url(r'^search/work$', main_views.search_work),
     url(r'^search/paper$', main_views.search_paper),
     url(r'^search/part$', main_views.search_part),
-    url(r'^interest$', main_views.interest),
+    url(r'^interest$', main_views.interest_view),
     url(r'^register$', main_views.register),
     url(r'^login', main_views.login_view),
     url(r'^logout$', main_views.logout_view),
     url(r'^design$', design_views.design),
     url(r'^work$', main_views.work),
     url(r'^paper$', main_views.paper),
+    url(r'^keywords$', main_views.keywords),
+
 ] + \
 [
     # API urls
     url(r'api/get_favorite$', design_views.get_favorite),
     url(r'api/tag_favorite$', design_views.tag_favorite),
     url(r'api/part_favorite$', design_views.part_favorite),
-    url(r'api/parts$', design_views.search_parts),
+    url(r'api/parts$', design_views.parts),
     url(r'api/part$', design_views.part),
-    url(r'api/get_circuit$', design_views.get_circuit),
+    url(r'api/circuit$', design_views.circuit),
     url(r'api/get_saves$', design_views.get_saves),
-    url(r'api/save_circuit$', design_views.save_circuit),
     url(r'api/interact$', design_views.interact),
     url(r'api/simulation$', design_views.simulation),
+    url(r'api/interest$', main_views.interest),
+
 
 ] + \
 [

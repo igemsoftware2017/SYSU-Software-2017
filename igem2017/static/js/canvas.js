@@ -29,9 +29,8 @@ class SDinDesign {
     static get partSafetyLevels() {
         return [
             'Low risk',
-            'Small risk',
-            'Many risk',
-            'Bomb'
+            'Moderate risk',
+            'High risk'
         ];
     }
     static get partTypes() {
@@ -82,10 +81,18 @@ class SDinDesign {
             'protein-m',
             'protein-l',
             'complex',
-            'unknown',
-
-            'CDS' // kind of workaround
+            'unknown'
         ]) !== -1;
+    }
+    static typeVal(type) {
+        return type === 'inhibition' ? 1 : 0;
+    }
+    static typeXor(types) {
+        let res = 0;
+        types.forEach((v) => {
+            res ^= SDinDesign.typeVal(v);
+        });
+        return res === 0 ? 1 : -1;
     }
     static get standardSize() {
         return {
@@ -130,13 +137,23 @@ class SDinDesign {
             this.enableAdd();
     }
 
-    constructor(canvas, design, option = {}) {
+    constructor(
+        canvas,
+        design = {
+            devices: [],
+            lines: [],
+            parts: [],
+            id: -1
+        },
+        option = {}
+    ) {
         this._canvas = canvas;
         this.parseOption(option);
         this._canvasPositionX = 0;
         this._canvasPositionY = 0;
         this._size = SDinDesign.zoom(SDinDesign.standardSize, 1);
         this._nextPartId = 0;
+        this._nextPartCid = 0;
         this._ready = () => {};
         this._readyFired = false;
         this._jsPlumb = jsPlumb.getInstance();
@@ -165,8 +182,13 @@ class SDinDesign {
     get canvas() { return $(this._canvas); }
     get design() {
         let data = {
+            id: this._id,
             lines: this._design.lines,
-            devices: this._design.devices.map((v) => v.parts.map((p) => p.cid)),
+            devices: this._design.devices.map((v) => ({
+                subparts: v.parts.map((p) => p.cid),
+                X: v.X,
+                Y: v.Y
+            })),
             parts: this._design.devices.reduce((t, v) => t.concat(v.parts), this._design.parts)
         };
         $.each(data.lines, (_, l) => { delete l.DOM; });
@@ -177,6 +199,7 @@ class SDinDesign {
         this._jsPlumb.deleteEveryConnection();
         $('.SDinDesign-part, .SDinDesign-device').remove();
 
+        this._id = parseInt(design.id, 10);
         let tmp = design.parts.reduce((t, p) => { t[p.cid] = p; return t; }, {});
         $.each(tmp, (_, v) => {
             if (v.X === undefined)
@@ -247,25 +270,8 @@ class SDinDesign {
         if (this._option.addable) {
         // Creating dropper for adding subparts
             for (let i = 0; i <= data.parts.length; ++i) {
-                $('<div></div>')
-                    .appendTo(device)
-                    .addClass('SDinDesign-subpartDropper')
-                    .attr('dropper-id', i)
-                    .droppable({
-                        accept: '#part-info-img',
-                        greedy: true,
-                        tolerance: 'intersect',
-                        over: function() {
-                            $(this).css({ backgroundColor: 'rgba(255, 0, 0, 0.3)' });
-                        },
-                        out: function() {
-                            $(this).css({ backgroundColor: 'rgba(255, 0, 0, 0.1)' });
-                        },
-                        drop: function() {
-                            // TODO: fix selectedPart from other file
-                            that.insertPart(data, selectedPart, $(this).attr('dropper-id'));
-                        }
-                    });
+                let dropper = this.addSubpartDropper(device, data);
+                dropper.attr('dropper-id', i);
             }
             // covering incorrect canvas droppable
             device.droppable({
@@ -284,6 +290,28 @@ class SDinDesign {
         data.DOM = device;
     }
 
+    addSubpartDropper(device, data) {
+        let that = this;
+        return $('<div></div>')
+            .appendTo(device)
+            .addClass('SDinDesign-subpartDropper')
+            .droppable({
+                accept: '#part-info-img',
+                greedy: true,
+                tolerance: 'intersect',
+                over: function() {
+                    $(this).css({ backgroundColor: 'rgba(255, 0, 0, 0.3)' });
+                },
+                out: function() {
+                    $(this).css({ backgroundColor: 'rgba(255, 0, 0, 0.1)' });
+                },
+                drop: function() {
+                    // TODO: fix selectedPart from other file
+                    that.insertPart(data, selectedPart, $(this).attr('dropper-id'));
+                }
+            });
+    }
+
     addPart(data, index, device) {
         let isSubpart = device !== undefined;
         if (!isSubpart)
@@ -295,13 +323,14 @@ class SDinDesign {
             .attr('part-id', data.id)
             .append(`
                 <div class="ui centered fluid image">
-                    <img src="/static/img/design/${data.type}.png"></img>
+                    <img src="/static/img/design/${data.type.toLowerCase()}.png"></img>
                 </div>
             `)
             .append(`<p>${data.name}</p>`)
             .data('is-subpart', isSubpart)
             .data('index', index);
-        this._nextPartId = Math.max(this._nextPartId, parseInt(data.ID)) + 1;
+        this._nextPartId = Math.max(this._nextPartId, parseInt(data.id)) + 1;
+        this._nextPartCid = Math.max(this._nextPartCid, parseInt(data.cid)) + 1;
         if (isSubpart === false) {
             if (this._option.draggable) {
                 part.on('click', () => SDinDesign.preventClickOnDrag(this, part));
@@ -423,13 +452,19 @@ class SDinDesign {
     }
 
     insertPart(device, data, position) {
+        data.cid = this._nextPartCid;
         device.parts.splice(position, 0, data);
         this.addPart(data, position, device.DOM);
-        // TODO:
-        //   Subpart dropper unfixed!!!!!
         // Re-index all parts in device
         $.each(device.parts, (index, part) => {
             part.DOM.data('index', index);
+            part.DOM.data('leftmost', index === 0);
+            part.DOM.data('rightmost', index === device.parts.length - 1);
+        });
+        // Add one more subpart dropper
+        this.addSubpartDropper(device.DOM, device);
+        device.DOM.children('.SDinDesign-subpartDropper').each((i, d) => {
+            $(d).attr('dropper-id', i);
         });
         this.redrawDesign();
     }
@@ -443,50 +478,110 @@ class SDinDesign {
         };
     }
 
-    generate(p1, p2) {
-        // return if p1(promoter) generates p2(material)
-        if (p1.type !== 'promoter' || SDinDesign.isMaterial(p2) !== true)
-            return false;
-        this._design.device.forEach((dev) => {
-            let pro = dev.parts.findIndex((v) => v.cid === p1);
-            if (pro === -1)
+    findGenerate(p, lines) {
+        // return all material generated by gene promoted by promoter p
+        let gen = [];
+        this._design.devices.forEach((dev) => {
+            // find p
+            let i = dev.parts.findIndex((part) => p === part.cid);
+            if (i === -1)
                 return;
-            let pro2 = dev.parts.findIndex((v, i) => v.type === 'promoter' && i > pro);
-            if (pro2 === -1)
-                pro2 = dev.parts.length;
+            // find promoter next to p
+            let j = dev.parts.findIndex((part, index) =>
+                part.type === 'promoter' && index > i
+            );
+            if (j === -1)
+                j = dev.parts.length;
+            // forEach line start between i and j
+            lines.forEach((l) => {
+                let pos = dev.parts.findIndex((part) => part.cid === l.start);
+                if (i < pos && pos < j)
+                    gen.push({ cid: l.end, type: l.type });
+            });
         });
+        return gen;
+    }
+
+    traceCDS(p, lines, partDic) {
+        if (p.type !== 'CDS')
+            return [{ cid: p.cid, type: 'promotion' }];
+        let ans = lines.reduce((a, l) => {
+            if (l.start === p.cid)
+                a.push(partDic[l.end]);
+            return a;
+        }, []);
+        return ans.reduce((a, p) => {
+            return a.concat(this.traceCDS(p, lines, partDic));
+        }, []);
     }
 
     get matrix() {
-        let parts = this._design.devices.reduce((t, v) => t.concat(v.parts), this._design.parts);
-        parts = parts.filter((p) => SDinDesign.isMaterial(p.type));
+        let design = $.extend(true, {}, this._design);
+        let parts = design.devices.reduce((t, v) => t.concat(v.parts), design.parts);
+        let maxCid = Math.max.apply(this, parts.map((p) => p.cid));
         let partDic = parts.reduce((t, v) => { t[v.cid] = v; return t; }, {});
+        // Dealing with CDS
+        parts.forEach((p) => {
+            if (p.type !== 'CDS')
+                return;
+            // find a material linked by this CDS
+            let found = design.lines.reduce((f, l) =>
+                f || (l.start === p.cid && SDinDesign.isMaterial(partDic[l.end].type))
+                , false);
+            if (found === true)
+                return;
+            // generate a fake material generated by this CDS
+            parts.push({
+                cid: ++maxCid,
+                type: 'material',
+                name: p.name
+            });
+            design.lines.push({
+                start: p.cid,
+                end: maxCid,
+                type: 'promotion'
+            });
+        });
+        partDic = parts.reduce((t, v) => { t[v.cid] = v; return t; }, {});
+        parts = parts.filter((p) => SDinDesign.isMaterial(p.type));
+        let materialDic = parts.reduce((t, v) => { t[v.cid] = v; return t; }, {});
         parts.forEach((v, i) => { partDic[v.cid].index = i; });
         let n = parts.length;
         let res = Array(n).fill(0).map(() => Array(n).fill(0));
-        this._design.lines.forEach((v, i) => {
-            // Direct communication
-            if (partDic[v.start] !== undefined && partDic[v.end] !== undefined) {
-                if (v.type === 'promotion')
-                    res[partDic[v.start].index][partDic[v.end].index] = 1;
-                else if (v.type === 'inhibition')
-                    res[partDic[v.start].index][partDic[v.end].index] = -1;
-                return;
-            }
+        let partName = parts.map((p) => p.name);
+        design.lines.forEach((v, i) => {
+            let type = v.type;
+            // Backtrace CDS
+            let start = this.traceCDS(partDic[v.start], design.lines, partDic);
+            let end = this.traceCDS(partDic[v.end], design.lines, partDic);
 
-            // promote/inhibit promoter
+            for (let s of start)
+                for (let e of end) {
+                    if (s.cid === e.cid)
+                        return;
+                    // Direct communication
+                    if (materialDic[s.cid] !== undefined && materialDic[e.cid] !== undefined) {
+                        let val = SDinDesign.typeXor([v.type, s.type, e.type]);
+                        res[partDic[s.cid].index][partDic[e.cid].index] = val;
+                    }
 
-            // CDS
-
+                    // promote/inhibit promoter
+                    if (partDic[e.cid].type === 'promoter') {
+                        this.findGenerate(e.cid, design.lines).forEach((data) => {
+                            let a = partDic[s.cid].index;
+                            let b = partDic[data.cid].index;
+                            if (b === undefined)
+                                return;
+                            res[a][b] = SDinDesign.typeXor([s.type, e.type, data.type, v.type]);
+                            console.log(a, b, res[a][b], s.type, e.type, data.type, v.type);
+                        });
+                    }
+                }
         });
-        let postData = {
-            data: JSON.stringify(res),
-            csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+        return {
+            matrix: res,
+            partName: partName
         };
-        $.post('/api/simulation', postData, (v) => {
-            console.log(v);
-        });
-        return res;
     }
 
     enableZoom() {
@@ -541,33 +636,38 @@ class SDinDesign {
 
     enableAdd() {
         let that = this;
-        $(this._canvas)
-            .droppable({
-                accept: '#part-info-img',
-                greedy: true,
-                over: function() {
-                    $(this).css({
-                        backgroundColor: 'rgba(0, 0, 255, 0.1)'
-                    });
-                },
-                out: function() {
-                    $(this).css({ backgroundColor: '' });
-                },
-                drop: function(event) {
-                    $(this).css({ backgroundColor: '' });
-                    let newDevice = {
-                        X: event.offsetX / that._size.unit - that._canvasPositionX,
-                        Y: event.offsetY / that._size.unit - that._canvasPositionY,
-                        parts: []
-                    };
-                    let partData = $.extend(true, {}, selectedPart);
-                    partData.ID = that._nextPartId;
+        $(this._canvas).droppable({
+            accept: '#part-info-img',
+            greedy: true,
+            over: function() {
+                $(this).css({
+                    backgroundColor: 'rgba(0, 0, 255, 0.1)'
+                });
+            },
+            out: function() {
+                $(this).css({ backgroundColor: '' });
+            },
+            drop: function(event) {
+                $(this).css({ backgroundColor: '' });
+                let partData = $.extend(true, {}, selectedPart);
+                partData.id = that._nextPartId;
+                partData.cid = that._nextPartCid;
+                let x = event.offsetX / that._size.unit - that._canvasPositionX;
+                let y = event.offsetY / that._size.unit - that._canvasPositionY;
+                if (SDinDesign.isGene(partData.type)) {
+                    let newDevice = { parts: [], X: x, Y: y };
                     newDevice.parts.push(partData);
                     that._design.devices[Object.keys(that._design.devices).length] = newDevice;
                     that.addDevice(newDevice);
-                    that.redrawDesign();
+                } else {
+                    partData.X = x;
+                    partData.Y = y;
+                    that._design.parts.push(partData);
+                    that.addPart(partData, 1, this._canvas);
                 }
-            });
+                that.redrawDesign();
+            }
+        });
     }
 
     highlightDevice(device, transparency) {
