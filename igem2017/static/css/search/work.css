@@ -19,11 +19,16 @@
 #search-type-menu > .active.item {
   border-color: #ffd405;
 }
-#result-container {
+#tool-container {
   margin-left: 10.5rem;
   margin-top: 1rem;
   width: 44rem;
+}
+#result-container {
+  margin-left: 10.5rem;
+  width: 44rem;
   position: absolute;
+  padding-top: 0.5rem;
 }
 div.line {
   margin-top: 1rem;
@@ -42,7 +47,6 @@ div.line {
   margin-right: 2.5rem;
 }
 #result-list {
-  margin-top: 0.5rem;
 }
 body {
   background-image: url("/static/img/search/back.jpg");
@@ -153,11 +157,26 @@ div#tool-popup {
   border-radius: 0;
   margin-bottom: 1rem;
 }
-#right-panel {
-  position: absolute;
+#right-panel-container {
+  margin-left: 55.5rem;
+  padding-top: 0.5rem;
+}
+.right-panel {
   background-color: white;
   padding: 1rem;
-  width: 17rem;
-  height: 20rem;
-  margin-left: 55.5rem;
+  width: 21rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.right-panel>h3>img {
+  height: 2em !important;
+  width: auto !important;
+}
+.right-panel>.wiki-pic {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5em;
+}
+.right-panel>p, a {
+  margin-bottom: 0;
 }

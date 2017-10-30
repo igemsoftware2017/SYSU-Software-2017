@@ -4,10 +4,11 @@ $('#search-box').css({
     height: $('#logo').height()
 });
 
-function search(q) {
+function realSearch(q, type) {
     if (q !== '')
-        window.location.href = `/search/work?q=${q}`;
+        window.location.href = `/search/${type}?q=${q}`;
 }
+let search = (q) => realSearch(q, 'work');
 $('#search-icon')
     .on('click', () => { search($('#search-edit').val()); });
 $(window)

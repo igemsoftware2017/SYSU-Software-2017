@@ -288,9 +288,6 @@ def search_paper(request):
     print(context)
     return render(request, 'search/paper.html', context)
 
-def search_part(request):
-    return render(request, 'search/part.html')
-
 def paper(request):
     key = request.GET.get('id')
     try:
@@ -312,6 +309,15 @@ def paper(request):
 def search_part(request):
     key = request.GET.get('q')
     query = Parts.objects.filter(Name__contains = key)
+    def safety_level(s):
+        try:
+            return {
+                1: 'Low risk',
+                2: 'Moderate risk',
+                3: 'High risk'
+            }[s]
+        except KeyError:
+            return 'Unknown risk'
     parts = [{
         'id': x.id,
         'name': x.Name,
@@ -324,6 +330,7 @@ def search_part(request):
         'rating': x.Part_rating,
         'use': x.Use,
         'partResult': x.Part_results,
+        'safety': safety_level(x.Safety),
         'parameters': '???'
     } for x in query]
     context = {

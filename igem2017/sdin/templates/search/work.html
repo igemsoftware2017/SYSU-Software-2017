@@ -18,7 +18,7 @@
     {% include '../search-box.html' %}
     <link rel="stylesheet" href="/static/css/search-box.css">
 
-    <div id="result-container">
+    <div id="tool-container">
       <div id="search-type-menu" class="ui secondary pointing inverted menu">
         <a class="active item">Project</a>
         <a class="item" href="/search/part?q={{ request.GET.q }}">Parts</a>
@@ -52,6 +52,8 @@
           <div class="ui submit button">Apply</div>
         </div>
       </div>
+    </div>
+    <div id="result-container">
       <div id="result-list">
         <div class="ui items">
           {% for work in works %}
@@ -78,12 +80,43 @@
         </div>
       </div>
     </div>
-    <div id="right-panel">
-      <h3 class="ui header">Year relations</h4>
-      <div class="chart-box">
-        <canvas id="chart" width="300" height="300"></canvas>
+    <div id="right-panel-container">
+      {% if additional.yearRelation != '' %}
+      <div class="right-panel">
+        <h3 class="ui header">Year relations</h3>
+        <div class="chart-box">
+          <canvas id="year-chart" width="300" height="300"></canvas>
+        </div>
+        <input type="text" id="year-chart-data" value="{{ additional.yearRelation }}" hidden>
       </div>
-      <input type="text" id="chart-data" value="{{ additional.yearRelation }}" hidden>
+      {% endif %}
+
+      <div class="right-panel">
+        <h3 class="ui header"><img src="/static/img/search/book.png">{{ additional.name }}</h3>
+        <img class="wiki-pic" src="{{ additional.picture }}" alt="">
+        <p>{{ additional.description }}</p>
+        <a href="{{ additional.link }}">More...</a>
+      </div>
+
+      {% if additional.trackRelation != '' %}
+      <div class="right-panel">
+        <h3 class="ui header">Track relations</h3>
+        <div class="chart-box">
+          <canvas id="track-chart" width="300" height="300"></canvas>
+        </div>
+        <input type="text" id="track-chart-data" value="{{ additional.trackRelation }}" hidden>
+      </div>
+      {% endif %}
+
+      {% if additional.medalRelation != '' %}
+      <div class="right-panel">
+        <h3 class="ui header">Medal relations</h3>
+        <div class="chart-box">
+          <canvas id="medal-chart" width="300" height="300"></canvas>
+        </div>
+        <input type="text" id="medal-chart-data" value="{{ additional.medalRelation }}" hidden>
+      </div>
+      {% endif %}
     </div>
   </body>
 

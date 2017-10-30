@@ -3,9 +3,9 @@
 /* global Chart */
 
 // initializing position
-$('#right-panel').css({
-    top: $('#result-list').offset().top,
-});
+// $('#right-panel').css({
+//     top: $('#result-list').offset().top,
+// });
 
 $('.star.icon')
     .on('click', function() {
@@ -48,28 +48,43 @@ $('.rewards').each((_, v) => {
     });
 });
 
-let data = JSON.parse($('#chart-data').val());
-let labels = Object.keys(data[0]);
-let nums = labels.map((k) => data[0][k]);
-new Chart($('#chart'), {
-    type: 'bar',
-    data: {
-        labels: labels,
-        datasets: [{
-            label: 'Score',
-            data: nums,
-            backgroundColor: [
-                'red', 'orange', 'yellow', 'green' ,'cyan', 'blue', 'purple', 'grey'
-            ]
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
+function colors(len) {
+    return Array(len).fill(0).map((_, i) => `hsl(${i * 360 / len}, 100%, 80%)`);
+}
+
+function drawChart(d, chart) {
+    let data = JSON.parse($(d).val());
+    let labels = Object.keys(data[0]);
+    let nums = labels.map((k) => data[0][k]);
+    new Chart($(chart), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Score',
+                data: nums,
+                backgroundColor: colors(labels.length)
             }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero:true
+                    }
+                }],
+                xAxes: [{
+                    ticks: {
+                        autoSkip: false,
+                        fontSize: 10
+                    }
+                }]
+            },
+            legend: { display: false }
         }
-    }
-});
+    });
+}
+
+drawChart('#year-chart-data', '#year-chart');
+drawChart('#track-chart-data', '#track-chart');
+drawChart('#medal-chart-data', '#medal-chart');

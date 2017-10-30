@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Search result - S-Din</title>
+    <title>Search parts - S-Din</title>
 
     <link rel="stylesheet" href="/static/css/fontsize.css">
     <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
@@ -43,7 +43,7 @@
             </div>
             <div class="content">
               <a class="ui header" href="/part?id={{ part.id }}">Part: {{ part.name }} | <span class="smaller">{{ part.group }}</span></a>
-              <div class="meta">{{ part.type }}</div>
+              <div class="meta">{{ part.type }}, {{ part.safety }}</div>
               <div class="medal">
                 {{ part.rating }} Registry Star
               </div>
