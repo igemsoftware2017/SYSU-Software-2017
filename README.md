@@ -4,9 +4,15 @@
 
 ## Introduction
 
-S-Din integrated Search Engine and Design Platform developed specifically for Synthetic Biology.
+Welcome to S-Din! This is the most powerful Search Engine and Design Platform for your idea inspiration and design process in Synthetic Biology. 
 
-* ​
+* Search for previous projects, parts and papers in Synbio field and get inspired with the connection behind them dug by 2017 SYSU-Software. All the search results are powered by our algorithms(http://2017.igem.org/Team:SYSU-Software/Model) behind.
+
+* Design and integrate previous circuits and parts with the help of seamless feature of our S-Din. Relationship recommendation among the basic level of parts helps for the idea inspiration.
+
+* Simulation and plasmid generator make S-Din an academic software with reliable   lab validation. Want to save your time and resource before real experiments? Use S-Din in your final step!
+
+SYNBIO IS JUST S-DIN AWAY! 
 
 ## Requirements
 
