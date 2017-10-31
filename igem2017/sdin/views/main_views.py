@@ -134,7 +134,7 @@ def work(request):
             'readCount': wk.ReadCount,
             'medal': wk.Medal,
             'rewards': Awards,
-            'description': wk.SimpleDescription,
+            'description': wk.Description,
             'isFavourite': favorite,
             'images': Img,
             'designId': -1 if wk.Circuit is None else wk.Circuit.id,
@@ -170,10 +170,52 @@ uglyTable = {
     'software': 'Software',
     'therapeutics': 'Therapeutics'}
 
+def _get_work(w, request):
+    if request.user.is_authenticated:
+        try:
+            UserFavorite.objects.get(user = request.user, circuit = w.Circuit)
+            favourite = True
+        except UserFavorite.DoesNotExist:
+            favourite = False
+    else:
+        favourite = False
+
+    awards = w.Award.split(';')
+    while len(awards) > 0 and awards[-1] == '':
+        awards = awards[:-1]
+
+    return {
+        'id': w.TeamID,
+        'year': w.Year,
+        'teamName': w.Teamname,
+        'projectName': w.Title,
+        'school': w.Teamname,
+        'medal': w.Medal,
+        'description': w.SimpleDescription[:200],
+        'chassis': w.Chassis,
+        'rewards': awards,
+        'isFavourite': favourite,
+        'logo': w.logo}
+
+def _get_part(p, request):
+    if request.user.is_authenticated:
+        try:
+            FavoriteParts.objects.get(user = request.user, part = p)
+            favourite = True
+        except FavoriteParts.DoesNotExist:
+            favourite = False
+    else:
+        favourite = False
+    return {
+        'name': p.Name,
+        'type': p.Type,
+        'id': p.id,
+        'isFavourite': favourite}
 
 def search_work(request):
     key = request.GET.get('q')
-    key = key.lower()
+    lkey = key.lower()
+    
     year = request.GET.get('year')
     if year == None:
         year = 'any'
@@ -192,7 +234,7 @@ def search_work(request):
 
     key_dict = {}
     q = Keyword.objects.all()
-    d = list(filter(lambda x: x.name in key, q))
+    d = list(filter(lambda x: x.name.lower() in lkey, q))
     for i in d:
         if 'name' not in key_dict or len(key_dict['name']) < len(i.name):
             key_dict = i.__dict__
@@ -217,9 +259,31 @@ def search_work(request):
     if 'link' in key_dict:
         key_dict['link'] = json.loads(key_dict['link'])
 
+    parts = []
+    works = []
+    keywords = []
+
+    if '_type' in key_dict and (key_dict['_type'] == 'team name' or key_dict['_type'] == 'special prizes'):
+        _data = json.loads(key_dict['suggestedProject'])
+        for d in _data:
+            try:
+                w = Works.objects.get(Year = d[1][0:4], Teamname = d[1][5:])
+                works.append(_get_work(w, request))
+            except:
+                pass
+        _data = json.loads(key_dict['suggestedPart'])
+        for d in _data:
+            try:
+                w = Parts.objects.get(Name = d[1])
+                parts.append(_get_part(w, request))
+            except:
+                pass
+
+
     key = ''.join(map(lambda x: str(x) + ' ', true_keys))
     if len(key) > 0:
         key = key[:-1]
+    key = key.lower()
     
     if request.user.is_authenticated and request.user.interest != 'None':
         interest = json.dumps(json.loads(request.user.interest)['interest'])
@@ -231,9 +295,6 @@ def search_work(request):
     except:
         result = res.text
 
-    parts = []
-    works = []
-    keywords = []
     if len(true_keys) == 0:
         q = Works.objects.all().order_by('-IEF')
         if year != 'any':
@@ -244,99 +305,45 @@ def search_work(request):
             q = q.filter(Track = track)
 
         for w in q:
-            if request.user.is_authenticated:
-                try:
-                    UserFavorite.objects.get(user = request.user, circuit = w.Circuit)
-                    favourite = True
-                except UserFavorite.DoesNotExist:
-                    favourite = False
-            else:
-                favourite = False
-
-            awards = w.Award.split(';')
-            while len(awards) > 0 and awards[-1] == '':
-                awards = awards[:-1]
-
-            works.append({
-                        'id': w.TeamID,
-                        'year': w.Year,
-                        'teamName': w.Teamname,
-                        'projectName': w.Title,
-                        'school': w.Teamname,
-                        'medal': w.Medal,
-                        'description': w.SimpleDescription[:200],
-                        'chassis': w.Chassis,
-                        'rewards': awards,
-                        'isFavourite': favourite,
-                        'logo': w.logo})
+            works.append(_get_work(w, request))
+            
     if type(result) is dict:
-        for item in result['parts']:
-            try:
-                p = Parts.objects.get(Name = item)
-                if request.user.is_authenticated:
-                    try:
-                        FavoriteParts.objects.get(user = request.user, part = p)
-                        favourite = True
-                    except FavoriteParts.DoesNotExist:
-                        favourite = False
-                else:
-                    favourite = False
-                parts.append({
-                    'name': p.Name,
-                    'type': p.Type,
-                    'id': p.id,
-                    'isFavourite': favourite})
-            except Parts.DoesNotExist:
-                parts.append({
-                    'name': item,
-                    'type': 'unkown',
-                    'id': -1,
-                    'isFavourite': False})
+        if parts == []:
+            for item in result['parts']:
+                try:
+                    p = Parts.objects.get(Name = item)
+                    parts.append(_get_part(p, request))
+                    
+                except Parts.DoesNotExist:
+                    parts.append({
+                        'name': item,
+                        'type': 'unkown',
+                        'id': -1,
+                        'isFavourite': False})
 
-        for item in result['teams']:
-            try:
-                s = item.split(' ')
-                w = Works.objects.get(Teamname = s[0], Year = s[1])
-                if request.user.is_authenticated:
-                    try:
-                        UserFavorite.objects.get(user = request.user, circuit = w.Circuit)
-                        favourite = True
-                    except UserFavorite.DoesNotExist:
-                        favourite = False
-                else:
-                    favourite = False
+        if works == []:
+            for item in result['teams']:
+                try:
+                    s = item.split(' ')
+                    w = Works.objects.get(Teamname = s[0], Year = s[1])
+                    
+                    if year is not None and year != 'any' and w.Year != int(year):
+                        continue
+                    if medal is not None and medal != 'any' and w.Medal != medal:
+                        continue
+                    if track is not None and track != 'any' and w.Track != track:
+                        continue
 
-                if year is not None and year != 'any' and w.Year != int(year):
-                    continue
-                if medal is not None and medal != 'any' and w.Medal != medal:
-                    continue
-                if track is not None and track != 'any' and w.Track != track:
-                    continue
+                    works.append(_get_work(w, request))
 
-                awards = w.Award.split(';')
-                while len(awards) > 0 and awards[-1] == '':
-                    awards = awards[:-1]
+                except Works.DoesNotExist:
+                    works.append({
+                        'id': -1,
+                        'teamName': s[0],
+                        'Year': s[1],
+                        'isFavourite': False})
 
-                works.append({
-                    'id': w.TeamID,
-                    'year': w.Year,
-                    'teamName': w.Teamname,
-                    'projectName': w.Title,
-                    'school': w.Teamname,
-                    'medal': w.Medal,
-                    'description': w.SimpleDescription[:200],
-                    'chassis': w.Chassis,
-                    'rewards': awards,
-                    'isFavourite': favourite,
-                    'logo': w.logo})
-            except Works.DoesNotExist:
-                works.append({
-                    'id': -1,
-                    'teamName': s[0],
-                    'Year': s[1],
-                    'isFavourite': False})
-
-            keywords = result['keyWords']
+        keywords = result['keyWords']
     
     context = {
         'works': works,
