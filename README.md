@@ -1,4 +1,4 @@
-<p align="center">![bk](bk.png)</p>
+<p align="center"><img src="bk.png"></p>
 
 <p align="center"><strong>Welcome ! </strong></p>
 
