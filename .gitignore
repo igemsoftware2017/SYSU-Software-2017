@@ -31,3 +31,5 @@ migrations/
 #virtual environment
 .env/
 
+#mac
+.DS_Store
