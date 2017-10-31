@@ -25,6 +25,8 @@ def start_venv(systemver):
         os.system("rm -rf .env")
     print("Creating virtual environment...")
     os.system("pip3 install virtualenv")
+    if systemver == "Linux":
+        os.system("apt-get install python3-venv")
     os.system("python3 -m venv .env")
     if systemver == "Windows":
         os.system(".env\\Scripts\\activate")

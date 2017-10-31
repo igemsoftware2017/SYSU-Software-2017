@@ -11,10 +11,6 @@ let pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-let color = d3.scaleLinear()
-    .domain([-1, 5])
-    .range(['transparent', 'navy']);
-
 function calcSize(obj) {
     if (obj.children === undefined)
         return obj.size = 10;
@@ -39,7 +35,6 @@ d3.json('/keywords', function(error, root) {
         .data(nodes)
         .enter().append('circle')
         .attr('class', function(d) { return d.parent ? d.children ? 'node' : 'node node--leaf' : 'node node--root'; })
-        .style('fill', function(d) { return d.children ? color(d.depth) : null; })
         .on('click', function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
     g.selectAll('text')
