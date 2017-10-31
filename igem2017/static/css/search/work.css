@@ -121,7 +121,7 @@ body {
 a {
   cursor: pointer;
 }
-a {
+.no-result a {
   color: #ffd800;
 }
 #tool {
