@@ -342,6 +342,7 @@ def circuit(request):
     if request.method == 'GET':
         try:
             query_id = request.GET.get('id')
+            circuit = Circuit.objects.get(id = query_id)
             parts_query = CircuitParts.objects.filter(Circuit = query_id)
             parts = [{'id': x.Part.id, 'cid': x.id, 'name': x.Part.Name,
                 'description': x.Part.Description, 'type': x.Part.Type,
@@ -360,6 +361,8 @@ def circuit(request):
             return JsonResponse({
                 'status': 1,
                 'id': query_id,
+                'name': circuit.Name,
+                'description': circuit.Description,
                 'parts': parts,
                 'lines': lines,
                 'devices': devices,
@@ -371,7 +374,14 @@ def circuit(request):
     elif request.method == 'POST':
         try:
             data = json.loads(request.POST['data'])
-            if data['circuit']['id'] == -1:
+            new = data['circuit']['id'] == -1
+            try:
+                circuit = Circuit.objects.get(pk = data['circuit']['id'])
+                if circuit.Author != request.user:
+                    new = True
+            except:
+                new = True
+            if new:
                 # new circuit
                 circuit = Circuit.objects.create(
                         Name = data['circuit']['name'],
@@ -384,8 +394,12 @@ def circuit(request):
                 circuit.Description = data['circuit']['description']
                 circuit.Author = request.user
                 circuit.save()
-                # delete existing circuit part
+                # delete existing circuit part, device
                 for x in CircuitParts.objects.filter(Circuit = circuit):
+                    x.delete()
+                for x in CircuitDevices.objects.filter(Circuit = circuit):
+                    x.delete()
+                for x in CircuitCombines.objects.filter(Circuit = circuit):
                     x.delete()
 
             cids = {}
@@ -395,18 +409,26 @@ def circuit(request):
                         Circuit = circuit,
                         X = x['X'],
                         Y = x['Y'])
-                cids[x['cid']] = circuit_part.id
+                cids[x['cid']] = circuit_part
             for x in data['lines']:
-                CircuitLines.objects.create(
-                        Start = cids[x['Start']],
-                        End = cids[x['End']],
-                        Type = x['Type'])
+                try:
+                    CircuitLines.objects.get(
+                        Start = cids[x['start']],
+                        End = cids[x['end']],
+                        Type = x['type']
+                    )
+                except:
+                    CircuitLines.objects.create(
+                        Start = cids[x['start']],
+                        End = cids[x['end']],
+                        Type = x['type']
+                    )
             for x in data['devices']:
                 cd = CircuitDevices.objects.create(Circuit = circuit)
                 for i in x['subparts']:
                     cd.Subparts.add(cids[i])
-                cd.X = x['x']
-                cd.Y = x['y']
+                cd.X = x['X']
+                cd.Y = x['Y']
                 cd.save()
             for x in data['combines']:
                 cd = CircuitCombines.objects.create(Circuit = circuit, Father = x)
@@ -482,8 +504,6 @@ def max_safety(request):
         try:
             data = json.loads(request.GET['ids'])
             parts = list(map(lambda i: Parts.objects.get(id = i), data))
-            for p in parts:
-                print(p.id, p.Safety)
             max_safety_part = max(parts, key = lambda p: p.Safety)
             return JsonResponse({
                 'status': 1,

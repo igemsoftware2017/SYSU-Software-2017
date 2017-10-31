@@ -26,6 +26,8 @@ $('#save-button').on('click', () => {
     $('#safety-modal').modal('show');
 });
 $('#continue-save').on('click', () => {
+    $('#circuit-name').val(design.name);
+    $('#circuit-description').val(design.description);
     $('#save-modal').modal('show');
 });
 $('#save-circuit').on('click', () => {

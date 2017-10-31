@@ -188,6 +188,7 @@ class SDinDesign {
         let data = {
             id: this._id,
             lines: this._design.lines,
+            combines: [],
             devices: this._design.devices.map((v) => ({
                 subparts: v.parts.map((p) => p.cid),
                 X: v.X,
@@ -201,6 +202,7 @@ class SDinDesign {
         return data;
     }
     set design(design) {
+        console.log(design);
         this._jsPlumb.deleteEveryConnection();
         $('.SDinDesign-part, .SDinDesign-device').remove();
 
@@ -256,7 +258,7 @@ class SDinDesign {
                 Y: v.Y
             })),
             parts: Object.keys(tmp).map((k) =>
-                tmp[k].wa ? undefined : tmp[k]
+                (tmp[k].wa === true) ? undefined : tmp[k]
             ).filter((k) => k !== undefined)
         };
         $.each(design.combines, (k, v) => {
