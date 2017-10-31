@@ -834,6 +834,9 @@ def load_additional(path):
                 _type = "year")
 
 
+def final():
+    for i in Works.objects.filter(Year__lte = 2008):
+        i.delete()
 
 
 def pre_load_data(currentpath, Imgpath):
@@ -846,3 +849,4 @@ def pre_load_data(currentpath, Imgpath):
     load_circuits(os.path.join(currentpath, 'papers/circuits'), is_work = False)
     #load_circuits(os.path.join(currentpath, 'works/circuits2'))
     load_additional(os.path.join(currentpath, 'additional'))
+    final()
