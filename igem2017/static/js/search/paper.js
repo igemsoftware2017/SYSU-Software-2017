@@ -7,3 +7,6 @@ $('#right-panel').css({
 
 search = (q, type) => realSearch(q, 'paper');
 $('#search-edit').attr('placeholder', 'Search for paper...');
+
+let searchWord = $('#search-word').val();
+$('#search-edit').val(searchWord);

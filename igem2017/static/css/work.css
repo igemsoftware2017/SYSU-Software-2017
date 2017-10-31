@@ -81,8 +81,7 @@ body {
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 1rem;
-  overflow-x: auto;
-  overflow-y: hidden;
+  display: flex;
 }
 #detail-container>.images>.image {
   max-width: 5.3rem;

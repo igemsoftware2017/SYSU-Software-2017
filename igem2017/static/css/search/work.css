@@ -82,7 +82,7 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  max-width: 40rem;
+  max-width: 27rem;
   margin-top: 0;
 }
 .ui.items>.item>.content>.ui.header>span.smaller {

@@ -81,6 +81,8 @@ $('.rewards').each((_, v) => {
     });
 });
 
+$('#search-edit').val(searchWord);
+
 function drawChart(d, chart) {
     d = $(d).val();
     if (d === undefined)
