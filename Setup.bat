@@ -10,6 +10,7 @@
 @IF %ERRORLEVEL% NEQ 0 goto error
 @cd ..\
 @cd igem2017
+@RD /S /Q  sdin\migrations
 @..\.env\Scripts\python3 manage.py makemigrations sdin
 @IF %ERRORLEVEL% NEQ 0 goto error
 @..\.env\Scripts\python3 manage.py migrate

@@ -7,6 +7,7 @@ cd tools
 ../.env/bin/python3 DbInit.py
 cd ../
 cd igem2017
+rm -rf sdin/migrations
 ../.env/bin/python3 manage.py makemigrations sdin
 ../.env/bin/python3 manage.py migrate
 ../.env/bin/python3 manage.py shell < init.py
