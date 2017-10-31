@@ -64,7 +64,7 @@
             <a class="ui basic label" data-type="track" data-value="software">Software</a>
             <a class="ui basic label" data-type="track" data-value="therapeutics">Therapeutic</a>
           </div>
-          <div id="complex-search" class="ui submit button">Apply</div>
+          <div id="complex-search" class="ui submit basic button">Apply</div>
         </div>
       </div>
     </div>
@@ -111,9 +111,13 @@
     <div id="right-panel-container">
       {% if keywords %}
       <div class="right-panel">
-        <h3 class="ui header">Keyword relations</h3>
-        <div class="chart-box">
-          <svg width="400" height="200"></svg>
+        <div class="header">
+          <h3 class="ui header">Keyword relations</h3>
+        </div>
+        <div class="content">
+          <div class="chart-box">
+            <svg width="400" height="400"></svg>
+          </div>
         </div>
         <input type="text" id="keyword-data", value="{{ keywords }}" hidden>
       </div>
@@ -121,9 +125,13 @@
 
       {% if additional.yearRelation and additional.yearRelation != '' %}
       <div class="right-panel">
-        <h3 class="ui header">Year relations</h3>
-        <div class="chart-box">
-          <canvas id="year-chart"></canvas>
+        <div class="header">
+          <h3 class="ui header">Year relations</h3>
+        </div>
+        <div class="content">
+          <div class="chart-box">
+            <canvas id="year-chart"></canvas>
+          </div>
         </div>
         <input type="text" id="year-chart-data" value="{{ additional.yearRelation }}" hidden>
       </div>
@@ -131,18 +139,27 @@
 
       {% if additional.name and additional.name != '' %}
       <div class="right-panel">
-        <h3 class="ui header"><img src="/static/img/search/book.png">{{ additional.name }}</h3>
-        <img class="wiki-pic" src="{{ additional.picture }}" alt="">
-        <p>{{ additional.description }}</p>
-        <a href="{{ additional.link }}">More...</a>
+        <div class="header">
+          <img src="/static/img/search/book.png">
+          <h3 class="ui header">{{ additional.name }}</h3>
+        </div>
+        <div class="content">
+          <img class="wiki-pic" src="{{ additional.picture }}" alt="">
+          <p>{{ additional.description }}</p>
+          <a href="{{ additional.link }}">More...</a>
+        </div>
       </div>
       {% endif %}
 
       {% if additional.trackRelation and additional.trackRelation != '' %}
       <div class="right-panel">
-        <h3 class="ui header">Track relations</h3>
-        <div class="chart-box">
-          <canvas id="track-chart"></canvas>
+        <div class="header">
+          <h3 class="ui header">Track relations</h3>
+        </div>
+        <div class="content">
+          <div class="chart-box">
+            <canvas id="track-chart"></canvas>
+          </div>
         </div>
         <input type="text" id="track-chart-data" value="{{ additional.trackRelation }}" hidden>
       </div>

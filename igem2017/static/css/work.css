@@ -9,7 +9,7 @@
 }
 body {
   background-image: url("/static/img/detail-back.jpg");
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
 }
 #detail-container {
@@ -74,6 +74,7 @@ body {
   line-height: 1rem;
   font-size: 1rem;
   color: #333333;
+  font-family: Source Han Serif CN;
 }
 #detail-container>.images {
   height: 4rem;
@@ -159,8 +160,20 @@ body {
   margin-left: 61.5rem;
   font-size: 1rem;
 }
+#right-panel .header {
+  display: flex;
+  align-items: center;
+}
+#right-panel .header img {
+  width: 1.5em !important;
+  height: auto !important;
+}
+#right-panel .header>.header {
+  margin: 0;
+}
 #right-panel .ui.header {
   font-size: 1.25rem;
+  display: inline;
 }
 #right-panel img {
   display: inline-block;

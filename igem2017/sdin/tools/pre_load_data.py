@@ -546,6 +546,7 @@ def load_circuits(circuits_floder_path, is_work = True):
                                                 X = sheet.cell(row, 3).value,
                                                 Y = sheet.cell(row, 4).value if sheet.cell(row, 5).value != "" else 0)
                                     except:
+                                        pass
                                         traceback.print_exc()
                                         print(name)
                                         print(sheet.name)
@@ -570,6 +571,7 @@ def load_circuits(circuits_floder_path, is_work = True):
                                                 X = sheet.cell(row, 4).value,
                                                 Y = sheet.cell(row, 5).value if sheet.cell(row, 5).value != "" else 0)
                                     except:
+                                        pass
                                         traceback.print_exc()
                                         print(name)
                                         print(sheet.name)
@@ -593,6 +595,7 @@ def load_circuits(circuits_floder_path, is_work = True):
                                                 X = sheet.cell(row, 5).value,
                                                 Y = 0 if sheet.cell(row, 6).value == "" else sheet.cell(row, 6).value)
                                     except:
+                                        pass
                                         traceback.print_exc()
                                         print(name)
                                         print(sheet.name)
@@ -681,24 +684,15 @@ def load_circuits(circuits_floder_path, is_work = True):
                                 except KeyError:
                                     pass
                                 except:
+                                    pass
                                     traceback.print_exc()
                                     print(name)
                                     print(sheet.name)
                                 row += 1
 
 
-            except UnicodeDecodeError:
-                traceback.print_exc()
-            except IndexError:
-                traceback.print_exc()
-            except ValueError:
-                traceback.print_exc()
-                print(name)
-                print(sheet.name)
-                print(parts)
             except:
-                traceback.print_exc()
-                print(name)
+                pass
 
     print('Total new part: ' + str(new_part_count))
 

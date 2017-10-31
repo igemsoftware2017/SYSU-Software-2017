@@ -147,7 +147,8 @@ def work(request):
         return HttpResponse("Work Does Not Exist!")
 
 # TODO
-search_url = 'http://6f24fb18.ngrok.io'
+# search_url = 'http://6f24fb18.ngrok.io'
+search_url = 'http://sdin.sysusoftware.info:10086'
 import requests
 import json
 
@@ -172,6 +173,7 @@ uglyTable = {
 
 def search_work(request):
     key = request.GET.get('q')
+    key = key.lower()
     year = request.GET.get('year')
     if year == None:
         year = 'any'
@@ -214,18 +216,59 @@ def search_work(request):
 
     if 'link' in key_dict:
         key_dict['link'] = json.loads(key_dict['link'])
-    key = ''.join(map(str, true_keys))
+
+    key = ''.join(map(lambda x: str(x) + ' ', true_keys))
+    if len(key) > 0:
+        key = key[:-1]
     
     if request.user.is_authenticated and request.user.interest != 'None':
         interest = json.dumps(json.loads(request.user.interest)['interest'])
     else:
         interest = '[]'
     res = requests.get(search_url + "?key=" + key + "&interest=" + interest)
-    result = json.loads(res.text)
+    try:
+        result = json.loads(res.text)
+    except:
+        result = res.text
 
     parts = []
     works = []
     keywords = []
+    if len(true_keys) == 0:
+        q = Works.objects.all().order_by('-IEF')
+        if year != 'any':
+            q = q.filter(Year = year)
+        if medal != 'any':
+            q = q.filter(Medal = medal)
+        if track != 'any':
+            q = q.filter(Track = track)
+
+        for w in q:
+            if request.user.is_authenticated:
+                try:
+                    UserFavorite.objects.get(user = request.user, circuit = w.Circuit)
+                    favourite = True
+                except UserFavorite.DoesNotExist:
+                    favourite = False
+            else:
+                favourite = False
+
+            awards = w.Award.split(';')
+            while len(awards) > 0 and awards[-1] == '':
+                awards = awards[:-1]
+
+            works.append({
+                        'id': w.TeamID,
+                        'year': w.Year,
+                        'teamName': w.Teamname,
+                        'projectName': w.Title,
+                        'school': w.Teamname,
+                        'medal': w.Medal,
+                        'description': w.SimpleDescription[:200],
+                        'chassis': w.Chassis,
+                        'rewards': awards,
+                        'isFavourite': favourite,
+                        'logo': w.logo})
     if type(result) is dict:
         for item in result['parts']:
             try:
@@ -321,10 +364,107 @@ def search_paper(request):
     print(context)
     return render(request, 'search/paper.html', context)
 
+def search_part(request):
+    def safety_level(s):
+        try:
+            return {
+                1: 'Low risk',
+                2: 'Moderate risk',
+                3: 'High risk'
+            }[s]
+        except KeyError:
+            return 'Unknown risk'
+
+    key = request.GET.get('q')
+    year = request.GET.get('year')
+    if year == None:
+        year = 'any'
+    medal = request.GET.get('medal')
+    if medal == None:
+        medal = 'any'
+    track = request.GET.get('track')
+    if track == None:
+        track = 'any'
+    if track != 'any':
+        track = uglyTable[track]
+
+    # TODO For test, ugly, will be changed later
+    keys = key.split()
+    true_keys = []
+
+    for i in keys:
+        keyword_query = Keyword.objects.filter(name__contains = i)
+        filter_key = False
+        for j in keyword_query:
+            if j._type == 'year' and (year == 'any' or year == j.name):
+                year = j.name
+                filter_key = True
+            elif j._type == 'track' and (track == 'any' or track == j.name):
+                track = j.name
+                filter_key = True
+            elif j._type == 'medal' and (medal == 'any' or medal == j.name):
+                medal = j.name
+                filter_key = True
+
+        if not filter_key:
+            true_keys.append(i)
+    
+    key = ''.join(map(str, true_keys))
+    
+    if request.user.is_authenticated and request.user.interest != 'None':
+        interest = json.dumps(json.loads(request.user.interest)['interest'])
+    else:
+        interest = '[]'
+    res = requests.get(search_url + "?key=" + key + "&interest=" + interest)
+    result = json.loads(res.text)
+
+    parts = []
+    if type(result) is dict:
+        for item in result['parts']:
+            try:
+                x = Parts.objects.get(Name = item)
+                if request.user.is_authenticated:
+                    try:
+                        FavoriteParts.objects.get(user = request.user, part = p)
+                        favourite = True
+                    except FavoriteParts.DoesNotExist:
+                        favourite = False
+                else:
+                    favourite = False
+                parts.append({
+                    'id': x.id,
+                    'name': x.Name,
+                    'group': x.Group,
+                    'date': x.DATE,
+                    'description': x.Description,
+                    'type': x.Type,
+                    'releaseStatus': x.Release_status,
+                    'sampleStatus': x.Sample_status,
+                    'rating': x.Part_rating,
+                    'use': x.Use,
+                    'partResult': x.Part_results,
+                    'safety': safety_level(x.Safety),
+                    'parameters': '???'
+                })
+            except Parts.DoesNotExist:
+                parts.append({
+                    'name': item,
+                    'type': 'unkown',
+                    'id': -1,
+                    'isFavourite': False})
+            
+    context = {
+        'parts': parts,
+        'resultsCount': len(parts),
+        }
+    return render(request, 'search/part.html', context)
+
+
 def paper(request):
     key = request.GET.get('id')
     try:
         paper = Papers.objects.get(pk = key)
+
         parts_query = CircuitParts.objects.filter(Circuit = paper.Circuit)
         part = []
         for q in parts_query:
@@ -376,37 +516,6 @@ def paper(request):
     except Papers.DoesNotExist:
         return HttpResponse('Does not exist.')
 
-def search_part(request):
-    key = request.GET.get('q')
-    query = Parts.objects.filter(Name__contains = key)
-    def safety_level(s):
-        try:
-            return {
-                1: 'Low risk',
-                2: 'Moderate risk',
-                3: 'High risk'
-            }[s]
-        except KeyError:
-            return 'Unknown risk'
-    parts = [{
-        'id': x.id,
-        'name': x.Name,
-        'group': x.Group,
-        'date': x.DATE,
-        'description': x.Description,
-        'type': x.Type,
-        'releaseStatus': x.Release_status,
-        'sampleStatus': x.Sample_status,
-        'rating': x.Part_rating,
-        'use': x.Use,
-        'partResult': x.Part_results,
-        'safety': safety_level(x.Safety),
-        'parameters': '???'
-    } for x in query]
-    context = {
-            'resultsCount': len(parts),
-            'parts': parts}
-    return render(request, 'search/part.html', context)
 
 @login_required
 def interest(request):
