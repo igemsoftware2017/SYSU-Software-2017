@@ -214,7 +214,7 @@ def load_works(works_floder_path):
                 row[1] = row[1].strip()
                 works.append(Works(
                     TeamID = int(row[0]),
-                    Teamname = row[1].strip(),
+                    Teamname = row[1],
                     Region = row[2],
                     Country = row[3],
                     Track = row[4],
@@ -278,15 +278,15 @@ def load_Team_description(works_floder_path):
     next(csv_reader)
     for row in csv_reader:
         try:
-            cnt += 1
             row[1] = row[1].strip()
-            work = Works.objects.get(Teamname=row[1], Year = int(row[0]))
-            work.SimpleDescription = row[2]
+            work = Works.objects.get(Teamname=row[1].strip(), Year = int(row[0]))
+            work.SimpleDescription = row[2].strip()
             works.append(work)
         except Exception as err3:
             errors += 1
             print(row[0], row[1])
-            #print(err3)
+            print(row)
+            print(err3)
             pass
     print('Saving...')
     atomic_save(works)
@@ -336,7 +336,7 @@ def load_Team_logo(folderpath):
             works.append(work)
         except Exception as err:
             errors += 1
-            print(err)
+            #print(err)
     print('Saving...')
     atomic_save(works)
     print('Error: {0:6d}'.format(errors))
@@ -359,8 +359,8 @@ def load_TeamImg(folderpath):
             ))
         except Exception as err:
             errors += 1
-            print(Team)
-            print(err)
+            #print(Team)
+            #print(err)
             pass
     print('Saving...')
     atomic_save(Imgs)
@@ -378,8 +378,8 @@ def load_TeamImg(folderpath):
             cache.append([all_works[Team].Img, Imgs[row[0]]])
         except Exception as err:
             errors += 1
-            print(Team)
-            print(err)
+            #print(Team)
+            #print(err)
             pass
     print('Saving...')
     atomic_add(cache)
