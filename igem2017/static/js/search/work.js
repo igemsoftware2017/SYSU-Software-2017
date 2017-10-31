@@ -7,6 +7,29 @@
 //     top: $('#result-list').offset().top,
 // });
 
+$('.link.item')
+    .on('mouseenter', function() {
+        $(this)
+            .css({
+                maxHeight: ''
+            })
+            .children('.content')
+            .children('.ui.header')
+            .css({
+                whiteSpace: 'normal'
+            });
+    }).on('mouseleave', function() {
+        $(this)
+            .css({
+                maxHeight: '10rem'
+            })
+            .children('.content')
+            .children('.ui.header')
+            .css({
+                whiteSpace: 'nowrap'
+            });
+    });
+
 $('.star.icon')
     .on('click', function() {
         if ($(this).hasClass('empty'))
