@@ -147,7 +147,8 @@ def work(request):
         return HttpResponse("Work Does Not Exist!")
 
 # TODO
-search_url = 'http://6f24fb18.ngrok.io'
+# search_url = 'http://6f24fb18.ngrok.io'
+search_url = 'http://sdin.sysusoftware.info:10086'
 import requests
 import json
 
@@ -172,6 +173,7 @@ uglyTable = {
 
 def search_work(request):
     key = request.GET.get('q')
+    key = key.lower()
     year = request.GET.get('year')
     if year == None:
         year = 'any'
@@ -214,18 +216,59 @@ def search_work(request):
 
     if 'link' in key_dict:
         key_dict['link'] = json.loads(key_dict['link'])
-    key = ''.join(map(str, true_keys))
+
+    key = ''.join(map(lambda x: str(x) + ' ', true_keys))
+    if len(key) > 0:
+        key = key[:-1]
     
     if request.user.is_authenticated and request.user.interest != 'None':
         interest = json.dumps(json.loads(request.user.interest)['interest'])
     else:
         interest = '[]'
     res = requests.get(search_url + "?key=" + key + "&interest=" + interest)
-    result = json.loads(res.text)
+    try:
+        result = json.loads(res.text)
+    except:
+        result = res.text
 
     parts = []
     works = []
     keywords = []
+    if len(true_keys) == 0:
+        q = Works.objects.all().order_by('-IEF')
+        if year != 'any':
+            q = q.filter(Year = year)
+        if medal != 'any':
+            q = q.filter(Medal = medal)
+        if track != 'any':
+            q = q.filter(Track = track)
+
+        for w in q:
+            if request.user.is_authenticated:
+                try:
+                    UserFavorite.objects.get(user = request.user, circuit = w.Circuit)
+                    favourite = True
+                except UserFavorite.DoesNotExist:
+                    favourite = False
+            else:
+                favourite = False
+
+            awards = w.Award.split(';')
+            while len(awards) > 0 and awards[-1] == '':
+                awards = awards[:-1]
+
+            works.append({
+                        'id': w.TeamID,
+                        'year': w.Year,
+                        'teamName': w.Teamname,
+                        'projectName': w.Title,
+                        'school': w.Teamname,
+                        'medal': w.Medal,
+                        'description': w.SimpleDescription[:200],
+                        'chassis': w.Chassis,
+                        'rewards': awards,
+                        'isFavourite': favourite,
+                        'logo': w.logo})
     if type(result) is dict:
         for item in result['parts']:
             try:
