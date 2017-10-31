@@ -311,7 +311,7 @@ def search_paper(request):
         'title': x.Title,
         'author': x.Authors,
         'DOI': x.DOI,
-        'abstract': x.Abstract,
+        'abstract': x.Abstract if len(x.Abstract) <= 120 else x.Abstract[:117] + '...',
         'JIF': x.JIF,
         'logo': x.LogoURL,
         'circuitId': x.Circuit.id} for x in query]
@@ -325,16 +325,53 @@ def paper(request):
     key = request.GET.get('id')
     try:
         paper = Papers.objects.get(pk = key)
+        parts_query = CircuitParts.objects.filter(Circuit = paper.Circuit)
+        part = []
+        for q in parts_query:
+            try:
+                pt = q.Part
+                if request.user.is_authenticated:
+                    try:
+                        FavoriteParts.objects.get(user = request.user, part = pt)
+                        part.append({
+                            'id': pt.id,
+                            'BBa': pt.Name,
+                            'name': pt.secondName,
+                            'isFavourite': True})
+                    except FavoriteParts.DoesNotExist:
+                        part.append({
+                            'id': pt.id,
+                            'BBa': pt.Name,
+                            'name': pt.secondName,
+                            'isFavourite': False})
+
+            except Parts.DoesNotExist:
+                part.append({
+                    'id': pt.id,
+                    'BBa': pt.Name,
+                    'name': pt.secondName,
+                    'isFavourite': False})
+        if request.user.is_authenticated:
+            try:
+                UserFavorite.objects.get(user = request.user, circuit = paper.Circuit)
+                favorite = True
+            except UserFavorite.DoesNotExist:
+                favorite = False
+        else:
+            favorite = False
 
         context = {
-                'title': paper.Title,
-                'DOI': paper.DOI,
-                'abstract': paper.Abstract,
-                'JIF': paper.JIF,
-                'keywords': paper.Keywords,
-                # TO ADD
-                'designId': None,
-                'part': {}}
+            'title': paper.Title,
+            'DOI': paper.DOI,
+            'authors': paper.Authors.split(','),
+            'abstract': paper.Abstract,
+            'JIF': paper.JIF,
+            'keywords': paper.Keywords,
+            'designId': paper.Circuit.id,
+            'articleURL': paper.ArticleURL,
+            'copyright': paper.Copyright,
+            'part': part
+        }
         return render(request, 'paper.html', context)
     except Papers.DoesNotExist:
         return HttpResponse('Does not exist.')

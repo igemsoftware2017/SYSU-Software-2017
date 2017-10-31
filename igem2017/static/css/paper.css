@@ -47,6 +47,9 @@ body {
   line-height: 1em;
   margin-bottom: 1rem;
 }
+#detail-container>.title a {
+  color: #333333;
+}
 #detail-container>.doi {
   margin-left: 2rem;
   line-height: 1rem;
@@ -77,6 +80,13 @@ body {
   line-height: 1rem;
   font-size: 1rem;
 }
+#detail-container>.copyright {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1rem;
+  font-size: 1rem;
+}
 #part-container {
   height: 17rem;
   background-color: #f8f8f8;
@@ -91,6 +101,7 @@ body {
   margin: 0.5rem;
   overflow: hidden;
   position: relative;
+  font-size: 1rem;
 }
 #part-container>.part-button {
   position: absolute;
@@ -153,4 +164,7 @@ body {
   display: inline-block;
   line-height: 1.5rem;
   vertical-align: top;
+}
+.star.icon {
+  cursor: pointer;
 }

@@ -69,6 +69,19 @@
       </div>
     </div>
     <div id="result-container">
+      {% if resultsCount == 0 %}
+      <div class="no-result">
+        <p>No results found for <b>{{ request.GET.q }}</b>.</p>
+        <h5 class="ui header">Search tips:</h5>
+        <p>Ensure words are spelled correctly.</p>
+        <p>Try rephrasing keywords or using synonyms.</p>
+        <p>Try less specific keywords.</p>
+        <p>Make your queries as concise as possible.</p>
+        <h5 class="ui header">Other resources that may help you:</h5>
+        <p>Get additional search tips by visiting <a>Web Search Help</a>.</p>
+        <p>If you cannot find a page that you know exists, <a>send the address to us</a>.</p>
+      </div>
+      {% endif %}
       <div id="result-list">
         <div class="ui items">
           {% for work in works %}
@@ -106,7 +119,7 @@
       </div>
       {% endif %}
 
-      {% if additional.yearRelation != '' %}
+      {% if additional.yearRelation and additional.yearRelation != '' %}
       <div class="right-panel">
         <h3 class="ui header">Year relations</h3>
         <div class="chart-box">
@@ -116,14 +129,16 @@
       </div>
       {% endif %}
 
+      {% if additional.name and additional.name != '' %}
       <div class="right-panel">
         <h3 class="ui header"><img src="/static/img/search/book.png">{{ additional.name }}</h3>
         <img class="wiki-pic" src="{{ additional.picture }}" alt="">
         <p>{{ additional.description }}</p>
         <a href="{{ additional.link }}">More...</a>
       </div>
+      {% endif %}
 
-      {% if additional.trackRelation != '' %}
+      {% if additional.trackRelation and additional.trackRelation != '' %}
       <div class="right-panel">
         <h3 class="ui header">Track relations</h3>
         <div class="chart-box">
@@ -133,7 +148,7 @@
       </div>
       {% endif %}
 
-      {% if additional.medalRelation != '' %}
+      {% if additional.medalRelation and additional.medalRelation != '' %}
       <div class="right-panel">
         <h3 class="ui header">Medal relations</h3>
         <div class="chart-box">

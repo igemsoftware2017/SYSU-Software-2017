@@ -124,7 +124,7 @@ body {
 a {
   cursor: pointer;
 }
-#also-try>a {
+a {
   color: #ffd800;
 }
 #tool {
@@ -133,4 +133,16 @@ a {
 #right-panel {
   position: absolute;
   background-color: white;
+}
+.no-result {
+  color: white;
+  font-size: 1.25rem;
+}
+.no-result h5.ui.header {
+  font-size: 1em;
+  color: white;
+  margin-bottom: 0.2rem;
+}
+.no-result p {
+  margin-bottom: 0.2rem;
 }

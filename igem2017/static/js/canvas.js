@@ -149,8 +149,8 @@ class SDinDesign {
     ) {
         this._canvas = canvas;
         this.parseOption(option);
-        this._canvasPositionX = 0;
-        this._canvasPositionY = 0;
+        this._canvasPositionX = $(canvas).width() / 2;
+        this._canvasPositionY = $(canvas).height() / 2;
         this._size = SDinDesign.zoom(SDinDesign.standardSize, 1);
         this._nextPartId = 0;
         this.name = '';
@@ -188,6 +188,7 @@ class SDinDesign {
         let data = {
             id: this._id,
             lines: this._design.lines,
+            combines: [],
             devices: this._design.devices.map((v) => ({
                 subparts: v.parts.map((p) => p.cid),
                 X: v.X,
@@ -201,6 +202,7 @@ class SDinDesign {
         return data;
     }
     set design(design) {
+        console.log(design);
         this._jsPlumb.deleteEveryConnection();
         $('.SDinDesign-part, .SDinDesign-device').remove();
 
@@ -256,7 +258,7 @@ class SDinDesign {
                 Y: v.Y
             })),
             parts: Object.keys(tmp).map((k) =>
-                tmp[k].wa ? undefined : tmp[k]
+                (tmp[k].wa === true) ? undefined : tmp[k]
             ).filter((k) => k !== undefined)
         };
         $.each(design.combines, (k, v) => {
