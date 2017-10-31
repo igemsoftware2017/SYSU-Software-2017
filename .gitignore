@@ -24,3 +24,12 @@ igem2017/igem2017/mysql.cnf
 
 # vscode
 .vscode/
+
+#django
+migrations/
+
+#virtual environment
+.env/
+
+#mac
+.DS_Store

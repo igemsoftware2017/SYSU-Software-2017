@@ -43,15 +43,25 @@ def get_favorite(request):
         }]
     '''
     query_set = UserFavorite.objects.filter(user = request.user)
-    favorites = [{
+    favorites_circuit = [{
         'id': x.circuit.id,
-        'Name': x.circuit.Name,
-        'Description': x.circuit.Description,
-        'Author': x.circuit.Author.id if x.circuit.Author != None else None
+        'name': x.circuit.Name,
+        'description': x.circuit.Description,
+        'author': x.circuit.Author.id if x.circuit.Author != None else None
+        } for x in query_set]
+    query_set = FavoriteParts.objects.filter(user = request.user)
+    favorites_part = [{
+        'id': x.part.id,
+        'name': x.part.secondName,
+        'BBa': x.part.Name,
+        'type': x.part.Type,
+        'safety': x.part.Safety
         } for x in query_set]
     return JsonResponse({
-            'status': 1,
-            'circuits': favorites})
+        'status': 1,
+        'circuits': favorites_circuit,
+        'parts': favorites_part
+    })
 
 @login_required
 def tag_favorite(request):
@@ -303,9 +313,9 @@ def circuit(request):
             'Y': xxx
         }],
         lines: [{
-            'Start': xxx, # cid defined by yourself
-            'End': xxx,
-            'Type': xxx
+            'start': xxx, # cid defined by yourself
+            'end': xxx,
+            'type': xxx
         }],
         devices: [
             {
@@ -319,8 +329,8 @@ def circuit(request):
         }
         circuit: {
             'id': xxx, # circuit id if it's already existing, -1 else
-            'Name': xxx,
-            'Description': xxx
+            'name': xxx,
+            'description': xxx
         }
     }
     response with json:
@@ -332,6 +342,7 @@ def circuit(request):
     if request.method == 'GET':
         try:
             query_id = request.GET.get('id')
+            circuit = Circuit.objects.get(id = query_id)
             parts_query = CircuitParts.objects.filter(Circuit = query_id)
             parts = [{'id': x.Part.id, 'cid': x.id, 'name': x.Part.Name,
                 'description': x.Part.Description, 'type': x.Part.Type,
@@ -350,6 +361,8 @@ def circuit(request):
             return JsonResponse({
                 'status': 1,
                 'id': query_id,
+                'name': circuit.Name,
+                'description': circuit.Description,
                 'parts': parts,
                 'lines': lines,
                 'devices': devices,
@@ -361,42 +374,61 @@ def circuit(request):
     elif request.method == 'POST':
         try:
             data = json.loads(request.POST['data'])
-            if data['circuit']['id'] == -1:
+            new = data['circuit']['id'] == -1
+            try:
+                circuit = Circuit.objects.get(pk = data['circuit']['id'])
+                if circuit.Author != request.user:
+                    new = True
+            except:
+                new = True
+            if new:
                 # new circuit
                 circuit = Circuit.objects.create(
-                        Name = data['circuit']['Name'],
-                        Description = data['circuit']['Description'],
+                        Name = data['circuit']['name'],
+                        Description = data['circuit']['description'],
                         Author = request.user)
             else:
                 # existing circuit
                 circuit = Circuit.objects.get(pk = data['circuit']['id'])
-                circuit.Name = data['circuit']['Name']
-                circuit.Description = data['circuit']['Description']
+                circuit.Name = data['circuit']['name']
+                circuit.Description = data['circuit']['description']
                 circuit.Author = request.user
                 circuit.save()
-                # delete existing circuit part
+                # delete existing circuit part, device
                 for x in CircuitParts.objects.filter(Circuit = circuit):
+                    x.delete()
+                for x in CircuitDevices.objects.filter(Circuit = circuit):
+                    x.delete()
+                for x in CircuitCombines.objects.filter(Circuit = circuit):
                     x.delete()
 
             cids = {}
             for x in data['parts']:
                 circuit_part = CircuitParts.objects.create(
-                        Part = x['id'],
+                        Part = Parts.objects.get(id = int(x['id'])),
                         Circuit = circuit,
                         X = x['X'],
                         Y = x['Y'])
-                cids[x['cid']] = circuit_part.id
+                cids[x['cid']] = circuit_part
             for x in data['lines']:
-                CircuitLines.objects.create(
-                        Start = cids[x['Start']],
-                        End = cids[x['End']],
-                        Type = x['Type'])
+                try:
+                    CircuitLines.objects.get(
+                        Start = cids[x['start']],
+                        End = cids[x['end']],
+                        Type = x['type']
+                    )
+                except:
+                    CircuitLines.objects.create(
+                        Start = cids[x['start']],
+                        End = cids[x['end']],
+                        Type = x['type']
+                    )
             for x in data['devices']:
                 cd = CircuitDevices.objects.create(Circuit = circuit)
                 for i in x['subparts']:
                     cd.Subparts.add(cids[i])
-                cd.X = x['x']
-                cd.Y = x['y']
+                cd.X = x['X']
+                cd.Y = x['Y']
                 cd.save()
             for x in data['combines']:
                 cd = CircuitCombines.objects.create(Circuit = circuit, Father = x)
@@ -407,6 +439,7 @@ def circuit(request):
                     'status': 1,
                     'circuit_id': circuit.id})
         except:
+            traceback.print_exc()
             return JsonResponse({
                 'status': 0})
     else:
@@ -428,9 +461,9 @@ def get_saves(request):
     query_set = Circuit.objects.filter(Author = request.user)
     saves = [{
         'id': x.id,
-        'Name': x.Name,
-        'Description': x.Description,
-        'Author': x.Author.id if x.Author != None else None
+        'name': x.Name,
+        'description': x.Description,
+        'author': x.Author.id if x.Author != None else None
         } for x in query_set]
     return JsonResponse({
             'status': 1,
@@ -458,3 +491,30 @@ def simulation(request):
             'result': result.tolist()
         })
     return 0
+
+def max_safety(request):
+    '''
+    GET /api/max_safety
+    param:
+        ids: array of int (as part id)
+    return:
+        maximum safety in these parts
+    '''
+    if request.method == 'GET':
+        try:
+            data = json.loads(request.GET['ids'])
+            parts = list(map(lambda i: Parts.objects.get(id = i), data))
+            max_safety_part = max(parts, key = lambda p: p.Safety)
+            return JsonResponse({
+                'status': 1,
+                'max_safety': max_safety_part.Safety
+            })
+        except:
+            traceback.print_exc()
+            return JsonResponse({
+                'status': 0
+            })
+    else:
+        return JsonResponse({
+            'status': 0
+        })

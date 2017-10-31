@@ -49,6 +49,7 @@ urlpatterns = [
     url(r'api/interact$', design_views.interact),
     url(r'api/simulation$', design_views.simulation),
     url(r'api/interest$', main_views.interest),
+    url(r'api/max_safety$', design_views.max_safety),
 
 
 ] + \

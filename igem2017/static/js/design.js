@@ -15,33 +15,104 @@ if (designId !== '') {
 let fileReader = new FileReader();
 fileReader.onload = () => { design.design = JSON.parse(fileReader.result); };
 
-$('#upload-button')
-    .on('click', function() {
-        $('#fileupload').trigger('click');
-    });
-$('#fileupload')
-    .on('change', function() {
-        fileReader.readAsText($('#fileupload')[0].files[0]);
-    });
+$('#upload-button').on('click', function() {
+    $('#fileupload').trigger('click');
+}).popup({ content: 'Import a JSON file as design.' });
+$('#fileupload').on('change', function() {
+    fileReader.readAsText($('#fileupload')[0].files[0]);
+});
 
-$('#zoom-in')
-    .on('click', function() {
-        let ratio = design.ratio;
-        ratio = Math.max(0.25, Math.min(1.5, ratio + 0.25));
-        $('#ratio-dropdown')
-            .dropdown('set value', ratio)
-            .dropdown('set text', Math.round(ratio * 100) + '%');
-        design.ratio = ratio;
+$('#save-button').on('click', () => {
+    $('#safety-modal').modal('show');
+}).popup({ content: 'Save your design to server.' });
+$('#continue-save').on('click', () => {
+    $('#circuit-name').val(design.name);
+    $('#circuit-description').val(design.description);
+    $('#save-modal').modal('show');
+});
+$('#save-circuit').on('click', () => {
+    $('#save-modal').modal('hide');
+    $('.ui.dimmer:first .loader')
+        .text('Saving your circuit to server, please wait...');
+    $('.ui.dimmer:first').dimmer('show');
+    let postData = design.design;
+    postData.circuit = {
+        id: design._id,
+        name: $('#circuit-name').val(),
+        description: $('#circuit-description').val()
+    }
+    postData = {
+        data: JSON.stringify(postData),
+        csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+    };
+    $.post('/api/circuit', postData, (v) => {
+        if (v.status === 1)
+            $('.ui.dimmer:first .loader')
+                .text(`Success, circuit ID = ${v.circuit_id}, closing...`);
+        else
+            $('.ui.dimmer:first .loader')
+                .text('Failed, closing...');
+        setTimeout(() => {
+            $('.ui.dimmer:first').dimmer('hide');
+        }, 1000);
     });
-$('#zoom-out')
-    .on('click', function() {
-        let ratio = design.ratio;
-        ratio = Math.max(0.25, Math.min(1.5, ratio - 0.25));
-        $('#ratio-dropdown')
-            .dropdown('set value', ratio)
-            .dropdown('set text', Math.round(ratio * 100) + '%');
-        design.ratio = ratio;
+});
+
+$('#load-button').on('click', () => {
+    $('.ui.dimmer:first .loader')
+        .text('Querying your circuit from server, please wait...');
+    $('.ui.dimmer:first').dimmer('show');
+    $.get('/api/get_saves', (v) => {
+        $('.ui.dimmer:first').dimmer('hide');
+        $('#load-modal>.content').html('');
+        v.circuits.forEach((c) => {
+            let html = `
+                <div class="ui segment" data-id=${c.id}>
+                    <p><b>ID: </b>${c.id}</p>
+                    <p><b>Name: </b>${c.name}</p>
+                    <p><b>Description: </b>${c.description}</p>
+                </div>`;
+            $('#load-modal>.content').append(html);
+        });
+        $('#load-modal .segment').on('click', function() {
+            let id = $(this).data('id');
+            $('#load-modal').modal('hide');
+            $('.ui.dimmer:first .loader')
+                .text(`Loading ${id} from server, please wait...`);
+            $('.ui.dimmer:first').dimmer('show');
+            $.get(`/api/circuit?id=${id}`, (value) => {
+                $('.ui.dimmer:first').dimmer('hide');
+                design.design = value;
+            });
+        });
+        $('#load-modal').modal('show');
     });
+}).popup({ content: 'Load your circuit from server.' });
+
+$('#zoom-in').on('click', () => {
+    let ratio = design.ratio;
+    ratio = Math.max(0.25, Math.min(1.5, ratio + 0.25));
+    $('#ratio-dropdown')
+        .dropdown('set value', ratio)
+        .dropdown('set text', Math.round(ratio * 100) + '%');
+    design.ratio = ratio;
+}).popup({
+    variation: 'flowing popup',
+    content: 'Zoom in design. (Alt + Mousewheel up)'
+});
+
+$('#zoom-out').on('click', function() {
+    let ratio = design.ratio;
+    ratio = Math.max(0.25, Math.min(1.5, ratio - 0.25));
+    $('#ratio-dropdown')
+        .dropdown('set value', ratio)
+        .dropdown('set text', Math.round(ratio * 100) + '%');
+    design.ratio = ratio;
+}).popup({
+    variation: 'flowing popup',
+    content: 'Zoom out design. (Alt + Mousewheel down)'
+});
+
 $('#ratio-dropdown')
     .dropdown({
         values: (() => {
@@ -90,6 +161,39 @@ $('.window')
         handles: 's, w, sw'
     });
 
+$('#undo-button').on('click', function() {
+    design.undo();
+    let t = design.canUndo;
+    if (t === false)
+        t = 'Unable to undo.';
+    $(this).popup('get popup').html(t);
+}).popup({
+    variation: 'small popup',
+    content: 'undo',
+    onShow: function() {
+        let t = design.canUndo;
+        if (t === false)
+            t = 'Unable to undo.';
+        this.html(t);
+    }
+});
+$('#redo-button').on('click', function() {
+    design.redo();
+    let t = design.canRedo;
+    if (t === false)
+        t = 'Unable to redo.';
+    $(this).popup('get popup').html(t);
+}).popup({
+    variation: 'small popup',
+    content: 'redo',
+    onShow: function() {
+        let t = design.canRedo;
+        if (t === false)
+            t = 'Unable to redo.';
+        this.html(t);
+    }
+});
+
 // Part panel
 $('#part-panel')
     .resizable('option', 'minWidth', 200);
@@ -104,7 +208,8 @@ $('#part-panel-button')
             collapse();
             $(this).removeClass('right').addClass('left');
         }
-    });
+    })
+    .popup({ content: 'Toggle part panel.' });
 let partPanelStickedToRight = false;
 let partPanelCollapsed = false;
 function stickPartPanel() {
@@ -229,23 +334,29 @@ function uncollapsed() {
 }
 let selectedPart;
 let selectedPartHelper = $('<div></div>');
-$('#search-parts-dropdown')
-    .dropdown({
-        apiSettings: {
-            url: '/api/parts?name={query}',
-            cache: false,
-            beforeSend: (settings) => settings.urlData.query.length < 3 ? false : settings,
-            onResponse: (response) => ({
-                success: response.success === true,
-                results:  response.parts.map((x) => ({
-                    name: x.name,
-                    value: x.id
-                }))
-            })
-        },
-        onChange: (value) => { setPartPanel(value); }
-    });
+$('#search-parts-dropdown').dropdown({
+    apiSettings: {
+        url: '/api/parts?name={query}',
+        cache: false,
+        beforeSend: (settings) => settings.urlData.query.length < 3 ? false : settings,
+        onResponse: (response) => ({
+            success: response.success === true,
+            results:  response.parts.map((x) => ({
+                name: x.name,
+                value: x.id
+            }))
+        })
+    },
+    onChange: (value) => { setPartPanel(value); }
+}).popup({ content: 'Search for a part (Case Sensitive)' });
 function setPartPanel(id) {
+    if (selectedPart !== undefined && selectedPart.id === id) {
+        $('#part-info-tab').transition({
+            animation: 'flash',
+            duration: '0.5s'
+        });
+        return;
+    }
     $.get(`/api/part?id=${id}`, (data) => {
         if (data.success !== true) {
             console.error(`Get part info failed. ID: ${id}`);
@@ -254,7 +365,8 @@ function setPartPanel(id) {
         selectedPart = data;
         $('#part-info-img')
             .attr('src', `/static/img/design/${data.type.toLowerCase()}.png`)
-            .draggable('enable');
+            .draggable('enable')
+            .popup({ content: 'Drag this part into canvas!' });
         $('#part-info-name')
             .add(selectedPartHelper.children('b'))
             .text(data.name);
@@ -328,18 +440,59 @@ $('#part-panel')
 // Favourite window
 $('#fav-win')
     .resizable('option', 'minWidth', 350);
-$('#fav-win-button')
-    .on('click', function() {
-        $('#fav-win').fadeOut({
-            duration: 200
-        });
+$('#fav-win-button').on('click', function() {
+    $('#fav-win').fadeOut({
+        duration: 200
     });
-$('#open-fav-win')
-    .on('click', function() {
-        $('#fav-win').fadeToggle({
-            duration: 200
-        });
+}).popup({ content: 'Close collection window.' });;
+$('#open-fav-win').on('click', () => {
+    $('#fav-win').fadeToggle({
+        duration: 200
     });
+}).popup({ content: 'Toggle collection window.' });
+
+function loadFavWin() {
+    $('#fav-win>.content').html('');
+    $.get('/api/get_favorite', (data) => {
+        if (data.status !== 1)
+            return;
+        data.circuits.forEach((v) => {
+            let data = `
+                <div class="ui segment fav-cir-seg">
+                  <div class="combine-circuit-button" data-id=${v.id}><i class="plus icon"></i></div>
+                  <p><b>${v.name}</b> by <b>${v.author}</b></p>
+                  <p><b>Description:</b> ${v.description}</p>
+                </div>`;
+            $('#fav-win>.content').append(data);
+        });
+        data.parts.forEach((v) => {
+            let safety = SDinDesign.partSafetyLevels[v.safety];
+            if (safety === undefined)
+                safety = 'Unknown risk';
+            let data = `
+                <div class="ui segment fav-part-seg" data-id=${v.id}>
+                  <img src="/static/img/design/${v.type.toLowerCase()}.png"></img>
+                  <p><b>BBa:</b> ${v.BBa}</p>
+                  <p><b>Name:</b> ${v.name}</p>
+                  <p><b>Safety level:</b> ${safety}</p>
+                </div>`;
+            $('#fav-win>.content').append(data);
+        });
+        $('.fav-part-seg').off('click').on('click', function() {
+            $(this).transition({
+                animation: 'pulse',
+                duration: '0.2s'
+            });
+            setPartPanel($(this).data('id'));
+        }).popup({ content: 'Click to pick this part into part panel!' });
+        $('.combine-circuit-button').off('click').on('click', function() {
+            $.get(`/api/circuit?id=${$(this).data('id')}`, (value) => {
+                design.combine(value);
+            });
+        }).popup({ content: 'Add this circuit into your design!' });
+    });
+}
+loadFavWin();
 
 // Toolbox
 $('#toolbox')
@@ -373,11 +526,13 @@ function initPositionSize() {
 }
 initPositionSize();
 
-$('#add-part-button')
-    .on('click', function() {
-        $('#new-part-modal')
-            .modal('show');
-    });
+$('#add-part-button').on('click', function() {
+    $('#new-part-modal')
+        .modal('show');
+}).popup({
+    variation: 'flowing popup',
+    content: 'Add your custom part into our database!'
+});
 
 $('#add-new-part')
     .on('click', function() {
@@ -407,21 +562,38 @@ $('#add-new-part')
         });
     });
 
-function createDownload(fileName, content) {
+function createJsonDownload(fileName, content) {
     let aLink = $('<a></a>');
     aLink
         .attr('download', fileName)
         .attr('href', `data:application/json;base64,${btoa(JSON.stringify(content))}`);
     aLink[0].click();
 }
-$('#export-button')
-    .on('click', function() {
-        createDownload('design.json', design.design);
-    });
+function createPngDownload(fileName, canvas) {
+    let aLink = $('<a></a>');
+    aLink
+        .attr('download', fileName)
+        .attr('href', canvas.toDataURL('image/png'));
+    aLink[0].click();
+}
+$('#export-button').on('click', () => {
+    let filename;
+    if (design.name === undefined || design.name === '')
+        filename = 'unnamed_design.json'
+    else
+        filename = `${design.name}.json`;
+    createJsonDownload(filename, design.design);
+}).popup({ content: 'Export your design as a JSON.' });
 
 $('#save-button')
     .on('click', function() {
     });
+
+$('#image-button').on('click', function() {
+    html2canvas($('#canvas'), {
+        onrendered: (canvas) => createPngDownload('design.png', canvas)
+    });
+});
 
 let currentMode = 'modifyItem';
 const modes = {
@@ -447,7 +619,8 @@ function selectMode(mode) {
 }
 
 $('#drag-item')
-    .on('click', () => { selectMode('modifyItem'); });
+    .on('click', () => { selectMode('modifyItem'); })
+    .popup({ content: 'Drag and move devices and parts.' });
 $('#drag-canvas')
     .on('click', () => { selectMode('dragCanvas'); })
     .on('select', () => {
@@ -459,7 +632,8 @@ $('#drag-canvas')
         $(this._canvas).css({ cursor: '' });
         $('.SDinDesign-part, .SDinDesign-device').css({ pointerEvents: '' });
         design.disableDrag();
-    });
+    })
+    .popup({ content: 'Drag and move canvas. (Ctrl)' });
 $('#connection-dropdown')
     .dropdown({
         onChange: (value) => { newConnectionType = value; }
@@ -534,8 +708,14 @@ $('#connection-dropdown-button')
             .off('click');
         design.unHighlightDevice($('.SDinDesign-part, .SDinDesign-device'));
         $('.SDinDesign-part, .SDinDesign-device').data('connectionSelected', false);
-    });
+    })
+    .popup({ content: 'Add or remove a connection.' });
+
 function finishNewConnection() {
+    if (newConnectionType === 'delete')
+        design.recordHistory(`Delete connection [${newConnectionSource}, ${newConnectionTarget}].`);
+    else
+        design.recordHistory(`New ${newConnectionType} connection [${newConnectionSource}, ${newConnectionTarget}].`);
     let data = {
         start: parseInt(newConnectionSource, 10),
         end: parseInt(newConnectionTarget),
@@ -640,10 +820,15 @@ $('#interactive-button')
             .off('mouseleave')
             .off('click');
         design.unHighlightDevice($('.SDinDesign-part, .SDinDesign-device'));
+    })
+    .popup({
+        variation: 'flowing popup',
+        content: 'Check predicted interactions of parts.'
     });
 
 $('#clear-all-button')
-    .on('click', () => { $('.ui.basic.modal').modal('show'); });
+    .on('click', () => { $('#clear-all-modal').modal('show'); })
+    .popup({ content: 'CLEAR THE CANVAS!' });
 $('#real-clear-all-button')
     .on('click', () => { design.clearAll(); });
 
@@ -693,24 +878,45 @@ $('#simulation-button')
                 }
             });
         });
-    });
+    })
+    .popup({ content: 'Run simulation on the design.' });
 
+let safetyPopupContent;
 $('#safety').popup({
-    title: 'Warning!',
-    content: 'Please check your design again in case of using any potential risky part! We don\'t recommend you to use parts with high risk ground. Change them into safe parts?',
     position: 'bottom right',
-    variation: 'wide popup'
+    variation: 'wide popup',
+    content: 'safety',
+    onShow: function() { console.log(safetyPopupContent); this.html(safetyPopupContent); }
 });
 
 function warning() {
     $('#safety').popup('show');
 }
 
+function updateSafety(safety) {
+    if (safety <= 1) {
+        $('#safety').removeClass('red yellow').addClass('green').text('Low risk');
+    } else if (safety === 2) {
+        $('#safety').removeClass('red green').addClass('yellow').text('Moderate risk');
+    } else if (safety === 3) {
+        $('#safety').removeClass('yellow green').addClass('red').text('High risk');
+    }
+
+    if (safety === 3) {
+        safetyPopupContent = `
+            <div class="header">Warning!</div>
+            <div class="content">Please check your design again in case of
+                using any potential risky part! We don\'t recommend you to
+                use parts with high risk ground. Change them into safe parts?</div>`;
+        $('#safety').popup('show');
+    } else {
+        $('#safety').popup('hide');
+        safetyPopupContent = `
+            <div class="header">Safe!</div>
+            <div class="content">Your design is now under an acceptable safety level.</div>`;
+    }
+}
+
 $(window)
     .on('keydown', (event) => { if (event.ctrlKey === true) selectMode('dragCanvas'); })
     .on('keyup', () => { selectMode('modifyItem'); });
-
-
-// TODO: DIRTY OPERATIONS ONLY FOR DEBUGGING
-// REMEMBER TO REMOVE!!!
-$('#open-fav-win')[0].click();

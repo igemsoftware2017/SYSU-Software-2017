@@ -13,26 +13,17 @@
     <div class="ui fixed menu">
       <div class="ui container">
         <span class="item">
-          <i class="large undo link icon"></i>
-          <i class="large repeat link icon"></i>
+          <i id="undo-button" class="large undo link icon"></i>
+          <i id="redo-button" class="large repeat link icon"></i>
           <i id="open-fav-win" class="large star link icon"></i>
           <i id="upload-button" class="large folder open outline link icon"></i>
+          <i id="load-button" class="large user outline link icon"></i>
           <i id="save-button" class="large save link icon"></i>
           <i id="export-button" class="large external share link icon"></i>
-          <i class="large share alternate link icon"></i>
         </span>
         <span class="item">
           <i id="drag-item" class="large mouse pointer link icon"></i>
           <i id="drag-canvas" class="large hand paper link icon"></i>
-          <i id="zoom-in" class="large zoom link icon"></i>
-          <i id="zoom-out" class="large zoom out link icon"></i>
-          <div class="ui compact floating selection dropdown" id="ratio-dropdown">
-            <i class="dropdown icon"></i>
-            <div class="default text">Ratio</div>
-          </div>
-        </span>
-        <span class="item">
-          <i class="large bullseye link icon"></i>
           <div id="connection-dropdown" class="ui dropdown">
             <i id="connection-dropdown-button" class="large long right arrow link icon"></i>
             <div class="menu">
@@ -52,15 +43,17 @@
             </div>
           </div>
         </span>
+        <span class="item">
+          <i id="zoom-in" class="large zoom link icon"></i>
+          <i id="zoom-out" class="large zoom out link icon"></i>
+          <div class="ui compact floating selection dropdown" id="ratio-dropdown">
+            <i class="dropdown icon"></i>
+            <div class="default text">Ratio</div>
+          </div>
+        </span>
         <div class="right menu">
           <span class="item">
             <h4 id="safety" class="ui green header">Low risk</h4>
-          </span>
-          <span class="item">
-            <i class="large user outline link icon" id="signin-button"></i>
-          </span>
-          <span class="item">
-            <i class="large help circle outline link icon"></i>
           </span>
         </div>
       </div>
@@ -95,16 +88,15 @@
           <div class="ui top attached tabular menu">
             <div class="active item" data-tab="info-tab">Part information</div>
           </div>
-          <div class="ui bottom attached active tab segment" data-tab="info-tab">
+          <div id="part-info-tab" class="ui bottom attached active tab segment" data-tab="info-tab">
             <img id="part-info-img" class="ui centered tiny image" src="/static/img/design/unknown.png" alt="">
             <h5 id="part-info-name" class="ui center aligned header"></h5>
             <div class="ui divider"></div>
             <div id="part-info-des">
               <h5 class="ui header">Description:</h5>
-              <p>Adipisicing soluta laboriosam consequatur lorem exercitationem Sequi labore explicabo eius nisi possimus Aperiam quisquam tenetur quos sit ex? Eum quibusdam magnam quam iure ipsa unde sit? Earum error tempora amet assumenda eum perspiciatis. Earum porro maxime ad nostrum doloribus Eius.</p>
+              <p></p>
             </div>
           </div>
-          <div class="ui bottom attached tab segment" data-tab="func-tab"></div>
         </div>
       </div>
     </div>
@@ -206,58 +198,40 @@
       <i id="simulation-button" class="inverted superpowers link icon"></i>
     </div>
 
-    <!-- Add part modal -->
-    <!--
-    <div id="add-part-modal" class="ui tiny modal">
-      <div class="header"><i class="setting icon"></i>Add a custom part</div>
-      <div class="content">
-        假装这里有张图
-      </div>
-      <div class="actions">
-        <div id="add-part-from-fav" class="ui button">从收藏夹选择</div>
-        <div id="add-part-from-new" class="ui button">新建元件</div>
-      </div>
-    </div>
-    -->
-
     <!-- Creating new part modal -->
     <div id="new-part-modal" class="ui tiny modal">
-      <div class="header">Add a custom part</div>
       <div class="content">
         <form class="ui form">
           <div class="field">
-            <label for="name">Name</label>
             <input type="text" name="name" id="part-name" placeholder="Part name">
           </div>
           <div class="field">
-            <label for="description">Description</label>
             <textarea id="part-description" rows=2 placeholder="Part description"></textarea>
           </div>
           <div class="field">
-            <label for="type">Type</label>
             <div class="ui floating selection dropdown" id="part-type-dropdown">
               <i class="dropdown icon"></i>
               <div class="default text">Part type</div>
             </div>
           </div>
           <div class="field">
-            <label for="safety">Safety</label>
             <div class="ui floating selection dropdown" id="part-safety-dropdown">
               <i class="dropdown icon"></i>
               <div class="default text">Part safety level</div>
             </div>
           </div>
           <div class="field">
-            <label for="sequence">Sequence</label>
             <textarea name="part-sequence" id="part-sequence" placeholder="Part sequence"></textarea>
           </div>
         </form>
       </div>
       <div class="actions">
-        <div id="add-new-part" class="ui button">Add this part to database!</div>
+        <div class="ui one bottom attached big buttons">
+          <div id="add-new-part" class="ui white button">Add this part to database!</div>
+        </div>
       </div>
     </div>
-      
+
     <div class="ui page dimmer">
       <div class="content">
         <div class="ui text loader"></div>
@@ -287,9 +261,45 @@
 
     <!-- Simulation result modal -->
     <div id="simulation-modal" class="ui modal">
-      <div class="header">Simulation results</div>
       <div class="content">
-        <canvas id="simulation-result" width="800px" height="400px"></canvas>
+        <div class="simulation-result-container">
+          <canvas id="simulation-result"></canvas>
+        </div>
+      </div>
+      <div class="actions">
+        <div class="ui one bottom attached big buttons">
+          <div id="add-new-part" class="ui blue cancel button">Confirm simulation result</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Save modal -->
+    <div id="save-modal" class="ui tiny modal">
+      <div class="content">
+        <form class="ui form">
+          <div class="field">
+            <input type="text" name="name" id="circuit-name" placeholder="Circuit name">
+          </div>
+          <div class="field">
+            <textarea id="circuit-description" rows=4 placeholder="Circuit description"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="actions">
+        <div class="ui one bottom attached big buttons">
+          <div id="save-circuit" class="ui white button">Save my new circuit!</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load modal -->
+    <div id="load-modal" class="ui tiny modal">
+      <div class="content">
+      </div>
+      <div class="actions">
+        <div class="ui one bottom attached big buttons">
+          <div id="save-circuit" class="ui white button">Close</div>
+        </div>
       </div>
     </div>
 
@@ -323,7 +333,8 @@
   <script src="/static/semantic/dist/components/popup.min.js"></script>
   <script src="/static/semantic/dist/components/tab.min.js"></script>
   <script src="/static/js/jsplumb.js"></script>
-  <script src="/static/js/html2canvas.js"></script>
+  <script src="/static/js/html2canvas.min.js"></script>
+  <script src="/static/js/html2canvas.svg.min.js"></script>
   <script src="/static/js/Chart.min.js"></script>
   <script src="/static/js/canvas.js"></script>
   <script src="/static/js/design.js"></script>

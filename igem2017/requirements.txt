@@ -9,3 +9,5 @@ requests==2.18.4
 scipy==0.19.1
 urllib3==1.22
 xlrd==1.1.0
+PyMySQL==0.7.11
+

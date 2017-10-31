@@ -24,12 +24,22 @@
         <a class="item" href="/search/part?q={{ request.GET.q }}">Parts</a>
         <a class="active item">Paper</a>
       </div>
-      <div class="line" id="also-try">
-        Also try: <a>food</a>, <a>foood</a>, <a>fooood</a>
-      </div>
       <div class="line">
         <code>{{ resultsCount }}</code><span id="result-span">RESULTS</span>
       </div>
+      {% if resultsCount == 0 %}
+      <div class="no-result">
+        <p>No results found for <b>{{ request.GET.q }}</b>.</p>
+        <h5 class="ui header">Search tips:</h5>
+        <p>Ensure words are spelled correctly.</p>
+        <p>Try rephrasing keywords or using synonyms.</p>
+        <p>Try less specific keywords.</p>
+        <p>Make your queries as concise as possible.</p>
+        <h5 class="ui header">Other resources that may help you:</h5>
+        <p>Get additional search tips by visiting <a>Web Search Help</a>.</p>
+        <p>If you cannot find a page that you know exists, <a>send the address to us</a>.</p>
+      </div>
+      {% endif %}
       <div id="result-list">
         <div class="ui link items">
           {% for paper in papers %}

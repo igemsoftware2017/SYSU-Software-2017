@@ -1,0 +1,13 @@
+certifi
+chardet
+Django
+idna
+mysqlclient
+numpy
+pytz
+requests
+scipy
+urllib3
+xlrd
+PyMySQL
+

@@ -149,13 +149,17 @@ class SDinDesign {
     ) {
         this._canvas = canvas;
         this.parseOption(option);
-        this._canvasPositionX = 0;
-        this._canvasPositionY = 0;
+        this._canvasPositionX = $(canvas).width() / 2;
+        this._canvasPositionY = $(canvas).height() / 2;
         this._size = SDinDesign.zoom(SDinDesign.standardSize, 1);
         this._nextPartId = 0;
+        this.name = '';
+        this.description = '';
         this._nextPartCid = 0;
         this._ready = () => {};
         this._readyFired = false;
+        this._history = [];
+        this._historyPointer = -1;
         this._jsPlumb = jsPlumb.getInstance();
         this._jsPlumb.ready(() => {
             this._jsPlumb.setContainer($(this._canvas));
@@ -184,6 +188,7 @@ class SDinDesign {
         let data = {
             id: this._id,
             lines: this._design.lines,
+            combines: [],
             devices: this._design.devices.map((v) => ({
                 subparts: v.parts.map((p) => p.cid),
                 X: v.X,
@@ -191,15 +196,49 @@ class SDinDesign {
             })),
             parts: this._design.devices.reduce((t, v) => t.concat(v.parts), this._design.parts)
         };
+        data = $.extend(true, {}, data);
         $.each(data.lines, (_, l) => { delete l.DOM; });
         $.each(data.parts, (_, p) => { delete p.DOM; });
         return data;
     }
     set design(design) {
+        console.log(design);
         this._jsPlumb.deleteEveryConnection();
         $('.SDinDesign-part, .SDinDesign-device').remove();
 
         this._id = parseInt(design.id, 10);
+        this.name = design.name;
+        this.description = design.description;
+        this._design = this.convertFormat(design);
+
+        $.each(this._design.devices, (_, device) => { this.addDevice(device); });
+        $.each(this._design.parts, (_, part) => { this.addPart(part, 1, undefined); });
+        $.each(this._design.lines, (_, link) => { this.addLink(link, false); });
+
+        this.redrawDesign();
+
+        // TODO: fix updateSafety from other file
+        this.maxSafety(updateSafety);
+    }
+    combine(design) {
+        this.recordHistory(`Combined design ID=${design.id}.`);
+
+        let design2 = this.convertFormat(design);
+        $.each(design2.devices, (_, device) => { this.addDevice(device); });
+        $.each(design2.parts, (_, part) => { this.addPart(part, 1, undefined); });
+        $.each(design2.lines, (_, link) => { this.addLink(link, false); });
+
+        this._design = {
+            devices: this._design.devices.concat(design2.devices),
+            lines: this._design.lines.concat(design2.lines),
+            parts: this._design.parts.concat(design2.parts)
+        };
+        this.redrawDesign();
+
+        // TODO: fix updateSafety from other file
+        this.maxSafety(updateSafety);
+    }
+    convertFormat(design) {
         let tmp = design.parts.reduce((t, p) => { t[p.cid] = p; return t; }, {});
         $.each(tmp, (_, v) => {
             if (v.X === undefined)
@@ -207,7 +246,7 @@ class SDinDesign {
             if (v.Y === undefined)
                 v.Y = 0;
         });
-        this._design = {
+        let newDesign = {
             lines: design.lines,
             devices: design.devices.map((v) => ({
                 parts: v.subparts.map((i) => {
@@ -219,21 +258,51 @@ class SDinDesign {
                 Y: v.Y
             })),
             parts: Object.keys(tmp).map((k) =>
-                tmp[k].wa ? undefined : tmp[k]
+                (tmp[k].wa === true) ? undefined : tmp[k]
             ).filter((k) => k !== undefined)
         };
         $.each(design.combines, (k, v) => {
-            this._design.lines = this._design.lines.concat(v.map((s) => ({
+            newDesign.lines = newDesign.lines.concat(v.map((s) => ({
                 start: parseInt(s, 10),
                 end: parseInt(k, 10),
                 type: 'combine'
             })));
         });
+        return newDesign;
+    }
 
-        $.each(this._design.devices, (_, device) => { this.addDevice(device); });
-        $.each(this._design.parts, (_, part) => { this.addPart(part, 1, undefined); });
-        $.each(this._design.lines, (_, link) => { this.addLink(link, false); });
-        this.redrawDesign();
+    get canUndo() {
+        if (this._historyPointer > -1)
+            return this._history[this._historyPointer].comment;
+        return false;
+    }
+    get canRedo() {
+        if (this._historyPointer + 1 < this._history.length)
+            return this._history[this._historyPointer + 1].comment;
+        return false;
+    }
+    recordHistory(comment) {
+        while (this._history.length > this._historyPointer + 1)
+            this._history.pop();
+        this._history.push({
+            data: this.design,
+            comment: comment
+        });
+        this._historyPointer = this._history.length - 1;
+    }
+    undo() {
+        if (this.canUndo === false)
+            return false;
+        let t = this.design;
+        this.design = this._history[this._historyPointer].data;
+        this._history[this._historyPointer--].data = t;
+    }
+    redo() {
+        if (this.canRedo === false)
+            return false;
+        let t = this.design;
+        this.design = this._history[++this._historyPointer].data;
+        this._history[this._historyPointer].data = t;
     }
 
     addDevice(data) {
@@ -254,6 +323,7 @@ class SDinDesign {
                     });
                 },
                 stop: (event) => {
+                    this.recordHistory('Move device.');
                     let origin = device.data('drag-origin');
                     data.X += (event.e.pageX - origin.x) / this._size.unit;
                     data.Y += (event.e.pageY - origin.y) / this._size.unit;
@@ -306,8 +376,9 @@ class SDinDesign {
                     $(this).css({ backgroundColor: 'rgba(255, 0, 0, 0.1)' });
                 },
                 drop: function() {
-                    // TODO: fix selectedPart from other file
+                    // TODO: fix selectedPart, updateSafety from other file
                     that.insertPart(data, selectedPart, $(this).attr('dropper-id'));
+                    that.maxSafety(updateSafety);
                 }
             });
     }
@@ -345,6 +416,7 @@ class SDinDesign {
                         part.addClass('dragging');
                     },
                     stop: (event) => {
+                        this.recordHistory(`Move part ${part.cid}.`);
                         let origin = part.data('drag-origin');
                         data.X += (event.e.pageX - origin.x) / this._size.unit;
                         data.Y += (event.e.pageY - origin.y) / this._size.unit;
@@ -452,6 +524,7 @@ class SDinDesign {
     }
 
     insertPart(device, data, position) {
+        this.recordHistory(`Insert part ${data.name} into device.`);
         data.cid = this._nextPartCid;
         device.parts.splice(position, 0, data);
         this.addPart(data, position, device.DOM);
@@ -469,8 +542,8 @@ class SDinDesign {
         this.redrawDesign();
     }
 
-
     clearAll() {
+        this.recordHistory('Clear all.');
         this.design = {
             lines: [],
             parts: [],
@@ -648,24 +721,29 @@ class SDinDesign {
                 $(this).css({ backgroundColor: '' });
             },
             drop: function(event) {
+                // TODO: fix selectedPart, updateSafety from other file
                 $(this).css({ backgroundColor: '' });
                 let partData = $.extend(true, {}, selectedPart);
-                partData.id = that._nextPartId;
+                if (partData.id === undefined)
+                    partData.id = that._nextPartId;
                 partData.cid = that._nextPartCid;
                 let x = event.offsetX / that._size.unit - that._canvasPositionX;
                 let y = event.offsetY / that._size.unit - that._canvasPositionY;
                 if (SDinDesign.isGene(partData.type)) {
+                    that.recordHistory(`Insert ${partData.name} as new device.`);
                     let newDevice = { parts: [], X: x, Y: y };
                     newDevice.parts.push(partData);
                     that._design.devices[Object.keys(that._design.devices).length] = newDevice;
                     that.addDevice(newDevice);
                 } else {
+                    that.recordHistory(`Insert ${partData.name} as new part.`);
                     partData.X = x;
                     partData.Y = y;
                     that._design.parts.push(partData);
                     that.addPart(partData, 1, this._canvas);
                 }
                 that.redrawDesign();
+                that.maxSafety(updateSafety);
             }
         });
     }
@@ -698,5 +776,15 @@ class SDinDesign {
             design.unHighlightDevice($('.SDinDesign-device, .SDinDesign-part'));
             design.highlightDevice(item, 0.7);
         }
+    }
+
+    // get maximum safety
+    //   quite a workaround
+    //   need restruct
+    maxSafety(callback) {
+        let getData = {
+            ids: JSON.stringify(this.design.parts.map((v) => v.id))
+        };
+        $.get('/api/max_safety', getData ,(v) => callback(v.max_safety));
     }
 }
