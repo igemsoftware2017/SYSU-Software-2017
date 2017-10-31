@@ -24,7 +24,7 @@
       <div class="back">
         back
       </div>
-      <div class="title">{{ title }}</div>
+      <div class="title"><a href="{{ articleURL }}">{{ title }}</a></div>
       <div class="doi">DOI: {{ DOI }}</div>
       <div class="jif">JIF: {{ JIF }}</div>
       <div class="abstract">
@@ -32,6 +32,9 @@
       </div>
       <div class="keywords">
         <b>Keywords:</b> {{ keywords }}
+      </div>
+      <div class="copyright">
+        <b>Copyright info:</b> {{ copyright }}
       </div>
       <div id="part-container">
         <div class="part-canvas" id="part" circuit-id="{{ designId }}"></div>
@@ -58,8 +61,14 @@
         </div>
       </div>
     </div>
-    <div id="right-panel"></div>
-
+    <div id="right-panel">
+      <h4 class="ui header">Authors</h4>
+      <ul class="ui list">
+        {% for a in authors %}
+        <li>{{ a }}</li>
+        {% endfor %}
+      </ul>
+    </div>
     <div class="ui page dimmer">
       <div class="content">
          <div class="center">test</div>

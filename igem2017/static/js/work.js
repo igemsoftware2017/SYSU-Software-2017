@@ -5,15 +5,20 @@
 $('#right-panel').css({
     top: $('#detail-container').offset().top,
 });
+$('.collection').css({
+    top: $('.reads').position().top
+});
 
 $('.back').add('i.chevron.left.icon')
     .on('click', () => { history.back(); });
 
+let updateSafety = () => {};
 let designId = $('#part').attr('circuit-id');
 let design;
 if (designId != -1) {
     $.get(`/api/circuit?id=${designId}`, (value) => {
         design = new SDinDesign('#part', value, {});
+        design.ratio = 0.5;
     });
 }
 $(window)
