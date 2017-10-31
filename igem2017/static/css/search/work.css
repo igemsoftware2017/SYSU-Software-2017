@@ -137,15 +137,23 @@ div#tool-popup {
   background-color: #eeeeee;
   padding-left: 1rem;
   margin-bottom: 0;
+  font-weight: 700;
 }
 #tool-popup .ui.labels {
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 0.4rem;
   max-width: 35rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 #tool-popup a.ui.label {
   border: 0;
   background-color: #438ac9;
   color: white;
+  font-size: 0.9rem;
+  padding: 0.5em;
+  margin: 0.1em 0.5em;
+  font-weight: 500;
 }
 #tool-popup a.ui.basic.label {
   background-color: #ffffff;
@@ -153,25 +161,47 @@ div#tool-popup {
 }
 #tool-popup .ui.submit.button {
   margin-left: 1rem;
-  background-color: #438ac9;
-  color: white;
-  border-radius: 0;
+  box-shadow: unset;
+  border: #438ac9 solid 2px;
   margin-bottom: 1rem;
+  background: transparent;
+  padding: 0.25em 1em 0.3em 1em;
+  vertical-align: middle;
 }
 #right-panel-container {
   margin-left: 55.5rem;
   padding-top: 0.5rem;
 }
 .right-panel {
-  background-color: white;
-  padding: 1rem;
   width: 26rem;
   margin-bottom: 1rem;
   font-size: 1rem;
 }
-.right-panel>h3>img {
-  height: 2em !important;
+.right-panel>.header {
+  background-color: white;
+  height: 2rem;
+  padding-left: 0.5em;
+  display: flex;
+  align-items: center;
+}
+.right-panel>.header>img {
+  height: 1.5em !important;
   width: auto !important;
+  margin-right: 0.5em;
+}
+.right-panel>.header>.header {
+  font-size: 1em;
+  margin: 0;
+}
+.right-panel>.content {
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+.right-panel>.content>img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
 }
 .right-panel>.wiki-pic {
   width: 100%;
@@ -184,15 +214,20 @@ div#tool-popup {
 
 /* SVG of d3 */
 line {
-  stroke: #999;
+  stroke: #fff;
   stroke-opacity: 0.6;
 }
 circle {
+  stroke: #fff;
   cursor: pointer;
 }
 circle:hover {
-  stroke: #000;
   stroke-width: 1.5px;
+}
+text {
+  paint-order: stroke;
+  stroke-width: 3px;
+  fill: white;
 }
 .no-result {
   color: white;

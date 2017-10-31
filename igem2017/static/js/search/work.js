@@ -58,10 +58,6 @@ $('.rewards').each((_, v) => {
     });
 });
 
-function colors(len) {
-    return Array(len).fill(0).map((_, i) => `hsl(${i * 360 / len}, 100%, 80%)`);
-}
-
 function drawChart(d, chart) {
     d = $(d).val();
     if (d === undefined)
@@ -76,20 +72,22 @@ function drawChart(d, chart) {
             datasets: [{
                 label: 'Score',
                 data: nums,
-                backgroundColor: colors(labels.length)
+                backgroundColor: '#cccccc'
             }]
         },
         options: {
             scales: {
                 yAxes: [{
                     ticks: {
-                        beginAtZero:true
+                        beginAtZero: true,
+                        fontColor: 'white'
                     }
                 }],
                 xAxes: [{
                     ticks: {
                         autoSkip: false,
-                        fontSize: 10
+                        fontSize: 10,
+                        fontColor: 'white'
                     }
                 }]
             },
@@ -111,10 +109,8 @@ function d3KeywordChart() {
         width = +svg.attr('width'),
         height = +svg.attr('height');
 
-    let color = d3.scaleOrdinal(d3.schemeCategory20);
-
     let simulation = d3.forceSimulation()
-        .force('link', d3.forceLink().id(function(d) { return d.id; }).distance(() => 100))
+        .force('link', d3.forceLink().id(function(d) { return d.id; }).distance(() => 200))
         .force('charge', d3.forceManyBody())
         .force('center', d3.forceCenter(width / 2, height / 2));
 
@@ -145,8 +141,8 @@ function d3KeywordChart() {
         .data(graph.nodes)
         .enter().append('g');
     let node = nodes_g.append('circle')
-        .attr('r', 25)
-        .attr('fill', function(d) { return color(d.group); })
+        .attr('r', 50)
+        .attr('fill', function(d) { return 'rgba(255, 255, 255, 0.01)'; })
         .call(d3.drag()
             .on('start', dragstarted)
             .on('drag', dragged)
