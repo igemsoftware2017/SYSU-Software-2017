@@ -191,7 +191,7 @@ def _get_work(w, request):
         'projectName': w.Title,
         'school': w.Teamname,
         'medal': w.Medal,
-        'description': w.SimpleDescription[:200],
+        'description': w.SimpleDescription,
         'chassis': w.Chassis,
         'rewards': awards,
         'isFavourite': favourite,
@@ -383,7 +383,6 @@ def search_paper(request):
     return render(request, 'search/paper.html', context)
 
 def search_part(request):
-    
     key = request.GET.get('q')
     lkey = key.lower()
 
@@ -449,7 +448,6 @@ def search_part(request):
                 parts.append(_get_part(w, request))
             except:
                 pass
-
 
     key = ''.join(map(lambda x: str(x) + ' ', true_keys))
     if len(key) > 0:

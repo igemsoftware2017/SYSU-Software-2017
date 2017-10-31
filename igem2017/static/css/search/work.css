@@ -46,8 +46,6 @@ div.line {
   margin-left: 1ex;
   margin-right: 2.5rem;
 }
-#result-list {
-}
 body {
   background-image: url("/static/img/search/back.jpg");
   background-size: cover;
@@ -109,6 +107,17 @@ body {
 }
 .ui.items>.item>.content>.description {
   margin-top: 0;
+}
+.ui.items>.item>.content>.description>p {
+    position:relative;
+    overflow:hidden;
+}
+.ui.items>.item>.content>.description>p:after {
+    content:"...";
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding: 0 5px;
 }
 .ui.items>.item>.content>.ui.flowing.popup p, li {
   white-space: nowrap;
