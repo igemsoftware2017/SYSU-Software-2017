@@ -1,14 +1,14 @@
-.node {
+#keyword-modal {
+  background-color: black !important;
+}
+.node, .node--leaf {
   cursor: pointer;
+  fill: url(#exampleGradient);
 }
 
 .node:hover {
   stroke: #000;
   stroke-width: 1.5px;
-}
-
-.node--leaf {
-  fill: navy;
 }
 
 .label {
