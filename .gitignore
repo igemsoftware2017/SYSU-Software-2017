@@ -27,3 +27,9 @@ igem2017/igem2017/mysql.cnf
 
 #django
 migrations/
+
+#virtual environment
+.env/
+
+#mac
+.DS_Store
