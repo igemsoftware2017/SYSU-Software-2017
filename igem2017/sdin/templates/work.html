@@ -71,10 +71,15 @@
       </div>
     </div>
     <div id="right-panel">
-      <h4 class="ui header">Rewards</h4>
+      <div class="header">
+        <img src="/static/img/medal.png" alt="">
+        <h4 class="ui header">Rewards</h4>
+      </div>
+      <ul class="ui list">
         {% for reward in rewards %}
-        <img src="/static/img/medal.png" alt=""><p>{{ reward }}</p>
+        <li>{{ reward }}</li>
         {% endfor %}
+      </ul>
     </div>
 
     <div class="ui page dimmer">

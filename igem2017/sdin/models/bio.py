@@ -22,6 +22,7 @@ class Parts(models.Model):
     DATE = models.CharField(max_length = 10, default = "To be add")
     Distribution = models.TextField(default = "To be add")
     Sequence = models.TextField()
+    Parameter = models.TextField(default = "")
 
     def __str__(self):
         return "%s : %s" % (self.Name, self.Description)

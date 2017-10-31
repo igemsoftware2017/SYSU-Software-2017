@@ -197,6 +197,28 @@ def load_partsInteration(folderpath):
     atomic_save(parts_interact)
     print('Error: {0:6d}'.format(errors))
 
+def load_partsParameter(folderpath):
+    all_parts = {p.Name: p for p in Parts.objects.all()}
+    errors = 0
+    parts = []
+    for root, dirs, files in os.walk(folderpath):
+        for name in files:
+            filepath = os.path.join(root, name)
+            print('  Loading %s...' % filepath)
+            csv_reader = csv.reader(open(filepath, "r", encoding='utf-8'))
+            next(csv_reader)
+            for row in csv_reader:
+                try:
+                    part = all_parts[row[0].strip()]
+                    part.Parameter = row[1].strip()
+                    parts.append(part)
+                except Exception as err:
+                    errors += 1
+                    print(err)
+    print('Saving parts Parameter...')
+    atomic_save(parts)
+    print('Error: {0:6d}'.format(errors))
+
 #load works data
 def load_works(works_floder_path):
     errors = 0
@@ -817,6 +839,7 @@ def load_additional(path):
 def pre_load_data(currentpath, Imgpath):
     load_parts(os.path.join(currentpath, 'parts'))
     load_partsInteration(os.path.join(currentpath, 'partsinteract'))
+    load_partsParameter(os.path.join(currentpath, 'partsParameter'))
     load_works(os.path.join(currentpath, 'works'))
     load_papers(os.path.join(currentpath, 'papers'))
     load_circuits(os.path.join(currentpath, 'works/circuits'))
