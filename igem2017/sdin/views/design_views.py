@@ -461,9 +461,9 @@ def get_saves(request):
     query_set = Circuit.objects.filter(Author = request.user)
     saves = [{
         'id': x.id,
-        'Name': x.Name,
-        'Description': x.Description,
-        'Author': x.Author.id if x.Author != None else None
+        'name': x.Name,
+        'description': x.Description,
+        'author': x.Author.id if x.Author != None else None
         } for x in query_set]
     return JsonResponse({
             'status': 1,

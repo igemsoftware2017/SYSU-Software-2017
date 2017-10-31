@@ -17,21 +17,13 @@
           <i id="redo-button" class="large repeat link icon"></i>
           <i id="open-fav-win" class="large star link icon"></i>
           <i id="upload-button" class="large folder open outline link icon"></i>
+          <i id="load-button" class="large user outline link icon"></i>
           <i id="save-button" class="large save link icon"></i>
           <i id="export-button" class="large external share link icon"></i>
         </span>
         <span class="item">
           <i id="drag-item" class="large mouse pointer link icon"></i>
           <i id="drag-canvas" class="large hand paper link icon"></i>
-          <i id="zoom-in" class="large zoom link icon"></i>
-          <i id="zoom-out" class="large zoom out link icon"></i>
-          <div class="ui compact floating selection dropdown" id="ratio-dropdown">
-            <i class="dropdown icon"></i>
-            <div class="default text">Ratio</div>
-          </div>
-        </span>
-        <span class="item">
-          <i class="large bullseye link icon"></i>
           <div id="connection-dropdown" class="ui dropdown">
             <i id="connection-dropdown-button" class="large long right arrow link icon"></i>
             <div class="menu">
@@ -51,15 +43,17 @@
             </div>
           </div>
         </span>
+        <span class="item">
+          <i id="zoom-in" class="large zoom link icon"></i>
+          <i id="zoom-out" class="large zoom out link icon"></i>
+          <div class="ui compact floating selection dropdown" id="ratio-dropdown">
+            <i class="dropdown icon"></i>
+            <div class="default text">Ratio</div>
+          </div>
+        </span>
         <div class="right menu">
           <span class="item">
             <h4 id="safety" class="ui green header">Low risk</h4>
-          </span>
-          <span class="item">
-            <i class="large user outline link icon" id="signin-button"></i>
-          </span>
-          <span class="item">
-            <i class="large help circle outline link icon"></i>
           </span>
         </div>
       </div>
@@ -204,55 +198,37 @@
       <i id="simulation-button" class="inverted superpowers link icon"></i>
     </div>
 
-    <!-- Add part modal -->
-    <!--
-    <div id="add-part-modal" class="ui tiny modal">
-      <div class="header"><i class="setting icon"></i>Add a custom part</div>
-      <div class="content">
-        假装这里有张图
-      </div>
-      <div class="actions">
-        <div id="add-part-from-fav" class="ui button">从收藏夹选择</div>
-        <div id="add-part-from-new" class="ui button">新建元件</div>
-      </div>
-    </div>
-    -->
-
     <!-- Creating new part modal -->
     <div id="new-part-modal" class="ui tiny modal">
-      <div class="header">Add a custom part</div>
       <div class="content">
         <form class="ui form">
           <div class="field">
-            <label for="name">Name</label>
             <input type="text" name="name" id="part-name" placeholder="Part name">
           </div>
           <div class="field">
-            <label for="description">Description</label>
             <textarea id="part-description" rows=2 placeholder="Part description"></textarea>
           </div>
           <div class="field">
-            <label for="type">Type</label>
             <div class="ui floating selection dropdown" id="part-type-dropdown">
               <i class="dropdown icon"></i>
               <div class="default text">Part type</div>
             </div>
           </div>
           <div class="field">
-            <label for="safety">Safety</label>
             <div class="ui floating selection dropdown" id="part-safety-dropdown">
               <i class="dropdown icon"></i>
               <div class="default text">Part safety level</div>
             </div>
           </div>
           <div class="field">
-            <label for="sequence">Sequence</label>
             <textarea name="part-sequence" id="part-sequence" placeholder="Part sequence"></textarea>
           </div>
         </form>
       </div>
       <div class="actions">
-        <div id="add-new-part" class="ui button">Add this part to database!</div>
+        <div class="ui one bottom attached big buttons">
+          <div id="add-new-part" class="ui white button">Add this part to database!</div>
+        </div>
       </div>
     </div>
 
@@ -285,29 +261,45 @@
 
     <!-- Simulation result modal -->
     <div id="simulation-modal" class="ui modal">
-      <div class="header">Simulation results</div>
       <div class="content">
-        <canvas id="simulation-result" width="800px" height="400px"></canvas>
+        <div class="simulation-result-container">
+          <canvas id="simulation-result"></canvas>
+        </div>
+      </div>
+      <div class="actions">
+        <div class="ui one bottom attached big buttons">
+          <div id="add-new-part" class="ui blue cancel button">Confirm simulation result</div>
+        </div>
       </div>
     </div>
 
     <!-- Save modal -->
     <div id="save-modal" class="ui tiny modal">
-      <div class="header">Save your circuit</div>
       <div class="content">
         <form class="ui form">
           <div class="field">
-            <label for="name">Name</label>
             <input type="text" name="name" id="circuit-name" placeholder="Circuit name">
           </div>
           <div class="field">
-            <label for="description">Description</label>
             <textarea id="circuit-description" rows=4 placeholder="Circuit description"></textarea>
           </div>
         </form>
       </div>
       <div class="actions">
-        <div id="save-circuit" class="ui button">Save my new circuit!</div>
+        <div class="ui one bottom attached big buttons">
+          <div id="save-circuit" class="ui white button">Save my new circuit!</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load modal -->
+    <div id="load-modal" class="ui tiny modal">
+      <div class="content">
+      </div>
+      <div class="actions">
+        <div class="ui one bottom attached big buttons">
+          <div id="save-circuit" class="ui white button">Close</div>
+        </div>
       </div>
     </div>
 

@@ -149,8 +149,8 @@ class SDinDesign {
     ) {
         this._canvas = canvas;
         this.parseOption(option);
-        this._canvasPositionX = 0;
-        this._canvasPositionY = 0;
+        this._canvasPositionX = $(canvas).width() / 2;
+        this._canvasPositionY = $(canvas).height() / 2;
         this._size = SDinDesign.zoom(SDinDesign.standardSize, 1);
         this._nextPartId = 0;
         this.name = '';

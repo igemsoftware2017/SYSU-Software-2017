@@ -197,4 +197,40 @@ div.part-helper>div.ui.image>img {
   width: 100%;
   height: auto;
 }
-
+#load-modal .ui.segment {
+  cursor: pointer;
+}
+#load-modal p {
+  margin-bottom: 0em;
+}
+.modal:not(.basic) {
+  border-radius: 1em;
+}
+.modal:not(.basic)>.header, .modal:not(.basic)>.content, .modal:not(.basic)>.actions{
+  border: 0 !important;
+  background-color: #44afe4 !important;
+}
+.modal:not(.basic)>.content:nth-child(2) {
+  padding-top: 0;
+}
+.ui.bottom.attached.big.buttons {
+  margin: 0;
+}
+.ui.white.button {
+  background-color: white;
+  color: #444;
+}
+.modal:not(.basic)>.actions{
+  padding: 0;
+}
+.modal:not(.basic) .header, .modal:not(.basic) label {
+  color: white !important;
+}
+#simulation-modal .content {
+  background-color: white !important;
+}
+.simulation-result-container {
+  background-color: white;
+  padding: 1em;
+  border-radius: 5px;
+}
