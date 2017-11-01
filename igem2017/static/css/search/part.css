@@ -19,9 +19,14 @@
 #search-type-menu > .active.item {
   border-color: #ffd405;
 }
-#result-container {
+#tool-container {
   margin-left: 10.5rem;
   margin-top: 1rem;
+  width: 44rem;
+}
+#result-container {
+  margin-left: 10.5rem;
+  padding-top: 0.5rem;
   width: 44rem;
   position: absolute;
 }
@@ -41,9 +46,6 @@ div.line {
   margin-left: 1ex;
   margin-right: 2.5rem;
 }
-#result-list {
-  margin-top: 0.5rem;
-}
 body {
   background-image: url("/static/img/search/back.jpg");
   background-size: cover;
@@ -58,7 +60,7 @@ body {
 .ui.items>.item {
   padding: 1rem;
   height: 10rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.7);
   position: relative;
   font-size: 1rem;
 }
@@ -70,10 +72,16 @@ body {
   width: 3rem;
   margin: 0 auto;
 }
-.ui.items>.item>.image>p {
+.ui.items>.item>.image .details {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+.ui.items>.item>.image p {
   margin-bottom: 0;
 }
-.ui.items>.item>.image>.ui.divider {
+.ui.items>.item>.image .ui.divider {
   margin: 0;
 }
 .ui.items>.item>.content {
@@ -88,9 +96,6 @@ body {
   max-width: 25rem;
   margin-top: 0;
 }
-.ui.items>.item>.content>.ui.header:hover {
-  white-space: normal;
-}
 .ui.items>.item>.content>.ui.header>span.smaller {
   font-size: 1.25rem;
 }
@@ -100,20 +105,25 @@ body {
   top: 0;
   height: 1.5rem;
 }
-.ui.items>.item>.content>.chassis {
+.ui.items>.item>.chassis {
   position: absolute;
-  left: 1.5rem;
-  bottom: 0;
+  left: 11.5rem;
+  bottom: 1rem;
   margin-bottom: 0;
   color: #333333;
 }
-.ui.items>.item>.content>.rewards {
+.ui.items>.item>.rewards {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 1em;
+  bottom: 1em;
 }
 .ui.items>.item>.content>.description {
   margin-top: 0;
+  max-height: 2.4rem;
+  overflow: hidden;
+}
+.ui.items>.item>.content>.description p {
+  line-height: 1.2rem;
 }
 .ui.items>.item>.content>.ui.flowing.popup p, li {
   white-space: nowrap;
@@ -130,9 +140,65 @@ a {
 #tool {
   color: white;
 }
-#right-panel {
-  position: absolute;
-  background-color: white;
+#right-panel-container {
+  margin-left: 55.5rem;
+  padding-top: 0.5rem;
+}
+.right-panel {
+  width: 26rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.right-panel>.header {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 2rem;
+  padding-left: 0.5em;
+  display: flex;
+  align-items: center;
+}
+.right-panel>.header>img {
+  height: 1.5em !important;
+  width: auto !important;
+  margin-right: 0.5em;
+}
+.right-panel>.header>.header {
+  font-size: 1em;
+  margin: 0;
+}
+.right-panel>.content {
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+.right-panel>.content>img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+.right-panel>.wiki-pic {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5em;
+}
+.right-panel>p, a {
+  margin-bottom: 0;
+}
+/* SVG of d3 */
+line {
+  stroke: #fff;
+  stroke-opacity: 0.6;
+}
+circle {
+  stroke: #fff;
+  cursor: pointer;
+}
+circle:hover {
+  stroke-width: 1.5px;
+}
+text {
+  paint-order: stroke;
+  stroke-width: 3px;
+  fill: white;
 }
 .no-result {
   color: white;

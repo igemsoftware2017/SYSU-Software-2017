@@ -88,20 +88,24 @@
           <div class="link item">
             <div class="image" style="background-image: url('{{ work.logo }}')"></div>
             <div class="content">
-              <a class="ui header" href="/work?id={{ work.id }}">{{ work.projectName }}| <span class="smaller">{{ work.year }}-{{ work.school }}</span></a>
+              <a class="ui header" href="/work?id={{ work.id }}">{{ work.projectName }}</a>
               <img class="medal" src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
+              <div class="meta">{{ work.year }} {{ work.school }}</div>
+              {% if not work.chassis %}
+              <div class="meta">{{ work.chassis }}</div>
+              {% endif %}
               <div class="description">
                 <p>{{ work.description }}</p>
               </div>
-              <p class="chassis">{{ work.chassis }}</p>
-              <a class="rewards" workid="{{ work.id }}" href="#">Rewards</a>
-              <div workid="{{ work.id }}" class="ui flowing popup transition hidden">
-                <ul class="ui list">
+            </div>
+            <p class="chassis">iGEM Effect Factor: {{ work.IEF }}</p>
+            <a class="rewards" workid="{{ work.id }}" href="#">Rewards</a>
+            <div workid="{{ work.id }}" class="ui flowing popup transition hidden">
+              <ul class="ui list">
                 {% for reward in work.rewards %}
-                  <li>{{ reward }}</li>
+                <li>{{ reward }}</li>
                 {% endfor %}
-                </ul>
-              </div>
+              </ul>
             </div>
           </div>
           {% endfor %}
@@ -144,7 +148,9 @@
           <h3 class="ui header">{{ additional.name }}</h3>
         </div>
         <div class="content">
+          {% if additional.picture != 'None' %}
           <img class="wiki-pic" src="{{ additional.picture }}" alt="">
+          {% endif %}
           <p>{{ additional.description }}</p>
           <a href="{{ additional.link }}">More...</a>
         </div>
@@ -167,9 +173,13 @@
 
       {% if additional.medalRelation and additional.medalRelation != '' %}
       <div class="right-panel">
-        <h3 class="ui header">Medal relations</h3>
-        <div class="chart-box">
-          <canvas id="medal-chart" width="300" height="300"></canvas>
+        <div class="header">
+          <h3 class="ui header">Medal relations</h3>
+        </div>
+        <div class="content">
+          <div class="chart-box">
+            <canvas id="medal-chart" width="300" height="300"></canvas>
+          </div>
         </div>
         <input type="text" id="medal-chart-data" value="{{ additional.medalRelation }}" hidden>
       </div>

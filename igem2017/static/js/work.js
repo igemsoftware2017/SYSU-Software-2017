@@ -30,9 +30,9 @@ $(window)
         design.disableDrag();
     });
 
-$('div#detail-container > div.images > div.image > img')
+$('div#detail-container > div.images > img')
     .on('click', function() {
-        $('div.ui.page.dimmer').children().children().html($(this).parent().html());
+        $('div.ui.page.dimmer').children().children().html(this.outerHTML);
         $('div.ui.page.dimmer').dimmer({
             duration: {
                 show: 200,
