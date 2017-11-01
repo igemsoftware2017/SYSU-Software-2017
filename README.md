@@ -6,9 +6,9 @@
 
 ## Introduction
 
-Welcome to S-Din! This is the most powerful **S**earch engine and **D**esign platform for **i**nspiration with **n**etwork analysis in Synthetic Biology ever. 
+Welcome to S-Din! This is the most powerful *S*earch engine and *D*esign platform for *i*nspiration with *n*etwork analysis in Synthetic Biology ever. 
 
-S-Din (/sdin/, verb) your keyword to:
+S-Din (/sdɪn/, *verb*) your keyword to:
 
 - Search for projects, parts and papers in Synthetic biology
 
