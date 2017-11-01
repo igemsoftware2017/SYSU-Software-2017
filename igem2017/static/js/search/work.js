@@ -135,7 +135,7 @@ function d3KeywordChart() {
         height = +svg.attr('height');
 
     let simulation = d3.forceSimulation()
-        .force('link', d3.forceLink().id(function(d) { return d.id; }).distance(() => 200))
+        .force('link', d3.forceLink().id(function(d) { return d.id; }).distance(() => 150))
         .force('charge', d3.forceManyBody())
         .force('center', d3.forceCenter(width / 2, height / 2));
 
