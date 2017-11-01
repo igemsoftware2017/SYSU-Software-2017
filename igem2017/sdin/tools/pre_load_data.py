@@ -435,7 +435,7 @@ def load_Trelation(folderpath):
                     fir = all_works[firname]
                     for i in range(3,len(team[0])):
                         secname = team[1][i].strip() + "_" + team[0][i].strip()
-                        if "Example" in secname or float(row[i]) == 0:
+                        if "Example" in secname:
                             continue
                         sec = all_works[secname]
                         trelation.append(Trelation(
