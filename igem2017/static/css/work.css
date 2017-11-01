@@ -12,15 +12,19 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.content {
+  margin-left: 10.5rem;
+  display: flex;
+  flex-direction: row;
+}
 #detail-container {
-  position: absolute;
-  left: 10.5rem;
   margin-top: 1rem;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   padding-bottom: 1rem;
   background-color: white;
   width: 50rem;
+  position: relative;
 }
 #detail-container>.back-icon {
   position: absolute;
@@ -147,36 +151,37 @@ body {
 #part-container>.part-table>table td {
   padding: 0;
 }
-#right-panel {
-  position: absolute;
+.right-panel-container {
+}
+.right-panel {
   background-color: white;
   padding: 1rem;
   width: 17rem;
-  margin-left: 61.5rem;
   font-size: 1rem;
+  margin: 1rem;
 }
-#right-panel .header {
+.right-panel .header {
   display: flex;
   align-items: center;
 }
-#right-panel .header img {
+.right-panel .header img {
   width: 1.5em !important;
   height: auto !important;
 }
-#right-panel .header>.header {
+.right-panel .header>.header {
   margin: 0;
 }
-#right-panel .ui.header {
+.right-panel .ui.header {
   font-size: 1.25rem;
   display: inline;
 }
-#right-panel img {
+.right-panel img {
   display: inline-block;
   height: 1.5rem;
   width: auto;
   margin-right: 1rem;
 }
-#right-panel p {
+.right-panel p {
   display: inline-block;
   line-height: 1.5rem;
   vertical-align: top;

@@ -125,6 +125,19 @@ def work(request):
         while len(Awards) > 0 and Awards[-1] == '':
             Awards = Awards[: -1]
 
+        relatedTeams = Trelation.objects.filter(first = wk)
+        relatedTeams = list(map(lambda rt: {
+            'teamName': rt.Teamname,
+            'projectName': rt.Title,
+            'year': rt.year,
+            'id': rt.id
+        }, relatedTeams))
+
+        keywords = TeamKeyword.objects.filter(Team = wk)
+        keywords = list(map(lambda tk: [tk.keyword, tk.score], keywords))
+        keywords.sort(key = lambda tk: -tk[1])
+        keywords = list(map(lambda tk: tk[0], keywords))[:5]
+
         wk.ReadCount += 1
         wk.save()
         context = {
@@ -139,7 +152,10 @@ def work(request):
             'images': Img,
             'designId': -1 if wk.Circuit is None else wk.Circuit.id,
             'part': part,
-            'logo': wk.logo}
+            'logo': wk.logo,
+            'keywords': keywords,
+            'relatedTeams': relatedTeams
+        }
 
         return render(request, 'work.html', context)
 

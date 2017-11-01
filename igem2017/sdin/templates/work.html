@@ -18,70 +18,89 @@
     <link rel="stylesheet" href="/static/css/search-box.css">
 
     {% csrf_token %}
-    <div id="detail-container">
-      <div class="back-icon">
-        <i class="chevron left icon"></i>
+    <div class="content">
+      <div id="detail-container">
+        <div class="back-icon">
+          <i class="chevron left icon"></i>
+        </div>
+        <div class="back">
+          back
+        </div>
+        <div class="title">
+          <a href="http://{{ year }}.igem.org/Team:{{ teamName }}">{{ projectName }}<span class="year">{{ year }}-{{ teamName }}</span></a>
+        </div>
+        <div class="reads">
+          {{ readCount }} reading
+        </div>
+        {% if designId != -1 %}
+        <div class="collection">
+          <i id="collect-circuit" class="{% if not isFavourite %}empty {% endif %}star icon"></i>
+          collection
+        </div>
+        {% endif %}
+        <div class="description">
+          <p>{{ description }}</p>
+        </div>
+        <div class="images">
+          {% for image in images %}
+          <img src="{{ image }}">
+          {% endfor %}
+        </div>
+        <div id="part-container">
+          <div class="part-canvas" id="part" circuit-id="{{ designId }}"></div>
+          {% if designId != -1 %}<div class="part-button"><a href="/design?id={{ designId }}"><i class="edit icon"></i></a></div>{% endif %}
+          <div class="part-table">
+            <table class="ui fixed striped table">
+              <thead>
+                <tr>
+                  <th>BBa</th>
+                  <th>Name</th>
+                  <th>Collect</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for p in part %}
+                <tr>
+                  <td>{{ p.BBa }}</td>
+                  <td>{{ p.name }}</td>
+                  <td><i bba="{{ p.id }}" class="{% if not p.isFavourite %}empty {% endif %}star icon"></i></td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="back">
-        back
-      </div>
-      <div class="title">
-        <a href="http://{{ year }}.igem.org/Team:{{ teamName }}">{{ projectName }}<span class="year">{{ year }}-{{ teamName }}</span></a>
-      </div>
-      <div class="reads">
-        {{ readCount }} reading
-      </div>
-      {% if designId != -1 %}
-      <div class="collection">
-        <i id="collect-circuit" class="{% if not isFavourite %}empty {% endif %}star icon"></i>
-        collection
-      </div>
-      {% endif %}
-      <div class="description">
-        <p>{{ description }}</p>
-      </div>
-      <div class="images">
-        {% for image in images %}
-        <img src="{{ image }}">
-        {% endfor %}
-      </div>
-      <div id="part-container">
-        <div class="part-canvas" id="part" circuit-id="{{ designId }}"></div>
-        {% if designId != -1 %}<div class="part-button"><a href="/design?id={{ designId }}"><i class="edit icon"></i></a></div>{% endif %}
-        <div class="part-table">
-          <table class="ui fixed striped table">
-            <thead>
-              <tr>
-                <th>BBa</th>
-                <th>Name</th>
-                <th>Collect</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for p in part %}
-              <tr>
-                <td>{{ p.BBa }}</td>
-                <td>{{ p.name }}</td>
-                <td><i bba="{{ p.id }}" class="{% if not p.isFavourite %}empty {% endif %}star icon"></i></td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
+      <div class="right-panel-container">
+        <div class="right-panel">
+          <div class="header">
+            <img src="/static/img/medal.png" alt="">
+            <h4 class="ui header">Rewards</h4>
+          </div>
+          <ul class="ui list">
+            {% for reward in rewards %}
+            <li>{{ reward }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="right-panel">
+          <div class="header">
+            <div class="ui header">Related teams</div>
+          </div>
+          {{ relatedTeams }}
+        </div>
+        <div class="right-panel">
+          <div class="header">
+            <div class="ui header">Keywords</div>
+          </div>
+          <ul class="ui list">
+            {% for keyword in keywords %}
+            <li><a href="/search?q={{ keyword }}">{{ keyword }}</a></li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
-    <div id="right-panel">
-      <div class="header">
-        <img src="/static/img/medal.png" alt="">
-        <h4 class="ui header">Rewards</h4>
-      </div>
-      <ul class="ui list">
-        {% for reward in rewards %}
-        <li>{{ reward }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-
     <div class="ui page dimmer">
       <div class="content">
         <div class="center">test</div>
