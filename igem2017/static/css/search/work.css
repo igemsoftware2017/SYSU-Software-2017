@@ -100,11 +100,13 @@ body {
   bottom: 1rem;
   margin-bottom: 0;
   color: #333333;
+  font-size: 1rem;
 }
 .ui.items>.item>.rewards {
   position: absolute;
   right: 1rem;
   bottom: 1rem;
+  font-size: 1rem;
 }
 .ui.items>.item>.content>.description {
   margin-top: 0;
