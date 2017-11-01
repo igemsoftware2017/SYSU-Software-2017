@@ -6,9 +6,9 @@
 
 ## Introduction
 
-Welcome to S-Din! This is the most powerful **S**earch engine and **D**esign platform for **i**nspiration with **n**etwork analysis in Synthetic Biology ever. 
+Welcome to S-Din! This is the most powerful *S*earch engine and *D*esign platform for *i*nspiration with *n*etwork analysis in Synthetic Biology ever. 
 
-S-Din (/sdin/, verb) your keyword to:
+S-Din (/sdɪn/, *verb*) your keyword to:
 
 - Search for projects, parts and papers in Synthetic biology
 
@@ -27,14 +27,6 @@ S-Din requires a web browser and a single click: [http://sdin.sysusoftware.info]
 ---
 
 To setup a server, follow this:
-
-* `Django` : Python web framework
-* `mysqlclient` and `pmysql` : connect Python to MySQL
-* `numpy`and `scipy` : for ODE algorithms in the modeling part
-* `requests` : making HTTP requests to get data from our algorithm server
-* `xlrd` : for reading excel tables
-
-Here list only the main dependencies. For a complete list, please see `tools/requirements.txt`
 
 ## Installation
 
