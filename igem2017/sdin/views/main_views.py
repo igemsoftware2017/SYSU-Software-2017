@@ -127,10 +127,10 @@ def work(request):
 
         relatedTeams = Trelation.objects.filter(first = wk)
         relatedTeams = list(map(lambda rt: {
-            'teamName': rt.Teamname,
-            'projectName': rt.Title,
-            'year': rt.year,
-            'id': rt.id
+            'teamName': rt.second.Teamname,
+            'projectName': rt.second.Title,
+            'year': rt.second.year,
+            'id': rt.second.id
         }, relatedTeams))
 
         keywords = TeamKeyword.objects.filter(Team = wk)
