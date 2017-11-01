@@ -60,7 +60,7 @@ To install S-Din, firstly, you should make sure the following requirements are s
 
 * **Setting MySQL root account**
 
-  To set up MySQL users used by S-Din, we need your MySQL root account. Modify `SYSU-Software-2017/tools/config.json` like:
+  To set up MySQL users used by S-Din, we need your MySQL root account. Add `SYSU-Software-2017/tools/config.json` like:
 
   ~~~json
   {	
