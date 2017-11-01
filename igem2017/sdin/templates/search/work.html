@@ -88,22 +88,24 @@
           <div class="link item">
             <div class="image" style="background-image: url('{{ work.logo }}')"></div>
             <div class="content">
-              <a class="ui header" href="/work?id={{ work.id }}">{{ work.projectName }}| <span class="smaller">{{ work.year }}-{{ work.school }}</span></a>
+              <a class="ui header" href="/work?id={{ work.id }}">{{ work.projectName }}</a>
               <img class="medal" src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
+              <div class="meta">{{ work.year }} {{ work.school }}</div>
+              {% if not work.chassis %}
+              <div class="meta">{{ work.chassis }}</div>
+              {% endif %}
               <div class="description">
                 <p>{{ work.description }}</p>
               </div>
-              {% if not work.chassis %}
-              <p class="chassis">{{ work.chassis }}</p>
-              {% endif %}
-              <a class="rewards" workid="{{ work.id }}" href="#">Rewards</a>
-              <div workid="{{ work.id }}" class="ui flowing popup transition hidden">
-                <ul class="ui list">
+            </div>
+            <p class="chassis">iGEM Effect Factor: {{ work.IEF }}</p>
+            <a class="rewards" workid="{{ work.id }}" href="#">Rewards</a>
+            <div workid="{{ work.id }}" class="ui flowing popup transition hidden">
+              <ul class="ui list">
                 {% for reward in work.rewards %}
-                  <li>{{ reward }}</li>
+                <li>{{ reward }}</li>
                 {% endfor %}
-                </ul>
-              </div>
+              </ul>
             </div>
           </div>
           {% endfor %}

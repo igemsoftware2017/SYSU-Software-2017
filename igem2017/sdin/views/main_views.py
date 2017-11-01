@@ -195,7 +195,9 @@ def _get_work(w, request):
         'chassis': w.Chassis,
         'rewards': awards,
         'isFavourite': favourite,
-        'logo': w.logo}
+        'logo': w.logo,
+        'IEF': w.IEF
+    }
 
 def safety_level(s):
         try:
@@ -510,7 +512,7 @@ def search_part(request):
         'works': works,
         'parts': parts,
         'keywords': keywords,
-        'resultsCount': len(works),
+        'resultsCount': len(parts),
         'additional': key_dict}
     return render(request, 'search/part.html', context)
 

@@ -36,8 +36,7 @@ urlpatterns = [
     url(r'^paper$', main_views.paper),
     url(r'^keywords$', main_views.keywords),
 
-] + \
-[
+] + [
     # API urls
     url(r'api/get_favorite$', design_views.get_favorite),
     url(r'api/tag_favorite$', design_views.tag_favorite),
@@ -50,10 +49,7 @@ urlpatterns = [
     url(r'api/simulation$', design_views.simulation),
     url(r'api/interest$', main_views.interest),
     url(r'api/max_safety$', design_views.max_safety),
-
-
-] + \
-[
+] + [
     # Test urls
     url(r'^testdb$', test_views.testdb),
     url(r'^get_circuit_test', test_views.get_circuit_test),

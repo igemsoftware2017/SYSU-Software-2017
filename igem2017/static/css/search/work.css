@@ -73,6 +73,7 @@ body {
 .ui.items>.item>.content {
   position: relative;
   font-size: 1rem;
+  padding-bottom: 1.2em;
 }
 .ui.items>.item>.content>.ui.header {
   color: #333333;
@@ -93,31 +94,25 @@ body {
   width: 1.5rem;
   height: 1.5rem;
 }
-.ui.items>.item>.content>.chassis {
+.ui.items>.item>.chassis {
   position: absolute;
-  left: 1.5rem;
-  bottom: 0;
+  left: 12.5rem;
+  bottom: 1rem;
   margin-bottom: 0;
   color: #333333;
 }
-.ui.items>.item>.content>.rewards {
+.ui.items>.item>.rewards {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 1rem;
+  bottom: 1rem;
 }
 .ui.items>.item>.content>.description {
   margin-top: 0;
+  max-height: 2.4em;
+  overflow: hidden;
 }
 .ui.items>.item>.content>.description>p {
-    position:relative;
-    overflow:hidden;
-}
-.ui.items>.item>.content>.description>p:after {
-    content:"...";
-    position:absolute;
-    bottom:0;
-    right:0;
-    padding: 0 5px;
+    line-height: 1.2em;
 }
 .ui.items>.item>.content>.ui.flowing.popup p, li {
   white-space: nowrap;
@@ -185,7 +180,7 @@ div#tool-popup {
   font-size: 1rem;
 }
 .right-panel>.header {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   height: 2rem;
   padding-left: 0.5em;
   display: flex;

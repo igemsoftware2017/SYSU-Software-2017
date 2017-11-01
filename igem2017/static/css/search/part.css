@@ -46,9 +46,6 @@ div.line {
   margin-left: 1ex;
   margin-right: 2.5rem;
 }
-#result-list {
-  margin-top: 0.5rem;
-}
 body {
   background-image: url("/static/img/search/back.jpg");
   background-size: cover;
@@ -75,10 +72,16 @@ body {
   width: 3rem;
   margin: 0 auto;
 }
-.ui.items>.item>.image>p {
+.ui.items>.item>.image .details {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+.ui.items>.item>.image p {
   margin-bottom: 0;
 }
-.ui.items>.item>.image>.ui.divider {
+.ui.items>.item>.image .ui.divider {
   margin: 0;
 }
 .ui.items>.item>.content {
@@ -93,9 +96,6 @@ body {
   max-width: 25rem;
   margin-top: 0;
 }
-.ui.items>.item>.content>.ui.header:hover {
-  white-space: normal;
-}
 .ui.items>.item>.content>.ui.header>span.smaller {
   font-size: 1.25rem;
 }
@@ -105,20 +105,25 @@ body {
   top: 0;
   height: 1.5rem;
 }
-.ui.items>.item>.content>.chassis {
+.ui.items>.item>.chassis {
   position: absolute;
-  left: 1.5rem;
-  bottom: 0;
+  left: 11.5rem;
+  bottom: 1rem;
   margin-bottom: 0;
   color: #333333;
 }
-.ui.items>.item>.content>.rewards {
+.ui.items>.item>.rewards {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 1em;
+  bottom: 1em;
 }
 .ui.items>.item>.content>.description {
   margin-top: 0;
+  max-height: 2.4rem;
+  overflow: hidden;
+}
+.ui.items>.item>.content>.description p {
+  line-height: 1.2rem;
 }
 .ui.items>.item>.content>.ui.flowing.popup p, li {
   white-space: nowrap;
@@ -145,7 +150,7 @@ a {
   font-size: 1rem;
 }
 .right-panel>.header {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   height: 2rem;
   padding-left: 0.5em;
   display: flex;

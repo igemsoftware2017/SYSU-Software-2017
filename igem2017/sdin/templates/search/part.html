@@ -25,9 +25,13 @@
         <a class="active item">Parts</a>
         <a class="item" href="/search/paper?q={{ request.GET.q }}">Paper</a>
       </div>
+      {% if resultsCount != 0 %}
       <div class="line">
         <code>{{ resultsCount }}</code><span id="result-span">RESULTS</span>
       </div>
+      {% endif %}
+    </div>
+    <div id="result-container">
       {% if resultsCount == 0 %}
       <div class="no-result">
         <p>No results found for <b>{{ request.GET.q }}</b>.</p>
@@ -41,41 +45,31 @@
         <p>If you cannot find a page that you know exists, <a>send the address to us</a>.</p>
       </div>
       {% endif %}
-    </div>
-    <div id="result-container">
       <div id="result-list">
         <div class="ui items">
           {% for part in parts %}
           <div class="link item">
             <div class="image">
               <img src="/static/img/design/{{ part.type | lower }}.png" alt="">
-              <div class="ui divider"></div>
-              <p>{{ part.releaseStatus }}</p>
-              <div class="ui divider"></div>
-              <p>{{ part.sampleStatus }}</p>
-              <div class="ui divider"></div>
-              <p>{{ part.partResult }}</p>
-              <div class="ui divider"></div>
+              <p>{{ part.type }}</p>
+              <div class="details">
+                <p>{{ part.releaseStatus }}</p>
+                <div class="ui divider"></div>
+                <p>{{ part.sampleStatus }}</p>
+              </div>
             </div>
             <div class="content">
-              <a class="ui header" href="/part?id={{ part.id }}">Part: {{ part.name }} | <span class="smaller">{{ part.group }}</span></a>
-              <div class="meta">{{ part.type }}, {{ part.safety }}</div>
+              <a class="ui header" href="/part?id={{ part.id }}">{{ part.name }}</a>
+              <div class="meta">{{ part.group }}{% if part.partResult and part.partResult != 'None' %} {{ part.partResult }}{% endif %}</div>
               <div class="medal">
                 {{ part.rating }} Registry Star
               </div>
               <div class="description">
                 <p>{{ part.description }}</p>
               </div>
-              <p class="chassis">{{ part.use }}</p>
-              <a class="rewards" workid="{{ work.id }}" href="#">Parameters</a>
-              <div workid="{{ work.id }}" class="ui flowing popup transition hidden">
-                <ul class="ui list">
-                {% for reward in work.rewards %}
-                  <li>{{ reward }}</li>
-                {% endfor %}
-                </ul>
-              </div>
             </div>
+            <p class="chassis">{{ part.use }}</p>
+            <p class="rewards">{{ part.safety }}</p>
           </div>
           {% endfor %}
         </div>
