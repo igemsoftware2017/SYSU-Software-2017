@@ -86,6 +86,11 @@ drawChart('#year-chart-data', '#year-chart');
 drawChart('#track-chart-data', '#track-chart');
 drawChart('#medal-chart-data', '#medal-chart');
 
+$('svg').attr({
+    width: $('.chart-box').width(),
+    height: $('.chart-box').width()
+});
+
 /* global d3 */
 
 // Draw keyword graph
