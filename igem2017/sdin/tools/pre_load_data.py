@@ -568,10 +568,10 @@ def load_circuits(circuits_floder_path, is_work = True, delete = False):
                 for sheet in f.sheets():
                     if is_work:
                         try:
-                            teamID = int(sheet.cell(1, 0).value)
+                            teamID = int(sheet.cell_value(1, 0))
                         except:
                             print(sheet.name)
-                        teamName = sheet.cell(1, 1).value
+                        teamName = sheet.cell_value(1, 1)
 
                         try:
                             team = Works.objects.get(TeamID = teamID)
@@ -583,7 +583,7 @@ def load_circuits(circuits_floder_path, is_work = True, delete = False):
                         except:
                             circuit = Circuit.objects.get(Name = teamName + str(teamID))
                     else:
-                        DOI = sheet.cell(1, 0).value
+                        DOI = sheet.cell_value(1, 0)
                         try:
                             team = Papers.objects.get(DOI = DOI)
                         except Papers.DoesNotExist:
@@ -601,13 +601,13 @@ def load_circuits(circuits_floder_path, is_work = True, delete = False):
                     cids = {}
                     for i in range(0, sheet.nrows):
                         if not is_work:
-                            if sheet.cell(i, 0).value == 'parts and others':
+                            if sheet.cell_value(i, 0) == 'parts and others':
                                 row = i + 2
-                                while isinstance(sheet.cell(row, 0).value, float):
-                                    name = sheet.cell(row, 3).value
+                                while isinstance(sheet.cell_value(row, 0), float):
+                                    name = sheet.cell_value(row, 3)
                                     if isinstance(name, float):
-                                        name = sheet.cell(row, 1).value
-                                    if name != sheet.cell(row, 1).value and name.find('BBa') != 0:
+                                        name = sheet.cell_value(row, 1)
+                                    if name != sheet.cell_value(row, 1) and name.find('BBa') != 0:
                                         name = 'BBa_' + name
                                     try:
                                         p = Parts.objects.get(Name = name)
@@ -615,81 +615,81 @@ def load_circuits(circuits_floder_path, is_work = True, delete = False):
                                         print(name + ' not found.')
                                         p = Parts.objects.create(
                                                 Name = name,
-                                                Type = sheet.cell(row, 2),
-                                                Description = sheet.cell(row, 1))
+                                                Type = sheet.cell_value(row, 2),
+                                                Description = sheet.cell_value(row, 1))
                                         new_part_count += 1
                                     try:
                                         cp = CircuitParts.objects.create(
                                                 Part = p,
                                                 Circuit = circuit,
-                                                X = sheet.cell(row, 3).value,
-                                                Y = sheet.cell(row, 4).value if sheet.cell(row, 5).value != "" else 0)
+                                                X = sheet.cell_value(row, 3),
+                                                Y = sheet.cell_value(row, 4) if sheet.cell_value(row, 5) != "" else 0)
                                     except:
                                         pass
                                         traceback.print_exc()
                                         print(name)
                                         print(sheet.name)
-                                    cids[int(sheet.cell(row, 0).value)] = cp
+                                    cids[int(sheet.cell_value(row, 0))] = cp
                                     
                                     row += 1
 
                         elif 'b' in name:
-                            if sheet.cell(i, 0).value == 'parts and others':
+                            if sheet.cell_value(i, 0) == 'parts and others':
                                 row = i + 2
-                                while isinstance(sheet.cell(row, 0).value, float):
+                                while isinstance(sheet.cell_value(row, 0), float):
                                     try:
-                                        p = Parts.objects.get(Name = sheet.cell(row, 1).value)
+                                        p = Parts.objects.get(Name = sheet.cell_value(row, 1))
                                     except:
                                         p = Parts.objects.create(
-                                                Name = sheet.cell(row, 1).value,
-                                                Type = sheet.cell(row, 2).value)
+                                                Name = sheet.cell_value(row, 1),
+                                                Type = sheet.cell_value(row, 2))
                                     try:
                                         cp = CircuitParts.objects.create(
                                                 Part = p,
                                                 Circuit = circuit,
-                                                X = sheet.cell(row, 4).value,
-                                                Y = sheet.cell(row, 5).value if sheet.cell(row, 5).value != "" else 0)
+                                                X = sheet.cell_value(row, 4),
+                                                Y = sheet.cell_value(row, 5) if sheet.cell_value(row, 5) != "" else 0)
                                     except:
                                         pass
                                         traceback.print_exc()
                                         print(name)
                                         print(sheet.name)
-                                    cids[int(sheet.cell(row, 0).value)] = cp
+                                    cids[int(sheet.cell_value(row, 0))] = cp
                                     
                                     row += 1
                         else:
-                            if sheet.cell(i, 0).value == 'parts and other':
+                            if sheet.cell_value(i, 0) == 'parts and other':
                                 row = i + 2
-                                while isinstance(sheet.cell(row, 0).value, float):
+                                while isinstance(sheet.cell_value(row, 0), float):
                                     try:
-                                        p = Parts.objects.get(Name = sheet.cell(row, 1).value)
+                                        p = Parts.objects.get(Name = sheet.cell_value(row, 1))
                                     except:
                                         p = Parts.objects.create(
-                                                Name = sheet.cell(row, 1).value,
-                                                Type = sheet.cell(row, 2).value)
+                                                Name = sheet.cell_value(row, 1),
+                                                Type = sheet.cell_value(row, 2))
                                     try:
                                         cp = CircuitParts.objects.create(
                                                 Part = p,
                                                 Circuit = circuit,
-                                                X = sheet.cell(row, 5).value,
-                                                Y = 0 if sheet.cell(row, 6).value == "" else sheet.cell(row, 6).value)
+                                                X = sheet.cell_value(row, 5),
+                                                Y = 0 if sheet.cell_value(row, 6) == "" else sheet.cell_value(row, 6))
                                     except:
                                         pass
                                         traceback.print_exc()
                                         print(name)
                                         print(sheet.name)
-                                    cids[int(sheet.cell(row, 0).value)] = cp
+                                    cids[int(sheet.cell_value(row, 0))] = cp
                                     row += 1
 
-                        if sheet.cell(i, 0).value == 'devices':
+                        if sheet.cell_value(i, 0) == 'devices':
                             row = i + 2
-                            while isinstance(sheet.cell(row, 0).value, float):
+                            while isinstance(sheet.cell_value(row, 0), float):
                                 cd = CircuitDevices.objects.create(
                                         Circuit = circuit)
                                 try:
-                                    s = sheet.cell(row, 1).value.split(',')
+                                    s = sheet.cell_value(row, 1).split(',')
                                 except:
-                                    s = [sheet.cell(row, 1).value]
+                                    s = [sheet.cell_value(row, 1)]
                                 for x in s:
                                     if x != '':
                                         try:
@@ -698,12 +698,12 @@ def load_circuits(circuits_floder_path, is_work = True, delete = False):
                                             pass
                                 cd.save()
                                 row += 1
-                        if sheet.cell(i, 0).value == "promotion":
+                        if sheet.cell_value(i, 0) == "promotion":
                             row = i + 1
-                            while row < sheet.nrows and isinstance(sheet.cell(row, 0).value, float):
+                            while row < sheet.nrows and isinstance(sheet.cell_value(row, 0), float):
                                 try:
-                                    s = int(sheet.cell(row, 0).value)
-                                    e = sheet.cell(row, 1).value
+                                    s = int(sheet.cell_value(row, 0))
+                                    e = sheet.cell_value(row, 1)
                                     if isinstance(e, float):
                                         CircuitLines.objects.create(
                                             Start = cids[s],
@@ -720,12 +720,12 @@ def load_circuits(circuits_floder_path, is_work = True, delete = False):
                                 except:
                                     pass
                                 row += 1
-                        if sheet.cell(i, 0).value == "inhibition":
+                        if sheet.cell_value(i, 0) == "inhibition":
                             row = i + 1
-                            while row < sheet.nrows and isinstance(sheet.cell(row, 0).value, float):
+                            while row < sheet.nrows and isinstance(sheet.cell_value(row, 0), float):
                                 try:
-                                    s = int(sheet.cell(row, 0).value)
-                                    e = sheet.cell(row, 1).value
+                                    s = int(sheet.cell_value(row, 0))
+                                    e = sheet.cell_value(row, 1)
                                     if isinstance(e, float):
                                         CircuitLines.objects.create(
                                             Start = cids[s],
@@ -743,14 +743,14 @@ def load_circuits(circuits_floder_path, is_work = True, delete = False):
                                     pass
                                 row += 1
 
-                        if sheet.cell(i, 0).value == "combine":
+                        if sheet.cell_value(i, 0) == "combine":
                             row = i + 1
-                            while row < sheet.nrows and isinstance(sheet.cell(row, 0).value, float):
+                            while row < sheet.nrows and isinstance(sheet.cell_value(row, 0), float):
                                 try:
                                     comb = []
                                     j = 0
-                                    while j < sheet.ncols and isinstance(sheet.cell(row, j).value, float):
-                                        comb.append(int(sheet.cell(row, j).value))
+                                    while j < sheet.ncols and isinstance(sheet.cell_value(row, j), float):
+                                        comb.append(int(sheet.cell_value(row, j)))
                                         j += 1
                                     if len(comb) >= 2:
                                         cc = CircuitCombines.objects.create(
@@ -777,7 +777,7 @@ def load_circuits(circuits_floder_path, is_work = True, delete = False):
 
 def get_value(sheet):
     def inner(i, j):
-        k = sheet.cell(i, j).value
+        k = sheet.cell_value(i, j)
         if k == 'None' or k == '':
             return None
         return k
@@ -791,19 +791,19 @@ def load_additional(path):
 
     gm = Keyword.objects.create(name = 'gold',
             description = val(1,1),
-            link = json.dumps(['http://' + val(1,2)]),
+            link = json.dumps(['static/img/picture/' + val(1,2)]),
             picture = val(1,3),
             _type = "medal")
 
     sm = Keyword.objects.create(name = 'silver',
             description = val(2,1),
-            link = json.dumps(['http://' + val(2,2)]),
+            link = json.dumps(['static/img/picture/' + val(2,2)]),
             picture = val(2,3),
             _type = "medal")
 
     bm = Keyword.objects.create(name = 'bronze',
             description = val(3,1),
-            link = json.dumps(['http://' + val(3,2)]),
+            link = json.dumps(['static/img/picture/' + val(3,2)]),
             picture = val(3,3),
             _type = "medal")
 
@@ -846,8 +846,8 @@ def load_additional(path):
     for i in range(1, 1027):
         Keyword.objects.create(name = val(i, 0),
                 description = val(i, 1),
-                link = json.dumps(['http://' + val(i, 2)]) if val(i, 2) is not None else None,
-                picture = 'http:' + val(i, 3) if val(i, 3) is not None else None,
+                link = json.dumps(['http://' + val(i, 2) if val(i, 2) is not None else 'None']),
+                picture = 'http:' + val(i, 3) if val(i, 3) is not None else 'None',
                 yearRelation = json.dumps([{int(val2(0, j)): val2(i, j) for j in range(1, 9)}]),
                 trackRelation = json.dumps([{val2(0, j): val2(i, j) for j in range(11, 27)}]),
                 _type = "keyword")
@@ -891,7 +891,7 @@ def load_additional(path):
         Keyword.objects.create(name = v(i, 0),
                 description = v(i, 1),
                 link = json.dumps(['http://' + v(i, 2)]),
-                picture = v(i, 3),
+                picture = 'static/img/picture/' + v(i, 3),
                 related = json.dumps([v2(j, i) for j in range(1, 30)]),
                 yearRelation = json.dumps([{int(v3(0, j)): v3(i, j) for j in range(1, 9)}]),
                 medalRelation = json.dumps([{v3(19, j): v3(i + 19, j) for j in range(3, 7)}]),
@@ -906,7 +906,7 @@ def load_additional(path):
         Keyword.objects.create(name = str(int(v(i, 0))),
                 description = v(i, 1),
                 link = json.dumps(['http://' + v(i, 2)]),
-                picture = v(i, 3),
+                picture = 'static/img/picture/' + v(i, 3),
                 related = json.dumps([v2(j, i) for j in range(1, 31)]),
                 trackRelation = json.dumps([{v3(j, 0): v3(j, i) for j in range(13, 29)}]),
                 medalRelation = json.dumps([{v3(j, 0): v3(j, i) for j in range(1, 5)}]),
@@ -917,6 +917,24 @@ def final():
     for i in Works.objects.filter(Year__lte = 2008):
         i.delete()
 
+    for work in Works.objects.filter(Circuit = None):
+        parts = work.Use_parts.split(';')
+        circuit = Circuit.objects.create(
+                Name = work.Teamname + str(work.TeamID),
+                Description = '')
+        for i in range(len(parts)):
+            try:
+                part = Parts.objects.get(Name = parts[i])
+                if part.Type == 'composite':
+                    CircuitParts.objects.create(
+                        Part = part,
+                        Circuit = circuit,
+                        X = (i * 100) % 800,
+                        Y = (i * 100) // 800)
+            except:
+                pass
+        work.Circuit = circuit
+        work.save()
 
 def pre_load_data(currentpath, Imgpath):
     load_parts(os.path.join(currentpath, 'parts'))
