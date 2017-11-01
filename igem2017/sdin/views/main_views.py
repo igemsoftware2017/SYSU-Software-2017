@@ -129,7 +129,7 @@ def work(request):
         relatedTeams = list(map(lambda rt: {
             'teamName': rt.second.Teamname,
             'projectName': rt.second.Title,
-            'year': rt.second.year,
+            'year': rt.second.Year,
             'id': rt.second.id
         }, relatedTeams))
 
