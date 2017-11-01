@@ -130,7 +130,7 @@ def work(request):
             'teamName': rt.second.Teamname,
             'projectName': rt.second.Title,
             'year': rt.second.Year,
-            'id': rt.second.id
+            'id': rt.second.TeamID
         }, relatedTeams))
 
         keywords = TeamKeyword.objects.filter(Team = wk)

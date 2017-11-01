@@ -78,17 +78,25 @@
             <img src="/static/img/medal.png" alt="">
             <h4 class="ui header">Rewards</h4>
           </div>
+          {% if not rewards %}
+          <p>No rewards.</p>
+          {% else %}
           <ul class="ui list">
             {% for reward in rewards %}
             <li>{{ reward }}</li>
             {% endfor %}
           </ul>
+          {% endif %}
         </div>
         <div class="right-panel">
           <div class="header">
             <div class="ui header">Related teams</div>
           </div>
-          {{ relatedTeams }}
+          <ul class="ui list">
+          {% for team in relatedTeams %}
+          <li><a href="/work?id={{ team.id }}">{{ team.year }} {{ team.teamName }}</a></li>
+          {% endfor %}
+          </ul>
         </div>
         <div class="right-panel">
           <div class="header">
