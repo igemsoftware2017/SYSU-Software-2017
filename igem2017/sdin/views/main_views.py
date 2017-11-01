@@ -92,20 +92,20 @@ def work(request):
                         part.append({
                             'id': pt.id,
                             'BBa': item,
-                            'name': item,
+                            'name': pt.secondName,
                             'isFavourite': True})
                     except FavoriteParts.DoesNotExist:
                         part.append({
                             'id': pt.id,
                             'BBa': item,
-                            'name': item,
+                            'name': pt.secondName,
                             'isFavourite': False})
 
             except Parts.DoesNotExist:
                 part.append({
                     'id': request.GET.get('id'),
                     'BBa': item,
-                    'name': item,
+                    'name': pt.secondName,
                     'isFavourite': False})
         if request.user.is_authenticated:
             try:
@@ -372,7 +372,7 @@ def search_work(request):
                     pass
 
         keywords = result['keyWords']
-    
+
     context = {
         'works': works,
         'parts': parts,
@@ -522,7 +522,7 @@ def search_part(request):
                     pass
 
         keywords = result['keyWords']
-    
+
     context = {
         'works': works,
         'parts': parts,
