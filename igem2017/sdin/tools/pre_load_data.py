@@ -425,23 +425,31 @@ def load_Trelation(folderpath):
                 cnt += 1
                 if cnt == 2:
                     break
+            team_len = len(team[0])
             next(reader)
             next(reader)
             for row in reader:
                 try:
                     firname = row[1].strip() + "_" + row[0].strip()
-                    if "Example" in firname:
+                    if firname not in all_works:
                         continue
                     fir = all_works[firname]
-                    for i in range(3,len(team[0])):
+                    d = dict()
+                    for i in range(2, team_len):
                         secname = team[1][i].strip() + "_" + team[0][i].strip()
-                        if "Example" in secname:
+                        if secname not in all_works:
                             continue
+                        if firname == secname:
+                            continue
+                        d[i] = float(row[i])
+                    d = sorted(d.items(), key=lambda x: x[1])
+                    for i in range(2, 12):
+                        secname = team[1][d[i][0]].strip() + "_" + team[0][d[i][0]].strip()
                         sec = all_works[secname]
                         trelation.append(Trelation(
                             first = fir,
                             second = sec,
-                            score = float(row[i])
+                            score = d[i][1]
                         ))
                 except Exception as err:
                     errors += 1
