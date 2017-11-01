@@ -17,39 +17,21 @@
           <a href="/"><img id="logo" src="/static/img/logo-black.png"></a>
         </span>
         <span class="item">
-          <i id="undo-button" class="large undo link icon"></i>
-          <i id="redo-button" class="large repeat link icon"></i>
-          <i id="open-fav-win" class="large star link icon"></i>
-          <i id="upload-button" class="large folder open outline link icon"></i>
-          <i id="load-button" class="large user outline link icon"></i>
-          <i id="save-button" class="large save link icon"></i>
-          <i id="export-button" class="large external share link icon"></i>
+          <a id="undo-button"><img src="/static/img/design/undo.png"></img></a>
+          <a id="redo-button"><img src="/static/img/design/redo.png"></img></a>
+          <a id="open-fav-win"><img src="/static/img/design/favorite.png"></img></a>
+          <a id="load-button"><img src="/static/img/design/load.png"></img></a>
+          <a id="save-button"><img src="/static/img/design/save.png"></img></a>
+          <a id="export-button"><img src="/static/img/design/export.png"></img>
+          <a id="upload-button"><img src="/static/img/design/import.png"></img></a></a>
         </span>
         <span class="item">
-          <i id="drag-item" class="large mouse pointer link icon"></i>
-          <i id="drag-canvas" class="large hand paper link icon"></i>
-          <div id="connection-dropdown" class="ui dropdown">
-            <i id="connection-dropdown-button" class="large long right arrow link icon"></i>
-            <div class="menu">
-              <div class="item" data-value="promotion">
-                <i class="blue right arrow icon"></i>
-                Add a promotion
-              </div>
-              <div class="item" data-value="inhibition">
-                <i class="red rotated minus icon"></i>
-                Add a inhibition
-              </div>
-              <div class="ui divider"></div>
-              <div class="item" data-value="delete">
-                <i class="red remove icon"></i>
-                Delete a connection
-              </div>
-            </div>
-          </div>
+          <a id="drag-item"><img src="/static/img/design/pointer.png"></img></a>
+          <a id="drag-canvas"><img src="/static/img/design/move.png"></img></a>
         </span>
         <span class="item">
-          <i id="zoom-in" class="large zoom link icon"></i>
-          <i id="zoom-out" class="large zoom out link icon"></i>
+          <a id="zoom-in"><img src="/static/img/design/zoomin.png"></img></a>
+          <a id="zoom-out"><img src="/static/img/design/zoomout.png"></img></a>
           <div class="ui compact floating selection dropdown" id="ratio-dropdown">
             <i class="dropdown icon"></i>
             <div class="default text">Ratio</div>
@@ -57,7 +39,7 @@
         </span>
         <div class="right menu">
           <span class="item">
-            <h4 id="safety" class="ui green header">Low risk</h4>
+            <h4 id="safety" class="ui green header">Low risk<img src="/static/img/design/safety-1.png"></img></h4>
           </span>
         </div>
       </div>
@@ -196,10 +178,28 @@
 
     <!-- Toolbox -->
     <div id="toolbox">
-      <i id="add-part-button" class="inverted plus link icon"></i>
-      <i id="clear-all-button" class="inverted trash link icon"></i>
-      <i id="interactive-button" class="inverted external link icon"></i>
-      <i id="simulation-button" class="inverted superpowers link icon"></i>
+      <a id="add-part-button"><img src="/static/img/design/plus.png"></img></a>
+      <div id="connection-dropdown" class="ui dropdown">
+        <img id="connection-dropdown-button" src="/static/img/design/connection.png">
+        <div class="menu">
+          <div class="item" data-value="promotion">
+            <i class="blue right arrow icon"></i>
+            Add a promotion
+          </div>
+          <div class="item" data-value="inhibition">
+            <i class="red rotated minus icon"></i>
+            Add a inhibition
+          </div>
+          <div class="ui divider"></div>
+          <div class="item" data-value="delete">
+            <i class="red remove icon"></i>
+            Delete a connection
+          </div>
+        </div>
+      </div>
+      <a id="clear-all-button"><img src="/static/img/design/delete.png"></img></a>
+      <a id="interactive-button"><img src="/static/img/design/interact.png"></img></a>
+      <a id="simulation-button"><img src="/static/img/design/simulate.png"></img></a>
     </div>
 
     <!-- Creating new part modal -->

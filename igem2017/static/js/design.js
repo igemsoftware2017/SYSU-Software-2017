@@ -611,11 +611,11 @@ function selectMode(mode) {
         return;
     let button = modes[currentMode];
     button.trigger('deselect');
-    button.removeClass('blue');
+    button.removeClass('active');
     currentMode = mode;
     button = modes[mode];
+    button.addClass('active');
     button.trigger('select');
-    button.addClass('blue');
 }
 
 $('#drag-item')
@@ -895,11 +895,14 @@ function warning() {
 
 function updateSafety(safety) {
     if (safety <= 1) {
-        $('#safety').removeClass('red yellow').addClass('green').text('Low risk');
+        $('#safety').removeClass('red yellow').addClass('green')
+            .html(`Low risk<img src="/static/img/design/safety-1.png"></img>`);
     } else if (safety === 2) {
-        $('#safety').removeClass('red green').addClass('yellow').text('Moderate risk');
+        $('#safety').removeClass('red green').addClass('yellow')
+            .html(`Moderate risk<img src="/static/img/design/safety-2.png"></img>`);
     } else if (safety === 3) {
-        $('#safety').removeClass('yellow green').addClass('red').text('High risk');
+        $('#safety').removeClass('yellow green').addClass('red')
+            .html(`High risk<img src="/static/img/design/safety-3.png"></img>`);
     }
 
     if (safety === 3) {
