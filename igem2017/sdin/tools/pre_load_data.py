@@ -407,6 +407,85 @@ def load_TeamImg(folderpath):
     atomic_add(cache)
     print('Error: {0:6d}'.format(errors))
 
+def load_Trelation(folderpath):
+    print('Deleting all previous Team relationships...')
+    Trelation.objects.all().delete()
+    all_works = {str(p.Year)+"_"+p.Teamname: p for p in Works.objects.all()}
+    trelation = []
+    errors = 0
+    for root, dirs, files in os.walk(folderpath):
+        for name in files:
+            filepath = os.path.join(root, name)
+            reader = csv.reader(open(filepath, "r", encoding='utf-8'))
+            print('  Loading %s...' % filepath)
+            cnt = 0
+            team = []
+            for row in reader:
+                team.append(row)
+                cnt += 1
+                if cnt == 2:
+                    break
+            next(reader)
+            next(reader)
+            for row in reader:
+                try:
+                    firname = row[1].strip() + "_" + row[0].strip()
+                    if "Example" in firname:
+                        continue
+                    fir = all_works[firname]
+                    for i in range(3,len(team[0])):
+                        secname = team[1][i].strip() + "_" + team[0][i].strip()
+                        if "Example" in secname or float(row[i]) == 0:
+                            continue
+                        sec = all_works[secname]
+                        trelation.append(Trelation(
+                            first = fir,
+                            second = sec,
+                            score = float(row[i])
+                        ))
+                except Exception as err:
+                    errors += 1
+                    pass
+    print('Saving...')
+    atomic_save(trelation)
+    print('Error: {0:6d}'.format(errors))
+
+def load_Teamkeyword(folderpath):
+    print("Deleting all previous Team and keywords' relationships...")
+    TeamKeyword.objects.all().delete()
+    all_works = {str(p.Year)+"_"+p.Teamname: p for p in Works.objects.all()}
+    tk = []
+    errors = 0
+    for root, dirs, files in os.walk(folderpath):
+        for name in files:
+            filepath = os.path.join(root, name)
+            reader = csv.reader(open(filepath, "r", encoding='utf-8'))
+            print('  Loading %s...' % filepath)
+            for row in reader:
+                keyword = row
+                break
+            next(reader)
+            for row in reader:
+                try:
+                    firname = row[1].strip() + "_" + row[0].strip()
+                    if "Example" in firname:
+                        continue
+                    fir = all_works[firname]
+                    for i in range(3,len(keyword)):
+                        if float(row[i]) == 0:
+                            continue
+                        tk.append(TeamKeyword(
+                            Team = fir,
+                            keyword = keyword[i],
+                            score = float(row[i])
+                        ))
+                except Exception as err:
+                    errors += 1
+                    pass
+    print('Saving...')
+    atomic_save(tk)
+    print('Error: {0:6d}'.format(errors))
+
 #load papers data
 def load_papers(folderpath):
     errors = 0
@@ -844,6 +923,8 @@ def pre_load_data(currentpath, Imgpath):
     load_partsInteration(os.path.join(currentpath, 'partsinteract'))
     load_partsParameter(os.path.join(currentpath, 'partsParameter'))
     load_works(os.path.join(currentpath, 'works'))
+    load_Trelation(os.path.join(currentpath, 'TeamRelation'))
+    load_Teamkeyword(os.path.join(currentpath, 'TeamKeyword'))
     load_papers(os.path.join(currentpath, 'papers'))
     load_circuits(os.path.join(currentpath, 'works/circuits'), delete = True)
     load_circuits(os.path.join(currentpath, 'papers/circuits'), is_work = False)

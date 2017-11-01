@@ -99,6 +99,16 @@ class Papers(models.Model):
     def __str__(self):
         return "%s : %s" % str(self.DOI), self.Title
 
+class Trelation(models.Model):
+    first =  models.ForeignKey('Works', related_name = 'first_work', on_delete = models.CASCADE)
+    second = models.ForeignKey('Works', related_name = 'second_work', on_delete = models.CASCADE)
+    score = models.FloatField(default=0)
+
+class TeamKeyword(models.Model):
+    Team =  models.ForeignKey('Works', related_name = 'Teamwork', on_delete = models.CASCADE)
+    keyword = models.CharField(max_length = 100)
+    score = models.FloatField(default=0)
+
 class UserFavorite(models.Model):
     user = models.ForeignKey('User', on_delete = models.CASCADE)
     circuit = models.ForeignKey('Circuit', on_delete = models.CASCADE)
