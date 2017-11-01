@@ -791,19 +791,19 @@ def load_additional(path):
 
     gm = Keyword.objects.create(name = 'gold',
             description = val(1,1),
-            link = json.dumps(['static/img/picture/' + val(1,2)]),
+            link = json.dumps(['/static/img/picture/' + val(1,2)]),
             picture = val(1,3),
             _type = "medal")
 
     sm = Keyword.objects.create(name = 'silver',
             description = val(2,1),
-            link = json.dumps(['static/img/picture/' + val(2,2)]),
+            link = json.dumps(['/static/img/picture/' + val(2,2)]),
             picture = val(2,3),
             _type = "medal")
 
     bm = Keyword.objects.create(name = 'bronze',
             description = val(3,1),
-            link = json.dumps(['static/img/picture/' + val(3,2)]),
+            link = json.dumps(['/static/img/picture/' + val(3,2)]),
             picture = val(3,3),
             _type = "medal")
 
@@ -891,7 +891,7 @@ def load_additional(path):
         Keyword.objects.create(name = v(i, 0),
                 description = v(i, 1),
                 link = json.dumps(['http://' + v(i, 2)]),
-                picture = 'static/img/picture/' + v(i, 3),
+                picture = '/static/img/picture/' + v(i, 3),
                 related = json.dumps([v2(j, i) for j in range(1, 30)]),
                 yearRelation = json.dumps([{int(v3(0, j)): v3(i, j) for j in range(1, 9)}]),
                 medalRelation = json.dumps([{v3(19, j): v3(i + 19, j) for j in range(3, 7)}]),
@@ -906,7 +906,7 @@ def load_additional(path):
         Keyword.objects.create(name = str(int(v(i, 0))),
                 description = v(i, 1),
                 link = json.dumps(['http://' + v(i, 2)]),
-                picture = 'static/img/picture/' + v(i, 3),
+                picture = '/static/img/picture/' + v(i, 3),
                 related = json.dumps([v2(j, i) for j in range(1, 31)]),
                 trackRelation = json.dumps([{v3(j, 0): v3(j, i) for j in range(13, 29)}]),
                 medalRelation = json.dumps([{v3(j, 0): v3(j, i) for j in range(1, 5)}]),
