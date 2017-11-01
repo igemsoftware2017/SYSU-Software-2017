@@ -1,61 +1,78 @@
-<p align="center"><img src="bk.png"></p>
+<p align="center"><img src="logo.png"></p>
 
-<p align="center"><strong>Welcome ! </strong></p>
+<h1 align="center">SynBio is just a S-Din away!</h1>
+<h3 align="center">SYSU-Software</h3>
+</br>
 
 ## Introduction
 
-Welcome to S-Din! This is the most powerful Search Engine and Design Platform for your idea inspiration and design process in Synthetic Biology. 
+Welcome to S-Din! This is the most powerful **S**earch engine and **D**esign platform for **i**nspiration with **n**etwork analysis in Synthetic Biology ever. 
 
-* Search for previous projects, parts and papers in Synbio field and get inspired with the connection behind them dug by 2017 SYSU-Software. All the search results are powered by our algorithms(http://2017.igem.org/Team:SYSU-Software/Model) behind.
+S-Din (pronouced like /sdin/) your keyword to:
 
-* Design and integrate previous circuits and parts with the help of seamless feature of our S-Din. Relationship recommendation among the basic level of parts helps for the idea inspiration.
+- Search for projects, parts and papers in Synthetic biology
 
-* Simulation and plasmid generator make S-Din an academic software with reliable   lab validation. Want to save your time and resource before real experiments? Use S-Din in your final step!
+- Get inspired from infomations provided by our software. Don't worry, [our powerful algorithms](http://2017.igem.org/Team:SYSU-Software/Model) will provide you the best infomations, rapidly and accurately.
 
-SYNBIO IS JUST S-DIN AWAY! 
+- Design your circuits. With our design tool, you are enabled to integrate collected circuits and parts. Don't know what to add? Recommendation based on interaction prediction may give you a hand.
+
+- Finished your design? Simulate it in a single click! After simulation, plasmid generator may help in lab validation.
+
+SynBio is just a S-Din away! 
 
 ## Requirements
 
-Here list only the main dependencies. For a complete list, please see `tools/requirements.txt`
+S-Din requires a web browser and a single click: [http://sdin.sysusoftware.info](http://sdin.sysusoftware.info). S-Din it right now!
 
-* `Django` : Python web backend microframework
-* `mysqlclient`  : For django to connect to mysql  
-* `numpy`and `scipy` : ODE solver for the modeling part
-* `requests` : A Library for HTTP
-* `xlrd` : read excel documents
-* `pymysql` : mysql connector
+---
+
+To setup a server, follow this:
+
+* `Django` : Python web framework
+* `mysqlclient` and `pmysql` : connect Python to MySQL
+* `numpy`and `scipy` : for ODE algorithms in the modeling part
+* `requests` : making HTTP requests to get data from our algorithm server
+* `xlrd` : for reading excel tables
+
+Here list only the main dependencies. For a complete list, please see `tools/requirements.txt`
 
 ## Installation
 
-### prepare
+### Before installation
 
 To install S-Din, firstly, you should make sure the following requirements are satisfied:
 
-* `python 3.5` : This is required for running  the codes and you should make sure that it can be used by type in "python3" in command line.
+* `Python` >= 3.5 : 
 
-* `mysql 5.7` : This is required for storing data for our software.You can download from https://dev.mysql.com/downloads/mysql/ . And you should make sure that the character sets are set to be 'utf8'. Here are the ways to do that:
+    Run `python3 --version` in a command line to check it.
 
-  * **windows**
+* `MySQL` >= 5.7 :
 
-    Stop mysql service firstly
+    Installation differs from different operating systems. Follow your OS's official guide or [MySQL official website](https://dev.mysql.com/downloads/mysql/) to install it. Run `mysql --version` to check installation.
+    
+    Also make sure that character sets are set to UTF-8. You can follow these guide to set it:
+
+  * **Windows**
+
+    Stop MySQL service firstly
 
     ~~~powershell
-    cd <the root directory of your mysql>
+    cd <the root directory of your MySQL>
     create a file named "my.ini"
     ~~~
 
     Add the flowing codes in "my.ini":
 
-    ~~~powershell
+    ~~~ini
     [client]
     default-character-set=utf8
     ~~~
 
-    Then restart your mysql service
+    Then restart your MySQL service
 
   * **Linux**
 
-    Stop mysql service firstly
+    Stop MySQL service firstly
 
     ~~~shell
     vim /etc/my.cnf
@@ -63,7 +80,7 @@ To install S-Din, firstly, you should make sure the following requirements are s
 
     Add the flowing codes
 
-    ~~~shell
+    ~~~ini
     [client]
     default-character-set=utf8
     [mysqld] 
@@ -71,11 +88,11 @@ To install S-Din, firstly, you should make sure the following requirements are s
     character-set-server=utf8  
     collation-server=utf8_general_ci 
     ~~~
-    Then restart your mysql service
+    Then restart your MySQL service
 
-  * **Mac os**
+  * **macOS**
 
-    First, stop the mysql service
+    First, stop the MySQL service
 
     ~~~shell
     vim /private/etc/my.cnf
@@ -83,7 +100,7 @@ To install S-Din, firstly, you should make sure the following requirements are s
 
     Add the flowing codes
 
-    ~~~shell
+    ~~~ini
     [client]
     default-character-set=utf8
 
@@ -96,53 +113,33 @@ To install S-Din, firstly, you should make sure the following requirements are s
     character-set-server = utf8
     ~~~
 
-    Then restart your mysql service
+    Then restart your MySQL service
 
-### Start Installation
+### Installation
 
 * **Clone**
 
-  You can clone down the repository by:
+  Clone the repository:
 
   ~~~shell
   $ git clone https://github/com/igemsoftware2017/SYSU-Software-2017
   ~~~
 
-* **Setting mysql root account**
+* **Setting MySQL root account**
 
-  To install our software well, you should first configure the mysql root account at `SYSU-Software-2017/tools/config.json`
-
-  An example is provided:
+  To set up MySQL users used by S-Din, we need your MySQL root account. Modify `SYSU-Software-2017/tools/config.json` like:
 
   ~~~json
   {	
-    	"mysql_root_account": "root", 
-
-  	"mysql_root_password": "123456"
+      "mysql_root_account": "root", 
+      "mysql_root_password": "123456"
   }
   ~~~
 
 * **Install**
 
-  After finished the above steps , you can install S-Din by simple steps!
-
-  * **Windows**
-
-    Enter the SYSU-Software-2017, then click `Setup.bat`. Then you can go for a cup of tea waiting for it to be completed.After it completed, you can click `runserver.bat` to start server.
-
-  * **Linux/Mac os**
-
-    ~~~shell
-    cd SYSU-Software-2017
-    sh setup.sh
-    sh runserver.sh
-    ~~~
+    The main installation process is packed into scripts. Run `setup.sh` (`Setup.bat` for Windows) for installation. Since the powerful S-Din have enormous data, it may take several minutes to initialize the database. After a cup of coffee, just simply `runserver.sh` (`runserver.bat` for Windows) to launch the server. So easy!
 
 ## About
 
-Developed by SYSU-Software team. Base on MIT License.
-
-
-
-
-
+Proudly brought to you by SYSU-Software. Licensed under MIT License.
