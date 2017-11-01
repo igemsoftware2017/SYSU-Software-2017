@@ -917,6 +917,10 @@ function updateSafety(safety) {
     }
 }
 
+$('#show-plasmid').on('click', function() {
+    $('#plasmid-modal').modal('show');
+});
+
 $(window)
     .on('keydown', (event) => { if (event.ctrlKey === true) selectMode('dragCanvas'); })
     .on('keyup', () => { selectMode('modifyItem'); });
