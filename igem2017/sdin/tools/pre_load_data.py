@@ -938,7 +938,7 @@ def final():
                         Part = part,
                         Circuit = circuit,
                         X = (i * 100) % 800,
-                        Y = (i * 100) // 800)
+                        Y = ((i * 100) // 800) * 200)
             except:
                 pass
         work.Circuit = circuit

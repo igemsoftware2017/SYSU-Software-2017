@@ -127,10 +127,10 @@ def work(request):
 
         relatedTeams = Trelation.objects.filter(first = wk)
         relatedTeams = list(map(lambda rt: {
-            'teamName': rt.Teamname,
-            'projectName': rt.Title,
-            'year': rt.year,
-            'id': rt.id
+            'teamName': rt.second.Teamname,
+            'projectName': rt.second.Title,
+            'year': rt.second.Year,
+            'id': rt.second.id
         }, relatedTeams))
 
         keywords = TeamKeyword.objects.filter(Team = wk)
@@ -163,7 +163,6 @@ def work(request):
         return HttpResponse("Work Does Not Exist!")
 
 # TODO
-# search_url = 'http://6f24fb18.ngrok.io'
 search_url = 'http://sdin.sysusoftware.info:10086'
 import requests
 import json
