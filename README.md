@@ -28,14 +28,6 @@ S-Din requires a web browser and a single click: [http://sdin.sysusoftware.info]
 
 To setup a server, follow this:
 
-* `Django` : Python web framework
-* `mysqlclient` and `pmysql` : connect Python to MySQL
-* `numpy`and `scipy` : for ODE algorithms in the modeling part
-* `requests` : making HTTP requests to get data from our algorithm server
-* `xlrd` : for reading excel tables
-
-Here list only the main dependencies. For a complete list, please see `tools/requirements.txt`
-
 ## Installation
 
 ### Before installation
