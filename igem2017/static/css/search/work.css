@@ -46,8 +46,6 @@ div.line {
   margin-left: 1ex;
   margin-right: 2.5rem;
 }
-#result-list {
-}
 body {
   background-image: url("/static/img/search/back.jpg");
   background-size: cover;
@@ -61,14 +59,15 @@ body {
 }
 .ui.items>.item {
   padding: 1rem;
-  height: 10rem;
-  background: white;
+  min-height: 10rem;
+  background: rgba(255,255,255,0.7);
   position: relative;
+  transition: max-height 2s linear;
 }
 .ui.items>.item>.image {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   width: 10rem !important;
 }
 .ui.items>.item>.content {
@@ -81,11 +80,8 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  max-width: 25rem;
+  max-width: 27rem;
   margin-top: 0;
-}
-.ui.items>.item>.content>.ui.header:hover {
-  white-space: normal;
 }
 .ui.items>.item>.content>.ui.header>span.smaller {
   font-size: 1.25rem;
@@ -111,6 +107,17 @@ body {
 }
 .ui.items>.item>.content>.description {
   margin-top: 0;
+}
+.ui.items>.item>.content>.description>p {
+    position:relative;
+    overflow:hidden;
+}
+.ui.items>.item>.content>.description>p:after {
+    content:"...";
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding: 0 5px;
 }
 .ui.items>.item>.content>.ui.flowing.popup p, li {
   white-space: nowrap;

@@ -16,6 +16,7 @@
     {% include '../nav.html' %}
 
     {% include '../search-box.html' %}
+    <input type="text" id="search-word" value="{{ request.GET.q }}" hidden>
     <link rel="stylesheet" href="/static/css/search-box.css">
 
     <div id="result-container">

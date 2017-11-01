@@ -475,8 +475,8 @@ def load_paper_Copyright(folderpath):
     atomic_save(papers)
     print('Error: {0:6d}'.format(errors))
 
-def load_circuits(circuits_floder_path, is_work = True):
-    if is_work:
+def load_circuits(circuits_floder_path, is_work = True, delete = False):
+    if delete:
         Circuit.objects.all().delete()
         print("Delete all circuits")
 
@@ -834,6 +834,9 @@ def load_additional(path):
                 _type = "year")
 
 
+def final():
+    for i in Works.objects.filter(Year__lte = 2008):
+        i.delete()
 
 
 def pre_load_data(currentpath, Imgpath):
@@ -842,6 +845,8 @@ def pre_load_data(currentpath, Imgpath):
     load_partsParameter(os.path.join(currentpath, 'partsParameter'))
     load_works(os.path.join(currentpath, 'works'))
     load_papers(os.path.join(currentpath, 'papers'))
-    load_circuits(os.path.join(currentpath, 'works/circuits'))
+    load_circuits(os.path.join(currentpath, 'works/circuits'), delete = True)
     load_circuits(os.path.join(currentpath, 'papers/circuits'), is_work = False)
+    #load_circuits(os.path.join(currentpath, 'works/circuits2'))
     load_additional(os.path.join(currentpath, 'additional'))
+    final()

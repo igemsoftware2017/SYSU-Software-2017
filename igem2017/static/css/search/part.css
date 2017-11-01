@@ -19,9 +19,14 @@
 #search-type-menu > .active.item {
   border-color: #ffd405;
 }
-#result-container {
+#tool-container {
   margin-left: 10.5rem;
   margin-top: 1rem;
+  width: 44rem;
+}
+#result-container {
+  margin-left: 10.5rem;
+  padding-top: 0.5rem;
   width: 44rem;
   position: absolute;
 }
@@ -58,7 +63,7 @@ body {
 .ui.items>.item {
   padding: 1rem;
   height: 10rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.7);
   position: relative;
   font-size: 1rem;
 }
@@ -130,9 +135,65 @@ a {
 #tool {
   color: white;
 }
-#right-panel {
-  position: absolute;
+#right-panel-container {
+  margin-left: 55.5rem;
+  padding-top: 0.5rem;
+}
+.right-panel {
+  width: 26rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.right-panel>.header {
   background-color: white;
+  height: 2rem;
+  padding-left: 0.5em;
+  display: flex;
+  align-items: center;
+}
+.right-panel>.header>img {
+  height: 1.5em !important;
+  width: auto !important;
+  margin-right: 0.5em;
+}
+.right-panel>.header>.header {
+  font-size: 1em;
+  margin: 0;
+}
+.right-panel>.content {
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+.right-panel>.content>img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+.right-panel>.wiki-pic {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5em;
+}
+.right-panel>p, a {
+  margin-bottom: 0;
+}
+/* SVG of d3 */
+line {
+  stroke: #fff;
+  stroke-opacity: 0.6;
+}
+circle {
+  stroke: #fff;
+  cursor: pointer;
+}
+circle:hover {
+  stroke-width: 1.5px;
+}
+text {
+  paint-order: stroke;
+  stroke-width: 3px;
+  fill: white;
 }
 .no-result {
   color: white;
