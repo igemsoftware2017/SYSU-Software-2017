@@ -53,7 +53,7 @@ body {
   color: #333333;
 }
 #detail-container>.title>a>.year {
-  margin-left: 1rex;
+  margin-left: 1ex;
   font-weight: 300;
 }
 #detail-container>.reads {
