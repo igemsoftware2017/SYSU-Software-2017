@@ -8,7 +8,7 @@
 
 Welcome to S-Din! This is the most powerful **S**earch engine and **D**esign platform for **i**nspiration with **n**etwork analysis in Synthetic Biology ever. 
 
-S-Din (pronouced like /sdin/) your keyword to:
+S-Din (/sdin/, verb) your keyword to:
 
 - Search for projects, parts and papers in Synthetic biology
 
@@ -50,80 +50,13 @@ To install S-Din, firstly, you should make sure the following requirements are s
 
     Installation differs from different operating systems. Follow your OS's official guide or [MySQL official website](https://dev.mysql.com/downloads/mysql/) to install it. Run `mysql --version` to check installation.
     
-    Also make sure that character sets are set to UTF-8. You can follow these guide to set it:
-
-  * **Windows**
-
-    Stop MySQL service firstly
-
-    ~~~powershell
-    cd <the root directory of your MySQL>
-    create a file named "my.ini"
-    ~~~
-
-    Add the flowing codes in "my.ini":
-
-    ~~~ini
-    [client]
-    default-character-set=utf8
-    ~~~
-
-    Then restart your MySQL service
-
-  * **Linux**
-
-    Stop MySQL service firstly
-
-    ~~~shell
-    vim /etc/my.cnf
-    ~~~
-
-    Add the flowing codes
-
-    ~~~ini
-    [client]
-    default-character-set=utf8
-    [mysqld] 
-    default-storage-engine=INNODB  
-    character-set-server=utf8  
-    collation-server=utf8_general_ci 
-    ~~~
-    Then restart your MySQL service
-
-  * **macOS**
-
-    First, stop the MySQL service
-
-    ~~~shell
-    vim /private/etc/my.cnf
-    ~~~
-
-    Add the flowing codes
-
-    ~~~ini
-    [client]
-    default-character-set=utf8
-
-    [mysql]
-    default-character-set=utf8
-
-    [mysqld]
-    collation-server = utf8_unicode_ci
-    init-connect='SET NAMES utf8'
-    character-set-server = utf8
-    ~~~
-
-    Then restart your MySQL service
+    Also make sure that character sets are set to UTF-8. You can follow [our guide](https://github.com/StrickerLee/SYSU-Software-2017/wiki/Set-MySQL's-character-set-to-UTF-8) to set it.
 
 ### Installation
 
 * **Clone**
 
-  Clone the repository:
-
-  ~~~shell
-  $ git clone https://github/com/igemsoftware2017/SYSU-Software-2017
-  ~~~
+  Clone the repository like `git clone https://github.com/igemsoftware2017/SYSU-Software-2017`
 
 * **Setting MySQL root account**
 
