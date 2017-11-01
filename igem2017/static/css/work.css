@@ -77,24 +77,20 @@ body {
   font-family: Source Serif Pro;
 }
 #detail-container>.images {
-  height: 4rem;
+  height: 5rem;
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 1rem;
   display: flex;
+  overflow-x: auto;
 }
-#detail-container>.images>.image {
+#detail-container>.images img {
   max-width: 5.3rem;
   height: 4rem;
   margin-right: 1.5rem;
-  display: inline-block;
 }
-#detail-container>.images>.image:last-child {
+#detail-container>.images>img:last-child {
   margin-right: 0;
-}
-#detail-container>.images>.image>img {
-  max-width: 100%;
-  height: 100%;
 }
 #part-container {
   height: 17rem;
