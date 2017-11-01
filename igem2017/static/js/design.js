@@ -913,9 +913,23 @@ $('#simulation-button')
                 },
                 options: {
                     scales: {
+                        xAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                callback: (v) => v.toFixed(1)
+                            },
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'time (h)'
+                            }
+                        }],
                         yAxes: [{
                             ticks: {
                                 beginAtZero:true
+                            },
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'concentration (μM)'
                             }
                         }]
                     }
