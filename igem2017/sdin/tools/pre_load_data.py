@@ -799,20 +799,20 @@ def load_additional(path):
 
     gm = Keyword.objects.create(name = 'gold',
             description = val(1,1),
-            link = json.dumps(['/static/img/picture/' + val(1,2)]),
-            picture = val(1,3),
+            link = json.dumps(['http://' + val(1,2)]),
+            picture = '/static/img/picture/' + val(1,3),
             _type = "medal")
 
     sm = Keyword.objects.create(name = 'silver',
             description = val(2,1),
-            link = json.dumps(['/static/img/picture/' + val(2,2)]),
-            picture = val(2,3),
+            link = json.dumps(['http://' + val(2,2)]),
+            picture = '/static/img/picture/' + val(2,3),
             _type = "medal")
 
     bm = Keyword.objects.create(name = 'bronze',
             description = val(3,1),
-            link = json.dumps(['/static/img/picture/' + val(3,2)]),
-            picture = val(3,3),
+            link = json.dumps(['http://' + val(3,2)]),
+            picture = '/static/img/picture/' + val(3,3),
             _type = "medal")
 
     net = medalXls[1]
