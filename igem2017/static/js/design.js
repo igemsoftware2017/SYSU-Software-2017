@@ -1,7 +1,7 @@
 'use strict';
 
 /* eslint-disable no-console */
-/* global SDinDesign */
+/* global SDinDesign, Chart, html2canvas */
 
 let designId = $('#canvas-box').attr('design-id');
 let design;
@@ -40,7 +40,7 @@ $('#save-circuit').on('click', () => {
         id: design._id,
         name: $('#circuit-name').val(),
         description: $('#circuit-description').val()
-    }
+    };
     postData = {
         data: JSON.stringify(postData),
         csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
@@ -444,7 +444,7 @@ $('#fav-win-button').on('click', function() {
     $('#fav-win').fadeOut({
         duration: 200
     });
-}).popup({ content: 'Close collection window.' });;
+}).popup({ content: 'Close collection window.' });
 $('#open-fav-win').on('click', () => {
     $('#fav-win').fadeToggle({
         duration: 200
@@ -579,7 +579,7 @@ function createPngDownload(fileName, canvas) {
 $('#export-button').on('click', () => {
     let filename;
     if (design.name === undefined || design.name === '')
-        filename = 'unnamed_design.json'
+        filename = 'unnamed_design.json';
     else
         filename = `${design.name}.json`;
     createJsonDownload(filename, design.design);
@@ -595,10 +595,11 @@ $('#image-button').on('click', function() {
     });
 });
 
-let currentMode = 'modifyItem';
+let currentMode;
 const modes = {
     modifyItem: $('#drag-item'),
     dragCanvas: $('#drag-canvas'),
+    deleteItem: $('#delete-item'),
     addConnection: $('#connection-dropdown-button'),
     chooseInteractive: $('#interactive-button')
 };
@@ -610,8 +611,10 @@ function selectMode(mode) {
     if (currentMode === mode)
         return;
     let button = modes[currentMode];
-    button.trigger('deselect');
-    button.removeClass('active');
+    if (button !== undefined) {
+        button.trigger('deselect');
+        button.removeClass('active');
+    }
     currentMode = mode;
     button = modes[mode];
     button.addClass('active');
@@ -826,6 +829,47 @@ $('#interactive-button')
         content: 'Check predicted interactions of parts.'
     });
 
+let tmp;
+
+$('#delete-item')
+    .on('click', () => { selectMode('deleteItem'); })
+    .on('select', () => {
+        design.unHighlightDevice($('.SDinDesign-device, .SDinDesign-part'));
+        $('.SDinDesign-device').off('click');
+        $('.SDinDesign-part')
+            .off('mouseenter')
+            .on('mouseenter', function() {
+                design.highlightDevice($(this), 0.4);
+            })
+            .off('mouseleave')
+            .on('mouseleave', function() {
+                design.unHighlightDevice($(this));
+            })
+            .off('click')
+            .on('click', function() {
+                let data = design.getData(this);
+                console.log(data);
+                if (data.part !== undefined)
+                    design.deletePart(data.device, data.part);
+            });
+    })
+    .on('deselect', () => {
+        $('.SDinDesign-device, #canvas>.SDinDesign-part')
+            .off('click')
+            .on('click', function() {
+                SDinDesign.preventClickOnDrag(design, $(this));
+            });
+        $('.SDinDesign-device>.SDinDesign-part')
+            .off('mouseenter')
+            .off('mouseleave')
+            .off('click');
+        design.unHighlightDevice($('.SDinDesign-part, .SDinDesign-device'));
+    })
+    .popup({
+        variation: 'flowing popup',
+        content: 'Delete a part.'
+    });
+
 $('#clear-all-button')
     .on('click', () => { $('#clear-all-modal').modal('show'); })
     .popup({ content: 'CLEAR THE CANVAS!' });
@@ -889,27 +933,23 @@ $('#safety').popup({
     onShow: function() { console.log(safetyPopupContent); this.html(safetyPopupContent); }
 });
 
-function warning() {
-    $('#safety').popup('show');
-}
-
 function updateSafety(safety) {
     if (safety <= 1) {
         $('#safety').removeClass('red yellow').addClass('green')
-            .html(`Low risk<img src="/static/img/design/safety-1.png"></img>`);
+            .html('Low risk<img src="/static/img/design/safety-1.png"></img>');
     } else if (safety === 2) {
         $('#safety').removeClass('red green').addClass('yellow')
-            .html(`Moderate risk<img src="/static/img/design/safety-2.png"></img>`);
+            .html('Moderate risk<img src="/static/img/design/safety-2.png"></img>');
     } else if (safety === 3) {
         $('#safety').removeClass('yellow green').addClass('red')
-            .html(`High risk<img src="/static/img/design/safety-3.png"></img>`);
+            .html('High risk<img src="/static/img/design/safety-3.png"></img>');
     }
 
     if (safety === 3) {
         safetyPopupContent = `
             <div class="header">Warning!</div>
             <div class="content">Please check your design again in case of
-                using any potential risky part! We don\'t recommend you to
+                using any potential risky part! We don't recommend you to
                 use parts with high risk ground. Change them into safe parts?</div>`;
         $('#safety').popup('show');
     } else {
@@ -927,3 +967,6 @@ $('#show-plasmid').on('click', function() {
 $(window)
     .on('keydown', (event) => { if (event.ctrlKey === true) selectMode('dragCanvas'); })
     .on('keyup', () => { selectMode('modifyItem'); });
+
+selectMode('modifyItem');
+updateSafety();
