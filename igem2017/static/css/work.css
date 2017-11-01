@@ -22,7 +22,7 @@ body {
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   padding-bottom: 1rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   width: 50rem;
   position: relative;
 }
@@ -98,7 +98,7 @@ body {
 }
 #part-container {
   height: 17rem;
-  background-color: #f8f8f8;
+  background-color: rgba(248, 248, 248, 0.7);
   position: relative;
 }
 #part-container>.part-canvas {
@@ -154,7 +154,7 @@ body {
 .right-panel-container {
 }
 .right-panel {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 1rem;
   width: 17rem;
   font-size: 1rem;
@@ -189,6 +189,9 @@ body {
 div.ui.page.dimmer img {
   max-width: 90vw;
   max-height: 90vh;
+}
+div.ui.page.dimmer .content {
+  margin: 0;
 }
 .star.icon {
   cursor: pointer;

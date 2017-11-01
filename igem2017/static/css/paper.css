@@ -21,7 +21,8 @@ body {
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   padding-bottom: 1rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
+  filter: blur(radius: 0.5px, 0.7);
   width: 50rem;
 }
 #detail-container>.back-icon {
@@ -90,7 +91,7 @@ body {
 }
 #part-container {
   height: 17rem;
-  background-color: #f8f8f8;
+  background-color: rgba(248, 248, 248, 0.8);
   position: relative;
 }
 #part-container>.part-canvas {
@@ -146,7 +147,7 @@ body {
 }
 #right-panel {
   position: absolute;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 1rem;
   width: 17rem;
   margin-left: 61.5rem;
