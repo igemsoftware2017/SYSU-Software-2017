@@ -8,6 +8,9 @@ igem2017/static/js/d3.min.js linguist-vendored
 igem2017/static/js/html2canvas.min.js linguist-vendored
 igem2017/static/js/html2canvas.svg.min.js linguist-vendored
 igem2017/static/js/jquery-ui/* linguist-vendored
+igem2017/static/js/plasmid/angular.min.js linguist-vendored
+igem2017/static/js/plasmid/angularplasmid.min.js linguist-vendored
+igem2017/static/js/plasmid/angularplasmid.complete.min.js linguist-vendored
 
 # Treat import data as vendored
 igem2017/sdin/tools/preload/* linguist-vendored

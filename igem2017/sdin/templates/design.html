@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Design - S-Din</title>
+    <link rel="shortcut icon" href="/static/img/favicon.png">
     <link rel="stylesheet" href="/static/css/fontsize.css">
     <link rel="stylesheet" href="/static/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="/static/css/design.css">
@@ -270,7 +271,8 @@
         </div>
       </div>
       <div class="actions">
-        <div class="ui one bottom attached big buttons">
+        <div class="ui two bottom attached big buttons">
+          <div id="show-plasmid" class="ui white button">Generate plasmid</div>
           <div id="add-new-part" class="ui blue cancel button">Confirm simulation result</div>
         </div>
       </div>
@@ -327,7 +329,76 @@
       </div>
     </div>
 
-    {% include "login-modal.html" %}
+    <!-- Plasmid modal -->
+    <!--   from 2015 SYSU-Software C.O.R.E. -->
+    <div id="plasmid-modal" class="ui tiny modal">
+      <div ng-app="myApp" ng-controller="PlasmidCtrl">
+        <div class="content">
+          <div class="plasmid-container">
+            <plasmidapi name="api"></plasmidapi>
+            <plasmid id="pdemo" sequencelength="{[currentPlasmid.length]}" plasmidheight="420" plasmidwidth="500">
+            <plasmidtrack trackstyle="fill:rgba(225,225,225,0.5)" radius="120">
+            <tracklabel text="{[currentPlasmid.name]}" labelstyle='font-size:20px;font-weight:400'></tracklabel>
+            <tracklabel text="{[api.plasmid('pdemo').sequencelength]} bp" labelstyle='font-size:10px' vadjust="20"></tracklabel>
+
+            <!-- draw the plasmid bone markers and labels -->
+            <trackmarker ng-repeat="m in currentPlasmid.marker" start="{[m.start]}" end="{[m.end]}" arrowendlength="4" arrowstartlength="-4" markerstyle="{[m.markerStyleIn]}">
+            <markerlabel type="path" class="mdlabel" text="{[m.name]}" vadjust='{[m.vadjust]}' valign="{[m.valign]}" showline="1" linevadjust="-5" lineclass="labelline" style='font-size:17px'></markerlabel>
+            </trackmarker>
+
+            <!-- draw the marker regions -->
+            <trackmarker ng-repeat="m in currentPlasmid.marker" start="{[m.start]}" end="{[m.end]}" markerstyle="{[m.markerStyleOut]}" wadjust="-5" vadjust="25"></trackmarker>
+            <trackscale interval="100" style='stroke:#999' ticksize="3"></trackscale>
+            </plasmidtrack>
+
+            <plasmidtrack trackstyle="fill:rgba(225,225,225,0.5)" radius="110" width="10">
+            <trackmarker ng-repeat="m in partList" start="{[m.start]}" end="{[m.end]}" markerstyle="{[m.getStyleIn()]}" sequence="{[m.sequence]}" ng-mouseover="showSequence(m)" ng-mouseleave="hideSequence()">
+            <markerlabel class="mdlabel" text="{[m.name]}" type="path" style='font-size:13px'></markerlabel>
+            <trackmarker ng-repeat="m in partList" start="{[m.start]}" end="{[m.end]}" markerstyle="{[m.getMarkerStyleOut()]}" wadjust="-5" vadjust="-5"></trackmarker>
+            </trackmarker>
+            <trackscale interval="200" style="stroke:#f00" direction="in" showlabels="1" labelstyle="fill:#999;stroke:none;text-anchor:middle;alignment-baseline:middle;font-size:10px"></trackscale>
+            </plasmidtrack>
+            </plasmid>
+            <div class="p" ng-hide="myHide" ng-model="myValue">
+              {[myValue]}
+            </div>
+          </div>
+
+          <div class="plasmid-edit">
+            <form class="ui form">
+              <div class="field">
+                <select class="ui dropdown" ng-model="curPlaIndex" ng-options="plasmids.indexOf(a) as a.name for a in plasmids">
+                  <option value="">Choose a plasmid</option>
+                </select>
+              </div>
+              <div class="field">
+                <select class="ui dropdown" ng-model="curPartType" ng-options="x for x in partType">
+                  <option value="">Choose a part type </option>
+                </select>
+              </div>
+              <div class="field">
+                <input placeholder="Part name" id="plasmid-part-name" type="text" ng-model="curPartName">
+              </div>
+              <div class="field">
+                <input placeholder="Part begin" id="plasmid-part-begin" type="text" ng-model="currentPartBegin">
+              </div>
+              <div class="field">
+                <input placeholder="Part end" id="plasmid-part-end" type="text" ng-model="curPartEnd">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="actions">
+          <div class="ui three bottom attached big buttons">
+            <div class="ui white button" ng-click="addNewPart()">ADD</div>
+            <div class="ui white button" ng-click="goBack()">BACK</div>
+            <div class="ui white button" ng-click="clearAllPart()">RESET</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        {% include "login-modal.html" %}
   </body>
   <script src="/static/js/jquery.min.js"></script>
   <script src="/static/js/jquery-ui/jquery-ui.min.js"></script>
@@ -339,6 +410,9 @@
   <script src="/static/js/html2canvas.min.js"></script>
   <script src="/static/js/html2canvas.svg.min.js"></script>
   <script src="/static/js/Chart.min.js"></script>
+  <script src="/static/js/plasmid/angular.min.js"></script>
+  <script src="/static/js/plasmid/angularplasmid.min.js"></script>
+  <script src="/static/js/plasmid.js"></script>
   <script src="/static/js/canvas.js"></script>
   <script src="/static/js/design.js"></script>
   <script src="/static/js/login.js"></script>

@@ -1,5 +1,5 @@
 #logo {
-  height: 2rem;
+  height: 1.75rem;
 }
 .window {
   position: absolute;
@@ -209,11 +209,11 @@ div.part-helper>div.ui.image>img {
 .modal:not(.basic) {
   border-radius: 1em;
 }
-.modal:not(.basic)>.header, .modal:not(.basic)>.content, .modal:not(.basic)>.actions{
+.modal:not(.basic) .header, .modal:not(.basic) .content, .modal:not(.basic) .actions{
   border: 0 !important;
   background-color: #44afe4 !important;
 }
-.modal:not(.basic)>.content:nth-child(2) {
+.modal:not(.basic) .content:nth-child(2) {
   padding-top: 0;
 }
 .ui.bottom.attached.big.buttons {
@@ -222,6 +222,12 @@ div.part-helper>div.ui.image>img {
 .ui.white.button {
   background-color: white;
   color: #444;
+}
+.ui.white.button:hover {
+  background-color: #eeeeee;
+}
+.ui.white.button:active {
+  background-color: #dddddd;
 }
 .modal:not(.basic)>.actions{
   padding: 0;
@@ -236,4 +242,16 @@ div.part-helper>div.ui.image>img {
   background-color: white;
   padding: 1em;
   border-radius: 5px;
+}
+.plasmid-container {
+  background-color: white;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2em;
+  text-align: center;
+}
+.plasmid-edit {
+  padding: 1rem;
+}
+.plasmid-edit>form {
+  margin-bottom: 0;
 }

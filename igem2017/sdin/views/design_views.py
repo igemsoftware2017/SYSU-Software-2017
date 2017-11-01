@@ -518,3 +518,7 @@ def max_safety(request):
         return JsonResponse({
             'status': 0
         })
+
+def plasmid_data(request):
+    with open('sdin/tools/plasmidData.json') as f:
+        return JsonResponse({ 'data': json.load(f) })
