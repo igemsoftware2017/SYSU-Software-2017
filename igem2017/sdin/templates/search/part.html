@@ -59,7 +59,7 @@
               </div>
             </div>
             <div class="content">
-              <a class="ui header" href="/part?id={{ part.id }}">{{ part.name }}</a>
+              <a class="ui header" target="igem-part" href="http://parts.igem.org/Part:{{ part.name }}">{{ part.name }}</a>
               <div class="meta">{{ part.group }}{% if part.partResult and part.partResult != 'None' %} {{ part.partResult }}{% endif %}</div>
               <div class="medal">
                 {{ part.rating }} Registry Star
