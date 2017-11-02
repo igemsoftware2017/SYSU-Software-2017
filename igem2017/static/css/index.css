@@ -4,6 +4,11 @@
 #search-box-container {
   margin-top: 12em !important;
 }
+#no-idea {
+  color: #efed63;
+  margin-left: 10.7em;
+  cursor: pointer;
+}
 body {
   background-image: url("/static/img/index/back.jpg");
   background-size: cover;
@@ -61,7 +66,7 @@ div.footer > div.right.menu img {
   height: 4rem;
   position: absolute;
   animation-name: meteor-right, meteor-top;
-  animation-duration: 5s;
+  animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(0.47, 0, 0.75, 0.72);
 }

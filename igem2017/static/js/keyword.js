@@ -4,6 +4,11 @@
 
 // from https://bl.ocks.org/mbostock/4062045
 
+$('svg').attr({
+    width: $('#keyword-modal').width(),
+    height: $('#keyword-modal').height()
+});
+
 let svg = d3.select('svg'),
     width = +svg.attr('width'),
     height = +svg.attr('height');
@@ -20,10 +25,11 @@ let graph = {
     links: []
 };
 
-function process(data, groupId) {
+function process(data, groupId, depth) {
     graph.nodes.push({
         id: data.name,
-        group: groupId
+        group: groupId,
+        depth: depth
     });
     if (data.children === undefined)
         return;
@@ -31,16 +37,16 @@ function process(data, groupId) {
         graph.links.push({
             source: data.name,
             target: c.name,
-            value: 1
+            value: 9
         });
-        process(c, groupId + 1);
+        process(c, groupId + 1, depth + 1);
     });
 }
 
 d3.json('/keywords', function(error, data) {
     if (error) throw error;
 
-    process(data, 1);
+    process(data, 1, 0);
 
     let link = svg.append('g')
         .attr('class', 'links')
@@ -54,7 +60,7 @@ d3.json('/keywords', function(error, data) {
         .selectAll('circle')
         .data(graph.nodes)
         .enter().append('circle')
-        .attr('r', 5)
+        .attr('r', (d) => (20 - 3 * d.depth))
         .attr('fill', function(d) { return color(d.group); })
         .call(d3.drag()
             .on('start', dragstarted)

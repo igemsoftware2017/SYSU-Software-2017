@@ -13,3 +13,6 @@ $('#search-edit')
         });
     });
 
+$('#no-idea').on('click', () => {
+    $('#keyword-modal').modal('show');
+})
