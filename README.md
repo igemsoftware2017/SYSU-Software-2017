@@ -65,7 +65,7 @@ To install S-Din, firstly, you should make sure the following requirements are s
 
     The main installation process is packed into scripts. Run `setup.sh` (`Setup.bat` for Windows) for installation. Since the powerful S-Din have enormous data, it may take several minutes to initialize the database. After a cup of coffee, just simply `runserver.sh` (`runserver.bat` for Windows) to launch the server. So easy!
     
-### Dependency
+### Used library
 #### Backend
 - Python 3: https://www.python.org/
 - Django: https://www.djangoproject.com/
