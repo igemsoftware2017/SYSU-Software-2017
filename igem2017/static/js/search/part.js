@@ -19,7 +19,7 @@ $('.star.icon').on('click', function() {
     $.post('/api/part_favorite', postData, (data) => {
         console.log(data);
         $(this).removeClass('loading');
-        if (data.success === false)
+        if (data.success === undefined || data.success === false)
             return;
         $(this).removeClass('empty').addClass((newVal === 1) ? '' : 'empty');
     });

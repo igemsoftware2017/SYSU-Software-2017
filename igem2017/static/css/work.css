@@ -32,6 +32,7 @@ body {
   left: 1.8rem;
   color: #6b6969;
   line-height: 3rem;
+  font-size: 1rem;
   vertical-align: middle;
 }
 #detail-container>.back {
