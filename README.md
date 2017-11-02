@@ -64,6 +64,34 @@ To install S-Din, firstly, you should make sure the following requirements are s
 * **Install**
 
     The main installation process is packed into scripts. Run `setup.sh` (`Setup.bat` for Windows) for installation. Since the powerful S-Din have enormous data, it may take several minutes to initialize the database. After a cup of coffee, just simply `runserver.sh` (`runserver.bat` for Windows) to launch the server. So easy!
+    
+### Dependency
+#### Backend
+- Python 3: https://www.python.org/
+- Django: https://www.djangoproject.com/
+- xlrd: https://github.com/python-excel/xlrd
+- Requests: http://docs.python-requests.org/en/master/
+- MySQL: https://www.mysql.com/cn/
+- mysqlclient-python: https://github.com/PyMySQL/mysqlclient-python
+- PyMySQL: https://pypi.python.org/pypi/PyMySQL
+
+#### Algorithm
+- NumPy: http://www.numpy.org/
+- SciPy: https://www.scipy.org/
+- gensim: https://radimrehurek.com/gensim/
+- scikit-learn: http://scikit-learn.org/stable/
+
+#### Frontend
+- Semantic UI: https://semantic-ui.com/
+- jQuery: https://jquery.com/
+- jQuery UI: http://jqueryui.com/
+- jQuery Mousewheel: https://github.com/jquery/jquery-mousewheel
+- jsPlumb: https://jsplumbtoolkit.com/
+- Chart.js: http://www.chartjs.org/
+- D3.js: https://d3js.org/
+- AngularJS: https://angularjs.org/
+- Angular Plasmid: http://angularplasmid.vixis.com/
+- html2canvas: https://html2canvas.hertzen.com/
 
 ## About
 
