@@ -47,7 +47,7 @@
           <div class="item">
             <div class="image" style="background-image: url('{{ paper.logo }}')"></div>
             <div class="content">
-              <a class="ui header" href="/paper?id={{ paper.id }}">{{ paper.title }}</a>
+              <a class="ui header" target="paper-{{ paper.id }}" href="/paper?id={{ paper.id }}">{{ paper.title }}</a>
               <div class="meta">{{ paper.author }}</div>
               <div class="description">
                 <p>{{ paper.abstract }}</p>

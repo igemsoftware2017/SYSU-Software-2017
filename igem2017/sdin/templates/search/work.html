@@ -88,7 +88,7 @@
           <div class="link item">
             <div class="image" style="background-image: url('{{ work.logo }}')"></div>
             <div class="content">
-              <a class="ui header" href="/work?id={{ work.id }}">{{ work.projectName }}</a>
+              <a class="ui header" target="work-{{ work.id }}" href="/work?id={{ work.id }}">{{ work.projectName }}</a>
               <img class="medal" src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
               <div class="meta">{{ work.year }} {{ work.school }}</div>
               {% if not work.chassis %}
