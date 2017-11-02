@@ -89,17 +89,18 @@ def work(request):
                 if request.user.is_authenticated:
                     try:
                         FavoriteParts.objects.get(user = request.user, part = pt)
-                        part.append({
-                            'id': pt.id,
-                            'BBa': item,
-                            'name': pt.secondName,
-                            'isFavourite': True})
+                        favor = True
                     except FavoriteParts.DoesNotExist:
-                        part.append({
-                            'id': pt.id,
-                            'BBa': item,
-                            'name': pt.secondName,
-                            'isFavourite': False})
+                        favor = False
+                else:
+                    favor = False
+
+                part.append({
+                    'id': pt.id,
+                    'BBa': item,
+                    'name': pt.secondName,
+                    'isFavourite': favor})
+
 
             except Parts.DoesNotExist:
                 part.append({
@@ -162,12 +163,11 @@ def work(request):
     except Works.DoesNotExist:
         return HttpResponse("Work Does Not Exist!")
 
-# TODO
 search_url = 'http://sdin.sysusoftware.info:10086'
 import requests
 import json
 
-uglyTable = {
+trackTable = {
     'artDesign': 'Art & Design',
     'diagnostics': 'Diagnostics',
     'energy': 'Energy',
@@ -262,9 +262,8 @@ def search_work(request):
     if track == None:
         track = 'any'
     if track != 'any':
-        track = uglyTable[track]
+        track = trackTable[track]
 
-    # TODO For test, ugly, will be changed later
     keys = key.split()
     true_keys = []
 
@@ -413,9 +412,8 @@ def search_part(request):
     if track == None:
         track = 'any'
     if track != 'any':
-        track = uglyTable[track]
+        track = trackTable[track]
 
-    # TODO For test, ugly, will be changed later
     keys = key.split()
     true_keys = []
 
