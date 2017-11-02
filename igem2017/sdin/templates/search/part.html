@@ -64,6 +64,9 @@
               <div class="medal">
                 {{ part.rating }} Registry Star
               </div>
+              <div class="collect">
+                <i bba="{{ part.id }}" class="{% if not part.isFavorite %}empty {% endif %}star icon"></i>
+              </div>
               <div class="description">
                 <p>{{ part.description }}</p>
               </div>

@@ -246,6 +246,7 @@ def _get_part(p, request):
         'use': p.Use,
         'partResult': p.Part_results,
         'safety': safety_level(p.Safety),
+        'isFavorite': favourite
     }
 
 def search_work(request):

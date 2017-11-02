@@ -6,13 +6,24 @@ $('#right-panel').css({
 
 });
 
-$('.star.icon')
-    .on('click', function() {
-        if ($(this).hasClass('empty'))
-            $(this).removeClass('empty');
-        else
-            $(this).removeClass('star icon').addClass('empty star icon');
+$('.star.icon').on('click', function() {
+    let newVal = $(this).hasClass('empty') ? 1 : 0;
+    $(this).addClass('loading');
+    let postData = {
+        data: JSON.stringify({
+            part_id: $(this).attr('bba'),
+            tag: newVal
+        }),
+        csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val()
+    };
+    $.post('/api/part_favorite', postData, (data) => {
+        console.log(data);
+        $(this).removeClass('loading');
+        if (data.success === false)
+            return;
+        $(this).removeClass('empty').addClass((newVal === 1) ? '' : 'empty');
     });
+});
 
 $('.labels>.label')
     .on('click', function() {
