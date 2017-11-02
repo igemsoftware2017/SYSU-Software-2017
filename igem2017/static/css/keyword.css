@@ -1,24 +1,13 @@
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  cursor: pointer;
+}
 #keyword-modal {
   background-color: black !important;
-}
-.node, .node--leaf {
-  cursor: pointer;
-  fill: url(#exampleGradient);
-}
-
-.node:hover {
-  stroke: #000;
-  stroke-width: 1.5px;
-}
-
-.label {
-  font: 1.25rem 'Source Hans Pro';
-  fill: #fff;
-  text-anchor: middle;
-}
-
-.label,
-.node--root,
-.node--leaf {
-  pointer-events: none;
 }
