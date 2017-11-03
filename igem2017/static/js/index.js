@@ -16,3 +16,5 @@ $('#search-edit')
 $('#no-idea').on('click', () => {
     $('#keyword-modal').modal('show');
 })
+
+$('#keyword-modal>.content').on('click', () => { $('#keyword-modal').modal('hide'); });

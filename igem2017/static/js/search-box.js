@@ -1,7 +1,9 @@
 'use strict';
 
-$('#search-box').css({
-    height: $('#logo').height()
+$('#logo').load(() => {
+	$('#search-box').css({
+    	height: $('#logo').height()
+	});
 });
 
 function realSearch(q, type) {
@@ -16,3 +18,4 @@ $(window)
         if (event.key === 'Enter')
             search($('#search-edit').val());
     });
+
