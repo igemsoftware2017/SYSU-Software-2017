@@ -377,7 +377,7 @@ def circuit(request):
             new = data['circuit']['id'] == -1
             try:
                 circuit = Circuit.objects.get(pk = data['circuit']['id'])
-                if circuit.Author != request.user:
+                if (not request.user.admin) and circuit.Author != request.user:
                     new = True
             except:
                 new = True
