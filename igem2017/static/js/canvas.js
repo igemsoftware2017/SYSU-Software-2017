@@ -635,6 +635,7 @@ class SDinDesign {
         let maxCid = Math.max.apply(this, parts.map((p) => p.cid));
         let partDic = parts.reduce((t, v) => { t[v.cid] = v; return t; }, {});
         // Dealing with CDS
+        let newLines = [];
         parts.forEach((p) => {
             if (p.type !== 'CDS')
                 return;
@@ -650,12 +651,13 @@ class SDinDesign {
                 type: 'material',
                 name: p.name
             });
-            design.lines.push({
+            newLines.push({
                 start: p.cid,
                 end: maxCid,
                 type: 'promotion'
             });
         });
+        design.lines = design.lines.concat(newLines);
         partDic = parts.reduce((t, v) => { t[v.cid] = v; return t; }, {});
         parts = parts.filter((p) => SDinDesign.isMaterial(p.type));
         let materialDic = parts.reduce((t, v) => { t[v.cid] = v; return t; }, {});
@@ -814,6 +816,7 @@ class SDinDesign {
         if (item.data('selected')) {
             design.unHighlightDevice(item);
         } else {
+            setPartPanel(item.attr('part-id'));
             design.unHighlightDevice($('.SDinDesign-device, .SDinDesign-part'));
             design.highlightDevice(item, 0.7);
         }
