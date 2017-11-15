@@ -293,7 +293,7 @@ def search_work(request):
             true_keys.append(i)
 
     if 'link' in key_dict:
-        key_dict['link'] = json.loads(key_dict['link'])
+        key_dict['link'] = json.loads(key_dict['link'])[0]
 
     parts = []
     works = []
@@ -401,6 +401,14 @@ def search_paper(request):
 
 def search_part(request):
     key = request.GET.get('q')
+    if key.find('BBa_') != -1:
+        query_set = Parts.objects.filter(Name__contains = key)
+        parts = [_get_part(x, request) for x in query_set]
+        context = {
+            'parts': parts,
+            'resultsCount': len(parts)
+        }
+        return render(request, 'search/part.html', context)
     lkey = key.lower()
 
     year = request.GET.get('year')
@@ -532,7 +540,7 @@ def search_part(request):
 
 def search_paper(request):
     key = request.GET.get('q')
-    query = Papers.objects.filter(Title__contains = key)
+    query = Papers.objects.filter(Abstract__contains = key)
     papers = [{
         'id': x.id,
         'title': x.Title,
@@ -641,7 +649,7 @@ def interest(request):
             'success': False})
 
 import json
-with open('sdin/tools/preload/others/daotu.json') as f:
+with open('/home/smartgirl/IGEM2017-SYSU.Software/igem2017/sdin/tools/preload/others/daotu.json') as f:
     daotu = json.load(f)
 
 def keywords(request):
