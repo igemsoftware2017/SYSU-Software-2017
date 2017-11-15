@@ -370,6 +370,7 @@ function setPartPanel(id) {
         $('#part-info-name')
             .add(selectedPartHelper.children('b'))
             .text(data.name);
+		$('#part-type').text(data.type);
         selectedPartHelper
             .children('div')
             .children('img').attr('src', `/static/img/design/${data.type.toLowerCase()}.png`);
@@ -471,6 +472,7 @@ function loadFavWin() {
                 safety = 'Unknown risk';
             let data = `
                 <div class="ui segment fav-part-seg" data-id=${v.id}>
+                  <div class="remove-part-fav" data-id="${v.id}"><i class="remove icon"></i></div>
                   <img src="/static/img/design/${v.type.toLowerCase()}.png"></img>
                   <p><b>BBa:</b> ${v.BBa}</p>
                   <p><b>Name:</b> ${v.name}</p>
@@ -485,6 +487,20 @@ function loadFavWin() {
             });
             setPartPanel($(this).data('id'));
         }).popup({ content: 'Click to pick this part into part panel!' });
+        $('.remove-part-fav').off('click').on('click', function() {
+            let postData = {
+                csrfmiddlewaretoken: $('[name=csrfmiddlewaretoken]').val(),
+                data: JSON.stringify({
+                    part_id: $(this).data('id'),
+                    tag: 0
+                })
+            };  
+            $.post('/api/part_favorite', postData, (data) => {
+                if (data.success !== true)
+                    return;
+                loadFavWin();
+            });
+        }).popup({ content: 'Remove this part from your favorite' });
         $('.combine-circuit-button').off('click').on('click', function() {
             $.get(`/api/circuit?id=${$(this).data('id')}`, (value) => {
                 design.combine(value);
@@ -785,7 +801,9 @@ $('#interactive-button')
                     $.each(value.parts, (i ,v) => {
                         if (i > 10)
                             return;
-                        let row = $(`<tr><td>${v.name}</td><td>${v.name}</td><td>${v.score}</td><td>${v.type}</td></tr>`);
+                        if (v.score < 0)
+                            return;
+                        let row = $(`<tr><td>${v.BBa}</td><td>${v.name}</td><td>${v.score}</td><td>${v.type}</td></tr>`);
                         row.attr('part-id', v.id);
                         row.appendTo(table.children('table'));
                         rows.push(row);

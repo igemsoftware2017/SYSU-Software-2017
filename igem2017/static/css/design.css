@@ -95,7 +95,7 @@
   height: 2rem;
   position: absolute;
   right: 1rem;
-  top: 1rem;
+  left: 1rem;
   border-radius: 50%;
   cursor: pointer;
   line-height: 2rem;
@@ -107,8 +107,21 @@
   pointer-event: none;
   animation: 
 }
+#fav-win>.content>.ui.segment>.remove-part-fav {
+  background-color: #eee;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 1rem;
+  left: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  line-height: 2rem;
+  text-align: center;
+  transition: opacity 0.2s ease;
+}
 #fav-win>.content>.ui.segment p {
-  margin: 0;
+  margin: 0 0 0 3rem;
 }
 #fav-win>.content>.ui.segment img {
   width: 4rem;
