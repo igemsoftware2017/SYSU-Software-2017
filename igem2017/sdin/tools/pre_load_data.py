@@ -933,8 +933,7 @@ def final():
         for i in range(len(parts)):
             try:
                 part = Parts.objects.get(Name = parts[i])
-                if part.Type == 'composite':
-                    CircuitParts.objects.create(
+                CircuitParts.objects.create(
                         Part = part,
                         Circuit = circuit,
                         X = (i * 100) % 800,
