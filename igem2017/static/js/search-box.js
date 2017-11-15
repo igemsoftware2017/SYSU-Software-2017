@@ -1,6 +1,6 @@
 'use strict';
 
-$('#logo').load(() => {
+$('#logo').on('load', () => {
 	$('#search-box').css({
     	height: $('#logo').height()
 	});
