@@ -50,6 +50,7 @@ urlpatterns = [
     url(r'api/interest$', main_views.interest),
     url(r'api/max_safety$', design_views.max_safety),
     url(r'api/plasmid_data$', design_views.plasmid_data),
+    url(r'api/plasm_part$', design_views.plasm_part),
 ] + [
     # Test urls
     url(r'^testdb$', test_views.testdb),

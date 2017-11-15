@@ -78,6 +78,9 @@
           <div id="part-info-tab" class="ui bottom attached active tab segment" data-tab="info-tab">
             <img id="part-info-img" class="ui centered tiny image" src="/static/img/design/unknown.png" alt="">
             <h5 id="part-info-name" class="ui center aligned header"></h5>
+			<div class="ui center aligned container">
+				<p id="part-type"></p>
+			</div>
             <div class="ui divider"></div>
             <div id="part-info-des">
               <h5 class="ui header">Description:</h5>
@@ -274,14 +277,14 @@
             </plasmidtrack>
 
             <plasmidtrack trackstyle="fill:rgba(225,225,225,0.5)" radius="110" width="10">
-            <trackmarker ng-repeat="m in partList" start="{[m.start]}" end="{[m.end]}" markerstyle="{[m.getStyleIn()]}" sequence="{[m.sequence]}" ng-mouseover="showSequence(m)" ng-mouseleave="hideSequence()">
+            <trackmarker ng-repeat="m in partList" start="{[m.start]}" end="{[m.end]}" markerstyle="{[m.getStyleIn()]}" sequence="{[m.sequence]}" ng-mousedown="showSequence(m)">
             <markerlabel class="mdlabel" text="{[m.name]}" type="path" style='font-size:13px'></markerlabel>
             <trackmarker ng-repeat="m in partList" start="{[m.start]}" end="{[m.end]}" markerstyle="{[m.getMarkerStyleOut()]}" wadjust="-5" vadjust="-5"></trackmarker>
             </trackmarker>
             <trackscale interval="200" style="stroke:#f00" direction="in" showlabels="1" labelstyle="fill:#999;stroke:none;text-anchor:middle;alignment-baseline:middle;font-size:10px"></trackscale>
             </plasmidtrack>
             </plasmid>
-            <div class="p" ng-hide="myHide" ng-model="myValue">
+            <div class="p" ng-hide="myHide" ng-model="myValue" style="padding: 10px; font-size: 1rem; line-height: 1.2rem; word-wrap: break-word">
               {[myValue]}
             </div>
           </div>

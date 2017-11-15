@@ -81,10 +81,11 @@ app.controller('PlasmidCtrl', function($scope, $http){
         console.log($scope.curPartEnd);
         if($scope.curPartName!==undefined &&Number($scope.currentPartBegin)<Number($scope.curPartEnd) && Number($scope.currentPartBegin)>=0 && Number($scope.curPartEnd)<=Number($scope.currentPlasmid.length))
         {
-            /* 照查询接口自己加 
-            let sequence = $http.get('查询dna序列的api').data; */
+            $http.get('/api/plasm_part?name=' + $scope.curPartName).then(function(res) {
+				$scope.partList.push(new Part($scope.curPartName, $scope.curPartType, $scope.currentPartBegin, $scope.curPartEnd, res.data.seq));
+			});
 
-            $scope.partList.push(new Part($scope.curPartName, $scope.curPartType, $scope.currentPartBegin, $scope.curPartEnd, 'sequence'));
+            
         }else{
             alert('part setting invalid!');
         }
@@ -99,14 +100,18 @@ app.controller('PlasmidCtrl', function($scope, $http){
     // 显示part 序列信息的部分
     $scope.myHide=true;
     $scope.myValue=null;
+    $scope.current = null;
     $scope.showSequence = function (part) {
-        $scope.myValue = part.sequence;
-        $scope.myHide = false;
+		if ($scope.current != part.name) {
+        	$scope.myValue = part.sequence;
+        	$scope.current = part.name;
+            $scope.myHide = false;
+		} else {
+			$scope.myValue = null;
+        	$scope.myHide = true;
+            $scope.current = null;
+		}
     };
-    $scope.hideSequence = function() {
-        $scope.myValue = null;
-        $scope.myHide = true;
-    };
-});
+    });
 
 $('#plasmid-modal .ui.dropdown').dropdown();

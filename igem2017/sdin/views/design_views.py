@@ -13,6 +13,8 @@ from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ObjectDoesNotExist
 
 import traceback
+import logging
+logger = logging.getLogger('sdin.views')
 
 '''
 All response contains a status in json
@@ -137,11 +139,33 @@ def parts(request):
     parts = [{
         'id': x.id,
         'name': x.Name} for x in query_set]
+    parts = parts[:50]
 
     return JsonResponse({
         'success': True,
         'parts': parts
     })
+
+def plasm_part(request):
+    '''
+    GET method with param:
+        name=xxx
+    return json:
+        'seq': xxx
+    '''
+    query_name = request.GET.get('name')
+    try:
+        part = Parts.objects.get(Name = query_name)
+        return JsonResponse({
+            'success': True,
+            'seq': part.Sequence
+        })
+    except:
+        return JsonResponse({
+            'success': False,
+            'seq': 'No sequence found! Try another part name.'
+        })
+
 
 def part(request):
     '''
@@ -220,7 +244,7 @@ def part(request):
                     part_dict['works'].append({
                             'year' : w.Year,
                             'teamname': w.Teamname,
-                            'id': w.id
+                            'id': w.TeamID
                         })
                 elif circuit.papers_set.count() > 0:
                     w = circuit.papers_set.all()[0]
@@ -257,7 +281,8 @@ def interact(request):
         parts = [
             {
                 'id': x.child.id,
-                'name': x.child.Name,
+                'BBa': x.child.Name,
+                'name': x.child.secondName,
                 'type': x.child.Type,
                 'description': x.child.Description,
                 'interactType': x.InteractType,
@@ -377,8 +402,11 @@ def circuit(request):
             new = data['circuit']['id'] == -1
             try:
                 circuit = Circuit.objects.get(pk = data['circuit']['id'])
-                if (not request.user.admin) and circuit.Author != request.user:
+                logger.error(str(data['circuit']))
+                if (not request.user.is_admin) and circuit.Author != request.user:
                     new = True
+                else:
+                    new = False
             except:
                 new = True
             if new:
@@ -407,8 +435,8 @@ def circuit(request):
                 circuit_part = CircuitParts.objects.create(
                         Part = Parts.objects.get(id = int(x['id'])),
                         Circuit = circuit,
-                        X = x['X'],
-                        Y = x['Y'])
+                        X = x['X'] if 'X' in x else 0,
+                        Y = x['Y'] if 'Y' in x else 0)
                 cids[x['cid']] = circuit_part
             for x in data['lines']:
                 try:
@@ -520,5 +548,5 @@ def max_safety(request):
         })
 
 def plasmid_data(request):
-    with open('sdin/tools/plasmidData.json') as f:
+    with open('/home/smartgirl/IGEM2017-SYSU.Software/igem2017/sdin/tools/plasmidData.json') as f:
         return JsonResponse({ 'data': json.load(f) })
