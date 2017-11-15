@@ -8,6 +8,7 @@
   color: #efed63;
   margin-left: 10.7rem;
   cursor: pointer;
+  z-index: 1;
 }
 body {
   background-image: url("/static/img/index/back.jpg");
