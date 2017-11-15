@@ -79,7 +79,7 @@
         <p>Make your queries as concise as possible.</p>
         <h5 class="ui header">Other resources that may help you:</h5>
         <p>Get additional search tips by visiting <a>Web Search Help</a>.</p>
-        <p>If you cannot find a page that you know exists, <a>send the address to us</a>.</p>
+        <p>If you cannot find a page that you know exists, <a href="mailto:sysusoftware@126.com"> send the address to us</a>.</p>
       </div>
       {% endif %}
       <div id="result-list">
@@ -88,7 +88,7 @@
           <div class="link item">
             <div class="image" style="background-image: url('{{ work.logo }}')"></div>
             <div class="content">
-              <a class="ui header" target="work-{{ work.id }}" href="/work?id={{ work.id }}">{{ work.projectName }}</a>
+              <a class="ui header" target="_self" href="/work?id={{ work.id }}">{{ work.projectName }}</a>
               <img class="medal" src="/static/img/search/{{ work.medal }}.png" alt="{{ work.medal }}">
               <div class="meta">{{ work.year }} {{ work.school }}</div>
               {% if not work.chassis %}
