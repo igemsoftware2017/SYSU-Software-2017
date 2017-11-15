@@ -7,7 +7,7 @@
 <h4 align="center">iGEM 2017 Giant Jamboree</h4>
 <h3 align="center">Best Software Project</h3>
 <h3 align="center">Nominated for Best Model</h3>
-<h3 align="center">Nominated for Best Appplied Design</h3>
+<h3 align="center">Nominated for Best Applied Design</h3>
 <h3 align="center">Gold medal</h3>
 </br>
 <h3 align="center">Thanks everyone and see you 2018!</h3>
