@@ -43,7 +43,7 @@ class PartsInteract(models.Model):
         return "%s contains %s" % (self.parent.Name, self.child.Name)
 
 class Circuit(models.Model):
-    Name = models.CharField(max_length = 50, unique = True, db_index = True)
+    Name = models.CharField(max_length = 50, unique = False)
     Description = models.CharField(max_length = 100)
     Author = models.ForeignKey('User', on_delete = models.CASCADE, null = True)
 
