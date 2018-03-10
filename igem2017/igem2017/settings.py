@@ -165,7 +165,7 @@ LOGGING = {
         'default': {
             'level':'DEBUG',
             'class':'logging.handlers.RotatingFileHandler',
-            'filename': '/home/smartgirl/IGEM2017-SYSU.Software/igem2017/log/all.log',     #日志输出文件
+            'filename': os.path.join(BASE_DIR, 'log/all.log'),     #日志输出文件
             'maxBytes': 1024*1024*5,                  #文件大小 
             'backupCount': 5,                         #备份份数
             'formatter':'standard',                   #使用哪种formatters日志格式
@@ -173,7 +173,7 @@ LOGGING = {
         'error': {
             'level':'ERROR',
             'class':'logging.handlers.RotatingFileHandler',
-            'filename': '/home/smartgirl/IGEM2017-SYSU.Software/igem2017/log/error.log',
+            'filename': os.path.join(BASE_DIR, 'log/error.log'),
             'maxBytes':1024*1024*5,
             'backupCount': 5,
             'formatter':'standard',
@@ -186,7 +186,7 @@ LOGGING = {
         'request_handler': {
             'level':'DEBUG',
             'class':'logging.handlers.RotatingFileHandler',
-            'filename': '/home/smartgirl/IGEM2017-SYSU.Software/igem2017/log/script.log', 
+            'filename': os.path.join(BASE_DIR, 'log/script.log'),
             'maxBytes': 1024*1024*5, 
             'backupCount': 5,
             'formatter':'standard',
@@ -194,7 +194,7 @@ LOGGING = {
         'scprits_handler': {
             'level':'DEBUG',
             'class':'logging.handlers.RotatingFileHandler',
-            'filename':'/home/smartgirl/IGEM2017-SYSU.Software/igem2017/log/script.log', 
+            'filename': os.path.join(BASE_DIR, 'log/script.log'),
             'maxBytes': 1024*1024*5, 
             'backupCount': 5,
             'formatter':'standard',

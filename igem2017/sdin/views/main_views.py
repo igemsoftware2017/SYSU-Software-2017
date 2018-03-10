@@ -649,7 +649,7 @@ def interest(request):
             'success': False})
 
 import json
-with open('/home/smartgirl/IGEM2017-SYSU.Software/igem2017/sdin/tools/preload/others/daotu.json') as f:
+with open(os.path.abspath(os.path.join(BASE_DIR, 'tools/preload/others/daotu.json'))) as f:
     daotu = json.load(f)
 
 def keywords(request):

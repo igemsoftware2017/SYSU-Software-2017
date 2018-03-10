@@ -14,7 +14,6 @@ def initDb(USER, PASSWORD):
         )
     except:
         print("Connection is failed, check your root account in config.json")
-        return 0
     print("Successful connect to database")
     cursor = db_con.cursor()
     # drop previous database
@@ -24,7 +23,6 @@ def initDb(USER, PASSWORD):
         cursor.execute(sql)
     except Exception as Error:
         print(Error)
-        return 0
 
     # drop user
     try:
@@ -33,7 +31,6 @@ def initDb(USER, PASSWORD):
         cursor.execute(sql)
     except Exception as Error:
         print(Error)
-        return 0
     
     #create database for sdin
     try:
@@ -42,7 +39,6 @@ def initDb(USER, PASSWORD):
         cursor.execute(sql)
     except Exception as Error:
         print(Error)
-        return 0
 
     #create user for sdin's database
     try:
@@ -51,7 +47,6 @@ def initDb(USER, PASSWORD):
         cursor.execute(sql)
     except Exception as Error:
         print(Error)
-        return 0
     
     #grant privileges to user
     try:
@@ -61,7 +56,6 @@ def initDb(USER, PASSWORD):
         cursor.execute("flush privileges")
     except Exception as Error:
         print(Error)
-        return 0
     print("Database has initialized!")
     return 1
 
