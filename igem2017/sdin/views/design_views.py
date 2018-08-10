@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 from django.shortcuts import render, redirect
 
 import json
+import os
 from django.http import HttpResponse, JsonResponse
 from sdin.models import *
 
@@ -548,5 +549,5 @@ def max_safety(request):
         })
 
 def plasmid_data(request):
-    with open('/home/smartgirl/IGEM2017-SYSU.Software/igem2017/sdin/tools/plasmidData.json') as f:
+    with open(os.path.abspath(os.path.join(BASE_DIR, 'tools/plasmidData.json') as f:
         return JsonResponse({ 'data': json.load(f) })
