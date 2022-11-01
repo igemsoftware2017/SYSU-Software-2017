@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/StrickerLee/IGEM2017-SYSU.Software#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "semantic-ui": "^2.2.13"
+    "gulp": "^4.0.2",
+    "semantic-ui": "^2.5.0"
   }
 }
